@@ -9,7 +9,7 @@
             "use_after": [
                 {
                     "name": "charge",
-                    "url": "http://127.0.0.1:8000/api/v2/move/268/"
+                    "url": "http://localhost/api/v2/move/268/"
                 }
             ],
             "use_before": null
@@ -18,11 +18,11 @@
     "contest_effect": null,
     "contest_type": {
         "name": "smart",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/4/"
+        "url": "http://localhost/api/v2/contest-type/4/"
     },
     "damage_class": {
         "name": "physical",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+        "url": "http://localhost/api/v2/move-damage-class/2/"
     },
     "effect_chance": 10,
     "effect_changes": [],
@@ -31,26 +31,270 @@
             "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target and a separate $effect_chance% chance to make the target flinch.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Has a $effect_chance% chance to paralyze the target and a $effect_chance% chance to make the target flinch."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u96fb\u6c17\u3092\u3000\u305f\u3081\u305f\u3000\u30ad\u30d0\u3067\u3000\u304b\u202f\u3064\u304f\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u305f\u308a\n\u307e\u3072\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user bites with electrified fangs.\nThis may also make the target flinch or\nleave it with paralysis.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa morde con denti elettrificati che\npossono anche paralizzare o far tentennare\nil bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Usa colmillos electrificados para morder. Puede hacer \nque el objetivo retroceda o se paralice.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender bei\u00dft mit elektrifizierten Rei\u00dfz\u00e4hnen zu.\nDas Ziel schreckt eventuell zur\u00fcck oder wird\nparalysiert.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise une morsure \u00e9lectrifi\u00e9e.\nPeut aussi paralyser ou apeurer l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub97c \ubaa8\uc740 \uc774\ube68\ub85c \ubb38\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ud558\uac70\ub098\n\ub9c8\ube44 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3092\u3000\u305f\u3081\u305f\u3000\u30ad\u30d0\u3067\u3000\u304b\u202f\u3064\u304f\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u305f\u308a\n\u307e\u3072\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6c17\u3092\u3000\u305f\u3081\u305f\u3000\u30ad\u30d0\u3067\u3000\u304b\u307f\u3064\u304f\u3002\n\u76f8\u624b\u3092\u3000\u3072\u308b\u307e\u305b\u305f\u308a\n\u307e\u3072\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user bites with electrified fangs.\nThis may also make the target flinch or\nleave it with paralysis.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa morde con denti elettrificati che\npossono anche paralizzare o far tentennare\nil bersaglio.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Usa colmillos electrificados para morder. Puede\nhacer que el objetivo retroceda o se paralice.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender bei\u00dft mit elektrifizierten Rei\u00dfz\u00e4hnen zu.\nDas Ziel schreckt eventuell zur\u00fcck oder wird\nparalysiert.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise une morsure \u00e9lectrifi\u00e9e.\nPeut aussi paralyser ou apeurer l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub97c \ubaa8\uc740 \uc774\ube68\ub85c \ubb38\ub2e4.\n\uc0c1\ub300\ub97c \ud480\uc8fd\uac8c \ud558\uac70\ub098\n\ub9c8\ube44 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3092\u3000\u305f\u3081\u305f\u3000\u30ad\u30d0\u3067\u3000\u304b\u307f\u3064\u304f\u3002\n\u3042\u3044\u3066\u3092\u3000\u3072\u308b\u307e\u305b\u305f\u308a\n\u307e\u3072\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user bites with electrified fangs.\nIt may also make the target flinch or\nleave it with paralysis.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user bites with electrified fangs.\nIt may also make the target flinch or\nleave it with paralysis.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise une morsure \u00e9lectrifi\u00e9e.\nPeut aussi paralyser ou apeurer l\u2019ennemi.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user bites with\nelectrified fangs.\nIt may also make the\nfoe flinch or become\nparalyzed.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user bites with\nelectrified fangs.\nIt may also make the\nfoe flinch or become\nparalyzed.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user bites with\nelectrified fangs.\nIt may also make the\nfoe flinch or become\nparalyzed.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-iv",
-        "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+        "url": "http://localhost/api/v2/generation/4/"
     },
     "id": 422,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "paralysis",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/1/"
+            "url": "http://localhost/api/v2/move-ailment/1/"
         },
         "ailment_chance": 10,
         "category": {
             "name": "damage+ailment",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/4/"
+            "url": "http://localhost/api/v2/move-category/4/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -67,49 +311,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Thunder Fang"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Fulmindenti"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Colmillo Rayo"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Donnerzahn"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Crocs \u00c9clair"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\ubc88\uac1c\uc5c4\ub2c8"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u304b\u307f\u306a\u308a\u306e\u30ad\u30d0"
         }
@@ -120,14 +364,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/5/"
+        "url": "http://localhost/api/v2/super-contest-effect/5/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "electric",
-        "url": "http://127.0.0.1:8000/api/v2/type/13/"
+        "url": "http://localhost/api/v2/type/13/"
     }
 }

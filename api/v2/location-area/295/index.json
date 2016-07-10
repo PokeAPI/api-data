@@ -3,21 +3,21 @@
         {
             "encounter_method": {
                 "name": "walk",
-                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                "url": "http://localhost/api/v2/encounter-method/1/"
             },
             "version_details": [
                 {
                     "rate": 20,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 },
                 {
                     "rate": 20,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 }
             ]
@@ -27,14 +27,14 @@
     "id": 295,
     "location": {
         "name": "kanto-route-1",
-        "url": "http://127.0.0.1:8000/api/v2/location/88/"
+        "url": "http://localhost/api/v2/location/88/"
     },
     "name": "kanto-route-1-area",
     "names": [
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": ""
         }
@@ -43,18 +43,48 @@
         {
             "pokemon": {
                 "name": "pidgey",
-                "url": "http://127.0.0.1:8000/api/v2/pokemon/16/"
+                "url": "http://localhost/api/v2/pokemon/16/"
             },
             "version_details": [
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 5,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 5
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 4,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 4
+                        },
+                        {
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -64,98 +94,38 @@
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
                         {
-                            "chance": 10,
+                            "chance": 20,
                             "condition_values": [],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 4,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 4
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 5,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 5
                         }
                     ],
                     "max_chance": 50,
                     "version": {
                         "name": "red",
-                        "url": "http://127.0.0.1:8000/api/v2/version/1/"
+                        "url": "http://localhost/api/v2/version/1/"
                     }
                 },
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
+                            "chance": 1,
                             "condition_values": [],
-                            "max_level": 3,
+                            "max_level": 5,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 2,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 2
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
+                            "min_level": 5
                         },
                         {
                             "chance": 4,
@@ -163,48 +133,29 @@
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
                         {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 5,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 5
-                        }
-                    ],
-                    "max_chance": 50,
-                    "version": {
-                        "name": "blue",
-                        "url": "http://127.0.0.1:8000/api/v2/version/2/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
                         {
-                            "chance": 20,
+                            "chance": 10,
                             "condition_values": [],
-                            "max_level": 4,
+                            "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
-                            "min_level": 4
+                            "min_level": 3
                         },
                         {
                             "chance": 10,
@@ -212,29 +163,38 @@
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
                         {
-                            "chance": 10,
+                            "chance": 20,
                             "condition_values": [],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
-                        },
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "blue",
+                        "url": "http://localhost/api/v2/version/2/"
+                    }
+                },
+                {
+                    "encounter_details": [
                         {
-                            "chance": 5,
+                            "chance": 1,
                             "condition_values": [],
-                            "max_level": 5,
+                            "max_level": 7,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
-                            "min_level": 5
+                            "min_level": 7
                         },
                         {
                             "chance": 4,
@@ -242,192 +202,81 @@
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
                         {
-                            "chance": 1,
+                            "chance": 5,
                             "condition_values": [],
-                            "max_level": 7,
+                            "max_level": 5,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
-                            "min_level": 7
+                            "min_level": 5
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 2,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 2
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 4,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 4
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
                         }
                     ],
                     "max_chance": 70,
                     "version": {
                         "name": "yellow",
-                        "url": "http://127.0.0.1:8000/api/v2/version/3/"
+                        "url": "http://localhost/api/v2/version/3/"
                     }
                 },
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
-                                },
-                                {
-                                    "name": "swarm-no",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/2/"
-                                }
-                            ],
-                            "max_level": 2,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 2
-                        },
-                        {
-                            "chance": 20,
+                            "chance": 1,
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                },
-                                {
-                                    "name": "swarm-no",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/2/"
-                                }
-                            ],
-                            "max_level": 2,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 2
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 2,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 2
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 2,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 2
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 4
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 4,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
@@ -436,203 +285,203 @@
                             "condition_values": [
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 4,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 4
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "time-day",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "time-day",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-day",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 2,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 2
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 2,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 2
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "time-day",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                },
+                                {
+                                    "name": "swarm-no",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/2/"
+                                }
+                            ],
+                            "max_level": 2,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 2
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                },
+                                {
+                                    "name": "swarm-no",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/2/"
+                                }
+                            ],
+                            "max_level": 2,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 2
                         }
                     ],
                     "max_chance": 90,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 },
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
-                                },
-                                {
-                                    "name": "swarm-no",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/2/"
-                                }
-                            ],
-                            "max_level": 2,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 2
-                        },
-                        {
-                            "chance": 20,
+                            "chance": 1,
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                },
-                                {
-                                    "name": "swarm-no",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/2/"
-                                }
-                            ],
-                            "max_level": 2,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 2
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 2,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 2
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 2,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 2
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 3,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 3
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 4
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 4,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
@@ -641,36 +490,187 @@
                             "condition_values": [
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 4,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 4
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "time-day",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "time-day",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 3,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 3
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-day",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 2,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 2
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 2,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 2
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "time-day",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                },
+                                {
+                                    "name": "swarm-no",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/2/"
+                                }
+                            ],
+                            "max_level": 2,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 2
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                },
+                                {
+                                    "name": "swarm-no",
+                                    "url": "http://localhost/api/v2/encounter-condition-value/2/"
+                                }
+                            ],
+                            "max_level": 2,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 2
                         }
                     ],
                     "max_chance": 90,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 }
             ]
@@ -678,7 +678,7 @@
         {
             "pokemon": {
                 "name": "rattata",
-                "url": "http://127.0.0.1:8000/api/v2/pokemon/19/"
+                "url": "http://localhost/api/v2/pokemon/19/"
             },
             "version_details": [
                 {
@@ -689,7 +689,7 @@
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
@@ -699,7 +699,7 @@
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -709,7 +709,7 @@
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -719,7 +719,7 @@
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         }
@@ -727,7 +727,7 @@
                     "max_chance": 50,
                     "version": {
                         "name": "red",
-                        "url": "http://127.0.0.1:8000/api/v2/version/1/"
+                        "url": "http://localhost/api/v2/version/1/"
                     }
                 },
                 {
@@ -738,7 +738,7 @@
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
@@ -748,7 +748,7 @@
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -758,7 +758,7 @@
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -768,7 +768,7 @@
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         }
@@ -776,7 +776,7 @@
                     "max_chance": 50,
                     "version": {
                         "name": "blue",
-                        "url": "http://127.0.0.1:8000/api/v2/version/2/"
+                        "url": "http://localhost/api/v2/version/2/"
                     }
                 },
                 {
@@ -787,7 +787,7 @@
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
@@ -797,7 +797,7 @@
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -807,7 +807,7 @@
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         }
@@ -815,7 +815,7 @@
                     "max_chance": 30,
                     "version": {
                         "name": "yellow",
-                        "url": "http://127.0.0.1:8000/api/v2/version/3/"
+                        "url": "http://localhost/api/v2/version/3/"
                     }
                 },
                 {
@@ -825,13 +825,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -840,13 +840,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -855,17 +855,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -874,17 +874,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -893,13 +893,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -908,13 +908,13 @@
                             "condition_values": [
                                 {
                                     "name": "swarm-no",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/2/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/2/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         }
@@ -922,7 +922,7 @@
                     "max_chance": 55,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 },
                 {
@@ -932,13 +932,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -947,13 +947,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -962,17 +962,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -981,17 +981,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1000,13 +1000,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1015,13 +1015,13 @@
                             "condition_values": [
                                 {
                                     "name": "swarm-no",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/2/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/2/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         }
@@ -1029,7 +1029,7 @@
                     "max_chance": 55,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 }
             ]
@@ -1037,7 +1037,7 @@
         {
             "pokemon": {
                 "name": "sentret",
-                "url": "http://127.0.0.1:8000/api/v2/pokemon/161/"
+                "url": "http://localhost/api/v2/pokemon/161/"
             },
             "version_details": [
                 {
@@ -1047,17 +1047,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1066,17 +1066,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1085,17 +1085,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1104,17 +1104,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         }
@@ -1122,7 +1122,7 @@
                     "max_chance": 40,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 },
                 {
@@ -1132,17 +1132,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1151,17 +1151,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1170,17 +1170,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1189,17 +1189,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         }
@@ -1207,7 +1207,7 @@
                     "max_chance": 40,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 }
             ]
@@ -1215,7 +1215,7 @@
         {
             "pokemon": {
                 "name": "furret",
-                "url": "http://127.0.0.1:8000/api/v2/pokemon/162/"
+                "url": "http://localhost/api/v2/pokemon/162/"
             },
             "version_details": [
                 {
@@ -1225,13 +1225,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -1240,13 +1240,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -1255,13 +1255,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -1270,13 +1270,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         }
@@ -1284,7 +1284,7 @@
                     "max_chance": 10,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 },
                 {
@@ -1294,13 +1294,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -1309,13 +1309,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -1324,13 +1324,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-morning",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/3/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         },
@@ -1339,13 +1339,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/4/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 6,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 6
                         }
@@ -1353,7 +1353,7 @@
                     "max_chance": 10,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 }
             ]
@@ -1361,7 +1361,7 @@
         {
             "pokemon": {
                 "name": "hoothoot",
-                "url": "http://127.0.0.1:8000/api/v2/pokemon/163/"
+                "url": "http://localhost/api/v2/pokemon/163/"
             },
             "version_details": [
                 {
@@ -1371,17 +1371,17 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 },
                                 {
                                     "name": "swarm-no",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/2/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/2/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1390,17 +1390,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1409,13 +1409,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1424,13 +1424,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1439,13 +1439,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
@@ -1454,13 +1454,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         }
@@ -1468,7 +1468,7 @@
                     "max_chance": 45,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 },
                 {
@@ -1478,17 +1478,17 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 },
                                 {
                                     "name": "swarm-no",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/2/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/2/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1497,17 +1497,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1516,13 +1516,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1531,13 +1531,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1546,13 +1546,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         },
@@ -1561,13 +1561,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/5/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 4,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 4
                         }
@@ -1575,7 +1575,7 @@
                     "max_chance": 45,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 }
             ]
@@ -1583,7 +1583,7 @@
         {
             "pokemon": {
                 "name": "poochyena",
-                "url": "http://127.0.0.1:8000/api/v2/pokemon/261/"
+                "url": "http://localhost/api/v2/pokemon/261/"
             },
             "version_details": [
                 {
@@ -1593,13 +1593,13 @@
                             "condition_values": [
                                 {
                                     "name": "swarm-yes",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/1/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/1/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1608,13 +1608,13 @@
                             "condition_values": [
                                 {
                                     "name": "swarm-yes",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/1/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/1/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         }
@@ -1622,7 +1622,7 @@
                     "max_chance": 40,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 },
                 {
@@ -1632,13 +1632,13 @@
                             "condition_values": [
                                 {
                                     "name": "swarm-yes",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/1/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/1/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1647,13 +1647,13 @@
                             "condition_values": [
                                 {
                                     "name": "swarm-yes",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/1/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/1/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         }
@@ -1661,7 +1661,7 @@
                     "max_chance": 40,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 }
             ]
@@ -1669,7 +1669,7 @@
         {
             "pokemon": {
                 "name": "plusle",
-                "url": "http://127.0.0.1:8000/api/v2/pokemon/311/"
+                "url": "http://localhost/api/v2/pokemon/311/"
             },
             "version_details": [
                 {
@@ -1679,13 +1679,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1694,13 +1694,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         }
@@ -1708,7 +1708,7 @@
                     "max_chance": 20,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 },
                 {
@@ -1718,13 +1718,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1733,13 +1733,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         }
@@ -1747,7 +1747,7 @@
                     "max_chance": 20,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 }
             ]
@@ -1755,7 +1755,7 @@
         {
             "pokemon": {
                 "name": "minun",
-                "url": "http://127.0.0.1:8000/api/v2/pokemon/312/"
+                "url": "http://localhost/api/v2/pokemon/312/"
             },
             "version_details": [
                 {
@@ -1765,13 +1765,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1780,13 +1780,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         }
@@ -1794,7 +1794,7 @@
                     "max_chance": 20,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 },
                 {
@@ -1804,13 +1804,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1819,13 +1819,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         }
@@ -1833,7 +1833,7 @@
                     "max_chance": 20,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 }
             ]
@@ -1841,7 +1841,7 @@
         {
             "pokemon": {
                 "name": "shinx",
-                "url": "http://127.0.0.1:8000/api/v2/pokemon/403/"
+                "url": "http://localhost/api/v2/pokemon/403/"
             },
             "version_details": [
                 {
@@ -1851,13 +1851,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1866,13 +1866,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1881,13 +1881,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1896,13 +1896,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         }
@@ -1910,7 +1910,7 @@
                     "max_chance": 40,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                        "url": "http://localhost/api/v2/version/15/"
                     }
                 },
                 {
@@ -1920,13 +1920,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1935,13 +1935,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 2,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 2
                         },
@@ -1950,13 +1950,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         },
@@ -1965,13 +1965,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 3,
                             "method": {
                                 "name": "walk",
-                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
                             "min_level": 3
                         }
@@ -1979,7 +1979,7 @@
                     "max_chance": 40,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                        "url": "http://localhost/api/v2/version/16/"
                     }
                 }
             ]

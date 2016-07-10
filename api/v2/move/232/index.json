@@ -5,7 +5,7 @@
             "use_after": [
                 {
                     "name": "metal-sound",
-                    "url": "http://127.0.0.1:8000/api/v2/move/319/"
+                    "url": "http://localhost/api/v2/move/319/"
                 }
             ],
             "use_before": null
@@ -16,15 +16,15 @@
         }
     },
     "contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/contest-effect/1/"
+        "url": "http://localhost/api/v2/contest-effect/1/"
     },
     "contest_type": {
         "name": "cool",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/1/"
+        "url": "http://localhost/api/v2/contest-type/1/"
     },
     "damage_class": {
         "name": "physical",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+        "url": "http://localhost/api/v2/move-damage-class/2/"
     },
     "effect_chance": 10,
     "effect_changes": [],
@@ -33,26 +33,325 @@
             "effect": "Inflicts regular damage. Has a $effect_chance% chance to raise the user's Attack one stage.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Has a $effect_chance% chance to raise the user's Attack by one stage."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u92fc\u9244\u306e\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u81ea\u5206\u306e\u3000\u653b\u6483\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The target is raked with steel claws.\nThis may also raise the user\u2019s Attack stat.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con artigli d\u2019acciaio.\nPu\u00f2 anche aumentare l\u2019Attacco di chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con garras de acero que puede aumentar el \nAtaque del usuario.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Klauen-Attacke, die eventuell den Angriffs-Wert\ndes Anwenders erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attaque avec des griffes d\u2019acier.\nPeut aussi augmenter l\u2019Attaque du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ucca0\uc758 \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac08\ub77c \uacf5\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\uc758 \uacf5\uaca9\uc774 \uc62c\ub77c\uac08 \ub54c\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3066\u3064\u306e\u3000\u30c4\u30e1\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u3044\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3052\u304d\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u92fc\u9244\u306e\u3000\u30c4\u30e1\u3067\n\u76f8\u624b\u3092\u3000\u5207\u308a\u88c2\u3044\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u81ea\u5206\u306e\u3000\u653b\u6483\u304c\u3000\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is raked with steel claws.\nThis may also raise the user\u2019s Attack stat.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con artigli d\u2019acciaio.\nPu\u00f2 anche aumentare l\u2019Attacco di chi la usa.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con garras de acero que puede aumentar\nel Ataque del usuario.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Klauen-Attacke, die eventuell den Angriffs-Wert\ndes Anwenders erh\u00f6ht.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attaque avec des griffes d\u2019acier.\nPeut aussi augmenter l\u2019Attaque du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ucca0\uc758 \ubc1c\ud1b1\uc73c\ub85c\n\uc0c1\ub300\ub97c \ubca0\uc5b4 \uac08\ub77c \uacf5\uaca9\ud55c\ub2e4.\n\uc790\uc2e0\uc758 \uacf5\uaca9\uc774 \uc62c\ub77c\uac08 \ub54c\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3053\u3046\u3066\u3064\u306e\u3000\u30c4\u30e1\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u304d\u308a\u3055\u3044\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3058\u3076\u3093\u306e\u3000\u3053\u3046\u3052\u304d\u304c\n\u3042\u304c\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is raked with steel claws.\nIt may also raise the user\u2019s Attack stat.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The target is raked with steel claws.\nIt may also raise the user\u2019s Attack stat.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Attaque avec des griffes d\u2019acier. Peut\naussi augmenter l\u2019Attaque du lanceur.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is raked\nwith steel claws.\nIt may also raise the\nuser\u2019s Attack stat.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is raked\nwith steel claws.\nIt may also raise the\nuser\u2019s Attack stat.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is raked\nwith steel claws.\nIt may also raise the\nuser\u2019s Attack stat.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is attacked\nwith steel claws.\nIt may also raise\nthe user\u2019s ATTACK.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://localhost/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A claw attack that may\nraise the user\u2019s ATTACK.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "http://localhost/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A claw attack that may\nraise the user\u2019s ATTACK.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://localhost/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "An attack that may\nup user's ATTACK.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "http://localhost/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "An attack that may\nup user's ATTACK.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "http://localhost/api/v2/version-group/3/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-ii",
-        "url": "http://127.0.0.1:8000/api/v2/generation/2/"
+        "url": "http://localhost/api/v2/generation/2/"
     },
     "id": 232,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage+raise",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/7/"
+            "url": "http://localhost/api/v2/move-category/7/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -69,49 +368,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Metal Claw"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Ferrartigli"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Garra Metal"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Metallklaue"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Griffe Acier"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uba54\ud0c8\ud06c\ub85c\uc6b0"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u30e1\u30bf\u30eb\u30af\u30ed\u30fc"
         }
@@ -125,19 +424,19 @@
             "change": 1,
             "stat": {
                 "name": "attack",
-                "url": "http://127.0.0.1:8000/api/v2/stat/2/"
+                "url": "http://localhost/api/v2/stat/2/"
             }
         }
     ],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/18/"
+        "url": "http://localhost/api/v2/super-contest-effect/18/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "steel",
-        "url": "http://127.0.0.1:8000/api/v2/type/9/"
+        "url": "http://localhost/api/v2/type/9/"
     }
 }

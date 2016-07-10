@@ -4,11 +4,11 @@
     "contest_effect": null,
     "contest_type": {
         "name": "cute",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/3/"
+        "url": "http://localhost/api/v2/contest-type/3/"
     },
     "damage_class": {
         "name": "physical",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+        "url": "http://localhost/api/v2/move-damage-class/2/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -17,26 +17,270 @@
             "effect": "Inflicts regular damage.  This move can only be used if each of the user's other moves has been used at least once since the user entered the field.  If this is the user's only move, this move will fail.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Can only be used after all of the user's other moves have been used."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6226\u95d8\u4e2d\u306b\u3000\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u6280\u3092\n\u3059\u3079\u3066\u3000\u4f7f\u3046\u3068\u3000\u306f\u3058\u3081\u3066\u3000\u3060\u305b\u308b\n\u3068\u3063\u3066\u304a\u304d\u306e\u3000\u6280\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "This move can be used only after the user\nhas used all the other moves it knows\nin the battle.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Per usare questa mossa, bisogna prima avvalersi\nin lotta di tutte le altre mosse conosciute.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Este movimiento solo puede utilizarse tras haber \nusado al menos una vez todos los dem\u00e1s\nconocidos por el Pok\u00e9mon.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Diese Attacke kann nur eingesetzt werden,\nnachdem alle verf\u00fcgbaren Attacken ausgef\u00fchrt\nworden sind.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cette capacit\u00e9 ne peut \u00eatre utilis\u00e9e qu\u2019apr\u00e8s que\nle lanceur a utilis\u00e9 toutes les autres.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubc30\ud2c0 \uc911\uc5d0 \uae30\uc5b5\ud558\uace0 \uc788\ub294 \uae30\uc220\uc744\n\ubaa8\ub450 \uc0ac\uc6a9\ud558\uba74 \uadf8\ub54c\ubd80\ud130 \uc4f8 \uc218 \uc788\ub294\n\ud544\uc0b4\uae30\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u3093\u3068\u3046\u3061\u3085\u3046\u306b\u3000\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u308f\u3056\u3092\n\u3059\u3079\u3066\u3000\u3064\u304b\u3046\u3068\u3000\u306f\u3058\u3081\u3066\u3000\u3060\u305b\u308b\n\u3068\u3063\u3066\u304a\u304d\u306e\u3000\u308f\u3056\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6226\u95d8\u4e2d\u306b\u3000\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u6280\u3092\n\u3059\u3079\u3066\u3000\u4f7f\u3046\u3068\u3000\u306f\u3058\u3081\u3066\u3000\u3060\u305b\u308b\n\u3068\u3063\u3066\u304a\u304d\u306e\u3000\u6280\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "This move can be used only after the user\nhas used all the other moves it knows\nin the battle.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Per usare questa mossa, bisogna prima avvalersi\nin lotta di tutte le altre mosse conosciute.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Este movimiento solo puede utilizarse tras haber\nusado al menos una vez todos los dem\u00e1s\nconocidos por el Pok\u00e9mon.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Diese Attacke kann nur eingesetzt werden,\nnachdem alle verf\u00fcgbaren Attacken ausgef\u00fchrt\nworden sind.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cette capacit\u00e9 ne peut \u00eatre utilis\u00e9e qu\u2019apr\u00e8s que\nle lanceur a utilis\u00e9 toutes les autres.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubc30\ud2c0 \uc911\uc5d0 \uae30\uc5b5\ud558\uace0 \uc788\ub294 \uae30\uc220\uc744\n\ubaa8\ub450 \uc0ac\uc6a9\ud558\uba74 \uadf8\ub54c\ubd80\ud130 \uc4f8 \uc218 \uc788\ub294\n\ud544\uc0b4\uae30\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u3093\u3068\u3046\u3061\u3085\u3046\u306b\u3000\u304a\u307c\u3048\u3066\u3044\u308b\u3000\u308f\u3056\u3092\n\u3059\u3079\u3066\u3000\u3064\u304b\u3046\u3068\u3000\u306f\u3058\u3081\u3066\u3000\u3060\u305b\u308b\n\u3068\u3063\u3066\u304a\u304d\u306e\u3000\u308f\u3056\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "This move can be used only after the user\nhas used all the other moves it knows\nin the battle.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "This move can be used only after the user\nhas used all the other moves it knows\nin the battle.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Cette capacit\u00e9 ne peut \u00eatre utilis\u00e9e\nqu\u2019apr\u00e8s que le lanceur a utilis\u00e9\ntoutes les autres.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "This move can be used\nonly after the user\nhas used all the\nother moves it knows\nin the battle.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "This move can be used\nonly after the user\nhas used all the\nother moves it knows\nin the battle.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "This move can be used\nonly after the user\nhas used all the\nother moves it knows\nin the battle.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-iv",
-        "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+        "url": "http://localhost/api/v2/generation/4/"
     },
     "id": 387,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -53,49 +297,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Last Resort"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Ultimascelta"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "\u00daltima Baza"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Zuflucht"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Dernier Recours"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\ub480\ub2e4\uc4f0\uae30"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u3068\u3063\u3066\u304a\u304d"
         }
@@ -110,7 +354,7 @@
             "type": null,
             "version_group": {
                 "name": "black-white",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                "url": "http://localhost/api/v2/version-group/11/"
             }
         }
     ],
@@ -119,14 +363,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/21/"
+        "url": "http://localhost/api/v2/super-contest-effect/21/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "normal",
-        "url": "http://127.0.0.1:8000/api/v2/type/1/"
+        "url": "http://localhost/api/v2/type/1/"
     }
 }

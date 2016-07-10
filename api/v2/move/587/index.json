@@ -5,7 +5,7 @@
     "contest_type": null,
     "damage_class": {
         "name": "status",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/1/"
+        "url": "http://localhost/api/v2/move-damage-class/1/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -14,26 +14,204 @@
             "effect": "Prevents all Pok\u00e9mon from fleeing or switching out during the next turn.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Prevents all Pok\u00e9mon from fleeing or switching out during the next turn."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u30ed\u30c3\u30af\u3092\u3000\u304b\u3051\u308b\u3053\u3068\u306b\u3088\u3063\u3066\n\u6b21\u306e\u30bf\u30fc\u30f3\u3000\u3059\u3079\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u9003\u3052\u3089\u308c\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "By locking down the battlefield,\nthe user keeps all Pok\u00e9mon from\nfleeing during the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Impone un blocco al terreno di lotta che nel turno\nsuccessivo impedisce a tutti i Pok\u00e9mon di fuggire.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Consigue que ning\u00fan Pok\u00e9mon pueda huir en el \nsiguiente turno echando un cerrojo.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender sperrt alle Pok\u00e9mon ein und hindert\nsie damit in der n\u00e4chsten Runde an der Flucht.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Des cha\u00eenes entourent la zone de combat,\nemp\u00eachant tous les Pok\u00e9mon de fuir au\nprochain tour.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub85d\uc744 \uac78\uc5b4\n\ub2e4\uc74c \ud134\uc758 \ubaa8\ub4e0 \ud3ec\ucf13\ubaac\uc744\n\ub3c4\ub9dd\uac00\uc9c0 \ubabb\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30ed\u30c3\u30af\u3092\u3000\u304b\u3051\u308b\u3053\u3068\u306b\u3088\u3063\u3066\n\u3064\u304e\u306e\u30bf\u30fc\u30f3\u3000\u3059\u3079\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u306b\u3052\u3089\u308c\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30ed\u30c3\u30af\u3092\u3000\u304b\u3051\u308b\u3053\u3068\u306b\u3088\u3063\u3066\n\u6b21\u306e\u30bf\u30fc\u30f3\u3000\u3059\u3079\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u9003\u3052\u3089\u308c\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "By locking down the battlefield,\nthe user keeps all Pok\u00e9mon from\nfleeing during the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Impone un blocco al terreno di lotta che nel turno\nsuccessivo impedisce a tutti i Pok\u00e9mon di fuggire.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Consigue que ning\u00fan Pok\u00e9mon pueda huir en el\nsiguiente turno echando un cerrojo.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender sperrt alle Pok\u00e9mon ein und hindert\nsie damit in der n\u00e4chsten Runde an der Flucht.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Des cha\u00eenes entourent la zone de combat,\nemp\u00eachant tous les Pok\u00e9mon de fuir au\nprochain tour.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub85d\uc744 \uac78\uc5b4\n\ub2e4\uc74c \ud134\uc758 \ubaa8\ub4e0 \ud3ec\ucf13\ubaac\uc744\n\ub3c4\ub9dd\uac00\uc9c0 \ubabb\ud558\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u30ed\u30c3\u30af\u3092\u3000\u304b\u3051\u308b\u3053\u3068\u306b\u3088\u3063\u3066\n\u3064\u304e\u306e\u30bf\u30fc\u30f3\u3000\u3059\u3079\u3066\u306e\n\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u306b\u3052\u3089\u308c\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-vi",
-        "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+        "url": "http://localhost/api/v2/generation/6/"
     },
     "id": 587,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "whole-field-effect",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/10/"
+            "url": "http://localhost/api/v2/move-category/10/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -50,49 +228,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Fairy Lock"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Blocco Fatato"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Cerrojo Fe\u00e9rico"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Feenschloss"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Verrou Enchant\u00e9"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\ud398\uc5b4\ub9ac\ub85d"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u30d5\u30a7\u30a2\u30ea\u30fc\u30ed\u30c3\u30af"
         }
@@ -105,10 +283,10 @@
     "super_contest_effect": null,
     "target": {
         "name": "entire-field",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/12/"
+        "url": "http://localhost/api/v2/move-target/12/"
     },
     "type": {
         "name": "fairy",
-        "url": "http://127.0.0.1:8000/api/v2/type/18/"
+        "url": "http://localhost/api/v2/type/18/"
     }
 }

@@ -4,11 +4,11 @@
     "contest_effect": null,
     "contest_type": {
         "name": "smart",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/4/"
+        "url": "http://localhost/api/v2/contest-type/4/"
     },
     "damage_class": {
         "name": "physical",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+        "url": "http://localhost/api/v2/move-damage-class/2/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -17,26 +17,270 @@
             "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Has an increased chance for a critical hit."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u547c\u3073\u3060\u3057\u3066\n\u76f8\u624b\u306b\u3000\u3080\u304b\u3063\u3066\u3000\u653b\u6483\u3055\u305b\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to\npummel the target.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa raduna i suoi sgherri per colpire\nil bersaglio. Probabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "El usuario llama a sus s\u00fabditos para que ataquen \nal objetivo. Suele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender ruft seine Untergebenen zum Angriff.\nHat eine hohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle ses sous-fifres pour frapper\nl\u2019ennemi. Taux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubd80\ud558\ub97c \ubd88\ub7ec\ub0b4\uc5b4\n\uc0c1\ub300\ub97c \ud5a5\ud574\uc11c \uacf5\uaca9\uc2dc\ud0a8\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u3088\u3073\u3060\u3057\u3066\n\u3042\u3044\u3066\u306b\u3000\u3080\u304b\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3000\u3055\u305b\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u547c\u3073\u3060\u3057\u3066\n\u76f8\u624b\u306b\u3000\u3080\u304b\u3063\u3066\u3000\u653b\u6483\u3055\u305b\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to\npummel the target.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa raduna i suoi sgherri per colpire\nil bersaglio. Probabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "El usuario llama a sus s\u00fabditos para que ataquen\nal objetivo. Suele ser cr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender ruft seine Untergebenen zum Angriff.\nHat eine hohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle ses sous-fifres pour frapper\nl\u2019ennemi. Taux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubd80\ud558\ub97c \ubd88\ub7ec\ub0b4\uc5b4\n\uc0c1\ub300\ub97c \ud5a5\ud574\uc11c \uacf5\uaca9\uc2dc\ud0a8\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3082\u3079\u3092\u3000\u3088\u3073\u3060\u3057\u3066\n\u3042\u3044\u3066\u306b\u3000\u3080\u304b\u3063\u3066\u3000\u3053\u3046\u3052\u304d\u3000\u3055\u305b\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to\npummel the target.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out its underlings to\npummel the target.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur appelle ses sous-fifres pour\nfrapper l\u2019ennemi. Taux de critiques\n\u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out\nits underlings to\npummel the foe.\nIt has a high\ncritical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out\nits underlings to\npummel the foe.\nIt has a high\ncritical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user calls out\nits underlings to\npummel the foe.\nIt has a high\ncritical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-iv",
-        "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+        "url": "http://localhost/api/v2/generation/4/"
     },
     "id": 454,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 1,
         "drain": 0,
@@ -53,49 +297,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Attack Order"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Comandourto"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Al Ataque"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Schlagbefehl"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Appel Attak"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uacf5\uaca9\uc9c0\ub839"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u3053\u3046\u3052\u304d\u3057\u308c\u3044"
         }
@@ -106,14 +350,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/4/"
+        "url": "http://localhost/api/v2/super-contest-effect/4/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "bug",
-        "url": "http://127.0.0.1:8000/api/v2/type/7/"
+        "url": "http://localhost/api/v2/type/7/"
     }
 }

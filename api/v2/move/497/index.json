@@ -5,7 +5,7 @@
     "contest_type": null,
     "damage_class": {
         "name": "special",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/3/"
+        "url": "http://localhost/api/v2/move-damage-class/3/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -14,63 +14,274 @@
             "effect": "Inflicts regular damage.  If any friendly Pok\u00e9mon used this move earlier this turn or on the previous turn, that use's power is added to this move's power, to a maximum of 200.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Power increases by 100% for each consecutive use by any friendly Pok\u00e9mon, to a maximum of 200."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u97ff\u304f\u3000\u58f0\u3067\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bce\u30bf\u30fc\u30f3\u3000\u3060\u308c\u304b\u304c\u3000\u6280\u3092\n\u4f7f\u3044\u7d9a\u3051\u308b\u3068\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater damage.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il bersaglio con la propria voce\necheggiante. Se usata a ripetizione da uno\no pi\u00f9 Pok\u00e9mon il danno aumenta.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un susurro que aumenta de potencia conforme el \nusuario y otros Pok\u00e9mon lo van utilizando.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit widerhallender Stimme. Wenn in\njeder Runde ein Teilnehmer wiederholt\ndie Attacke einsetzt, steigt die St\u00e4rke.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un cri retentissant blesse l\u2019ennemi.\nSi le lanceur ou d\u2019autres Pok\u00e9mon l\u2019utilisent \u00e0\nchaque tour, l\u2019effet augmente.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc6b8\ub9ac\ub294 \ubaa9\uc18c\ub9ac\ub85c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\ub9e4 \ud134 \ub204\uad70\uac00 \uc774 \uae30\uc220\uc744\n\uacc4\uc18d\ud574\uc11c \uc4f0\uba74 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3073\u304f\u3000\u3053\u3048\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307e\u3044\u30bf\u30fc\u30f3\u3000\u3060\u308c\u304b\u304c\u3000\u308f\u3056\u3092\n\u3064\u304b\u3044\u3000\u3064\u3065\u3051\u308b\u3068\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u97ff\u304f\u3000\u58f0\u3067\u3000\u76f8\u624b\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bce\u30bf\u30fc\u30f3\u3000\u3060\u308c\u304b\u304c\u3000\u6280\u3092\n\u4f7f\u3044\u7d9a\u3051\u308b\u3068\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater damage.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attacca il bersaglio con la propria voce\necheggiante. Se usata a ripetizione da uno\no pi\u00f9 Pok\u00e9mon il danno aumenta.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un susurro que aumenta de potencia conforme el\nusuario y otros Pok\u00e9mon lo van utilizando.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit widerhallender Stimme. Wenn in\njeder Runde ein Teilnehmer wiederholt\ndie Attacke einsetzt, steigt die St\u00e4rke.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un cri retentissant blesse l\u2019ennemi.\nSi le lanceur ou d\u2019autres Pok\u00e9mon l\u2019utilisent \u00e0\nchaque tour, l\u2019effet augmente.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc6b8\ub9ac\ub294 \ubaa9\uc18c\ub9ac\ub85c \uc0c1\ub300\ub97c \uacf5\uaca9\ud55c\ub2e4.\n\ub9e4 \ud134 \ub204\uad70\uac00 \uae30\uc220\uc744\n\uacc4\uc18d\ud574\uc11c \uc4f0\uba74 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u3073\u304f\u3000\u3053\u3048\u3067\u3000\u3042\u3044\u3066\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307e\u3044\u30bf\u30fc\u30f3\u3000\u3060\u308c\u304b\u304c\u3000\u308f\u3056\u3092\n\u3064\u304b\u3044\u3000\u3064\u3065\u3051\u308b\u3068\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater damage.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks the target with an\nechoing voice. If this move is used\nevery turn, it does greater damage.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un cri retentissant blesse l\u2019ennemi. Si le\nlanceur ou d\u2019autres Pok\u00e9mon l\u2019utilisent\n\u00e0 chaque tour, l\u2019effet augmente.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-v",
-        "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+        "url": "http://localhost/api/v2/generation/5/"
     },
     "id": 497,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/779/"
+                "url": "http://localhost/api/v2/machine/779/"
             },
             "version_group": {
                 "name": "black-white",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                "url": "http://localhost/api/v2/version-group/11/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/782/"
+                "url": "http://localhost/api/v2/machine/782/"
             },
             "version_group": {
                 "name": "black-2-white-2",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                "url": "http://localhost/api/v2/version-group/14/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/783/"
+                "url": "http://localhost/api/v2/machine/783/"
             },
             "version_group": {
                 "name": "x-y",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                "url": "http://localhost/api/v2/version-group/15/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/784/"
+                "url": "http://localhost/api/v2/machine/784/"
             },
             "version_group": {
                 "name": "omega-ruby-alpha-sapphire",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                "url": "http://localhost/api/v2/version-group/16/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -87,49 +298,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Echoed Voice"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Echeggiavoce"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Eco Voz"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Widerhall"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "\u00c9cho"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uc5d0\ucf54\ubcf4\uc774\uc2a4"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u30a8\u30b3\u30fc\u30dc\u30a4\u30b9"
         }
@@ -142,10 +353,10 @@
     "super_contest_effect": null,
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "normal",
-        "url": "http://127.0.0.1:8000/api/v2/type/1/"
+        "url": "http://localhost/api/v2/type/1/"
     }
 }

@@ -4,11 +4,11 @@
     "contest_effect": null,
     "contest_type": {
         "name": "cute",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/3/"
+        "url": "http://localhost/api/v2/contest-type/3/"
     },
     "damage_class": {
         "name": "status",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/1/"
+        "url": "http://localhost/api/v2/move-damage-class/1/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -17,90 +17,334 @@
             "effect": "Target cannot use its held item for five turns.  If the target leaves the field, this effect ends.\n\nIf a Pok\u00e9mon under this effect uses bug bite or pluck on a Pok\u00e9mon holding a berry, the berry is destroyed but not used.  If a Pok\u00e9mon under this effect uses fling, it will fail.\n\nThis effect is passed by baton pass.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Target cannot use held items."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6301\u305f\u305b\u305f\u3000\u9053\u5177\u3092\u3000\u4f7f\u3048\u306a\u304f\u3059\u308b\u3002\n\u30c8\u30ec\u30fc\u30ca\u30fc\u3082\u3000\u305d\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u306f\n\u9053\u5177\u3092\u3000\u4f7f\u3048\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "This move prevents the target from\nusing its held item. Its Trainer is\nalso prevented from using items on it.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Impedisce al bersaglio di usare il suo strumento\ne al suo Allenatore di usarne altri sul Pok\u00e9mon.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Impide al objetivo usar el objeto que lleva. Su\nEntrenador tampoco puede usar objetos con \u00e9l. ",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Das Ziel kann weder getragene Items nutzen,\nnoch kann sein Trainer Items auf es anwenden.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Emp\u00eache l\u2019ennemi d\u2019utiliser un objet tenu et son\nDresseur d\u2019utiliser un objet sur lui.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\ub2c8\uac8c \ud55c \ub3c4\uad6c\ub97c \uc4f8 \uc218 \uc5c6\uac8c \ud55c\ub2e4.\n\ud2b8\ub808\uc774\ub108\ub3c4 \uadf8 \ud3ec\ucf13\ubaac\uc5d0\uac8c\ub294\n\ub3c4\uad6c\ub97c \uc4f8 \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u305f\u305b\u305f\u3000\u3069\u3046\u3050\u3092\u3000\u3064\u304b\u3048\u306a\u304f\u3059\u308b\u3002\n\u30c8\u30ec\u30fc\u30ca\u30fc\u3082\u3000\u305d\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u306f\n\u3069\u3046\u3050\u3092\u3000\u3064\u304b\u3048\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6301\u305f\u305b\u305f\u3000\u9053\u5177\u3092\u3000\u4f7f\u3048\u306a\u304f\u3059\u308b\u3002\n\u30c8\u30ec\u30fc\u30ca\u30fc\u3082\u3000\u305d\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u306f\n\u9053\u5177\u3092\u3000\u4f7f\u3048\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "This move prevents the target from\nusing its held item. Its Trainer is\nalso prevented from using items on it.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Impedisce al bersaglio di usare il suo strumento\ne al suo Allenatore di usarne altri sul Pok\u00e9mon.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Impide al objetivo usar el objeto que lleva. Su\nEntrenador tampoco puede usar objetos con \u00e9l.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Verhindert, dass auf das Ziel Items verwendet\nwerden.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Emp\u00eache l\u2019ennemi d\u2019utiliser un objet tenu et son\nDresseur d\u2019utiliser un objet sur lui.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\ub2c8\uac8c \ud55c \ub3c4\uad6c\ub97c \uc4f8 \uc218 \uc5c6\uac8c \ud55c\ub2e4.\n\ud2b8\ub808\uc774\ub108\ub3c4 \uadf8 \ud3ec\ucf13\ubaac\uc5d0\uac8c\ub294\n\ub3c4\uad6c\ub97c \uc4f8 \uc218 \uc5c6\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3082\u305f\u305b\u305f\u3000\u3069\u3046\u3050\u3092\u3000\u3064\u304b\u3048\u306a\u304f\u3059\u308b\u3002\n\u30c8\u30ec\u30fc\u30ca\u30fc\u3082\u3000\u305d\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u306f\n\u3069\u3046\u3050\u3092\u3000\u3064\u304b\u3048\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "It prevents the target from using its held\nitem. Its Trainer is also prevented from\nusing items on it.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "It prevents the target from using its held\nitem. Its Trainer is also prevented from\nusing items on it.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Emp\u00eache l\u2019ennemi d\u2019utiliser un\nobjet tenu et son Dresseur\nd\u2019utiliser un objet sur lui.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "It prevents the foe\nfrom using its held\nitem. Its Trainer is\nalso prevented from\nusing items on it.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "It prevents the foe\nfrom using its held\nitem. Its Trainer is\nalso prevented from\nusing items on it.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "It prevents the foe\nfrom using its held\nitem. Its Trainer is\nalso prevented from\nusing items on it.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-iv",
-        "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+        "url": "http://localhost/api/v2/generation/4/"
     },
     "id": 373,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/885/"
+                "url": "http://localhost/api/v2/machine/885/"
             },
             "version_group": {
                 "name": "diamond-pearl",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                "url": "http://localhost/api/v2/version-group/8/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/886/"
+                "url": "http://localhost/api/v2/machine/886/"
             },
             "version_group": {
                 "name": "platinum",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                "url": "http://localhost/api/v2/version-group/9/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/887/"
+                "url": "http://localhost/api/v2/machine/887/"
             },
             "version_group": {
                 "name": "heartgold-soulsilver",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                "url": "http://localhost/api/v2/version-group/10/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/888/"
+                "url": "http://localhost/api/v2/machine/888/"
             },
             "version_group": {
                 "name": "black-white",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                "url": "http://localhost/api/v2/version-group/11/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/889/"
+                "url": "http://localhost/api/v2/machine/889/"
             },
             "version_group": {
                 "name": "black-2-white-2",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                "url": "http://localhost/api/v2/version-group/14/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/890/"
+                "url": "http://localhost/api/v2/machine/890/"
             },
             "version_group": {
                 "name": "x-y",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                "url": "http://localhost/api/v2/version-group/15/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/891/"
+                "url": "http://localhost/api/v2/machine/891/"
             },
             "version_group": {
                 "name": "omega-ruby-alpha-sapphire",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                "url": "http://localhost/api/v2/version-group/16/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "embargo",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/19/"
+            "url": "http://localhost/api/v2/move-ailment/19/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "ailment",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/1/"
+            "url": "http://localhost/api/v2/move-category/1/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -117,49 +361,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Embargo"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Divieto"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Embargo"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Itemsperre"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Embargo"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uae08\uc81c"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u3055\u3057\u304a\u3055\u3048"
         }
@@ -170,14 +414,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/13/"
+        "url": "http://localhost/api/v2/super-contest-effect/13/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "dark",
-        "url": "http://127.0.0.1:8000/api/v2/type/17/"
+        "url": "http://localhost/api/v2/type/17/"
     }
 }

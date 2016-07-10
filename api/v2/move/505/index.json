@@ -5,7 +5,7 @@
     "contest_type": null,
     "damage_class": {
         "name": "status",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/1/"
+        "url": "http://localhost/api/v2/move-damage-class/1/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -14,26 +14,237 @@
             "effect": "Heals the target for half its max HP.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Heals the target for half its max HP."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u3044\u3084\u3057\u306e\u306f\u3069\u3046\u3092\u3000\u3068\u3070\u3057\u3066\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\n\u76f8\u624b\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user emits a healing pulse which\nrestores the target\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia un\u2019onda rilassante che fa\nrecuperare al bersaglio met\u00e0 dei suoi PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Una onda curativa restaura los PS del objetivo a la \nmitad de su m\u00e1ximo.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender l\u00f6st eine Schmerzen lindernde Welle aus\nund heilt dabei das Ziel mit der H\u00e4lfte seiner\nmaximalen KP.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une aura de bien-\u00eatre fait r\u00e9cup\u00e9rer la moiti\u00e9 de\nses PV max \u00e0 la cible.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uce58\uc720\ud30c\ub3d9\uc744 \ub0a0\ub824\uc11c\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\n\uc0c1\ub300\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3084\u3057\u306e\u306f\u3069\u3046\u3092\u3000\u3068\u3070\u3057\u3066\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\n\u3042\u3044\u3066\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3084\u3057\u306e\u306f\u3069\u3046\u3092\u3000\u3068\u3070\u3057\u3066\n\u6700\u5927\uff28\uff30\u306e\u3000\u534a\u5206\n\u76f8\u624b\u306e\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user emits a healing pulse which\nrestores the target\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa lancia un\u2019onda rilassante che fa\nrecuperare al bersaglio met\u00e0 dei suoi PS massimi.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Una onda curativa restaura los PS del objetivo a la\nmitad de su m\u00e1ximo.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender l\u00f6st eine Schmerzen lindernde Welle aus\nund heilt dabei das Ziel mit der H\u00e4lfte seiner\nmaximalen KP.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une aura de bien-\u00eatre fait r\u00e9cup\u00e9rer la moiti\u00e9 de\nses PV max \u00e0 la cible.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uce58\uc720\ud30c\ub3d9\uc744 \ub0a0\ub824\uc11c\n\ucd5c\ub300 HP\uc758 \uc808\ubc18\ub9cc\ud07c\n\uc0c1\ub300\uc758 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3084\u3057\u306e\u306f\u3069\u3046\u3092\u3000\u3068\u3070\u3057\u3066\n\u3055\u3044\u3060\u3044\u3000\uff28\uff30\u306e\u3000\u306f\u3093\u3076\u3093\n\u3042\u3044\u3066\u306e\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user emits a healing pulse which\nrestores the target\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user emits a healing pulse which\nrestores the target\u2019s HP by up to\nhalf of its max HP.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une aura de bien-\u00eatre fait r\u00e9cup\u00e9rer\nla moiti\u00e9 de ses PV max \u00e0 la cible.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-v",
-        "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+        "url": "http://localhost/api/v2/generation/5/"
     },
     "id": 505,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "heal",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/3/"
+            "url": "http://localhost/api/v2/move-category/3/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -50,49 +261,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Heal Pulse"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Ondasana"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Pulso Cura"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Heilwoge"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Vibra Soin"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uce58\uc720\ud30c\ub3d9"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u3044\u3084\u3057\u306e\u306f\u3069\u3046"
         }
@@ -105,10 +316,10 @@
     "super_contest_effect": null,
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "psychic",
-        "url": "http://127.0.0.1:8000/api/v2/type/14/"
+        "url": "http://localhost/api/v2/type/14/"
     }
 }

@@ -5,19 +5,19 @@
             "use_after": [
                 {
                     "name": "sandstorm",
-                    "url": "http://127.0.0.1:8000/api/v2/move/201/"
+                    "url": "http://localhost/api/v2/move/201/"
                 },
                 {
                     "name": "rain-dance",
-                    "url": "http://127.0.0.1:8000/api/v2/move/240/"
+                    "url": "http://localhost/api/v2/move/240/"
                 },
                 {
                     "name": "sunny-day",
-                    "url": "http://127.0.0.1:8000/api/v2/move/241/"
+                    "url": "http://localhost/api/v2/move/241/"
                 },
                 {
                     "name": "hail",
-                    "url": "http://127.0.0.1:8000/api/v2/move/258/"
+                    "url": "http://localhost/api/v2/move/258/"
                 }
             ],
             "use_before": null
@@ -28,15 +28,15 @@
         }
     },
     "contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/contest-effect/1/"
+        "url": "http://localhost/api/v2/contest-effect/1/"
     },
     "contest_type": {
         "name": "smart",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/4/"
+        "url": "http://localhost/api/v2/contest-type/4/"
     },
     "damage_class": {
         "name": "special",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/3/"
+        "url": "http://localhost/api/v2/move-damage-class/3/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -45,26 +45,303 @@
             "effect": "Inflicts regular damage.  If a weather move is active, this move has double power, and its type becomes the type of the weather move.  shadow sky is typeless for the purposes of this move.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "If there be weather, this move has doubled power and the weather's type."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f7f\u3063\u305f\u3068\u304d\u306e\u3000\u5929\u6c17\u306b\u3000\u3088\u3063\u3066\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u3068\u3000\u5a01\u529b\u304c\u3000\u5909\u308f\u308b\u3002\n",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that varies in power and\ntype depending on the weather.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Mossa d\u2019attacco il cui tipo e la cui potenza variano \nin base alle condizioni atmosferiche.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "El tipo y fuerza del ataque var\u00edan seg\u00fan el tiempo \nque haga.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Typ und St\u00e4rke der Attacke sind vom Wetter\nzum Zeitpunkt der Anwendung abh\u00e4ngig.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque dont la puissance et le type varient\nen fonction du temps qu\u2019il fait.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc0ac\uc6a9\ud588\uc744 \ub54c\uc758 \ub0a0\uc528\uc5d0 \ub530\ub77c\uc11c\n\uae30\uc220 \ud0c0\uc785\uacfc \uc704\ub825\uc774 \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u304b\u3063\u305f\u3000\u3068\u304d\u306e\u3000\u3066\u3093\u304d\u306b\u3000\u3088\u3063\u3066\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u3068\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u304b\u308f\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u3063\u305f\u3068\u304d\u306e\u3000\u5929\u6c17\u306b\u3000\u3088\u3063\u3066\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u3068\u3000\u5a01\u529b\u304c\u3000\u5909\u308f\u308b\u3002\n",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that varies in power and\ntype depending on the weather.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Mossa d\u2019attacco che varia tipo e forza in base\nalle condizioni atmosferiche.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "El tipo y fuerza del ataque var\u00edan seg\u00fan el tiempo\nque haga.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Typ und St\u00e4rke der Attacke sind vom Wetter\nzum Zeitpunkt der Anwendung abh\u00e4ngig.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque dont la puissance et le type varient\nen fonction du temps qu\u2019il fait.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc0ac\uc6a9\ud588\uc744 \ub54c\uc758 \ub0a0\uc528\uc5d0 \ub530\ub77c\uc11c\n\uae30\uc220 \ud0c0\uc785\uacfc \uc704\ub825\uc774 \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u304b\u3063\u305f\u3000\u3068\u304d\u306e\u3000\u3066\u3093\u304d\u306b\u3000\u3088\u3063\u3066\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u3068\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u304b\u308f\u308b\u3002\n",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that varies in power and\ntype depending on the weather.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that varies in power and\ntype depending on the weather.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une attaque dont la puissance et le type\nvarient en fonction du temps qu\u2019il fait.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that\nvaries in power and\ntype depending on\nthe weather.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that\nvaries in power and\ntype depending on\nthe weather.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "An attack move that\nvaries in power and\ntype depending on\nthe weather.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "An attack that\nvaries in power and\ntype depending on\nthe weather.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://localhost/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "The move\u2019s type and power\nchange with the weather.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "http://localhost/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "The move\u2019s type and power\nchange with the weather.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://localhost/api/v2/version-group/5/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-iii",
-        "url": "http://127.0.0.1:8000/api/v2/generation/3/"
+        "url": "http://localhost/api/v2/generation/3/"
     },
     "id": 311,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -81,49 +358,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Weather Ball"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Palla Clima"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Meteorobola"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Meteorologe"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Ball'M\u00e9t\u00e9o"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uc6e8\ub354\ubcfc"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u30a6\u30a7\u30b6\u30fc\u30dc\u30fc\u30eb"
         }
@@ -134,14 +411,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/4/"
+        "url": "http://localhost/api/v2/super-contest-effect/4/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "normal",
-        "url": "http://127.0.0.1:8000/api/v2/type/1/"
+        "url": "http://localhost/api/v2/type/1/"
     }
 }

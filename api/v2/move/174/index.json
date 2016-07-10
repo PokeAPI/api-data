@@ -6,19 +6,19 @@
             "use_before": [
                 {
                     "name": "spite",
-                    "url": "http://127.0.0.1:8000/api/v2/move/180/"
+                    "url": "http://localhost/api/v2/move/180/"
                 },
                 {
                     "name": "destiny-bond",
-                    "url": "http://127.0.0.1:8000/api/v2/move/194/"
+                    "url": "http://localhost/api/v2/move/194/"
                 },
                 {
                     "name": "mean-look",
-                    "url": "http://127.0.0.1:8000/api/v2/move/212/"
+                    "url": "http://localhost/api/v2/move/212/"
                 },
                 {
                     "name": "grudge",
-                    "url": "http://127.0.0.1:8000/api/v2/move/288/"
+                    "url": "http://localhost/api/v2/move/288/"
                 }
             ]
         },
@@ -28,15 +28,15 @@
         }
     },
     "contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/contest-effect/31/"
+        "url": "http://localhost/api/v2/contest-effect/31/"
     },
     "contest_type": {
         "name": "tough",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/5/"
+        "url": "http://localhost/api/v2/contest-type/5/"
     },
     "damage_class": {
         "name": "status",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/1/"
+        "url": "http://localhost/api/v2/move-damage-class/1/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -45,45 +45,344 @@
             "effect": "If the user is a ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user's Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by baton pass.\n\nThis move cannot be copied by mirror move.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4f7f\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u4ee5\u5916\u3000\u3068\u3067\u306f\n\u52b9\u679c\u304c\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa \u00e8 di tipo Spettro.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un movimiento que tiene efectos distintos si el \nusuario es de tipo Fantasma o no.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attacke, deren Wirkung davon abh\u00e4ngt,\nob der Anwender ein Geister-Pok\u00e9mon ist.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que le\nlanceur est un Pok\u00e9mon Spectre ou non.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc220\uc744 \uc4f0\ub294 \ud3ec\ucf13\ubaac\uc774\n\uace0\uc2a4\ud2b8\ud0c0\uc785\uc77c \ub54c\uc640 \uadf8 \uc774\uc678\uc758\n\ud0c0\uc785\uc77c \ub54c\ub294 \ud6a8\uacfc\uac00 \ub2e4\ub974\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u304b\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u3044\u304c\u3044\u3000\u3068\u3067\u306f\n\u3053\u3046\u304b\u304c\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u4f7f\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u4ee5\u5916\u3000\u3068\u3067\u306f\n\u52b9\u679c\u304c\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa \u00e8 di tipo Spettro.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attacke, deren Wirkung davon abh\u00e4ngt,\nob der Anwender ein Geist-Pok\u00e9mon ist.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que le\nlanceur est un Pok\u00e9mon Spectre ou non.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc220\uc744 \uc4f0\ub294 \ud3ec\ucf13\ubaac\uc774\n\uace0\uc2a4\ud2b8\ud0c0\uc785\uc77c \ub54c\uc640 \uadf8 \uc774\uc678\uc758\n\ud0c0\uc785\uc77c \ub54c\ub294 \ud6a8\uacfc\uac00 \ub2e4\ub974\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3064\u304b\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u3044\u304c\u3044\u3000\u3068\u3067\u306f\n\u3053\u3046\u304b\u304c\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que\nle lanceur est un Pok\u00e9mon Spectre ou non.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A move that works\ndifferently for the\nGHOST-type and all\nthe other types.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://localhost/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A move that functions\ndifferently for GHOSTS.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "http://localhost/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A move that functions\ndifferently for GHOSTS.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://localhost/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Works differently\nfor ghost-types.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "http://localhost/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Works differently\nfor ghost-types.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "http://localhost/api/v2/version-group/3/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-ii",
-        "url": "http://127.0.0.1:8000/api/v2/generation/2/"
+        "url": "http://localhost/api/v2/generation/2/"
     },
     "id": 174,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/35/"
+                "url": "http://localhost/api/v2/machine/35/"
             },
             "version_group": {
                 "name": "gold-silver",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/3/"
+                "url": "http://localhost/api/v2/version-group/3/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/36/"
+                "url": "http://localhost/api/v2/machine/36/"
             },
             "version_group": {
                 "name": "crystal",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+                "url": "http://localhost/api/v2/version-group/4/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "unique",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/13/"
+            "url": "http://localhost/api/v2/move-category/13/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -100,49 +399,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Curse"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Maledizione"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Maldici\u00f3n"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Fluch"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Mal\u00e9diction"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uc800\uc8fc"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u306e\u308d\u3044"
         }
@@ -156,11 +455,11 @@
             "pp": null,
             "type": {
                 "name": "unknown",
-                "url": "http://127.0.0.1:8000/api/v2/type/10001/"
+                "url": "http://localhost/api/v2/type/10001/"
             },
             "version_group": {
                 "name": "black-white",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                "url": "http://localhost/api/v2/version-group/11/"
             }
         }
     ],
@@ -169,14 +468,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/21/"
+        "url": "http://localhost/api/v2/super-contest-effect/21/"
     },
     "target": {
         "name": "specific-move",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/1/"
+        "url": "http://localhost/api/v2/move-target/1/"
     },
     "type": {
         "name": "ghost",
-        "url": "http://127.0.0.1:8000/api/v2/type/8/"
+        "url": "http://localhost/api/v2/type/8/"
     }
 }

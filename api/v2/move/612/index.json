@@ -5,7 +5,7 @@
     "contest_type": null,
     "damage_class": {
         "name": "physical",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+        "url": "http://localhost/api/v2/move-damage-class/2/"
     },
     "effect_chance": 100,
     "effect_changes": [],
@@ -14,45 +14,223 @@
             "effect": "Inflicts regular damage. Has a $effect_chance% chance to raise the user's Attack one stage.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Has a $effect_chance% chance to raise the user's Attack by one stage."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7e70\u308a\u8fd4\u3057\u3000\u6253\u3064\u3053\u3068\u3067\n\u3060\u3093\u3060\u3093\u3000\u3053\u3076\u3057\u304c\u3000\u56fa\u304f\u306a\u308b\u3002\n\u76f8\u624b\u306b\u3000\u5f53\u3066\u308b\u3068\u3000\u653b\u6483\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Striking opponents over and over makes\nthe user\u2019s fists harder.\nHitting a target raises the Attack stat.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Rende i pugni pi\u00f9 duri a ogni colpo inferto.\nSe i pugni vanno a segno, l\u2019Attacco di chi\nla usa aumenta.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Cada vez que golpea a un oponente se endurecen \nsus pu\u00f1os. Si acierta al objetivo, el Ataque del\nusuario aumenta.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Die F\u00e4uste des Anwenders h\u00e4rten durch\nwiederholtes Zuschlagen ab. Mit jedem\nTreffer steigt sein Angriffs-Wert.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u00c0 force de frapper, les poings deviennent plus\ndurs. Augmente l\u2019Attaque du lanceur si l\u2019ennemi\nest touch\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubc18\ubcf5\ud558\uc5ec \ub54c\ub9ac\uba74\n\uc810\uc810 \uc8fc\uba39\uc774 \ub2e8\ub2e8\ud574\uc9c4\ub2e4.\n\uc0c1\ub300\ub97c \ub54c\ub9ac\uba74 \uacf5\uaca9\uc774 \uc624\ub978\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u308a\u304b\u3048\u3057\u3000\u3046\u3064\u3053\u3068\u3067\n\u3060\u3093\u3060\u3093\u3000\u3053\u3076\u3057\u304c\u3000\u304b\u305f\u304f\u306a\u308b\u3002\n\u3042\u3044\u3066\u306b\u3000\u3042\u3066\u308b\u3068\u3000\u3053\u3046\u3052\u304d\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u7e70\u308a\u8fd4\u3057\u3000\u6253\u3064\u3053\u3068\u3067\n\u3060\u3093\u3060\u3093\u3000\u3053\u3076\u3057\u304c\u3000\u56fa\u304f\u306a\u308b\u3002\n\u76f8\u624b\u306b\u3000\u5f53\u3066\u308b\u3068\u3000\u653b\u6483\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Striking opponents over and over makes\nthe user\u2019s fists harder.\nHitting a target raises the Attack stat.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Rende i pugni pi\u00f9 duri a ogni colpo inferto.\nSe i pugni vanno a segno, aumenta l\u2019Attacco.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cada vez que golpea a un oponente se endurecen\nsus pu\u00f1os. Si acierta al objetivo, el Ataque del\nusuario aumenta.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Die F\u00e4uste des Anwenders h\u00e4rten durch\nwiederholtes Zuschlagen ab. Mit jedem\nTreffer steigt sein Angriffs-Wert.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u00c0 force de frapper, les poings deviennent plus\ndurs. Augmente l\u2019Attaque du lanceur si l\u2019ennemi\nest touch\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubc18\ubcf5\ud558\uc5ec \ub54c\ub9ac\uba74\n\uc810\uc810 \uc8fc\uba39\uc774 \ub2e8\ub2e8\ud574\uc9c4\ub2e4.\n\uc0c1\ub300\ub97c \ub54c\ub9ac\uba74 \uacf5\uaca9\uc774 \uc624\ub978\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u308a\u304b\u3048\u3057\u3000\u3046\u3064\u3053\u3068\u3067\n\u3060\u3093\u3060\u3093\u3000\u3053\u3076\u3057\u304c\u3000\u304b\u305f\u304f\u306a\u308b\u3002\n\u3042\u3044\u3066\u306b\u3000\u3042\u3066\u308b\u3068\u3000\u3053\u3046\u3052\u304d\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-vi",
-        "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+        "url": "http://localhost/api/v2/generation/6/"
     },
     "id": 612,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1111/"
+                "url": "http://localhost/api/v2/machine/1111/"
             },
             "version_group": {
                 "name": "x-y",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                "url": "http://localhost/api/v2/version-group/15/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1112/"
+                "url": "http://localhost/api/v2/machine/1112/"
             },
             "version_group": {
                 "name": "omega-ruby-alpha-sapphire",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                "url": "http://localhost/api/v2/version-group/16/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage+raise",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/7/"
+            "url": "http://localhost/api/v2/move-category/7/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -69,49 +247,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Power-Up Punch"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Crescipugno"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Pu\u00f1o Incremento"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Steigerungshieb"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Poing Boost"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uadf8\ub85c\uc6b0\ud380\uce58"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u30b0\u30ed\u30a6\u30d1\u30f3\u30c1"
         }
@@ -125,17 +303,17 @@
             "change": 1,
             "stat": {
                 "name": "attack",
-                "url": "http://127.0.0.1:8000/api/v2/stat/2/"
+                "url": "http://localhost/api/v2/stat/2/"
             }
         }
     ],
     "super_contest_effect": null,
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "fighting",
-        "url": "http://127.0.0.1:8000/api/v2/type/2/"
+        "url": "http://localhost/api/v2/type/2/"
     }
 }

@@ -4,11 +4,11 @@
     "contest_effect": null,
     "contest_type": {
         "name": "beauty",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/2/"
+        "url": "http://localhost/api/v2/contest-type/2/"
     },
     "damage_class": {
         "name": "status",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/1/"
+        "url": "http://localhost/api/v2/move-damage-class/1/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -17,26 +17,270 @@
             "effect": "For five turns (including this one), all immunities to ground moves are disabled.  For the duration of this effect, the evasion of every Pok\u00e9mon on the field is lowered by two stages.  Cancels the effects of bounce, fly, and sky drop.\n\nSpecifically, flying Pok\u00e9mon and those with levitate or that have used magnet rise are no longer immune to ground attacks, arena trap, spikes, or toxic spikes.\n\nbounce, fly, sky drop, high jump kick, jump kick, and splash cannot be used while this move is in effect.\n\n*Bug*: If this move is used during a double or triple battle while Pok\u00e9mon are under the effect of sky drop, Sky Drop's effect is not correctly canceled on its target, and it remains high in the air indefinitely.  As Sky Drop prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Disables moves and immunities that involve flying or levitating for five turns."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u91cd\u529b\u3092\u3000\u5f37\u304f\u3057\u3066\u3000\u3075\u3086\u3046\u3084\n\u7a7a\u3078\u3000\u98db\u3076\u3000\u6280\u3092\u3000\u4f7f\u3048\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Gravity is intensified for five turns,\nmaking moves involving flying unusable\nand negating Levitate.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Intensifica la gravit\u00e0 per cinque turni. Le mosse\nche fanno volare sono inutilizzabili e l\u2019abilit\u00e0\nLevitazione non ha effetto.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "La gravedad aumenta durante cinco turnos, lo que \nimpide acciones que impliquen volar o levitar.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Die Gravitation wird f\u00fcr f\u00fcnf Runden erh\u00f6ht.\nMacht Fliegen unm\u00f6glich und verhindert Schwebe.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "La gravit\u00e9 augmente pendant cinq tours, ce qui\nemp\u00eache les capacit\u00e9s volantes et annule\nL\u00e9vitation.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uc911\ub825\uc744\n\uac15\ud558\uac8c \ud574\uc11c \ubd80\uc720\ub098 \ud558\ub298\uc744 \ub098\ub294\n\uae30\uc220\uc744 \uc0ac\uc6a9\ud560 \uc218 \uc5c6\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3058\u3085\u3046\u308a\u3087\u304f\u3092\u3000\u3064\u3088\u304f\u3057\u3066\u3000\u3075\u3086\u3046\u3084\n\u305d\u3089\u3078\u3000\u3068\u3076\u3000\u308f\u3056\u3092\u3000\u3064\u304b\u3048\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u91cd\u529b\u3092\u3000\u5f37\u304f\u3057\u3066\u3000\u3075\u3086\u3046\u3084\n\u7a7a\u3078\u3000\u98db\u3076\u3000\u6280\u3092\u3000\u4f7f\u3048\u306a\u304f\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Gravity is intensified for five turns,\nmaking moves involving flying unusable\nand negating Levitate.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Intensifica la gravit\u00e0 per cinque turni. Le mosse\nche fanno volare sono inutilizzabili e l\u2019abilit\u00e0\nLevitazione non ha effetto.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "La gravedad aumenta durante cinco turnos, lo que\nimpide acciones que impliquen volar o levitar.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Die Gravitation wird f\u00fcr f\u00fcnf Runden erh\u00f6ht.\nMacht Fliegen unm\u00f6glich und verhindert Schwebe.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "La gravit\u00e9 augmente pendant cinq tours, ce qui\nemp\u00eache les capacit\u00e9s volantes et annule\nL\u00e9vitation.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "5\ud134 \ub3d9\uc548 \uc911\ub825\uc744\n\uac15\ud558\uac8c \ud574\uc11c \ubd80\uc720\ub098 \ud558\ub298\uc744 \ub098\ub294\n\uae30\uc220\uc744 \uc0ac\uc6a9\ud560 \uc218 \uc5c6\uac8c \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uff15\u30bf\u30fc\u30f3\u306e\u3000\u3042\u3044\u3060\n\u3058\u3085\u3046\u308a\u3087\u304f\u3092\u3000\u3064\u3088\u304f\u3057\u3066\u3000\u3075\u3086\u3046\u3084\n\u305d\u3089\u3078\u3000\u3068\u3076\u3000\u308f\u3056\u3092\u3000\u3064\u304b\u3048\u306a\u304f\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Gravity is intensified for five turns,\nmaking moves involving flying unusable\nand negating Levitate.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "Gravity is intensified for five turns,\nmaking moves involving flying unusable\nand negating Levitate.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "La gravit\u00e9 augmente pendant 5 tours,\nce qui emp\u00eache les capacit\u00e9s volantes\net annule L\u00e9vitation.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Gravity is intensified\nfor five turns, making\nmoves involving flying\nunusable and\nnegating Levitation.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "Gravity is intensified\nfor five turns, making\nmoves involving flying\nunusable and\nnegating Levitation.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "Gravity is intensified\nfor five turns, making\nmoves involving flying\nunusable and\nnegating Levitation.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-iv",
-        "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+        "url": "http://localhost/api/v2/generation/4/"
     },
     "id": 356,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "whole-field-effect",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/10/"
+            "url": "http://localhost/api/v2/move-category/10/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -53,49 +297,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Gravity"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Gravit\u00e0"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Gravedad"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Erdanziehung"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Gravit\u00e9"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uc911\ub825"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u3058\u3085\u3046\u308a\u3087\u304f"
         }
@@ -106,14 +350,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/13/"
+        "url": "http://localhost/api/v2/super-contest-effect/13/"
     },
     "target": {
         "name": "entire-field",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/12/"
+        "url": "http://localhost/api/v2/move-target/12/"
     },
     "type": {
         "name": "psychic",
-        "url": "http://127.0.0.1:8000/api/v2/type/14/"
+        "url": "http://localhost/api/v2/type/14/"
     }
 }

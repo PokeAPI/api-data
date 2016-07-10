@@ -4,11 +4,11 @@
     "contest_effect": null,
     "contest_type": {
         "name": "tough",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/5/"
+        "url": "http://localhost/api/v2/contest-type/5/"
     },
     "damage_class": {
         "name": "physical",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+        "url": "http://localhost/api/v2/move-damage-class/2/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -17,90 +17,334 @@
             "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Has an increased chance for a critical hit."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u5ca9\u3092\n\u76f8\u624b\u306b\u3000\u7a81\u304d\u523a\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the target with\nsharpened stones from below.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio dal basso con\npietre affilate. Probabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Clava piedras muy afiladas al objetivo. Suele ser \ncr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender sticht das Ziel mit spitzen Steinen.\nHohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Fait surgir des pierres aiguis\u00e9es sous l\u2019ennemi.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ubfb0\uc871\ud55c \ubc14\uc704\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uaff0\ucc14\ub7ec\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u3044\u308f\u3092\n\u3042\u3044\u3066\u306b\u3000\u3064\u304d\u3055\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u5ca9\u3092\n\u76f8\u624b\u306b\u3000\u7a81\u304d\u523a\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6025\u6240\u306b\u3000\u5f53\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the target with\nsharpened stones from below.\nCritical hits land more easily.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa colpisce il bersaglio dal basso con\npietre affilate. Probabile brutto colpo.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Clava piedras muy afiladas al objetivo. Suele ser\ncr\u00edtico.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender sticht das Ziel mit spitzen Steinen.\nHohe Volltrefferquote.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Fait surgir des pierres aiguis\u00e9es sous l\u2019ennemi.\nTaux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ubfb0\uc871\ud55c \ubc14\uc704\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uaff0\ucc14\ub7ec\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\uae09\uc18c\uc5d0 \ub9de\uae30 \uc27d\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304c\u3063\u305f\u3000\u3044\u308f\u3092\n\u3042\u3044\u3066\u306b\u3000\u3064\u304d\u3055\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u304d\u3085\u3046\u3057\u3087\u306b\u3000\u3042\u305f\u308a\u3084\u3059\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the foe with\nsharpened stones from below.\nIt has a high critical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the foe with\nsharpened stones from below.\nIt has a high critical-hit ratio.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Fait surgir des pierres aiguis\u00e9es sous\nl\u2019ennemi. Taux de critiques \u00e9lev\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the\nfoe with a sharpened\nstone. It has a high\ncritical-hit ratio.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the\nfoe with a sharpened\nstone. It has a high\ncritical-hit ratio.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user stabs the\nfoe with a sharpened\nstone. It has a high\ncritical-hit ratio.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-iv",
-        "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+        "url": "http://localhost/api/v2/generation/4/"
     },
     "id": 444,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/941/"
+                "url": "http://localhost/api/v2/machine/941/"
             },
             "version_group": {
                 "name": "diamond-pearl",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                "url": "http://localhost/api/v2/version-group/8/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/942/"
+                "url": "http://localhost/api/v2/machine/942/"
             },
             "version_group": {
                 "name": "platinum",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                "url": "http://localhost/api/v2/version-group/9/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/943/"
+                "url": "http://localhost/api/v2/machine/943/"
             },
             "version_group": {
                 "name": "heartgold-soulsilver",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                "url": "http://localhost/api/v2/version-group/10/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/944/"
+                "url": "http://localhost/api/v2/machine/944/"
             },
             "version_group": {
                 "name": "black-white",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                "url": "http://localhost/api/v2/version-group/11/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/945/"
+                "url": "http://localhost/api/v2/machine/945/"
             },
             "version_group": {
                 "name": "black-2-white-2",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                "url": "http://localhost/api/v2/version-group/14/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/946/"
+                "url": "http://localhost/api/v2/machine/946/"
             },
             "version_group": {
                 "name": "x-y",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                "url": "http://localhost/api/v2/version-group/15/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/947/"
+                "url": "http://localhost/api/v2/machine/947/"
             },
             "version_group": {
                 "name": "omega-ruby-alpha-sapphire",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                "url": "http://localhost/api/v2/version-group/16/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 1,
         "drain": 0,
@@ -117,49 +361,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Stone Edge"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Pietrataglio"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Roca Afilada"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Steinkante"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Lame de Roc"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uc2a4\ud1a4\uc5d0\uc9c0"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u30b9\u30c8\u30fc\u30f3\u30a8\u30c3\u30b8"
         }
@@ -170,14 +414,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/4/"
+        "url": "http://localhost/api/v2/super-contest-effect/4/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "rock",
-        "url": "http://127.0.0.1:8000/api/v2/type/6/"
+        "url": "http://localhost/api/v2/type/6/"
     }
 }

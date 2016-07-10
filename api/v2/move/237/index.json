@@ -2,15 +2,15 @@
     "accuracy": 100,
     "contest_combos": null,
     "contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/contest-effect/17/"
+        "url": "http://localhost/api/v2/contest-effect/17/"
     },
     "contest_type": {
         "name": "smart",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/4/"
+        "url": "http://localhost/api/v2/contest-type/4/"
     },
     "damage_class": {
         "name": "special",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/3/"
+        "url": "http://localhost/api/v2/move-damage-class/3/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -19,153 +19,452 @@
             "effect": "Inflicts regular damage.  Power and type are determined by the user's IVs.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Power and type depend upon user's IVs.  Power can range from 30 to 70."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "A unique attack that varies in type\ndepending on the Pok\u00e9mon using it.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Mossa singolare che cambia tipo a seconda\ndel Pok\u00e9mon che la usa.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Movimiento cuyo tipo var\u00eda en funci\u00f3n del Pok\u00e9mon \nque lo usa.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Wirkung und Typ der Attacke h\u00e4ngen\nvom Anwender ab.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attaque dont le type d\u00e9pend du Pok\u00e9mon\nqui l\u2019utilise.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc220\uc744 \uc4f4 \ud3ec\ucf13\ubaac\uc5d0 \ub530\ub77c\n\uae30\uc220\uc758 \ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A unique attack that varies in type\ndepending on the Pok\u00e9mon using it.\n",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Mossa singolare che cambia tipo a seconda\ndel Pok\u00e9mon che la usa.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Movimiento cuyo tipo var\u00eda en funci\u00f3n del\nPok\u00e9mon que lo usa.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Wirkung und Typ der Attacke h\u00e4ngen\nvom Anwender ab.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attaque dont le type d\u00e9pend du Pok\u00e9mon\nqui l\u2019utilise.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uae30\uc220\uc744 \uc4f4 \ud3ec\ucf13\ubaac\uc5d0 \ub530\ub77c\n\uae30\uc220\uc758 \ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A unique attack that varies in type and\nintensity depending on the Pok\u00e9mon\nusing it.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "A unique attack that varies in type and\nintensity depending on the Pok\u00e9mon\nusing it.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Attaque dont la puissance et le type\nd\u00e9pendent du Pok\u00e9mon qui l\u2019utilise.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "A unique attack that\nvaries in type and\nintensity depending\non the Pok\u00e9mon using\nit.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "A unique attack that\nvaries in type and\nintensity depending\non the Pok\u00e9mon using\nit.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "A unique attack that\nvaries in type and\nintensity depending\non the Pok\u00e9mon using\nit.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "An attack that\nvaries in type and\nintensity depending\non the user.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://localhost/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "The effectiveness varies\nwith the user.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "http://localhost/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "The effectiveness varies\nwith the user.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://localhost/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "The power varies\nwith the POK\u00e9MON.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "http://localhost/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "The power varies\nwith the POK\u00e9MON.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "http://localhost/api/v2/version-group/3/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-ii",
-        "url": "http://127.0.0.1:8000/api/v2/generation/2/"
+        "url": "http://localhost/api/v2/generation/2/"
     },
     "id": 237,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/147/"
+                "url": "http://localhost/api/v2/machine/147/"
             },
             "version_group": {
                 "name": "gold-silver",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/3/"
+                "url": "http://localhost/api/v2/version-group/3/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/148/"
+                "url": "http://localhost/api/v2/machine/148/"
             },
             "version_group": {
                 "name": "crystal",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+                "url": "http://localhost/api/v2/version-group/4/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/149/"
+                "url": "http://localhost/api/v2/machine/149/"
             },
             "version_group": {
                 "name": "ruby-sapphire",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+                "url": "http://localhost/api/v2/version-group/5/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/150/"
+                "url": "http://localhost/api/v2/machine/150/"
             },
             "version_group": {
                 "name": "emerald",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+                "url": "http://localhost/api/v2/version-group/6/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/151/"
+                "url": "http://localhost/api/v2/machine/151/"
             },
             "version_group": {
                 "name": "firered-leafgreen",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+                "url": "http://localhost/api/v2/version-group/7/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/152/"
+                "url": "http://localhost/api/v2/machine/152/"
             },
             "version_group": {
                 "name": "diamond-pearl",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                "url": "http://localhost/api/v2/version-group/8/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/153/"
+                "url": "http://localhost/api/v2/machine/153/"
             },
             "version_group": {
                 "name": "platinum",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                "url": "http://localhost/api/v2/version-group/9/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/154/"
+                "url": "http://localhost/api/v2/machine/154/"
             },
             "version_group": {
                 "name": "heartgold-soulsilver",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                "url": "http://localhost/api/v2/version-group/10/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/155/"
+                "url": "http://localhost/api/v2/machine/155/"
             },
             "version_group": {
                 "name": "black-white",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                "url": "http://localhost/api/v2/version-group/11/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/156/"
+                "url": "http://localhost/api/v2/machine/156/"
             },
             "version_group": {
                 "name": "colosseum",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/12/"
+                "url": "http://localhost/api/v2/version-group/12/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/157/"
+                "url": "http://localhost/api/v2/machine/157/"
             },
             "version_group": {
                 "name": "xd",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/13/"
+                "url": "http://localhost/api/v2/version-group/13/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/158/"
+                "url": "http://localhost/api/v2/machine/158/"
             },
             "version_group": {
                 "name": "black-2-white-2",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                "url": "http://localhost/api/v2/version-group/14/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/159/"
+                "url": "http://localhost/api/v2/machine/159/"
             },
             "version_group": {
                 "name": "x-y",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                "url": "http://localhost/api/v2/version-group/15/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/160/"
+                "url": "http://localhost/api/v2/machine/160/"
             },
             "version_group": {
                 "name": "omega-ruby-alpha-sapphire",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                "url": "http://localhost/api/v2/version-group/16/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -182,49 +481,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Hidden Power"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Introforza"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Poder Oculto"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Kraftreserve"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Puissance Cach\u00e9e"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uc7a0\uc7ac\ud30c\uc6cc"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u3081\u3056\u3081\u308b\u30d1\u30ef\u30fc"
         }
@@ -235,14 +534,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/23/"
+        "url": "http://localhost/api/v2/super-contest-effect/23/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "normal",
-        "url": "http://127.0.0.1:8000/api/v2/type/1/"
+        "url": "http://localhost/api/v2/type/1/"
     }
 }

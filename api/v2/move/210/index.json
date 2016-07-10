@@ -5,7 +5,7 @@
             "use_after": [
                 {
                     "name": "swords-dance",
-                    "url": "http://127.0.0.1:8000/api/v2/move/14/"
+                    "url": "http://localhost/api/v2/move/14/"
                 }
             ],
             "use_before": null
@@ -16,15 +16,15 @@
         }
     },
     "contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/contest-effect/17/"
+        "url": "http://localhost/api/v2/contest-effect/17/"
     },
     "contest_type": {
         "name": "cool",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/1/"
+        "url": "http://localhost/api/v2/contest-type/1/"
     },
     "damage_class": {
         "name": "physical",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+        "url": "http://localhost/api/v2/move-damage-class/2/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -33,45 +33,344 @@
             "effect": "Inflicts regular damage.  Power doubles after every time this move is used, whether consecutively or not, maxing out at 16x.  If this move misses or the user leaves the field, power resets.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Power doubles every turn this move is used in succession after the first, maxing out after five turns."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u306a\u3069\u3067\u3000\u76f8\u624b\u3092\n\u5207\u308a\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u9023\u7d9a\u3067\u3000\u5f53\u3066\u308b\u3068\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The target is slashed with scythes or\nclaws. This attack becomes more powerful\nif it hits in succession.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con falci o artigli. Se usata\nin successione aumenta di potenza ogni volta\nche va a segno.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con garras o guada\u00f1a que crece en intensidad \nsi se usa repetidas veces.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Eine Attacke mit Scheren oder Klauen, deren H\u00e4rte\nbei aufeinanderfolgenden Treffern zunimmt.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un coup de faux ou de griffe dont la force\naugmente quand il touche plusieurs fois d\u2019affil\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub0ab\uc774\ub098 \ubc1c\ud1b1 \ub4f1\uc73c\ub85c \uc0c1\ub300\ub97c\n\ubca0\uc5b4 \uacf5\uaca9\ud55c\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \ub9de\ud788\uba74 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3000\u306a\u3069\u3067\u3000\u3042\u3044\u3066\u3092\n\u304d\u308a\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u308c\u3093\u305e\u304f\u3067\n\u3042\u3066\u308b\u3068\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u306a\u3069\u3067\u3000\u76f8\u624b\u3092\n\u5207\u308a\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u9023\u7d9a\u3067\u3000\u5f53\u3066\u308b\u3068\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is slashed with scythes or\nclaws. This attack becomes more powerful\nif it hits in succession.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Colpisce il bersaglio con falci o artigli. Se usata\nin successione aumenta di potenza ogni volta\nche va a segno.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Ataque con garras o guada\u00f1a que crece en\nintensidad si se usa repetidas veces.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Eine Attacke mit Scheren oder Klauen, deren H\u00e4rte\nbei aufeinanderfolgenden Treffern zunimmt.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un coup de faux ou de griffe dont la force\naugmente quand il touche plusieurs fois d\u2019affil\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub0ab\uc774\ub098 \ubc1c\ud1b1 \ub4f1\uc73c\ub85c \uc0c1\ub300\ub97c\n\ubca0\uc5b4 \uacf5\uaca9\ud55c\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \ub9de\ud788\uba74 \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u30ab\u30de\u3084\u3000\u30c4\u30e1\u3000\u306a\u3069\u3067\u3000\u3042\u3044\u3066\u3092\n\u304d\u308a\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u308c\u3093\u305e\u304f\u3067\n\u3042\u3066\u308b\u3068\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The target is slashed with scythes or\nclaws. Its power increases if it hits\nin succession.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The target is slashed with scythes or\nclaws. Its power increases if it hits\nin succession.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un coup de faux ou de griffe dont\nla force augmente quand il touche\nplusieurs fois d\u2019affil\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is slashed\nwith scythes or\nclaws. Its power\nincreases if it hits\nin succession.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is slashed\nwith scythes or\nclaws. Its power\nincreases if it hits\nin succession.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is slashed\nwith scythes or\nclaws. Its power\nincreases if it hits\nin succession.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "An attack that\ngrows stronger on\neach successive\nhit.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://localhost/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "An attack that intensifies\non each successive hit.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "http://localhost/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "An attack that intensifies\non each successive hit.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://localhost/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Successive hits\nraise power.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "http://localhost/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Successive hits\nraise power.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "http://localhost/api/v2/version-group/3/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-ii",
-        "url": "http://127.0.0.1:8000/api/v2/generation/2/"
+        "url": "http://localhost/api/v2/generation/2/"
     },
     "id": 210,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/771/"
+                "url": "http://localhost/api/v2/machine/771/"
             },
             "version_group": {
                 "name": "gold-silver",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/3/"
+                "url": "http://localhost/api/v2/version-group/3/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/772/"
+                "url": "http://localhost/api/v2/machine/772/"
             },
             "version_group": {
                 "name": "crystal",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+                "url": "http://localhost/api/v2/version-group/4/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -88,49 +387,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Fury Cutter"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Tagliofuria"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Corte Furia"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Zornklinge"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Taillade"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\uc5f0\uc18d\uc790\ub974\uae30"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u308c\u3093\u305e\u304f\u304e\u308a"
         }
@@ -145,7 +444,7 @@
             "type": null,
             "version_group": {
                 "name": "black-white",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                "url": "http://localhost/api/v2/version-group/11/"
             }
         }
     ],
@@ -154,14 +453,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/7/"
+        "url": "http://localhost/api/v2/super-contest-effect/7/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "bug",
-        "url": "http://127.0.0.1:8000/api/v2/type/7/"
+        "url": "http://localhost/api/v2/type/7/"
     }
 }

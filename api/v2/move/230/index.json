@@ -6,15 +6,15 @@
             "use_before": [
                 {
                     "name": "poison-powder",
-                    "url": "http://127.0.0.1:8000/api/v2/move/77/"
+                    "url": "http://localhost/api/v2/move/77/"
                 },
                 {
                     "name": "stun-spore",
-                    "url": "http://127.0.0.1:8000/api/v2/move/78/"
+                    "url": "http://localhost/api/v2/move/78/"
                 },
                 {
                     "name": "sleep-powder",
-                    "url": "http://127.0.0.1:8000/api/v2/move/79/"
+                    "url": "http://localhost/api/v2/move/79/"
                 }
             ]
         },
@@ -24,15 +24,15 @@
         }
     },
     "contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/contest-effect/5/"
+        "url": "http://localhost/api/v2/contest-effect/5/"
     },
     "contest_type": {
         "name": "cute",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/3/"
+        "url": "http://localhost/api/v2/contest-type/3/"
     },
     "damage_class": {
         "name": "status",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/1/"
+        "url": "http://localhost/api/v2/move-damage-class/1/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -41,45 +41,344 @@
             "effect": "Lowers the target's evasion by one stage.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Lowers the target's evasion by one stage."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u9999\u308a\u3067\u3000\u76f8\u624b\u306e\u3000\u56de\u907f\u7387\u3092\n\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002\u8349\u3080\u3089\u3000\u306a\u3069\u3067\n\u4f7f\u3046\u3068\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u3088\u3063\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "A sweet scent that harshly lowers opposing\nPok\u00e9mon\u2019s evasiveness. This also lures wild\nPok\u00e9mon if used in places such as tall grass.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un dolce profumo che riduce di molto l\u2019elusione\ndei nemici intorno a chi la usa. Fuori dalla lotta\nattira i Pok\u00e9mon selvatici.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un dulce aroma engatusa al objetivo, por lo que se \nreduce mucho su Evasi\u00f3n. En la hierba alta sirve para \natraer a Pok\u00e9mon salvajes.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Senkt den Fluchtwert des Zieles stark.\nLockt im hohen Gras auch wilde Pok\u00e9mon an.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un doux parfum qui r\u00e9duit sensiblement l\u2019Esquive\nde l\u2019ennemi. Utilis\u00e9 hors d\u2019un combat, attire aussi\nles Pok\u00e9mon sauvages.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud5a5\uae30\ub85c \uc0c1\ub300\uc758 \ud68c\ud53c\uc728\uc744\n\ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4. \ud480\ubc2d \ub4f1\uc5d0\uc11c\n\uc4f0\uba74 \ud3ec\ucf13\ubaac\uc774 \ub2e4\uac00\uc628\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u304a\u308a\u3067\u3000\u3042\u3044\u3066\u306e\u3000\u304b\u3044\u3072\u308a\u3064\u3092\n\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002\u304f\u3055\u3080\u3089\u3000\u306a\u3069\u3067\n\u3064\u304b\u3046\u3068\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u3088\u3063\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u9999\u308a\u3067\u3000\u76f8\u624b\u306e\u3000\u56de\u907f\u7387\u3092\n\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002\u8349\u3080\u3089\u3000\u306a\u3069\u3067\n\u4f7f\u3046\u3068\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u3088\u3063\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A sweet scent that harshly lowers opposing\nPok\u00e9mon\u2019s evasiveness. This also lures wild\nPok\u00e9mon if used in places such as tall grass.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un dolce profumo che riduce di molto l\u2019elusione\ndei nemici intorno a chi la usa. Fuori dalla lotta\nattira i Pok\u00e9mon selvatici.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un dulce aroma engatusa al objetivo, por lo que\nse reduce mucho su Evasi\u00f3n. En la hierba\nalta sirve para atraer a Pok\u00e9mon salvajes.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Lockt Ziele an und senkt deren Fluchtwert.\nLockt im Gras auch wilde Pok\u00e9mon an.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un doux parfum qui r\u00e9duit sensiblement l\u2019Esquive\nde l\u2019ennemi. Utilis\u00e9 hors d\u2019un combat, attire aussi\nles Pok\u00e9mon sauvages.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud5a5\uae30\ub85c \uc0c1\ub300\uc758 \ud68c\ud53c\uc728\uc744\n\ud06c\uac8c \ub5a8\uc5b4\ub728\ub9b0\ub2e4. \ud480\ubc2d \ub4f1\uc5d0\uc11c\n\uc4f0\uba74 \ud3ec\ucf13\ubaac\uc774 \ub2e4\uac00\uc628\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u304a\u308a\u3067\u3000\u3042\u3044\u3066\u306e\u3000\u304b\u3044\u3072\u308a\u3064\u3092\n\u304c\u304f\u3063\u3068\u3000\u3055\u3052\u308b\u3002\u304f\u3055\u3080\u3089\u3000\u306a\u3069\u3067\n\u3064\u304b\u3046\u3068\u3000\u30dd\u30b1\u30e2\u30f3\u304c\u3000\u3088\u3063\u3066\u304f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "A sweet scent that lowers the opposing\nteam\u2019s evasiveness. It also lures wild\nPok\u00e9mon if used in grass, etc.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "A sweet scent that lowers the opposing\nteam\u2019s evasiveness. It also lures wild\nPok\u00e9mon if used in grass, etc.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un doux parfum qui r\u00e9duit l\u2019Esquive\nde l\u2019ennemi. Attire aussi\nles Pok\u00e9mon sauvages.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "A sweet scent that\nlowers the foe\u2019s\nevasiveness. It also\nlures wild Pok\u00e9mon\nif used in grass, etc.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "A sweet scent that\nlowers the foe\u2019s\nevasiveness. It also\nlures wild Pok\u00e9mon\nif used in grass, etc.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "A sweet scent that\nlowers the foe\u2019s\nevasiveness. It also\nlures wild Pok\u00e9mon\nif used in grass, etc.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Allures the foe to\nreduce evasiveness.\nIt also attracts\nwild POK\u00e9MON.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://localhost/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Allures the foe to reduce\nevasiveness.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "http://localhost/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Allures the foe to reduce\nevasiveness.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://localhost/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "Reduces the foe's\nevasiveness.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "http://localhost/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "Reduces the foe's\nevasiveness.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "http://localhost/api/v2/version-group/3/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-ii",
-        "url": "http://127.0.0.1:8000/api/v2/generation/2/"
+        "url": "http://localhost/api/v2/generation/2/"
     },
     "id": 230,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/179/"
+                "url": "http://localhost/api/v2/machine/179/"
             },
             "version_group": {
                 "name": "gold-silver",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/3/"
+                "url": "http://localhost/api/v2/version-group/3/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/180/"
+                "url": "http://localhost/api/v2/machine/180/"
             },
             "version_group": {
                 "name": "crystal",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+                "url": "http://localhost/api/v2/version-group/4/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "net-good-stats",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/2/"
+            "url": "http://localhost/api/v2/move-category/2/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -96,49 +395,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Sweet Scent"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Profumino"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Dulce Aroma"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Lockduft"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Doux Parfum"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\ub2ec\ucf64\ud55c\ud5a5\uae30"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u3042\u307e\u3044\u304b\u304a\u308a"
         }
@@ -152,19 +451,19 @@
             "change": -2,
             "stat": {
                 "name": "evasion",
-                "url": "http://127.0.0.1:8000/api/v2/stat/8/"
+                "url": "http://localhost/api/v2/stat/8/"
             }
         }
     ],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/19/"
+        "url": "http://localhost/api/v2/super-contest-effect/19/"
     },
     "target": {
         "name": "all-opponents",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/11/"
+        "url": "http://localhost/api/v2/move-target/11/"
     },
     "type": {
         "name": "normal",
-        "url": "http://127.0.0.1:8000/api/v2/type/1/"
+        "url": "http://localhost/api/v2/type/1/"
     }
 }

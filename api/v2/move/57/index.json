@@ -5,17 +5,17 @@
             "use_after": [
                 {
                     "name": "rain-dance",
-                    "url": "http://127.0.0.1:8000/api/v2/move/240/"
+                    "url": "http://localhost/api/v2/move/240/"
                 },
                 {
                     "name": "dive",
-                    "url": "http://127.0.0.1:8000/api/v2/move/291/"
+                    "url": "http://localhost/api/v2/move/291/"
                 }
             ],
             "use_before": [
                 {
                     "name": "dive",
-                    "url": "http://127.0.0.1:8000/api/v2/move/291/"
+                    "url": "http://localhost/api/v2/move/291/"
                 }
             ]
         },
@@ -25,15 +25,15 @@
         }
     },
     "contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/contest-effect/2/"
+        "url": "http://localhost/api/v2/contest-effect/2/"
     },
     "contest_type": {
         "name": "beauty",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/2/"
+        "url": "http://localhost/api/v2/contest-type/2/"
     },
     "damage_class": {
         "name": "special",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/3/"
+        "url": "http://localhost/api/v2/move-damage-class/3/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -42,171 +42,470 @@
             "effect": "Inflicts regular damage.\n\nIf the target is in the first turn of dive, this move will hit with double power.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Inflicts regular damage and can hit Dive users."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5927\u304d\u306a\u3000\u6ce2\u3067\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6c34\u4e0a\u3082\u3000\u6cf3\u3044\u3067\u3000\u9032\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks everything around it by\nswamping its surroundings with a giant wave.\nThis can also be used for crossing water.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un\u2019onda enorme sommerge il campo di lotta,\ncolpendo tutti i Pok\u00e9mon intorno a chi la scatena.\nFuori dalla lotta si usa per spostarsi sull\u2019acqua.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Inunda el campo de batalla con una ola gigante. \nFuera de batalla sirve para moverse sobre el agua. ",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Eine Welle bricht \u00fcber alle Pok\u00e9mon in der N\u00e4he\ndes Anwenders herein. Macht Surfen m\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Une \u00e9norme vague s\u2019abat sur le champ de bataille.\nPermet aussi de voyager sur l\u2019eau.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud070 \ud30c\ub3c4\ub85c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\ubb3c \uc704\ub3c4 \ud5e4\uc5c4\uccd0\uc11c \ub098\uc544\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u304d\u306a\u3000\u306a\u202f\u3067\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u202f\u305a\u306e\u3000\u3046\u3048\u3082\u3000\u304a\u3088\u3044\u3067\u3000\u3059\u3059\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u304d\u306a\u3000\u6ce2\u3067\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6c34\u4e0a\u3082\u3000\u6cf3\u3044\u3067\u3000\u9032\u3081\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks everything around it by\nswamping its surroundings with a giant wave.\nThis can also be used for crossing water.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un\u2019onda enorme sommerge il campo di lotta,\ncolpendo tutti i Pok\u00e9mon intorno a chi la scatena.\nFuori dalla lotta si usa per spostarsi sull\u2019acqua.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Inunda el campo de batalla con una ola gigante.\nFuera de batalla sirve para moverse sobre el agua.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Eine Welle bricht \u00fcber alle Pok\u00e9mon in der N\u00e4he\ndes Anwenders herein. Macht Surfen m\u00f6glich.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Une \u00e9norme vague s\u2019abat sur le champ de bataille.\nPermet aussi de voyager sur l\u2019eau.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud070 \ud30c\ub3c4\ub85c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\ubb3c \uc704\ub3c4 \ud5e4\uc5c4\uccd0\uc11c \ub098\uc544\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u304d\u306a\u3000\u306a\u307f\u3067\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u307f\u305a\u306e\u3000\u3046\u3048\u3082\u3000\u304a\u3088\u3044\u3067\u3000\u3059\u3059\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "It swamps the area around the user\nwith a giant wave.\nIt can also be used for crossing water.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "It swamps the area around the user\nwith a giant wave.\nIt can also be used for crossing water.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Une \u00e9norme vague s\u2019abat sur le\nchamp de bataille. Permet aussi\nde voyager sur l\u2019eau.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "It swamps the entire\nbattlefield with a\ngiant wave.\nIt can also be used\nfor crossing water.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "It swamps the entire\nbattlefield with a\ngiant wave.\nIt can also be used\nfor crossing water.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "It swamps the entire\nbattlefield with a\ngiant wave.\nIt can also be used\nfor crossing water.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "A big wave crashes\ndown on the foe.\nCan also be used\nfor crossing water.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://localhost/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Creates a huge wave, then\ncrashes it down on the foe.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "http://localhost/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Creates a huge wave, then\ncrashes it down on the foe.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://localhost/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "A strong water-\ntype attack.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "http://localhost/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "A strong water-\ntype attack.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "http://localhost/api/v2/version-group/3/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-i",
-        "url": "http://127.0.0.1:8000/api/v2/generation/1/"
+        "url": "http://localhost/api/v2/generation/1/"
     },
     "id": 57,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1149/"
+                "url": "http://localhost/api/v2/machine/1149/"
             },
             "version_group": {
                 "name": "red-blue",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/1/"
+                "url": "http://localhost/api/v2/version-group/1/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1150/"
+                "url": "http://localhost/api/v2/machine/1150/"
             },
             "version_group": {
                 "name": "yellow",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/2/"
+                "url": "http://localhost/api/v2/version-group/2/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1151/"
+                "url": "http://localhost/api/v2/machine/1151/"
             },
             "version_group": {
                 "name": "gold-silver",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/3/"
+                "url": "http://localhost/api/v2/version-group/3/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1152/"
+                "url": "http://localhost/api/v2/machine/1152/"
             },
             "version_group": {
                 "name": "crystal",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+                "url": "http://localhost/api/v2/version-group/4/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1153/"
+                "url": "http://localhost/api/v2/machine/1153/"
             },
             "version_group": {
                 "name": "ruby-sapphire",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+                "url": "http://localhost/api/v2/version-group/5/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1154/"
+                "url": "http://localhost/api/v2/machine/1154/"
             },
             "version_group": {
                 "name": "emerald",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+                "url": "http://localhost/api/v2/version-group/6/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1155/"
+                "url": "http://localhost/api/v2/machine/1155/"
             },
             "version_group": {
                 "name": "firered-leafgreen",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+                "url": "http://localhost/api/v2/version-group/7/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1156/"
+                "url": "http://localhost/api/v2/machine/1156/"
             },
             "version_group": {
                 "name": "diamond-pearl",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                "url": "http://localhost/api/v2/version-group/8/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1157/"
+                "url": "http://localhost/api/v2/machine/1157/"
             },
             "version_group": {
                 "name": "platinum",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                "url": "http://localhost/api/v2/version-group/9/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1158/"
+                "url": "http://localhost/api/v2/machine/1158/"
             },
             "version_group": {
                 "name": "heartgold-soulsilver",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                "url": "http://localhost/api/v2/version-group/10/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1159/"
+                "url": "http://localhost/api/v2/machine/1159/"
             },
             "version_group": {
                 "name": "black-white",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                "url": "http://localhost/api/v2/version-group/11/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1160/"
+                "url": "http://localhost/api/v2/machine/1160/"
             },
             "version_group": {
                 "name": "colosseum",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/12/"
+                "url": "http://localhost/api/v2/version-group/12/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1161/"
+                "url": "http://localhost/api/v2/machine/1161/"
             },
             "version_group": {
                 "name": "xd",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/13/"
+                "url": "http://localhost/api/v2/version-group/13/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1162/"
+                "url": "http://localhost/api/v2/machine/1162/"
             },
             "version_group": {
                 "name": "black-2-white-2",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                "url": "http://localhost/api/v2/version-group/14/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1163/"
+                "url": "http://localhost/api/v2/machine/1163/"
             },
             "version_group": {
                 "name": "x-y",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                "url": "http://localhost/api/v2/version-group/15/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1164/"
+                "url": "http://localhost/api/v2/machine/1164/"
             },
             "version_group": {
                 "name": "omega-ruby-alpha-sapphire",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                "url": "http://localhost/api/v2/version-group/16/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -223,49 +522,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Surf"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Surf"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Surf"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Surfer"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Surf"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\ud30c\ub3c4\ud0c0\uae30"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u306a\u307f\u306e\u308a"
         }
@@ -276,14 +575,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/17/"
+        "url": "http://localhost/api/v2/super-contest-effect/17/"
     },
     "target": {
         "name": "all-other-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/9/"
+        "url": "http://localhost/api/v2/move-target/9/"
     },
     "type": {
         "name": "water",
-        "url": "http://127.0.0.1:8000/api/v2/type/11/"
+        "url": "http://localhost/api/v2/type/11/"
     }
 }

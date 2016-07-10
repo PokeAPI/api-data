@@ -2,15 +2,15 @@
     "accuracy": 90,
     "contest_combos": null,
     "contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/contest-effect/17/"
+        "url": "http://localhost/api/v2/contest-effect/17/"
     },
     "contest_type": {
         "name": "cute",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/3/"
+        "url": "http://localhost/api/v2/contest-type/3/"
     },
     "damage_class": {
         "name": "physical",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+        "url": "http://localhost/api/v2/move-damage-class/2/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -19,26 +19,325 @@
             "effect": "Randomly uses one of the following effects.\n\nEffect                                             | Chance\n-------------------------------------------------- | -----:\nInflicts regular damage with 40 power  |    40%\nInflicts regular damage with 80 power  |    30%\nInflicts regular damage with 120 power |    10%\nHeals the target for 1/4 its max HP    |    20%\n\nOn average, this move inflicts regular damage with 52 power and heals the target for 1/20 its max HP.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u308f\u306a\u3092\u3000\u3057\u304b\u3051\u305f\u3000\u7bb1\u3092\n\u76f8\u624b\u306b\u3000\u308f\u305f\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\uff28\uff30\u304c\n\u56de\u5fa9\u3057\u3066\u3000\u3057\u307e\u3046\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by giving the target a\ngift with a hidden trap. It restores\nHP sometimes, however.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa d\u00e0 un regalo bomba al bersaglio.\nA volte, per\u00f2, pu\u00f2 fargli recuperare PS.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Quien lo usa ataca al objetivo d\u00e1ndole un regalo con \nbomba trampa. Sin embargo, a veces restaura sus PS. ",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Eine Bombe als Geschenk. Kann auch KP\ndes Zieles wiederherstellen.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en offrant un cadeau pi\u00e9g\u00e9 \u00e0 la\ncible. Peut cependant restaurer certains de ses PV.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ub36b\uc744 \uc124\uce58\ud55c \uc0c1\uc790\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uac74\ub124\uc5b4 \uacf5\uaca9\ud55c\ub2e4.\nHP\uac00 \ud68c\ubcf5\ub3fc\ubc84\ub9b4 \ub54c\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u306a\u3092\u3000\u3057\u304b\u3051\u305f\u3000\u306f\u3053\u3092\n\u3042\u3044\u3066\u306b\u3000\u308f\u305f\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\uff28\uff30\u304c\n\u304b\u3044\u3075\u304f\u3057\u3066\u3000\u3057\u307e\u3046\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u306a\u3092\u3000\u3057\u304b\u3051\u305f\u3000\u7bb1\u3092\n\u76f8\u624b\u306b\u3000\u308f\u305f\u3057\u3066\u3000\u653b\u6483\u3059\u308b\u3002\uff28\uff30\u304c\n\u56de\u5fa9\u3057\u3066\u3000\u3057\u307e\u3046\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by giving the target a\ngift with a hidden trap. It restores\nHP sometimes, however.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa d\u00e0 un regalo bomba al bersaglio.\nA volte, per\u00f2, pu\u00f2 fargli recuperare PS.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Quien lo usa ataca al objetivo d\u00e1ndole un regalo\ncon bomba trampa. Sin embargo, a veces restaura\nsus PS.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Eine Bombe als Geschenk. Kann auch KP\ndes Zieles wiederherstellen.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en offrant un cadeau pi\u00e9g\u00e9 \u00e0 la\ncible. Peut cependant restaurer certains de ses PV.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ub36b\uc744 \uc124\uce58\ud55c \uc0c1\uc790\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uac74\ub124\uc5b4 \uacf5\uaca9\ud55c\ub2e4.\nHP\uac00 \ud68c\ubcf5\ub3fc\ubc84\ub9b4 \ub54c\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u308f\u306a\u3092\u3000\u3057\u304b\u3051\u305f\u3000\u306f\u3053\u3092\n\u3042\u3044\u3066\u306b\u3000\u308f\u305f\u3057\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\uff28\uff30\u304c\n\u304b\u3044\u3075\u304f\u3057\u3066\u3000\u3057\u307e\u3046\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by giving the target a\ngift with a hidden trap. It restores\nHP sometimes, however.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by giving the target a\ngift with a hidden trap. It restores\nHP sometimes, however.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur attaque en offrant un cadeau\npi\u00e9g\u00e9 \u00e0 la cible. Peut \u00e0 l\u2019inverse\nrestaurer certains de ses PV.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by\ngiving the foe a\nbooby-trapped gift.\nIt restores HP\nsometimes, however.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by\ngiving the foe a\nbooby-trapped gift.\nIt restores HP\nsometimes, however.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by\ngiving the foe a\nbooby-trapped gift.\nIt restores HP\nsometimes, however.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is given a\nbooby-trapped gift.\nIt restores HP\nsometimes, however.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://localhost/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "A gift in the form of a\nbomb. May restore HP.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "http://localhost/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "A gift in the form of a\nbomb. May restore HP.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://localhost/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "A bomb that may\nrestore HP.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "crystal",
+                "url": "http://localhost/api/v2/version-group/4/"
+            }
+        },
+        {
+            "flavor_text": "A bomb that may\nrestore HP.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "gold-silver",
+                "url": "http://localhost/api/v2/version-group/3/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-ii",
-        "url": "http://127.0.0.1:8000/api/v2/generation/2/"
+        "url": "http://localhost/api/v2/generation/2/"
     },
     "id": 217,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -55,49 +354,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Present"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Regalino"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Presente"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Geschenk"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Cadeau"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\ud504\ub808\uc820\ud2b8"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u30d7\u30ec\u30bc\u30f3\u30c8"
         }
@@ -108,14 +407,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/16/"
+        "url": "http://localhost/api/v2/super-contest-effect/16/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "normal",
-        "url": "http://127.0.0.1:8000/api/v2/type/1/"
+        "url": "http://localhost/api/v2/type/1/"
     }
 }

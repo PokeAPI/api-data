@@ -5,7 +5,7 @@
     "contest_type": null,
     "damage_class": {
         "name": "status",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/1/"
+        "url": "http://localhost/api/v2/move-damage-class/1/"
     },
     "effect_chance": 100,
     "effect_changes": [],
@@ -14,45 +14,223 @@
             "effect": "Lowers the target's Special Attack by one stage.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Lowers the target's Special Attack by one stage."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u306a\u3044\u3057\u3087\u3070\u306a\u3057\u3092\u3000\u3059\u308b\u3053\u3068\u3067\u3000\u76f8\u624b\u306e\n\u96c6\u4e2d\u529b\u3092\u3000\u5931\u308f\u305b\n\u76f8\u624b\u306e\u3000\u7279\u653b\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user tells the target a secret, and the target\nloses its ability to concentrate. This lowers\nthe target\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa svela dei segreti al bersaglio,\ndistraendolo e riducendone l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Hace que el objetivo pierda la concentraci\u00f3n \ncont\u00e1ndole un secreto. Disminuye el Ataque\nEspecial del oponente.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender vertraut dem Ziel ein Geheimnis an\nund st\u00f6rt auf diese Weise seine Konzentration.\nDer Spezial-Angriff des Zieles sinkt.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "D\u00e9voile des secrets \u00e0 l\u2019ennemi qui perd sa\nconcentration et voit son Attaque Sp\u00e9ciale\ndiminuer.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ube44\ubc00 \uc774\uc57c\uae30\ub97c \ud558\uba74\uc11c \uc0c1\ub300\uc758\n\uc9d1\uc911\ub825\uc744 \uc783\uac8c \ud558\uc5ec\n\uc0c1\ub300\uc758 \ud2b9\uc218\uacf5\uaca9\uc744 \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3044\u3057\u3087\u3070\u306a\u3057\u3092\u3000\u3059\u308b\u3053\u3068\u3067\u3000\u3042\u3044\u3066\u306e\n\u3057\u3085\u3046\u3061\u3085\u3046\u308a\u3087\u304f\u3092\u3000\u3046\u3057\u306a\u308f\u305b\n\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3044\u3057\u3087\u3070\u306a\u3057\u3092\u3000\u3059\u308b\u3053\u3068\u3067\u3000\u76f8\u624b\u306e\n\u96c6\u4e2d\u529b\u3092\u3000\u5931\u308f\u305b\n\u76f8\u624b\u306e\u3000\u7279\u653b\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user tells the target a secret, and the target\nloses its ability to concentrate. This lowers\nthe target\u2019s Sp. Atk stat.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa svela dei segreti al bersaglio,\ndistraendolo e riducendone l\u2019Attacco Speciale.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Hace que el objetivo pierda la concentraci\u00f3n\ncont\u00e1ndole un secreto. Disminuye el Ataque\nEspecial del oponente.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender vertraut dem Ziel ein Geheimnis an\nund st\u00f6rt auf diese Weise seine Konzentration.\nDer Spezial-Angriff des Zieles sinkt.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "D\u00e9voile des secrets \u00e0 l\u2019ennemi qui perd sa\nconcentration et voit son Attaque Sp\u00e9ciale\ndiminuer.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ube44\ubc00 \uc774\uc57c\uae30\ub97c \ud558\uba74\uc11c \uc0c1\ub300\uc758\n\uc9d1\uc911\ub825\uc744 \uc783\uac8c \ud558\uc5ec\n\uc0c1\ub300\uc758 \ud2b9\uc218\uacf5\uaca9\uc744 \ub5a8\uc5b4\ub728\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3044\u3057\u3087\u3070\u306a\u3057\u3092\u3000\u3059\u308b\u3053\u3068\u3067\u3000\u3042\u3044\u3066\u306e\n\u3057\u3085\u3046\u3061\u3085\u3046\u308a\u3087\u304f\u3092\u3000\u3046\u3057\u306a\u308f\u305b\n\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u3053\u3046\u3092\u3000\u3055\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-vi",
-        "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+        "url": "http://localhost/api/v2/generation/6/"
     },
     "id": 590,
     "machines": [
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1115/"
+                "url": "http://localhost/api/v2/machine/1115/"
             },
             "version_group": {
                 "name": "x-y",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                "url": "http://localhost/api/v2/version-group/15/"
             }
         },
         {
             "machine": {
-                "url": "http://127.0.0.1:8000/api/v2/machine/1116/"
+                "url": "http://localhost/api/v2/machine/1116/"
             },
             "version_group": {
                 "name": "omega-ruby-alpha-sapphire",
-                "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                "url": "http://localhost/api/v2/version-group/16/"
             }
         }
     ],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "net-good-stats",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/2/"
+            "url": "http://localhost/api/v2/move-category/2/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -69,49 +247,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Confide"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Confidenza"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Confidencia"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Vertrauenssache"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Confidence"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\ube44\ubc00\uc774\uc57c\uae30"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u306a\u3044\u3057\u3087\u3070\u306a\u3057"
         }
@@ -125,17 +303,17 @@
             "change": -1,
             "stat": {
                 "name": "special-attack",
-                "url": "http://127.0.0.1:8000/api/v2/stat/4/"
+                "url": "http://localhost/api/v2/stat/4/"
             }
         }
     ],
     "super_contest_effect": null,
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "normal",
-        "url": "http://127.0.0.1:8000/api/v2/type/1/"
+        "url": "http://localhost/api/v2/type/1/"
     }
 }

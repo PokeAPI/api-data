@@ -5,7 +5,7 @@
     "contest_type": null,
     "damage_class": {
         "name": "status",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/1/"
+        "url": "http://localhost/api/v2/move-damage-class/1/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -14,26 +14,237 @@
             "effect": "Changes the target's ability to match the user's.  This effect ends when the target leaves battle.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "Copies the user's ability onto the target."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u30ea\u30ba\u30e0\u3067\u3000\u304a\u3069\u308b\u3002\n\u52d5\u304d\u3092\u3000\u307e\u306d\u3055\u305b\u3066\u3000\u81ea\u5206\u3068\u3000\u76f8\u624b\u306e\n\u7279\u6027\u3092\u3000\u540c\u3058\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user dances with an odd rhythm that\ncompels the target to mimic it, making the\ntarget\u2019s Ability the same as the user\u2019s.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa saltella con un buffo ritmo, inducendo\nil bersaglio a imitarlo e rendendo la sua abilit\u00e0\nidentica alla propria.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Una extra\u00f1a danza que hace que el usuario y el \nobjetivo tengan la misma habilidad.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Anwender tanzt zu einem seltsamem Rhythmus\nund zwingt das Ziel mitzumachen. Dieses nimmt\ndabei die F\u00e4higkeit des Anwenders an.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur danse sur un rythme \u00e9trange.\nIl force sa cible \u00e0 l\u2019imiter, ce qui lui fait adopter\nson talent.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ub9ac\ub4ec\uc73c\ub85c \ucda4\ucd98\ub2e4.\n\uc6c0\uc9c1\uc784\uc744 \ud749\ub0b4 \ub0b4\uac8c \ud574\uc11c\n\uc790\uc2e0\uacfc \uc0c1\ub300\uc758 \ud2b9\uc131\uc744 \ub611\uac19\uac8c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u30ea\u30ba\u30e0\u3067\u3000\u304a\u3069\u308b\u3002\n\u3046\u3054\u304d\u3092\u3000\u307e\u306d\u3055\u305b\u3066\u3000\u3058\u3076\u3093\u3068\u3000\u3042\u3044\u3066\u306e\n\u3068\u304f\u305b\u3044\u3092\u3000\u304a\u306a\u3058\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u4e0d\u601d\u8b70\u306a\u3000\u30ea\u30ba\u30e0\u3067\u3000\u304a\u3069\u308b\u3002\n\u52d5\u304d\u3092\u3000\u307e\u306d\u3055\u305b\u3066\u3000\u81ea\u5206\u3068\u3000\u76f8\u624b\u306e\n\u7279\u6027\u3092\u3000\u540c\u3058\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user dances with an odd rhythm that\ncompels the target to mimic it, making the\ntarget\u2019s Ability the same as the user\u2019s.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa saltella con un buffo ritmo, inducendo\nil bersaglio a imitarlo e rendendo la sua abilit\u00e0\nidentica alla propria.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Una extra\u00f1a danza que hace que el usuario y el\nobjetivo tengan la misma habilidad.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Anwender tanzt zu einem seltsamem Rhythmus\nund zwingt das Ziel mitzumachen. Dieses nimmt\ndabei die F\u00e4higkeit des Anwenders an.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur danse sur un rythme \u00e9trange.\nIl force sa cible \u00e0 l\u2019imiter, ce qui lui fait adopter\nson talent.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\uc774\uc0c1\ud55c \ub9ac\ub4ec\uc73c\ub85c \ucda4\ucd98\ub2e4.\n\uc6c0\uc9c1\uc784\uc744 \ud749\ub0b4 \ub0b4\uac8c \ud574\uc11c\n\uc790\uc2e0\uacfc \uc0c1\ub300\uc758 \ud2b9\uc131\uc744 \ub611\uac19\uac8c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3075\u3057\u304e\u306a\u3000\u30ea\u30ba\u30e0\u3067\u3000\u304a\u3069\u308b\u3002\n\u3046\u3054\u304d\u3092\u3000\u307e\u306d\u3055\u305b\u3066\u3000\u3058\u3076\u3093\u3068\u3000\u3042\u3044\u3066\u306e\n\u3068\u304f\u305b\u3044\u3092\u3000\u304a\u306a\u3058\u306b\u3000\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user dances with an odd rhythm that\ncompels the target to mimic it, making the\ntarget\u2019s Ability the same as the user\u2019s.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user dances with an odd rhythm that\ncompels the target to mimic it, making the\ntarget\u2019s Ability the same as the user\u2019s.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur danse sur un rythme \u00e9trange.\nIl force sa cible \u00e0 l\u2019imiter, ce qui lui fait\nadopter sa capacit\u00e9 sp\u00e9ciale.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-v",
-        "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+        "url": "http://localhost/api/v2/generation/5/"
     },
     "id": 494,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "unique",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/13/"
+            "url": "http://localhost/api/v2/move-category/13/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -50,49 +261,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Entrainment"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Saltamicizia"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Danza Amiga"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Zwango"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "Ten-danse"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\ub3d9\ub8cc\ub9cc\ub4e4\uae30"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u306a\u304b\u307e\u3065\u304f\u308a"
         }
@@ -105,10 +316,10 @@
     "super_contest_effect": null,
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "normal",
-        "url": "http://127.0.0.1:8000/api/v2/type/1/"
+        "url": "http://localhost/api/v2/type/1/"
     }
 }

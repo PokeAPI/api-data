@@ -5,7 +5,7 @@
             "use_after": [
                 {
                     "name": "growth",
-                    "url": "http://127.0.0.1:8000/api/v2/move/74/"
+                    "url": "http://localhost/api/v2/move/74/"
                 }
             ],
             "use_before": null
@@ -16,15 +16,15 @@
         }
     },
     "contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/contest-effect/6/"
+        "url": "http://localhost/api/v2/contest-effect/6/"
     },
     "contest_type": {
         "name": "cool",
-        "url": "http://127.0.0.1:8000/api/v2/contest-type/1/"
+        "url": "http://localhost/api/v2/contest-type/1/"
     },
     "damage_class": {
         "name": "special",
-        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/3/"
+        "url": "http://localhost/api/v2/move-damage-class/3/"
     },
     "effect_chance": null,
     "effect_changes": [],
@@ -33,26 +33,303 @@
             "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "short_effect": "User foregoes its next turn to recharge."
         }
     ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u5927\u304d\u306a\u3000\u6a39\u6728\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "The user slams the target with\nan enormous tree.\nThe user can\u2019t move on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un groviglio di radici colpisce il bersaglio.\nChi la usa salta il turno successivo.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Golpea con una enorme planta. Quien lo usa no \npuede moverse en el siguiente turno.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit dickem Ast. Der Angreifer muss\neine Runde aussetzen.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Un violent coup de racines s\u2019abat sur l\u2019ennemi.\nImmobilise le lanceur au tour suivant.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud070 \ub098\ubb34\ub85c\n\uc0c1\ub300\ub97c \ud798\uaecf \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u304d\u306a\u3000\u3058\u3085\u3082\u304f\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "http://localhost/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u304d\u306a\u3000\u6a39\u6728\u3067\n\u76f8\u624b\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://localhost/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user slams the target with\nan enormous tree.\nThe user can\u2019t move on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un groviglio di radici colpisce il bersaglio.\nChi la usa salta il turno successivo.",
+            "language": {
+                "name": "it",
+                "url": "http://localhost/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Golpea con una enorme planta. Quien lo usa no\npuede moverse en el siguiente turno.",
+            "language": {
+                "name": "es",
+                "url": "http://localhost/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Angriff mit dickem Ast. Der Angreifer muss\neine Runde aussetzen.",
+            "language": {
+                "name": "de",
+                "url": "http://localhost/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Un violent coup de racines s\u2019abat sur l\u2019ennemi.\nImmobilise le lanceur au tour suivant.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud070 \ub098\ubb34\ub85c\n\uc0c1\ub300\ub97c \ud798\uaecf \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "http://localhost/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u304d\u306a\u3000\u3058\u3085\u3082\u304f\u3067\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "http://localhost/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "http://localhost/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "The user slams the target with\nan enormous tree.\nThe user can\u2019t move on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://localhost/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "The user slams the target with\nan enormous tree.\nThe user can\u2019t move on the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Un violent coup de racines s\u2019abat sur\nl\u2019ennemi. Immobilise le lanceur au tour\nsuivant.",
+            "language": {
+                "name": "fr",
+                "url": "http://localhost/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "http://localhost/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "The foe is slammed\nwith an enormous\ntree.\nThe user can\u2019t move\non the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://localhost/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "The foe is slammed\nwith an enormous\ntree.\nThe user can\u2019t move\non the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "http://localhost/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "The foe is slammed\nwith an enormous\ntree.\nThe user can\u2019t move\non the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://localhost/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "The foe is hit with\nan enormous branch.\nThe user can\u2019t move\non the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://localhost/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Powerful, but leaves the\nuser immobile the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "http://localhost/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "Powerful, but leaves the\nuser immobile the next turn.",
+            "language": {
+                "name": "en",
+                "url": "http://localhost/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://localhost/api/v2/version-group/5/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-iii",
-        "url": "http://127.0.0.1:8000/api/v2/generation/3/"
+        "url": "http://localhost/api/v2/generation/3/"
     },
     "id": 338,
     "machines": [],
     "meta": {
         "ailment": {
             "name": "none",
-            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+            "url": "http://localhost/api/v2/move-ailment/0/"
         },
         "ailment_chance": 0,
         "category": {
             "name": "damage",
-            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+            "url": "http://localhost/api/v2/move-category/0/"
         },
         "crit_rate": 0,
         "drain": 0,
@@ -69,49 +346,49 @@
         {
             "language": {
                 "name": "en",
-                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+                "url": "http://localhost/api/v2/language/9/"
             },
             "name": "Frenzy Plant"
         },
         {
             "language": {
                 "name": "it",
-                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+                "url": "http://localhost/api/v2/language/8/"
             },
             "name": "Radicalbero"
         },
         {
             "language": {
                 "name": "es",
-                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+                "url": "http://localhost/api/v2/language/7/"
             },
             "name": "Planta Feroz"
         },
         {
             "language": {
                 "name": "de",
-                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+                "url": "http://localhost/api/v2/language/6/"
             },
             "name": "Fauna-Statue"
         },
         {
             "language": {
                 "name": "fr",
-                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+                "url": "http://localhost/api/v2/language/5/"
             },
             "name": "V\u00e9g\u00e9-Attak"
         },
         {
             "language": {
                 "name": "ko",
-                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+                "url": "http://localhost/api/v2/language/3/"
             },
             "name": "\ud558\ub4dc\ud50c\ub79c\ud2b8"
         },
         {
             "language": {
                 "name": "ja",
-                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+                "url": "http://localhost/api/v2/language/1/"
             },
             "name": "\u30cf\u30fc\u30c9\u30d7\u30e9\u30f3\u30c8"
         }
@@ -122,14 +399,14 @@
     "priority": 0,
     "stat_changes": [],
     "super_contest_effect": {
-        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/22/"
+        "url": "http://localhost/api/v2/super-contest-effect/22/"
     },
     "target": {
         "name": "selected-pokemon",
-        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+        "url": "http://localhost/api/v2/move-target/10/"
     },
     "type": {
         "name": "grass",
-        "url": "http://127.0.0.1:8000/api/v2/type/12/"
+        "url": "http://localhost/api/v2/type/12/"
     }
 }
