@@ -17,7 +17,7 @@
             "slot": 1
         }
     ],
-    "base_experience": 39,
+    "base_experience": 56,
     "forms": [
         {
             "name": "wurmple",
@@ -125,7 +125,38 @@
         }
     ],
     "height": 3,
-    "held_items": [],
+    "held_items": [
+        {
+            "item": {
+                "name": "pecha-berry",
+                "url": "http://localhost/api/v2/item/128/"
+            },
+            "version_details": [
+                {
+                    "rarity": 50,
+                    "version": {
+                        "name": "moon",
+                        "url": "http://localhost/api/v2/version/28/"
+                    }
+                }
+            ]
+        },
+        {
+            "item": {
+                "name": "bright-powder",
+                "url": "http://localhost/api/v2/item/190/"
+            },
+            "version_details": [
+                {
+                    "rarity": 5,
+                    "version": {
+                        "name": "moon",
+                        "url": "http://localhost/api/v2/version/28/"
+                    }
+                }
+            ]
+        }
+    ],
     "id": 265,
     "is_default": true,
     "location_area_encounters": "/api/v2/pokemon/265/encounters",
@@ -136,6 +167,17 @@
                 "url": "http://localhost/api/v2/move/33/"
             },
             "version_group_details": [
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "sun-moon",
+                        "url": "http://localhost/api/v2/version-group/17/"
+                    }
+                },
                 {
                     "level_learned_at": 1,
                     "move_learn_method": {
@@ -283,8 +325,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "ruby-sapphire",
-                        "url": "http://localhost/api/v2/version-group/5/"
+                        "name": "sun-moon",
+                        "url": "http://localhost/api/v2/version-group/17/"
                     }
                 },
                 {
@@ -294,96 +336,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "emerald",
-                        "url": "http://localhost/api/v2/version-group/6/"
-                    }
-                },
-                {
-                    "level_learned_at": 5,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "firered-leafgreen",
-                        "url": "http://localhost/api/v2/version-group/7/"
-                    }
-                },
-                {
-                    "level_learned_at": 5,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "diamond-pearl",
-                        "url": "http://localhost/api/v2/version-group/8/"
-                    }
-                },
-                {
-                    "level_learned_at": 5,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "platinum",
-                        "url": "http://localhost/api/v2/version-group/9/"
-                    }
-                },
-                {
-                    "level_learned_at": 5,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "heartgold-soulsilver",
-                        "url": "http://localhost/api/v2/version-group/10/"
-                    }
-                },
-                {
-                    "level_learned_at": 5,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "http://localhost/api/v2/version-group/11/"
-                    }
-                },
-                {
-                    "level_learned_at": 5,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "colosseum",
-                        "url": "http://localhost/api/v2/version-group/12/"
-                    }
-                },
-                {
-                    "level_learned_at": 5,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "xd",
-                        "url": "http://localhost/api/v2/version-group/13/"
-                    }
-                },
-                {
-                    "level_learned_at": 5,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "http://localhost/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://localhost/api/v2/version-group/16/"
                     }
                 },
                 {
@@ -404,8 +358,107 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "http://localhost/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "http://localhost/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 5,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "xd",
+                        "url": "http://localhost/api/v2/version-group/13/"
+                    }
+                },
+                {
+                    "level_learned_at": 5,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "colosseum",
+                        "url": "http://localhost/api/v2/version-group/12/"
+                    }
+                },
+                {
+                    "level_learned_at": 5,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://localhost/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 5,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "heartgold-soulsilver",
+                        "url": "http://localhost/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 5,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "platinum",
+                        "url": "http://localhost/api/v2/version-group/9/"
+                    }
+                },
+                {
+                    "level_learned_at": 5,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "diamond-pearl",
+                        "url": "http://localhost/api/v2/version-group/8/"
+                    }
+                },
+                {
+                    "level_learned_at": 5,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "firered-leafgreen",
+                        "url": "http://localhost/api/v2/version-group/7/"
+                    }
+                },
+                {
+                    "level_learned_at": 5,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "emerald",
+                        "url": "http://localhost/api/v2/version-group/6/"
+                    }
+                },
+                {
+                    "level_learned_at": 5,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ruby-sapphire",
+                        "url": "http://localhost/api/v2/version-group/5/"
                     }
                 }
             ]
@@ -423,8 +476,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "ruby-sapphire",
-                        "url": "http://localhost/api/v2/version-group/5/"
+                        "name": "sun-moon",
+                        "url": "http://localhost/api/v2/version-group/17/"
                     }
                 },
                 {
@@ -434,8 +487,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "emerald",
-                        "url": "http://localhost/api/v2/version-group/6/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://localhost/api/v2/version-group/16/"
                     }
                 },
                 {
@@ -445,8 +498,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "firered-leafgreen",
-                        "url": "http://localhost/api/v2/version-group/7/"
+                        "name": "x-y",
+                        "url": "http://localhost/api/v2/version-group/15/"
                     }
                 },
                 {
@@ -456,8 +509,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "diamond-pearl",
-                        "url": "http://localhost/api/v2/version-group/8/"
+                        "name": "black-2-white-2",
+                        "url": "http://localhost/api/v2/version-group/14/"
                     }
                 },
                 {
@@ -467,8 +520,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "platinum",
-                        "url": "http://localhost/api/v2/version-group/9/"
+                        "name": "xd",
+                        "url": "http://localhost/api/v2/version-group/13/"
                     }
                 },
                 {
@@ -478,8 +531,19 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "heartgold-soulsilver",
-                        "url": "http://localhost/api/v2/version-group/10/"
+                        "name": "colosseum",
+                        "url": "http://localhost/api/v2/version-group/12/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://localhost/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -500,8 +564,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "http://localhost/api/v2/version-group/11/"
+                        "name": "heartgold-soulsilver",
+                        "url": "http://localhost/api/v2/version-group/10/"
                     }
                 },
                 {
@@ -511,8 +575,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "colosseum",
-                        "url": "http://localhost/api/v2/version-group/12/"
+                        "name": "platinum",
+                        "url": "http://localhost/api/v2/version-group/9/"
                     }
                 },
                 {
@@ -522,8 +586,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "xd",
-                        "url": "http://localhost/api/v2/version-group/13/"
+                        "name": "diamond-pearl",
+                        "url": "http://localhost/api/v2/version-group/8/"
                     }
                 },
                 {
@@ -533,8 +597,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "http://localhost/api/v2/version-group/14/"
+                        "name": "firered-leafgreen",
+                        "url": "http://localhost/api/v2/version-group/7/"
                     }
                 },
                 {
@@ -544,8 +608,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "x-y",
-                        "url": "http://localhost/api/v2/version-group/15/"
+                        "name": "emerald",
+                        "url": "http://localhost/api/v2/version-group/6/"
                     }
                 },
                 {
@@ -555,8 +619,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "http://localhost/api/v2/version-group/16/"
+                        "name": "ruby-sapphire",
+                        "url": "http://localhost/api/v2/version-group/5/"
                     }
                 }
             ]
@@ -626,19 +690,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "platinum",
-                        "url": "http://localhost/api/v2/version-group/9/"
-                    }
-                },
-                {
-                    "level_learned_at": 15,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "heartgold-soulsilver",
-                        "url": "http://localhost/api/v2/version-group/10/"
+                        "name": "sun-moon",
+                        "url": "http://localhost/api/v2/version-group/17/"
                     }
                 },
                 {
@@ -648,8 +701,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "heartgold-soulsilver",
-                        "url": "http://localhost/api/v2/version-group/10/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://localhost/api/v2/version-group/16/"
                     }
                 },
                 {
@@ -659,30 +712,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "black-white",
-                        "url": "http://localhost/api/v2/version-group/11/"
-                    }
-                },
-                {
-                    "level_learned_at": 15,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "http://localhost/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "http://localhost/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "http://localhost/api/v2/move-learn-method/3/"
-                    },
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "http://localhost/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://localhost/api/v2/version-group/16/"
                     }
                 },
                 {
@@ -697,14 +728,36 @@
                     }
                 },
                 {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "tutor",
+                        "url": "http://localhost/api/v2/move-learn-method/3/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "http://localhost/api/v2/version-group/14/"
+                    }
+                },
+                {
                     "level_learned_at": 15,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "http://localhost/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "http://localhost/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "http://localhost/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://localhost/api/v2/version-group/11/"
                     }
                 },
                 {
@@ -714,8 +767,30 @@
                         "url": "http://localhost/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "http://localhost/api/v2/version-group/16/"
+                        "name": "heartgold-soulsilver",
+                        "url": "http://localhost/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "heartgold-soulsilver",
+                        "url": "http://localhost/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://localhost/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "platinum",
+                        "url": "http://localhost/api/v2/version-group/9/"
                     }
                 }
             ]
@@ -733,8 +808,8 @@
                         "url": "http://localhost/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "http://localhost/api/v2/version-group/14/"
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://localhost/api/v2/version-group/16/"
                     }
                 },
                 {
@@ -744,27 +819,27 @@
                         "url": "http://localhost/api/v2/move-learn-method/3/"
                     },
                     "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "http://localhost/api/v2/version-group/16/"
+                        "name": "black-2-white-2",
+                        "url": "http://localhost/api/v2/version-group/14/"
                     }
                 }
             ]
         }
     ],
     "name": "wurmple",
-    "order": 320,
+    "order": 339,
     "species": {
         "name": "wurmple",
         "url": "http://localhost/api/v2/pokemon-species/265/"
     },
     "sprites": {
-        "back_default": "http://localhost/media/sprites/pokemon/back/265.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/265.png",
         "back_female": null,
-        "back_shiny": "http://localhost/media/sprites/pokemon/back/shiny/265.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/265.png",
         "back_shiny_female": null,
-        "front_default": "http://localhost/media/sprites/pokemon/265.png",
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
         "front_female": null,
-        "front_shiny": "http://localhost/media/sprites/pokemon/shiny/265.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/265.png",
         "front_shiny_female": null
     },
     "stats": [

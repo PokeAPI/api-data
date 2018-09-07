@@ -492,14 +492,24 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 40,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://localhost/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 35
+                        },
+                        {
                             "chance": 1,
                             "condition_values": [],
                             "max_level": 40,
                             "method": {
-                                "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "name": "surf",
+                                "url": "http://localhost/api/v2/encounter-method/5/"
                             },
-                            "min_level": 40
+                            "min_level": 35
                         },
                         {
                             "chance": 4,
@@ -516,20 +526,10 @@
                             "condition_values": [],
                             "max_level": 40,
                             "method": {
-                                "name": "surf",
-                                "url": "http://localhost/api/v2/encounter-method/5/"
+                                "name": "walk",
+                                "url": "http://localhost/api/v2/encounter-method/1/"
                             },
-                            "min_level": 35
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "surf",
-                                "url": "http://localhost/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 35
+                            "min_level": 40
                         }
                     ],
                     "max_chance": 10,
