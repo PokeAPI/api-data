@@ -1,0 +1,116 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "items": {
+        "properties": {
+            "location_area": {
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "name",
+                    "url"
+                ],
+                "type": "object"
+            },
+            "version_details": {
+                "items": {
+                    "properties": {
+                        "encounter_details": {
+                            "items": {
+                                "properties": {
+                                    "chance": {
+                                        "type": "integer"
+                                    },
+                                    "condition_values": {
+                                        "items": {
+                                            "properties": {
+                                                "name": {
+                                                    "type": "string"
+                                                },
+                                                "url": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "name",
+                                                "url"
+                                            ],
+                                            "type": "object"
+                                        },
+                                        "type": "array"
+                                    },
+                                    "max_level": {
+                                        "type": "integer"
+                                    },
+                                    "method": {
+                                        "properties": {
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "url": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "name",
+                                            "url"
+                                        ],
+                                        "type": "object"
+                                    },
+                                    "min_level": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "required": [
+                                    "chance",
+                                    "condition_values",
+                                    "max_level",
+                                    "method",
+                                    "min_level"
+                                ],
+                                "type": "object"
+                            },
+                            "type": "array"
+                        },
+                        "max_chance": {
+                            "type": "integer"
+                        },
+                        "version": {
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "url": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "url"
+                            ],
+                            "type": "object"
+                        }
+                    },
+                    "required": [
+                        "encounter_details",
+                        "max_chance",
+                        "version"
+                    ],
+                    "type": "object"
+                },
+                "type": "array"
+            }
+        },
+        "required": [
+            "location_area",
+            "version_details"
+        ],
+        "type": "object"
+    },
+    "type": "array"
+}

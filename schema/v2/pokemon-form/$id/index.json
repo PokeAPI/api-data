@@ -1,0 +1,170 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "properties": {
+        "form_name": {
+            "type": "string"
+        },
+        "form_names": {
+            "items": {
+                "properties": {
+                    "language": {
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "url": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "url"
+                        ],
+                        "type": "object"
+                    },
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "language",
+                    "name"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "form_order": {
+            "type": "integer"
+        },
+        "id": {
+            "type": "integer"
+        },
+        "is_battle_only": {
+            "type": "boolean"
+        },
+        "is_default": {
+            "type": "boolean"
+        },
+        "is_mega": {
+            "type": "boolean"
+        },
+        "name": {
+            "type": "string"
+        },
+        "names": {
+            "items": {
+                "properties": {
+                    "language": {
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "url": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "url"
+                        ],
+                        "type": "object"
+                    },
+                    "name": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "language",
+                    "name"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "order": {
+            "type": "integer"
+        },
+        "pokemon": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "url"
+            ],
+            "type": "object"
+        },
+        "sprites": {
+            "properties": {
+                "back_default": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "back_shiny": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "front_default": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "front_shiny": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            },
+            "required": [
+                "back_default",
+                "back_shiny",
+                "front_default",
+                "front_shiny"
+            ],
+            "type": "object"
+        },
+        "version_group": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "url"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "form_name",
+        "form_names",
+        "form_order",
+        "id",
+        "is_battle_only",
+        "is_default",
+        "is_mega",
+        "name",
+        "names",
+        "order",
+        "pokemon",
+        "sprites",
+        "version_group"
+    ],
+    "type": "object"
+}

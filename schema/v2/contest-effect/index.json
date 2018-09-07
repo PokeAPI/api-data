@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "properties": {
+        "count": {
+            "type": "integer"
+        },
+        "next": {
+            "type": "null"
+        },
+        "previous": {
+            "type": "null"
+        },
+        "results": {
+            "items": {
+                "properties": {
+                    "url": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "url"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "count",
+        "next",
+        "previous",
+        "results"
+    ],
+    "type": "object"
+}
