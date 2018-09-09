@@ -3,21 +3,21 @@
         {
             "encounter_method": {
                 "name": "walk",
-                "url": "http://localhost/api/v2/encounter-method/1/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
             },
             "version_details": [
                 {
                     "rate": 25,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 },
                 {
                     "rate": 25,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 }
             ]
@@ -27,14 +27,14 @@
     "id": 209,
     "location": {
         "name": "johto-route-36",
-        "url": "http://localhost/api/v2/location/116/"
+        "url": "$BASE_URL_PLACEHOLDER/api/v2/location/116/"
     },
     "name": "johto-route-36-area",
     "names": [
         {
             "language": {
                 "name": "en",
-                "url": "http://localhost/api/v2/language/9/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
             },
             "name": ""
         }
@@ -43,237 +43,237 @@
         {
             "pokemon": {
                 "name": "pidgey",
-                "url": "http://localhost/api/v2/pokemon/16/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/16/"
             },
             "version_details": [
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 10,
                             "condition_values": [
                                 {
+                                    "name": "radio-off",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
+                                },
+                                {
                                     "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
                                 }
                             ],
-                            "max_level": 15,
+                            "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
-                            "min_level": 15
+                            "min_level": 13
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-day",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 13,
+                            "method": {
+                                "name": "walk",
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 13
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-morning",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 13,
+                            "method": {
+                                "name": "walk",
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 13
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-day",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 13,
+                            "method": {
+                                "name": "walk",
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 13
                         },
                         {
                             "chance": 4,
                             "condition_values": [
                                 {
                                     "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         },
                         {
-                            "chance": 10,
+                            "chance": 1,
                             "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
-                                },
                                 {
                                     "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
                                 }
                             ],
-                            "max_level": 13,
+                            "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
-                            "min_level": 13
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13
+                            "min_level": 15
                         }
                     ],
                     "max_chance": 45,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 },
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 10,
                             "condition_values": [
                                 {
+                                    "name": "radio-off",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
+                                },
+                                {
                                     "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
                                 }
                             ],
-                            "max_level": 15,
+                            "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
-                            "min_level": 15
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-morning",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-day",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 13,
+                            "method": {
+                                "name": "walk",
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 13
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
+                                },
+                                {
+                                    "name": "time-day",
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
+                                }
+                            ],
+                            "max_level": 13,
+                            "method": {
+                                "name": "walk",
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 13
                         },
                         {
                             "chance": 4,
                             "condition_values": [
                                 {
                                     "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         },
                         {
-                            "chance": 10,
+                            "chance": 1,
                             "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
-                                },
                                 {
                                     "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
                                 }
                             ],
-                            "max_level": 12,
+                            "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
-                            "min_level": 12
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
-                                },
-                                {
-                                    "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 12,
-                            "method": {
-                                "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 12
+                            "min_level": 15
                         }
                     ],
                     "max_chance": 45,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 }
             ]
@@ -281,7 +281,7 @@
         {
             "pokemon": {
                 "name": "nidoran-f",
-                "url": "http://localhost/api/v2/pokemon/29/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/29/"
             },
             "version_details": [
                 {
@@ -292,7 +292,7 @@
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -301,13 +301,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         }
@@ -315,7 +315,7 @@
                     "max_chance": 30,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 },
                 {
@@ -326,7 +326,7 @@
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -335,17 +335,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -354,17 +354,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -373,17 +373,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         }
@@ -391,7 +391,7 @@
                     "max_chance": 50,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 }
             ]
@@ -399,7 +399,7 @@
         {
             "pokemon": {
                 "name": "nidoran-m",
-                "url": "http://localhost/api/v2/pokemon/32/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/32/"
             },
             "version_details": [
                 {
@@ -410,7 +410,7 @@
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -419,13 +419,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         }
@@ -433,7 +433,7 @@
                     "max_chance": 30,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 },
                 {
@@ -444,7 +444,7 @@
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -453,17 +453,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -472,17 +472,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -491,17 +491,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-morning",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/3/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         }
@@ -509,7 +509,7 @@
                     "max_chance": 50,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 }
             ]
@@ -517,7 +517,7 @@
         {
             "pokemon": {
                 "name": "vulpix",
-                "url": "http://localhost/api/v2/pokemon/37/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/37/"
             },
             "version_details": [
                 {
@@ -528,7 +528,7 @@
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -538,7 +538,7 @@
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -547,13 +547,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         },
@@ -562,13 +562,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         }
@@ -576,7 +576,7 @@
                     "max_chance": 15,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 }
             ]
@@ -584,7 +584,7 @@
         {
             "pokemon": {
                 "name": "growlithe",
-                "url": "http://localhost/api/v2/pokemon/58/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/58/"
             },
             "version_details": [
                 {
@@ -595,7 +595,7 @@
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -605,7 +605,7 @@
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -614,13 +614,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         },
@@ -629,13 +629,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-day",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/4/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         }
@@ -643,7 +643,7 @@
                     "max_chance": 15,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 }
             ]
@@ -651,7 +651,7 @@
         {
             "pokemon": {
                 "name": "hoothoot",
-                "url": "http://localhost/api/v2/pokemon/163/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/163/"
             },
             "version_details": [
                 {
@@ -661,17 +661,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -680,17 +680,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -699,13 +699,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         },
@@ -714,13 +714,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         }
@@ -728,7 +728,7 @@
                     "max_chance": 25,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 },
                 {
@@ -738,17 +738,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -757,17 +757,17 @@
                             "condition_values": [
                                 {
                                     "name": "radio-off",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/14/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/14/"
                                 },
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -776,13 +776,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         },
@@ -791,13 +791,13 @@
                             "condition_values": [
                                 {
                                     "name": "time-night",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/5/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/5/"
                                 }
                             ],
                             "max_level": 15,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 15
                         }
@@ -805,7 +805,7 @@
                     "max_chance": 25,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 }
             ]
@@ -813,7 +813,7 @@
         {
             "pokemon": {
                 "name": "stantler",
-                "url": "http://localhost/api/v2/pokemon/234/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/234/"
             },
             "version_details": [
                 {
@@ -824,7 +824,7 @@
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -834,7 +834,7 @@
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         }
@@ -842,7 +842,7 @@
                     "max_chance": 5,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 },
                 {
@@ -853,7 +853,7 @@
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -863,7 +863,7 @@
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         }
@@ -871,7 +871,7 @@
                     "max_chance": 5,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 }
             ]
@@ -879,7 +879,7 @@
         {
             "pokemon": {
                 "name": "plusle",
-                "url": "http://localhost/api/v2/pokemon/311/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/311/"
             },
             "version_details": [
                 {
@@ -889,13 +889,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -904,13 +904,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         }
@@ -918,7 +918,7 @@
                     "max_chance": 20,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 },
                 {
@@ -928,13 +928,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -943,13 +943,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         }
@@ -957,7 +957,7 @@
                     "max_chance": 20,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 }
             ]
@@ -965,7 +965,7 @@
         {
             "pokemon": {
                 "name": "minun",
-                "url": "http://localhost/api/v2/pokemon/312/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/312/"
             },
             "version_details": [
                 {
@@ -975,13 +975,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -990,13 +990,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         }
@@ -1004,7 +1004,7 @@
                     "max_chance": 20,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 },
                 {
@@ -1014,13 +1014,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -1029,13 +1029,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-hoenn",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/15/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/15/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         }
@@ -1043,7 +1043,7 @@
                     "max_chance": 20,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 }
             ]
@@ -1051,7 +1051,7 @@
         {
             "pokemon": {
                 "name": "shinx",
-                "url": "http://localhost/api/v2/pokemon/403/"
+                "url": "$BASE_URL_PLACEHOLDER/api/v2/pokemon/403/"
             },
             "version_details": [
                 {
@@ -1061,13 +1061,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -1076,13 +1076,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -1091,13 +1091,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -1106,13 +1106,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         }
@@ -1120,7 +1120,7 @@
                     "max_chance": 40,
                     "version": {
                         "name": "heartgold",
-                        "url": "http://localhost/api/v2/version/15/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/15/"
                     }
                 },
                 {
@@ -1130,13 +1130,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -1145,13 +1145,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 12,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 12
                         },
@@ -1160,13 +1160,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         },
@@ -1175,13 +1175,13 @@
                             "condition_values": [
                                 {
                                     "name": "radio-sinnoh",
-                                    "url": "http://localhost/api/v2/encounter-condition-value/16/"
+                                    "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-condition-value/16/"
                                 }
                             ],
                             "max_level": 13,
                             "method": {
                                 "name": "walk",
-                                "url": "http://localhost/api/v2/encounter-method/1/"
+                                "url": "$BASE_URL_PLACEHOLDER/api/v2/encounter-method/1/"
                             },
                             "min_level": 13
                         }
@@ -1189,7 +1189,7 @@
                     "max_chance": 40,
                     "version": {
                         "name": "soulsilver",
-                        "url": "http://localhost/api/v2/version/16/"
+                        "url": "$BASE_URL_PLACEHOLDER/api/v2/version/16/"
                     }
                 }
             ]
