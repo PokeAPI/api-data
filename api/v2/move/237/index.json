@@ -16,7 +16,7 @@
     "effect_changes": [],
     "effect_entries": [
         {
-            "effect": "Inflicts regular damage.  Power and type are determined by the user's IVs.\r\n\r\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\r\n\r\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\r\n\r\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\r\n\r\nValue | Type\r\n----: | --------\r\n    0 | fighting\r\n    1 | flying\r\n    2 | poison\r\n    3 | ground\r\n    4 | rock\r\n    5 | bug\r\n    6 | ghost\r\n    7 | steel\r\n    8 | fire\r\n    9 | water\r\n   10 | grass\r\n   11 | electric\r\n   12 | psychic\r\n   13 | ice\r\n   14 | dragon\r\n   15 | dark\r\n\r\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time.",
+            "effect": "Inflicts regular damage.  Power and type are determined by the user's IVs.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the IV for each of Special Defense, Special Attack, Speed, Defense, Attack, and HP in that order.  (Bit 1 is 1 if the IV is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * Special Defense IV bit 1, plus 32 * Special Attack IV bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the IV is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | fighting\n    1 | flying\n    2 | poison\n    3 | ground\n    4 | rock\n    5 | bug\n    6 | ghost\n    7 | steel\n    8 | fire\n    9 | water\n   10 | grass\n   11 | electric\n   12 | psychic\n   13 | ice\n   14 | dragon\n   15 | dark\n\nThis move thus cannot be normal.  Most other types have an equal 1/16 chance to be selected, given random IVs.  However, due to the flooring used here, bug, fighting, and grass appear 5/64 of the time, and dark only 1/64 of the time.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -26,7 +26,7 @@
     ],
     "flavor_text_entries": [
         {
-            "flavor_text": "\u62db\u5f0f\u7684\u5c5e\u6027\u4f1a\u968f\u7740\r\n\u4f7f\u7528\u6b64\u62db\u5f0f\u7684\u5b9d\u53ef\u68a6\u800c\u6539\u53d8\u3002",
+            "flavor_text": "\u62db\u5f0f\u7684\u5c5e\u6027\u4f1a\u968f\u7740\n\u4f7f\u7528\u6b64\u62db\u5f0f\u7684\u5b9d\u53ef\u68a6\u800c\u6539\u53d8\u3002",
             "language": {
                 "name": "zh-Hans",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/12/"
@@ -37,7 +37,7 @@
             }
         },
         {
-            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\r\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
+            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
             "language": {
                 "name": "ja",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/11/"
@@ -48,7 +48,7 @@
             }
         },
         {
-            "flavor_text": "A unique attack that varies in type depending on the\r\nPok\u00e9mon using it.",
+            "flavor_text": "A unique attack that varies in type depending on the\nPok\u00e9mon using it.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -59,7 +59,7 @@
             }
         },
         {
-            "flavor_text": "Mossa singolare che cambia tipo a seconda\r\ndel Pok\u00e9mon che la usa.",
+            "flavor_text": "Mossa singolare che cambia tipo a seconda\ndel Pok\u00e9mon che la usa.",
             "language": {
                 "name": "it",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/8/"
@@ -70,7 +70,7 @@
             }
         },
         {
-            "flavor_text": "Movimiento cuyo tipo var\u00eda en funci\u00f3n del Pok\u00e9mon \r\nque lo usa.",
+            "flavor_text": "Movimiento cuyo tipo var\u00eda en funci\u00f3n del Pok\u00e9mon \nque lo usa.",
             "language": {
                 "name": "es",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/7/"
@@ -81,7 +81,7 @@
             }
         },
         {
-            "flavor_text": "Wirkung und Typ der Attacke h\u00e4ngen vom\r\nAnwender ab.",
+            "flavor_text": "Wirkung und Typ der Attacke h\u00e4ngen vom\nAnwender ab.",
             "language": {
                 "name": "de",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/6/"
@@ -92,7 +92,7 @@
             }
         },
         {
-            "flavor_text": "Attaque dont le type d\u00e9pend du Pok\u00e9mon\r\nqui l\u2019utilise.",
+            "flavor_text": "Attaque dont le type d\u00e9pend du Pok\u00e9mon\nqui l\u2019utilise.",
             "language": {
                 "name": "fr",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/5/"
@@ -103,7 +103,7 @@
             }
         },
         {
-            "flavor_text": "\u62db\u5f0f\u7684\u5c6c\u6027\u6703\u96a8\u8457\r\n\u4f7f\u7528\u6b64\u62db\u5f0f\u7684\u5bf6\u53ef\u5922\u800c\u6539\u8b8a\u3002",
+            "flavor_text": "\u62db\u5f0f\u7684\u5c6c\u6027\u6703\u96a8\u8457\n\u4f7f\u7528\u6b64\u62db\u5f0f\u7684\u5bf6\u53ef\u5922\u800c\u6539\u8b8a\u3002",
             "language": {
                 "name": "zh-Hant",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/4/"
@@ -114,7 +114,7 @@
             }
         },
         {
-            "flavor_text": "\uae30\uc220\uc744 \uc4f4 \ud3ec\ucf13\ubaac\uc5d0 \ub530\ub77c\r\n\uae30\uc220\uc758 \ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
+            "flavor_text": "\uae30\uc220\uc744 \uc4f4 \ud3ec\ucf13\ubaac\uc5d0 \ub530\ub77c\n\uae30\uc220\uc758 \ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
             "language": {
                 "name": "ko",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/3/"
@@ -125,7 +125,7 @@
             }
         },
         {
-            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\r\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
+            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
             "language": {
                 "name": "ja-Hrkt",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/1/"
@@ -136,7 +136,7 @@
             }
         },
         {
-            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\r\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
+            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
             "language": {
                 "name": "ja",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/11/"
@@ -147,7 +147,7 @@
             }
         },
         {
-            "flavor_text": "A unique attack that varies in type\r\ndepending on the Pok\u00e9mon using it.\r\n",
+            "flavor_text": "A unique attack that varies in type\ndepending on the Pok\u00e9mon using it.\n",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -158,7 +158,7 @@
             }
         },
         {
-            "flavor_text": "Mossa singolare che cambia tipo a seconda\r\ndel Pok\u00e9mon che la usa.",
+            "flavor_text": "Mossa singolare che cambia tipo a seconda\ndel Pok\u00e9mon che la usa.",
             "language": {
                 "name": "it",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/8/"
@@ -169,7 +169,7 @@
             }
         },
         {
-            "flavor_text": "Movimiento cuyo tipo var\u00eda en funci\u00f3n del Pok\u00e9mon \r\nque lo usa.",
+            "flavor_text": "Movimiento cuyo tipo var\u00eda en funci\u00f3n del Pok\u00e9mon \nque lo usa.",
             "language": {
                 "name": "es",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/7/"
@@ -180,7 +180,7 @@
             }
         },
         {
-            "flavor_text": "Wirkung und Typ der Attacke h\u00e4ngen\r\nvom Anwender ab.",
+            "flavor_text": "Wirkung und Typ der Attacke h\u00e4ngen\nvom Anwender ab.",
             "language": {
                 "name": "de",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/6/"
@@ -191,7 +191,7 @@
             }
         },
         {
-            "flavor_text": "Attaque dont le type d\u00e9pend du Pok\u00e9mon\r\nqui l\u2019utilise.",
+            "flavor_text": "Attaque dont le type d\u00e9pend du Pok\u00e9mon\nqui l\u2019utilise.",
             "language": {
                 "name": "fr",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/5/"
@@ -202,7 +202,7 @@
             }
         },
         {
-            "flavor_text": "\uae30\uc220\uc744 \uc4f4 \ud3ec\ucf13\ubaac\uc5d0 \ub530\ub77c\r\n\uae30\uc220\uc758 \ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
+            "flavor_text": "\uae30\uc220\uc744 \uc4f4 \ud3ec\ucf13\ubaac\uc5d0 \ub530\ub77c\n\uae30\uc220\uc758 \ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
             "language": {
                 "name": "ko",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/3/"
@@ -213,7 +213,7 @@
             }
         },
         {
-            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\r\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
+            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
             "language": {
                 "name": "ja-Hrkt",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/1/"
@@ -224,7 +224,7 @@
             }
         },
         {
-            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\r\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
+            "flavor_text": "\u6280\u3092\u3000\u4f7f\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u6280\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u5909\u308f\u308b\u3002",
             "language": {
                 "name": "ja",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/11/"
@@ -235,7 +235,7 @@
             }
         },
         {
-            "flavor_text": "A unique attack that varies in type\r\ndepending on the Pok\u00e9mon using it.\r\n",
+            "flavor_text": "A unique attack that varies in type\ndepending on the Pok\u00e9mon using it.\n",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -246,7 +246,7 @@
             }
         },
         {
-            "flavor_text": "Mossa singolare che cambia tipo a seconda\r\ndel Pok\u00e9mon che la usa.",
+            "flavor_text": "Mossa singolare che cambia tipo a seconda\ndel Pok\u00e9mon che la usa.",
             "language": {
                 "name": "it",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/8/"
@@ -257,7 +257,7 @@
             }
         },
         {
-            "flavor_text": "Movimiento cuyo tipo var\u00eda en funci\u00f3n del\r\nPok\u00e9mon que lo usa.",
+            "flavor_text": "Movimiento cuyo tipo var\u00eda en funci\u00f3n del\nPok\u00e9mon que lo usa.",
             "language": {
                 "name": "es",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/7/"
@@ -268,7 +268,7 @@
             }
         },
         {
-            "flavor_text": "Wirkung und Typ der Attacke h\u00e4ngen\r\nvom Anwender ab.",
+            "flavor_text": "Wirkung und Typ der Attacke h\u00e4ngen\nvom Anwender ab.",
             "language": {
                 "name": "de",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/6/"
@@ -279,7 +279,7 @@
             }
         },
         {
-            "flavor_text": "Attaque dont le type d\u00e9pend du Pok\u00e9mon\r\nqui l\u2019utilise.",
+            "flavor_text": "Attaque dont le type d\u00e9pend du Pok\u00e9mon\nqui l\u2019utilise.",
             "language": {
                 "name": "fr",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/5/"
@@ -290,7 +290,7 @@
             }
         },
         {
-            "flavor_text": "\uae30\uc220\uc744 \uc4f4 \ud3ec\ucf13\ubaac\uc5d0 \ub530\ub77c\r\n\uae30\uc220\uc758 \ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
+            "flavor_text": "\uae30\uc220\uc744 \uc4f4 \ud3ec\ucf13\ubaac\uc5d0 \ub530\ub77c\n\uae30\uc220\uc758 \ud0c0\uc785\uc774 \ubc14\ub010\ub2e4.",
             "language": {
                 "name": "ko",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/3/"
@@ -301,7 +301,7 @@
             }
         },
         {
-            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\r\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
+            "flavor_text": "\u308f\u3056\u3092\u3000\u3064\u304b\u3063\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u306b\u3000\u3088\u3063\u3066\n\u308f\u3056\u306e\u3000\u30bf\u30a4\u30d7\u304c\u3000\u304b\u308f\u308b\u3002",
             "language": {
                 "name": "ja-Hrkt",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/1/"
@@ -312,7 +312,7 @@
             }
         },
         {
-            "flavor_text": "A unique attack that varies in type and\r\nintensity depending on the Pok\u00e9mon\r\nusing it.",
+            "flavor_text": "A unique attack that varies in type and\nintensity depending on the Pok\u00e9mon\nusing it.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -323,7 +323,7 @@
             }
         },
         {
-            "flavor_text": "A unique attack that varies in type and\r\nintensity depending on the Pok\u00e9mon\r\nusing it.",
+            "flavor_text": "A unique attack that varies in type and\nintensity depending on the Pok\u00e9mon\nusing it.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -334,7 +334,7 @@
             }
         },
         {
-            "flavor_text": "Attaque dont la puissance et le type\r\nd\u00e9pendent du Pok\u00e9mon qui l\u2019utilise.",
+            "flavor_text": "Attaque dont la puissance et le type\nd\u00e9pendent du Pok\u00e9mon qui l\u2019utilise.",
             "language": {
                 "name": "fr",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/5/"
@@ -345,7 +345,7 @@
             }
         },
         {
-            "flavor_text": "A unique attack that\r\nvaries in type and\r\nintensity depending\r\non the Pok\u00e9mon using\r\nit.",
+            "flavor_text": "A unique attack that\nvaries in type and\nintensity depending\non the Pok\u00e9mon using\nit.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -356,7 +356,7 @@
             }
         },
         {
-            "flavor_text": "A unique attack that\r\nvaries in type and\r\nintensity depending\r\non the Pok\u00e9mon using\r\nit.",
+            "flavor_text": "A unique attack that\nvaries in type and\nintensity depending\non the Pok\u00e9mon using\nit.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -367,7 +367,7 @@
             }
         },
         {
-            "flavor_text": "A unique attack that\r\nvaries in type and\r\nintensity depending\r\non the Pok\u00e9mon using\r\nit.",
+            "flavor_text": "A unique attack that\nvaries in type and\nintensity depending\non the Pok\u00e9mon using\nit.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -378,7 +378,7 @@
             }
         },
         {
-            "flavor_text": "An attack that\r\nvaries in type and\r\nintensity depending\r\non the user.",
+            "flavor_text": "An attack that\nvaries in type and\nintensity depending\non the user.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -389,7 +389,7 @@
             }
         },
         {
-            "flavor_text": "The effectiveness varies\r\nwith the user.",
+            "flavor_text": "The effectiveness varies\nwith the user.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -400,7 +400,7 @@
             }
         },
         {
-            "flavor_text": "The effectiveness varies\r\nwith the user.",
+            "flavor_text": "The effectiveness varies\nwith the user.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -411,7 +411,7 @@
             }
         },
         {
-            "flavor_text": "The power varies\r\nwith the POK\u00e9MON.",
+            "flavor_text": "The power varies\nwith the POK\u00e9MON.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
@@ -422,7 +422,7 @@
             }
         },
         {
-            "flavor_text": "The power varies\r\nwith the POK\u00e9MON.",
+            "flavor_text": "The power varies\nwith the POK\u00e9MON.",
             "language": {
                 "name": "en",
                 "url": "$BASE_URL_PLACEHOLDER/api/v2/language/9/"
