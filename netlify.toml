@@ -1,0 +1,42 @@
+[build]
+publish = "_dist"
+command = "pip install poetry && bash build.sh"
+functions = "_functions"
+
+[[redirects]]
+from = "/api/v2/"
+to = "/api/v2/index.json"
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "/.netlify/functions/resource-list/?endpoint=:endpoint&offset=:offset&limit=:limit"
+query = {offset = ":offset", limit = ":limit"}
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "/.netlify/functions/resource-list/?endpoint=:endpoint&offset=:offset"
+query = {offset = ":offset"}
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "/.netlify/functions/resource-list/?endpoint=:endpoint&limit=:limit"
+query = {limit = ":limit"}
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "/.netlify/functions/resource-list/?endpoint=:endpoint"
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/:id/"
+to = "/api/v2/:endpoint/:id/index.json"
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/:id/:extra"
+to = "/api/v2/:endpoint/:id/:extra/index.json"
+status = 200
