@@ -1,5 +1,7 @@
 # Updater Bot
 
+[![Docker Repository on Quay](https://quay.io/repository/pokeapi/updater/status "Docker Repository on Quay")](https://quay.io/repository/pokeapi/updater)
+
 ## Usage
 
 First, make sure you can read/write the target repository over SSH.
