@@ -1,7 +1,5 @@
 # PokeAPI Data
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pokeapi/api-data)
-
 This repository contains:
 
  - [data/api](data/api): a static copy of the JSON data generated with the above script
@@ -9,11 +7,24 @@ This repository contains:
  - [updater](updater): a [Ditto][1] based bot that runs in docker and can update the data stored in this repo
  - Deployment configs to deploy an instance of the API to [Netlify][2]
 
+# Usage
+
 If you'd like to use the JSON for your own purposes, you can apply your own base URL using [Ditto][1]:
 
 ```
 ditto transform --base-url='https://pokeapi.co'
 ```
+
+If you're deploying to [Netlify][2], use the button below and remember to set the `BASE_URL` environment variable.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pokeapi/api-data)
+
+```bash
+# example
+BASE_URL='http://pokeapi.co'
+```
+
+# Updater Bot
 
 You can manually update the data if necessary. See [the updater bot](updater).
 You can run the bot in docker, or read and adapt its update script yourself.
