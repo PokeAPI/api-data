@@ -1,5 +1,7 @@
 #!/bin/bash
 
+[ -z "${BASE_URL}" ] && { echo "Need to set BASE_URL"; exit 1; }
+
 set -e
 set -o pipefail
 set -x
