@@ -1,4 +1,6 @@
-# PokeAPI Data 
+# PokeAPI Data
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pokeapi/api-data)
 
 This repository contains:
 
@@ -14,7 +16,7 @@ ditto transform --base-url='https://pokeapi.co'
 ```
 
 You can manually update the data if necessary. See [the updater bot](updater).
-You can run the bot in docker, or read and adapt its update script yourself. 
+You can run the bot in docker, or read and adapt its update script yourself.
 
 
 [1]: https://github.com/pokeapi/ditto
