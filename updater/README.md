@@ -7,7 +7,7 @@ Launch the bot with a volume containing the SSH keys to `/root/.ssh` and an envi
 Since this container runs Docker within itself, it needs to run in privileged mode.
 
 ```
-docker run --privileged -v ~/.ssh:/root/.ssh -e COMMIT_EMAIL=example@example.com sargunv/pokeapi-ditto:updater
+docker run --privileged -v ~/.ssh:/root/.ssh -e COMMIT_EMAIL=example@example.com quay.io/pokeapi/updater
 ```
 
 **Note:** Due to lack of support for file permissions, this does not work on Docker for Windows.
@@ -26,4 +26,4 @@ See [the Dockerfile](updater/Dockerfile) for the defaults.
  - `COMMIT_MESSAGE`
  - `BRANCH_NAME`
  - `REPO_POKEAPI`
- - `REPO_DITTO`
+ - `REPO_DATA`
