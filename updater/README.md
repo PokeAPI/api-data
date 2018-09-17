@@ -12,6 +12,8 @@ Since this container runs Docker within itself, it needs to run in privileged mo
 docker run --privileged -v ~/.ssh:/root/.ssh -e COMMIT_EMAIL=example@example.com quay.io/pokeapi/updater
 ```
 
+Check the log for failed clones; sometimes Magikarp times out.
+
 **Note:** Due to lack of support for file permissions, this does not work on Docker for Windows.
 
 ## Environment Variables
