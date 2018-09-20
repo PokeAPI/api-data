@@ -39,7 +39,7 @@ pip install -r requirements.txt
 rm -r ./data
 ditto clone --src-url http://localhost/ --dest-dir ./data
 # (╯°□°)╯ *always* assume magikarp failed and grab it again #clowntown
-ditto clone --src-url http://localhost/ --dest-dir ./data pokemon/129
+ditto clone --src-url http://localhost/ --dest-dir ./data --select pokemon/129
 ditto analyze --data-dir ./data
 
 # commit and push
