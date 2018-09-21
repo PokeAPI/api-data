@@ -43,3 +43,8 @@ status = 200
 from = "/api/v2/:endpoint/:id/:extra"
 to = "/api/v2/:endpoint/:id/:extra/index.json"
 status = 200
+
+[[headers]]
+for = "/*"
+[headers.values]
+Access-Control-Allow-Origin = "*"
