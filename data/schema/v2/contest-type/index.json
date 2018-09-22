@@ -1,39 +1,4 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "count": {
-            "type": "integer"
-        },
-        "next": {
-            "type": "null"
-        },
-        "previous": {
-            "type": "null"
-        },
-        "results": {
-            "items": {
-                "properties": {
-                    "name": {
-                        "type": "string"
-                    },
-                    "url": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "name",
-                    "url"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        }
-    },
-    "required": [
-        "count",
-        "next",
-        "previous",
-        "results"
-    ],
-    "type": "object"
+    "$ref": "/schema/v2/named_api_resource_list.json",
+    "$schema": "http://json-schema.org/schema#"
 }
