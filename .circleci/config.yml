@@ -1,0 +1,21 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+    - image: circleci/python:3.6.5
+    filters:
+      branches:
+        only: master
+    steps:
+    - checkout
+    - run: pip install --user -r requirements.txt
+    - run:
+        command: |
+          ~/.local/bin/ditto transform \
+            --base-url='https://pokeapi-215911.firebaseapp.com' \
+            --src-dir=data \
+            --dest-dir=_gen
+    - run: tar czf _gen.tar.gz _gen/*
+    - store_artifacts:
+        path: _gen.tar.gz
