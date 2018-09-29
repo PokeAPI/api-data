@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/PokeAPI/api-data.svg?style=shield)](https://circleci.com/gh/PokeAPI/api-data)
+
 # PokeAPI Data
 
 This repository contains:
