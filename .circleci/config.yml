@@ -13,7 +13,7 @@ jobs:
     - run:
         command: |
           ~/.local/bin/ditto transform \
-            --base-url='https://pokeapi-215911.firebaseapp.com' \
+            --base-url='https://pokeapi.co' \
             --src-dir=data \
             --dest-dir=_gen
     - run: tar czf _gen.tar.gz _gen/*
