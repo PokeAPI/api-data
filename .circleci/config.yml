@@ -21,4 +21,4 @@ jobs:
         path: _gen.tar.gz
 
     # Trigger a new build of the deploy project
-    - run: curl -X POST --header "Content-Type: application/json" https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/build?circle-token=$CIRCLECI_API_TOKEN
+    - run: "curl -X POST --header \"Content-Type: application/json\" https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/build?circle-token=$CIRCLECI_API_TOKEN"
