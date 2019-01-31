@@ -8,48 +8,16 @@
             "type": "integer"
         },
         "color": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "egg_groups": {
             "items": {
-                "properties": {
-                    "name": {
-                        "type": "string"
-                    },
-                    "url": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "name",
-                    "url"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/named_api_resource.json"
             },
             "type": "array"
         },
         "evolution_chain": {
-            "properties": {
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/api_resource.json"
         },
         "evolves_from_species": {
             "anyOf": [
@@ -57,19 +25,7 @@
                     "type": "null"
                 },
                 {
-                    "properties": {
-                        "name": {
-                            "type": "string"
-                        },
-                        "url": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "name",
-                        "url"
-                    ],
-                    "type": "object"
+                    "$ref": "/schema/v2/named_api_resource.json"
                 }
             ]
         },
@@ -80,34 +36,10 @@
                         "type": "string"
                     },
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "version": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -126,19 +58,7 @@
                         "type": "string"
                     },
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -162,19 +82,7 @@
                         "type": "string"
                     },
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -186,34 +94,10 @@
             "type": "array"
         },
         "generation": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "growth_rate": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "habitat": {
             "anyOf": [
@@ -221,19 +105,7 @@
                     "type": "null"
                 },
                 {
-                    "properties": {
-                        "name": {
-                            "type": "string"
-                        },
-                        "url": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "name",
-                        "url"
-                    ],
-                    "type": "object"
+                    "$ref": "/schema/v2/named_api_resource.json"
                 }
             ]
         },
@@ -256,19 +128,7 @@
             "items": {
                 "properties": {
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "name": {
                         "type": "string"
@@ -289,19 +149,7 @@
             "items": {
                 "properties": {
                     "area": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "base_score": {
                         "type": "integer"
@@ -326,19 +174,7 @@
                         "type": "integer"
                     },
                     "pokedex": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -350,19 +186,7 @@
             "type": "array"
         },
         "shape": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "varieties": {
             "items": {
@@ -371,19 +195,7 @@
                         "type": "boolean"
                     },
                     "pokemon": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [

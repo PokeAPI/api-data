@@ -5,19 +5,7 @@
             "items": {
                 "properties": {
                     "encounter_method": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "version_details": {
                         "items": {
@@ -26,19 +14,7 @@
                                     "type": "integer"
                                 },
                                 "version": {
-                                    "properties": {
-                                        "name": {
-                                            "type": "string"
-                                        },
-                                        "url": {
-                                            "type": "string"
-                                        }
-                                    },
-                                    "required": [
-                                        "name",
-                                        "url"
-                                    ],
-                                    "type": "object"
+                                    "$ref": "/schema/v2/named_api_resource.json"
                                 }
                             },
                             "required": [
@@ -65,19 +41,7 @@
             "type": "integer"
         },
         "location": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "name": {
             "type": "string"
@@ -86,19 +50,7 @@
             "items": {
                 "properties": {
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "name": {
                         "type": "string"
@@ -116,19 +68,7 @@
             "items": {
                 "properties": {
                     "pokemon": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "version_details": {
                         "items": {
@@ -141,19 +81,7 @@
                                             },
                                             "condition_values": {
                                                 "items": {
-                                                    "properties": {
-                                                        "name": {
-                                                            "type": "string"
-                                                        },
-                                                        "url": {
-                                                            "type": "string"
-                                                        }
-                                                    },
-                                                    "required": [
-                                                        "name",
-                                                        "url"
-                                                    ],
-                                                    "type": "object"
+                                                    "$ref": "/schema/v2/named_api_resource.json"
                                                 },
                                                 "type": "array"
                                             },
@@ -161,19 +89,7 @@
                                                 "type": "integer"
                                             },
                                             "method": {
-                                                "properties": {
-                                                    "name": {
-                                                        "type": "string"
-                                                    },
-                                                    "url": {
-                                                        "type": "string"
-                                                    }
-                                                },
-                                                "required": [
-                                                    "name",
-                                                    "url"
-                                                ],
-                                                "type": "object"
+                                                "$ref": "/schema/v2/named_api_resource.json"
                                             },
                                             "min_level": {
                                                 "type": "integer"
@@ -194,19 +110,7 @@
                                     "type": "integer"
                                 },
                                 "version": {
-                                    "properties": {
-                                        "name": {
-                                            "type": "string"
-                                        },
-                                        "url": {
-                                            "type": "string"
-                                        }
-                                    },
-                                    "required": [
-                                        "name",
-                                        "url"
-                                    ],
-                                    "type": "object"
+                                    "$ref": "/schema/v2/named_api_resource.json"
                                 }
                             },
                             "required": [

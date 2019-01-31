@@ -8,19 +8,7 @@
                         "type": "string"
                     },
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -41,19 +29,7 @@
             "items": {
                 "properties": {
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "name": {
                         "type": "string"
@@ -69,19 +45,7 @@
         },
         "pokemon_species": {
             "items": {
-                "properties": {
-                    "name": {
-                        "type": "string"
-                    },
-                    "url": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "name",
-                    "url"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/named_api_resource.json"
             },
             "type": "array"
         }

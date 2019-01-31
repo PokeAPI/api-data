@@ -23,19 +23,7 @@
                                         },
                                         {
                                             "items": {
-                                                "properties": {
-                                                    "name": {
-                                                        "type": "string"
-                                                    },
-                                                    "url": {
-                                                        "type": "string"
-                                                    }
-                                                },
-                                                "required": [
-                                                    "name",
-                                                    "url"
-                                                ],
-                                                "type": "object"
+                                                "$ref": "/schema/v2/named_api_resource.json"
                                             },
                                             "type": "array"
                                         }
@@ -48,19 +36,7 @@
                                         },
                                         {
                                             "items": {
-                                                "properties": {
-                                                    "name": {
-                                                        "type": "string"
-                                                    },
-                                                    "url": {
-                                                        "type": "string"
-                                                    }
-                                                },
-                                                "required": [
-                                                    "name",
-                                                    "url"
-                                                ],
-                                                "type": "object"
+                                                "$ref": "/schema/v2/named_api_resource.json"
                                             },
                                             "type": "array"
                                         }
@@ -82,19 +58,7 @@
                                         },
                                         {
                                             "items": {
-                                                "properties": {
-                                                    "name": {
-                                                        "type": "string"
-                                                    },
-                                                    "url": {
-                                                        "type": "string"
-                                                    }
-                                                },
-                                                "required": [
-                                                    "name",
-                                                    "url"
-                                                ],
-                                                "type": "object"
+                                                "$ref": "/schema/v2/named_api_resource.json"
                                             },
                                             "type": "array"
                                         }
@@ -107,19 +71,7 @@
                                         },
                                         {
                                             "items": {
-                                                "properties": {
-                                                    "name": {
-                                                        "type": "string"
-                                                    },
-                                                    "url": {
-                                                        "type": "string"
-                                                    }
-                                                },
-                                                "required": [
-                                                    "name",
-                                                    "url"
-                                                ],
-                                                "type": "object"
+                                                "$ref": "/schema/v2/named_api_resource.json"
                                             },
                                             "type": "array"
                                         }
@@ -147,15 +99,7 @@
                     "type": "null"
                 },
                 {
-                    "properties": {
-                        "url": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "url"
-                    ],
-                    "type": "object"
+                    "$ref": "/schema/v2/api_resource.json"
                 }
             ]
         },
@@ -165,36 +109,12 @@
                     "type": "null"
                 },
                 {
-                    "properties": {
-                        "name": {
-                            "type": "string"
-                        },
-                        "url": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "name",
-                        "url"
-                    ],
-                    "type": "object"
+                    "$ref": "/schema/v2/named_api_resource.json"
                 }
             ]
         },
         "damage_class": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "effect_chance": {
             "type": [
@@ -212,19 +132,7 @@
                                     "type": "string"
                                 },
                                 "language": {
-                                    "properties": {
-                                        "name": {
-                                            "type": "string"
-                                        },
-                                        "url": {
-                                            "type": "string"
-                                        }
-                                    },
-                                    "required": [
-                                        "name",
-                                        "url"
-                                    ],
-                                    "type": "object"
+                                    "$ref": "/schema/v2/named_api_resource.json"
                                 }
                             },
                             "required": [
@@ -236,19 +144,7 @@
                         "type": "array"
                     },
                     "version_group": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -266,19 +162,7 @@
                         "type": "string"
                     },
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "short_effect": {
                         "type": "string"
@@ -300,34 +184,10 @@
                         "type": "string"
                     },
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "version_group": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -340,19 +200,7 @@
             "type": "array"
         },
         "generation": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "id": {
             "type": "integer"
@@ -361,30 +209,10 @@
             "items": {
                 "properties": {
                     "machine": {
-                        "properties": {
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/api_resource.json"
                     },
                     "version_group": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -403,37 +231,13 @@
                 {
                     "properties": {
                         "ailment": {
-                            "properties": {
-                                "name": {
-                                    "type": "string"
-                                },
-                                "url": {
-                                    "type": "string"
-                                }
-                            },
-                            "required": [
-                                "name",
-                                "url"
-                            ],
-                            "type": "object"
+                            "$ref": "/schema/v2/named_api_resource.json"
                         },
                         "ailment_chance": {
                             "type": "integer"
                         },
                         "category": {
-                            "properties": {
-                                "name": {
-                                    "type": "string"
-                                },
-                                "url": {
-                                    "type": "string"
-                                }
-                            },
-                            "required": [
-                                "name",
-                                "url"
-                            ],
-                            "type": "object"
+                            "$ref": "/schema/v2/named_api_resource.json"
                         },
                         "crit_rate": {
                             "type": "integer"
@@ -500,19 +304,7 @@
             "items": {
                 "properties": {
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "name": {
                         "type": "string"
@@ -548,19 +340,7 @@
                                     "type": "string"
                                 },
                                 "language": {
-                                    "properties": {
-                                        "name": {
-                                            "type": "string"
-                                        },
-                                        "url": {
-                                            "type": "string"
-                                        }
-                                    },
-                                    "required": [
-                                        "name",
-                                        "url"
-                                    ],
-                                    "type": "object"
+                                    "$ref": "/schema/v2/named_api_resource.json"
                                 },
                                 "short_effect": {
                                     "type": "string"
@@ -593,36 +373,12 @@
                                 "type": "null"
                             },
                             {
-                                "properties": {
-                                    "name": {
-                                        "type": "string"
-                                    },
-                                    "url": {
-                                        "type": "string"
-                                    }
-                                },
-                                "required": [
-                                    "name",
-                                    "url"
-                                ],
-                                "type": "object"
+                                "$ref": "/schema/v2/named_api_resource.json"
                             }
                         ]
                     },
                     "version_group": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -660,19 +416,7 @@
                         "type": "integer"
                     },
                     "stat": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     }
                 },
                 "required": [
@@ -689,47 +433,15 @@
                     "type": "null"
                 },
                 {
-                    "properties": {
-                        "url": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "url"
-                    ],
-                    "type": "object"
+                    "$ref": "/schema/v2/api_resource.json"
                 }
             ]
         },
         "target": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "type": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         }
     },
     "required": [

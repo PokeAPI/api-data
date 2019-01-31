@@ -171,8 +171,13 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
-                            "condition_values": [],
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
                             "max_level": 23,
                             "method": {
                                 "name": "walk",
@@ -181,13 +186,8 @@
                             "min_level": 23
                         },
                         {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
+                            "chance": 20,
+                            "condition_values": [],
                             "max_level": 23,
                             "method": {
                                 "name": "walk",

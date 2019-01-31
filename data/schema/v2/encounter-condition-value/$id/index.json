@@ -2,19 +2,7 @@
     "$schema": "http://json-schema.org/schema#",
     "properties": {
         "condition": {
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "url": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "name",
-                "url"
-            ],
-            "type": "object"
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "id": {
             "type": "integer"
@@ -26,19 +14,7 @@
             "items": {
                 "properties": {
                     "language": {
-                        "properties": {
-                            "name": {
-                                "type": "string"
-                            },
-                            "url": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "name",
-                            "url"
-                        ],
-                        "type": "object"
+                        "$ref": "/schema/v2/named_api_resource.json"
                     },
                     "name": {
                         "type": "string"
