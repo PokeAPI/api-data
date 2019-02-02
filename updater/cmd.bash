@@ -26,8 +26,8 @@ docker volume create --name=redis_data
 docker volume create --name=pg_data
 docker-compose up -d
 
-docker-compose exec -T app python manage.py migrate
-docker-compose exec -T app sh -c 'echo "from data.v2.build import build_all; build_all()" | python manage.py shell'
+docker-compose exec -T app python manage.py migrate --settings=config.docker-compose
+docker-compose exec -T app sh -c 'echo "from data.v2.build import build_all; build_all()" | python manage.py shell --settings=config.docker-compose'
 
 # set up the data side
 cd ../api-data
