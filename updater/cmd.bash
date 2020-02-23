@@ -20,7 +20,6 @@ git clone --depth=1 "$REPO_DATA" api-data
 
 # set up the pokeapi side
 cd pokeapi
-git apply ../disable-rate-limit.patch
 
 docker volume create --name=redis_data
 docker volume create --name=pg_data
