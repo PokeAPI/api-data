@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:18.09.3-dind
 
 RUN apk update
 RUN apk add curl python3 git bash dos2unix openssh build-base python3-dev
