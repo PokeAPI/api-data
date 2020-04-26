@@ -9,48 +9,48 @@ commands:
   ditto-transform:
     description: Run Ditto in order to transform the base URL to https://pokeapi.co instead of localhost
     steps:
-    - run: pip install --user -r requirements.txt
-    - run:
-      command: |
-        ~/.local/bin/ditto transform \
-          --base-url='https://pokeapi.co' \
-          --src-dir=data \
-          --dest-dir=_gen
+      - run: pip install --user -r requirements.txt
+      - run:
+          command: |
+            ~/.local/bin/ditto transform \
+              --base-url='https://pokeapi.co' \
+              --src-dir=data \
+              --dest-dir=_gen
 
 jobs:
   test:
     executor: python36
     steps:
-    - checkout
-    - ditto-transform
+      - checkout
+      - ditto-transform
   build:
     executor: python36
     steps:
-    - checkout
-    - ditto-transform
-    - run: tar czf _gen.tar.gz _gen/*
-    - store_artifacts:
-        path: _gen.tar.gz
+      - checkout
+      - ditto-transform
+      - run: tar czf _gen.tar.gz _gen/*
+      - store_artifacts:
+          path: _gen.tar.gz
   deploy:
     executor: python36
     steps:
     # Trigger a new build of the deploy project
-    - run: "curl -X POST --header \"Content-Type: application/json\" https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/build?circle-token=$CIRCLECI_API_TOKEN"
+      - run: "curl -X POST --header \"Content-Type: application/json\" https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/build?circle-token=$CIRCLECI_API_TOKEN"
 
 workflows:
   version: 2
   test-build-and-deploy:
     jobs:
-    - test
-    - build:
-        requires:
-        - test
-        filters:
-          branches:
-            only: master
-    - deploy:
-        requires:
-        - build
-        filters:
-          branches:
-            only: master
+      - test
+      - build:
+          requires:
+            - test
+          filters:
+            branches:
+              only: master
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
