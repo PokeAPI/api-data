@@ -17,6 +17,9 @@ jobs:
     - store_artifacts:
         path: _gen.tar.gz
   deploy:
+    docker:
+    - image: circleci/python:3.6.5
+    steps:
     # Trigger a new build of the deploy project
     - run: "curl -X POST --header \"Content-Type: application/json\" https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/build?circle-token=$CIRCLECI_API_TOKEN"
 
