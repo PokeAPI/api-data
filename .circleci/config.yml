@@ -4,9 +4,6 @@ jobs:
   build:
     docker:
     - image: circleci/python:3.6.5
-    filters:
-      branches:
-        only: master
     steps:
     - checkout
     - run: pip install --user -r requirements.txt
@@ -19,6 +16,21 @@ jobs:
     - run: tar czf _gen.tar.gz _gen/*
     - store_artifacts:
         path: _gen.tar.gz
-
+  deploy:
     # Trigger a new build of the deploy project
     - run: "curl -X POST --header \"Content-Type: application/json\" https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/build?circle-token=$CIRCLECI_API_TOKEN"
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+    - build:
+        filters:
+          branches:
+            only: master
+    - deploy:
+        requires:
+        - build
+        filters:
+          branches:
+            only: master
