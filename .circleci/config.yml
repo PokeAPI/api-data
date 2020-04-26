@@ -23,7 +23,7 @@ jobs:
     steps:
       - checkout
       - ditto-transform
-  build:
+  build-and-deploy:
     executor: python36
     steps:
       - checkout
@@ -31,10 +31,6 @@ jobs:
       - run: tar czf _gen.tar.gz _gen/*
       - store_artifacts:
           path: _gen.tar.gz
-  deploy:
-    executor: python36
-    steps:
-    # Trigger a new build of the deploy project
       - run: "curl -X POST --header \"Content-Type: application/json\" https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/build?circle-token=$CIRCLECI_API_TOKEN"
 
 workflows:
@@ -42,15 +38,9 @@ workflows:
   test-build-and-deploy:
     jobs:
       - test
-      - build:
+      - build-and-deploy:
           requires:
             - test
-          filters:
-            branches:
-              only: master
-      - deploy:
-          requires:
-            - build
           filters:
             branches:
               only: master
