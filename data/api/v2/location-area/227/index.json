@@ -9,15 +9,15 @@
                 {
                     "rate": 5,
                     "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
                     }
                 },
                 {
                     "rate": 5,
                     "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
                     }
                 }
             ]
@@ -31,15 +31,15 @@
                 {
                     "rate": 25,
                     "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
                     }
                 },
                 {
                     "rate": 25,
                     "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
                     }
                 }
             ]
@@ -53,15 +53,15 @@
                 {
                     "rate": 50,
                     "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
                     }
                 },
                 {
                     "rate": 50,
                     "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
                     }
                 }
             ]
@@ -75,15 +75,15 @@
                 {
                     "rate": 75,
                     "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
                     }
                 },
                 {
                     "rate": 75,
                     "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
                     }
                 }
             ]
@@ -97,15 +97,15 @@
                 {
                     "rate": 10,
                     "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
                     }
                 },
                 {
                     "rate": 10,
                     "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
                     }
                 }
             ]
@@ -137,13 +137,8 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
+                            "chance": 20,
+                            "condition_values": [],
                             "max_level": 23,
                             "method": {
                                 "name": "walk",
@@ -152,8 +147,13 @@
                             "min_level": 23
                         },
                         {
-                            "chance": 20,
-                            "condition_values": [],
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
                             "max_level": 23,
                             "method": {
                                 "name": "walk",
@@ -171,13 +171,8 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
+                            "chance": 20,
+                            "condition_values": [],
                             "max_level": 23,
                             "method": {
                                 "name": "walk",
@@ -186,8 +181,13 @@
                             "min_level": 23
                         },
                         {
-                            "chance": 20,
-                            "condition_values": [],
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
                             "max_level": 23,
                             "method": {
                                 "name": "walk",
@@ -213,7 +213,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 23,
                             "method": {
@@ -223,7 +223,7 @@
                             "min_level": 23
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 23,
                             "method": {
@@ -242,7 +242,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 23,
                             "method": {
@@ -252,7 +252,7 @@
                             "min_level": 23
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 23,
                             "method": {
@@ -973,16 +973,6 @@
                         {
                             "chance": 40,
                             "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "good-rod",
-                                "url": "/api/v2/encounter-method/3/"
-                            },
-                            "min_level": 20
-                        },
-                        {
-                            "chance": 15,
-                            "condition_values": [],
                             "max_level": 10,
                             "method": {
                                 "name": "old-rod",
@@ -1001,7 +991,7 @@
                             "min_level": 10
                         },
                         {
-                            "chance": 40,
+                            "chance": 15,
                             "condition_values": [],
                             "max_level": 10,
                             "method": {
@@ -1009,6 +999,16 @@
                                 "url": "/api/v2/encounter-method/2/"
                             },
                             "min_level": 10
+                        },
+                        {
+                            "chance": 40,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "good-rod",
+                                "url": "/api/v2/encounter-method/3/"
+                            },
+                            "min_level": 20
                         }
                     ],
                     "max_chance": 125,
@@ -1022,16 +1022,6 @@
                         {
                             "chance": 40,
                             "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "good-rod",
-                                "url": "/api/v2/encounter-method/3/"
-                            },
-                            "min_level": 20
-                        },
-                        {
-                            "chance": 15,
-                            "condition_values": [],
                             "max_level": 10,
                             "method": {
                                 "name": "old-rod",
@@ -1050,7 +1040,7 @@
                             "min_level": 10
                         },
                         {
-                            "chance": 40,
+                            "chance": 15,
                             "condition_values": [],
                             "max_level": 10,
                             "method": {
@@ -1058,6 +1048,16 @@
                                 "url": "/api/v2/encounter-method/2/"
                             },
                             "min_level": 10
+                        },
+                        {
+                            "chance": 40,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "good-rod",
+                                "url": "/api/v2/encounter-method/3/"
+                            },
+                            "min_level": 20
                         }
                     ],
                     "max_chance": 125,
