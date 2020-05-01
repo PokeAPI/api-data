@@ -10,7 +10,7 @@ commands:
     description: Run Ditto in order to transform the base URL to https://pokeapi.co instead of localhost
     steps:
       - run: pip install --user -r requirements.txt
-      - run: bash scripts/transform.sh
+      - run: bash -x scripts/transform.sh
 
 jobs:
   test:
