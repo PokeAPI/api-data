@@ -10,12 +10,7 @@ commands:
     description: Run Ditto in order to transform the base URL to https://pokeapi.co instead of localhost
     steps:
       - run: pip install --user -r requirements.txt
-      - run:
-          command: |
-            ~/.local/bin/ditto transform \
-              --base-url='https://pokeapi.co' \
-              --src-dir=data \
-              --dest-dir=_gen
+      - run: bash scripts/transform.sh
 
 jobs:
   test:
@@ -31,7 +26,8 @@ jobs:
       - run: tar czf _gen.tar.gz _gen/*
       - store_artifacts:
           path: _gen.tar.gz
-      - run: "curl -X POST --header \"Content-Type: application/json\" https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/build?circle-token=$CIRCLECI_API_TOKEN"
+      # Trigger a new build of the deploy job of the deploy project
+      - run: curl --header "Content-Type: application/json" --data "{\"build_parameters\": {\"deploy_location\": \"$CIRCLE_BRANCH\", \"CIRCLE_JOB\": \"deploy\"}}" --request POST "https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/tree/test-staging?circle-token=$CIRCLECI_API_TOKEN"
 
 workflows:
   version: 2
@@ -43,4 +39,6 @@ workflows:
             - test
           filters:
             branches:
-              only: master
+              only:
+                - master
+                - staging
