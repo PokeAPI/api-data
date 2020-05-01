@@ -27,7 +27,7 @@ jobs:
       - store_artifacts:
           path: _gen.tar.gz
       # Trigger a new build of the deploy job of the deploy project
-      - run: curl --header "Content-Type: application/json" --data "{\"build_parameters\": {\"deploy_location\": \"$CIRCLE_BRANCH\", \"CIRCLE_JOB\": \"deploy\"}}" --request POST "https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/tree/test-staging?circle-token=$CIRCLECI_API_TOKEN"
+      - run: 'curl --header "Content-Type: application/json" --data "{\"build_parameters\": {\"deploy_location\": \"$CIRCLE_BRANCH\", \"CIRCLE_JOB\": \"deploy\"}}" --request POST "https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/tree/test-staging?circle-token=$CIRCLECI_API_TOKEN"'
 
 workflows:
   version: 2
