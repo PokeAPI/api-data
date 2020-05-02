@@ -30,10 +30,10 @@ docker-compose exec -T app sh -c 'echo "from data.v2.build import build_all; bui
 
 # set up the data side
 cd ../api-data
-# git branch -D "$BRANCH_NAME" || true
+# git branch -D "$BRANCH_NAME" || true # TODO: uncomment
 # git branch "$BRANCH_NAME"
 # git checkout "$BRANCH_NAME"
-git checkout "$BRANCH_NAME"
+git checkout "$BRANCH_NAME" # TODO: remove
 
 pip install -r requirements.txt
 rm -r ./data
