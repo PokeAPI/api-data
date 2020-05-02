@@ -7,10 +7,14 @@ executors:
 
 commands:
   ditto-transform:
-    description: Run Ditto in order to transform the base URL to https://pokeapi.co instead of localhost
+    description: Run Ditto in order to transform the BASE_URL instead of http://localhost
     steps:
-      - run: pip install --user -r requirements.txt
-      - run: bash -x scripts/transform.sh
+      - run: 
+          name: Install requirements.txt
+          command: pip install --user -r requirements.txt
+      - run: 
+          name: Transform api-data's JSON files to have the correct BASE_URL instead of http://localhost
+          command: bash -x scripts/transform.sh
 
 jobs:
   test:
@@ -23,11 +27,15 @@ jobs:
     steps:
       - checkout
       - ditto-transform
-      - run: tar czf _gen.tar.gz _gen/*
+      - run: 
+          name: Pack the transofrmed data in a .tar.gz
+          command: tar czf _gen.tar.gz _gen/*
       - store_artifacts:
           path: _gen.tar.gz
       # Trigger a new build of the deploy job of the deploy project
-      - run: 'curl --header "Content-Type: application/json" --data "{\"build_parameters\": {\"deploy_location\": \"$CIRCLE_BRANCH\", \"CIRCLE_JOB\": \"deploy\"}}" --request POST "https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/tree/test-staging?circle-token=$CIRCLECI_API_TOKEN"'
+      - run: 
+          name: Trigger a deploy of the deploy project passing the desired environment/location to deploy to
+          command: 'curl --header "Content-Type: application/json" --data "{\"build_parameters\": {\"deploy_location\": \"$CIRCLE_BRANCH\", \"CIRCLE_JOB\": \"deploy\"}}" --request POST "https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/tree/test-staging?circle-token=$CIRCLECI_API_TOKEN"'
 
 workflows:
   version: 2
