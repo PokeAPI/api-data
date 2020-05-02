@@ -220,10 +220,10 @@
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 0,
+                    "level_learned_at": 5,
                     "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
                         "name": "ultra-sun-ultra-moon",
@@ -231,10 +231,10 @@
                     }
                 },
                 {
-                    "level_learned_at": 5,
+                    "level_learned_at": 0,
                     "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
                         "name": "ultra-sun-ultra-moon",
@@ -269,10 +269,10 @@
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 0,
+                    "level_learned_at": 1,
                     "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
                         "name": "ultra-sun-ultra-moon",
@@ -280,10 +280,10 @@
                     }
                 },
                 {
-                    "level_learned_at": 1,
+                    "level_learned_at": 0,
                     "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
                         "name": "ultra-sun-ultra-moon",
@@ -769,7 +769,7 @@
         }
     ],
     "name": "stakataka",
-    "order": 956,
+    "order": 962,
     "species": {
         "name": "stakataka",
         "url": "/api/v2/pokemon-species/805/"
@@ -779,42 +779,18 @@
         "back_female": null,
         "back_shiny": null,
         "back_shiny_female": null,
-        "front_default": null,
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png",
         "front_female": null,
-        "front_shiny": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/805.png",
         "front_shiny_female": null
     },
     "stats": [
         {
-            "base_stat": 13,
+            "base_stat": 61,
             "effort": 0,
             "stat": {
-                "name": "speed",
-                "url": "/api/v2/stat/6/"
-            }
-        },
-        {
-            "base_stat": 101,
-            "effort": 0,
-            "stat": {
-                "name": "special-defense",
-                "url": "/api/v2/stat/5/"
-            }
-        },
-        {
-            "base_stat": 53,
-            "effort": 0,
-            "stat": {
-                "name": "special-attack",
-                "url": "/api/v2/stat/4/"
-            }
-        },
-        {
-            "base_stat": 211,
-            "effort": 3,
-            "stat": {
-                "name": "defense",
-                "url": "/api/v2/stat/3/"
+                "name": "hp",
+                "url": "/api/v2/stat/1/"
             }
         },
         {
@@ -826,27 +802,51 @@
             }
         },
         {
-            "base_stat": 61,
+            "base_stat": 211,
+            "effort": 3,
+            "stat": {
+                "name": "defense",
+                "url": "/api/v2/stat/3/"
+            }
+        },
+        {
+            "base_stat": 53,
             "effort": 0,
             "stat": {
-                "name": "hp",
-                "url": "/api/v2/stat/1/"
+                "name": "special-attack",
+                "url": "/api/v2/stat/4/"
+            }
+        },
+        {
+            "base_stat": 101,
+            "effort": 0,
+            "stat": {
+                "name": "special-defense",
+                "url": "/api/v2/stat/5/"
+            }
+        },
+        {
+            "base_stat": 13,
+            "effort": 0,
+            "stat": {
+                "name": "speed",
+                "url": "/api/v2/stat/6/"
             }
         }
     ],
     "types": [
         {
-            "slot": 2,
-            "type": {
-                "name": "steel",
-                "url": "/api/v2/type/9/"
-            }
-        },
-        {
             "slot": 1,
             "type": {
                 "name": "rock",
                 "url": "/api/v2/type/6/"
+            }
+        },
+        {
+            "slot": 2,
+            "type": {
+                "name": "steel",
+                "url": "/api/v2/type/9/"
             }
         }
     ],

@@ -9,8 +9,8 @@
                 {
                     "rate": 30,
                     "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -23,8 +23,8 @@
                 {
                     "rate": 30,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
                     }
                 }
             ]
@@ -526,28 +526,63 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "swarm-no",
+                                    "url": "/api/v2/encounter-condition-value/2/"
+                                }
+                            ],
+                            "max_level": 5,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 5
+                        },
+                        {
+                            "chance": 10,
                             "condition_values": [
                                 {
                                     "name": "radar-off",
                                     "url": "/api/v2/encounter-condition-value/7/"
                                 }
                             ],
-                            "max_level": 7,
+                            "max_level": 6,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 7
+                            "min_level": 6
                         },
                         {
-                            "chance": 4,
+                            "chance": 10,
                             "condition_values": [
                                 {
-                                    "name": "slot2-leafgreen",
-                                    "url": "/api/v2/encounter-condition-value/13/"
+                                    "name": "radar-off",
+                                    "url": "/api/v2/encounter-condition-value/7/"
                                 }
                             ],
+                            "max_level": 6,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 6
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
                             "max_level": 7,
                             "method": {
                                 "name": "walk",
@@ -559,23 +594,8 @@
                             "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "slot2-firered",
-                                    "url": "/api/v2/encounter-condition-value/12/"
-                                }
-                            ],
-                            "max_level": 7,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 7
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "slot2-sapphire",
-                                    "url": "/api/v2/encounter-condition-value/10/"
+                                    "name": "slot2-none",
+                                    "url": "/api/v2/encounter-condition-value/8/"
                                 }
                             ],
                             "max_level": 7,
@@ -604,8 +624,8 @@
                             "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "slot2-none",
-                                    "url": "/api/v2/encounter-condition-value/8/"
+                                    "name": "slot2-sapphire",
+                                    "url": "/api/v2/encounter-condition-value/10/"
                                 }
                             ],
                             "max_level": 7,
@@ -616,8 +636,13 @@
                             "min_level": 7
                         },
                         {
-                            "chance": 5,
-                            "condition_values": [],
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "slot2-firered",
+                                    "url": "/api/v2/encounter-condition-value/12/"
+                                }
+                            ],
                             "max_level": 7,
                             "method": {
                                 "name": "walk",
@@ -626,8 +651,13 @@
                             "min_level": 7
                         },
                         {
-                            "chance": 5,
-                            "condition_values": [],
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "slot2-leafgreen",
+                                    "url": "/api/v2/encounter-condition-value/13/"
+                                }
+                            ],
                             "max_level": 7,
                             "method": {
                                 "name": "walk",
@@ -636,49 +666,19 @@
                             "min_level": 7
                         },
                         {
-                            "chance": 10,
+                            "chance": 1,
                             "condition_values": [
                                 {
                                     "name": "radar-off",
                                     "url": "/api/v2/encounter-condition-value/7/"
                                 }
                             ],
-                            "max_level": 6,
+                            "max_level": 7,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 6
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radar-off",
-                                    "url": "/api/v2/encounter-condition-value/7/"
-                                }
-                            ],
-                            "max_level": 6,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 6
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "swarm-no",
-                                    "url": "/api/v2/encounter-condition-value/2/"
-                                }
-                            ],
-                            "max_level": 5,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 5
+                            "min_level": 7
                         }
                     ],
                     "max_chance": 71,
@@ -690,28 +690,63 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "swarm-no",
+                                    "url": "/api/v2/encounter-condition-value/2/"
+                                }
+                            ],
+                            "max_level": 5,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 5
+                        },
+                        {
+                            "chance": 10,
                             "condition_values": [
                                 {
                                     "name": "radar-off",
                                     "url": "/api/v2/encounter-condition-value/7/"
                                 }
                             ],
-                            "max_level": 7,
+                            "max_level": 6,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 7
+                            "min_level": 6
                         },
                         {
-                            "chance": 4,
+                            "chance": 10,
                             "condition_values": [
                                 {
-                                    "name": "slot2-leafgreen",
-                                    "url": "/api/v2/encounter-condition-value/13/"
+                                    "name": "radar-off",
+                                    "url": "/api/v2/encounter-condition-value/7/"
                                 }
                             ],
+                            "max_level": 6,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 6
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
                             "max_level": 7,
                             "method": {
                                 "name": "walk",
@@ -723,23 +758,8 @@
                             "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "slot2-firered",
-                                    "url": "/api/v2/encounter-condition-value/12/"
-                                }
-                            ],
-                            "max_level": 7,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 7
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "slot2-sapphire",
-                                    "url": "/api/v2/encounter-condition-value/10/"
+                                    "name": "slot2-none",
+                                    "url": "/api/v2/encounter-condition-value/8/"
                                 }
                             ],
                             "max_level": 7,
@@ -768,8 +788,8 @@
                             "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "slot2-none",
-                                    "url": "/api/v2/encounter-condition-value/8/"
+                                    "name": "slot2-sapphire",
+                                    "url": "/api/v2/encounter-condition-value/10/"
                                 }
                             ],
                             "max_level": 7,
@@ -780,8 +800,13 @@
                             "min_level": 7
                         },
                         {
-                            "chance": 5,
-                            "condition_values": [],
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "slot2-firered",
+                                    "url": "/api/v2/encounter-condition-value/12/"
+                                }
+                            ],
                             "max_level": 7,
                             "method": {
                                 "name": "walk",
@@ -790,8 +815,13 @@
                             "min_level": 7
                         },
                         {
-                            "chance": 5,
-                            "condition_values": [],
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "slot2-leafgreen",
+                                    "url": "/api/v2/encounter-condition-value/13/"
+                                }
+                            ],
                             "max_level": 7,
                             "method": {
                                 "name": "walk",
@@ -799,60 +829,6 @@
                             },
                             "min_level": 7
                         },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radar-off",
-                                    "url": "/api/v2/encounter-condition-value/7/"
-                                }
-                            ],
-                            "max_level": 6,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 6
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radar-off",
-                                    "url": "/api/v2/encounter-condition-value/7/"
-                                }
-                            ],
-                            "max_level": 6,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 6
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "swarm-no",
-                                    "url": "/api/v2/encounter-condition-value/2/"
-                                }
-                            ],
-                            "max_level": 5,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 5
-                        }
-                    ],
-                    "max_chance": 71,
-                    "version": {
-                        "name": "pearl",
-                        "url": "/api/v2/version/13/"
-                    }
-                },
-                {
-                    "encounter_details": [
                         {
                             "chance": 1,
                             "condition_values": [
@@ -867,27 +843,16 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 7
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 7,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 7
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 6,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 6
-                        },
+                        }
+                    ],
+                    "max_chance": 71,
+                    "version": {
+                        "name": "pearl",
+                        "url": "/api/v2/version/13/"
+                    }
+                },
+                {
+                    "encounter_details": [
                         {
                             "chance": 20,
                             "condition_values": [
@@ -902,6 +867,41 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 5
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 6,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 6
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "radar-off",
+                                    "url": "/api/v2/encounter-condition-value/7/"
+                                }
+                            ],
+                            "max_level": 7,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 7
                         }
                     ],
                     "max_chance": 30,
