@@ -9,8 +9,8 @@
                 {
                     "rate": 15,
                     "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
+                        "name": "diamond",
+                        "url": "/api/v2/version/12/"
                     }
                 },
                 {
@@ -23,8 +23,8 @@
                 {
                     "rate": 15,
                     "version": {
-                        "name": "diamond",
-                        "url": "/api/v2/version/12/"
+                        "name": "platinum",
+                        "url": "/api/v2/version/14/"
                     }
                 }
             ]
@@ -319,36 +319,26 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 38,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 38
-                        },
-                        {
-                            "chance": 4,
+                            "chance": 10,
                             "condition_values": [
                                 {
-                                    "name": "slot2-leafgreen",
-                                    "url": "/api/v2/encounter-condition-value/13/"
+                                    "name": "time-night",
+                                    "url": "/api/v2/encounter-condition-value/5/"
                                 }
                             ],
-                            "max_level": 38,
+                            "max_level": 37,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 38
+                            "min_level": 37
                         },
                         {
                             "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "slot2-firered",
-                                    "url": "/api/v2/encounter-condition-value/12/"
+                                    "name": "slot2-none",
+                                    "url": "/api/v2/encounter-condition-value/8/"
                                 }
                             ],
                             "max_level": 38,
@@ -377,8 +367,8 @@
                             "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "slot2-none",
-                                    "url": "/api/v2/encounter-condition-value/8/"
+                                    "name": "slot2-firered",
+                                    "url": "/api/v2/encounter-condition-value/12/"
                                 }
                             ],
                             "max_level": 38,
@@ -389,19 +379,29 @@
                             "min_level": 38
                         },
                         {
-                            "chance": 10,
+                            "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
+                                    "name": "slot2-leafgreen",
+                                    "url": "/api/v2/encounter-condition-value/13/"
                                 }
                             ],
-                            "max_level": 37,
+                            "max_level": 38,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 37
+                            "min_level": 38
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 38,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 38
                         }
                     ],
                     "max_chance": 27,
@@ -524,6 +524,16 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 38,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 38
+                        },
+                        {
                             "chance": 10,
                             "condition_values": [
                                 {
@@ -537,16 +547,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 36
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 38,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 38
                         }
                     ],
                     "max_chance": 30,
