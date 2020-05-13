@@ -16,7 +16,7 @@ export COMPOSE_INTERACTIVE_NO_CLI=1
 dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 &> /dev/null &
 
 git clone --depth=1 "$REPO_POKEAPI" pokeapi
-git clone "$REPO_DATA" api-data
+git clone --depth=1 "$REPO_DATA" api-data
 
 # set up the pokeapi side
 cd pokeapi
@@ -30,10 +30,9 @@ docker-compose exec -T app sh -c 'echo "from data.v2.build import build_all; bui
 
 # set up the data side
 cd ../api-data
-# git branch -D "$BRANCH_NAME" || true # TODO: uncomment
-# git branch "$BRANCH_NAME"
-# git checkout "$BRANCH_NAME"
-git checkout "$BRANCH_NAME" # TODO: remove
+git branch -D "$BRANCH_NAME" || true
+git branch "$BRANCH_NAME"
+git checkout "$BRANCH_NAME"
 
 pip install -r requirements.txt
 rm -r ./data
