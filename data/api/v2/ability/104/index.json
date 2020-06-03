@@ -2,6 +2,14 @@
     "effect_changes": [],
     "effect_entries": [
         {
+            "effect": "Die Attacken von Pok\u00e9mon mit dieser F\u00e4higkeit ignorieren F\u00e4higkeiten, die die Attacke am Funktionieren hindern oder ihre Effekte beeinflussen.\n\nBeispiel: Die Attacken ignorieren F\u00e4higkeiten die sie komplett verhindern w\u00fcrden, wie water absorb, F\u00e4higkeiten die einen der Effekte verhindern w\u00fcrden, wie z.B. clear body, shell armor oder sticky hold und F\u00e4higkeiten die einen generellen sch\u00fctzenden Vorteil br\u00e4chten, wie simple, snow cloak oder thick fat. Wenn eine F\u00e4higkeit die Attacke behindern oder ihr helfen w\u00fcrde, wie dry skin oder unaware, wird sie ebenfalls ignoriert.\n\nF\u00e4higkeiten die dieser Beschreibung nicht entsprechen, selbst wenn sie eine Attacke behindern k\u00f6nnten, werden nicht verhindert. Zum Beispiel beeinflusst cursed body nur m\u00f6gliche zuk\u00fcnftige Anwendungen der Attacke, w\u00e4hrend liquid ooze und shadow tag nur den Effekt der Attacke auf den Anwender verhindern. Die Attacke kann keine Typ- oder Form-\u00c4nderungen verhindern die durch F\u00e4higkeiten ausgel\u00f6st werden, zum Beispiel color change oder forecast, genauso wie Effekte die von F\u00e4higkeiten verursacht wurden aber nicht mehr an die F\u00e4higkeit gebunden sind, so wie der rain von drizzle. Die F\u00e4higkeit kann multitype nicht verhindern.\n\nEine F\u00e4higkeit die von dieser F\u00e4higkeit ignoriert wird, wird nur \u00fcberbr\u00fcckt, w\u00e4hrend die Attacke eingesetzt wird. Beispiel: Die Attacken von Pok\u00e9mon mit dieser F\u00e4higkeit k\u00f6nnen ein Pok\u00e9mon mit limber paralysieren aber limber wird sich aktivieren und die Paralyse direkt danach heilen. Au\u00dferdem werden die Stacheln dieses Pok\u00e9mons nicht von dieser F\u00e4higkeit beeinflusst, nachdem sie platziert wurden.\n\nWenn ein Pok\u00e9mon mit dieser F\u00e4higkeit den Kampf betritt, werden alle Trainer \u00fcber diese F\u00e4higkeit benachrichtigt.\n\nDie F\u00e4higkeit ist identisch mit teravolt und turboblaze.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "short_effect": "Umgeht die gegnerische F\u00e4higkeit, wenn sie eine Attacke verhindern kann."
+        },
+        {
             "effect": "This Pok\u00e9mon's moves completely ignore abilities that could hinder or prevent their effect on the target.\n\nFor example, this Pok\u00e9mon's moves ignore abilities that would fully negate them, such as water absorb; abilities that would prevent any of their effects, such as clear body, shell armor, or sticky hold; and abilities that grant any general protective benefit, such as simple, snow cloak, or thick fat.  If an ability could either hinder or help this Pok\u00e9mon's moves, e.g. dry skin or unaware, the ability is ignored either way.\n\nAbilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, cursed body only affects potential future uses of the move, while liquid ooze and shadow tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example color change or forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from drizzle.  This ability cannot ignore multitype at all.\n\nAn ability ignored by this ability is only nullified while the move is being used.  For example, this Pok\u00e9mon's moves can paralyze a Pok\u00e9mon with limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pok\u00e9mon's spikes are not affected by this ability after they have been placed.\n\nWhen this Pok\u00e9mon enters battle, all participating trainers are notified that it has this ability.\n\nThis ability functions identically to teravolt and turboblaze.",
             "language": {
                 "name": "en",
@@ -12,443 +20,14 @@
     ],
     "flavor_text_entries": [
         {
-            "flavor_text": "\u53ef\u4ee5\u4e0d\u53d7\u5bf9\u624b\u7279\u6027\u7684\u5e72\u6270\uff0c\n\u5411\u5bf9\u624b\u4f7f\u51fa\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-Hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u7279\u6027\u306b\n\u30b8\u30e3\u30de\u3055\u308c\u308b\u3000\u3053\u3068\u306a\u304f\u3000\u76f8\u624b\u306b\n\u6280\u3092\u3000\u51fa\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Moves can be used on the target regardless of\nits Abilities.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Quando il Pok\u00e9mon attacca, ignora l\u2019abilit\u00e0 del\nbersaglio se questa ha effetto sulle mosse.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Las habilidades del objetivo no afectan a los\nmovimientos empleados.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Attacken k\u00f6nnen ungeachtet der F\u00e4higkeiten des\nZieles verwendet werden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Le Pok\u00e9mon ignore les talents adverses qui auraient\nun effet sur ses capacit\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u53ef\u4e0d\u53d7\u7279\u6027\u5f71\u97ff\uff0c\n\u5411\u5c0d\u624b\u4f7f\u51fa\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-Hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300 \ud2b9\uc131\uc5d0\n\ubc29\ud574\ubc1b\uc9c0 \uc54a\uace0 \uc0c1\ub300\uc5d0\uac8c\n\uae30\uc220\uc744 \uc4f8 \uc218 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u305b\u3044\u306b\n\u3058\u3083\u307e\u3055\u308c\u308b\u3000\u3053\u3068\u306a\u304f\u3000\u3042\u3044\u3066\u306b\n\u308f\u3056\u3092\u3000\u3060\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
-            "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u53ef\u4ee5\u4e0d\u53d7\u5bf9\u624b\u7279\u6027\u7684\u5e72\u6270\uff0c\n\u5411\u5bf9\u624b\u4f7f\u51fa\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-Hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u7279\u6027\u306b\n\u30b8\u30e3\u30de\u3055\u308c\u308b\u3000\u3053\u3068\u306a\u304f\u3000\u76f8\u624b\u306b\n\u6280\u3092\u3000\u51fa\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Moves can be used on the target regardless of\nits Abilities.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Quando il Pok\u00e9mon attacca, ignora l\u2019abilit\u00e0 del\nbersaglio se questa ha effetto sulle mosse.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Las habilidades del objetivo no afectan a los\nmovimientos empleados.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Attacken k\u00f6nnen ungeachtet der F\u00e4higkeiten des\nZieles verwendet werden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Le Pok\u00e9mon ignore les talents adverses qui auraient\nun effet sur ses capacit\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u53ef\u4e0d\u53d7\u7279\u6027\u5f71\u97ff\uff0c\n\u5411\u5c0d\u624b\u4f7f\u51fa\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-Hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300 \ud2b9\uc131\uc5d0\n\ubc29\ud574\ubc1b\uc9c0 \uc54a\uace0 \uc0c1\ub300\uc5d0\uac8c\n\uae30\uc220\uc744 \uc4f8 \uc218 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u305b\u3044\u306b\n\u3058\u3083\u307e\u3055\u308c\u308b\u3000\u3053\u3068\u306a\u304f\u3000\u3042\u3044\u3066\u306b\n\u308f\u3056\u3092\u3000\u3060\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
-            "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7279\u6027\u306b\u3000\u95a2\u4fc2\u306a\u304f\n\u76f8\u624b\u306b\u3000\u6280\u3092\u3000\u3060\u305b\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Moves can be used on the target\nregardless of its Abilities.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Neutralizza le abilit\u00e0 che\nbloccano le mosse.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Usa movimientos sin que importen\nlas habilidades del objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Attacken k\u00f6nnen ungeachtet der\nF\u00e4higkeiten verwendet werden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Les talents adverses ne bloquent\npas ses capacit\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\ud2b9\uc131\uc5d0 \uad00\uacc4\uc5c6\uc774 \uc0c1\ub300\uc5d0\uac8c\n\uae30\uc220\uc744 \uc4f8 \uc218 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3068\u304f\u305b\u3044\u306b\u3000\u304b\u3093\u3051\u3044\u306a\u304f\n\u3042\u3044\u3066\u306b\u3000\u308f\u3056\u3092\u3000\u3060\u305b\u308b\u3002",
-            "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u7279\u6027\u306b\u3000\u95a2\u4fc2\u306a\u304f\n\u76f8\u624b\u306b\u3000\u6280\u3092\u3000\u3060\u305b\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Moves can be used on the target\nregardless of its Abilities.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Neutralizza le abilit\u00e0 che\nbloccano le mosse.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Usa movimientos sin que importen\nlas habilidades del objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Attacken k\u00f6nnen ungeachtet der\nF\u00e4higkeiten verwendet werden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Les talents adverses ne bloquent\npas ses capacit\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\ud2b9\uc131\uc5d0 \uad00\uacc4\uc5c6\uc774 \uc0c1\ub300\uc5d0\uac8c\n\uae30\uc220\uc744 \uc4f8 \uc218 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3068\u304f\u305b\u3044\u306b\u3000\u304b\u3093\u3051\u3044\u306a\u304f\n\u3042\u3044\u3066\u306b\u3000\u308f\u3056\u3092\u3000\u3060\u305b\u308b\u3002",
-            "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Moves can be used\nregardless of Abilities.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "Moves can be used\nregardless of Abilities.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "Les cap. sp\u00e9. adverses ne\nbloquent pas ses cap.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
             "flavor_text": "Moves can be used\nregardless of abilities.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
+                "name": "diamond-pearl",
+                "url": "/api/v2/version-group/8/"
             }
         },
         {
@@ -469,8 +48,437 @@
                 "url": "/api/v2/language/9/"
             },
             "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
+                "name": "heartgold-soulsilver",
+                "url": "/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "Les cap. sp\u00e9. adverses ne\nbloquent pas ses cap.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Moves can be used\nregardless of Abilities.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Moves can be used\nregardless of Abilities.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304f\u305b\u3044\u306b\u3000\u304b\u3093\u3051\u3044\u306a\u304f\n\u3042\u3044\u3066\u306b\u3000\u308f\u3056\u3092\u3000\u3060\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\ud2b9\uc131\uc5d0 \uad00\uacc4\uc5c6\uc774 \uc0c1\ub300\uc5d0\uac8c\n\uae30\uc220\uc744 \uc4f8 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Les talents adverses ne bloquent\npas ses capacit\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Attacken k\u00f6nnen ungeachtet der\nF\u00e4higkeiten verwendet werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Usa movimientos sin que importen\nlas habilidades del objetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Neutralizza le abilit\u00e0 che\nbloccano le mosse.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Moves can be used on the target\nregardless of its Abilities.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u7279\u6027\u306b\u3000\u95a2\u4fc2\u306a\u304f\n\u76f8\u624b\u306b\u3000\u6280\u3092\u3000\u3060\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u304f\u305b\u3044\u306b\u3000\u304b\u3093\u3051\u3044\u306a\u304f\n\u3042\u3044\u3066\u306b\u3000\u308f\u3056\u3092\u3000\u3060\u305b\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\ud2b9\uc131\uc5d0 \uad00\uacc4\uc5c6\uc774 \uc0c1\ub300\uc5d0\uac8c\n\uae30\uc220\uc744 \uc4f8 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Les talents adverses ne bloquent\npas ses capacit\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Attacken k\u00f6nnen ungeachtet der\nF\u00e4higkeiten verwendet werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Usa movimientos sin que importen\nlas habilidades del objetivo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Neutralizza le abilit\u00e0 che\nbloccano le mosse.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Moves can be used on the target\nregardless of its Abilities.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u7279\u6027\u306b\u3000\u95a2\u4fc2\u306a\u304f\n\u76f8\u624b\u306b\u3000\u6280\u3092\u3000\u3060\u305b\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u305b\u3044\u306b\n\u3058\u3083\u307e\u3055\u308c\u308b\u3000\u3053\u3068\u306a\u304f\u3000\u3042\u3044\u3066\u306b\n\u308f\u3056\u3092\u3000\u3060\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300 \ud2b9\uc131\uc5d0\n\ubc29\ud574\ubc1b\uc9c0 \uc54a\uace0 \uc0c1\ub300\uc5d0\uac8c\n\uae30\uc220\uc744 \uc4f8 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u53ef\u4e0d\u53d7\u7279\u6027\u5f71\u97ff\uff0c\n\u5411\u5c0d\u624b\u4f7f\u51fa\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le Pok\u00e9mon ignore les talents adverses qui auraient\nun effet sur ses capacit\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Attacken k\u00f6nnen ungeachtet der F\u00e4higkeiten des\nZieles verwendet werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Las habilidades del objetivo no afectan a los\nmovimientos empleados.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Quando il Pok\u00e9mon attacca, ignora l\u2019abilit\u00e0 del\nbersaglio se questa ha effetto sulle mosse.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Moves can be used on the target regardless of\nits Abilities.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u7279\u6027\u306b\n\u30b8\u30e3\u30de\u3055\u308c\u308b\u3000\u3053\u3068\u306a\u304f\u3000\u76f8\u624b\u306b\n\u6280\u3092\u3000\u51fa\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u53ef\u4ee5\u4e0d\u53d7\u5bf9\u624b\u7279\u6027\u7684\u5e72\u6270\uff0c\n\u5411\u5bf9\u624b\u4f7f\u51fa\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u305b\u3044\u306b\n\u3058\u3083\u307e\u3055\u308c\u308b\u3000\u3053\u3068\u306a\u304f\u3000\u3042\u3044\u3066\u306b\n\u308f\u3056\u3092\u3000\u3060\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\uc0c1\ub300 \ud2b9\uc131\uc5d0\n\ubc29\ud574\ubc1b\uc9c0 \uc54a\uace0 \uc0c1\ub300\uc5d0\uac8c\n\uae30\uc220\uc744 \uc4f8 \uc218 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u53ef\u4e0d\u53d7\u7279\u6027\u5f71\u97ff\uff0c\n\u5411\u5c0d\u624b\u4f7f\u51fa\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le Pok\u00e9mon ignore les talents adverses qui auraient\nun effet sur ses capacit\u00e9s.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Attacken k\u00f6nnen ungeachtet der F\u00e4higkeiten des\nZieles verwendet werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Las habilidades del objetivo no afectan a los\nmovimientos empleados.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Quando il Pok\u00e9mon attacca, ignora l\u2019abilit\u00e0 del\nbersaglio se questa ha effetto sulle mosse.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Moves can be used on the target regardless of\nits Abilities.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u76f8\u624b\u306e\u3000\u7279\u6027\u306b\n\u30b8\u30e3\u30de\u3055\u308c\u308b\u3000\u3053\u3068\u306a\u304f\u3000\u76f8\u624b\u306b\n\u6280\u3092\u3000\u51fa\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "\u53ef\u4ee5\u4e0d\u53d7\u5bf9\u624b\u7279\u6027\u7684\u5e72\u6270\uff0c\n\u5411\u5bf9\u624b\u4f7f\u51fa\u62db\u5f0f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
             }
         }
     ],
@@ -484,59 +492,10 @@
     "names": [
         {
             "language": {
-                "name": "zh-Hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u7834\u683c"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
             },
             "name": "\u304b\u305f\u3084\u3076\u308a"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mold Breaker"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Rompiforma"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Rompemoldes"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "\u00dcberbr\u00fcckung"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Brise Moule"
-        },
-        {
-            "language": {
-                "name": "zh-Hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u7834\u683c"
         },
         {
             "language": {
@@ -547,10 +506,59 @@
         },
         {
             "language": {
-                "name": "ja-Hrkt",
-                "url": "/api/v2/language/1/"
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u7834\u683c"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Brise Moule"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "\u00dcberbr\u00fcckung"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Rompemoldes"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Rompiforma"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Mold Breaker"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
             },
             "name": "\u304b\u305f\u3084\u3076\u308a"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u7834\u683c"
         }
     ],
     "pokemon": [
