@@ -15,7 +15,7 @@ export COMPOSE_INTERACTIVE_NO_CLI=1
 
 dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 &> /dev/null &
 
-git clone --depth=1 "$REPO_POKEAPI" pokeapi
+git clone --recurse-submodules "$REPO_POKEAPI" pokeapi
 git clone --depth=1 "$REPO_DATA" api-data
 
 # set up the pokeapi side
