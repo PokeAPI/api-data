@@ -6,6 +6,7 @@
 [ -z "${REPO_POKEAPI}" ] && { echo "Need to set REPO_POKEAPI"; exit 1; }
 [ -z "${REPO_DATA}" ] && { echo "Need to set REPO_DATA"; exit 1; }
 [ -z "${BRANCH_NAME}" ] && { echo "Need to set BRANCH_NAME"; exit 1; }
+[ -z "${REPO_POKEAPI_CHECKOUT_OBJECT:=master}" ] && { echo "REPO_POKEAPI_CHECKOUT_OBJECT not set, defaulting to \`master\`"; }
 
 set -e
 set -o pipefail
@@ -15,11 +16,14 @@ export COMPOSE_INTERACTIVE_NO_CLI=1
 
 dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 &> /dev/null &
 
-git clone --recurse-submodules "$REPO_POKEAPI" pokeapi
+git clone "$REPO_POKEAPI" pokeapi
 git clone --depth=1 "$REPO_DATA" api-data
 
 # set up the pokeapi side
 cd pokeapi
+git checkout "$REPO_POKEAPI_CHECKOUT_OBJECT"
+git submodule init
+git submodule update --remote
 
 docker volume create --name=redis_data
 docker volume create --name=pg_data
