@@ -49,5 +49,8 @@ ditto analyze --data-dir ./data
 git add data
 git config user.name "$COMMIT_NAME"
 git config user.email "$COMMIT_EMAIL"
-git commit -m "$COMMIT_MESSAGE"
+if ! git commit -m "$COMMIT_MESSAGE"; then
+    echo "The generated data doesn't bring any updates"
+    exit 2
+fi
 git push -fu origin "$BRANCH_NAME"
