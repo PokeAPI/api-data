@@ -1,4 +1,4 @@
-# Updater Bot <img src='https://veekun.com/dex/media/pokemon/global-link/137.png' height=50px/>
+# Updater Bot <a href="https://pokeapi.co/api/v2/pokemon/porygon"><img src='https://veekun.com/dex/media/pokemon/global-link/137.png' height=50px/></a>
 
 [![Docker Repository on Quay](https://quay.io/repository/pokeapi/updater/status "Docker Repository on Quay")](https://quay.io/repository/pokeapi/updater)
 
