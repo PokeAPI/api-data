@@ -213,10 +213,25 @@
                                 "front_female"
                             ],
                             "type": "object"
+                        },
+                        "official-artwork": {
+                            "properties": {
+                                "front_default": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "front_default"
+                            ],
+                            "type": "object"
                         }
                     },
                     "required": [
-                        "dream_world"
+                        "dream_world",
+                        "official-artwork"
                     ],
                     "type": "object"
                 },
@@ -300,10 +315,624 @@
                                 "yellow"
                             ],
                             "type": "object"
+                        },
+                        "generation-ii": {
+                            "properties": {
+                                "crystal": {
+                                    "properties": {
+                                        "back_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "back_default",
+                                        "back_shiny",
+                                        "front_default",
+                                        "front_shiny"
+                                    ],
+                                    "type": "object"
+                                },
+                                "gold": {
+                                    "properties": {
+                                        "back_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "back_default",
+                                        "back_shiny",
+                                        "front_default",
+                                        "front_shiny"
+                                    ],
+                                    "type": "object"
+                                },
+                                "silver": {
+                                    "properties": {
+                                        "back_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "back_default",
+                                        "back_shiny",
+                                        "front_default",
+                                        "front_shiny"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "crystal",
+                                "gold",
+                                "silver"
+                            ],
+                            "type": "object"
+                        },
+                        "generation-iii": {
+                            "properties": {
+                                "emerald": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_shiny"
+                                    ],
+                                    "type": "object"
+                                },
+                                "firered-leafgreen": {
+                                    "properties": {
+                                        "back_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "back_default",
+                                        "back_shiny",
+                                        "front_default",
+                                        "front_shiny"
+                                    ],
+                                    "type": "object"
+                                },
+                                "ruby-sapphire": {
+                                    "properties": {
+                                        "back_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "back_default",
+                                        "back_shiny",
+                                        "front_default",
+                                        "front_shiny"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "emerald",
+                                "firered-leafgreen",
+                                "ruby-sapphire"
+                            ],
+                            "type": "object"
+                        },
+                        "generation-iv": {
+                            "properties": {
+                                "diamond-pearl": {
+                                    "properties": {
+                                        "back_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "back_default",
+                                        "back_female",
+                                        "back_shiny",
+                                        "back_shiny_female",
+                                        "front_default",
+                                        "front_female",
+                                        "front_shiny",
+                                        "front_shiny_female"
+                                    ],
+                                    "type": "object"
+                                },
+                                "heartgold-soulsilver": {
+                                    "properties": {
+                                        "back_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "back_default",
+                                        "back_female",
+                                        "back_shiny",
+                                        "back_shiny_female",
+                                        "front_default",
+                                        "front_female",
+                                        "front_shiny",
+                                        "front_shiny_female"
+                                    ],
+                                    "type": "object"
+                                },
+                                "platinum": {
+                                    "properties": {
+                                        "back_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "back_default",
+                                        "back_female",
+                                        "back_shiny",
+                                        "back_shiny_female",
+                                        "front_default",
+                                        "front_female",
+                                        "front_shiny",
+                                        "front_shiny_female"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "diamond-pearl",
+                                "heartgold-soulsilver",
+                                "platinum"
+                            ],
+                            "type": "object"
+                        },
+                        "generation-v": {
+                            "properties": {
+                                "black-white": {
+                                    "properties": {
+                                        "back_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "back_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "back_default",
+                                        "back_female",
+                                        "back_shiny",
+                                        "back_shiny_female",
+                                        "front_default",
+                                        "front_female",
+                                        "front_shiny",
+                                        "front_shiny_female"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "black-white"
+                            ],
+                            "type": "object"
+                        },
+                        "generation-vi": {
+                            "properties": {
+                                "omegaruby-alphasapphire": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_female",
+                                        "front_shiny",
+                                        "front_shiny_female"
+                                    ],
+                                    "type": "object"
+                                },
+                                "x-y": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_female",
+                                        "front_shiny",
+                                        "front_shiny_female"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "omegaruby-alphasapphire",
+                                "x-y"
+                            ],
+                            "type": "object"
+                        },
+                        "generation-vii": {
+                            "properties": {
+                                "ultra-sun-ultra-moon": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_shiny_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_female",
+                                        "front_shiny",
+                                        "front_shiny_female"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "ultra-sun-ultra-moon"
+                            ],
+                            "type": "object"
                         }
                     },
                     "required": [
-                        "generation-i"
+                        "generation-i",
+                        "generation-ii",
+                        "generation-iii",
+                        "generation-iv",
+                        "generation-v",
+                        "generation-vi",
+                        "generation-vii"
                     ],
                     "type": "object"
                 }
