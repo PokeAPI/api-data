@@ -352,6 +352,25 @@
             {
                 "encounter_details": [
                     {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 20,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "gold",
+                    "url": "/api/v2/version/4/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
                         "chance": 5,
                         "condition_values": [],
                         "max_level": 20,
@@ -376,6 +395,74 @@
                 "version": {
                     "name": "soulsilver",
                     "url": "/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "dark-cave-violet-city-entrance",
+            "url": "/api/v2/location-area/253/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "swarm-no",
+                                "url": "/api/v2/encounter-condition-value/2/"
+                            },
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
+                            }
+                        ],
+                        "max_level": 2,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 2
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "crystal",
+                    "url": "/api/v2/version/6/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "dark-cave-blackthorn-city-entrance",
+            "url": "/api/v2/location-area/254/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
+                            }
+                        ],
+                        "max_level": 20,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "crystal",
+                    "url": "/api/v2/version/6/"
                 }
             }
         ]
