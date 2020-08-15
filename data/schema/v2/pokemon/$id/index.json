@@ -24,7 +24,10 @@
             "type": "array"
         },
         "base_experience": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "forms": {
             "items": {
@@ -735,6 +738,69 @@
                             "properties": {
                                 "black-white": {
                                     "properties": {
+                                        "animated": {
+                                            "properties": {
+                                                "back_default": {
+                                                    "type": [
+                                                        "null",
+                                                        "string"
+                                                    ]
+                                                },
+                                                "back_female": {
+                                                    "type": [
+                                                        "null",
+                                                        "string"
+                                                    ]
+                                                },
+                                                "back_shiny": {
+                                                    "type": [
+                                                        "null",
+                                                        "string"
+                                                    ]
+                                                },
+                                                "back_shiny_female": {
+                                                    "type": [
+                                                        "null",
+                                                        "string"
+                                                    ]
+                                                },
+                                                "front_default": {
+                                                    "type": [
+                                                        "null",
+                                                        "string"
+                                                    ]
+                                                },
+                                                "front_female": {
+                                                    "type": [
+                                                        "null",
+                                                        "string"
+                                                    ]
+                                                },
+                                                "front_shiny": {
+                                                    "type": [
+                                                        "null",
+                                                        "string"
+                                                    ]
+                                                },
+                                                "front_shiny_female": {
+                                                    "type": [
+                                                        "null",
+                                                        "string"
+                                                    ]
+                                                }
+                                            },
+                                            "required": [
+                                                "back_default",
+                                                "back_female",
+                                                "back_shiny",
+                                                "back_shiny_female",
+                                                "front_default",
+                                                "front_female",
+                                                "front_shiny",
+                                                "front_shiny_female"
+                                            ],
+                                            "type": "object"
+                                        },
                                         "back_default": {
                                             "type": [
                                                 "null",
@@ -785,6 +851,7 @@
                                         }
                                     },
                                     "required": [
+                                        "animated",
                                         "back_default",
                                         "back_female",
                                         "back_shiny",
