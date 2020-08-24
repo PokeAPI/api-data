@@ -11,7 +11,14 @@
             "type": "integer"
         },
         "color": {
-            "$ref": "/schema/v2/named_api_resource.json"
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "/schema/v2/named_api_resource.json"
+                }
+            ]
         },
         "egg_groups": {
             "items": {
