@@ -950,6 +950,27 @@
                         },
                         "generation-vii": {
                             "properties": {
+                                "icons": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_female"
+                                    ],
+                                    "type": "object"
+                                },
                                 "ultra-sun-ultra-moon": {
                                     "properties": {
                                         "front_default": {
@@ -987,7 +1008,37 @@
                                 }
                             },
                             "required": [
+                                "icons",
                                 "ultra-sun-ultra-moon"
+                            ],
+                            "type": "object"
+                        },
+                        "generation-viii": {
+                            "properties": {
+                                "icons": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_female"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "icons"
                             ],
                             "type": "object"
                         }
@@ -999,7 +1050,8 @@
                         "generation-iv",
                         "generation-v",
                         "generation-vi",
-                        "generation-vii"
+                        "generation-vii",
+                        "generation-viii"
                     ],
                     "type": "object"
                 }
