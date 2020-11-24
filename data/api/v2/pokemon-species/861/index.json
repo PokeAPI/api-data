@@ -6,8 +6,13 @@
         "url": "/api/v2/pokemon-color/7/"
     },
     "egg_groups": [],
-    "evolution_chain": null,
-    "evolves_from_species": null,
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/450/"
+    },
+    "evolves_from_species": {
+        "name": "morgrem",
+        "url": "/api/v2/pokemon-species/860/"
+    },
     "flavor_text_entries": [
         {
             "flavor_text": "\u3042\u3057\u306e\u3000\u305f\u3044\u3082\u3046\u3092\u3000\u3078\u3093\u3051\u3044\u3055\u305b\u3066\n\u304f\u308a\u3060\u3059\u3000\u30c9\u30ea\u30eb\u30ad\u30c3\u30af\u306f\u3000\u30ac\u30e9\u30eb\u306e\n\u3060\u3044\u3061\u306b\u3000\u304a\u304a\u3042\u306a\u3092\u3000\u3042\u3051\u3066\u3057\u307e\u3046\u3002",
@@ -452,8 +457,16 @@
     ],
     "form_descriptions": [],
     "forms_switchable": false,
-    "gender_rate": null,
-    "genera": [],
+    "gender_rate": 0,
+    "genera": [
+        {
+            "genus": "Bulk Up Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-viii",
         "url": "/api/v2/generation/8/"
@@ -467,10 +480,26 @@
     "is_legendary": false,
     "is_mythical": false,
     "name": "grimmsnarl",
-    "names": [],
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Grimmsnarl"
+        }
+    ],
     "order": null,
     "pal_park_encounters": [],
-    "pokedex_numbers": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 861,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
     "shape": {
         "name": "humanoid",
         "url": "/api/v2/pokemon-shape/12/"
@@ -481,6 +510,13 @@
             "pokemon": {
                 "name": "grimmsnarl",
                 "url": "/api/v2/pokemon/861/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "grimmsnarl-gmax",
+                "url": "/api/v2/pokemon/10213/"
             }
         }
     ]
