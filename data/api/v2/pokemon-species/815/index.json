@@ -6,8 +6,13 @@
         "url": "/api/v2/pokemon-color/9/"
     },
     "egg_groups": [],
-    "evolution_chain": null,
-    "evolves_from_species": null,
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/430/"
+    },
+    "evolves_from_species": {
+        "name": "raboot",
+        "url": "/api/v2/pokemon-species/814/"
+    },
     "flavor_text_entries": [
         {
             "flavor_text": "Gr\u00e2ce au pouvoir du Gigamax, ses ballons de feu\nd\u00e9passent parfois les 100 m\u00e8tres de diam\u00e8tre.",
@@ -452,8 +457,16 @@
     ],
     "form_descriptions": [],
     "forms_switchable": false,
-    "gender_rate": null,
-    "genera": [],
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "Striker Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-viii",
         "url": "/api/v2/generation/8/"
@@ -467,10 +480,26 @@
     "is_legendary": false,
     "is_mythical": false,
     "name": "cinderace",
-    "names": [],
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Cinderace"
+        }
+    ],
     "order": null,
     "pal_park_encounters": [],
-    "pokedex_numbers": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 815,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
     "shape": {
         "name": "upright",
         "url": "/api/v2/pokemon-shape/6/"
@@ -481,6 +510,13 @@
             "pokemon": {
                 "name": "cinderace",
                 "url": "/api/v2/pokemon/815/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "cinderace-gmax",
+                "url": "/api/v2/pokemon/10201/"
             }
         }
     ]

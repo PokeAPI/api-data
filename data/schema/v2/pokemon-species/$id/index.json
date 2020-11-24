@@ -27,14 +27,7 @@
             "type": "array"
         },
         "evolution_chain": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/api_resource.json"
-                }
-            ]
+            "$ref": "/schema/v2/api_resource.json"
         },
         "evolves_from_species": {
             "anyOf": [
@@ -90,10 +83,7 @@
             "type": "boolean"
         },
         "gender_rate": {
-            "type": [
-                "integer",
-                "null"
-            ]
+            "type": "integer"
         },
         "genera": {
             "items": {

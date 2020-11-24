@@ -6,8 +6,13 @@
         "url": "/api/v2/pokemon-color/8/"
     },
     "egg_groups": [],
-    "evolution_chain": null,
-    "evolves_from_species": null,
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/446/"
+    },
+    "evolves_from_species": {
+        "name": "sizzlipede",
+        "url": "/api/v2/pokemon-species/850/"
+    },
     "flavor_text_entries": [
         {
             "flavor_text": "\u306f\u3064\u306d\u3064\u3058\u306e\u3000\u305f\u3044\u304a\u3093\u306f\u3000\u304a\u3088\u305d\n\uff18\uff10\uff10\u3069\u3002\u3000\u304b\u3089\u3060\u3092\u3000\u30e0\u30c1\u306e\u3088\u3046\u306b\n\u3057\u306a\u3089\u305b\u3066\u3000\u3068\u3073\u304b\u304b\u3063\u3066\u304f\u308b\u305e\u3002",
@@ -452,8 +457,16 @@
     ],
     "form_descriptions": [],
     "forms_switchable": false,
-    "gender_rate": null,
-    "genera": [],
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "Radiator Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-viii",
         "url": "/api/v2/generation/8/"
@@ -467,10 +480,26 @@
     "is_legendary": false,
     "is_mythical": false,
     "name": "centiskorch",
-    "names": [],
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Centiskorch"
+        }
+    ],
     "order": null,
     "pal_park_encounters": [],
-    "pokedex_numbers": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 851,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
     "shape": {
         "name": "tentacles",
         "url": "/api/v2/pokemon-shape/10/"
@@ -481,6 +510,13 @@
             "pokemon": {
                 "name": "centiskorch",
                 "url": "/api/v2/pokemon/851/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "centiskorch-gmax",
+                "url": "/api/v2/pokemon/10211/"
             }
         }
     ]

@@ -6,8 +6,13 @@
         "url": "/api/v2/pokemon-color/1/"
     },
     "egg_groups": [],
-    "evolution_chain": null,
-    "evolves_from_species": null,
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/440/"
+    },
+    "evolves_from_species": {
+        "name": "carkol",
+        "url": "/api/v2/pokemon-species/838/"
+    },
     "flavor_text_entries": [
         {
             "flavor_text": "\u3069\u3046\u305f\u3044\u306f\u3000\u304d\u3087\u3060\u3044\u306a\u3000\u304b\u307e\u3069\u3002\n\u30ad\u30e7\u30c0\u30a4\u30de\u30c3\u30af\u30b9\u3000\u30d1\u30ef\u30fc\u306b\u3000\u3042\u304a\u3089\u308c\n\uff12\uff10\uff10\uff10\u3069\u306e\u3000\u307b\u306e\u304a\u304c\u3000\u3082\u3048\u3055\u304b\u308b\u3002",
@@ -452,8 +457,16 @@
     ],
     "form_descriptions": [],
     "forms_switchable": false,
-    "gender_rate": null,
-    "genera": [],
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "Coal Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-viii",
         "url": "/api/v2/generation/8/"
@@ -467,10 +480,26 @@
     "is_legendary": false,
     "is_mythical": false,
     "name": "coalossal",
-    "names": [],
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Coalossal"
+        }
+    ],
     "order": null,
     "pal_park_encounters": [],
-    "pokedex_numbers": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 839,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        }
+    ],
     "shape": {
         "name": "humanoid",
         "url": "/api/v2/pokemon-shape/12/"
@@ -481,6 +510,13 @@
             "pokemon": {
                 "name": "coalossal",
                 "url": "/api/v2/pokemon/839/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "coalossal-gmax",
+                "url": "/api/v2/pokemon/10206/"
             }
         }
     ]
