@@ -2,23 +2,13 @@
     "$schema": "http://json-schema.org/schema#",
     "properties": {
         "base_happiness": {
-            "type": [
-                "integer",
-                "null"
-            ]
+            "type": "integer"
         },
         "capture_rate": {
             "type": "integer"
         },
         "color": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/named_api_resource.json"
-                }
-            ]
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "egg_groups": {
             "items": {
@@ -107,14 +97,7 @@
             "$ref": "/schema/v2/named_api_resource.json"
         },
         "growth_rate": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/named_api_resource.json"
-                }
-            ]
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "habitat": {
             "anyOf": [
@@ -212,14 +195,7 @@
             "type": "array"
         },
         "shape": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/named_api_resource.json"
-                }
-            ]
+            "$ref": "/schema/v2/named_api_resource.json"
         },
         "varieties": {
             "items": {
