@@ -4,9 +4,9 @@
 
 This repository contains:
 
-- [data/api](data/api): a static copy of the JSON data generated with the above script
+- [data/api](data/api): a static copy of the JSON data produced by [PokeAPI](https://github.com/PokeAPI/pokeapi)
 - [data/schema](data/schema): a static copy of the PokeAPI schema generated from the above data
-- [updater](updater): a [Ditto][1] based bot that runs in docker and can update the data stored in this repo
+- [updater](updater): a [Ditto][1] based bot that runs in docker and updates the data stored in this repo
 
 ## Usage
 
