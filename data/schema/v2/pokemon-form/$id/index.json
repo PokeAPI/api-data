@@ -127,6 +127,24 @@
             ],
             "type": "object"
         },
+        "types": {
+            "items": {
+                "properties": {
+                    "slot": {
+                        "type": "integer"
+                    },
+                    "type": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                    }
+                },
+                "required": [
+                    "slot",
+                    "type"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
         "version_group": {
             "$ref": "/schema/v2/named_api_resource.json"
         }
@@ -144,6 +162,7 @@
         "order",
         "pokemon",
         "sprites",
+        "types",
         "version_group"
     ],
     "type": "object"
