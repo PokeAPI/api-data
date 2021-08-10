@@ -111,6 +111,70 @@
             },
             "type": "array"
         },
+        "past_damage_relations": {
+            "items": {
+                "properties": {
+                    "damage_relations": {
+                        "properties": {
+                            "double_damage_from": {
+                                "items": {
+                                    "$ref": "/schema/v2/named_api_resource.json"
+                                },
+                                "type": "array"
+                            },
+                            "double_damage_to": {
+                                "items": {
+                                    "$ref": "/schema/v2/named_api_resource.json"
+                                },
+                                "type": "array"
+                            },
+                            "half_damage_from": {
+                                "items": {
+                                    "$ref": "/schema/v2/named_api_resource.json"
+                                },
+                                "type": "array"
+                            },
+                            "half_damage_to": {
+                                "items": {
+                                    "$ref": "/schema/v2/named_api_resource.json"
+                                },
+                                "type": "array"
+                            },
+                            "no_damage_from": {
+                                "items": {
+                                    "$ref": "/schema/v2/named_api_resource.json"
+                                },
+                                "type": "array"
+                            },
+                            "no_damage_to": {
+                                "items": {
+                                    "$ref": "/schema/v2/named_api_resource.json"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "double_damage_from",
+                            "double_damage_to",
+                            "half_damage_from",
+                            "half_damage_to",
+                            "no_damage_from",
+                            "no_damage_to"
+                        ],
+                        "type": "object"
+                    },
+                    "generation": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                    }
+                },
+                "required": [
+                    "damage_relations",
+                    "generation"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
         "pokemon": {
             "items": {
                 "properties": {
@@ -139,6 +203,7 @@
         "moves",
         "name",
         "names",
+        "past_damage_relations",
         "pokemon"
     ],
     "type": "object"
