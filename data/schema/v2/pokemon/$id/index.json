@@ -247,6 +247,41 @@
                             ],
                             "type": "object"
                         },
+                        "home": {
+                            "properties": {
+                                "front_default": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "front_female": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "front_shiny": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "front_shiny_female": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "front_default",
+                                "front_female",
+                                "front_shiny",
+                                "front_shiny_female"
+                            ],
+                            "type": "object"
+                        },
                         "official-artwork": {
                             "properties": {
                                 "front_default": {
@@ -264,6 +299,7 @@
                     },
                     "required": [
                         "dream_world",
+                        "home",
                         "official-artwork"
                     ],
                     "type": "object"
