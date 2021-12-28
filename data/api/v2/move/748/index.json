@@ -7,10 +7,130 @@
         "name": "status",
         "url": "/api/v2/move-damage-class/1/"
     },
-    "effect_chance": null,
+    "effect_chance": 100,
     "effect_changes": [],
-    "effect_entries": [],
-    "flavor_text_entries": [],
+    "effect_entries": [
+        {
+            "effect": " with a $effect_chance% chance to make the target flinch.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "short_effect": "Hits twice in one turn"
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u3058\u3076\u3093\u306e\u3000\u3059\u3079\u3066\u306e\n\u306e\u3046\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u304c\u3000\u3053\u3046\u305f\u3044\u3000\u3057\u305f\u308a\n\u306b\u3052\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "\uc790\uc2e0\uc758 \ubaa8\ub4e0 \ub2a5\ub825\uc774\n\uc62c\ub77c\uac00\uc9c0\ub9cc \uad50\uccb4\ud558\uac70\ub098\n\ub3c4\ub9dd\uce60 \uc218 \uc5c6\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "\u63d0\u9ad8\u81ea\u5df1\u6240\u6709\u7684\u80fd\u529b\uff0c\n\u4f46\u7121\u6cd5\u9032\u884c\u66ff\u63db\u6216\u9003\u8d70\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur voit toutes ses stats augmenter,\nmais en contrepartie, il ne peut plus fuir\nou se retirer du combat.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Alle Statuswerte des Anwenders werden erh\u00f6ht,\naber daf\u00fcr kann er weder ausgewechselt werden\nnoch fliehen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "El usuario aumenta todas sus caracter\u00edsticas, pero ya no\npuede huir ni ser cambiado por otro.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa aumenta tutte le sue statistiche ma non\npu\u00f2 pi\u00f9 fuggire o essere sostituito.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "This move raises all the user\u2019s stats but prevents\nthe user from switching out or fleeing.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u306e\u3000\u3059\u3079\u3066\u306e\n\u80fd\u529b\u304c\u3000\u4e0a\u304c\u308b\u304c\u3000\u4ea4\u4ee3\u3000\u3057\u305f\u308a\n\u9003\u3052\u308b\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "\u63d0\u9ad8\u81ea\u5df1\u7684\u6240\u6709\u80fd\u529b\uff0c\n\u4f46\u65e0\u6cd5\u66ff\u6362\u6216\u9003\u8d70\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-viii",
         "url": "/api/v2/generation/8/"
@@ -18,7 +138,26 @@
     "id": 748,
     "learned_by_pokemon": [],
     "machines": [],
-    "meta": null,
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "net-good-stats",
+            "url": "/api/v2/move-category/2/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 100
+    },
     "name": "no-retreat",
     "names": [
         {
@@ -96,7 +235,43 @@
     "power": null,
     "pp": 5,
     "priority": 0,
-    "stat_changes": [],
+    "stat_changes": [
+        {
+            "change": 1,
+            "stat": {
+                "name": "attack",
+                "url": "/api/v2/stat/2/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "defense",
+                "url": "/api/v2/stat/3/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "special-attack",
+                "url": "/api/v2/stat/4/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "special-defense",
+                "url": "/api/v2/stat/5/"
+            }
+        },
+        {
+            "change": 1,
+            "stat": {
+                "name": "speed",
+                "url": "/api/v2/stat/6/"
+            }
+        }
+    ],
     "super_contest_effect": null,
     "target": {
         "name": "user",
