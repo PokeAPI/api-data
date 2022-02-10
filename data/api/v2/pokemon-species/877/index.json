@@ -5,9 +5,18 @@
         "name": "yellow",
         "url": "/api/v2/pokemon-color/10/"
     },
-    "egg_groups": [],
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        },
+        {
+            "name": "fairy",
+            "url": "/api/v2/egg-group/6/"
+        }
+    ],
     "evolution_chain": {
-        "url": "/api/v2/evolution-chain/458/"
+        "url": "/api/v2/evolution-chain/459/"
     },
     "evolves_from_species": null,
     "flavor_text_entries": [
@@ -265,7 +274,7 @@
             }
         },
         {
-            "genus": "Alter Ego",
+            "genus": "Alter Ego-Pok\u00e9mon",
             "language": {
                 "name": "de",
                 "url": "/api/v2/language/6/"
@@ -427,16 +436,20 @@
             }
         }
     ],
-    "shape": {
-        "name": "humanoid",
-        "url": "/api/v2/pokemon-shape/12/"
-    },
+    "shape": null,
     "varieties": [
         {
             "is_default": true,
             "pokemon": {
-                "name": "morpeko",
+                "name": "morpeko-full-belly",
                 "url": "/api/v2/pokemon/877/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "morpeko-hangry",
+                "url": "/api/v2/pokemon/10187/"
             }
         }
     ]
