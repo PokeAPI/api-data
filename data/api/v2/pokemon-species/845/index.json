@@ -5,9 +5,18 @@
         "name": "blue",
         "url": "/api/v2/pokemon-color/2/"
     },
-    "egg_groups": [],
+    "egg_groups": [
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        },
+        {
+            "name": "flying",
+            "url": "/api/v2/egg-group/4/"
+        }
+    ],
     "evolution_chain": {
-        "url": "/api/v2/evolution-chain/443/"
+        "url": "/api/v2/evolution-chain/444/"
     },
     "evolves_from_species": null,
     "flavor_text_entries": [
@@ -265,7 +274,7 @@
             }
         },
         {
-            "genus": "Schling",
+            "genus": "Schling-Pok\u00e9mon",
             "language": {
                 "name": "de",
                 "url": "/api/v2/language/6/"
@@ -420,16 +429,27 @@
             }
         }
     ],
-    "shape": {
-        "name": "wings",
-        "url": "/api/v2/pokemon-shape/9/"
-    },
+    "shape": null,
     "varieties": [
         {
             "is_default": true,
             "pokemon": {
                 "name": "cramorant",
                 "url": "/api/v2/pokemon/845/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "cramorant-gulping",
+                "url": "/api/v2/pokemon/10182/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "cramorant-gorging",
+                "url": "/api/v2/pokemon/10183/"
             }
         }
     ]
