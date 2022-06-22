@@ -2,10 +2,16 @@
     "$schema": "http://json-schema.org/schema#",
     "properties": {
         "base_happiness": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "capture_rate": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "color": {
             "$ref": "/schema/v2/named_api_resource.json"
@@ -17,7 +23,14 @@
             "type": "array"
         },
         "evolution_chain": {
-            "$ref": "/schema/v2/api_resource.json"
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "/schema/v2/api_resource.json"
+                }
+            ]
         },
         "evolves_from_species": {
             "anyOf": [
@@ -113,7 +126,10 @@
             "type": "boolean"
         },
         "hatch_counter": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "id": {
             "type": "integer"

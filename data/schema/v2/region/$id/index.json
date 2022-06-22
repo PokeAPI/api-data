@@ -11,7 +11,14 @@
             "type": "array"
         },
         "main_generation": {
-            "$ref": "/schema/v2/named_api_resource.json"
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "/schema/v2/named_api_resource.json"
+                }
+            ]
         },
         "name": {
             "type": "string"
