@@ -104,15 +104,24 @@
     },
     {
         "location_area": {
-            "name": "saffron-city-silph-co-7f",
-            "url": "/api/v2/location-area/764/"
+            "name": "saffron-city-silph-co",
+            "url": "/api/v2/location-area/835/"
         },
         "version_details": [
             {
                 "encounter_details": [
                     {
                         "chance": 100,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "story-progress-beat-red",
+                                "url": "/api/v2/encounter-condition-value/55/"
+                            },
+                            {
+                                "name": "other-received-kanto-starter",
+                                "url": "/api/v2/encounter-condition-value/56/"
+                            }
+                        ],
                         "max_level": 5,
                         "method": {
                             "name": "gift",
@@ -131,7 +140,16 @@
                 "encounter_details": [
                     {
                         "chance": 100,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "story-progress-beat-red",
+                                "url": "/api/v2/encounter-condition-value/55/"
+                            },
+                            {
+                                "name": "other-received-kanto-starter",
+                                "url": "/api/v2/encounter-condition-value/56/"
+                            }
+                        ],
                         "max_level": 5,
                         "method": {
                             "name": "gift",
