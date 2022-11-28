@@ -20,7 +20,14 @@
             "type": "array"
         },
         "evolution_chain": {
-            "$ref": "/schema/v2/api_resource.json"
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "/schema/v2/api_resource.json"
+                }
+            ]
         },
         "evolves_from_species": {
             "anyOf": [
