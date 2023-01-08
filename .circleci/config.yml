@@ -3,16 +3,16 @@ version: 2.1
 executors:
   python36:
     docker:
-      - image: circleci/python:3.6.5
+      - image: cimg/python:3.6.5
 
 commands:
   ditto-transform:
     description: Run Ditto in order to transform the BASE_URL instead of http://localhost
     steps:
-      - run: 
+      - run:
           name: Install requirements.txt
           command: pip install --user -r requirements.txt
-      - run: 
+      - run:
           name: Transform api-data's JSON files to have the correct BASE_URL instead of http://localhost
           command: bash -x scripts/transform.sh
 
@@ -27,13 +27,13 @@ jobs:
     steps:
       - checkout
       - ditto-transform
-      - run: 
+      - run:
           name: Pack the transformed data in a .tar.gz
           command: tar czf _gen.tar.gz _gen/*
       - store_artifacts:
           path: _gen.tar.gz
       # Trigger a new build of the deploy job of the deploy project
-      - run: 
+      - run:
           name: Trigger a deploy of the deploy project passing the desired environment/location to deploy to
           command: 'curl --header "Content-Type: application/json" --data "{\"build_parameters\": {\"deploy_location\": \"$CIRCLE_BRANCH\", \"CIRCLE_JOB\": \"deploy\"}}" --request POST "https://circleci.com/api/v1.1/project/github/PokeAPI/deploy/tree/master?circle-token=$CIRCLECI_API_TOKEN"'
 
