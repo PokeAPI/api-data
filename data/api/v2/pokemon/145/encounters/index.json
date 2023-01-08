@@ -9,7 +9,12 @@
                 "encounter_details": [
                     {
                         "chance": 100,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "story-progress-returned-machine-part",
+                                "url": "/api/v2/encounter-condition-value/70/"
+                            }
+                        ],
                         "max_level": 50,
                         "method": {
                             "name": "only-one",
@@ -28,7 +33,12 @@
                 "encounter_details": [
                     {
                         "chance": 100,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "story-progress-returned-machine-part",
+                                "url": "/api/v2/encounter-condition-value/70/"
+                            }
+                        ],
                         "max_level": 50,
                         "method": {
                             "name": "only-one",
@@ -144,6 +154,53 @@
                 "version": {
                     "name": "leafgreen",
                     "url": "/api/v2/version/11/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "roaming-sinnoh-area",
+            "url": "/api/v2/location-area/797/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 25,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-oak-eterna-city",
+                                "url": "/api/v2/encounter-condition-value/31/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "roaming-grass",
+                            "url": "/api/v2/encounter-method/28/"
+                        },
+                        "min_level": 60
+                    },
+                    {
+                        "chance": 25,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-oak-eterna-city",
+                                "url": "/api/v2/encounter-condition-value/31/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "roaming-water",
+                            "url": "/api/v2/encounter-method/29/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 50,
+                "version": {
+                    "name": "platinum",
+                    "url": "/api/v2/version/14/"
                 }
             }
         ]

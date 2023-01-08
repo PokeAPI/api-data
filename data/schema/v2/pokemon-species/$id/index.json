@@ -83,7 +83,10 @@
             "type": "boolean"
         },
         "gender_rate": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "genera": {
             "items": {
@@ -107,7 +110,14 @@
             "$ref": "/schema/v2/named_api_resource.json"
         },
         "growth_rate": {
-            "$ref": "/schema/v2/named_api_resource.json"
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "/schema/v2/named_api_resource.json"
+                }
+            ]
         },
         "habitat": {
             "anyOf": [

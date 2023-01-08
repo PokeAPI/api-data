@@ -295,9 +295,19 @@
                             "url": "/api/v2/encounter-method/1/"
                         },
                         "min_level": 40
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 30
                     }
                 ],
-                "max_chance": 5,
+                "max_chance": 105,
                 "version": {
                     "name": "firered",
                     "url": "/api/v2/version/10/"
@@ -324,12 +334,108 @@
                             "url": "/api/v2/encounter-method/1/"
                         },
                         "min_level": 40
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 30
                     }
                 ],
-                "max_chance": 5,
+                "max_chance": 105,
                 "version": {
                     "name": "leafgreen",
                     "url": "/api/v2/version/11/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "johto-safari-zone-zone-swamp",
+            "url": "/api/v2/location-area/818/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
+                            }
+                        ],
+                        "max_level": 16,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 16
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
+                            }
+                        ],
+                        "max_level": 17,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 17
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "heartgold",
+                    "url": "/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
+                            }
+                        ],
+                        "max_level": 16,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 16
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
+                            }
+                        ],
+                        "max_level": 17,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 17
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "/api/v2/version/16/"
                 }
             }
         ]
