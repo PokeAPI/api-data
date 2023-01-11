@@ -36,7 +36,7 @@ jobs:
       - run:
           name: Trigger a deploy of the deploy project passing the desired environment/location to deploy to
           command: |
-            curl -H 'Content-Type: application/json' -H "Circle-Token: $CIRCLECI_API_TOKEN_NARAMSIM" --data "{\"branch\":\"master\",\"parameters\":{\"deploy_location\":\"$CIRCLE_BRANCH\"}}" -X https://circleci.com/api/v2/project/github/PokeAPI/deploy/pipeline
+            curl -H 'Content-Type: application/json' -H "Circle-Token: $CIRCLECI_API_TOKEN_NARAMSIM" --data "{\"branch\":\"master\",\"parameters\":{\"deploy_location\":\"$CIRCLE_BRANCH\"}}" -X POST https://circleci.com/api/v2/project/github/PokeAPI/deploy/pipeline
 
 workflows:
   version: 2
