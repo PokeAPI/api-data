@@ -2,16 +2,24 @@
     "abilities": [
         {
             "ability": {
-                "name": "overcoat",
-                "url": "/api/v2/ability/142/"
+                "name": "intimidate",
+                "url": "/api/v2/ability/22/"
             },
             "is_hidden": false,
             "slot": 1
         },
         {
             "ability": {
-                "name": "slow-start",
-                "url": "/api/v2/ability/112/"
+                "name": "run-away",
+                "url": "/api/v2/ability/50/"
+            },
+            "is_hidden": false,
+            "slot": 2
+        },
+        {
+            "ability": {
+                "name": "stakeout",
+                "url": "/api/v2/ability/198/"
             },
             "is_hidden": true,
             "slot": 3
@@ -20,12 +28,12 @@
     "base_experience": null,
     "forms": [
         {
-            "name": "varoom",
+            "name": "maschiff",
             "url": "/api/v2/pokemon-form/942/"
         }
     ],
     "game_indices": [],
-    "height": 10,
+    "height": 5,
     "held_items": [],
     "id": 942,
     "is_default": true,
@@ -38,7 +46,26 @@
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 21,
+                    "level_learned_at": 22,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "tackle",
+                "url": "/api/v2/move/33/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 1,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
@@ -90,31 +117,12 @@
         },
         {
             "move": {
-                "name": "toxic",
-                "url": "/api/v2/move/92/"
+                "name": "double-edge",
+                "url": "/api/v2/move/38/"
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "egg",
-                        "url": "/api/v2/move-learn-method/2/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "screech",
-                "url": "/api/v2/move/103/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 25,
+                    "level_learned_at": 49,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
@@ -128,46 +136,8 @@
         },
         {
             "move": {
-                "name": "haze",
-                "url": "/api/v2/move/114/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "egg",
-                        "url": "/api/v2/move-learn-method/2/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "self-destruct",
-                "url": "/api/v2/move/120/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "egg",
-                        "url": "/api/v2/move-learn-method/2/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "lick",
-                "url": "/api/v2/move/122/"
+                "name": "leer",
+                "url": "/api/v2/move/43/"
             },
             "version_group_details": [
                 {
@@ -185,8 +155,65 @@
         },
         {
             "move": {
-                "name": "smog",
-                "url": "/api/v2/move/123/"
+                "name": "bite",
+                "url": "/api/v2/move/44/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 14,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "roar",
+                "url": "/api/v2/move/46/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 18,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "dig",
+                "url": "/api/v2/move/91/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "lick",
+                "url": "/api/v2/move/122/"
             },
             "version_group_details": [
                 {
@@ -204,34 +231,15 @@
         },
         {
             "move": {
-                "name": "sludge",
-                "url": "/api/v2/move/124/"
+                "name": "rest",
+                "url": "/api/v2/move/156/"
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 13,
+                    "level_learned_at": 0,
                     "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "poison-gas",
-                "url": "/api/v2/move/139/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
                         "name": "scarlet-violet",
@@ -280,6 +288,36 @@
         },
         {
             "move": {
+                "name": "reversal",
+                "url": "/api/v2/move/179/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 39,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
                 "name": "protect",
                 "url": "/api/v2/move/182/"
             },
@@ -304,24 +342,16 @@
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 0,
+                    "level_learned_at": 1,
                     "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
                         "name": "scarlet-violet",
                         "url": "/api/v2/version-group/25/"
                     }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "sludge-bomb",
-                "url": "/api/v2/move/188/"
-            },
-            "version_group_details": [
+                },
                 {
                     "level_learned_at": 0,
                     "move_learn_method": {
@@ -337,15 +367,15 @@
         },
         {
             "move": {
-                "name": "sandstorm",
-                "url": "/api/v2/move/201/"
+                "name": "destiny-bond",
+                "url": "/api/v2/move/194/"
             },
             "version_group_details": [
                 {
                     "level_learned_at": 0,
                     "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
+                        "name": "egg",
+                        "url": "/api/v2/move-learn-method/2/"
                     },
                     "version_group": {
                         "name": "scarlet-violet",
@@ -375,12 +405,31 @@
         },
         {
             "move": {
+                "name": "charm",
+                "url": "/api/v2/move/204/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
                 "name": "swagger",
                 "url": "/api/v2/move/207/"
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 32,
+                    "level_learned_at": 35,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
@@ -451,12 +500,12 @@
         },
         {
             "move": {
-                "name": "uproar",
-                "url": "/api/v2/move/253/"
+                "name": "crunch",
+                "url": "/api/v2/move/242/"
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 41,
+                    "level_learned_at": 31,
                     "move_learn_method": {
                         "name": "level-up",
                         "url": "/api/v2/move-learn-method/1/"
@@ -465,20 +514,12 @@
                         "name": "scarlet-violet",
                         "url": "/api/v2/version-group/25/"
                     }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "torment",
-                "url": "/api/v2/move/259/"
-            },
-            "version_group_details": [
+                },
                 {
                     "level_learned_at": 0,
                     "move_learn_method": {
-                        "name": "egg",
-                        "url": "/api/v2/move-learn-method/2/"
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
                         "name": "scarlet-violet",
@@ -513,6 +554,215 @@
             },
             "version_group_details": [
                 {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "helping-hand",
+                "url": "/api/v2/move/270/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "endeavor",
+                "url": "/api/v2/move/283/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "egg",
+                        "url": "/api/v2/move-learn-method/2/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "fake-tears",
+                "url": "/api/v2/move/313/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "payback",
+                "url": "/api/v2/move/371/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 26,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "dark-pulse",
+                "url": "/api/v2/move/399/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "thunder-fang",
+                "url": "/api/v2/move/422/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "ice-fang",
+                "url": "/api/v2/move/423/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "fire-fang",
+                "url": "/api/v2/move/424/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "hone-claws",
+                "url": "/api/v2/move/468/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 10,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "retaliate",
+                "url": "/api/v2/move/514/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "egg",
+                        "url": "/api/v2/move-learn-method/2/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "snarl",
+                "url": "/api/v2/move/555/"
+            },
+            "version_group_details": [
+                {
                     "level_learned_at": 7,
                     "move_learn_method": {
                         "name": "level-up",
@@ -538,269 +788,8 @@
         },
         {
             "move": {
-                "name": "iron-defense",
-                "url": "/api/v2/move/334/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "gyro-ball",
-                "url": "/api/v2/move/360/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 17,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "assurance",
-                "url": "/api/v2/move/372/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 10,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "toxic-spikes",
-                "url": "/api/v2/move/390/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "poison-jab",
-                "url": "/api/v2/move/398/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 36,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "zen-headbutt",
-                "url": "/api/v2/move/428/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "flash-cannon",
-                "url": "/api/v2/move/430/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "gunk-shot",
-                "url": "/api/v2/move/441/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 50,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "iron-head",
-                "url": "/api/v2/move/442/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 28,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "venoshock",
-                "url": "/api/v2/move/474/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "acid-spray",
-                "url": "/api/v2/move/491/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "bulldoze",
-                "url": "/api/v2/move/523/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "/api/v2/move-learn-method/4/"
-                    },
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "parting-shot",
-                "url": "/api/v2/move/575/"
+                "name": "play-rough",
+                "url": "/api/v2/move/583/"
             },
             "version_group_details": [
                 {
@@ -813,13 +802,24 @@
                         "name": "scarlet-violet",
                         "url": "/api/v2/version-group/25/"
                     }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
                 }
             ]
         },
         {
             "move": {
-                "name": "steel-beam",
-                "url": "/api/v2/move/796/"
+                "name": "psychic-fangs",
+                "url": "/api/v2/move/706/"
             },
             "version_group_details": [
                 {
@@ -827,6 +827,25 @@
                     "move_learn_method": {
                         "name": "machine",
                         "url": "/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "scarlet-violet",
+                        "url": "/api/v2/version-group/25/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "jaw-lock",
+                "url": "/api/v2/move/746/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 43,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "/api/v2/move-learn-method/1/"
                     },
                     "version_group": {
                         "name": "scarlet-violet",
@@ -856,15 +875,15 @@
         },
         {
             "move": {
-                "name": "spin-out",
-                "url": "/api/v2/move/859/"
+                "name": "trailblaze",
+                "url": "/api/v2/move/885/"
             },
             "version_group_details": [
                 {
-                    "level_learned_at": 46,
+                    "level_learned_at": 0,
                     "move_learn_method": {
-                        "name": "level-up",
-                        "url": "/api/v2/move-learn-method/1/"
+                        "name": "machine",
+                        "url": "/api/v2/move-learn-method/4/"
                     },
                     "version_group": {
                         "name": "scarlet-violet",
@@ -874,11 +893,11 @@
             ]
         }
     ],
-    "name": "varoom",
-    "order": 942,
+    "name": "maschiff",
+    "order": 972,
     "past_types": [],
     "species": {
-        "name": "varoom",
+        "name": "maschiff",
         "url": "/api/v2/pokemon-species/942/"
     },
     "sprites": {
@@ -1059,7 +1078,7 @@
     },
     "stats": [
         {
-            "base_stat": 45,
+            "base_stat": 60,
             "effort": 0,
             "stat": {
                 "name": "hp",
@@ -1067,7 +1086,7 @@
             }
         },
         {
-            "base_stat": 70,
+            "base_stat": 78,
             "effort": 1,
             "stat": {
                 "name": "attack",
@@ -1075,7 +1094,7 @@
             }
         },
         {
-            "base_stat": 63,
+            "base_stat": 60,
             "effort": 0,
             "stat": {
                 "name": "defense",
@@ -1083,7 +1102,7 @@
             }
         },
         {
-            "base_stat": 30,
+            "base_stat": 40,
             "effort": 0,
             "stat": {
                 "name": "special-attack",
@@ -1091,7 +1110,7 @@
             }
         },
         {
-            "base_stat": 45,
+            "base_stat": 51,
             "effort": 0,
             "stat": {
                 "name": "special-defense",
@@ -1099,7 +1118,7 @@
             }
         },
         {
-            "base_stat": 47,
+            "base_stat": 51,
             "effort": 0,
             "stat": {
                 "name": "speed",
@@ -1111,17 +1130,10 @@
         {
             "slot": 1,
             "type": {
-                "name": "steel",
-                "url": "/api/v2/type/9/"
-            }
-        },
-        {
-            "slot": 2,
-            "type": {
-                "name": "poison",
-                "url": "/api/v2/type/4/"
+                "name": "dark",
+                "url": "/api/v2/type/17/"
             }
         }
     ],
-    "weight": 350
+    "weight": 160
 }
