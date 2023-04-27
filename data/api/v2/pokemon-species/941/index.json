@@ -1,26 +1,48 @@
 {
     "base_happiness": 50,
-    "capture_rate": 50,
+    "capture_rate": 90,
     "color": {
-        "name": "green",
-        "url": "/api/v2/pokemon-color/5/"
+        "name": "yellow",
+        "url": "/api/v2/pokemon-color/10/"
     },
-    "egg_groups": [],
-    "evolution_chain": null,
+    "egg_groups": [
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        },
+        {
+            "name": "flying",
+            "url": "/api/v2/egg-group/4/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/492/"
+    },
     "evolves_from_species": {
-        "name": "tadbulb",
+        "name": "wattrel",
         "url": "/api/v2/pokemon-species/940/"
     },
     "flavor_text_entries": [],
     "form_descriptions": [],
     "forms_switchable": false,
     "gender_rate": 4,
-    "genera": [],
+    "genera": [
+        {
+            "genus": "Fregattvogel ",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-ix",
         "url": "/api/v2/generation/9/"
     },
-    "growth_rate": null,
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
     "habitat": null,
     "has_gender_differences": false,
     "hatch_counter": 20,
@@ -28,39 +50,82 @@
     "is_baby": false,
     "is_legendary": false,
     "is_mythical": false,
-    "name": "bellibolt",
+    "name": "kilowattrel",
     "names": [
         {
             "language": {
                 "name": "ja-Hrkt",
                 "url": "/api/v2/language/1/"
             },
-            "name": "\u30cf\u30e9\u30d0\u30ea\u30fc"
+            "name": "\u30bf\u30a4\u30ab\u30a4\u30c7\u30f3"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Taikaiden"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ucc0c\ub9ac\ube44\ud06c"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Fulgulairo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Voltrean"
         },
         {
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "name": "Bellibolt"
+            "name": "Kilowattrel"
         },
         {
             "language": {
                 "name": "ja",
                 "url": "/api/v2/language/11/"
             },
-            "name": "\u30cf\u30e9\u30d0\u30ea\u30fc"
+            "name": "\u30bf\u30a4\u30ab\u30a4\u30c7\u30f3"
         }
     ],
-    "order": 941,
+    "order": 958,
     "pal_park_encounters": [],
-    "pokedex_numbers": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 941,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        },
+        {
+            "entry_number": 178,
+            "pokedex": {
+                "name": "paldea",
+                "url": "/api/v2/pokedex/31/"
+            }
+        }
+    ],
     "shape": null,
     "varieties": [
         {
             "is_default": true,
             "pokemon": {
-                "name": "bellibolt",
+                "name": "kilowattrel",
                 "url": "/api/v2/pokemon/941/"
             }
         }
