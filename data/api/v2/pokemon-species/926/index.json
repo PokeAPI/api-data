@@ -1,23 +1,45 @@
 {
     "base_happiness": 50,
-    "capture_rate": 120,
+    "capture_rate": 190,
     "color": {
         "name": "yellow",
         "url": "/api/v2/pokemon-color/10/"
     },
-    "egg_groups": [],
-    "evolution_chain": null,
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        },
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/486/"
+    },
     "evolves_from_species": null,
     "flavor_text_entries": [],
     "form_descriptions": [],
     "forms_switchable": false,
     "gender_rate": 4,
-    "genera": [],
+    "genera": [
+        {
+            "genus": "Welpe ",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        }
+    ],
     "generation": {
         "name": "generation-ix",
         "url": "/api/v2/generation/9/"
     },
-    "growth_rate": null,
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
     "habitat": null,
     "has_gender_differences": false,
     "hatch_counter": 20,
@@ -25,39 +47,82 @@
     "is_baby": false,
     "is_legendary": false,
     "is_mythical": false,
-    "name": "flittle",
+    "name": "fidough",
     "names": [
         {
             "language": {
                 "name": "ja-Hrkt",
                 "url": "/api/v2/language/1/"
             },
-            "name": "\u30d2\u30e9\u30d2\u30ca"
+            "name": "\u30d1\u30d4\u30e2\u30c3\u30c1"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Papimocchi"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ucac0\ub3c4\uae30"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "P\u00e2tachiot"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Hefel"
         },
         {
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "name": "Flittle"
+            "name": "Fidough"
         },
         {
             "language": {
                 "name": "ja",
                 "url": "/api/v2/language/11/"
             },
-            "name": "\u30d2\u30e9\u30d2\u30ca"
+            "name": "\u30d1\u30d4\u30e2\u30c3\u30c1"
         }
     ],
-    "order": 926,
+    "order": 970,
     "pal_park_encounters": [],
-    "pokedex_numbers": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 926,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        },
+        {
+            "entry_number": 76,
+            "pokedex": {
+                "name": "paldea",
+                "url": "/api/v2/pokedex/31/"
+            }
+        }
+    ],
     "shape": null,
     "varieties": [
         {
             "is_default": true,
             "pokemon": {
-                "name": "flittle",
+                "name": "fidough",
                 "url": "/api/v2/pokemon/926/"
             }
         }
