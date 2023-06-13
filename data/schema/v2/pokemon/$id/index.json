@@ -141,6 +141,43 @@
         "order": {
             "type": "integer"
         },
+        "past_abilities": {
+            "items": {
+                "properties": {
+                    "abilities": {
+                        "items": {
+                            "properties": {
+                                "ability": {
+                                    "$ref": "/schema/v2/named_api_resource.json"
+                                },
+                                "is_hidden": {
+                                    "type": "boolean"
+                                },
+                                "slot": {
+                                    "type": "integer"
+                                }
+                            },
+                            "required": [
+                                "ability",
+                                "is_hidden",
+                                "slot"
+                            ],
+                            "type": "object"
+                        },
+                        "type": "array"
+                    },
+                    "generation": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                    }
+                },
+                "required": [
+                    "abilities",
+                    "generation"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
         "past_types": {
             "items": {
                 "properties": {
@@ -1273,6 +1310,7 @@
         "moves",
         "name",
         "order",
+        "past_abilities",
         "past_types",
         "species",
         "sprites",
