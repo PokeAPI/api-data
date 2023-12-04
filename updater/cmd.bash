@@ -22,7 +22,7 @@ cd pokeapi
 git checkout "$REPO_POKEAPI_CHECKOUT_OBJECT"
 git submodule init
 git submodule update --remote
-
+pwd
 docker compose -f docker-compose.yml -f docker-compose-dev.yml up -d
 
 docker compose exec -T app python manage.py migrate --settings=config.docker-compose
