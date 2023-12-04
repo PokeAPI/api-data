@@ -35,7 +35,7 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
       - name: Run and test
-        run: docker run -e 'COMMIT_AND_PUSH=false' -e "REPO_APIDATA_CHECKOUT_OBJECT=${{ github.sha }}" --rm ${{ steps.meta.outputs.tags }}
+        run: docker run -e 'COMMIT_AND_PUSH=false' -e "REPO_APIDATA_CHECKOUT_OBJECT=${{ github.sha }}" -e 'REPO_POKEAPI=https://github.com/PokeAPI/pokeapi.git' --rm ${{ steps.meta.outputs.tags }}
       - name: Image digest and tag
         run: |
           echo ${{ steps.docker_build.outputs.digest }}
