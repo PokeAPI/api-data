@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
 
-[ -z "${COMMIT_NAME}" ] && { echo "Need to set COMMIT_NAME"; exit 1; }
-[ -z "${COMMIT_EMAIL}" ] && { echo "Need to set COMMIT_EMAIL"; exit 1; }
-[ -z "${COMMIT_MESSAGE}" ] && { echo "Need to set COMMIT_MESSAGE"; exit 1; }
 [ -z "${REPO_POKEAPI}" ] && { echo "Need to set REPO_POKEAPI"; exit 1; }
 [ -z "${REPO_DATA}" ] && { echo "Need to set REPO_DATA"; exit 1; }
 [ -z "${BRANCH_NAME}" ] && { echo "Need to set BRANCH_NAME"; exit 1; }
 [ -z "${REPO_POKEAPI_CHECKOUT_OBJECT:=master}" ] && { echo "REPO_POKEAPI_CHECKOUT_OBJECT not set, defaulting to \`master\`"; }
+[ -z "${REPO_APIDATA_CHECKOUT_OBJECT:=master}" ] && { echo "REPO_APIDATA_CHECKOUT_OBJECT not set, defaulting to \`master\`"; }
 [ -z "${TEST:=true}" ]
 declare -r COMMIT_AND_PUSH="${COMMIT_AND_PUSH:-false}"
 
@@ -32,6 +30,7 @@ docker compose exec -T app sh -c 'echo "from data.v2.build import build_all; bui
 
 # set up the data side
 cd ../api-data
+git checkout "$REPO_APIDATA_CHECKOUT_OBJECT"
 git branch -D "$BRANCH_NAME" || true
 git branch "$BRANCH_NAME"
 git checkout "$BRANCH_NAME"
@@ -45,6 +44,9 @@ ditto analyze --data-dir ./data
 
 # commit and push
 if [ "$COMMIT_AND_PUSH" = 'true' ]; then
+    [ -z "${COMMIT_NAME}" ] && { echo "Need to set COMMIT_NAME"; exit 1; }
+    [ -z "${COMMIT_EMAIL}" ] && { echo "Need to set COMMIT_EMAIL"; exit 1; }
+    [ -z "${COMMIT_MESSAGE}" ] && { echo "Need to set COMMIT_MESSAGE"; exit 1; }
     git add data
     git config user.name "$COMMIT_NAME"
     git config user.email "$COMMIT_EMAIL"
