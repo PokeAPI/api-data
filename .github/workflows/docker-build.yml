@@ -36,5 +36,9 @@ jobs:
           platforms: local
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-      - name: Image digest
-        run: echo ${{ steps.docker_build.outputs.digest }}
+      - name: Run and test
+        run: docker run -e "COMMIT_AND_PUSH=false" --rm ${{ steps.meta.outputs.tags }}
+      - name: Image digest and tag
+        run: |
+          echo ${{ steps.docker_build.outputs.digest }}
+          echo ${{ steps.meta.outputs.tags }}
