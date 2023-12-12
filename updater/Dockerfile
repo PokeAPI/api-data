@@ -1,16 +1,11 @@
-FROM docker:18.09.3-dind
+FROM docker:24.0.7-dind-alpine3.18
 
 RUN apk update
-RUN apk add curl python3 git bash dos2unix openssh build-base python3-dev
-
-RUN ln -sf $(ls /usr/bin/easy_install*) /usr/bin/easy_install
-RUN easy_install pip
-COPY --from=docker/compose:1.25.0-alpine /usr/local/bin/docker-compose /usr/local/bin/
+RUN apk add curl python3 git bash openssh build-base python3-dev py3-pip
 
 RUN mkdir /updater
 WORKDIR /updater
 COPY . /updater/
-RUN dos2unix cmd.bash
 
 ENV COMMIT_NAME 'Updater Bot'
 ENV COMMIT_EMAIL ''
