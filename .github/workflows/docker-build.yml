@@ -18,6 +18,10 @@ jobs:
         uses: mxschmitt/action-tmate@v3
         with:
           detached: true
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
@@ -39,7 +43,11 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
       - name: Run and test
-        run: docker run --privileged -v /updater:/updater -v /var/run/docker.sock:/var/run/docker.sock -e 'COMMIT_AND_PUSH=false' -e "REPO_APIDATA_CHECKOUT_OBJECT=${{ github.sha }}" -e 'REPO_POKEAPI=https://github.com/PokeAPI/pokeapi.git' -e 'REPO_DATA=https://github.com/PokeAPI/api-data.git' --rm ${{ steps.meta.outputs.tags }}
+        run: (cd updater && bash cmd.bash)
+        env:
+          COMMIT_AND_PUSH: false
+          REPO_POKEAPI: https://github.com/PokeAPI/pokeapi.git
+          REPO_DATA: https://github.com/PokeAPI/api-data.git
       - name: Image digest and tag
         run: |
           echo ${{ steps.docker_build.outputs.digest }}
