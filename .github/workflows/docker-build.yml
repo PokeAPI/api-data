@@ -45,9 +45,13 @@ jobs:
       - name: Run and test
         run: (cd updater && bash cmd.bash)
         env:
+          BRANCH_NAME: updater-bot
           COMMIT_AND_PUSH: false
-          REPO_POKEAPI: https://github.com/PokeAPI/pokeapi.git
+          COMMIT_EMAIL: ""
+          COMMIT_MESSAGE: "[Updater Bot] Regenerate data"
+          COMMIT_NAME: Updater Bot
           REPO_DATA: https://github.com/PokeAPI/api-data.git
+          REPO_POKEAPI: https://github.com/PokeAPI/pokeapi.git
       - name: Image digest and tag
         run: |
           echo ${{ steps.docker_build.outputs.digest }}
