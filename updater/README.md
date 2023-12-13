@@ -9,7 +9,8 @@ Launch the bot with a volume containing the SSH keys to `/root/.ssh` and an envi
 Since this container runs [Docker](https://hub.docker.com/_/docker) within itself, it needs to run in privileged mode.
 
 ```sh
-docker run --privileged -v ~/.ssh:/root/.ssh -e COMMIT_EMAIL=example@example.com quay.io/pokeapi/updater
+docker network create pokeapi
+docker run --privileged --network pokeapi --network-alias docker -v ~/.ssh:/root/.ssh -e COMMIT_EMAIL=example@example.com quay.io/pokeapi/updater
 ```
 
 Check the log for failed clones, sometimes <img src="https://veekun.com/dex/media/pokemon/global-link/129.png" alt="Magikarp" height="20"/>  times out.
