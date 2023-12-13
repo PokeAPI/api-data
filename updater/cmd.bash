@@ -15,7 +15,7 @@ set -x
 dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 &> /dev/null &
 
 git clone "$REPO_POKEAPI" pokeapi
-git clone --depth=1 "$REPO_DATA" api-data
+git clone "$REPO_DATA" api-data
 
 # set up the pokeapi side
 cd pokeapi
