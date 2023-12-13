@@ -1,0 +1,61 @@
+name: Tests
+
+on:
+  pull_request:
+
+jobs:
+  updater:
+    name: Test updater.sh script
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run and test
+        run: (cd updater && bash cmd.bash)
+        env:
+          BRANCH_NAME: updater-bot
+          COMMIT_AND_PUSH: false
+          COMMIT_EMAIL: ""
+          COMMIT_MESSAGE: "[Updater Bot] Regenerate data"
+          COMMIT_NAME: Updater Bot
+          REPO_DATA: https://github.com/PokeAPI/api-data.git
+          REPO_POKEAPI: https://github.com/PokeAPI/pokeapi.git
+  docker:
+    name: Build updater Docker image and test the updater.sh script
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: pokeapi/updater
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Inspect builder
+        run: |
+          echo "Name:      ${{ steps.buildx.outputs.name }}"
+          echo "Endpoint:  ${{ steps.buildx.outputs.endpoint }}"
+          echo "Status:    ${{ steps.buildx.outputs.status }}"
+          echo "Flags:     ${{ steps.buildx.outputs.flags }}"
+          echo "Platforms: ${{ steps.buildx.outputs.platforms }}"
+      - name: Build
+        id: docker_build
+        uses: docker/build-push-action@v5
+        with:
+          context: ./updater
+          load: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+      - name: Run and test
+        run: |
+          docker network create pokeapi
+          docker run --privileged --network pokeapi --network-alias docker -e 'COMMIT_AND_PUSH=false' -e "REPO_APIDATA_CHECKOUT_OBJECT=${{ github.head_ref }}" -e 'REPO_POKEAPI=https://github.com/PokeAPI/pokeapi.git' -e 'REPO_DATA=https://github.com/PokeAPI/api-data.git' --rm ${{ steps.meta.outputs.tags }}
+      - name: Image digest and tag
+        run: |
+          echo ${{ steps.docker_build.outputs.digest }}
+          echo ${{ steps.meta.outputs.tags }}
