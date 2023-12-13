@@ -1,0 +1,21 @@
+name: Updater script
+
+on:
+  pull_request:
+
+jobs:
+  updater:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run and test
+        run: (cd updater && bash cmd.bash)
+        env:
+          BRANCH_NAME: updater-bot
+          COMMIT_AND_PUSH: false
+          COMMIT_EMAIL: ""
+          COMMIT_MESSAGE: "[Updater Bot] Regenerate data"
+          COMMIT_NAME: Updater Bot
+          REPO_DATA: https://github.com/PokeAPI/api-data.git
+          REPO_POKEAPI: https://github.com/PokeAPI/pokeapi.git

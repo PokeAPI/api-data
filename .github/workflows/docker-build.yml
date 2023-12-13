@@ -52,6 +52,10 @@ jobs:
           COMMIT_NAME: Updater Bot
           REPO_DATA: https://github.com/PokeAPI/api-data.git
           REPO_POKEAPI: https://github.com/PokeAPI/pokeapi.git
+      - name: Run and test
+        run: |
+          docker network create pokeapi
+          docker run --privileged -e 'COMMIT_AND_PUSH=false' -e "REPO_APIDATA_CHECKOUT_OBJECT=${{ github.sha }}" -e 'REPO_POKEAPI=https://github.com/PokeAPI/pokeapi.git' -e 'REPO_DATA=https://github.com/PokeAPI/api-data.git' --rm ${{ steps.meta.outputs.tags }}
       - name: Image digest and tag
         run: |
           echo ${{ steps.docker_build.outputs.digest }}
