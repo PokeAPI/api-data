@@ -54,7 +54,7 @@ jobs:
       - name: Run and test
         run: |
           docker network create pokeapi
-          docker run --privileged --network pokeapi --network-alias docker -e 'COMMIT_AND_PUSH=false' -e "REPO_APIDATA_CHECKOUT_OBJECT=${{ github.ref }}" -e 'REPO_POKEAPI=https://github.com/PokeAPI/pokeapi.git' -e 'REPO_DATA=https://github.com/PokeAPI/api-data.git' --rm ${{ steps.meta.outputs.tags }}
+          docker run --privileged --network pokeapi --network-alias docker -e 'COMMIT_AND_PUSH=false' -e "REPO_APIDATA_CHECKOUT_OBJECT=${{ github.head_ref }}" -e 'REPO_POKEAPI=https://github.com/PokeAPI/pokeapi.git' -e 'REPO_DATA=https://github.com/PokeAPI/api-data.git' --rm ${{ steps.meta.outputs.tags }}
       - name: Image digest and tag
         run: |
           echo ${{ steps.docker_build.outputs.digest }}
