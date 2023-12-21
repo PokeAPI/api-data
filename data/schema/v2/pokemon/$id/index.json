@@ -342,12 +342,73 @@
                                 "front_shiny"
                             ],
                             "type": "object"
+                        },
+                        "showdown": {
+                            "properties": {
+                                "back_default": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "back_female": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "back_shiny": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "back_shiny_female": {
+                                    "type": "null"
+                                },
+                                "front_default": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "front_female": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "front_shiny": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "front_shiny_female": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "back_default",
+                                "back_female",
+                                "back_shiny",
+                                "back_shiny_female",
+                                "front_default",
+                                "front_female",
+                                "front_shiny",
+                                "front_shiny_female"
+                            ],
+                            "type": "object"
                         }
                     },
                     "required": [
                         "dream_world",
                         "home",
-                        "official-artwork"
+                        "official-artwork",
+                        "showdown"
                     ],
                     "type": "object"
                 },
