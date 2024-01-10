@@ -14,7 +14,7 @@ jobs:
     - uses: 'google-github-actions/auth@v2'
       with:
         project_id: 'pokeapi-215911'
-        workload_identity_provider: 'projects/569595515170/locations/global/workloadIdentityPools/github/providers/api-data'
+        workload_identity_provider: 'projects/569595515170/locations/global/workloadIdentityPools/github/providers/deploy'
     - name: 'Set up Cloud SDK'
       uses: 'google-github-actions/setup-gcloud@v2'
       with:
