@@ -30,10 +30,15 @@ jobs:
         --source-disk=graphql5 \
         --source-disk-zone=us-east1-b \
         --storage-location=us-east1
-    - uses: 'google-github-actions/ssh-compute@v1'
+    - name: 'Update update-graphql-data-prod'
+      uses: 'google-github-actions/ssh-compute@v1'
       with:
         instance_name: 'graphql5'
         zone: 'us-east1-b'
         ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
         user: ga
         command: sudo -i sh -c 'cd pokeapi && make update-graphql-data-prod'
+    - name: 'Display update output'
+      run: |-
+        echo '${{ steps.compute-ssh.outputs.stdout }}'
+        echo '${{ steps.compute-ssh.outputs.stderr }}'
