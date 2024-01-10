@@ -6,6 +6,9 @@ on:
 jobs:
   update-gql-data:
     runs-on: ubuntu-22.04
+    concurrency:
+      group: serial
+      cancel-in-progress: false
     permissions:
       contents: 'read'
       id-token: 'write'
@@ -22,7 +25,7 @@ jobs:
     - name: 'Make snapshot'
       run: |
         gcloud compute snapshots create gql-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT} \
-        --labels=trigger=gql-data-update,next-head-ref=${GITHUB_HEAD_REF} \
+        --labels=trigger=gql-data-update,next-head-ref=${GITHUB_SHA} \
         --snapshot-type=ARCHIVE \
         --source-disk=graphql5 \
         --source-disk-zone=us-east1-b \
