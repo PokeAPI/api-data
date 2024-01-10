@@ -1,0 +1,36 @@
+name: update-gql-data
+on:
+  push:
+    branches:
+      - master
+jobs:
+  update-gql-data:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    steps:
+    - uses: 'actions/checkout@v4'
+    - uses: 'google-github-actions/auth@v2'
+      with:
+        project_id: 'pokeapi-215911'
+        workload_identity_provider: 'projects/569595515170/locations/global/workloadIdentityPools/github/providers/api-data'
+    - name: 'Set up Cloud SDK'
+      uses: 'google-github-actions/setup-gcloud@v2'
+      with:
+        version: '>= 390.0.0'
+    - name: 'Make snapshot'
+      run: |
+        gcloud compute snapshots create gql-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT} \
+        --labels=trigger=gql-data-update,next-head-ref=${GITHUB_HEAD_REF} \
+        --snapshot-type=ARCHIVE \
+        --source-disk=graphql5 \
+        --source-disk-zone=us-east1-b \
+        --storage-location=us-east1
+    - uses: 'google-github-actions/ssh-compute@v1'
+      with:
+        instance_name: 'graphql5'
+        zone: 'us-east1-b'
+        ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
+        user: ga
+        command: sudo -i sh -c 'cd pokeapi && make update-graphql-data-prod'
