@@ -29,6 +29,24 @@
                 "null"
             ]
         },
+        "cries": {
+            "properties": {
+                "latest": {
+                    "type": "string"
+                },
+                "legacy": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            },
+            "required": [
+                "latest",
+                "legacy"
+            ],
+            "type": "object"
+        },
         "forms": {
             "items": {
                 "$ref": "/schema/v2/named_api_resource.json"
@@ -1361,6 +1379,7 @@
     "required": [
         "abilities",
         "base_experience",
+        "cries",
         "forms",
         "game_indices",
         "height",
