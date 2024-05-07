@@ -34,8 +34,8 @@ git branch -D "$BRANCH_NAME" || true
 git branch "$BRANCH_NAME"
 git checkout "$BRANCH_NAME"
 
-pip install -r requirements.txt
-rm -r ./data
+pip install 'pokeapi-ditto==1.0.2'
+rm -rf ./data
 ditto clone --src-url http://localhost/ --dest-dir ./data
 # (╯°□°)╯ *always* assume magikarp failed and grab it again #clowntown
 ditto clone --src-url http://localhost/ --dest-dir ./data --select pokemon/129

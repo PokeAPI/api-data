@@ -1,29 +1,29 @@
 version: 2.1
 
 executors:
-  python36:
+  python3:
     docker:
-      - image: cimg/python:3.6.15
+      - image: cimg/python:3.12.3
 
 commands:
   ditto-transform:
     description: Run Ditto in order to transform the BASE_URL instead of http://localhost
     steps:
       - run:
-          name: Install requirements.txt
-          command: pip install --user -r requirements.txt
+          name: Install Ditto
+          command: pip install --user 'pokeapi-ditto==1.0.2'
       - run:
           name: Transform api-data's JSON files to have the correct BASE_URL instead of http://localhost
           command: bash -x scripts/transform.sh
 
 jobs:
   test:
-    executor: python36
+    executor: python3
     steps:
       - checkout
       - ditto-transform
   build-and-deploy:
-    executor: python36
+    executor: python3
     steps:
       - checkout
       - ditto-transform
