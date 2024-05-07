@@ -11,7 +11,7 @@ commands:
     steps:
       - run:
           name: Install Ditto
-          command: pip install --user 'pokeapi-ditto==1.0.2'
+          command: pip install --user 'pokeapi-ditto==1.0.3'
       - run:
           name: Transform api-data's JSON files to have the correct BASE_URL instead of http://localhost
           command: bash -x scripts/transform.sh

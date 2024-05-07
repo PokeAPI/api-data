@@ -34,7 +34,7 @@ git branch -D "$BRANCH_NAME" || true
 git branch "$BRANCH_NAME"
 git checkout "$BRANCH_NAME"
 
-pip install 'pokeapi-ditto==1.0.2'
+pip install 'pokeapi-ditto==1.0.3'
 rm -rf ./data
 ditto clone --src-url http://localhost/ --dest-dir ./data
 # (╯°□°)╯ *always* assume magikarp failed and grab it again #clowntown
