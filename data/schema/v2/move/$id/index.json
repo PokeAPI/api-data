@@ -127,19 +127,7 @@
                 "properties": {
                     "effect_entries": {
                         "items": {
-                            "properties": {
-                                "effect": {
-                                    "type": "string"
-                                },
-                                "language": {
-                                    "$ref": "/schema/v2/named_api_resource.json"
-                                }
-                            },
-                            "required": [
-                                "effect",
-                                "language"
-                            ],
-                            "type": "object"
+                            "$ref": "/schema/v2/effect.json"
                         },
                         "type": "array"
                     },
@@ -157,23 +145,7 @@
         },
         "effect_entries": {
             "items": {
-                "properties": {
-                    "effect": {
-                        "type": "string"
-                    },
-                    "language": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "short_effect": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "effect",
-                    "language",
-                    "short_effect"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/verbose_effect.json"
             },
             "type": "array"
         },
@@ -213,19 +185,7 @@
         },
         "machines": {
             "items": {
-                "properties": {
-                    "machine": {
-                        "$ref": "/schema/v2/api_resource.json"
-                    },
-                    "version_group": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "machine",
-                    "version_group"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/machine_version_detail.json"
             },
             "type": "array"
         },
@@ -308,19 +268,7 @@
         },
         "names": {
             "items": {
-                "properties": {
-                    "language": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "name": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "language",
-                    "name"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/name.json"
             },
             "type": "array"
         },
@@ -341,23 +289,7 @@
                     },
                     "effect_entries": {
                         "items": {
-                            "properties": {
-                                "effect": {
-                                    "type": "string"
-                                },
-                                "language": {
-                                    "$ref": "/schema/v2/named_api_resource.json"
-                                },
-                                "short_effect": {
-                                    "type": "string"
-                                }
-                            },
-                            "required": [
-                                "effect",
-                                "language",
-                                "short_effect"
-                            ],
-                            "type": "object"
+                            "$ref": "/schema/v2/verbose_effect.json"
                         },
                         "type": "array"
                     },

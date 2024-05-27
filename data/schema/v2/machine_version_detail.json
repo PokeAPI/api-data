@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "properties": {
+        "machine": {
+            "$ref": "/schema/v2/api_resource.json"
+        },
+        "version_group": {
+            "$ref": "/schema/v2/named_api_resource.json"
+        }
+    },
+    "required": [
+        "machine",
+        "version_group"
+    ],
+    "type": "object"
+}
