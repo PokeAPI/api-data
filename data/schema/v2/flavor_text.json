@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "properties": {
+        "flavor_text": {
+            "type": "string"
+        },
+        "language": {
+            "$ref": "/schema/v2/named_api_resource.json"
+        }
+    },
+    "required": [
+        "flavor_text",
+        "language"
+    ],
+    "type": "object"
+}

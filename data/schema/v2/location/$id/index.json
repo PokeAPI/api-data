@@ -9,19 +9,7 @@
         },
         "game_indices": {
             "items": {
-                "properties": {
-                    "game_index": {
-                        "type": "integer"
-                    },
-                    "generation": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "game_index",
-                    "generation"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/generation_game_index.json"
             },
             "type": "array"
         },
@@ -33,19 +21,7 @@
         },
         "names": {
             "items": {
-                "properties": {
-                    "language": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "name": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "language",
-                    "name"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/name.json"
             },
             "type": "array"
         },

@@ -55,19 +55,7 @@
         },
         "game_indices": {
             "items": {
-                "properties": {
-                    "game_index": {
-                        "type": "integer"
-                    },
-                    "version": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "game_index",
-                    "version"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/version_game_index.json"
             },
             "type": "array"
         },

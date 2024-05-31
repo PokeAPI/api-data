@@ -3,19 +3,7 @@
     "properties": {
         "descriptions": {
             "items": {
-                "properties": {
-                    "description": {
-                        "type": "string"
-                    },
-                    "language": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "description",
-                    "language"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/description.json"
             },
             "type": "array"
         },
@@ -30,19 +18,7 @@
         },
         "names": {
             "items": {
-                "properties": {
-                    "language": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "name": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "language",
-                    "name"
-                ],
-                "type": "object"
+                "$ref": "/schema/v2/name.json"
             },
             "type": "array"
         },

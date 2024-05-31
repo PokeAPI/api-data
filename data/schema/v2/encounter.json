@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "properties": {
+        "chance": {
+            "type": "integer"
+        },
+        "condition_values": {
+            "items": {
+                "$ref": "/schema/v2/named_api_resource.json"
+            },
+            "type": "array"
+        },
+        "max_level": {
+            "type": "integer"
+        },
+        "method": {
+            "$ref": "/schema/v2/named_api_resource.json"
+        },
+        "min_level": {
+            "type": "integer"
+        }
+    },
+    "required": [
+        "chance",
+        "condition_values",
+        "max_level",
+        "method",
+        "min_level"
+    ],
+    "type": "object"
+}

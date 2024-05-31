@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "properties": {
+        "effect": {
+            "type": "string"
+        },
+        "language": {
+            "$ref": "/schema/v2/named_api_resource.json"
+        },
+        "short_effect": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "effect",
+        "language",
+        "short_effect"
+    ],
+    "type": "object"
+}
