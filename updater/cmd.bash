@@ -40,6 +40,7 @@ ditto clone --src-url http://localhost/ --dest-dir ./data
 # (╯°□°)╯ *always* assume magikarp failed and grab it again #clowntown
 ditto clone --src-url http://localhost/ --dest-dir ./data --select pokemon/129
 ditto analyze --data-dir ./data
+echo "$(tree data/api/v2 | tail -n 1) generated"
 
 # commit and push
 if [ "$COMMIT_AND_PUSH" = 'true' ]; then
