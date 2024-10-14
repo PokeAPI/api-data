@@ -174,7 +174,14 @@
             "type": "array"
         },
         "shape": {
-            "$ref": "/schema/v2/named_api_resource.json"
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "/schema/v2/named_api_resource.json"
+                }
+            ]
         },
         "varieties": {
             "items": {
