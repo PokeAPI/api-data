@@ -1,0 +1,996 @@
+{
+    "accuracy": 100,
+    "contest_combos": null,
+    "contest_effect": null,
+    "contest_type": null,
+    "damage_class": {
+        "name": "physical",
+        "url": "/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": null,
+    "effect_changes": [],
+    "effect_entries": [],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3076\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3002\n\u307c\u3046\u304e\u3087\u304c\u3000\u305f\u304b\u3044\u307b\u3069\n\u3042\u305f\u3048\u308b\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3075\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "\ubab8\uc744 \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ubc29\uc5b4\uac00 \ub192\uc744\uc218\ub85d\n\uc8fc\ub294 \ub370\ubbf8\uc9c0\uac00 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u8eab\u9ad4\u649e\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u81ea\u5df1\u7684\u9632\u79a6\u8d8a\u9ad8\uff0c\n\u7d66\u4e88\u5c0d\u624b\u7684\u50b7\u5bb3\u8d8a\u5927\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Le lanceur utilise son corps pour attaquer sa cible.\nPlus la D\u00e9fense du lanceur est \u00e9lev\u00e9e,\nplus les d\u00e9g\u00e2ts inflig\u00e9s sont importants.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Der Anwender greift mit seinem ganzen K\u00f6rper an.\nJe h\u00f6her seine Verteidigung ist, desto mehr Schaden\nrichtet er an.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "El usuario usa el cuerpo para lanzar su ataque e infligir\nun da\u00f1o directamente proporcional a su Defensa.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Chi la usa schiaccia il bersaglio con il suo corpo.\nPi\u00f9 la sua Difesa \u00e8 alta, maggiori sono i danni inflitti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "The user attacks by slamming its body into the target.\nThe higher the user\u2019s Defense, the more damage it can\ninflict on the target.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "\u4f53\u3092\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3002\n\u9632\u5fa1\u304c\u3000\u9ad8\u3044\u307b\u3069\n\u4e0e\u3048\u308b\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u5897\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u8eab\u4f53\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u9632\u5fa1\u8d8a\u9ad8\uff0c\n\u7ed9\u4e88\u7684\u4f24\u5bb3\u5c31\u8d8a\u9ad8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-viii",
+        "url": "/api/v2/generation/8/"
+    },
+    "id": 776,
+    "learned_by_pokemon": [
+        {
+            "name": "blastoise",
+            "url": "/api/v2/pokemon/9/"
+        },
+        {
+            "name": "nidoqueen",
+            "url": "/api/v2/pokemon/31/"
+        },
+        {
+            "name": "nidoking",
+            "url": "/api/v2/pokemon/34/"
+        },
+        {
+            "name": "jigglypuff",
+            "url": "/api/v2/pokemon/39/"
+        },
+        {
+            "name": "wigglytuff",
+            "url": "/api/v2/pokemon/40/"
+        },
+        {
+            "name": "graveler",
+            "url": "/api/v2/pokemon/75/"
+        },
+        {
+            "name": "golem",
+            "url": "/api/v2/pokemon/76/"
+        },
+        {
+            "name": "slowbro",
+            "url": "/api/v2/pokemon/80/"
+        },
+        {
+            "name": "onix",
+            "url": "/api/v2/pokemon/95/"
+        },
+        {
+            "name": "hypno",
+            "url": "/api/v2/pokemon/97/"
+        },
+        {
+            "name": "lickitung",
+            "url": "/api/v2/pokemon/108/"
+        },
+        {
+            "name": "rhyhorn",
+            "url": "/api/v2/pokemon/111/"
+        },
+        {
+            "name": "rhydon",
+            "url": "/api/v2/pokemon/112/"
+        },
+        {
+            "name": "lapras",
+            "url": "/api/v2/pokemon/131/"
+        },
+        {
+            "name": "snorlax",
+            "url": "/api/v2/pokemon/143/"
+        },
+        {
+            "name": "dragonite",
+            "url": "/api/v2/pokemon/149/"
+        },
+        {
+            "name": "mew",
+            "url": "/api/v2/pokemon/151/"
+        },
+        {
+            "name": "meganium",
+            "url": "/api/v2/pokemon/154/"
+        },
+        {
+            "name": "sudowoodo",
+            "url": "/api/v2/pokemon/185/"
+        },
+        {
+            "name": "quagsire",
+            "url": "/api/v2/pokemon/195/"
+        },
+        {
+            "name": "forretress",
+            "url": "/api/v2/pokemon/205/"
+        },
+        {
+            "name": "steelix",
+            "url": "/api/v2/pokemon/208/"
+        },
+        {
+            "name": "mantine",
+            "url": "/api/v2/pokemon/226/"
+        },
+        {
+            "name": "skarmory",
+            "url": "/api/v2/pokemon/227/"
+        },
+        {
+            "name": "donphan",
+            "url": "/api/v2/pokemon/232/"
+        },
+        {
+            "name": "miltank",
+            "url": "/api/v2/pokemon/241/"
+        },
+        {
+            "name": "tyranitar",
+            "url": "/api/v2/pokemon/248/"
+        },
+        {
+            "name": "swampert",
+            "url": "/api/v2/pokemon/260/"
+        },
+        {
+            "name": "slaking",
+            "url": "/api/v2/pokemon/289/"
+        },
+        {
+            "name": "makuhita",
+            "url": "/api/v2/pokemon/296/"
+        },
+        {
+            "name": "hariyama",
+            "url": "/api/v2/pokemon/297/"
+        },
+        {
+            "name": "nosepass",
+            "url": "/api/v2/pokemon/299/"
+        },
+        {
+            "name": "aron",
+            "url": "/api/v2/pokemon/304/"
+        },
+        {
+            "name": "lairon",
+            "url": "/api/v2/pokemon/305/"
+        },
+        {
+            "name": "aggron",
+            "url": "/api/v2/pokemon/306/"
+        },
+        {
+            "name": "swalot",
+            "url": "/api/v2/pokemon/317/"
+        },
+        {
+            "name": "wailmer",
+            "url": "/api/v2/pokemon/320/"
+        },
+        {
+            "name": "wailord",
+            "url": "/api/v2/pokemon/321/"
+        },
+        {
+            "name": "numel",
+            "url": "/api/v2/pokemon/322/"
+        },
+        {
+            "name": "camerupt",
+            "url": "/api/v2/pokemon/323/"
+        },
+        {
+            "name": "torkoal",
+            "url": "/api/v2/pokemon/324/"
+        },
+        {
+            "name": "grumpig",
+            "url": "/api/v2/pokemon/326/"
+        },
+        {
+            "name": "claydol",
+            "url": "/api/v2/pokemon/344/"
+        },
+        {
+            "name": "tropius",
+            "url": "/api/v2/pokemon/357/"
+        },
+        {
+            "name": "walrein",
+            "url": "/api/v2/pokemon/365/"
+        },
+        {
+            "name": "relicanth",
+            "url": "/api/v2/pokemon/369/"
+        },
+        {
+            "name": "metagross",
+            "url": "/api/v2/pokemon/376/"
+        },
+        {
+            "name": "regirock",
+            "url": "/api/v2/pokemon/377/"
+        },
+        {
+            "name": "regice",
+            "url": "/api/v2/pokemon/378/"
+        },
+        {
+            "name": "registeel",
+            "url": "/api/v2/pokemon/379/"
+        },
+        {
+            "name": "groudon",
+            "url": "/api/v2/pokemon/383/"
+        },
+        {
+            "name": "torterra",
+            "url": "/api/v2/pokemon/389/"
+        },
+        {
+            "name": "rampardos",
+            "url": "/api/v2/pokemon/409/"
+        },
+        {
+            "name": "bastiodon",
+            "url": "/api/v2/pokemon/411/"
+        },
+        {
+            "name": "bronzong",
+            "url": "/api/v2/pokemon/437/"
+        },
+        {
+            "name": "hippopotas",
+            "url": "/api/v2/pokemon/449/"
+        },
+        {
+            "name": "hippowdon",
+            "url": "/api/v2/pokemon/450/"
+        },
+        {
+            "name": "abomasnow",
+            "url": "/api/v2/pokemon/460/"
+        },
+        {
+            "name": "magnezone",
+            "url": "/api/v2/pokemon/462/"
+        },
+        {
+            "name": "lickilicky",
+            "url": "/api/v2/pokemon/463/"
+        },
+        {
+            "name": "rhyperior",
+            "url": "/api/v2/pokemon/464/"
+        },
+        {
+            "name": "mamoswine",
+            "url": "/api/v2/pokemon/473/"
+        },
+        {
+            "name": "probopass",
+            "url": "/api/v2/pokemon/476/"
+        },
+        {
+            "name": "dialga",
+            "url": "/api/v2/pokemon/483/"
+        },
+        {
+            "name": "palkia",
+            "url": "/api/v2/pokemon/484/"
+        },
+        {
+            "name": "heatran",
+            "url": "/api/v2/pokemon/485/"
+        },
+        {
+            "name": "regigigas",
+            "url": "/api/v2/pokemon/486/"
+        },
+        {
+            "name": "arceus",
+            "url": "/api/v2/pokemon/493/"
+        },
+        {
+            "name": "emboar",
+            "url": "/api/v2/pokemon/500/"
+        },
+        {
+            "name": "roggenrola",
+            "url": "/api/v2/pokemon/524/"
+        },
+        {
+            "name": "boldore",
+            "url": "/api/v2/pokemon/525/"
+        },
+        {
+            "name": "gigalith",
+            "url": "/api/v2/pokemon/526/"
+        },
+        {
+            "name": "darmanitan-standard",
+            "url": "/api/v2/pokemon/555/"
+        },
+        {
+            "name": "crustle",
+            "url": "/api/v2/pokemon/558/"
+        },
+        {
+            "name": "cofagrigus",
+            "url": "/api/v2/pokemon/563/"
+        },
+        {
+            "name": "garbodor",
+            "url": "/api/v2/pokemon/569/"
+        },
+        {
+            "name": "ferrothorn",
+            "url": "/api/v2/pokemon/598/"
+        },
+        {
+            "name": "eelektross",
+            "url": "/api/v2/pokemon/604/"
+        },
+        {
+            "name": "cubchoo",
+            "url": "/api/v2/pokemon/613/"
+        },
+        {
+            "name": "beartic",
+            "url": "/api/v2/pokemon/614/"
+        },
+        {
+            "name": "golurk",
+            "url": "/api/v2/pokemon/623/"
+        },
+        {
+            "name": "cobalion",
+            "url": "/api/v2/pokemon/638/"
+        },
+        {
+            "name": "reshiram",
+            "url": "/api/v2/pokemon/643/"
+        },
+        {
+            "name": "zekrom",
+            "url": "/api/v2/pokemon/644/"
+        },
+        {
+            "name": "kyurem",
+            "url": "/api/v2/pokemon/646/"
+        },
+        {
+            "name": "chesnaught",
+            "url": "/api/v2/pokemon/652/"
+        },
+        {
+            "name": "hawlucha",
+            "url": "/api/v2/pokemon/701/"
+        },
+        {
+            "name": "carbink",
+            "url": "/api/v2/pokemon/703/"
+        },
+        {
+            "name": "goodra",
+            "url": "/api/v2/pokemon/706/"
+        },
+        {
+            "name": "avalugg",
+            "url": "/api/v2/pokemon/713/"
+        },
+        {
+            "name": "diancie",
+            "url": "/api/v2/pokemon/719/"
+        },
+        {
+            "name": "volcanion",
+            "url": "/api/v2/pokemon/721/"
+        },
+        {
+            "name": "crabominable",
+            "url": "/api/v2/pokemon/740/"
+        },
+        {
+            "name": "mudsdale",
+            "url": "/api/v2/pokemon/750/"
+        },
+        {
+            "name": "bewear",
+            "url": "/api/v2/pokemon/760/"
+        },
+        {
+            "name": "turtonator",
+            "url": "/api/v2/pokemon/776/"
+        },
+        {
+            "name": "dhelmise",
+            "url": "/api/v2/pokemon/781/"
+        },
+        {
+            "name": "kommo-o",
+            "url": "/api/v2/pokemon/784/"
+        },
+        {
+            "name": "guzzlord",
+            "url": "/api/v2/pokemon/799/"
+        },
+        {
+            "name": "stakataka",
+            "url": "/api/v2/pokemon/805/"
+        },
+        {
+            "name": "melmetal",
+            "url": "/api/v2/pokemon/809/"
+        },
+        {
+            "name": "rillaboom",
+            "url": "/api/v2/pokemon/812/"
+        },
+        {
+            "name": "greedent",
+            "url": "/api/v2/pokemon/820/"
+        },
+        {
+            "name": "corviknight",
+            "url": "/api/v2/pokemon/823/"
+        },
+        {
+            "name": "dottler",
+            "url": "/api/v2/pokemon/825/"
+        },
+        {
+            "name": "orbeetle",
+            "url": "/api/v2/pokemon/826/"
+        },
+        {
+            "name": "dubwool",
+            "url": "/api/v2/pokemon/832/"
+        },
+        {
+            "name": "drednaw",
+            "url": "/api/v2/pokemon/834/"
+        },
+        {
+            "name": "carkol",
+            "url": "/api/v2/pokemon/838/"
+        },
+        {
+            "name": "coalossal",
+            "url": "/api/v2/pokemon/839/"
+        },
+        {
+            "name": "appletun",
+            "url": "/api/v2/pokemon/842/"
+        },
+        {
+            "name": "sandaconda",
+            "url": "/api/v2/pokemon/844/"
+        },
+        {
+            "name": "grimmsnarl",
+            "url": "/api/v2/pokemon/861/"
+        },
+        {
+            "name": "obstagoon",
+            "url": "/api/v2/pokemon/862/"
+        },
+        {
+            "name": "runerigus",
+            "url": "/api/v2/pokemon/867/"
+        },
+        {
+            "name": "falinks",
+            "url": "/api/v2/pokemon/870/"
+        },
+        {
+            "name": "stonjourner",
+            "url": "/api/v2/pokemon/874/"
+        },
+        {
+            "name": "cufant",
+            "url": "/api/v2/pokemon/878/"
+        },
+        {
+            "name": "copperajah",
+            "url": "/api/v2/pokemon/879/"
+        },
+        {
+            "name": "duraludon",
+            "url": "/api/v2/pokemon/884/"
+        },
+        {
+            "name": "zamazenta",
+            "url": "/api/v2/pokemon/889/"
+        },
+        {
+            "name": "urshifu-single-strike",
+            "url": "/api/v2/pokemon/892/"
+        },
+        {
+            "name": "glastrier",
+            "url": "/api/v2/pokemon/896/"
+        },
+        {
+            "name": "calyrex",
+            "url": "/api/v2/pokemon/898/"
+        },
+        {
+            "name": "ursaluna",
+            "url": "/api/v2/pokemon/901/"
+        },
+        {
+            "name": "oinkologne-male",
+            "url": "/api/v2/pokemon/916/"
+        },
+        {
+            "name": "pawmot",
+            "url": "/api/v2/pokemon/923/"
+        },
+        {
+            "name": "dachsbun",
+            "url": "/api/v2/pokemon/927/"
+        },
+        {
+            "name": "naclstack",
+            "url": "/api/v2/pokemon/933/"
+        },
+        {
+            "name": "garganacl",
+            "url": "/api/v2/pokemon/934/"
+        },
+        {
+            "name": "orthworm",
+            "url": "/api/v2/pokemon/968/"
+        },
+        {
+            "name": "houndstone",
+            "url": "/api/v2/pokemon/972/"
+        },
+        {
+            "name": "cetoddle",
+            "url": "/api/v2/pokemon/974/"
+        },
+        {
+            "name": "cetitan",
+            "url": "/api/v2/pokemon/975/"
+        },
+        {
+            "name": "dondozo",
+            "url": "/api/v2/pokemon/977/"
+        },
+        {
+            "name": "clodsire",
+            "url": "/api/v2/pokemon/980/"
+        },
+        {
+            "name": "dudunsparce-two-segment",
+            "url": "/api/v2/pokemon/982/"
+        },
+        {
+            "name": "great-tusk",
+            "url": "/api/v2/pokemon/984/"
+        },
+        {
+            "name": "brute-bonnet",
+            "url": "/api/v2/pokemon/986/"
+        },
+        {
+            "name": "slither-wing",
+            "url": "/api/v2/pokemon/988/"
+        },
+        {
+            "name": "sandy-shocks",
+            "url": "/api/v2/pokemon/989/"
+        },
+        {
+            "name": "iron-treads",
+            "url": "/api/v2/pokemon/990/"
+        },
+        {
+            "name": "iron-hands",
+            "url": "/api/v2/pokemon/992/"
+        },
+        {
+            "name": "iron-thorns",
+            "url": "/api/v2/pokemon/995/"
+        },
+        {
+            "name": "baxcalibur",
+            "url": "/api/v2/pokemon/998/"
+        },
+        {
+            "name": "wo-chien",
+            "url": "/api/v2/pokemon/1001/"
+        },
+        {
+            "name": "ting-lu",
+            "url": "/api/v2/pokemon/1003/"
+        },
+        {
+            "name": "roaring-moon",
+            "url": "/api/v2/pokemon/1005/"
+        },
+        {
+            "name": "koraidon",
+            "url": "/api/v2/pokemon/1007/"
+        },
+        {
+            "name": "okidogi",
+            "url": "/api/v2/pokemon/1014/"
+        },
+        {
+            "name": "archaludon",
+            "url": "/api/v2/pokemon/1018/"
+        },
+        {
+            "name": "hydrapple",
+            "url": "/api/v2/pokemon/1019/"
+        },
+        {
+            "name": "raging-bolt",
+            "url": "/api/v2/pokemon/1021/"
+        },
+        {
+            "name": "terapagos",
+            "url": "/api/v2/pokemon/1024/"
+        },
+        {
+            "name": "darmanitan-zen",
+            "url": "/api/v2/pokemon/10017/"
+        },
+        {
+            "name": "kyurem-black",
+            "url": "/api/v2/pokemon/10022/"
+        },
+        {
+            "name": "kyurem-white",
+            "url": "/api/v2/pokemon/10023/"
+        },
+        {
+            "name": "golem-alola",
+            "url": "/api/v2/pokemon/10111/"
+        },
+        {
+            "name": "slowbro-galar",
+            "url": "/api/v2/pokemon/10165/"
+        },
+        {
+            "name": "linoone-galar",
+            "url": "/api/v2/pokemon/10175/"
+        },
+        {
+            "name": "darmanitan-galar-standard",
+            "url": "/api/v2/pokemon/10177/"
+        },
+        {
+            "name": "darmanitan-galar-zen",
+            "url": "/api/v2/pokemon/10178/"
+        },
+        {
+            "name": "zamazenta-crowned",
+            "url": "/api/v2/pokemon/10189/"
+        },
+        {
+            "name": "urshifu-rapid-strike",
+            "url": "/api/v2/pokemon/10191/"
+        },
+        {
+            "name": "calyrex-ice",
+            "url": "/api/v2/pokemon/10193/"
+        },
+        {
+            "name": "goodra-hisui",
+            "url": "/api/v2/pokemon/10242/"
+        },
+        {
+            "name": "avalugg-hisui",
+            "url": "/api/v2/pokemon/10243/"
+        },
+        {
+            "name": "dialga-origin",
+            "url": "/api/v2/pokemon/10245/"
+        },
+        {
+            "name": "palkia-origin",
+            "url": "/api/v2/pokemon/10246/"
+        },
+        {
+            "name": "tauros-paldea-combat-breed",
+            "url": "/api/v2/pokemon/10250/"
+        },
+        {
+            "name": "tauros-paldea-blaze-breed",
+            "url": "/api/v2/pokemon/10251/"
+        },
+        {
+            "name": "tauros-paldea-aqua-breed",
+            "url": "/api/v2/pokemon/10252/"
+        },
+        {
+            "name": "wooper-paldea",
+            "url": "/api/v2/pokemon/10253/"
+        },
+        {
+            "name": "oinkologne-female",
+            "url": "/api/v2/pokemon/10254/"
+        },
+        {
+            "name": "dudunsparce-three-segment",
+            "url": "/api/v2/pokemon/10255/"
+        },
+        {
+            "name": "koraidon-limited-build",
+            "url": "/api/v2/pokemon/10264/"
+        },
+        {
+            "name": "koraidon-sprinting-build",
+            "url": "/api/v2/pokemon/10265/"
+        },
+        {
+            "name": "koraidon-swimming-build",
+            "url": "/api/v2/pokemon/10266/"
+        },
+        {
+            "name": "koraidon-gliding-build",
+            "url": "/api/v2/pokemon/10267/"
+        },
+        {
+            "name": "ursaluna-bloodmoon",
+            "url": "/api/v2/pokemon/10272/"
+        },
+        {
+            "name": "terapagos-terastal",
+            "url": "/api/v2/pokemon/10276/"
+        },
+        {
+            "name": "terapagos-stellar",
+            "url": "/api/v2/pokemon/10277/"
+        }
+    ],
+    "machines": [
+        {
+            "machine": {
+                "url": "/api/v2/machine/1688/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/1794/"
+            },
+            "version_group": {
+                "name": "scarlet-violet",
+                "url": "/api/v2/version-group/25/"
+            }
+        },
+        {
+            "machine": {
+                "url": "/api/v2/machine/2002/"
+            },
+            "version_group": {
+                "name": "the-indigo-disk",
+                "url": "/api/v2/version-group/27/"
+            }
+        }
+    ],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "body-press",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30dc\u30c7\u30a3\u30d7\u30ec\u30b9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ubc14\ub514\ud504\ub808\uc2a4"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u64b2\u64ca"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Big Splash"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Body Press"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Plancha Corporal"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Schiacciacorpo"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Body Press"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30dc\u30c7\u30a3\u30d7\u30ec\u30b9"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u6251\u51fb"
+        }
+    ],
+    "past_values": [],
+    "power": 80,
+    "pp": 10,
+    "priority": 0,
+    "stat_changes": [],
+    "super_contest_effect": null,
+    "target": {
+        "name": "selected-pokemon",
+        "url": "/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+    }
+}
