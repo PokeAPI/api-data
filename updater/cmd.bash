@@ -33,7 +33,8 @@ git checkout "$REPO_APIDATA_CHECKOUT_OBJECT"
 git branch -D "$BRANCH_NAME" || true
 git branch "$BRANCH_NAME"
 git checkout "$BRANCH_NAME"
-
+python -m venv .venv
+source .venv/bin/activate
 pip install 'pokeapi-ditto==1.0.3'
 rm -rf ./data
 ditto clone --src-url http://localhost/ --dest-dir ./data
