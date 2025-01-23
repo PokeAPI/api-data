@@ -26,9 +26,28 @@
                             "url": "/api/v2/encounter-method/9/"
                         },
                         "min_level": 11
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weekday-friday",
+                                "url": "/api/v2/encounter-condition-value/64/"
+                            },
+                            {
+                                "name": "defeated-ghetsis",
+                                "url": "/api/v2/encounter-condition-value/81/"
+                            }
+                        ],
+                        "max_level": 50,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 50
                     }
                 ],
-                "max_chance": 5,
+                "max_chance": 105,
                 "version": {
                     "name": "black",
                     "url": "/api/v2/version/17/"
@@ -55,9 +74,28 @@
                             "url": "/api/v2/encounter-method/9/"
                         },
                         "min_level": 11
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weekday-friday",
+                                "url": "/api/v2/encounter-condition-value/64/"
+                            },
+                            {
+                                "name": "defeated-ghetsis",
+                                "url": "/api/v2/encounter-condition-value/81/"
+                            }
+                        ],
+                        "max_level": 50,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 50
                     }
                 ],
-                "max_chance": 5,
+                "max_chance": 105,
                 "version": {
                     "name": "white",
                     "url": "/api/v2/version/18/"
@@ -119,6 +157,52 @@
                 "version": {
                     "name": "white-2",
                     "url": "/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "dreamyard-b1f",
+            "url": "/api/v2/location-area/580/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "black",
+                    "url": "/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "white",
+                    "url": "/api/v2/version/18/"
                 }
             }
         ]
