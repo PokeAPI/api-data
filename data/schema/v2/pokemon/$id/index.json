@@ -29,10 +29,7 @@
         "cries": {
             "properties": {
                 "latest": {
-                    "type": [
-                        "null",
-                        "string"
-                    ]
+                    "type": "string"
                 },
                 "legacy": {
                     "type": [
@@ -119,6 +116,12 @@
                                 "move_learn_method": {
                                     "$ref": "/schema/v2/named_api_resource.json"
                                 },
+                                "order": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
                                 "version_group": {
                                     "$ref": "/schema/v2/named_api_resource.json"
                                 }
@@ -126,6 +129,7 @@
                             "required": [
                                 "level_learned_at",
                                 "move_learn_method",
+                                "order",
                                 "version_group"
                             ],
                             "type": "object"
