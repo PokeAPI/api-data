@@ -1,4 +1,4 @@
-# PokéAPI data <a href="https://pokeapi.co/api/v2/pokemon/uxie"><img src='https://veekun.com/dex/media/pokemon/global-link/480.png' height=50px/></a>
+# PokéAPI data <a href="https://pokeapi.co/api/v2/pokemon/uxie"><img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/480.svg' height=50px/></a>
 
 [![CircleCI](https://circleci.com/gh/PokeAPI/api-data.svg?style=shield)](https://circleci.com/gh/PokeAPI/api-data)
 
