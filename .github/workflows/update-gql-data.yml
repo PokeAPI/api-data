@@ -1,8 +1,9 @@
 name: update-gql-data
-on: workflow_dispatch
-#  push:
-#    branches:
-#      - master
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
 jobs:
   update-gql-data:
     runs-on: ubuntu-22.04
