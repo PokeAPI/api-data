@@ -29,7 +29,7 @@ jobs:
         instance_name: 'graphql1'
         zone: 'us-east1-b'
         ssh_private_key: '${{ secrets.GCP_STAGING_GRAPHQL1_VM_SSH_PRIVATE_KEY }}'
-        user: ga
+        user: ga1
         command: sudo -i sh -c 'cd pokeapi && make update-graphql-data-prod'
     - name: 'Display update output'
       run: |-
