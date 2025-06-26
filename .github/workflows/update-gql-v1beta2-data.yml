@@ -19,4 +19,4 @@ jobs:
     - name: 'Update data'
       run: |-
         echo "$GCP_STAGING_GRAPHQL1_VM_SSH_PRIVATE_KEY" > pk.key
-        ssh -i pk.key ga2@34.148.124.239 "sudo -i sh -c 'cd pokeapi && make update-graphql-data-prod'"
+        ssh -o StrictHostKeyChecking=no -i pk.key ga2@34.148.124.239 "sudo -i sh -c 'cd pokeapi && make update-graphql-data-prod'"
