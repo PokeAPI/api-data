@@ -29,7 +29,10 @@
         "cries": {
             "properties": {
                 "latest": {
-                    "type": "string"
+                    "type": [
+                        "null",
+                        "string"
+                    ]
                 },
                 "legacy": {
                     "type": [
@@ -158,14 +161,7 @@
                         "items": {
                             "properties": {
                                 "ability": {
-                                    "anyOf": [
-                                        {
-                                            "type": "null"
-                                        },
-                                        {
-                                            "$ref": "/schema/v2/named_api_resource.json"
-                                        }
-                                    ]
+                                    "$ref": "/schema/v2/named_api_resource.json"
                                 },
                                 "is_hidden": {
                                     "type": "boolean"
