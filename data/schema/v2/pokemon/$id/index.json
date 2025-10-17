@@ -24,12 +24,18 @@
             "type": "array"
         },
         "base_experience": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "cries": {
             "properties": {
                 "latest": {
-                    "type": "string"
+                    "type": [
+                        "null",
+                        "string"
+                    ]
                 },
                 "legacy": {
                     "type": [
