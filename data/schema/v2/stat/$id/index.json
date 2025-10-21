@@ -1,6 +1,12 @@
 {
     "$schema": "http://json-schema.org/schema#",
     "properties": {
+        "affecting_items": {
+            "items": {
+                "$ref": "/schema/v2/named_api_resource.json"
+            },
+            "type": "array"
+        },
         "affecting_moves": {
             "properties": {
                 "decrease": {
@@ -103,6 +109,7 @@
         }
     },
     "required": [
+        "affecting_items",
         "affecting_moves",
         "affecting_natures",
         "characteristics",
