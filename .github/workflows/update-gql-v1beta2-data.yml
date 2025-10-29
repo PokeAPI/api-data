@@ -20,7 +20,7 @@ jobs:
       run: |-
         echo "$GCP_STAGING_GRAPHQL1_VM_SSH_PRIVATE_KEY" > pk.key
         chmod 400 pk.key
-        ssh -o StrictHostKeyChecking=no -i pk.key ga@34.148.124.239 "sudo -i sh -c 'cd pokeapi && make update-graphql-data-prod'"
+        ssh -o StrictHostKeyChecking=no -i pk.key ga@35.237.228.138 "sudo -i sh -c 'cd pokeapi && make update-graphql-data-prod'"
       shell: bash
       env:
         GCP_STAGING_GRAPHQL1_VM_SSH_PRIVATE_KEY: ${{secrets.GCP_STAGING_GRAPHQL1_VM_SSH_PRIVATE_KEY}}
