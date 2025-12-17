@@ -1001,6 +1001,35 @@
                             ],
                             "type": "object"
                         },
+                        "generation-ix": {
+                            "properties": {
+                                "scarlet-violet": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_female"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "scarlet-violet"
+                            ],
+                            "type": "object"
+                        },
                         "generation-v": {
                             "properties": {
                                 "black-white": {
@@ -1282,6 +1311,24 @@
                         },
                         "generation-viii": {
                             "properties": {
+                                "brilliant-diamond-shining-pearl": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": "null"
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_female"
+                                    ],
+                                    "type": "object"
+                                },
                                 "icons": {
                                     "properties": {
                                         "front_default": {
@@ -1305,6 +1352,7 @@
                                 }
                             },
                             "required": [
+                                "brilliant-diamond-shining-pearl",
                                 "icons"
                             ],
                             "type": "object"
@@ -1315,6 +1363,7 @@
                         "generation-ii",
                         "generation-iii",
                         "generation-iv",
+                        "generation-ix",
                         "generation-v",
                         "generation-vi",
                         "generation-vii",
