@@ -89,6 +89,70 @@
                         "null",
                         "string"
                     ]
+                },
+                "versions": {
+                    "properties": {
+                        "generation-ix": {
+                            "properties": {
+                                "scarlet-violet": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_female"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "scarlet-violet"
+                            ],
+                            "type": "object"
+                        },
+                        "generation-viii": {
+                            "properties": {
+                                "brilliant-diamond-shining-pearl": {
+                                    "properties": {
+                                        "front_default": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "front_female": {
+                                            "type": "null"
+                                        }
+                                    },
+                                    "required": [
+                                        "front_default",
+                                        "front_female"
+                                    ],
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "brilliant-diamond-shining-pearl"
+                            ],
+                            "type": "object"
+                        }
+                    },
+                    "required": [
+                        "generation-ix",
+                        "generation-viii"
+                    ],
+                    "type": "object"
                 }
             },
             "required": [
@@ -99,7 +163,8 @@
                 "front_default",
                 "front_female",
                 "front_shiny",
-                "front_shiny_female"
+                "front_shiny_female",
+                "versions"
             ],
             "type": "object"
         },
