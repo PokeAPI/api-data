@@ -38,7 +38,7 @@ jobs:
         zone: 'us-east1-b'
         ssh_private_key: '${{ secrets.GCP_SSH_PRIVATE_KEY }}'
         user: ga
-        command: sudo -i sh -c 'cd pokeapi && make update-graphql-v1beta-data-prod'
+        command: sudo -i sh -c 'cd pokeapi && nohup make update-graphql-v1beta-data-prod &'
     - name: 'Display update output'
       run: |-
         echo '${{ steps.compute-ssh.outputs.stdout }}'
