@@ -39,7 +39,26 @@
         }
     ],
     "machines": [],
-    "meta": null,
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "unique",
+            "url": "/api/v2/move-category/13/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 0,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": 3,
+        "min_hits": null,
+        "min_turns": 3,
+        "stat_chance": 100
+    },
     "name": "syrup-bomb",
     "names": [
         {
@@ -68,7 +87,15 @@
     "power": 60,
     "pp": 10,
     "priority": 0,
-    "stat_changes": [],
+    "stat_changes": [
+        {
+            "change": -1,
+            "stat": {
+                "name": "speed",
+                "url": "/api/v2/stat/6/"
+            }
+        }
+    ],
     "super_contest_effect": null,
     "target": {
         "name": "selected-pokemon",
