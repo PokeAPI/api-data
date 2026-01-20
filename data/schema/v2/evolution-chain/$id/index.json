@@ -93,6 +93,12 @@
                                                 "null"
                                             ]
                                         },
+                                        "min_damage_taken": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
                                         "min_happiness": {
                                             "type": [
                                                 "integer",
@@ -104,6 +110,21 @@
                                                 "integer",
                                                 "null"
                                             ]
+                                        },
+                                        "min_move_count": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "min_steps": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "needs_multiplayer": {
+                                            "type": "boolean"
                                         },
                                         "needs_overworld_rain": {
                                             "type": "boolean"
@@ -155,6 +176,16 @@
                                         },
                                         "turn_upside_down": {
                                             "type": "boolean"
+                                        },
+                                        "used_move": {
+                                            "anyOf": [
+                                                {
+                                                    "type": "null"
+                                                },
+                                                {
+                                                    "$ref": "/schema/v2/named_api_resource.json"
+                                                }
+                                            ]
                                         }
                                     },
                                     "required": [
@@ -167,8 +198,12 @@
                                         "location",
                                         "min_affection",
                                         "min_beauty",
+                                        "min_damage_taken",
                                         "min_happiness",
                                         "min_level",
+                                        "min_move_count",
+                                        "min_steps",
+                                        "needs_multiplayer",
                                         "needs_overworld_rain",
                                         "party_species",
                                         "party_type",
@@ -177,7 +212,8 @@
                                         "time_of_day",
                                         "trade_species",
                                         "trigger",
-                                        "turn_upside_down"
+                                        "turn_upside_down",
+                                        "used_move"
                                     ],
                                     "type": "object"
                                 },
@@ -247,6 +283,9 @@
                                                     "min_beauty": {
                                                         "type": "null"
                                                     },
+                                                    "min_damage_taken": {
+                                                        "type": "null"
+                                                    },
                                                     "min_happiness": {
                                                         "type": [
                                                             "integer",
@@ -258,6 +297,21 @@
                                                             "integer",
                                                             "null"
                                                         ]
+                                                    },
+                                                    "min_move_count": {
+                                                        "type": [
+                                                            "integer",
+                                                            "null"
+                                                        ]
+                                                    },
+                                                    "min_steps": {
+                                                        "type": [
+                                                            "integer",
+                                                            "null"
+                                                        ]
+                                                    },
+                                                    "needs_multiplayer": {
+                                                        "type": "boolean"
                                                     },
                                                     "needs_overworld_rain": {
                                                         "type": "boolean"
@@ -285,6 +339,16 @@
                                                     },
                                                     "turn_upside_down": {
                                                         "type": "boolean"
+                                                    },
+                                                    "used_move": {
+                                                        "anyOf": [
+                                                            {
+                                                                "type": "null"
+                                                            },
+                                                            {
+                                                                "$ref": "/schema/v2/named_api_resource.json"
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 "required": [
@@ -297,8 +361,12 @@
                                                     "location",
                                                     "min_affection",
                                                     "min_beauty",
+                                                    "min_damage_taken",
                                                     "min_happiness",
                                                     "min_level",
+                                                    "min_move_count",
+                                                    "min_steps",
+                                                    "needs_multiplayer",
                                                     "needs_overworld_rain",
                                                     "party_species",
                                                     "party_type",
@@ -307,7 +375,8 @@
                                                     "time_of_day",
                                                     "trade_species",
                                                     "trigger",
-                                                    "turn_upside_down"
+                                                    "turn_upside_down",
+                                                    "used_move"
                                                 ],
                                                 "type": "object"
                                             },
