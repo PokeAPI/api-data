@@ -16,12 +16,20 @@
     "effect_changes": [],
     "effect_entries": [
         {
-            "effect": "Inflicts regular damage.  Hits twice in the same turn.  Has a 20% chance to poison the target.",
+            "effect": "Inflige des d\u00e9gats r\u00e9guliers.  Touche deux fois dans le m\u00eame tour.  A une $probabilit\u00e9_d'effet% de chances d'empoisonner la cible.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "short_effect": "Touche deux fois dans le m\u00eame tour.  A une $probabilit\u00e9_d'effet% de chances d'empoisonner la cible."
+        },
+        {
+            "effect": "Inflicts regular damage.  Hits twice in the same turn.  Has a $effect_chance% chance to poison the target.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "short_effect": "Hits twice in the same turn.  Has a 20% chance to poison the target."
+            "short_effect": "Hits twice in the same turn.  Has a $effect_chance% chance to poison the target."
         }
     ],
     "flavor_text_entries": [
