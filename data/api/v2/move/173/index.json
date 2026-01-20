@@ -30,12 +30,20 @@
     "effect_changes": [],
     "effect_entries": [
         {
-            "effect": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a 30% chance to make the target flinch.",
+            "effect": "Utilisable seulement si le lanceur dort.  Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  A une $probabilit\u00e9_d'effet% de chances d'apeurer la cible.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "short_effect": "A une $probabilit\u00e9_d'effet% de chances d'apeurer la cible.  Ne fonctionne que si le lanceur dort."
+        },
+        {
+            "effect": "Only usable if the user is sleeping.  Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "short_effect": "Has a 30% chance to make the target flinch.  Only works if the user is sleeping."
+            "short_effect": "Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping."
         }
     ],
     "flavor_text_entries": [
