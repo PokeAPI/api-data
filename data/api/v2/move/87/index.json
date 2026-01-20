@@ -39,6 +39,13 @@
         {
             "effect_entries": [
                 {
+                    "effect": "Ne touche pas les Pok\u00e9mon sous les effets de fly.",
+                    "language": {
+                        "name": "fr",
+                        "url": "/api/v2/language/5/"
+                    }
+                },
+                {
                     "effect": "Does not hit Pok\u00e9mon under the effects of fly.",
                     "language": {
                         "name": "en",
@@ -54,12 +61,20 @@
     ],
     "effect_entries": [
         {
-            "effect": "Inflicts regular damage.  Has a 30% chance to paralyze the target.\n\nDuring rain dance, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect.\n\nDuring sunny day, this move has 50% accuracy.",
+            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  A une $probabilit\u00e9_d'effet% de chances de paralyser la cible.\n\nSous rain dance, cette capacit\u00e9 a 100% de pr\u00e9cision.  Elle a aussi (100 - accuracy)% de chances de passer \u00e0 traverse la protection de protect et detect.\n\nSous sunny day, cette capacit\u00e9 a 50% de pr\u00e9cision.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "short_effect": "A une $probabilit\u00e9_d'effet% de chances de paralyser la cible."
+        },
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.\n\nDuring rain dance, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect.\n\nDuring sunny day, this move has 50% accuracy.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "short_effect": "Has a 30% chance to paralyze the target."
+            "short_effect": "Has a $effect_chance% chance to paralyze the target."
         }
     ],
     "flavor_text_entries": [

@@ -30,12 +30,20 @@
     "effect_changes": [],
     "effect_entries": [
         {
-            "effect": "Inflicts regular damage.  Has a 20% chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur.",
+            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  A une $probabilit\u00e9_d'effet% de chances de br\u00fbler, geler, ou paralyser la cible.  Un de ces effets est s\u00e9lectionn\u00e9 au hasard; ils ont des probabilit\u00e9s ind\u00e9pendantes d'arriver.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "short_effect": "A une $probabilit\u00e9_d'effet% de chances de br\u00fbler, geler, ou paralyser la cible."
+        },
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "short_effect": "Has a 20% chance to burn, freeze, or paralyze the target."
+            "short_effect": "Has a $effect_chance% chance to burn, freeze, or paralyze the target."
         }
     ],
     "flavor_text_entries": [

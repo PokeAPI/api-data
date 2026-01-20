@@ -11,12 +11,20 @@
     "effect_changes": [],
     "effect_entries": [
         {
-            "effect": "Inflicts regular damage.  Has a 30% chance to paralyze the target.  User charges for one turn before attacking.",
+            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  A une $probabilit\u00e9_d'effet% de chances de paralyser la cible.  Le lanceur charge pendant un tour avant d'attaquer.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "short_effect": "Requiert un tour de charge avant d'attaquer.  A une $probabilit\u00e9_d'effet% de chances de paralyser la cible."
+        },
+        {
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.  User charges for one turn before attacking.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "short_effect": "Requires a turn to charge before attacking.  Has a 30% chance to paralyze the target."
+            "short_effect": "Requires a turn to charge before attacking.  Has a $effect_chance% chance to paralyze the target."
         }
     ],
     "flavor_text_entries": [
