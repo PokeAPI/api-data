@@ -201,6 +201,43 @@
             },
             "type": "array"
         },
+        "past_stats": {
+            "items": {
+                "properties": {
+                    "generation": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                    },
+                    "stats": {
+                        "items": {
+                            "properties": {
+                                "base_stat": {
+                                    "type": "integer"
+                                },
+                                "effort": {
+                                    "type": "integer"
+                                },
+                                "stat": {
+                                    "$ref": "/schema/v2/named_api_resource.json"
+                                }
+                            },
+                            "required": [
+                                "base_stat",
+                                "effort",
+                                "stat"
+                            ],
+                            "type": "object"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "generation",
+                    "stats"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
         "past_types": {
             "items": {
                 "properties": {
@@ -1445,6 +1482,7 @@
         "name",
         "order",
         "past_abilities",
+        "past_stats",
         "past_types",
         "species",
         "sprites",
