@@ -3,7 +3,7 @@ version: 2.1
 executors:
   python3:
     docker:
-      - image: cimg/python:3.12.3
+      - image: cimg/python:3.14.3
 
 commands:
   ditto-transform:
@@ -11,7 +11,7 @@ commands:
     steps:
       - run:
           name: Install Ditto
-          command: pip install --user 'pokeapi-ditto==1.0.3'
+          command: pip install --user 'pokeapi-ditto==1.0.4'
       - run:
           name: Transform api-data's JSON files to have the correct BASE_URL instead of http://localhost
           command: bash -x scripts/transform.sh

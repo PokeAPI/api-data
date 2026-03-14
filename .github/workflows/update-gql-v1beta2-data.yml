@@ -6,7 +6,7 @@ on:
       - master
 jobs:
   update-gql-v1beta2-data:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     concurrency:
       group: serial
       cancel-in-progress: false
@@ -14,8 +14,8 @@ jobs:
       contents: 'read'
       id-token: 'write'
     steps:
-    - uses: 'actions/checkout@v4'
-    
+    - uses: 'actions/checkout@v6'
+
     - name: 'Update data'
       run: |-
         echo "$GCP_STAGING_GRAPHQL1_VM_SSH_PRIVATE_KEY" > pk.key

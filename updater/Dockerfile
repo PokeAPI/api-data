@@ -1,4 +1,4 @@
-FROM docker:24.0.7-dind-alpine3.18
+FROM docker:29.3.0-dind-alpine3.23
 
 RUN apk update
 RUN apk add curl python3 git bash build-base python3-dev py3-pip

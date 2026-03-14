@@ -6,7 +6,7 @@ on:
 #      - master
 jobs:
   update-gql-v1beta-data:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     concurrency:
       group: serial
       cancel-in-progress: false
@@ -14,16 +14,16 @@ jobs:
       contents: 'read'
       id-token: 'write'
     steps:
-    - uses: 'actions/checkout@v4'
-    - uses: 'google-github-actions/auth@v2'
+    - uses: actions/checkout@v6
+    - uses: google-github-actions/auth@v3
       with:
         project_id: 'pokeapi-215911'
         workload_identity_provider: 'projects/569595515170/locations/global/workloadIdentityPools/github/providers/deploy'
-    - name: 'Set up Cloud SDK'
-      uses: 'google-github-actions/setup-gcloud@v2'
+    - name: Set up Cloud SDK
+      uses: google-github-actions/setup-gcloud@v3
       with:
         version: '>= 390.0.0'
-    - name: 'Make snapshot'
+    - name: Make snapshot
       run: |
         gcloud compute snapshots create gql-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT} \
         --labels=trigger=gql-data-update,next-head-ref=${GITHUB_SHA} \
@@ -31,8 +31,8 @@ jobs:
         --source-disk=graphql5 \
         --source-disk-zone=us-east1-b \
         --storage-location=us-east1
-    - name: 'Update data'
-      uses: 'google-github-actions/ssh-compute@v1'
+    - name: Update data
+      uses: google-github-actions/ssh-compute@v2
       with:
         instance_name: 'graphql5'
         zone: 'us-east1-b'
