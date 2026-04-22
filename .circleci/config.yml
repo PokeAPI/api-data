@@ -32,6 +32,14 @@ jobs:
           command: tar czf _gen.tar.gz _gen/*
       - store_artifacts:
           path: _gen.tar.gz
+      - run:
+          name: Install CircleCI CLI
+          command: curl -fLSs https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/main/install.sh | DESTDIR=/tmp bash
+      - run:
+          name: Store metadata
+          command: |
+            echo "$(jq -r '.hash' data/api/v2/meta/index.json)" | /tmp/circleci --token "$CIRCLECI_API_TOKEN_NARAMSIM" context store-secret --org-id "$CIRCLE_ORGANIZATION_ID" "pokeapi_$CIRCLE_BRANCH" hash
+            echo "$(jq -r '.deploy_date' data/api/v2/meta/index.json)" | /tmp/circleci --token "$CIRCLECI_API_TOKEN_NARAMSIM" context store-secret --org-id "$CIRCLE_ORGANIZATION_ID" "pokeapi_$CIRCLE_BRANCH" deploy_date
       # Trigger a new build of the deploy job of the deploy project
       - run:
           name: Trigger a deploy of the deploy project passing the desired environment/location to deploy to
