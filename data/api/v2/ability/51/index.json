@@ -32,7 +32,7 @@
     ],
     "effect_entries": [
         {
-            "effect": "Ce Pok\u00e9mon ne peut pas avoir sa pr\u00e9cision baiss\u00e9e.\n\nCe talent n'emp\u00eache pas les pertes de pr\u00e9cisions autres que les modifications de stat, telles que la baisse de pr\u00e9cision du brouillard; n'emp\u00eache pas non plus l'esquive des autres Pok\u00e9mon de rendre les capacit\u00e9s de ce Pok\u00e9mon moins pr\u00e9cises.  Ce Pok\u00e9mon peut toujours recevoir des modifications de pr\u00e9cision n\u00e9gatives via Permuc\u0153ur.\n\nMonde ext\u00e9rieur: Si le premier Pok\u00e9mon de l'\u00e9quipe a ce talent, n'importe quelle rencontre sauvage avec un Pok\u00e9mon de cinq niveaux ou moins a 50% de chances d'\u00eatre pass\u00e9e.",
+            "effect": "Ce Pok\u00e9mon ne peut pas avoir sa pr\u00e9cision baiss\u00e9e.\n\nCe talent n'emp\u00eache pas les pertes de pr\u00e9cisions autres que les modifications de stat, telles que la baisse de pr\u00e9cision du brouillard; n'emp\u00eache pas non plus l'esquive des autres Pok\u00e9mon de rendre les capacit\u00e9s de ce Pok\u00e9mon moins pr\u00e9cises.  Ce Pok\u00e9mon peut toujours recevoir des modifications de pr\u00e9cision n\u00e9gatives via heart swap.\n\nMonde ext\u00e9rieur: Si le premier Pok\u00e9mon de l'\u00e9quipe a ce talent, n'importe quelle rencontre sauvage avec un Pok\u00e9mon de cinq niveaux ou moins a 50% de chances d'\u00eatre pass\u00e9e.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
@@ -40,15 +40,15 @@
             "short_effect": "Emp\u00eache la pr\u00e9cision d'\u00eatre baiss\u00e9e."
         },
         {
-            "effect": "Pok\u00e9mon mit dieser F\u00e4higkeit kann die Genauigkeit nicht gesenkt werden.\n\nDie F\u00e4higkeit verhindert nur direkte Statuswertver\u00e4nderungen, der Genauigkeitsverlust durch Nebel wird nicht verhindert, auch nicht das Erh\u00f6hen des Fluchtwerts des Gegners. Pok\u00e9mon mit dieser F\u00e4higkeit kann trotzdem negative Genauigkeit durch Statustausch \u00fcbertragen werden.\n\nAu\u00dferhalb vom Kampf: Wenn das erste Pok\u00e9mon im Team diese F\u00e4higkeit hat, dann hat jede Begegnung mit einem Pok\u00e9mon das 5 oder mehr Level niedriger ist, eine Chance von 50% \u00fcbersprungen zu werden.",
+            "effect": "Pok\u00e9mon mit dieser F\u00e4higkeit kann die accuracy nicht gesenkt werden.\n\nDie F\u00e4higkeit verhindert nur direkte Statuswertver\u00e4nderungen, der Genauigkeitsverlust durch fog wird nicht verhindert, auch nicht das Erh\u00f6hen des Fluchtwerts des Gegners. Pok\u00e9mon mit dieser F\u00e4higkeit kann trotzdem negative accuracy durch heart swap \u00fcbertragen werden.\n\nAu\u00dferhalb vom Kampf: Wenn das erste Pok\u00e9mon im Team diese F\u00e4higkeit hat, dann hat jede Begegnung mit einem Pok\u00e9mon das 5 oder mehr Level niedriger ist, eine Chance von 50% \u00fcbersprungen zu werden.",
             "language": {
                 "name": "de",
                 "url": "/api/v2/language/6/"
             },
-            "short_effect": "Verhindert das Absenken der Genauigkeit."
+            "short_effect": "Verhindert das Absenken der accuracy."
         },
         {
-            "effect": "This Pok\u00e9mon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pok\u00e9mon's evasion from making this Pok\u00e9mon's moves less accurate.  This Pok\u00e9mon can still be passed negative accuracy modifiers through Heart Swap.\n\nOverworld: If the first Pok\u00e9mon in the party has this ability, any random encounter with a Pok\u00e9mon five or more levels lower than it has a 50% chance of being skipped.",
+            "effect": "This Pok\u00e9mon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pok\u00e9mon's evasion from making this Pok\u00e9mon's moves less accurate.  This Pok\u00e9mon can still be passed negative accuracy modifiers through heart swap.\n\nOverworld: If the first Pok\u00e9mon in the party has this ability, any random encounter with a Pok\u00e9mon five or more levels lower than it has a 50% chance of being skipped.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
@@ -201,6 +201,17 @@
             }
         },
         {
+            "flavor_text": "Emp\u00eache le Pok\u00e9mon de\nperdre en Pr\u00e9cision.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
             "flavor_text": "Prevents other Pok\u00e9mon\nfrom lowering accuracy.",
             "language": {
                 "name": "en",
@@ -260,6 +271,17 @@
             "language": {
                 "name": "ko",
                 "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Les yeux per\u00e7ants du Pok\u00e9mon emp\u00eachent sa Pr\u00e9cision de baisser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
             },
             "version_group": {
                 "name": "x-y",
@@ -355,7 +377,29 @@
             }
         },
         {
+            "flavor_text": "Les yeux per\u00e7ants du Pok\u00e9mon emp\u00eachent sa Pr\u00e9cision de baisser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
             "flavor_text": "Emp\u00eache le Pok\u00e9mon de perdre en pr\u00e9cision.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Emp\u00eache le Pok\u00e9mon de perdre\nen Pr\u00e9cision.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
@@ -455,6 +499,17 @@
         },
         {
             "flavor_text": "Les yeux per\u00e7ants du Pok\u00e9mon emp\u00eachent sa Pr\u00e9cision de baisser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Les yeux per\u00e7ants du Pok\u00e9mon emp\u00eachent\nsa Pr\u00e9cision de baisser.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
@@ -565,6 +620,17 @@
         },
         {
             "flavor_text": "Les yeux per\u00e7ants du Pok\u00e9mon emp\u00eachent sa Pr\u00e9cision de baisser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Les yeux per\u00e7ants du Pok\u00e9mon emp\u00eachent\nsa Pr\u00e9cision de baisser.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
@@ -785,6 +851,17 @@
         },
         {
             "flavor_text": "Les yeux per\u00e7ants du Pok\u00e9mon emp\u00eachent sa Pr\u00e9cision de baisser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Les yeux per\u00e7ants du Pok\u00e9mon emp\u00eachent\nsa Pr\u00e9cision de baisser.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"

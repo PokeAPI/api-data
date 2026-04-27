@@ -22,15 +22,8 @@
                             "evolution_details": {
                                 "items": {
                                     "properties": {
-                                        "base_form": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
+                                        "base_form_id": {
+                                            "type": "null"
                                         },
                                         "gender": {
                                             "type": [
@@ -156,15 +149,8 @@
                                                 }
                                             ]
                                         },
-                                        "region": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
+                                        "region_id": {
+                                            "type": "null"
                                         },
                                         "relative_physical_stats": {
                                             "type": [
@@ -203,7 +189,7 @@
                                         }
                                     },
                                     "required": [
-                                        "base_form",
+                                        "base_form_id",
                                         "gender",
                                         "held_item",
                                         "item",
@@ -221,7 +207,7 @@
                                         "needs_overworld_rain",
                                         "party_species",
                                         "party_type",
-                                        "region",
+                                        "region_id",
                                         "relative_physical_stats",
                                         "time_of_day",
                                         "trade_species",
@@ -239,15 +225,8 @@
                                         "evolution_details": {
                                             "items": {
                                                 "properties": {
-                                                    "base_form": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
+                                                    "base_form_id": {
+                                                        "type": "null"
                                                     },
                                                     "gender": {
                                                         "type": [
@@ -343,15 +322,8 @@
                                                     "party_type": {
                                                         "type": "null"
                                                     },
-                                                    "region": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
+                                                    "region_id": {
+                                                        "type": "null"
                                                     },
                                                     "relative_physical_stats": {
                                                         "type": "null"
@@ -380,7 +352,7 @@
                                                     }
                                                 },
                                                 "required": [
-                                                    "base_form",
+                                                    "base_form_id",
                                                     "gender",
                                                     "held_item",
                                                     "item",
@@ -398,7 +370,7 @@
                                                     "needs_overworld_rain",
                                                     "party_species",
                                                     "party_type",
-                                                    "region",
+                                                    "region_id",
                                                     "relative_physical_stats",
                                                     "time_of_day",
                                                     "trade_species",

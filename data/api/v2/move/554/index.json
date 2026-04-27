@@ -11,20 +11,20 @@
     "effect_changes": [],
     "effect_entries": [
         {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  A une chance de br\u00fbler la cible.  Le lanceur charge pendant un tour avant d'attaquer.",
+            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  A une $probabilit\u00e9_d'effet% de chances de br\u00fbler la cible.  Le lanceur charge pendant un tour avant d'attaquer.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
-            "short_effect": "Requiert un tour de charge avant d'attaquer.  A une chance de burn la cible."
+            "short_effect": "Requiert un tour de charge avant d'attaquer.  A une $probabilit\u00e9_d'effet% de chances de burn la cible."
         },
         {
-            "effect": "Inflicts regular damage.  Has a chance to burn the target.  User charges for one turn before attacking.",
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to burn the target.  User charges for one turn before attacking.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "short_effect": "Requires a turn to charge before attacking.  Has a chance to burn the target."
+            "short_effect": "Requires a turn to charge before attacking.  Has a $effect_chance% chance to burn the target."
         }
     ],
     "flavor_text_entries": [
@@ -719,7 +719,7 @@
         },
         "ailment_chance": 30,
         "category": {
-            "name": "damage-ailment",
+            "name": "damage+ailment",
             "url": "/api/v2/move-category/4/"
         },
         "crit_rate": 0,

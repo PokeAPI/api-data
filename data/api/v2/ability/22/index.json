@@ -61,7 +61,7 @@
     ],
     "effect_entries": [
         {
-            "effect": "Quand ce Pok\u00e9mon entre au combat, l'Attaque de l'adversaire est diminu\u00e9e d'un niveau.  Dans un combat double, les deux adversaires sont affect\u00e9s.  \n\nCe talent prend aussi effet quand acquis durant un combat, mais ne prendre pas effet a nouveau si perdu et r\u00e9cup\u00e9r\u00e9 sans quitter le combat.  \n\nCe talent n'a pas d'effet sur un adversaire qui a un Clonage.  \n\nMonde ext\u00e9rieur: Si le premier Pok\u00e9mon de l'\u00e9quipe a ce talent, n'importe quelle rencontre al\u00e9atoire avec un Pok\u00e9mon de cinq niveaux ou moins que lui a 50% de chances d'\u00eatre pass\u00e9e.",
+            "effect": "Quand ce Pok\u00e9mon entre au combat, l'Attaque de l'adversaire est diminu\u00e9e d'un niveau.  Dans un combat double, les deux adversaires sont affect\u00e9s.  \n\nCe talent prend aussi effet quand acquis durant un combat, mais ne prendre pas effet a nouveau si perdu et r\u00e9cup\u00e9r\u00e9 sans quitter le combat.  \n\nCe talent n'a pas d'effet sur un adversaire qui a un substitute.  \n\nMonde ext\u00e9rieur: Si le premier Pok\u00e9mon de l'\u00e9quipe a ce talent, n'importe quelle rencontre al\u00e9atoire avec un Pok\u00e9mon de cinq niveaux ou moins que lui a 50% de chances d'\u00eatre pass\u00e9e.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
@@ -69,15 +69,15 @@
             "short_effect": "Diminue l'Attaque des adversaires d'un niveau en entrant au combat."
         },
         {
-            "effect": "Wenn ein Pok\u00e9mon mit dieser F\u00e4higkeit den Kampf betritt, wird der Angriff des Gegners um 1 Stufe gesenkt. Im Mehrfachk\u00e4mpfen werden alle Gegner beeinflusst.\n\nDiese F\u00e4higkeit l\u00f6st auch aus, wenn sie im Kampf erlangt wurde, aber nicht, wenn sie verloren und zur\u00fcckerlangt wurde.\n\nDie F\u00e4higkeit hat keinen Einfluss auf Gegner mit einem Delegator.\n\nAu\u00dferhalb vom Kampf: Wenn das erste Pok\u00e9mon im Team diese F\u00e4higkeit hat, dann hat jede Begegnung mit einem Pok\u00e9mon das 5 oder mehr Level niedriger ist, eine Chance von 50% \u00fcbersprungen zu werden.",
+            "effect": "Wenn ein Pok\u00e9mon mit dieser F\u00e4higkeit den Kampf betritt, wird der attack des Gegners um 1 Stufe gesenkt. Im Mehrfachk\u00e4mpfen werden alle Gegner beeinflusst.\n\nDiese F\u00e4higkeit l\u00f6st auch aus, wenn sie im Kampf erlangt wurde, aber nicht, wenn sie verloren und zur\u00fcckerlangt wurde.\n\nDie F\u00e4higkeit hat keinen Einfluss auf Gegner mit einem substitute.\n\nAu\u00dferhalb vom Kampf: Wenn das erste Pok\u00e9mon im Team diese F\u00e4higkeit hat, dann hat jede Begegnung mit einem Pok\u00e9mon das 5 oder mehr Level niedriger ist, eine Chance von 50% \u00fcbersprungen zu werden.",
             "language": {
                 "name": "de",
                 "url": "/api/v2/language/6/"
             },
-            "short_effect": "Senkt den Angriff des Gegners um 1 Stufe beim Betreten des Kampfes."
+            "short_effect": "Senkt den attack des Gegners um 1 Stufe beim Betreten des Kampfes."
         },
         {
-            "effect": "When this Pok\u00e9mon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a Substitute.\n\nOverworld: If the first Pok\u00e9mon in the party has this ability, any random encounter with a Pok\u00e9mon five or more levels lower than it has a 50% chance of being skipped.",
+            "effect": "When this Pok\u00e9mon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a substitute.\n\nOverworld: If the first Pok\u00e9mon in the party has this ability, any random encounter with a Pok\u00e9mon five or more levels lower than it has a 50% chance of being skipped.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
@@ -230,6 +230,17 @@
             }
         },
         {
+            "flavor_text": "Baisse l\u2019Attaque ennemie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "/api/v2/version-group/11/"
+            }
+        },
+        {
             "flavor_text": "Lowers the foe\u2019s\nAttack stat.",
             "language": {
                 "name": "en",
@@ -289,6 +300,17 @@
             "language": {
                 "name": "ko",
                 "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Le Pok\u00e9mon rugit lorsqu'il arrive au combat, ce qui intimide l'ennemi et baisse son Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
             },
             "version_group": {
                 "name": "x-y",
@@ -377,6 +399,28 @@
             "language": {
                 "name": "ko",
                 "url": "/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Le Pok\u00e9mon rugit lorsqu'il arrive au combat, ce qui intimide l'ennemi et baisse son Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Baisse l'Attaque ennemie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
             },
             "version_group": {
                 "name": "omega-ruby-alpha-sapphire",
@@ -484,6 +528,17 @@
         },
         {
             "flavor_text": "Le Pok\u00e9mon rugit lorsqu'il arrive au combat, ce qui intimide l'ennemi et baisse son Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Le Pok\u00e9mon rugit lorsqu\u2019il arrive au combat,\nce qui intimide l\u2019ennemi et baisse son Attaque.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
@@ -594,6 +649,17 @@
         },
         {
             "flavor_text": "Le Pok\u00e9mon rugit lorsqu'il arrive au combat, ce qui intimide l'ennemi et baisse son Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Le Pok\u00e9mon rugit lorsqu\u2019il arrive au combat,\nce qui intimide l\u2019ennemi et baisse son Attaque.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
@@ -814,6 +880,17 @@
         },
         {
             "flavor_text": "Le Pok\u00e9mon rugit lorsqu'il arrive au combat, ce qui intimide l'ennemi et baisse son Attaque.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Le Pok\u00e9mon rugit lorsqu\u2019il arrive au combat,\nce qui intimide l\u2019ennemi et baisse son Attaque.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"

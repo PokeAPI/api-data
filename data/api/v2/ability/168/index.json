@@ -10,7 +10,7 @@
             "short_effect": "Change le type du porteur pour correspondre \u00e0 chaque capacit\u00e9 qu'il utilise."
         },
         {
-            "effect": "Wenn ein Pok\u00e9mon mit dieser F\u00e4higkeit eine Attacke einsetzt, \u00e4ndert sich sein Typ in den der Attacke.\n\nDie Typumwandlung erfolgt unmittelbar vor dem Einsatz der Attacke, der Anwender erh\u00e4lt dadurch den Typen-Bonus Bonus f\u00fcr jede Attacke die er einsetzt und Toxin trifft immer. Die Typumwandlung bleibt bestehen, bis der Typ erneut gewandelt wird oder das Pok\u00e9mon ausgetauscht wird, nicht aber durch deaktivieren oder austauschen der F\u00e4higkeit.\n\nWenn der Typ der Attacke ge\u00e4ndert wird, zum Beispiel weil die Attacke eine andere Attacke benutzt, wie Natur-Kraft, weil die Attacke selbst ihren Typ \u00e4ndern kann oder weil der Typ der Attacke vom Gegner ver\u00e4ndert wird, wie z.B. durch Elektrifizierung oder Plasmaschauer, dann wird der ge\u00e4nderte Typ herangezogen. Wenn eine Attacke eingesetzt wird, die den Typ des Anwenders \u00e4ndert, wie Tarnung, dann l\u00f6st zuerst die F\u00e4higkeit aus und \u00e4ndert den Typ des Anwenders in den der Attacke, danach wird die Attacke entweder fehlschlagen oder den Typ des Anwenders wieder \u00e4ndern. Wird Fluch eingesetzt und der Anwender ist nicht bereits vom Typ Geist wird er zum Typ Geist.\n\nDie F\u00e4higkeit l\u00f6st nicht aus, wenn die Attacke fehlschl\u00e4gt, au\u00dfer sie geht wegen der F\u00e4higkeit selbst daneben, wenn die Ausf\u00fchrung unterbrochen wird, z.B. durch Verwirrung, wenn die Attacke verhindert wird (durch Regen oder durch Pulverschleuder). Die F\u00e4higkeit l\u00f6st trotzdem aus, wenn die Attacke daneben geht, blockiert wird (durch Schutzschild oder \u00e4hnliches) oder keine Wirkung auf den Gegner hat.\n\nVerzweifler ist nicht betroffen.",
+            "effect": "Wenn ein Pok\u00e9mon mit dieser F\u00e4higkeit eine Attacke einsetzt, \u00e4ndert sich sein Typ in den der Attacke.\n\nDie Typumwandlung erfolgt unmittelbar vor dem Einsatz der Attacke, der Anwender erh\u00e4lt dadurch den same type attack bonus Bonus f\u00fcr jede Attacke die er einsetzt und toxic trifft immer. Die Typumwandlung bleibt bestehen, bis der Typ erneut gewandelt wird oder das Pok\u00e9mon ausgetauscht wird, nicht aber durch deaktivieren oder austauschen der F\u00e4higkeit.\n\nWenn der Typ der Attacke ge\u00e4ndert wird, zum Beispiel weil die Attacke eine andere Attacke benutzt, wie nature power, weil die Attacke selbst ihren Typ \u00e4ndern kann oder weil der Typ der Attacke vom Gegner ver\u00e4ndert wird, wie z.B. durch electrify oder ion deluge, dann wird der ge\u00e4nderte Typ herangezogen. Wenn eine Attacke eingesetzt wird, die den Typ des Anwenders \u00e4ndert, wie camouflage, dann l\u00f6st zuerst die F\u00e4higkeit aus und \u00e4ndert den Typ des Anwenders in den der Attacke, danach wird die Attacke entweder fehlschlagen oder den Typ des Anwenders wieder \u00e4ndern. Wird curse eingesetzt und der Anwender ist nicht bereits vom Typ ghost wird er zum Typ ghost.\n\nDie F\u00e4higkeit l\u00f6st nicht aus, wenn die Attacke fehlschl\u00e4gt, au\u00dfer sie geht wegen der F\u00e4higkeit selbst daneben, wenn die Ausf\u00fchrung unterbrochen wird, z.B. durch confusion, wenn die Attacke verhindert wird (durch rain oder durch powder). Die F\u00e4higkeit l\u00f6st trotzdem aus, wenn die Attacke daneben geht, blockiert wird (durch protect oder \u00e4hnliches) oder keine Wirkung auf den Gegner hat.\n\nstruggle ist nicht betroffen.",
             "language": {
                 "name": "de",
                 "url": "/api/v2/language/6/"
@@ -27,17 +27,6 @@
         }
     ],
     "flavor_text_entries": [
-        {
-            "flavor_text": "Cambia su tipo al del movimiento\nque acaba de usar.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
         {
             "flavor_text": "\u3060\u3057\u305f\u3000\u308f\u3056\u3068\u3000\u304a\u306a\u3058\n\u30bf\u30a4\u30d7\u306b\u3000\u3078\u3093\u304b\u3059\u308b\u3002",
             "language": {
@@ -76,6 +65,17 @@
             "language": {
                 "name": "de",
                 "url": "/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Cambia su tipo al del movimiento\nque acaba de usar.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
             },
             "version_group": {
                 "name": "x-y",
@@ -801,14 +801,6 @@
                 "url": "/api/v2/pokemon/908/"
             },
             "slot": 3
-        },
-        {
-            "is_hidden": false,
-            "pokemon": {
-                "name": "greninja-mega",
-                "url": "/api/v2/pokemon/10294/"
-            },
-            "slot": 1
         }
     ]
 }

@@ -35,14 +35,14 @@
         {
             "effect_entries": [
                 {
-                    "effect": "N\u2019interagit pas avec Gr\u00eale.",
+                    "effect": "N\u2019interagit pas avec hail.",
                     "language": {
                         "name": "fr",
                         "url": "/api/v2/language/5/"
                     }
                 },
                 {
-                    "effect": "Does not interact with Hail.",
+                    "effect": "Does not interact with hail.",
                     "language": {
                         "name": "en",
                         "url": "/api/v2/language/9/"
@@ -57,20 +57,20 @@
     ],
     "effect_entries": [
         {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  A une chance de geler la cible.\n\nSous Gr\u00eale, cette capacit\u00e9 a 100% de puissance.  Elle a aussi (100 - accuracy)% de chances de passre \u00e0 travers la protection de Abri et D\u00e9tection.",
+            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  A une $probabilit\u00e9_d'effet% de chances de geler la cible.\n\nSous hail, cette capacit\u00e9 a 100% de puissance.  Elle a aussi (100 - accuracy)% de chances de passre \u00e0 travers la protection de protect et detect.",
             "language": {
                 "name": "fr",
                 "url": "/api/v2/language/5/"
             },
-            "short_effect": "A une chance de geler la cible."
+            "short_effect": "A une $probabilit\u00e9_d'effet% de chances de geler la cible."
         },
         {
-            "effect": "Inflicts regular damage.  Has a chance to freeze the target.\n\nDuring Hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of Protect and Detect.",
+            "effect": "Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.\n\nDuring hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of protect and detect.",
             "language": {
                 "name": "en",
                 "url": "/api/v2/language/9/"
             },
-            "short_effect": "Has a chance to freeze the target."
+            "short_effect": "Has a $effect_chance% chance to freeze the target."
         }
     ],
     "flavor_text_entries": [
@@ -2326,7 +2326,7 @@
         },
         "ailment_chance": 10,
         "category": {
-            "name": "damage-ailment",
+            "name": "damage+ailment",
             "url": "/api/v2/move-category/4/"
         },
         "crit_rate": 0,
