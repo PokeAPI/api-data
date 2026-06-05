@@ -1373,6 +1373,10 @@
                             {
                                 "name": "time-morning",
                                 "url": "/api/v2/encounter-condition-value/3/"
+                            },
+                            {
+                                "name": "bug-catching-contest-no",
+                                "url": "/api/v2/encounter-condition-value/204/"
                             }
                         ],
                         "max_level": 10,
@@ -1388,6 +1392,10 @@
                             {
                                 "name": "time-day",
                                 "url": "/api/v2/encounter-condition-value/4/"
+                            },
+                            {
+                                "name": "bug-catching-contest-no",
+                                "url": "/api/v2/encounter-condition-value/204/"
                             }
                         ],
                         "max_level": 10,
@@ -1407,6 +1415,10 @@
                             {
                                 "name": "radio-off",
                                 "url": "/api/v2/encounter-condition-value/14/"
+                            },
+                            {
+                                "name": "bug-catching-contest-no",
+                                "url": "/api/v2/encounter-condition-value/204/"
                             }
                         ],
                         "max_level": 10,
@@ -1426,6 +1438,10 @@
                             {
                                 "name": "radio-off",
                                 "url": "/api/v2/encounter-condition-value/14/"
+                            },
+                            {
+                                "name": "bug-catching-contest-no",
+                                "url": "/api/v2/encounter-condition-value/204/"
                             }
                         ],
                         "max_level": 10,
@@ -1445,6 +1461,10 @@
                             {
                                 "name": "radio-off",
                                 "url": "/api/v2/encounter-condition-value/14/"
+                            },
+                            {
+                                "name": "bug-catching-contest-no",
+                                "url": "/api/v2/encounter-condition-value/204/"
                             }
                         ],
                         "max_level": 12,
@@ -1464,6 +1484,10 @@
                             {
                                 "name": "radio-off",
                                 "url": "/api/v2/encounter-condition-value/14/"
+                            },
+                            {
+                                "name": "bug-catching-contest-no",
+                                "url": "/api/v2/encounter-condition-value/204/"
                             }
                         ],
                         "max_level": 12,
@@ -1472,12 +1496,105 @@
                             "url": "/api/v2/encounter-method/1/"
                         },
                         "min_level": 12
+                    },
+                    {
+                        "chance": 20,
+                        "condition_values": [
+                            {
+                                "name": "bug-catching-contest-yes",
+                                "url": "/api/v2/encounter-condition-value/205/"
+                            },
+                            {
+                                "name": "story-progress-before-national-dex",
+                                "url": "/api/v2/encounter-condition-value/186/"
+                            }
+                        ],
+                        "max_level": 18,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 7
+                    },
+                    {
+                        "chance": 20,
+                        "condition_values": [
+                            {
+                                "name": "bug-catching-contest-yes",
+                                "url": "/api/v2/encounter-condition-value/205/"
+                            },
+                            {
+                                "name": "story-progress-national-dex",
+                                "url": "/api/v2/encounter-condition-value/37/"
+                            },
+                            {
+                                "name": "weekday-tuesday",
+                                "url": "/api/v2/encounter-condition-value/61/"
+                            }
+                        ],
+                        "max_level": 36,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 24
                     }
                 ],
-                "max_chance": 80,
+                "max_chance": 120,
                 "version": {
                     "name": "heartgold",
                     "url": "/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 20,
+                        "condition_values": [
+                            {
+                                "name": "bug-catching-contest-yes",
+                                "url": "/api/v2/encounter-condition-value/205/"
+                            },
+                            {
+                                "name": "story-progress-before-national-dex",
+                                "url": "/api/v2/encounter-condition-value/186/"
+                            }
+                        ],
+                        "max_level": 18,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 7
+                    },
+                    {
+                        "chance": 20,
+                        "condition_values": [
+                            {
+                                "name": "bug-catching-contest-yes",
+                                "url": "/api/v2/encounter-condition-value/205/"
+                            },
+                            {
+                                "name": "story-progress-national-dex",
+                                "url": "/api/v2/encounter-condition-value/37/"
+                            },
+                            {
+                                "name": "weekday-tuesday",
+                                "url": "/api/v2/encounter-condition-value/61/"
+                            }
+                        ],
+                        "max_level": 36,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 24
+                    }
+                ],
+                "max_chance": 40,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "/api/v2/version/16/"
                 }
             }
         ]
