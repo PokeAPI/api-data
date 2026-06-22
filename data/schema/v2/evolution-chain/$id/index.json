@@ -32,6 +32,16 @@
                                                 }
                                             ]
                                         },
+                                        "evolved_form": {
+                                            "anyOf": [
+                                                {
+                                                    "type": "null"
+                                                },
+                                                {
+                                                    "$ref": "/schema/v2/named_api_resource.json"
+                                                }
+                                            ]
+                                        },
                                         "gender": {
                                             "type": [
                                                 "integer",
@@ -47,6 +57,9 @@
                                                     "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
+                                        },
+                                        "is_default": {
+                                            "type": "boolean"
                                         },
                                         "item": {
                                             "anyOf": [
@@ -203,12 +216,17 @@
                                                     "$ref": "/schema/v2/named_api_resource.json"
                                                 }
                                             ]
+                                        },
+                                        "version_group": {
+                                            "type": "integer"
                                         }
                                     },
                                     "required": [
                                         "base_form",
+                                        "evolved_form",
                                         "gender",
                                         "held_item",
+                                        "is_default",
                                         "item",
                                         "known_move",
                                         "known_move_type",
@@ -231,7 +249,8 @@
                                         "trade_species",
                                         "trigger",
                                         "turn_upside_down",
-                                        "used_move"
+                                        "used_move",
+                                        "version_group"
                                     ],
                                     "type": "object"
                                 },
@@ -244,6 +263,16 @@
                                             "items": {
                                                 "properties": {
                                                     "base_form": {
+                                                        "anyOf": [
+                                                            {
+                                                                "type": "null"
+                                                            },
+                                                            {
+                                                                "$ref": "/schema/v2/named_api_resource.json"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "evolved_form": {
                                                         "anyOf": [
                                                             {
                                                                 "type": "null"
@@ -268,6 +297,9 @@
                                                                 "$ref": "/schema/v2/named_api_resource.json"
                                                             }
                                                         ]
+                                                    },
+                                                    "is_default": {
+                                                        "type": "boolean"
                                                     },
                                                     "item": {
                                                         "anyOf": [
@@ -384,12 +416,17 @@
                                                                 "$ref": "/schema/v2/named_api_resource.json"
                                                             }
                                                         ]
+                                                    },
+                                                    "version_group": {
+                                                        "type": "integer"
                                                     }
                                                 },
                                                 "required": [
                                                     "base_form",
+                                                    "evolved_form",
                                                     "gender",
                                                     "held_item",
+                                                    "is_default",
                                                     "item",
                                                     "known_move",
                                                     "known_move_type",
@@ -412,7 +449,8 @@
                                                     "trade_species",
                                                     "trigger",
                                                     "turn_upside_down",
-                                                    "used_move"
+                                                    "used_move",
+                                                    "version_group"
                                                 ],
                                                 "type": "object"
                                             },
