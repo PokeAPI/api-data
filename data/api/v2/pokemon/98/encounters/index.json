@@ -12463,7 +12463,7 @@
     },
     {
         "location_area": {
-            "name": "johto-safari-zone-zone-mountain",
+            "name": "johto-safari-zone-mountain",
             "url": "/api/v2/location-area/820/"
         },
         "version_details": [
@@ -12475,6 +12475,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 17,
@@ -12483,9 +12487,24 @@
                             "url": "/api/v2/encounter-method/1/"
                         },
                         "min_level": 17
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-water-min-3",
+                                "url": "/api/v2/encounter-condition-value/301/"
+                            }
+                        ],
+                        "max_level": 43,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 43
                     }
                 ],
-                "max_chance": 10,
+                "max_chance": 20,
                 "version": {
                     "name": "heartgold",
                     "url": "/api/v2/version/15/"
@@ -12499,6 +12518,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 17,
@@ -12507,9 +12530,24 @@
                             "url": "/api/v2/encounter-method/1/"
                         },
                         "min_level": 17
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-water-min-3",
+                                "url": "/api/v2/encounter-condition-value/301/"
+                            }
+                        ],
+                        "max_level": 43,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 43
                     }
                 ],
-                "max_chance": 10,
+                "max_chance": 20,
                 "version": {
                     "name": "soulsilver",
                     "url": "/api/v2/version/16/"
@@ -12519,7 +12557,7 @@
     },
     {
         "location_area": {
-            "name": "johto-safari-zone-zone-rocky-beach",
+            "name": "johto-safari-zone-rocky-beach",
             "url": "/api/v2/location-area/821/"
         },
         "version_details": [
@@ -12531,21 +12569,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
-                            }
-                        ],
-                        "max_level": 15,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 15
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
+                            },
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 15,
@@ -12561,6 +12588,29 @@
                             {
                                 "name": "time-day",
                                 "url": "/api/v2/encounter-condition-value/4/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
+                        "max_level": 15,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 15
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 15,
@@ -12576,21 +12626,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
-                            }
-                        ],
-                        "max_level": 16,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 16
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
+                            },
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 16,
@@ -12606,6 +12645,10 @@
                             {
                                 "name": "time-morning",
                                 "url": "/api/v2/encounter-condition-value/3/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 16,
@@ -12614,6 +12657,63 @@
                             "url": "/api/v2/encounter-method/1/"
                         },
                         "min_level": 16
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
+                        "max_level": 16,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 16
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
+                        "max_level": 17,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 17
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
+                        "max_level": 17,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 17
                     },
                     {
                         "chance": 10,
@@ -12621,6 +12721,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 17,
@@ -12634,14 +12738,14 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "johto-safari-blocks-water-min-2",
+                                "url": "/api/v2/encounter-condition-value/300/"
                             }
                         ],
                         "max_level": 17,
                         "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
+                            "name": "old-rod",
+                            "url": "/api/v2/encounter-method/2/"
                         },
                         "min_level": 17
                     },
@@ -12649,20 +12753,25 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "johto-safari-blocks-water-min-3",
+                                "url": "/api/v2/encounter-condition-value/301/"
                             }
                         ],
-                        "max_level": 17,
+                        "max_level": 18,
                         "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
+                            "name": "old-rod",
+                            "url": "/api/v2/encounter-method/2/"
                         },
-                        "min_level": 17
+                        "min_level": 18
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 13,
                         "method": {
                             "name": "old-rod",
@@ -12672,7 +12781,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 14,
                         "method": {
                             "name": "old-rod",
@@ -12682,7 +12796,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 15,
                         "method": {
                             "name": "old-rod",
@@ -12692,7 +12811,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 22,
                         "method": {
                             "name": "good-rod",
@@ -12702,7 +12826,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 23,
                         "method": {
                             "name": "good-rod",
@@ -12712,7 +12841,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 24,
                         "method": {
                             "name": "good-rod",
@@ -12722,7 +12856,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 25,
                         "method": {
                             "name": "good-rod",
@@ -12731,7 +12870,7 @@
                         "min_level": 25
                     }
                 ],
-                "max_chance": 160,
+                "max_chance": 180,
                 "version": {
                     "name": "heartgold",
                     "url": "/api/v2/version/15/"
@@ -12745,21 +12884,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
-                            }
-                        ],
-                        "max_level": 15,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 15
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
+                            },
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 15,
@@ -12775,6 +12903,29 @@
                             {
                                 "name": "time-day",
                                 "url": "/api/v2/encounter-condition-value/4/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
+                        "max_level": 15,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 15
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 15,
@@ -12790,21 +12941,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
-                            }
-                        ],
-                        "max_level": 16,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 16
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
+                            },
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 16,
@@ -12820,6 +12960,10 @@
                             {
                                 "name": "time-morning",
                                 "url": "/api/v2/encounter-condition-value/3/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 16,
@@ -12828,6 +12972,63 @@
                             "url": "/api/v2/encounter-method/1/"
                         },
                         "min_level": 16
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
+                        "max_level": 16,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 16
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
+                        "max_level": 17,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 17
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
+                        "max_level": 17,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 17
                     },
                     {
                         "chance": 10,
@@ -12835,6 +13036,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 17,
@@ -12848,14 +13053,14 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "johto-safari-blocks-water-min-2",
+                                "url": "/api/v2/encounter-condition-value/300/"
                             }
                         ],
                         "max_level": 17,
                         "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
+                            "name": "old-rod",
+                            "url": "/api/v2/encounter-method/2/"
                         },
                         "min_level": 17
                     },
@@ -12863,20 +13068,25 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "johto-safari-blocks-water-min-3",
+                                "url": "/api/v2/encounter-condition-value/301/"
                             }
                         ],
-                        "max_level": 17,
+                        "max_level": 18,
                         "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
+                            "name": "old-rod",
+                            "url": "/api/v2/encounter-method/2/"
                         },
-                        "min_level": 17
+                        "min_level": 18
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 13,
                         "method": {
                             "name": "old-rod",
@@ -12886,7 +13096,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 14,
                         "method": {
                             "name": "old-rod",
@@ -12896,7 +13111,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 15,
                         "method": {
                             "name": "old-rod",
@@ -12906,7 +13126,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 22,
                         "method": {
                             "name": "good-rod",
@@ -12916,7 +13141,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 23,
                         "method": {
                             "name": "good-rod",
@@ -12926,7 +13156,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 24,
                         "method": {
                             "name": "good-rod",
@@ -12936,7 +13171,12 @@
                     },
                     {
                         "chance": 10,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
                         "max_level": 25,
                         "method": {
                             "name": "good-rod",
@@ -12945,7 +13185,7 @@
                         "min_level": 25
                     }
                 ],
-                "max_chance": 160,
+                "max_chance": 180,
                 "version": {
                     "name": "soulsilver",
                     "url": "/api/v2/version/16/"

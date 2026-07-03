@@ -1671,7 +1671,7 @@
     },
     {
         "location_area": {
-            "name": "johto-safari-zone-zone-marshland",
+            "name": "johto-safari-zone-marshland",
             "url": "/api/v2/location-area/819/"
         },
         "version_details": [
@@ -1681,8 +1681,27 @@
                         "chance": 10,
                         "condition_values": [
                             {
+                                "name": "johto-safari-blocks-plains-min-2",
+                                "url": "/api/v2/encounter-condition-value/258/"
+                            }
+                        ],
+                        "max_level": 42,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 42
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 16,
@@ -1698,6 +1717,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 17,
@@ -1708,7 +1731,7 @@
                         "min_level": 17
                     }
                 ],
-                "max_chance": 20,
+                "max_chance": 30,
                 "version": {
                     "name": "heartgold",
                     "url": "/api/v2/version/15/"
@@ -1720,8 +1743,27 @@
                         "chance": 10,
                         "condition_values": [
                             {
+                                "name": "johto-safari-blocks-plains-min-2",
+                                "url": "/api/v2/encounter-condition-value/258/"
+                            }
+                        ],
+                        "max_level": 42,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 42
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 16,
@@ -1737,6 +1779,10 @@
                             {
                                 "name": "time-night",
                                 "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
                             }
                         ],
                         "max_level": 17,
@@ -1747,7 +1793,7 @@
                         "min_level": 17
                     }
                 ],
-                "max_chance": 20,
+                "max_chance": 30,
                 "version": {
                     "name": "soulsilver",
                     "url": "/api/v2/version/16/"
