@@ -911,22 +911,22 @@
                     {
                         "chance": 30,
                         "condition_values": [],
-                        "max_level": 46,
+                        "max_level": 49,
                         "method": {
                             "name": "walk",
                             "url": "/api/v2/encounter-method/1/"
                         },
-                        "min_level": 43
+                        "min_level": 44
                     },
                     {
                         "chance": 5,
                         "condition_values": [],
-                        "max_level": 46,
+                        "max_level": 49,
                         "method": {
                             "name": "walk",
                             "url": "/api/v2/encounter-method/1/"
                         },
-                        "min_level": 43
+                        "min_level": 44
                     }
                 ],
                 "max_chance": 35,
@@ -1213,8 +1213,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 36
                     },
@@ -1232,8 +1232,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60
                     },
@@ -1251,8 +1251,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 36
                     },
@@ -1270,8 +1270,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60
                     }
@@ -1298,8 +1298,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 36
                     },
@@ -1317,8 +1317,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60
                     },
@@ -1336,8 +1336,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 36
                     },
@@ -1355,13 +1355,115 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60
                     }
                 ],
                 "max_chance": 400,
+                "version": {
+                    "name": "shield",
+                    "url": "/api/v2/version/34/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "dusty-bowl-area",
+            "url": "/api/v2/location-area/873/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "weather-snowing",
+                                "url": "/api/v2/encounter-condition-value/251/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 47,
+                        "method": {
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
+                        },
+                        "min_level": 42
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "weather-snowing",
+                                "url": "/api/v2/encounter-condition-value/251/"
+                            },
+                            {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "sword",
+                    "url": "/api/v2/version/33/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "weather-snowing",
+                                "url": "/api/v2/encounter-condition-value/251/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 47,
+                        "method": {
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
+                        },
+                        "min_level": 42
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "weather-snowing",
+                                "url": "/api/v2/encounter-condition-value/251/"
+                            },
+                            {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 20,
                 "version": {
                     "name": "shield",
                     "url": "/api/v2/version/34/"
@@ -1391,8 +1493,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 36
                     },
@@ -1410,8 +1512,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60
                     },
@@ -1429,8 +1531,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 36
                     },
@@ -1448,8 +1550,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60
                     },
@@ -1467,8 +1569,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-water-special",
-                            "url": "/api/v2/encounter-method/43/"
+                            "name": "wanderer-water",
+                            "url": "/api/v2/encounter-method/58/"
                         },
                         "min_level": 36
                     },
@@ -1486,8 +1588,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-water-special",
-                            "url": "/api/v2/encounter-method/43/"
+                            "name": "wanderer-water",
+                            "url": "/api/v2/encounter-method/58/"
                         },
                         "min_level": 60
                     },
@@ -1505,8 +1607,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-water-special",
-                            "url": "/api/v2/encounter-method/43/"
+                            "name": "wanderer-water",
+                            "url": "/api/v2/encounter-method/58/"
                         },
                         "min_level": 36
                     },
@@ -1524,8 +1626,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-water-special",
-                            "url": "/api/v2/encounter-method/43/"
+                            "name": "wanderer-water",
+                            "url": "/api/v2/encounter-method/58/"
                         },
                         "min_level": 60
                     }
@@ -1552,8 +1654,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 36
                     },
@@ -1571,8 +1673,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60
                     },
@@ -1590,8 +1692,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 36
                     },
@@ -1609,8 +1711,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-special",
-                            "url": "/api/v2/encounter-method/41/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60
                     },
@@ -1628,8 +1730,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-water-special",
-                            "url": "/api/v2/encounter-method/43/"
+                            "name": "wanderer-water",
+                            "url": "/api/v2/encounter-method/58/"
                         },
                         "min_level": 36
                     },
@@ -1647,8 +1749,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-water-special",
-                            "url": "/api/v2/encounter-method/43/"
+                            "name": "wanderer-water",
+                            "url": "/api/v2/encounter-method/58/"
                         },
                         "min_level": 60
                     },
@@ -1666,8 +1768,8 @@
                         ],
                         "max_level": 36,
                         "method": {
-                            "name": "overworld-water-special",
-                            "url": "/api/v2/encounter-method/43/"
+                            "name": "wanderer-water",
+                            "url": "/api/v2/encounter-method/58/"
                         },
                         "min_level": 36
                     },
@@ -1685,8 +1787,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld-water-special",
-                            "url": "/api/v2/encounter-method/43/"
+                            "name": "wanderer-water",
+                            "url": "/api/v2/encounter-method/58/"
                         },
                         "min_level": 60
                     }
@@ -1779,6 +1881,108 @@
                 "version": {
                     "name": "ultra-moon",
                     "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "giants-mirror-area-2",
+            "url": "/api/v2/location-area/1378/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "weather-snowing",
+                                "url": "/api/v2/encounter-condition-value/251/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 47,
+                        "method": {
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
+                        },
+                        "min_level": 42
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "weather-snowing",
+                                "url": "/api/v2/encounter-condition-value/251/"
+                            },
+                            {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "sword",
+                    "url": "/api/v2/version/33/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "weather-snowing",
+                                "url": "/api/v2/encounter-condition-value/251/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 47,
+                        "method": {
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
+                        },
+                        "min_level": 42
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "weather-snowing",
+                                "url": "/api/v2/encounter-condition-value/251/"
+                            },
+                            {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "shield",
+                    "url": "/api/v2/version/34/"
                 }
             }
         ]
