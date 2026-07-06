@@ -168,6 +168,26 @@
             ],
             "type": "object"
         },
+        "trigger_conditions": {
+            "items": {
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "trigger": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "trigger"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
         "types": {
             "items": {
                 "properties": {
@@ -203,6 +223,7 @@
         "order",
         "pokemon",
         "sprites",
+        "trigger_conditions",
         "types",
         "version_group"
     ],
