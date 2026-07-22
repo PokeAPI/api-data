@@ -21,7 +21,7 @@
                         ],
                         "max_level": 15,
                         "method": {
-                            "name": "only-one",
+                            "name": "static",
                             "url": "/api/v2/encounter-method/20/"
                         },
                         "min_level": 15
@@ -49,7 +49,7 @@
                         ],
                         "max_level": 15,
                         "method": {
-                            "name": "only-one",
+                            "name": "static",
                             "url": "/api/v2/encounter-method/20/"
                         },
                         "min_level": 15
@@ -73,7 +73,7 @@
                         ],
                         "max_level": 20,
                         "method": {
-                            "name": "only-one",
+                            "name": "static",
                             "url": "/api/v2/encounter-method/20/"
                         },
                         "min_level": 20
@@ -139,6 +139,62 @@
                 "version": {
                     "name": "white-2",
                     "url": "/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "lost-hotel-area",
+            "url": "/api/v2/location-area/759/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 75,
+                        "condition_values": [
+                            {
+                                "name": "trash-can-type-tuesday",
+                                "url": "/api/v2/encounter-condition-value/351/"
+                            }
+                        ],
+                        "max_level": 38,
+                        "method": {
+                            "name": "trash-can-ambush",
+                            "url": "/api/v2/encounter-method/62/"
+                        },
+                        "min_level": 38
+                    }
+                ],
+                "max_chance": 75,
+                "version": {
+                    "name": "x",
+                    "url": "/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 75,
+                        "condition_values": [
+                            {
+                                "name": "trash-can-type-tuesday",
+                                "url": "/api/v2/encounter-condition-value/351/"
+                            }
+                        ],
+                        "max_level": 38,
+                        "method": {
+                            "name": "trash-can-ambush",
+                            "url": "/api/v2/encounter-method/62/"
+                        },
+                        "min_level": 38
+                    }
+                ],
+                "max_chance": 75,
+                "version": {
+                    "name": "y",
+                    "url": "/api/v2/version/24/"
                 }
             }
         ]
