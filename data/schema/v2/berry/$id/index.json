@@ -2,7 +2,14 @@
     "$schema": "http://json-schema.org/schema#",
     "properties": {
         "firmness": {
-            "$ref": "/schema/v2/named_api_resource.json"
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "/schema/v2/named_api_resource.json"
+                }
+            ]
         },
         "flavors": {
             "items": {
@@ -23,7 +30,10 @@
             "type": "array"
         },
         "growth_time": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "id": {
             "type": "integer"
@@ -32,25 +42,47 @@
             "$ref": "/schema/v2/named_api_resource.json"
         },
         "max_harvest": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "name": {
             "type": "string"
         },
         "natural_gift_power": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "natural_gift_type": {
-            "$ref": "/schema/v2/named_api_resource.json"
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "/schema/v2/named_api_resource.json"
+                }
+            ]
         },
         "size": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "smoothness": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         },
         "soil_dryness": {
-            "type": "integer"
+            "type": [
+                "integer",
+                "null"
+            ]
         }
     },
     "required": [
