@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "string"
+        },
+        "names": {
+            "items": {
+                "$ref": "/schema/v2/name.json"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "names"
+    ],
+    "type": "object"
+}

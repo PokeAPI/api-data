@@ -20,9 +20,6 @@
         "category": {
             "$ref": "/schema/v2/named_api_resource.json"
         },
-        "cost": {
-            "type": "integer"
-        },
         "effect_entries": {
             "items": {
                 "$ref": "/schema/v2/verbose_effect.json"
@@ -108,6 +105,38 @@
             },
             "type": "array"
         },
+        "prices": {
+            "items": {
+                "properties": {
+                    "currency": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                    },
+                    "purchase_price": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    },
+                    "sell_price": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    },
+                    "version_group": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                    }
+                },
+                "required": [
+                    "currency",
+                    "purchase_price",
+                    "sell_price",
+                    "version_group"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
         "sprites": {
             "properties": {
                 "default": {
@@ -127,7 +156,6 @@
         "attributes",
         "baby_trigger_for",
         "category",
-        "cost",
         "effect_entries",
         "flavor_text_entries",
         "fling_effect",
@@ -138,6 +166,7 @@
         "machines",
         "name",
         "names",
+        "prices",
         "sprites"
     ],
     "type": "object"
