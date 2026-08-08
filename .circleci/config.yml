@@ -42,7 +42,7 @@ jobs:
           command: |
             export CIRCLE_TOKEN="$CIRCLECI_API_TOKEN_NARAMSIM"
             circleci context secret set --org "$CIRCLE_ORGANIZATION_ID" "pokeapi_$CIRCLE_BRANCH" --name hash --value "$(jq -r '.hash' data/api/v2/meta/index.json)"
-            circleci context store-secret --org "$CIRCLE_ORGANIZATION_ID" "pokeapi_$CIRCLE_BRANCH" --name deploy_date --value "$(jq -r '.deploy_date' data/api/v2/meta/index.json)"
+            circleci context secret set --org "$CIRCLE_ORGANIZATION_ID" "pokeapi_$CIRCLE_BRANCH" --name deploy_date --value "$(jq -r '.deploy_date' data/api/v2/meta/index.json)"
       # Trigger a new build of the deploy job of the deploy project
       - run:
           name: Trigger a deploy of the deploy project passing the desired environment/location to deploy to
