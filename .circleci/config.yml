@@ -34,12 +34,15 @@ jobs:
           path: _gen.tar.gz
       - run:
           name: Install CircleCI CLI
-          command: curl -fLSs https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/main/install.sh | DESTDIR=/tmp bash
+          command: |
+            curl -1sLf 'https://packages.circleci.com/public/setup.deb.sh' | sudo -E bash
+            sudo apt install circleci
       - run:
           name: Store metadata
           command: |
-            echo "$(jq -r '.hash' data/api/v2/meta/index.json)" | /tmp/circleci --token "$CIRCLECI_API_TOKEN_NARAMSIM" context store-secret --org-id "$CIRCLE_ORGANIZATION_ID" "pokeapi_$CIRCLE_BRANCH" hash
-            echo "$(jq -r '.deploy_date' data/api/v2/meta/index.json)" | /tmp/circleci --token "$CIRCLECI_API_TOKEN_NARAMSIM" context store-secret --org-id "$CIRCLE_ORGANIZATION_ID" "pokeapi_$CIRCLE_BRANCH" deploy_date
+            export CIRCLE_TOKEN="$CIRCLECI_API_TOKEN_NARAMSIM"
+            circleci context secret set --org "$CIRCLE_ORGANIZATION_ID" "pokeapi_$CIRCLE_BRANCH" --name hash --value "$(jq -r '.hash' data/api/v2/meta/index.json)"
+            circleci context store-secret --org "$CIRCLE_ORGANIZATION_ID" "pokeapi_$CIRCLE_BRANCH" --name deploy_date --value "$(jq -r '.deploy_date' data/api/v2/meta/index.json)"
       # Trigger a new build of the deploy job of the deploy project
       - run:
           name: Trigger a deploy of the deploy project passing the desired environment/location to deploy to
