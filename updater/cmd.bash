@@ -24,8 +24,8 @@ git submodule init
 git submodule update --remote
 
 docker compose -f docker-compose.yml -f docker-compose-dev.yml up -d
-docker compose exec -T app python manage.py migrate --settings=config.docker-compose
-docker compose exec -T app sh -c 'echo "from data.v2.build import build_all; build_all()" | python manage.py shell --settings=config.docker-compose'
+docker compose exec -T app python manage.py migrate --settings=config.docker_compose
+docker compose exec -T app sh -c 'echo "from data.v2.build import build_all; build_all()" | python manage.py shell --settings=config.docker_compose'
 
 # set up the data side
 cd ../api-data
