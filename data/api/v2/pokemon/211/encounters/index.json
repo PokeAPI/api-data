@@ -191,8 +191,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "swarm-yes",
-                                "url": "/api/v2/encounter-condition-value/1/"
+                                "name": "swarm-no",
+                                "url": "/api/v2/encounter-condition-value/2/"
                             }
                         ],
                         "max_level": 40,
@@ -207,8 +207,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "swarm-no",
-                                "url": "/api/v2/encounter-condition-value/2/"
+                                "name": "swarm-yes",
+                                "url": "/api/v2/encounter-condition-value/1/"
                             }
                         ],
                         "max_level": 40,
@@ -472,8 +472,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "swarm-yes",
-                                "url": "/api/v2/encounter-condition-value/1/"
+                                "name": "swarm-no",
+                                "url": "/api/v2/encounter-condition-value/2/"
                             }
                         ],
                         "max_level": 40,
@@ -488,8 +488,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "swarm-no",
-                                "url": "/api/v2/encounter-condition-value/2/"
+                                "name": "swarm-yes",
+                                "url": "/api/v2/encounter-condition-value/1/"
                             }
                         ],
                         "max_level": 40,
@@ -1865,16 +1865,16 @@
                                 "url": "/api/v2/encounter-condition-value/250/"
                             },
                             {
-                                "name": "story-progress-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/35/"
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
                             }
                         ],
-                        "max_level": 60,
+                        "max_level": 43,
                         "method": {
                             "name": "overworld-water",
                             "url": "/api/v2/encounter-method/39/"
                         },
-                        "min_level": 60,
+                        "min_level": 40,
                         "pokemon_details": null
                     },
                     {
@@ -1885,6 +1885,26 @@
                                 "url": "/api/v2/encounter-condition-value/250/"
                             },
                             {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "overworld-water",
+                            "url": "/api/v2/encounter-method/39/"
+                        },
+                        "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 30,
+                        "condition_values": [
+                            {
+                                "name": "weather-normal",
+                                "url": "/api/v2/encounter-condition-value/247/"
+                            },
+                            {
                                 "name": "story-progress-before-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/256/"
                             }
@@ -1918,11 +1938,31 @@
                         "pokemon_details": null
                     },
                     {
-                        "chance": 30,
+                        "chance": 45,
                         "condition_values": [
                             {
-                                "name": "weather-normal",
-                                "url": "/api/v2/encounter-condition-value/247/"
+                                "name": "weather-overcast",
+                                "url": "/api/v2/encounter-condition-value/248/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 43,
+                        "method": {
+                            "name": "overworld-water",
+                            "url": "/api/v2/encounter-method/39/"
+                        },
+                        "min_level": 40,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 45,
+                        "condition_values": [
+                            {
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
                                 "name": "story-progress-before-hall-of-fame",
@@ -1965,26 +2005,6 @@
                                 "url": "/api/v2/encounter-condition-value/248/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 43,
-                        "method": {
-                            "name": "overworld-water",
-                            "url": "/api/v2/encounter-method/39/"
-                        },
-                        "min_level": 40,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 45,
-                        "condition_values": [
-                            {
-                                "name": "weather-overcast",
-                                "url": "/api/v2/encounter-condition-value/248/"
-                            },
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -1995,26 +2015,6 @@
                             "url": "/api/v2/encounter-method/39/"
                         },
                         "min_level": 60,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 45,
-                        "condition_values": [
-                            {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
-                            },
-                            {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 43,
-                        "method": {
-                            "name": "overworld-water",
-                            "url": "/api/v2/encounter-method/39/"
-                        },
-                        "min_level": 40,
                         "pokemon_details": null
                     },
                     {
@@ -2145,16 +2145,16 @@
                                 "url": "/api/v2/encounter-condition-value/254/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
                             }
                         ],
-                        "max_level": 43,
+                        "max_level": 60,
                         "method": {
                             "name": "overworld-water",
                             "url": "/api/v2/encounter-method/39/"
                         },
-                        "min_level": 40,
+                        "min_level": 60,
                         "pokemon_details": null
                     },
                     {
@@ -2165,26 +2165,6 @@
                                 "url": "/api/v2/encounter-condition-value/254/"
                             },
                             {
-                                "name": "story-progress-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/35/"
-                            }
-                        ],
-                        "max_level": 60,
-                        "method": {
-                            "name": "overworld-water",
-                            "url": "/api/v2/encounter-method/39/"
-                        },
-                        "min_level": 60,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 50,
-                        "condition_values": [
-                            {
-                                "name": "weather-sandstorm",
-                                "url": "/api/v2/encounter-condition-value/253/"
-                            },
-                            {
                                 "name": "story-progress-before-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/256/"
                             }
@@ -2215,6 +2195,26 @@
                             "url": "/api/v2/encounter-method/39/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 50,
+                        "condition_values": [
+                            {
+                                "name": "weather-sandstorm",
+                                "url": "/api/v2/encounter-condition-value/253/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 43,
+                        "method": {
+                            "name": "overworld-water",
+                            "url": "/api/v2/encounter-method/39/"
+                        },
+                        "min_level": 40,
                         "pokemon_details": null
                     }
                 ],
@@ -2226,6 +2226,22 @@
             },
             {
                 "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "bubbling-spots",
+                            "url": "/api/v2/encounter-method/34/"
+                        },
+                        "min_level": 60,
+                        "pokemon_details": null
+                    },
                     {
                         "chance": 10,
                         "condition_values": [
@@ -2243,22 +2259,6 @@
                         "pokemon_details": null
                     },
                     {
-                        "chance": 10,
-                        "condition_values": [
-                            {
-                                "name": "story-progress-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/35/"
-                            }
-                        ],
-                        "max_level": 60,
-                        "method": {
-                            "name": "bubbling-spots",
-                            "url": "/api/v2/encounter-method/34/"
-                        },
-                        "min_level": 60,
-                        "pokemon_details": null
-                    },
-                    {
                         "chance": 55,
                         "condition_values": [
                             {
@@ -2342,6 +2342,26 @@
                         "chance": 45,
                         "condition_values": [
                             {
+                                "name": "weather-overcast",
+                                "url": "/api/v2/encounter-condition-value/248/"
+                            },
+                            {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "overworld-water",
+                            "url": "/api/v2/encounter-method/39/"
+                        },
+                        "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 45,
+                        "condition_values": [
+                            {
                                 "name": "weather-fog",
                                 "url": "/api/v2/encounter-condition-value/255/"
                             },
@@ -2362,8 +2382,8 @@
                         "chance": 45,
                         "condition_values": [
                             {
-                                "name": "weather-overcast",
-                                "url": "/api/v2/encounter-condition-value/248/"
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
                                 "name": "story-progress-before-hall-of-fame",
@@ -2384,26 +2404,6 @@
                             {
                                 "name": "weather-overcast",
                                 "url": "/api/v2/encounter-condition-value/248/"
-                            },
-                            {
-                                "name": "story-progress-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/35/"
-                            }
-                        ],
-                        "max_level": 60,
-                        "method": {
-                            "name": "overworld-water",
-                            "url": "/api/v2/encounter-method/39/"
-                        },
-                        "min_level": 60,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 45,
-                        "condition_values": [
-                            {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
                                 "name": "story-progress-before-hall-of-fame",
@@ -2466,16 +2466,16 @@
                                 "url": "/api/v2/encounter-condition-value/251/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
                             }
                         ],
-                        "max_level": 43,
+                        "max_level": 60,
                         "method": {
                             "name": "overworld-water",
                             "url": "/api/v2/encounter-method/39/"
                         },
-                        "min_level": 40,
+                        "min_level": 60,
                         "pokemon_details": null
                     },
                     {
@@ -2486,16 +2486,16 @@
                                 "url": "/api/v2/encounter-condition-value/251/"
                             },
                             {
-                                "name": "story-progress-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/35/"
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
                             }
                         ],
-                        "max_level": 60,
+                        "max_level": 43,
                         "method": {
                             "name": "overworld-water",
                             "url": "/api/v2/encounter-method/39/"
                         },
-                        "min_level": 60,
+                        "min_level": 40,
                         "pokemon_details": null
                     },
                     {
@@ -2546,26 +2546,6 @@
                                 "url": "/api/v2/encounter-condition-value/254/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 43,
-                        "method": {
-                            "name": "overworld-water",
-                            "url": "/api/v2/encounter-method/39/"
-                        },
-                        "min_level": 40,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 60,
-                        "condition_values": [
-                            {
-                                "name": "weather-intense-sun",
-                                "url": "/api/v2/encounter-condition-value/254/"
-                            },
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -2576,6 +2556,26 @@
                             "url": "/api/v2/encounter-method/39/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 60,
+                        "condition_values": [
+                            {
+                                "name": "weather-intense-sun",
+                                "url": "/api/v2/encounter-condition-value/254/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 43,
+                        "method": {
+                            "name": "overworld-water",
+                            "url": "/api/v2/encounter-method/39/"
+                        },
+                        "min_level": 40,
                         "pokemon_details": null
                     },
                     {
@@ -2729,22 +2729,6 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 52,
-                        "method": {
-                            "name": "bubbling-spots",
-                            "url": "/api/v2/encounter-method/34/"
-                        },
-                        "min_level": 50,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -2755,6 +2739,22 @@
                             "url": "/api/v2/encounter-method/34/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 52,
+                        "method": {
+                            "name": "bubbling-spots",
+                            "url": "/api/v2/encounter-method/34/"
+                        },
+                        "min_level": 50,
                         "pokemon_details": null
                     }
                 ],

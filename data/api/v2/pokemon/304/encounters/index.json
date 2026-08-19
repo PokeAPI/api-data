@@ -1237,6 +1237,26 @@
                         "chance": 10,
                         "condition_values": [
                             {
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-peak-min-24",
+                                "url": "/api/v2/encounter-condition-value/293/"
+                            }
+                        ],
+                        "max_level": 44,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 44,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
                                 "name": "time-morning",
                                 "url": "/api/v2/encounter-condition-value/3/"
                             },
@@ -1271,26 +1291,6 @@
                             "url": "/api/v2/encounter-method/1/"
                         },
                         "min_level": 45,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
-                            {
-                                "name": "time-night",
-                                "url": "/api/v2/encounter-condition-value/5/"
-                            },
-                            {
-                                "name": "johto-safari-blocks-peak-min-24",
-                                "url": "/api/v2/encounter-condition-value/293/"
-                            }
-                        ],
-                        "max_level": 44,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 44,
                         "pokemon_details": null
                     }
                 ],
@@ -1306,20 +1306,20 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
                             },
                             {
                                 "name": "johto-safari-blocks-peak-min-24",
                                 "url": "/api/v2/encounter-condition-value/293/"
                             }
                         ],
-                        "max_level": 45,
+                        "max_level": 44,
                         "method": {
                             "name": "walk",
                             "url": "/api/v2/encounter-method/1/"
                         },
-                        "min_level": 45,
+                        "min_level": 44,
                         "pokemon_details": null
                     },
                     {
@@ -1346,20 +1346,20 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-night",
-                                "url": "/api/v2/encounter-condition-value/5/"
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
                             },
                             {
                                 "name": "johto-safari-blocks-peak-min-24",
                                 "url": "/api/v2/encounter-condition-value/293/"
                             }
                         ],
-                        "max_level": 44,
+                        "max_level": 45,
                         "method": {
                             "name": "walk",
                             "url": "/api/v2/encounter-method/1/"
                         },
-                        "min_level": 44,
+                        "min_level": 45,
                         "pokemon_details": null
                     }
                 ],
@@ -1379,6 +1379,54 @@
         "version_details": [
             {
                 "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
+                            }
+                        ],
+                        "max_level": 63,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 63,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-snowing",
+                                "url": "/api/v2/encounter-condition-value/251/"
+                            }
+                        ],
+                        "max_level": 63,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 63,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-intense-sun",
+                                "url": "/api/v2/encounter-condition-value/254/"
+                            }
+                        ],
+                        "max_level": 63,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 63,
+                        "pokemon_details": null
+                    },
                     {
                         "chance": 100,
                         "condition_values": [
@@ -1442,54 +1490,6 @@
                         },
                         "min_level": 63,
                         "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-snowing",
-                                "url": "/api/v2/encounter-condition-value/251/"
-                            }
-                        ],
-                        "max_level": 63,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 63,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-intense-sun",
-                                "url": "/api/v2/encounter-condition-value/254/"
-                            }
-                        ],
-                        "max_level": 63,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 63,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
-                            }
-                        ],
-                        "max_level": 63,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 63,
-                        "pokemon_details": null
                     }
                 ],
                 "max_chance": 700,
@@ -1504,8 +1504,8 @@
                         "chance": 100,
                         "condition_values": [
                             {
-                                "name": "weather-normal",
-                                "url": "/api/v2/encounter-condition-value/247/"
+                                "name": "weather-overcast",
+                                "url": "/api/v2/encounter-condition-value/248/"
                             }
                         ],
                         "max_level": 63,
@@ -1520,8 +1520,8 @@
                         "chance": 100,
                         "condition_values": [
                             {
-                                "name": "weather-overcast",
-                                "url": "/api/v2/encounter-condition-value/248/"
+                                "name": "weather-normal",
+                                "url": "/api/v2/encounter-condition-value/247/"
                             }
                         ],
                         "max_level": 63,
@@ -1749,8 +1749,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -1769,8 +1769,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2015,8 +2015,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2035,8 +2035,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2144,8 +2144,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2164,8 +2164,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2241,8 +2241,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -2261,8 +2261,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -2410,8 +2410,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2430,8 +2430,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2507,8 +2507,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -2527,8 +2527,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -2547,8 +2547,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2567,8 +2567,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2636,8 +2636,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -2656,8 +2656,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -2773,8 +2773,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -2793,8 +2793,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -2942,8 +2942,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -2962,8 +2962,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -3039,8 +3039,8 @@
                         "chance": 40,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -3059,8 +3059,8 @@
                         "chance": 40,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -3208,8 +3208,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -3228,8 +3228,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -3305,8 +3305,8 @@
                         "chance": 40,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -3325,8 +3325,8 @@
                         "chance": 40,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -3611,8 +3611,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -3631,8 +3631,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -3700,8 +3700,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -3720,8 +3720,8 @@
                         "chance": 60,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-1-star",
@@ -3740,8 +3740,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -3760,8 +3760,8 @@
                         "chance": 30,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -3877,8 +3877,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -3897,8 +3897,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -4006,8 +4006,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
                             },
                             {
                                 "name": "max-den-rating-2-star",
@@ -4026,8 +4026,8 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
                             },
                             {
                                 "name": "max-den-rating-2-star",

@@ -225,23 +225,23 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 28,
-                            "method": {
-                                "name": "sos",
-                                "url": "/api/v2/encounter-method/33/"
-                            },
-                            "min_level": 25,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 20,
                             "condition_values": [],
                             "max_level": 28,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 25,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 28,
+                            "method": {
+                                "name": "sos",
+                                "url": "/api/v2/encounter-method/33/"
                             },
                             "min_level": 25,
                             "pokemon_details": null
@@ -392,23 +392,23 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 33,
-                            "method": {
-                                "name": "bubbling-spots",
-                                "url": "/api/v2/encounter-method/34/"
-                            },
-                            "min_level": 10,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 30,
                             "condition_values": [],
                             "max_level": 28,
                             "method": {
                                 "name": "super-rod",
                                 "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 10,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 33,
+                            "method": {
+                                "name": "bubbling-spots",
+                                "url": "/api/v2/encounter-method/34/"
                             },
                             "min_level": 10,
                             "pokemon_details": null
@@ -535,10 +535,10 @@
                         {
                             "chance": 15,
                             "condition_values": [],
-                            "max_level": 28,
+                            "max_level": 33,
                             "method": {
-                                "name": "sos",
-                                "url": "/api/v2/encounter-method/33/"
+                                "name": "sos-from-bubbling-spot",
+                                "url": "/api/v2/encounter-method/37/"
                             },
                             "min_level": 10,
                             "pokemon_details": null
@@ -546,10 +546,10 @@
                         {
                             "chance": 15,
                             "condition_values": [],
-                            "max_level": 33,
+                            "max_level": 28,
                             "method": {
-                                "name": "sos-from-bubbling-spot",
-                                "url": "/api/v2/encounter-method/37/"
+                                "name": "sos",
+                                "url": "/api/v2/encounter-method/33/"
                             },
                             "min_level": 10,
                             "pokemon_details": null
@@ -612,23 +612,23 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 33,
-                            "method": {
-                                "name": "bubbling-spots",
-                                "url": "/api/v2/encounter-method/34/"
-                            },
-                            "min_level": 10,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 40,
                             "condition_values": [],
                             "max_level": 28,
                             "method": {
                                 "name": "super-rod",
                                 "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 10,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 33,
+                            "method": {
+                                "name": "bubbling-spots",
+                                "url": "/api/v2/encounter-method/34/"
                             },
                             "min_level": 10,
                             "pokemon_details": null
@@ -733,6 +733,17 @@
                             "pokemon_details": null
                         },
                         {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 28,
+                            "method": {
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 10,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 15,
                             "condition_values": [],
                             "max_level": 28,
@@ -743,6 +754,26 @@
                             "min_level": 10,
                             "pokemon_details": null
                         },
+                        {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 33,
+                            "method": {
+                                "name": "sos-from-bubbling-spot",
+                                "url": "/api/v2/encounter-method/37/"
+                            },
+                            "min_level": 10,
+                            "pokemon_details": null
+                        }
+                    ],
+                    "max_chance": 70,
+                    "version": {
+                        "name": "ultra-sun",
+                        "url": "/api/v2/version/29/"
+                    }
+                },
+                {
+                    "encounter_details": [
                         {
                             "chance": 15,
                             "condition_values": [],
@@ -764,16 +795,7 @@
                             },
                             "min_level": 10,
                             "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 70,
-                    "version": {
-                        "name": "ultra-sun",
-                        "url": "/api/v2/version/29/"
-                    }
-                },
-                {
-                    "encounter_details": [
+                        },
                         {
                             "chance": 35,
                             "condition_values": [],
@@ -792,28 +814,6 @@
                             "method": {
                                 "name": "sos",
                                 "url": "/api/v2/encounter-method/33/"
-                            },
-                            "min_level": 10,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 15,
-                            "condition_values": [],
-                            "max_level": 33,
-                            "method": {
-                                "name": "sos-from-bubbling-spot",
-                                "url": "/api/v2/encounter-method/37/"
-                            },
-                            "min_level": 10,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 28,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
                             },
                             "min_level": 10,
                             "pokemon_details": null
@@ -1403,23 +1403,23 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 15,
-                            "condition_values": [],
-                            "max_level": 33,
-                            "method": {
-                                "name": "bubbling-spots",
-                                "url": "/api/v2/encounter-method/34/"
-                            },
-                            "min_level": 10,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 25,
                             "condition_values": [],
                             "max_level": 28,
                             "method": {
                                 "name": "super-rod",
                                 "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 10,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 33,
+                            "method": {
+                                "name": "bubbling-spots",
+                                "url": "/api/v2/encounter-method/34/"
                             },
                             "min_level": 10,
                             "pokemon_details": null

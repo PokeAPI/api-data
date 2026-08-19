@@ -9,15 +9,8 @@
                 {
                     "rate": 50,
                     "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rate": 50,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
                     }
                 },
                 {
@@ -30,8 +23,15 @@
                 {
                     "rate": 50,
                     "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rate": 50,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
                     }
                 }
             ]
@@ -43,17 +43,10 @@
             },
             "version_details": [
                 {
-                    "rate": 3,
+                    "rate": 10,
                     "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "rate": 3,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
                     }
                 },
                 {
@@ -64,10 +57,17 @@
                     }
                 },
                 {
-                    "rate": 10,
+                    "rate": 3,
                     "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
+                        "name": "white",
+                        "url": "/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rate": 3,
+                    "version": {
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
                     }
                 }
             ]
@@ -188,7 +188,18 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 15,
+                            "chance": 40,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "super-rod-spots",
+                                "url": "/api/v2/encounter-method/12/"
+                            },
+                            "min_level": 35,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 55,
                             "method": {
@@ -210,23 +221,12 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 15,
                             "condition_values": [],
                             "max_level": 55,
                             "method": {
                                 "name": "super-rod",
                                 "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
                             },
                             "min_level": 35,
                             "pokemon_details": null
@@ -241,18 +241,29 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 70,
+                            "method": {
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 50,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 40,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
+                                "name": "super-rod-spots",
+                                "url": "/api/v2/encounter-method/12/"
                             },
                             "min_level": 40,
                             "pokemon_details": null
                         },
                         {
-                            "chance": 15,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -274,23 +285,12 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 40,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
                             },
                             "min_level": 40,
                             "pokemon_details": null
@@ -305,6 +305,17 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 70,
+                            "method": {
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 50,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 40,
                             "condition_values": [],
                             "max_level": 60,
@@ -316,7 +327,18 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 15,
+                            "chance": 40,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "super-rod-spots",
+                                "url": "/api/v2/encounter-method/12/"
+                            },
+                            "min_level": 40,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -335,28 +357,6 @@
                                 "url": "/api/v2/encounter-method/4/"
                             },
                             "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 40,
                             "pokemon_details": null
                         }
                     ],
@@ -388,7 +388,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -399,7 +399,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -461,7 +461,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 15,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -483,7 +483,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 15,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -601,6 +601,17 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
+                            },
+                            "min_level": 50,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 5,
                             "condition_values": [],
                             "max_level": 60,
@@ -613,17 +624,6 @@
                         },
                         {
                             "chance": 4,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -643,7 +643,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 5,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -654,7 +654,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -693,28 +693,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 55,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 30,
                             "condition_values": [],
                             "max_level": 15,
@@ -737,6 +715,17 @@
                             "pokemon_details": null
                         },
                         {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 5,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 4,
                             "condition_values": [],
                             "max_level": 15,
@@ -748,7 +737,18 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 40,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 35,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 60,
                             "condition_values": [],
                             "max_level": 15,
                             "method": {
@@ -767,6 +767,39 @@
                 },
                 {
                     "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
+                            },
+                            "min_level": 5,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
+                            },
+                            "min_level": 5,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
+                            },
+                            "min_level": 5,
+                            "pokemon_details": null
+                        },
                         {
                             "chance": 40,
                             "condition_values": [],
@@ -799,39 +832,6 @@
                             },
                             "min_level": 5,
                             "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
                         }
                     ],
                     "max_chance": 140,
@@ -843,14 +843,36 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 40,
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
                             },
-                            "min_level": 40,
+                            "min_level": 50,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 50,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 50,
                             "pokemon_details": null
                         },
                         {
@@ -865,36 +887,14 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 5,
+                            "chance": 40,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
                             },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 50,
+                            "min_level": 40,
                             "pokemon_details": null
                         }
                     ],
@@ -957,14 +957,14 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 40,
+                            "chance": 30,
                             "condition_values": [],
-                            "max_level": 60,
+                            "max_level": 20,
                             "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
                             },
-                            "min_level": 35,
+                            "min_level": 5,
                             "pokemon_details": null
                         },
                         {
@@ -979,7 +979,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 30,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 20,
                             "method": {
@@ -990,14 +990,14 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 5,
+                            "chance": 40,
                             "condition_values": [],
-                            "max_level": 20,
+                            "max_level": 60,
                             "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
+                                "name": "super-rod-spots",
+                                "url": "/api/v2/encounter-method/12/"
                             },
-                            "min_level": 5,
+                            "min_level": 35,
                             "pokemon_details": null
                         },
                         {
@@ -1012,7 +1012,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 20,
                             "method": {
@@ -1043,28 +1043,6 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 5,
                             "condition_values": [],
                             "max_level": 15,
@@ -1096,6 +1074,28 @@
                             },
                             "min_level": 5,
                             "pokemon_details": null
+                        },
+                        {
+                            "chance": 60,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 5,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 5,
+                            "pokemon_details": null
                         }
                     ],
                     "max_chance": 140,
@@ -1107,14 +1107,14 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 40,
+                            "chance": 30,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
                             },
-                            "min_level": 40,
+                            "min_level": 45,
                             "pokemon_details": null
                         },
                         {
@@ -1129,14 +1129,14 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 30,
+                            "chance": 40,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
+                                "name": "super-rod-spots",
+                                "url": "/api/v2/encounter-method/12/"
                             },
-                            "min_level": 45,
+                            "min_level": 40,
                             "pokemon_details": null
                         }
                     ],

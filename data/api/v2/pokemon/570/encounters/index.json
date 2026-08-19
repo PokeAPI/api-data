@@ -107,8 +107,8 @@
                         "chance": 100,
                         "condition_values": [
                             {
-                                "name": "weather-overcast",
-                                "url": "/api/v2/encounter-condition-value/248/"
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
                                 "name": "story-progress-before-hall-of-fame",
@@ -127,8 +127,8 @@
                         "chance": 100,
                         "condition_values": [
                             {
-                                "name": "weather-overcast",
-                                "url": "/api/v2/encounter-condition-value/248/"
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
                                 "name": "story-progress-hall-of-fame",
@@ -147,8 +147,8 @@
                         "chance": 100,
                         "condition_values": [
                             {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
+                                "name": "weather-overcast",
+                                "url": "/api/v2/encounter-condition-value/248/"
                             },
                             {
                                 "name": "story-progress-before-hall-of-fame",
@@ -167,8 +167,8 @@
                         "chance": 100,
                         "condition_values": [
                             {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
+                                "name": "weather-overcast",
+                                "url": "/api/v2/encounter-condition-value/248/"
                             },
                             {
                                 "name": "story-progress-hall-of-fame",
@@ -196,6 +196,26 @@
                         "chance": 100,
                         "condition_values": [
                             {
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
+                            },
+                            {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
                                 "name": "weather-overcast",
                                 "url": "/api/v2/encounter-condition-value/248/"
                             },
@@ -250,26 +270,6 @@
                             "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 15,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
-                            },
-                            {
-                                "name": "story-progress-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/35/"
-                            }
-                        ],
-                        "max_level": 60,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 60,
                         "pokemon_details": null
                     }
                 ],
@@ -337,6 +337,26 @@
                                 "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 15,
+                        "condition_values": [
+                            {
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
+                            },
+                            {
                                 "name": "story-progress-before-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/256/"
                             }
@@ -350,7 +370,7 @@
                         "pokemon_details": null
                     },
                     {
-                        "chance": 15,
+                        "chance": 10,
                         "condition_values": [
                             {
                                 "name": "weather-fog",
@@ -363,8 +383,8 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
                         },
                         "min_level": 60,
                         "pokemon_details": null
@@ -388,9 +408,18 @@
                         },
                         "min_level": 10,
                         "pokemon_details": null
-                    },
+                    }
+                ],
+                "max_chance": 250,
+                "version": {
+                    "name": "the-isle-of-armor-sword",
+                    "url": "/api/v2/version/35/"
+                }
+            },
+            {
+                "encounter_details": [
                     {
-                        "chance": 10,
+                        "chance": 100,
                         "condition_values": [
                             {
                                 "name": "weather-fog",
@@ -403,21 +432,12 @@
                         ],
                         "max_level": 60,
                         "method": {
-                            "name": "overworld",
-                            "url": "/api/v2/encounter-method/38/"
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60,
                         "pokemon_details": null
-                    }
-                ],
-                "max_chance": 250,
-                "version": {
-                    "name": "the-isle-of-armor-sword",
-                    "url": "/api/v2/version/35/"
-                }
-            },
-            {
-                "encounter_details": [
+                    },
                     {
                         "chance": 100,
                         "condition_values": [
@@ -439,26 +459,6 @@
                         "pokemon_details": null
                     },
                     {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
-                            },
-                            {
-                                "name": "story-progress-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/35/"
-                            }
-                        ],
-                        "max_level": 60,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 60,
-                        "pokemon_details": null
-                    },
-                    {
                         "chance": 15,
                         "condition_values": [
                             {
@@ -506,26 +506,6 @@
                                 "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 15,
-                        "method": {
-                            "name": "overworld",
-                            "url": "/api/v2/encounter-method/38/"
-                        },
-                        "min_level": 10,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
-                            {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
-                            },
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -536,6 +516,26 @@
                             "url": "/api/v2/encounter-method/38/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 15,
+                        "method": {
+                            "name": "overworld",
+                            "url": "/api/v2/encounter-method/38/"
+                        },
+                        "min_level": 10,
                         "pokemon_details": null
                     }
                 ],
@@ -559,28 +559,8 @@
                         "chance": 100,
                         "condition_values": [
                             {
-                                "name": "weather-overcast",
-                                "url": "/api/v2/encounter-condition-value/248/"
-                            },
-                            {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 15,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 15,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-overcast",
-                                "url": "/api/v2/encounter-condition-value/248/"
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
                                 "name": "story-progress-hall-of-fame",
@@ -619,8 +599,8 @@
                         "chance": 100,
                         "condition_values": [
                             {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
+                                "name": "weather-overcast",
+                                "url": "/api/v2/encounter-condition-value/248/"
                             },
                             {
                                 "name": "story-progress-hall-of-fame",
@@ -633,6 +613,26 @@
                             "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-overcast",
+                                "url": "/api/v2/encounter-condition-value/248/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 15,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 15,
                         "pokemon_details": null
                     }
                 ],
@@ -648,46 +648,6 @@
                         "chance": 100,
                         "condition_values": [
                             {
-                                "name": "weather-overcast",
-                                "url": "/api/v2/encounter-condition-value/248/"
-                            },
-                            {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 15,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 15,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-overcast",
-                                "url": "/api/v2/encounter-condition-value/248/"
-                            },
-                            {
-                                "name": "story-progress-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/35/"
-                            }
-                        ],
-                        "max_level": 60,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 60,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
                                 "name": "weather-fog",
                                 "url": "/api/v2/encounter-condition-value/255/"
                             },
@@ -722,6 +682,46 @@
                             "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-overcast",
+                                "url": "/api/v2/encounter-condition-value/248/"
+                            },
+                            {
+                                "name": "story-progress-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/35/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-overcast",
+                                "url": "/api/v2/encounter-condition-value/248/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 15,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 15,
                         "pokemon_details": null
                     }
                 ],

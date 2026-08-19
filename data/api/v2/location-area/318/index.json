@@ -9,15 +9,15 @@
                 {
                     "rate": 10,
                     "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
+                        "name": "soulsilver",
+                        "url": "/api/v2/version/16/"
                     }
                 },
                 {
                     "rate": 10,
                     "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
+                        "name": "heartgold",
+                        "url": "/api/v2/version/15/"
                     }
                 }
             ]
@@ -200,6 +200,22 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 30,
+                            "condition_values": [
+                                {
+                                    "name": "time-night",
+                                    "url": "/api/v2/encounter-condition-value/5/"
+                                }
+                            ],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 10,
                             "condition_values": [
                                 {
@@ -230,22 +246,6 @@
                             },
                             "min_level": 34,
                             "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 34,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 34,
-                            "pokemon_details": null
                         }
                     ],
                     "max_chance": 50,
@@ -257,8 +257,13 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
-                            "condition_values": [],
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
                             "max_level": 32,
                             "method": {
                                 "name": "walk",
@@ -268,13 +273,8 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
+                            "chance": 20,
+                            "condition_values": [],
                             "max_level": 32,
                             "method": {
                                 "name": "walk",
@@ -577,67 +577,19 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 30,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 34,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 34,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
+                            "chance": 1,
                             "condition_values": [
                                 {
                                     "name": "time-night",
                                     "url": "/api/v2/encounter-condition-value/5/"
                                 }
                             ],
-                            "max_level": 34,
+                            "max_level": 40,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 34,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 36,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 36,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 38,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 38,
+                            "min_level": 40,
                             "pokemon_details": null
                         },
                         {
@@ -657,19 +609,67 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 5,
                             "condition_values": [
                                 {
                                     "name": "time-night",
                                     "url": "/api/v2/encounter-condition-value/5/"
                                 }
                             ],
-                            "max_level": 40,
+                            "max_level": 38,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 40,
+                            "min_level": 38,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "time-night",
+                                    "url": "/api/v2/encounter-condition-value/5/"
+                                }
+                            ],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 30,
+                            "condition_values": [
+                                {
+                                    "name": "time-night",
+                                    "url": "/api/v2/encounter-condition-value/5/"
+                                }
+                            ],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 30,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34,
                             "pokemon_details": null
                         }
                     ],
@@ -682,8 +682,13 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
-                            "condition_values": [],
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
                             "max_level": 32,
                             "method": {
                                 "name": "walk",
@@ -693,13 +698,8 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
+                            "chance": 20,
+                            "condition_values": [],
                             "max_level": 32,
                             "method": {
                                 "name": "walk",
@@ -802,17 +802,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 34,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 34,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 5,
                             "condition_values": [],
                             "max_level": 36,
@@ -821,6 +810,17 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 36,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34,
                             "pokemon_details": null
                         }
                     ],
@@ -833,17 +833,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 34,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 34,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 5,
                             "condition_values": [],
                             "max_level": 36,
@@ -852,6 +841,17 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 36,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34,
                             "pokemon_details": null
                         }
                     ],
@@ -883,22 +883,6 @@
                             "chance": 20,
                             "condition_values": [
                                 {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 33,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 33,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
                                     "name": "time-night",
                                     "url": "/api/v2/encounter-condition-value/5/"
                                 }
@@ -910,6 +894,22 @@
                             },
                             "min_level": 32,
                             "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "time-morning",
+                                    "url": "/api/v2/encounter-condition-value/3/"
+                                }
+                            ],
+                            "max_level": 33,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 33,
+                            "pokemon_details": null
                         }
                     ],
                     "max_chance": 60,
@@ -920,6 +920,17 @@
                 },
                 {
                     "encounter_details": [
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36,
+                            "pokemon_details": null
+                        },
                         {
                             "chance": 5,
                             "condition_values": [],
@@ -944,17 +955,6 @@
                         },
                         {
                             "chance": 4,
-                            "condition_values": [],
-                            "max_level": 36,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 36,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
                             "condition_values": [],
                             "max_level": 36,
                             "method": {
@@ -974,28 +974,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 34,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 34,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 34,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 34,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 4,
                             "condition_values": [],
                             "max_level": 36,
@@ -1004,6 +982,28 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 36,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34,
                             "pokemon_details": null
                         },
                         {
@@ -1154,7 +1154,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 35,
                             "method": {
@@ -1165,7 +1165,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 35,
                             "method": {
@@ -1188,8 +1188,8 @@
                             "chance": 30,
                             "condition_values": [
                                 {
-                                    "name": "time-day",
-                                    "url": "/api/v2/encounter-condition-value/4/"
+                                    "name": "time-morning",
+                                    "url": "/api/v2/encounter-condition-value/3/"
                                 }
                             ],
                             "max_level": 32,
@@ -1204,8 +1204,8 @@
                             "chance": 30,
                             "condition_values": [
                                 {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
+                                    "name": "time-day",
+                                    "url": "/api/v2/encounter-condition-value/4/"
                                 }
                             ],
                             "max_level": 32,
@@ -1336,7 +1336,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [
                                 {
                                     "name": "time-day",
@@ -1352,7 +1352,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [
                                 {
                                     "name": "time-day",

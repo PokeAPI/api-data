@@ -128,6 +128,55 @@
                         "chance": 10,
                         "condition_values": [
                             {
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-plains-min-24",
+                                "url": "/api/v2/encounter-condition-value/267/"
+                            }
+                        ],
+                        "max_level": 45,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 45,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-plains-min-24",
+                                "url": "/api/v2/encounter-condition-value/267/"
+                            }
+                        ],
+                        "max_level": 46,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 46,
+                        "pokemon_details": null
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "heartgold",
+                    "url": "/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
                                 "name": "time-day",
                                 "url": "/api/v2/encounter-condition-value/4/"
                             },
@@ -163,16 +212,7 @@
                         },
                         "min_level": 45,
                         "pokemon_details": null
-                    }
-                ],
-                "max_chance": 30,
-                "version": {
-                    "name": "heartgold",
-                    "url": "/api/v2/version/15/"
-                }
-            },
-            {
-                "encounter_details": [
+                    },
                     {
                         "chance": 10,
                         "condition_values": [
@@ -191,46 +231,6 @@
                             "url": "/api/v2/encounter-method/1/"
                         },
                         "min_level": 46,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
-                            {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
-                            },
-                            {
-                                "name": "johto-safari-blocks-plains-min-24",
-                                "url": "/api/v2/encounter-condition-value/267/"
-                            }
-                        ],
-                        "max_level": 46,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 46,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
-                            {
-                                "name": "time-night",
-                                "url": "/api/v2/encounter-condition-value/5/"
-                            },
-                            {
-                                "name": "johto-safari-blocks-plains-min-24",
-                                "url": "/api/v2/encounter-condition-value/267/"
-                            }
-                        ],
-                        "max_level": 45,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 45,
                         "pokemon_details": null
                     }
                 ],
@@ -413,26 +413,6 @@
                                 "url": "/api/v2/encounter-condition-value/250/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 30,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 30,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-thunderstorm",
-                                "url": "/api/v2/encounter-condition-value/250/"
-                            },
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -443,6 +423,26 @@
                             "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-thunderstorm",
+                                "url": "/api/v2/encounter-condition-value/250/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 30,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 30,
                         "pokemon_details": null
                     }
                 ],
@@ -576,26 +576,6 @@
                                 "url": "/api/v2/encounter-condition-value/250/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 28,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 28,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-thunderstorm",
-                                "url": "/api/v2/encounter-condition-value/250/"
-                            },
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -606,6 +586,26 @@
                             "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-thunderstorm",
+                                "url": "/api/v2/encounter-condition-value/250/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 28,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 28,
                         "pokemon_details": null
                     }
                 ],
@@ -625,26 +625,6 @@
                                 "url": "/api/v2/encounter-condition-value/250/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 28,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 28,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-thunderstorm",
-                                "url": "/api/v2/encounter-condition-value/250/"
-                            },
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -655,6 +635,26 @@
                             "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-thunderstorm",
+                                "url": "/api/v2/encounter-condition-value/250/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 28,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 28,
                         "pokemon_details": null
                     }
                 ],

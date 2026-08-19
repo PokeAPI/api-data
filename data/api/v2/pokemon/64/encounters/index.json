@@ -125,8 +125,24 @@
                         "chance": 4,
                         "condition_values": [
                             {
-                                "name": "slot2-none",
-                                "url": "/api/v2/encounter-condition-value/8/"
+                                "name": "slot2-sapphire",
+                                "url": "/api/v2/encounter-condition-value/10/"
+                            }
+                        ],
+                        "max_level": 22,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 22,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "slot2-leafgreen",
+                                "url": "/api/v2/encounter-condition-value/13/"
                             }
                         ],
                         "max_level": 22,
@@ -157,8 +173,8 @@
                         "chance": 4,
                         "condition_values": [
                             {
-                                "name": "slot2-sapphire",
-                                "url": "/api/v2/encounter-condition-value/10/"
+                                "name": "slot2-none",
+                                "url": "/api/v2/encounter-condition-value/8/"
                             }
                         ],
                         "max_level": 22,
@@ -175,22 +191,6 @@
                             {
                                 "name": "slot2-firered",
                                 "url": "/api/v2/encounter-condition-value/12/"
-                            }
-                        ],
-                        "max_level": 22,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 22,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 4,
-                        "condition_values": [
-                            {
-                                "name": "slot2-leafgreen",
-                                "url": "/api/v2/encounter-condition-value/13/"
                             }
                         ],
                         "max_level": 22,
@@ -486,8 +486,8 @@
                         "chance": 4,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
                             }
                         ],
                         "max_level": 15,
@@ -502,8 +502,8 @@
                         "chance": 4,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
                             }
                         ],
                         "max_level": 15,
@@ -550,8 +550,8 @@
                         "chance": 1,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
                             }
                         ],
                         "max_level": 15,
@@ -566,8 +566,8 @@
                         "chance": 1,
                         "condition_values": [
                             {
-                                "name": "time-night",
-                                "url": "/api/v2/encounter-condition-value/5/"
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
                             }
                         ],
                         "max_level": 15,
@@ -655,8 +655,8 @@
                         "chance": 1,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
                             }
                         ],
                         "max_level": 15,
@@ -671,8 +671,8 @@
                         "chance": 1,
                         "condition_values": [
                             {
-                                "name": "time-night",
-                                "url": "/api/v2/encounter-condition-value/5/"
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
                             }
                         ],
                         "max_level": 15,
@@ -696,8 +696,8 @@
                         "chance": 4,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "time-night",
+                                "url": "/api/v2/encounter-condition-value/5/"
                             }
                         ],
                         "max_level": 18,
@@ -728,8 +728,8 @@
                         "chance": 4,
                         "condition_values": [
                             {
-                                "name": "time-night",
-                                "url": "/api/v2/encounter-condition-value/5/"
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
                             }
                         ],
                         "max_level": 18,
@@ -1303,26 +1303,6 @@
                                 "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 20,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 20,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
-                            },
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -1333,6 +1313,26 @@
                             "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 20,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 20,
                         "pokemon_details": null
                     }
                 ],
@@ -1457,26 +1457,6 @@
                                 "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 20,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 20,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
-                            },
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -1487,6 +1467,26 @@
                             "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 20,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 20,
                         "pokemon_details": null
                     }
                 ],
@@ -1506,26 +1506,6 @@
                                 "url": "/api/v2/encounter-condition-value/255/"
                             },
                             {
-                                "name": "story-progress-before-hall-of-fame",
-                                "url": "/api/v2/encounter-condition-value/256/"
-                            }
-                        ],
-                        "max_level": 20,
-                        "method": {
-                            "name": "wanderer",
-                            "url": "/api/v2/encounter-method/57/"
-                        },
-                        "min_level": 20,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weather-fog",
-                                "url": "/api/v2/encounter-condition-value/255/"
-                            },
-                            {
                                 "name": "story-progress-hall-of-fame",
                                 "url": "/api/v2/encounter-condition-value/35/"
                             }
@@ -1536,6 +1516,26 @@
                             "url": "/api/v2/encounter-method/57/"
                         },
                         "min_level": 60,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weather-fog",
+                                "url": "/api/v2/encounter-condition-value/255/"
+                            },
+                            {
+                                "name": "story-progress-before-hall-of-fame",
+                                "url": "/api/v2/encounter-condition-value/256/"
+                            }
+                        ],
+                        "max_level": 20,
+                        "method": {
+                            "name": "wanderer",
+                            "url": "/api/v2/encounter-method/57/"
+                        },
+                        "min_level": 20,
                         "pokemon_details": null
                     }
                 ],
@@ -1743,26 +1743,6 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
-                            },
-                            {
-                                "name": "max-den-rating-4-star",
-                                "url": "/api/v2/encounter-condition-value/341/"
-                            }
-                        ],
-                        "max_level": 50,
-                        "method": {
-                            "name": "max-raid",
-                            "url": "/api/v2/encounter-method/61/"
-                        },
-                        "min_level": 45,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 25,
-                        "condition_values": [
-                            {
                                 "name": "max-den-rarity-rare",
                                 "url": "/api/v2/encounter-condition-value/337/"
                             },
@@ -1777,6 +1757,26 @@
                             "url": "/api/v2/encounter-method/61/"
                         },
                         "min_level": 35,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 25,
+                        "condition_values": [
+                            {
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
+                            },
+                            {
+                                "name": "max-den-rating-4-star",
+                                "url": "/api/v2/encounter-condition-value/341/"
+                            }
+                        ],
+                        "max_level": 50,
+                        "method": {
+                            "name": "max-raid",
+                            "url": "/api/v2/encounter-method/61/"
+                        },
+                        "min_level": 45,
                         "pokemon_details": null
                     },
                     {
@@ -2115,26 +2115,6 @@
                         "chance": 25,
                         "condition_values": [
                             {
-                                "name": "max-den-rarity-common",
-                                "url": "/api/v2/encounter-condition-value/336/"
-                            },
-                            {
-                                "name": "max-den-rating-4-star",
-                                "url": "/api/v2/encounter-condition-value/341/"
-                            }
-                        ],
-                        "max_level": 50,
-                        "method": {
-                            "name": "max-raid",
-                            "url": "/api/v2/encounter-method/61/"
-                        },
-                        "min_level": 45,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 25,
-                        "condition_values": [
-                            {
                                 "name": "max-den-rarity-rare",
                                 "url": "/api/v2/encounter-condition-value/337/"
                             },
@@ -2149,6 +2129,26 @@
                             "url": "/api/v2/encounter-method/61/"
                         },
                         "min_level": 35,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 25,
+                        "condition_values": [
+                            {
+                                "name": "max-den-rarity-common",
+                                "url": "/api/v2/encounter-condition-value/336/"
+                            },
+                            {
+                                "name": "max-den-rating-4-star",
+                                "url": "/api/v2/encounter-condition-value/341/"
+                            }
+                        ],
+                        "max_level": 50,
+                        "method": {
+                            "name": "max-raid",
+                            "url": "/api/v2/encounter-method/61/"
+                        },
+                        "min_level": 45,
                         "pokemon_details": null
                     },
                     {
@@ -2281,6 +2281,26 @@
                         "chance": 25,
                         "condition_values": [
                             {
+                                "name": "max-den-rarity-rare",
+                                "url": "/api/v2/encounter-condition-value/337/"
+                            },
+                            {
+                                "name": "max-den-rating-3-star",
+                                "url": "/api/v2/encounter-condition-value/340/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "max-raid",
+                            "url": "/api/v2/encounter-method/61/"
+                        },
+                        "min_level": 35,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 25,
+                        "condition_values": [
+                            {
                                 "name": "max-den-rarity-common",
                                 "url": "/api/v2/encounter-condition-value/336/"
                             },
@@ -2315,26 +2335,6 @@
                             "url": "/api/v2/encounter-method/61/"
                         },
                         "min_level": 45,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 25,
-                        "condition_values": [
-                            {
-                                "name": "max-den-rarity-rare",
-                                "url": "/api/v2/encounter-condition-value/337/"
-                            },
-                            {
-                                "name": "max-den-rating-3-star",
-                                "url": "/api/v2/encounter-condition-value/340/"
-                            }
-                        ],
-                        "max_level": 40,
-                        "method": {
-                            "name": "max-raid",
-                            "url": "/api/v2/encounter-method/61/"
-                        },
-                        "min_level": 35,
                         "pokemon_details": null
                     },
                     {
