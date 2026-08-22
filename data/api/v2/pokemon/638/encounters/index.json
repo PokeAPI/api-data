@@ -57,6 +57,17 @@
                 "encounter_details": [
                     {
                         "chance": 100,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "static",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 45,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
                         "condition_values": [
                             {
                                 "name": "special-encounter-couldnt-capture-before",
@@ -69,17 +80,6 @@
                             "url": "/api/v2/encounter-method/20/"
                         },
                         "min_level": 65,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [],
-                        "max_level": 45,
-                        "method": {
-                            "name": "static",
-                            "url": "/api/v2/encounter-method/20/"
-                        },
-                        "min_level": 45,
                         "pokemon_details": null
                     }
                 ],
@@ -93,6 +93,17 @@
                 "encounter_details": [
                     {
                         "chance": 100,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "static",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 45,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
                         "condition_values": [
                             {
                                 "name": "special-encounter-couldnt-capture-before",
@@ -105,17 +116,6 @@
                             "url": "/api/v2/encounter-method/20/"
                         },
                         "min_level": 65,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [],
-                        "max_level": 45,
-                        "method": {
-                            "name": "static",
-                            "url": "/api/v2/encounter-method/20/"
-                        },
-                        "min_level": 45,
                         "pokemon_details": null
                     }
                 ],
@@ -243,6 +243,17 @@
                 "encounter_details": [
                     {
                         "chance": 100,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "static",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 50,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 100,
                         "condition_values": [
                             {
                                 "name": "weekday-wednesday",
@@ -265,17 +276,6 @@
                                 "url": "/api/v2/encounter-condition-value/64/"
                             }
                         ],
-                        "max_level": 50,
-                        "method": {
-                            "name": "static",
-                            "url": "/api/v2/encounter-method/20/"
-                        },
-                        "min_level": 50,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 100,
-                        "condition_values": [],
                         "max_level": 50,
                         "method": {
                             "name": "static",
@@ -295,12 +295,7 @@
                 "encounter_details": [
                     {
                         "chance": 100,
-                        "condition_values": [
-                            {
-                                "name": "weekday-friday",
-                                "url": "/api/v2/encounter-condition-value/64/"
-                            }
-                        ],
+                        "condition_values": [],
                         "max_level": 50,
                         "method": {
                             "name": "static",
@@ -327,7 +322,12 @@
                     },
                     {
                         "chance": 100,
-                        "condition_values": [],
+                        "condition_values": [
+                            {
+                                "name": "weekday-friday",
+                                "url": "/api/v2/encounter-condition-value/64/"
+                            }
+                        ],
                         "max_level": 50,
                         "method": {
                             "name": "static",

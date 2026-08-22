@@ -7,17 +7,10 @@
             },
             "version_details": [
                 {
-                    "rate": 7,
+                    "rate": 3,
                     "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rate": 7,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
                     }
                 },
                 {
@@ -28,10 +21,17 @@
                     }
                 },
                 {
-                    "rate": 3,
+                    "rate": 7,
                     "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rate": 7,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
                     }
                 }
             ]
@@ -45,15 +45,8 @@
                 {
                     "rate": 50,
                     "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rate": 50,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
                     }
                 },
                 {
@@ -66,8 +59,15 @@
                 {
                     "rate": 50,
                     "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rate": 50,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
                     }
                 }
             ]
@@ -79,17 +79,10 @@
             },
             "version_details": [
                 {
-                    "rate": 10,
+                    "rate": 3,
                     "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                },
-                {
-                    "rate": 10,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
+                        "name": "black",
+                        "url": "/api/v2/version/17/"
                     }
                 },
                 {
@@ -100,10 +93,17 @@
                     }
                 },
                 {
-                    "rate": 3,
+                    "rate": 10,
                     "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
+                        "name": "black-2",
+                        "url": "/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rate": 10,
+                    "version": {
+                        "name": "white-2",
+                        "url": "/api/v2/version/22/"
                     }
                 }
             ]
@@ -160,7 +160,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 55,
                             "method": {
@@ -171,7 +171,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 55,
                             "method": {
@@ -233,7 +233,18 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 40,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 50,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 15,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -255,18 +266,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 15,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -297,7 +297,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 15,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -319,7 +319,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 15,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 70,
                             "method": {
@@ -347,6 +347,17 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 35,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 40,
                             "condition_values": [],
                             "max_level": 60,
@@ -364,17 +375,6 @@
                             "method": {
                                 "name": "super-rod-spots",
                                 "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 15,
-                            "condition_values": [],
-                            "max_level": 55,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
                             },
                             "min_level": 35,
                             "pokemon_details": null
@@ -391,17 +391,6 @@
                         {
                             "chance": 15,
                             "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 15,
-                            "condition_values": [],
                             "max_level": 55,
                             "method": {
                                 "name": "super-rod",
@@ -412,6 +401,17 @@
                         },
                         {
                             "chance": 40,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "super-rod-spots",
+                                "url": "/api/v2/encounter-method/12/"
+                            },
+                            "min_level": 35,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 15,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -501,7 +501,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -512,7 +512,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -532,7 +532,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -543,7 +543,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -563,7 +563,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -574,7 +574,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -677,7 +677,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 13,
                             "method": {
@@ -688,7 +688,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 13,
                             "method": {
@@ -708,17 +708,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 11,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 11,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 20,
                             "condition_values": [],
                             "max_level": 10,
@@ -727,6 +716,17 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 10,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 11,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 11,
                             "pokemon_details": null
                         },
                         {
@@ -791,6 +791,50 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 58,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 4,
                             "condition_values": [],
                             "max_level": 58,
@@ -810,50 +854,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 55,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 55,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 56,
                             "pokemon_details": null
                         }
                     ],
@@ -866,14 +866,14 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 4,
+                            "chance": 20,
                             "condition_values": [],
-                            "max_level": 58,
+                            "max_level": 55,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 58,
+                            "min_level": 55,
                             "pokemon_details": null
                         },
                         {
@@ -899,17 +899,6 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 5,
                             "condition_values": [],
                             "max_level": 58,
@@ -921,14 +910,25 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
+                            "chance": 4,
                             "condition_values": [],
-                            "max_level": 55,
+                            "max_level": 58,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 55,
+                            "min_level": 58,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 58,
                             "pokemon_details": null
                         }
                     ],
@@ -949,17 +949,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 11,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 11,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 20,
                             "condition_values": [],
                             "max_level": 10,
@@ -968,6 +957,17 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 10,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 11,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 11,
                             "pokemon_details": null
                         },
                         {
@@ -1035,25 +1035,25 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 10,
                             "condition_values": [],
-                            "max_level": 13,
+                            "max_level": 11,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 13,
+                            "min_level": 11,
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 10,
                             "condition_values": [],
-                            "max_level": 13,
+                            "max_level": 11,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 13,
+                            "min_level": 11,
                             "pokemon_details": null
                         },
                         {
@@ -1068,25 +1068,25 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
+                            "chance": 4,
                             "condition_values": [],
-                            "max_level": 11,
+                            "max_level": 13,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 11,
+                            "min_level": 13,
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
+                            "chance": 1,
                             "condition_values": [],
-                            "max_level": 11,
+                            "max_level": 13,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 11,
+                            "min_level": 13,
                             "pokemon_details": null
                         }
                     ],
@@ -1110,28 +1110,6 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 10,
                             "condition_values": [],
                             "max_level": 56,
@@ -1140,6 +1118,17 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57,
                             "pokemon_details": null
                         },
                         {
@@ -1154,14 +1143,25 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
+                            "chance": 4,
                             "condition_values": [],
-                            "max_level": 57,
+                            "max_level": 58,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 57,
+                            "min_level": 58,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 58,
                             "pokemon_details": null
                         }
                     ],
@@ -1173,17 +1173,6 @@
                 },
                 {
                     "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
                         {
                             "chance": 20,
                             "condition_values": [],
@@ -1198,23 +1187,23 @@
                         {
                             "chance": 10,
                             "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
                             "max_level": 57,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
                             "pokemon_details": null
                         },
                         {
@@ -1229,14 +1218,25 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
+                            "chance": 4,
                             "condition_values": [],
-                            "max_level": 56,
+                            "max_level": 58,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 56,
+                            "min_level": 58,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 58,
                             "pokemon_details": null
                         }
                     ],
@@ -1257,14 +1257,47 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 4,
+                            "chance": 20,
                             "condition_values": [],
-                            "max_level": 13,
+                            "max_level": 10,
                             "method": {
                                 "name": "cave-spots",
                                 "url": "/api/v2/encounter-method/10/"
                             },
-                            "min_level": 13,
+                            "min_level": 10,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 10,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 11,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 11,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 11,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 11,
                             "pokemon_details": null
                         },
                         {
@@ -1276,72 +1309,6 @@
                                 "url": "/api/v2/encounter-method/10/"
                             },
                             "min_level": 12,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 11,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 11,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 11,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 11,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 10,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 10,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 10,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 10,
                             "pokemon_details": null
                         },
                         {
@@ -1379,6 +1346,39 @@
                         },
                         {
                             "chance": 4,
+                            "condition_values": [],
+                            "max_level": 13,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 13,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 13,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 13,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 13,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 13,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 13,
                             "method": {
@@ -1547,6 +1547,50 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 55,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 55,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 10,
                             "condition_values": [],
                             "max_level": 57,
@@ -1591,61 +1635,6 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 55,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 55,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 55,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 55,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 4,
                             "condition_values": [],
                             "max_level": 58,
@@ -1668,14 +1657,25 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
+                            "chance": 1,
                             "condition_values": [],
-                            "max_level": 56,
+                            "max_level": 58,
                             "method": {
                                 "name": "cave-spots",
                                 "url": "/api/v2/encounter-method/10/"
                             },
-                            "min_level": 56,
+                            "min_level": 58,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 58,
                             "pokemon_details": null
                         }
                     ],
@@ -1688,50 +1688,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 20,
                             "condition_values": [],
                             "max_level": 55,
@@ -1809,7 +1765,51 @@
                             "pokemon_details": null
                         },
                         {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 58,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 4,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 58,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 58,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 58,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 58,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 58,
                             "method": {
@@ -1837,7 +1837,18 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 5,
+                            "chance": 40,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
+                            },
+                            "min_level": 35,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 60,
                             "condition_values": [],
                             "max_level": 15,
                             "method": {
@@ -1859,29 +1870,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 55,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 15,
                             "method": {
@@ -1893,6 +1882,17 @@
                         },
                         {
                             "chance": 4,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 5,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 15,
                             "method": {
@@ -1912,29 +1912,18 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 40,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "super-rod-spots",
+                                "url": "/api/v2/encounter-method/12/"
+                            },
+                            "min_level": 35,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 60,
-                            "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
                             "condition_values": [],
                             "max_level": 20,
                             "method": {
@@ -1956,14 +1945,25 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 40,
+                            "chance": 5,
                             "condition_values": [],
-                            "max_level": 60,
+                            "max_level": 20,
                             "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
                             },
-                            "min_level": 35,
+                            "min_level": 5,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
+                            },
+                            "min_level": 5,
                             "pokemon_details": null
                         },
                         {
@@ -1987,12 +1987,12 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 4,
+                            "chance": 40,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
                             },
                             "min_level": 50,
                             "pokemon_details": null
@@ -2031,12 +2031,12 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 40,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
                             },
                             "min_level": 50,
                             "pokemon_details": null
@@ -2062,17 +2062,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 40,
                             "condition_values": [],
                             "max_level": 60,
@@ -2081,6 +2070,17 @@
                                 "url": "/api/v2/encounter-method/12/"
                             },
                             "min_level": 50,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 60,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
+                            },
+                            "min_level": 45,
                             "pokemon_details": null
                         },
                         {
@@ -2145,17 +2145,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 40,
                             "condition_values": [],
                             "max_level": 60,
@@ -2190,6 +2179,17 @@
                         },
                         {
                             "chance": 5,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
+                            },
+                            "min_level": 5,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 20,
                             "method": {
@@ -2220,29 +2220,18 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 40,
                             "condition_values": [],
-                            "max_level": 15,
+                            "max_level": 55,
                             "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
+                                "name": "super-rod",
+                                "url": "/api/v2/encounter-method/4/"
                             },
-                            "min_level": 5,
+                            "min_level": 35,
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
+                            "chance": 60,
                             "condition_values": [],
                             "max_level": 15,
                             "method": {
@@ -2264,7 +2253,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 60,
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 15,
                             "method": {
@@ -2275,14 +2264,25 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 40,
+                            "chance": 4,
                             "condition_values": [],
-                            "max_level": 55,
+                            "max_level": 15,
                             "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
                             },
-                            "min_level": 35,
+                            "min_level": 5,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 5,
                             "pokemon_details": null
                         }
                     ],
@@ -2306,7 +2306,29 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 60,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
+                            },
+                            "min_level": 45,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "surf-spots",
+                                "url": "/api/v2/encounter-method/13/"
+                            },
+                            "min_level": 45,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -2328,7 +2350,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 5,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
@@ -2336,28 +2358,6 @@
                                 "url": "/api/v2/encounter-method/13/"
                             },
                             "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 45,
                             "pokemon_details": null
                         }
                     ],
@@ -2381,25 +2381,14 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 60,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
                                 "name": "surf",
                                 "url": "/api/v2/encounter-method/5/"
                             },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 50,
+                            "min_level": 45,
                             "pokemon_details": null
                         },
                         {
@@ -2414,14 +2403,25 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 60,
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 60,
                             "method": {
                                 "name": "surf",
                                 "url": "/api/v2/encounter-method/5/"
                             },
-                            "min_level": 45,
+                            "min_level": 50,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 60,
+                            "method": {
+                                "name": "surf",
+                                "url": "/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 50,
                             "pokemon_details": null
                         },
                         {

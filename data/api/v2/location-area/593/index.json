@@ -40,6 +40,17 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 1,
                             "condition_values": [],
                             "max_level": 57,
@@ -60,17 +71,6 @@
                             },
                             "min_level": 54,
                             "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
                         }
                     ],
                     "max_chance": 25,
@@ -82,7 +82,7 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [],
                             "max_level": 57,
                             "method": {
@@ -93,7 +93,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 57,
                             "method": {
@@ -202,6 +202,70 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 10,
                             "condition_values": [
                                 {
@@ -231,22 +295,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 29,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
-                                }
-                            ],
-                            "max_level": 30,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 30,
                             "pokemon_details": null
                         },
                         {
@@ -277,11 +325,27 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 5,
                             "condition_values": [
                                 {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
                                 }
                             ],
                             "max_level": 31,
@@ -290,22 +354,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
                             "pokemon_details": null
                         },
                         {
@@ -325,38 +373,6 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 4,
                             "condition_values": [
                                 {
@@ -373,11 +389,11 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 5,
+                            "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
                                 }
                             ],
                             "max_level": 31,
@@ -386,22 +402,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
-                                }
-                            ],
-                            "max_level": 29,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 29,
                             "pokemon_details": null
                         }
                     ],
@@ -414,19 +414,115 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 5,
+                            "chance": 20,
                             "condition_values": [
                                 {
                                     "name": "season-spring",
                                     "url": "/api/v2/encounter-condition-value/17/"
                                 }
                             ],
-                            "max_level": 30,
+                            "max_level": 28,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 30,
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29,
                             "pokemon_details": null
                         },
                         {
@@ -444,6 +540,22 @@
                             "chance": 5,
                             "condition_values": [
                                 {
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
                                     "name": "season-summer",
                                     "url": "/api/v2/encounter-condition-value/18/"
                                 }
@@ -454,134 +566,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
-                                }
-                            ],
-                            "max_level": 29,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 29,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 29,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 29,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 29,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 29,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
-                                }
-                            ],
-                            "max_level": 31,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 31,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
                             "pokemon_details": null
                         },
                         {
@@ -601,19 +585,35 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
+                            "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
                                 }
                             ],
-                            "max_level": 29,
+                            "max_level": 31,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 29,
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31,
                             "pokemon_details": null
                         }
                     ],
@@ -645,6 +645,22 @@
                             "chance": 20,
                             "condition_values": [
                                 {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
                                     "name": "season-autumn",
                                     "url": "/api/v2/encounter-condition-value/19/"
                                 }
@@ -703,22 +719,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 55,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 54,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 54,
                             "pokemon_details": null
                         }
                     ],
@@ -734,70 +734,6 @@
                             "chance": 20,
                             "condition_values": [
                                 {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
-                                }
-                            ],
-                            "max_level": 55,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 55,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 54,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 54,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
-                                }
-                            ],
-                            "max_level": 55,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 55,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 55,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 55,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
                                     "name": "season-spring",
                                     "url": "/api/v2/encounter-condition-value/17/"
                                 }
@@ -824,6 +760,70 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 54,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55,
                             "pokemon_details": null
                         }
                     ],
@@ -843,22 +843,6 @@
             "version_details": [
                 {
                     "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 30,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 30,
-                            "pokemon_details": null
-                        },
                         {
                             "chance": 10,
                             "condition_values": [
@@ -961,6 +945,22 @@
                                 {
                                     "name": "season-summer",
                                     "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
                                 }
                             ],
                             "max_level": 30,
@@ -1061,166 +1061,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
-                                }
-                            ],
-                            "max_level": 30,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 30,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 31,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 31,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
-                                }
-                            ],
-                            "max_level": 31,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
-                                }
-                            ],
-                            "max_level": 29,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 29,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 30,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 30,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 30,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 30,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 29,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 29,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 29,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 29,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 10,
                             "condition_values": [
                                 {
@@ -1253,11 +1093,171 @@
                             "pokemon_details": null
                         },
                         {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 4,
                             "condition_values": [
                                 {
                                     "name": "season-spring",
                                     "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
                                 }
                             ],
                             "max_level": 30,
@@ -1467,17 +1467,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 31,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 20,
                             "condition_values": [],
                             "max_level": 28,
@@ -1533,39 +1522,6 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 31,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 31,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 31,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 10,
                             "condition_values": [],
                             "max_level": 30,
@@ -1589,6 +1545,50 @@
                         },
                         {
                             "chance": 5,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 31,
                             "method": {
@@ -1616,6 +1616,17 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 54,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 10,
                             "condition_values": [],
                             "max_level": 55,
@@ -1627,7 +1638,40 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 55,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 57,
                             "method": {
@@ -1638,14 +1682,14 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
+                            "chance": 5,
                             "condition_values": [],
-                            "max_level": 54,
+                            "max_level": 57,
                             "method": {
                                 "name": "cave-spots",
                                 "url": "/api/v2/encounter-method/10/"
                             },
-                            "min_level": 54,
+                            "min_level": 57,
                             "pokemon_details": null
                         },
                         {
@@ -1660,7 +1704,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 5,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 57,
                             "method": {
@@ -1668,50 +1712,6 @@
                                 "url": "/api/v2/encounter-method/10/"
                             },
                             "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 55,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 55,
                             "pokemon_details": null
                         }
                     ],
@@ -1724,6 +1724,17 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 54,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 10,
                             "condition_values": [],
                             "max_level": 55,
@@ -1735,7 +1746,51 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 1,
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 55,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
                             "condition_values": [],
                             "max_level": 57,
                             "method": {
@@ -1757,7 +1812,7 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 5,
+                            "chance": 1,
                             "condition_values": [],
                             "max_level": 57,
                             "method": {
@@ -1765,61 +1820,6 @@
                                 "url": "/api/v2/encounter-method/10/"
                             },
                             "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 55,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 55,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 54,
-                            "method": {
-                                "name": "cave-spots",
-                                "url": "/api/v2/encounter-method/10/"
-                            },
-                            "min_level": 54,
                             "pokemon_details": null
                         }
                     ],
@@ -1840,51 +1840,51 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 30,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 30,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 30,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 30,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
+                            "chance": 20,
                             "condition_values": [
                                 {
                                     "name": "season-spring",
                                     "url": "/api/v2/encounter-condition-value/17/"
                                 }
                             ],
-                            "max_level": 30,
+                            "max_level": 28,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 30,
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
                             "pokemon_details": null
                         },
                         {
@@ -1904,51 +1904,51 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
+                            "chance": 10,
                             "condition_values": [
                                 {
                                     "name": "season-spring",
                                     "url": "/api/v2/encounter-condition-value/17/"
                                 }
                             ],
-                            "max_level": 28,
+                            "max_level": 30,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 28,
+                            "min_level": 30,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30,
                             "pokemon_details": null
                         }
                     ],
@@ -1964,8 +1964,40 @@
                             "chance": 20,
                             "condition_values": [
                                 {
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
                                     "name": "season-summer",
                                     "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
                                 }
                             ],
                             "max_level": 28,
@@ -2009,22 +2041,6 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 10,
                             "condition_values": [
                                 {
@@ -2038,22 +2054,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 30,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
                             "pokemon_details": null
                         },
                         {
@@ -2082,27 +2082,11 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 10,
+                            "chance": 20,
                             "condition_values": [
                                 {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 55,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 55,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
                                 }
                             ],
                             "max_level": 55,
@@ -2130,11 +2114,27 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
+                            "chance": 10,
                             "condition_values": [
                                 {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
                                 }
                             ],
                             "max_level": 55,
@@ -2174,8 +2174,8 @@
                             "chance": 10,
                             "condition_values": [
                                 {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
                                 }
                             ],
                             "max_level": 55,
@@ -2206,8 +2206,8 @@
                             "chance": 10,
                             "condition_values": [
                                 {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
                                 }
                             ],
                             "max_level": 55,
@@ -2236,6 +2236,22 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 10,
                             "condition_values": [
                                 {
@@ -2252,11 +2268,11 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 10,
                             "condition_values": [
                                 {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
                                 }
                             ],
                             "max_level": 28,
@@ -2265,38 +2281,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
-                                }
-                            ],
-                            "max_level": 31,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
-                                }
-                            ],
-                            "max_level": 30,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 30,
                             "pokemon_details": null
                         },
                         {
@@ -2319,24 +2303,40 @@
                             "chance": 10,
                             "condition_values": [
                                 {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
                                 }
                             ],
-                            "max_level": 28,
+                            "max_level": 30,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 28,
+                            "min_level": 30,
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
+                            "chance": 5,
                             "condition_values": [
                                 {
                                     "name": "season-winter",
                                     "url": "/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
                                 }
                             ],
                             "max_level": 28,
@@ -2357,11 +2357,59 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 10,
                             "condition_values": [
                                 {
                                     "name": "season-spring",
                                     "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
                                 }
                             ],
                             "max_level": 28,
@@ -2389,54 +2437,6 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 28,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 28,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 5,
                             "condition_values": [
                                 {
@@ -2453,19 +2453,19 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
+                            "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
                                 }
                             ],
-                            "max_level": 29,
+                            "max_level": 28,
                             "method": {
                                 "name": "walk",
                                 "url": "/api/v2/encounter-method/1/"
                             },
-                            "min_level": 29,
+                            "min_level": 28,
                             "pokemon_details": null
                         }
                     ],
@@ -2591,11 +2591,11 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 5,
+                            "chance": 10,
                             "condition_values": [
                                 {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
                                 }
                             ],
                             "max_level": 56,
@@ -2607,11 +2607,11 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 10,
+                            "chance": 5,
                             "condition_values": [
                                 {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
                                 }
                             ],
                             "max_level": 56,
@@ -2640,11 +2640,11 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
+                            "chance": 4,
                             "condition_values": [
                                 {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
                                 }
                             ],
                             "max_level": 31,
@@ -2688,11 +2688,11 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 4,
+                            "chance": 1,
                             "condition_values": [
                                 {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
                                 }
                             ],
                             "max_level": 31,
@@ -2729,22 +2729,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "season-winter",
-                                    "url": "/api/v2/encounter-condition-value/20/"
-                                }
-                            ],
-                            "max_level": 31,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 4,
                             "condition_values": [
                                 {
@@ -2764,8 +2748,8 @@
                             "chance": 1,
                             "condition_values": [
                                 {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
+                                    "name": "season-spring",
+                                    "url": "/api/v2/encounter-condition-value/17/"
                                 }
                             ],
                             "max_level": 31,
@@ -2796,8 +2780,24 @@
                             "chance": 1,
                             "condition_values": [
                                 {
-                                    "name": "season-spring",
-                                    "url": "/api/v2/encounter-condition-value/17/"
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "/api/v2/encounter-condition-value/20/"
                                 }
                             ],
                             "max_level": 31,
@@ -2818,17 +2818,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 10,
                             "condition_values": [
                                 {
@@ -2842,6 +2831,17 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57,
                             "pokemon_details": null
                         },
                         {
@@ -2920,22 +2920,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "season-autumn",
-                                    "url": "/api/v2/encounter-condition-value/19/"
-                                }
-                            ],
-                            "max_level": 56,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 10,
                             "condition_values": [
                                 {
@@ -2973,6 +2957,22 @@
                                 {
                                     "name": "season-spring",
                                     "url": "/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "/api/v2/encounter-condition-value/19/"
                                 }
                             ],
                             "max_level": 56,
@@ -3009,6 +3009,38 @@
                 {
                     "encounter_details": [
                         {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 5,
                             "condition_values": [
                                 {
@@ -3054,38 +3086,6 @@
                                 "url": "/api/v2/encounter-method/1/"
                             },
                             "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 56,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "season-summer",
-                                    "url": "/api/v2/encounter-condition-value/18/"
-                                }
-                            ],
-                            "max_level": 55,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 55,
                             "pokemon_details": null
                         }
                     ],

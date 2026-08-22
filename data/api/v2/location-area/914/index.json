@@ -26,17 +26,6 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld",
-                                "url": "/api/v2/encounter-method/38/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 100,
                             "condition_values": [],
                             "max_level": 63,
@@ -45,6 +34,17 @@
                                 "url": "/api/v2/encounter-method/57/"
                             },
                             "min_level": 63,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 40,
+                            "condition_values": [],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld",
+                                "url": "/api/v2/encounter-method/38/"
+                            },
+                            "min_level": 60,
                             "pokemon_details": null
                         }
                     ],
@@ -147,38 +147,6 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-fog",
-                                    "url": "/api/v2/encounter-condition-value/255/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "weather-thunderstorm",
-                                    "url": "/api/v2/encounter-condition-value/250/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
                                     "name": "weather-normal",
                                     "url": "/api/v2/encounter-condition-value/247/"
                                 }
@@ -192,43 +160,11 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowstorm",
-                                    "url": "/api/v2/encounter-condition-value/252/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowing",
-                                    "url": "/api/v2/encounter-condition-value/251/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-intense-sun",
-                                    "url": "/api/v2/encounter-condition-value/254/"
+                                    "name": "weather-overcast",
+                                    "url": "/api/v2/encounter-condition-value/248/"
                                 }
                             ],
                             "max_level": 65,
@@ -259,8 +195,72 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-overcast",
-                                    "url": "/api/v2/encounter-condition-value/248/"
+                                    "name": "weather-thunderstorm",
+                                    "url": "/api/v2/encounter-condition-value/250/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 25,
+                            "condition_values": [
+                                {
+                                    "name": "weather-intense-sun",
+                                    "url": "/api/v2/encounter-condition-value/254/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 25,
+                            "condition_values": [
+                                {
+                                    "name": "weather-fog",
+                                    "url": "/api/v2/encounter-condition-value/255/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowing",
+                                    "url": "/api/v2/encounter-condition-value/251/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowstorm",
+                                    "url": "/api/v2/encounter-condition-value/252/"
                                 }
                             ],
                             "max_level": 65,
@@ -284,88 +284,8 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-fog",
-                                    "url": "/api/v2/encounter-condition-value/255/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
                                     "name": "weather-normal",
                                     "url": "/api/v2/encounter-condition-value/247/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowing",
-                                    "url": "/api/v2/encounter-condition-value/251/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "weather-raining",
-                                    "url": "/api/v2/encounter-condition-value/249/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "weather-intense-sun",
-                                    "url": "/api/v2/encounter-condition-value/254/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowstorm",
-                                    "url": "/api/v2/encounter-condition-value/252/"
                                 }
                             ],
                             "max_level": 65,
@@ -396,8 +316,88 @@
                             "chance": 25,
                             "condition_values": [
                                 {
+                                    "name": "weather-raining",
+                                    "url": "/api/v2/encounter-condition-value/249/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 25,
+                            "condition_values": [
+                                {
                                     "name": "weather-thunderstorm",
                                     "url": "/api/v2/encounter-condition-value/250/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 25,
+                            "condition_values": [
+                                {
+                                    "name": "weather-intense-sun",
+                                    "url": "/api/v2/encounter-condition-value/254/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 25,
+                            "condition_values": [
+                                {
+                                    "name": "weather-fog",
+                                    "url": "/api/v2/encounter-condition-value/255/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowing",
+                                    "url": "/api/v2/encounter-condition-value/251/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowstorm",
+                                    "url": "/api/v2/encounter-condition-value/252/"
                                 }
                             ],
                             "max_level": 65,
@@ -429,88 +429,8 @@
                             "chance": 24,
                             "condition_values": [
                                 {
-                                    "name": "weather-fog",
-                                    "url": "/api/v2/encounter-condition-value/255/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowstorm",
-                                    "url": "/api/v2/encounter-condition-value/252/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowing",
-                                    "url": "/api/v2/encounter-condition-value/251/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 24,
-                            "condition_values": [
-                                {
-                                    "name": "weather-thunderstorm",
-                                    "url": "/api/v2/encounter-condition-value/250/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 24,
-                            "condition_values": [
-                                {
                                     "name": "weather-normal",
                                     "url": "/api/v2/encounter-condition-value/247/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 24,
-                            "condition_values": [
-                                {
-                                    "name": "weather-intense-sun",
-                                    "url": "/api/v2/encounter-condition-value/254/"
                                 }
                             ],
                             "max_level": 65,
@@ -543,6 +463,86 @@
                                 {
                                     "name": "weather-raining",
                                     "url": "/api/v2/encounter-condition-value/249/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 24,
+                            "condition_values": [
+                                {
+                                    "name": "weather-thunderstorm",
+                                    "url": "/api/v2/encounter-condition-value/250/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 24,
+                            "condition_values": [
+                                {
+                                    "name": "weather-intense-sun",
+                                    "url": "/api/v2/encounter-condition-value/254/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 24,
+                            "condition_values": [
+                                {
+                                    "name": "weather-fog",
+                                    "url": "/api/v2/encounter-condition-value/255/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowing",
+                                    "url": "/api/v2/encounter-condition-value/251/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowstorm",
+                                    "url": "/api/v2/encounter-condition-value/252/"
                                 }
                             ],
                             "max_level": 65,
@@ -599,11 +599,43 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
+                            "chance": 24,
                             "condition_values": [
                                 {
-                                    "name": "weather-snowstorm",
-                                    "url": "/api/v2/encounter-condition-value/252/"
+                                    "name": "weather-normal",
+                                    "url": "/api/v2/encounter-condition-value/247/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 24,
+                            "condition_values": [
+                                {
+                                    "name": "weather-overcast",
+                                    "url": "/api/v2/encounter-condition-value/248/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 24,
+                            "condition_values": [
+                                {
+                                    "name": "weather-raining",
+                                    "url": "/api/v2/encounter-condition-value/249/"
                                 }
                             ],
                             "max_level": 65,
@@ -647,6 +679,22 @@
                             "pokemon_details": null
                         },
                         {
+                            "chance": 24,
+                            "condition_values": [
+                                {
+                                    "name": "weather-fog",
+                                    "url": "/api/v2/encounter-condition-value/255/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
                             "chance": 20,
                             "condition_values": [
                                 {
@@ -663,59 +711,11 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 24,
+                            "chance": 20,
                             "condition_values": [
                                 {
-                                    "name": "weather-overcast",
-                                    "url": "/api/v2/encounter-condition-value/248/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 24,
-                            "condition_values": [
-                                {
-                                    "name": "weather-normal",
-                                    "url": "/api/v2/encounter-condition-value/247/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 24,
-                            "condition_values": [
-                                {
-                                    "name": "weather-raining",
-                                    "url": "/api/v2/encounter-condition-value/249/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 24,
-                            "condition_values": [
-                                {
-                                    "name": "weather-fog",
-                                    "url": "/api/v2/encounter-condition-value/255/"
+                                    "name": "weather-snowstorm",
+                                    "url": "/api/v2/encounter-condition-value/252/"
                                 }
                             ],
                             "max_level": 65,
@@ -879,24 +879,8 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-raining",
-                                    "url": "/api/v2/encounter-condition-value/249/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "weather-intense-sun",
-                                    "url": "/api/v2/encounter-condition-value/254/"
+                                    "name": "weather-normal",
+                                    "url": "/api/v2/encounter-condition-value/247/"
                                 }
                             ],
                             "max_level": 65,
@@ -927,6 +911,22 @@
                             "chance": 25,
                             "condition_values": [
                                 {
+                                    "name": "weather-raining",
+                                    "url": "/api/v2/encounter-condition-value/249/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 25,
+                            "condition_values": [
+                                {
                                     "name": "weather-thunderstorm",
                                     "url": "/api/v2/encounter-condition-value/250/"
                                 }
@@ -943,8 +943,8 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-normal",
-                                    "url": "/api/v2/encounter-condition-value/247/"
+                                    "name": "weather-intense-sun",
+                                    "url": "/api/v2/encounter-condition-value/254/"
                                 }
                             ],
                             "max_level": 65,
@@ -1016,24 +1016,8 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-overcast",
-                                    "url": "/api/v2/encounter-condition-value/248/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowing",
-                                    "url": "/api/v2/encounter-condition-value/251/"
+                                    "name": "weather-normal",
+                                    "url": "/api/v2/encounter-condition-value/247/"
                                 }
                             ],
                             "max_level": 65,
@@ -1048,8 +1032,8 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-intense-sun",
-                                    "url": "/api/v2/encounter-condition-value/254/"
+                                    "name": "weather-overcast",
+                                    "url": "/api/v2/encounter-condition-value/248/"
                                 }
                             ],
                             "max_level": 65,
@@ -1093,27 +1077,11 @@
                             "pokemon_details": null
                         },
                         {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowstorm",
-                                    "url": "/api/v2/encounter-condition-value/252/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-normal",
-                                    "url": "/api/v2/encounter-condition-value/247/"
+                                    "name": "weather-intense-sun",
+                                    "url": "/api/v2/encounter-condition-value/254/"
                                 }
                             ],
                             "max_level": 65,
@@ -1130,6 +1098,38 @@
                                 {
                                     "name": "weather-fog",
                                     "url": "/api/v2/encounter-condition-value/255/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowing",
+                                    "url": "/api/v2/encounter-condition-value/251/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowstorm",
+                                    "url": "/api/v2/encounter-condition-value/252/"
                                 }
                             ],
                             "max_level": 65,
@@ -1177,40 +1177,8 @@
                             "chance": 1,
                             "condition_values": [
                                 {
-                                    "name": "weather-fog",
-                                    "url": "/api/v2/encounter-condition-value/255/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
                                     "name": "weather-overcast",
                                     "url": "/api/v2/encounter-condition-value/248/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "weather-thunderstorm",
-                                    "url": "/api/v2/encounter-condition-value/250/"
                                 }
                             ],
                             "max_level": 65,
@@ -1241,8 +1209,8 @@
                             "chance": 1,
                             "condition_values": [
                                 {
-                                    "name": "weather-snowing",
-                                    "url": "/api/v2/encounter-condition-value/251/"
+                                    "name": "weather-thunderstorm",
+                                    "url": "/api/v2/encounter-condition-value/250/"
                                 }
                             ],
                             "max_level": 65,
@@ -1259,6 +1227,38 @@
                                 {
                                     "name": "weather-intense-sun",
                                     "url": "/api/v2/encounter-condition-value/254/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "weather-fog",
+                                    "url": "/api/v2/encounter-condition-value/255/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowing",
+                                    "url": "/api/v2/encounter-condition-value/251/"
                                 }
                             ],
                             "max_level": 65,
@@ -1294,22 +1294,6 @@
                 },
                 {
                     "encounter_details": [
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "weather-fog",
-                                    "url": "/api/v2/encounter-condition-value/255/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
                         {
                             "chance": 1,
                             "condition_values": [
@@ -1378,6 +1362,38 @@
                             "chance": 1,
                             "condition_values": [
                                 {
+                                    "name": "weather-intense-sun",
+                                    "url": "/api/v2/encounter-condition-value/254/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "weather-fog",
+                                    "url": "/api/v2/encounter-condition-value/255/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
                                     "name": "weather-snowing",
                                     "url": "/api/v2/encounter-condition-value/251/"
                                 }
@@ -1396,22 +1412,6 @@
                                 {
                                     "name": "weather-snowstorm",
                                     "url": "/api/v2/encounter-condition-value/252/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "weather-intense-sun",
-                                    "url": "/api/v2/encounter-condition-value/254/"
                                 }
                             ],
                             "max_level": 65,
@@ -1584,75 +1584,11 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowstorm",
-                                    "url": "/api/v2/encounter-condition-value/252/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowing",
-                                    "url": "/api/v2/encounter-condition-value/251/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-thunderstorm",
-                                    "url": "/api/v2/encounter-condition-value/250/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "weather-raining",
-                                    "url": "/api/v2/encounter-condition-value/249/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "weather-intense-sun",
-                                    "url": "/api/v2/encounter-condition-value/254/"
+                                    "name": "weather-normal",
+                                    "url": "/api/v2/encounter-condition-value/247/"
                                 }
                             ],
                             "max_level": 65,
@@ -1683,8 +1619,40 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-normal",
-                                    "url": "/api/v2/encounter-condition-value/247/"
+                                    "name": "weather-raining",
+                                    "url": "/api/v2/encounter-condition-value/249/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 25,
+                            "condition_values": [
+                                {
+                                    "name": "weather-thunderstorm",
+                                    "url": "/api/v2/encounter-condition-value/250/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 25,
+                            "condition_values": [
+                                {
+                                    "name": "weather-intense-sun",
+                                    "url": "/api/v2/encounter-condition-value/254/"
                                 }
                             ],
                             "max_level": 65,
@@ -1701,6 +1669,38 @@
                                 {
                                     "name": "weather-fog",
                                     "url": "/api/v2/encounter-condition-value/255/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowing",
+                                    "url": "/api/v2/encounter-condition-value/251/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowstorm",
+                                    "url": "/api/v2/encounter-condition-value/252/"
                                 }
                             ],
                             "max_level": 65,
@@ -1923,11 +1923,11 @@
                 {
                     "encounter_details": [
                         {
-                            "chance": 20,
+                            "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-snowstorm",
-                                    "url": "/api/v2/encounter-condition-value/252/"
+                                    "name": "weather-normal",
+                                    "url": "/api/v2/encounter-condition-value/247/"
                                 }
                             ],
                             "max_level": 65,
@@ -1942,8 +1942,8 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-intense-sun",
-                                    "url": "/api/v2/encounter-condition-value/254/"
+                                    "name": "weather-overcast",
+                                    "url": "/api/v2/encounter-condition-value/248/"
                                 }
                             ],
                             "max_level": 65,
@@ -1960,38 +1960,6 @@
                                 {
                                     "name": "weather-raining",
                                     "url": "/api/v2/encounter-condition-value/249/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "weather-snowing",
-                                    "url": "/api/v2/encounter-condition-value/251/"
-                                }
-                            ],
-                            "max_level": 65,
-                            "method": {
-                                "name": "overworld-water",
-                                "url": "/api/v2/encounter-method/39/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "weather-normal",
-                                    "url": "/api/v2/encounter-condition-value/247/"
                                 }
                             ],
                             "max_level": 65,
@@ -2022,8 +1990,8 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-fog",
-                                    "url": "/api/v2/encounter-condition-value/255/"
+                                    "name": "weather-intense-sun",
+                                    "url": "/api/v2/encounter-condition-value/254/"
                                 }
                             ],
                             "max_level": 65,
@@ -2038,8 +2006,40 @@
                             "chance": 25,
                             "condition_values": [
                                 {
-                                    "name": "weather-overcast",
-                                    "url": "/api/v2/encounter-condition-value/248/"
+                                    "name": "weather-fog",
+                                    "url": "/api/v2/encounter-condition-value/255/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowing",
+                                    "url": "/api/v2/encounter-condition-value/251/"
+                                }
+                            ],
+                            "max_level": 65,
+                            "method": {
+                                "name": "overworld-water",
+                                "url": "/api/v2/encounter-method/39/"
+                            },
+                            "min_level": 60,
+                            "pokemon_details": null
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "weather-snowstorm",
+                                    "url": "/api/v2/encounter-condition-value/252/"
                                 }
                             ],
                             "max_level": 65,

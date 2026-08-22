@@ -162,8 +162,12 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "swarm-yes",
-                                "url": "/api/v2/encounter-condition-value/1/"
+                                "name": "swarm-no",
+                                "url": "/api/v2/encounter-condition-value/2/"
+                            },
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
                             }
                         ],
                         "max_level": 16,
@@ -178,12 +182,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "swarm-no",
-                                "url": "/api/v2/encounter-condition-value/2/"
-                            },
-                            {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "swarm-yes",
+                                "url": "/api/v2/encounter-condition-value/1/"
                             }
                         ],
                         "max_level": 16,
@@ -304,8 +304,8 @@
                         "chance": 5,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
                             }
                         ],
                         "max_level": 16,
@@ -320,8 +320,8 @@
                         "chance": 5,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
                             }
                         ],
                         "max_level": 16,
@@ -414,8 +414,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
                             }
                         ],
                         "max_level": 16,
@@ -430,8 +430,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
                             }
                         ],
                         "max_level": 16,
@@ -496,22 +496,6 @@
                         "chance": 5,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
-                            }
-                        ],
-                        "max_level": 16,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 16,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 5,
-                        "condition_values": [
-                            {
                                 "name": "time-morning",
                                 "url": "/api/v2/encounter-condition-value/3/"
                             }
@@ -546,6 +530,22 @@
                             {
                                 "name": "time-morning",
                                 "url": "/api/v2/encounter-condition-value/3/"
+                            }
+                        ],
+                        "max_level": 16,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 16,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
                             }
                         ],
                         "max_level": 16,
@@ -1021,8 +1021,8 @@
                         "chance": 20,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
                             }
                         ],
                         "max_level": 24,
@@ -1037,8 +1037,8 @@
                         "chance": 20,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
                             }
                         ],
                         "max_level": 24,
@@ -1219,8 +1219,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
                             },
                             {
                                 "name": "johto-safari-blocks-inactive",
@@ -1239,8 +1239,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
                             },
                             {
                                 "name": "johto-safari-blocks-inactive",
@@ -1420,26 +1420,6 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-day",
-                                "url": "/api/v2/encounter-condition-value/4/"
-                            },
-                            {
-                                "name": "johto-safari-blocks-inactive",
-                                "url": "/api/v2/encounter-condition-value/257/"
-                            }
-                        ],
-                        "max_level": 16,
-                        "method": {
-                            "name": "walk",
-                            "url": "/api/v2/encounter-method/1/"
-                        },
-                        "min_level": 16,
-                        "pokemon_details": null
-                    },
-                    {
-                        "chance": 10,
-                        "condition_values": [
-                            {
                                 "name": "time-morning",
                                 "url": "/api/v2/encounter-condition-value/3/"
                             },
@@ -1462,6 +1442,26 @@
                             {
                                 "name": "time-day",
                                 "url": "/api/v2/encounter-condition-value/4/"
+                            },
+                            {
+                                "name": "johto-safari-blocks-inactive",
+                                "url": "/api/v2/encounter-condition-value/257/"
+                            }
+                        ],
+                        "max_level": 16,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 16,
+                        "pokemon_details": null
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
                             },
                             {
                                 "name": "johto-safari-blocks-inactive",
@@ -1480,8 +1480,8 @@
                         "chance": 10,
                         "condition_values": [
                             {
-                                "name": "time-morning",
-                                "url": "/api/v2/encounter-condition-value/3/"
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
                             },
                             {
                                 "name": "johto-safari-blocks-inactive",
