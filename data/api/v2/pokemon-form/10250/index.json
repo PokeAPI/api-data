@@ -81,7 +81,7 @@
     ],
     "form_order": 3,
     "id": 10250,
-    "is_battle_only": true,
+    "is_battle_only": false,
     "is_default": true,
     "is_mega": false,
     "name": "minior-yellow-meteor",
@@ -137,7 +137,17 @@
             }
         }
     },
-    "trigger_conditions": [],
+    "trigger_conditions": [
+        {
+            "base_form": {
+                "name": "minior-yellow",
+                "url": "/api/v2/pokemon-form/10257/"
+            },
+            "name": "shields-down",
+            "trigger": "ability",
+            "url": "/api/v2/ability/197/"
+        }
+    ],
     "types": [
         {
             "slot": 1,
