@@ -1,167 +1,168 @@
 {
-    "form_name": "mega",
-    "form_names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30e1\u30ac\u30b8\u30e5\u30ab\u30a4\u30f3"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uba54\uac00\ub098\ubb34\ud0b9"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u8d85\u7d1a\u8725\u8734\u738b"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "M\u00e9ga-Jungko"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Mega-Form"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Mega-Sceptile"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "MegaSceptile"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mega Sceptile"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30e1\u30ac\u30b8\u30e5\u30ab\u30a4\u30f3"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u8d85\u7ea7\u8725\u8734\u738b"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Mega-Sceptile"
-        }
-    ],
-    "form_order": 2,
-    "id": 10167,
-    "is_battle_only": true,
-    "is_default": true,
-    "is_mega": true,
+  "id": 10167,
+  "name": "sceptile-mega",
+  "order": 387,
+  "form_order": 2,
+  "is_default": true,
+  "is_battle_only": true,
+  "is_mega": true,
+  "form_name": "mega",
+  "pokemon": {
     "name": "sceptile-mega",
-    "names": [
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "M\u00e9ga-Jungko"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Mega-Gewaldro"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mega Sceptile"
+    "url": "/api/v2/pokemon/10065/"
+  },
+  "sprites": {
+    "versions": {
+      "generation-ix": {
+        "scarlet-violet": {
+          "front_female": null,
+          "front_default": null
         }
-    ],
-    "order": 387,
-    "pokemon": {
-        "name": "sceptile-mega",
-        "url": "/api/v2/pokemon/10065/"
+      },
+      "generation-viii": {
+        "brilliant-diamond-shining-pearl": {
+          "front_female": null,
+          "front_default": null
+        }
+      }
     },
-    "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10065.png",
-        "back_female": null,
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10065.png",
-        "back_shiny_female": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10065.png",
-        "front_female": null,
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10065.png",
-        "front_shiny_female": null,
-        "versions": {
-            "generation-ix": {
-                "scarlet-violet": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            },
-            "generation-viii": {
-                "brilliant-diamond-shining-pearl": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            }
-        }
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10065.png",
+    "back_female": null,
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10065.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10065.png",
+    "front_female": null,
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10065.png",
+    "back_shiny_female": null,
+    "front_shiny_female": null
+  },
+  "version_group": {
+    "name": "omega-ruby-alpha-sapphire",
+    "url": "/api/v2/version-group/16/"
+  },
+  "form_names": [
+    {
+      "name": "メガジュカイン",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
     },
-    "trigger_conditions": [
-        {
-            "name": "sceptilite",
-            "trigger": "held-item",
-            "url": "/api/v2/item/794/"
-        }
-    ],
-    "types": [
-        {
-            "slot": 1,
-            "type": {
-                "name": "grass",
-                "url": "/api/v2/type/12/"
-            }
-        },
-        {
-            "slot": 2,
-            "type": {
-                "name": "dragon",
-                "url": "/api/v2/type/16/"
-            }
-        }
-    ],
-    "version_group": {
-        "name": "omega-ruby-alpha-sapphire",
-        "url": "/api/v2/version-group/16/"
+    {
+      "name": "메가나무킹",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "超級蜥蜴王",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Méga-Jungko",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Mega-Form",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Mega-Sceptile",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "MegaSceptile",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Mega Sceptile",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "メガジュカイン",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "超级蜥蜴王",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Mega-Sceptile",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
     }
+  ],
+  "names": [
+    {
+      "name": "Méga-Jungko",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Mega-Gewaldro",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Mega Sceptile",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+      }
+    },
+    {
+      "slot": 2,
+      "type": {
+        "name": "dragon",
+        "url": "/api/v2/type/16/"
+      }
+    }
+  ],
+  "trigger_conditions": [
+    {
+      "trigger": "held-item",
+      "name": "sceptilite",
+      "url": "/api/v2/item/794/"
+    }
+  ],
+  "flavor_text_entries": []
 }

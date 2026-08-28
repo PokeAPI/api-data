@@ -1,160 +1,161 @@
 {
-    "form_name": "mega",
-    "form_names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30e1\u30ac\u30a2\u30d6\u30bd\u30eb"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uba54\uac00\uc571\uc194"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u8d85\u7d1a\u963f\u52c3\u68ad\u9b6f"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "M\u00e9ga-Absol"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Mega-Form"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Mega-Absol"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "MegaAbsol"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mega Absol"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30e1\u30ac\u30a2\u30d6\u30bd\u30eb"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u8d85\u7ea7\u963f\u52c3\u68ad\u9c81"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Mega-Absol"
-        }
-    ],
-    "form_order": 2,
-    "id": 10157,
-    "is_battle_only": true,
-    "is_default": true,
-    "is_mega": true,
+  "id": 10157,
+  "name": "absol-mega",
+  "order": 517,
+  "form_order": 2,
+  "is_default": true,
+  "is_battle_only": true,
+  "is_mega": true,
+  "form_name": "mega",
+  "pokemon": {
     "name": "absol-mega",
-    "names": [
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "M\u00e9ga-Absol"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Mega-Absol"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mega Absol"
+    "url": "/api/v2/pokemon/10057/"
+  },
+  "sprites": {
+    "versions": {
+      "generation-ix": {
+        "scarlet-violet": {
+          "front_female": null,
+          "front_default": null
         }
-    ],
-    "order": 517,
-    "pokemon": {
-        "name": "absol-mega",
-        "url": "/api/v2/pokemon/10057/"
+      },
+      "generation-viii": {
+        "brilliant-diamond-shining-pearl": {
+          "front_female": null,
+          "front_default": null
+        }
+      }
     },
-    "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10057.png",
-        "back_female": null,
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10057.png",
-        "back_shiny_female": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10057.png",
-        "front_female": null,
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10057.png",
-        "front_shiny_female": null,
-        "versions": {
-            "generation-ix": {
-                "scarlet-violet": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            },
-            "generation-viii": {
-                "brilliant-diamond-shining-pearl": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            }
-        }
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10057.png",
+    "back_female": null,
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10057.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10057.png",
+    "front_female": null,
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10057.png",
+    "back_shiny_female": null,
+    "front_shiny_female": null
+  },
+  "version_group": {
+    "name": "x-y",
+    "url": "/api/v2/version-group/15/"
+  },
+  "form_names": [
+    {
+      "name": "メガアブソル",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
     },
-    "trigger_conditions": [
-        {
-            "name": "absolite",
-            "trigger": "held-item",
-            "url": "/api/v2/item/716/"
-        }
-    ],
-    "types": [
-        {
-            "slot": 1,
-            "type": {
-                "name": "dark",
-                "url": "/api/v2/type/17/"
-            }
-        }
-    ],
-    "version_group": {
-        "name": "x-y",
-        "url": "/api/v2/version-group/15/"
+    {
+      "name": "메가앱솔",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "超級阿勃梭魯",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Méga-Absol",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Mega-Form",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Mega-Absol",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "MegaAbsol",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Mega Absol",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "メガアブソル",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "超级阿勃梭鲁",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Mega-Absol",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
     }
+  ],
+  "names": [
+    {
+      "name": "Méga-Absol",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Mega-Absol",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Mega Absol",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+      }
+    }
+  ],
+  "trigger_conditions": [
+    {
+      "trigger": "held-item",
+      "name": "absolite",
+      "url": "/api/v2/item/716/"
+    }
+  ],
+  "flavor_text_entries": []
 }

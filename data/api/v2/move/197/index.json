@@ -1,1711 +1,1711 @@
 {
-    "accuracy": null,
-    "contest_combos": {
-        "normal": {
-            "use_after": [
-                {
-                    "name": "taunt",
-                    "url": "/api/v2/move/269/"
-                }
-            ],
-            "use_before": null
-        },
-        "super": {
-            "use_after": null,
-            "use_before": null
+  "id": 197,
+  "name": "detect",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": 4,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "taunt",
+          "url": "/api/v2/move/269/"
         }
+      ]
     },
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/16/"
-    },
-    "contest_type": {
-        "name": "cool",
-        "url": "/api/v2/contest-type/1/"
-    },
-    "damage_class": {
-        "name": "status",
-        "url": "/api/v2/move-damage-class/1/"
-    },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Aucune capacit\u00e9 ne frappera le lanceur pour le reste de ce tour.  Si le lanceur est le dernier \u00e0 agir ce tour, cette capacit\u00e9 \u00e9chouera.\n\nSi le lanceur a utilis\u00e9 avec succ\u00e8s D\u00e9tection, T\u00e9nacit\u00e9, Abri, Pr\u00e9vention, ou Garde Large le dernier tour, cette capacit\u00e9 a 50% de chances d'\u00e9chouer.\n\nVerrouillage, Lire-Esprit, et Annule Garde fournissent (100 \u2013 accuracy)% de chances que les capacit\u00e9s passent \u00e0 travers cette capacit\u00e9.  Cela ne s'applique pas aux capacit\u00e9s OHKO (Ab\u00eeme, Guillotine, Empal\u2019Korne, et Glaciation); celles-ci sont toujours bloqu\u00e9es par cette capacit\u00e9.\n\nFatal-Foudre sous Danse Pluie et Blizzard sous Gr\u00eale ont 30% de chances de passer \u00e0 travers cette capacit\u00e9.\n\nLes effets suivants ne sont pas emp\u00each\u00e9s par cette capacit\u00e9:\n\n* Acupression d'un alli\u00e9\n* Effet maudit de Mal\u00e9diction\n* D\u00e9g\u00e2ts retard\u00e9s de V\u0153u Destructeur et Prescience; cependant, ces capacit\u00e9s seront emp\u00each\u00e9es si elles sont utilis\u00e9es ce tour\n* Ruse, qui terminera aussi la protection de cette capacit\u00e9 apr\u00e8s qu'elle frappe\n* Possessif\n* Requiem\n* Revenant\n* Capacit\u00e9s qui copient simplement le lanceur, comme Morphing ou Boost\n\nCette capacit\u00e9 ne peut pas \u00eatre s\u00e9lectionn\u00e9e par Assistance ou M\u00e9tronome.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Emp\u00eache n'importe quelle capacit\u00e9 de frapper le lanceur ce tour."
-        },
-        {
-            "effect": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used Detect, Endure, Protect, Quick Guard, or Wide Guard on the last turn, this move has a 50% chance to fail.\n\nLock-On, Mind Reader, and No Guard provide a (100 \u2013 accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold); those are always blocked by this move.\n\nThunder during Rain Dance and Blizzard during Hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* Acupressure from an ally\n* Curse\u2019s curse effect\n* Delayed damage from Doom Desire and Future Sight; however, these moves will be prevented if they are used this turn\n* Feint, which will also end this move\u2019s protection after it hits\n* Imprison\n* Perish Song\n* Shadow Force\n* Moves that merely copy the user, such as Transform or Psych Up\n\nThis move cannot be selected by Assist or Metronome.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Prevents any moves from hitting the user this turn."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Evades attack that\nturn. It may fail.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "flavor_text": "Evades attack that\nturn. It may fail.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "flavor_text": "Evades attack, but may fail\nif used in succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "Evades attack, but may fail\nif used in succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "Enables the user to\nevade all attacks.\nIt may fail if used\nin succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur esquive toutes les attaques.\nPlus la capacit\u00e9 est utilis\u00e9e de fois \u00e0 la\nsuite, plus elle risque d\u2019\u00e9chouer.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "It enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "It enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u307e\u3063\u305f\u304f\u3000\u3046\u3051\u306a\u3044\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \uacf5\uaca9\uc744\n\uc804\ud600 \ubc1b\uc9c0 \uc54a\ub294\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d\u2019\u00e9chec augmente lorsque la capacit\u00e9\nest utilis\u00e9e plusieurs fois de suite.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Anwender weicht jeder Attacke aus.\nScheitert eventuell bei Wiederholung.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se\nusa repetidamente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione pu\u00f2 fallire.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u653b\u6483\u3092\n\u307e\u3063\u305f\u304f\u3000\u53d7\u3051\u306a\u3044\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se\nusa repetidamente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u307e\u3063\u305f\u304f\u3000\u3046\u3051\u306a\u3044\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \uacf5\uaca9\uc744\n\uc804\ud600 \ubc1b\uc9c0 \uc54a\ub294\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d\u2019\u00e9chec augmente lorsque la capacit\u00e9\nest utilis\u00e9e plusieurs fois de suite.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Anwender weicht jeder Attacke aus.\nScheitert eventuell bei Wiederholung.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione pu\u00f2 fallire.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u653b\u6483\u3092\n\u307e\u3063\u305f\u304f\u3000\u53d7\u3051\u306a\u3044\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u307e\u3063\u305f\u304f\u3000\u3046\u3051\u306a\u3044\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \uacf5\uaca9\uc744\n\uc804\ud600 \ubc1b\uc9c0 \uc54a\ub294\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5b8c\u5168\u9632\u4f4f\u5c0d\u624b\u7684\u6240\u6709\u653b\u64ca\u3002\n\u9023\u7e8c\u4f7f\u7528\u6642\u5bb9\u6613\u5931\u6557\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d\u2019\u00e9chec augmente lorsque la capacit\u00e9\nest utilis\u00e9e plusieurs fois de suite.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Anwender weicht jeder Attacke aus.\nScheitert eventuell bei Wiederholung.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione pu\u00f2 fallire.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u653b\u6483\u3092\n\u307e\u3063\u305f\u304f\u3000\u53d7\u3051\u306a\u3044\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5b8c\u5168\u62b5\u6321\n\u5bf9\u624b\u7684\u653b\u51fb\u3002\n\u8fde\u7eed\u4f7f\u51fa\u5219\u5bb9\u6613\u5931\u8d25\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u307e\u3063\u305f\u304f\u3000\u3046\u3051\u306a\u3044\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \uacf5\uaca9\uc744\n\uc804\ud600 \ubc1b\uc9c0 \uc54a\ub294\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5b8c\u5168\u9632\u4f4f\u5c0d\u624b\u7684\u6240\u6709\u653b\u64ca\u3002\n\u9023\u7e8c\u4f7f\u7528\u6642\u5bb9\u6613\u5931\u6557\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d\u2019\u00e9chec augmente lorsque la capacit\u00e9\nest utilis\u00e9e plusieurs fois de suite.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Anwender weicht jeder Attacke aus.\nScheitert eventuell bei Wiederholung.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione pu\u00f2 fallire.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u653b\u6483\u3092\n\u307e\u3063\u305f\u304f\u3000\u53d7\u3051\u306a\u3044\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5b8c\u5168\u62b5\u6321\n\u5bf9\u624b\u7684\u653b\u51fb\u3002\n\u8fde\u7eed\u4f7f\u51fa\u5219\u5bb9\u6613\u5931\u8d25\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u307e\u3063\u305f\u304f\u3000\u3046\u3051\u306a\u3044\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \uacf5\uaca9\uc744\n\uc804\ud600 \ubc1b\uc9c0 \uc54a\ub294\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5b8c\u5168\u9632\u4f4f\u5c0d\u624b\u7684\u6240\u6709\u653b\u64ca\u3002\n\u9023\u7e8c\u4f7f\u7528\u6642\u5bb9\u6613\u5931\u6557\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d\u2019\u00e9chec augmente lorsque la capacit\u00e9\nest utilis\u00e9e plusieurs fois de suite.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Anwender wehrt jede Attacke ab.\nScheitert eventuell bei Wiederholung.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione pu\u00f2 fallire.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u653b\u6483\u3092\n\u307e\u3063\u305f\u304f\u3000\u53d7\u3051\u306a\u3044\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5b8c\u5168\u62b5\u6321\n\u5bf9\u624b\u7684\u653b\u51fb\u3002\n\u8fde\u7eed\u4f7f\u51fa\u5219\u5bb9\u6613\u5931\u8d25\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u3092\n\u307e\u3063\u305f\u304f\u3000\u3046\u3051\u306a\u3044\u3002\n\u308c\u3093\u305e\u304f\u3067\u3000\u3060\u3059\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \uacf5\uaca9\uc744\n\uc804\ud600 \ubc1b\uc9c0 \uc54a\ub294\ub2e4.\n\uc5f0\uc18d\uc73c\ub85c \uc4f0\uba74 \uc2e4\ud328\ud558\uae30 \uc27d\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5b8c\u5168\u9632\u4f4f\u5c0d\u624b\u7684\u6240\u6709\u653b\u64ca\u3002\n\u9023\u7e8c\u4f7f\u7528\u6642\u5bb9\u6613\u5931\u6557\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se prot\u00e8ge de toutes les attaques.\nPeut \u00e9chouer si utilis\u00e9e plusieurs fois de suite.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Anwender wehrt jede Attacke ab. Scheitert eventuell\nbei Wiederholung.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione pu\u00f2 fallire.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "This move enables the user to protect itself from\nall attacks. Its chance of failing rises if it is used\nin succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u653b\u6483\u3092\n\u307e\u3063\u305f\u304f\u3000\u53d7\u3051\u306a\u3044\u3002\n\u9023\u7d9a\u3067\u3000\u3060\u3059\u3068\u3000\u5931\u6557\u3057\u3084\u3059\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5b8c\u5168\u62b5\u6321\n\u5bf9\u624b\u7684\u653b\u51fb\u3002\n\u8fde\u7eed\u4f7f\u51fa\u5219\u5bb9\u6613\u5931\u8d25\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-ii",
-        "url": "/api/v2/generation/2/"
-    },
-    "id": 197,
-    "learned_by_pokemon": [
-        {
-            "name": "pidgey",
-            "url": "/api/v2/pokemon/16/"
-        },
-        {
-            "name": "pidgeotto",
-            "url": "/api/v2/pokemon/17/"
-        },
-        {
-            "name": "pidgeot",
-            "url": "/api/v2/pokemon/18/"
-        },
-        {
-            "name": "spearow",
-            "url": "/api/v2/pokemon/21/"
-        },
-        {
-            "name": "fearow",
-            "url": "/api/v2/pokemon/22/"
-        },
-        {
-            "name": "pikachu",
-            "url": "/api/v2/pokemon/25/"
-        },
-        {
-            "name": "raichu",
-            "url": "/api/v2/pokemon/26/"
-        },
-        {
-            "name": "sandshrew",
-            "url": "/api/v2/pokemon/27/"
-        },
-        {
-            "name": "sandslash",
-            "url": "/api/v2/pokemon/28/"
-        },
-        {
-            "name": "nidoran-f",
-            "url": "/api/v2/pokemon/29/"
-        },
-        {
-            "name": "nidorina",
-            "url": "/api/v2/pokemon/30/"
-        },
-        {
-            "name": "nidoqueen",
-            "url": "/api/v2/pokemon/31/"
-        },
-        {
-            "name": "nidoran-m",
-            "url": "/api/v2/pokemon/32/"
-        },
-        {
-            "name": "nidorino",
-            "url": "/api/v2/pokemon/33/"
-        },
-        {
-            "name": "nidoking",
-            "url": "/api/v2/pokemon/34/"
-        },
-        {
-            "name": "clefairy",
-            "url": "/api/v2/pokemon/35/"
-        },
-        {
-            "name": "clefable",
-            "url": "/api/v2/pokemon/36/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "zubat",
-            "url": "/api/v2/pokemon/41/"
-        },
-        {
-            "name": "golbat",
-            "url": "/api/v2/pokemon/42/"
-        },
-        {
-            "name": "meowth",
-            "url": "/api/v2/pokemon/52/"
-        },
-        {
-            "name": "persian",
-            "url": "/api/v2/pokemon/53/"
-        },
-        {
-            "name": "mankey",
-            "url": "/api/v2/pokemon/56/"
-        },
-        {
-            "name": "primeape",
-            "url": "/api/v2/pokemon/57/"
-        },
-        {
-            "name": "poliwhirl",
-            "url": "/api/v2/pokemon/61/"
-        },
-        {
-            "name": "poliwrath",
-            "url": "/api/v2/pokemon/62/"
-        },
-        {
-            "name": "machop",
-            "url": "/api/v2/pokemon/66/"
-        },
-        {
-            "name": "machoke",
-            "url": "/api/v2/pokemon/67/"
-        },
-        {
-            "name": "machamp",
-            "url": "/api/v2/pokemon/68/"
-        },
-        {
-            "name": "farfetchd",
-            "url": "/api/v2/pokemon/83/"
-        },
-        {
-            "name": "cubone",
-            "url": "/api/v2/pokemon/104/"
-        },
-        {
-            "name": "marowak",
-            "url": "/api/v2/pokemon/105/"
-        },
-        {
-            "name": "hitmonlee",
-            "url": "/api/v2/pokemon/106/"
-        },
-        {
-            "name": "hitmonchan",
-            "url": "/api/v2/pokemon/107/"
-        },
-        {
-            "name": "scyther",
-            "url": "/api/v2/pokemon/123/"
-        },
-        {
-            "name": "electabuzz",
-            "url": "/api/v2/pokemon/125/"
-        },
-        {
-            "name": "magmar",
-            "url": "/api/v2/pokemon/126/"
-        },
-        {
-            "name": "pinsir",
-            "url": "/api/v2/pokemon/127/"
-        },
-        {
-            "name": "eevee",
-            "url": "/api/v2/pokemon/133/"
-        },
-        {
-            "name": "vaporeon",
-            "url": "/api/v2/pokemon/134/"
-        },
-        {
-            "name": "jolteon",
-            "url": "/api/v2/pokemon/135/"
-        },
-        {
-            "name": "flareon",
-            "url": "/api/v2/pokemon/136/"
-        },
-        {
-            "name": "aerodactyl",
-            "url": "/api/v2/pokemon/142/"
-        },
-        {
-            "name": "articuno",
-            "url": "/api/v2/pokemon/144/"
-        },
-        {
-            "name": "zapdos",
-            "url": "/api/v2/pokemon/145/"
-        },
-        {
-            "name": "moltres",
-            "url": "/api/v2/pokemon/146/"
-        },
-        {
-            "name": "dratini",
-            "url": "/api/v2/pokemon/147/"
-        },
-        {
-            "name": "dragonair",
-            "url": "/api/v2/pokemon/148/"
-        },
-        {
-            "name": "dragonite",
-            "url": "/api/v2/pokemon/149/"
-        },
-        {
-            "name": "mewtwo",
-            "url": "/api/v2/pokemon/150/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "chikorita",
-            "url": "/api/v2/pokemon/152/"
-        },
-        {
-            "name": "bayleef",
-            "url": "/api/v2/pokemon/153/"
-        },
-        {
-            "name": "meganium",
-            "url": "/api/v2/pokemon/154/"
-        },
-        {
-            "name": "cyndaquil",
-            "url": "/api/v2/pokemon/155/"
-        },
-        {
-            "name": "quilava",
-            "url": "/api/v2/pokemon/156/"
-        },
-        {
-            "name": "typhlosion",
-            "url": "/api/v2/pokemon/157/"
-        },
-        {
-            "name": "totodile",
-            "url": "/api/v2/pokemon/158/"
-        },
-        {
-            "name": "croconaw",
-            "url": "/api/v2/pokemon/159/"
-        },
-        {
-            "name": "feraligatr",
-            "url": "/api/v2/pokemon/160/"
-        },
-        {
-            "name": "sentret",
-            "url": "/api/v2/pokemon/161/"
-        },
-        {
-            "name": "furret",
-            "url": "/api/v2/pokemon/162/"
-        },
-        {
-            "name": "hoothoot",
-            "url": "/api/v2/pokemon/163/"
-        },
-        {
-            "name": "noctowl",
-            "url": "/api/v2/pokemon/164/"
-        },
-        {
-            "name": "crobat",
-            "url": "/api/v2/pokemon/169/"
-        },
-        {
-            "name": "pichu",
-            "url": "/api/v2/pokemon/172/"
-        },
-        {
-            "name": "cleffa",
-            "url": "/api/v2/pokemon/173/"
-        },
-        {
-            "name": "igglybuff",
-            "url": "/api/v2/pokemon/174/"
-        },
-        {
-            "name": "togepi",
-            "url": "/api/v2/pokemon/175/"
-        },
-        {
-            "name": "togetic",
-            "url": "/api/v2/pokemon/176/"
-        },
-        {
-            "name": "natu",
-            "url": "/api/v2/pokemon/177/"
-        },
-        {
-            "name": "xatu",
-            "url": "/api/v2/pokemon/178/"
-        },
-        {
-            "name": "politoed",
-            "url": "/api/v2/pokemon/186/"
-        },
-        {
-            "name": "aipom",
-            "url": "/api/v2/pokemon/190/"
-        },
-        {
-            "name": "yanma",
-            "url": "/api/v2/pokemon/193/"
-        },
-        {
-            "name": "espeon",
-            "url": "/api/v2/pokemon/196/"
-        },
-        {
-            "name": "umbreon",
-            "url": "/api/v2/pokemon/197/"
-        },
-        {
-            "name": "murkrow",
-            "url": "/api/v2/pokemon/198/"
-        },
-        {
-            "name": "gligar",
-            "url": "/api/v2/pokemon/207/"
-        },
-        {
-            "name": "snubbull",
-            "url": "/api/v2/pokemon/209/"
-        },
-        {
-            "name": "granbull",
-            "url": "/api/v2/pokemon/210/"
-        },
-        {
-            "name": "scizor",
-            "url": "/api/v2/pokemon/212/"
-        },
-        {
-            "name": "heracross",
-            "url": "/api/v2/pokemon/214/"
-        },
-        {
-            "name": "sneasel",
-            "url": "/api/v2/pokemon/215/"
-        },
-        {
-            "name": "swinub",
-            "url": "/api/v2/pokemon/220/"
-        },
-        {
-            "name": "piloswine",
-            "url": "/api/v2/pokemon/221/"
-        },
-        {
-            "name": "delibird",
-            "url": "/api/v2/pokemon/225/"
-        },
-        {
-            "name": "skarmory",
-            "url": "/api/v2/pokemon/227/"
-        },
-        {
-            "name": "houndour",
-            "url": "/api/v2/pokemon/228/"
-        },
-        {
-            "name": "houndoom",
-            "url": "/api/v2/pokemon/229/"
-        },
-        {
-            "name": "stantler",
-            "url": "/api/v2/pokemon/234/"
-        },
-        {
-            "name": "tyrogue",
-            "url": "/api/v2/pokemon/236/"
-        },
-        {
-            "name": "hitmontop",
-            "url": "/api/v2/pokemon/237/"
-        },
-        {
-            "name": "elekid",
-            "url": "/api/v2/pokemon/239/"
-        },
-        {
-            "name": "magby",
-            "url": "/api/v2/pokemon/240/"
-        },
-        {
-            "name": "raikou",
-            "url": "/api/v2/pokemon/243/"
-        },
-        {
-            "name": "entei",
-            "url": "/api/v2/pokemon/244/"
-        },
-        {
-            "name": "suicune",
-            "url": "/api/v2/pokemon/245/"
-        },
-        {
-            "name": "larvitar",
-            "url": "/api/v2/pokemon/246/"
-        },
-        {
-            "name": "pupitar",
-            "url": "/api/v2/pokemon/247/"
-        },
-        {
-            "name": "tyranitar",
-            "url": "/api/v2/pokemon/248/"
-        },
-        {
-            "name": "lugia",
-            "url": "/api/v2/pokemon/249/"
-        },
-        {
-            "name": "ho-oh",
-            "url": "/api/v2/pokemon/250/"
-        },
-        {
-            "name": "celebi",
-            "url": "/api/v2/pokemon/251/"
-        },
-        {
-            "name": "treecko",
-            "url": "/api/v2/pokemon/252/"
-        },
-        {
-            "name": "grovyle",
-            "url": "/api/v2/pokemon/253/"
-        },
-        {
-            "name": "sceptile",
-            "url": "/api/v2/pokemon/254/"
-        },
-        {
-            "name": "torchic",
-            "url": "/api/v2/pokemon/255/"
-        },
-        {
-            "name": "combusken",
-            "url": "/api/v2/pokemon/256/"
-        },
-        {
-            "name": "blaziken",
-            "url": "/api/v2/pokemon/257/"
-        },
-        {
-            "name": "makuhita",
-            "url": "/api/v2/pokemon/296/"
-        },
-        {
-            "name": "hariyama",
-            "url": "/api/v2/pokemon/297/"
-        },
-        {
-            "name": "sableye",
-            "url": "/api/v2/pokemon/302/"
-        },
-        {
-            "name": "meditite",
-            "url": "/api/v2/pokemon/307/"
-        },
-        {
-            "name": "medicham",
-            "url": "/api/v2/pokemon/308/"
-        },
-        {
-            "name": "zangoose",
-            "url": "/api/v2/pokemon/335/"
-        },
-        {
-            "name": "kecleon",
-            "url": "/api/v2/pokemon/352/"
-        },
-        {
-            "name": "absol",
-            "url": "/api/v2/pokemon/359/"
-        },
-        {
-            "name": "starly",
-            "url": "/api/v2/pokemon/396/"
-        },
-        {
-            "name": "riolu",
-            "url": "/api/v2/pokemon/447/"
-        },
-        {
-            "name": "lucario",
-            "url": "/api/v2/pokemon/448/"
-        },
-        {
-            "name": "yanmega",
-            "url": "/api/v2/pokemon/469/"
-        },
-        {
-            "name": "leafeon",
-            "url": "/api/v2/pokemon/470/"
-        },
-        {
-            "name": "glaceon",
-            "url": "/api/v2/pokemon/471/"
-        },
-        {
-            "name": "azelf",
-            "url": "/api/v2/pokemon/482/"
-        },
-        {
-            "name": "oshawott",
-            "url": "/api/v2/pokemon/501/"
-        },
-        {
-            "name": "dewott",
-            "url": "/api/v2/pokemon/502/"
-        },
-        {
-            "name": "samurott",
-            "url": "/api/v2/pokemon/503/"
-        },
-        {
-            "name": "patrat",
-            "url": "/api/v2/pokemon/504/"
-        },
-        {
-            "name": "watchog",
-            "url": "/api/v2/pokemon/505/"
-        },
-        {
-            "name": "pidove",
-            "url": "/api/v2/pokemon/519/"
-        },
-        {
-            "name": "tranquill",
-            "url": "/api/v2/pokemon/520/"
-        },
-        {
-            "name": "unfezant",
-            "url": "/api/v2/pokemon/521/"
-        },
-        {
-            "name": "timburr",
-            "url": "/api/v2/pokemon/532/"
-        },
-        {
-            "name": "gurdurr",
-            "url": "/api/v2/pokemon/533/"
-        },
-        {
-            "name": "conkeldurr",
-            "url": "/api/v2/pokemon/534/"
-        },
-        {
-            "name": "scraggy",
-            "url": "/api/v2/pokemon/559/"
-        },
-        {
-            "name": "scrafty",
-            "url": "/api/v2/pokemon/560/"
-        },
-        {
-            "name": "zorua",
-            "url": "/api/v2/pokemon/570/"
-        },
-        {
-            "name": "zoroark",
-            "url": "/api/v2/pokemon/571/"
-        },
-        {
-            "name": "mienfoo",
-            "url": "/api/v2/pokemon/619/"
-        },
-        {
-            "name": "mienshao",
-            "url": "/api/v2/pokemon/620/"
-        },
-        {
-            "name": "pangoro",
-            "url": "/api/v2/pokemon/675/"
-        },
-        {
-            "name": "sylveon",
-            "url": "/api/v2/pokemon/700/"
-        },
-        {
-            "name": "hawlucha",
-            "url": "/api/v2/pokemon/701/"
-        },
-        {
-            "name": "kartana",
-            "url": "/api/v2/pokemon/798/"
-        },
-        {
-            "name": "clobbopus",
-            "url": "/api/v2/pokemon/852/"
-        },
-        {
-            "name": "grapploct",
-            "url": "/api/v2/pokemon/853/"
-        },
-        {
-            "name": "sirfetchd",
-            "url": "/api/v2/pokemon/865/"
-        },
-        {
-            "name": "kubfu",
-            "url": "/api/v2/pokemon/891/"
-        },
-        {
-            "name": "urshifu-single-strike",
-            "url": "/api/v2/pokemon/892/"
-        },
-        {
-            "name": "quaxly",
-            "url": "/api/v2/pokemon/912/"
-        },
-        {
-            "name": "quaquaval",
-            "url": "/api/v2/pokemon/914/"
-        },
-        {
-            "name": "lokix",
-            "url": "/api/v2/pokemon/920/"
-        },
-        {
-            "name": "flamigo",
-            "url": "/api/v2/pokemon/973/"
-        },
-        {
-            "name": "iron-hands",
-            "url": "/api/v2/pokemon/992/"
-        },
-        {
-            "name": "pinsir-mega",
-            "url": "/api/v2/pokemon/10040/"
-        },
-        {
-            "name": "heracross-mega",
-            "url": "/api/v2/pokemon/10047/"
-        },
-        {
-            "name": "blaziken-mega",
-            "url": "/api/v2/pokemon/10050/"
-        },
-        {
-            "name": "medicham-mega",
-            "url": "/api/v2/pokemon/10054/"
-        },
-        {
-            "name": "absol-mega",
-            "url": "/api/v2/pokemon/10057/"
-        },
-        {
-            "name": "lucario-mega",
-            "url": "/api/v2/pokemon/10059/"
-        },
-        {
-            "name": "sceptile-mega",
-            "url": "/api/v2/pokemon/10065/"
-        },
-        {
-            "name": "sableye-mega",
-            "url": "/api/v2/pokemon/10066/"
-        },
-        {
-            "name": "farfetchd-galar",
-            "url": "/api/v2/pokemon/10166/"
-        },
-        {
-            "name": "zapdos-galar",
-            "url": "/api/v2/pokemon/10170/"
-        },
-        {
-            "name": "urshifu-rapid-strike",
-            "url": "/api/v2/pokemon/10191/"
-        },
-        {
-            "name": "samurott-hisui",
-            "url": "/api/v2/pokemon/10236/"
-        },
-        {
-            "name": "zorua-hisui",
-            "url": "/api/v2/pokemon/10238/"
-        },
-        {
-            "name": "zoroark-hisui",
-            "url": "/api/v2/pokemon/10239/"
-        },
-        {
-            "name": "scrafty-mega",
-            "url": "/api/v2/pokemon/10289/"
-        },
-        {
-            "name": "hawlucha-mega",
-            "url": "/api/v2/pokemon/10300/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/928/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/929/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "protect",
-            "url": "/api/v2/move-ailment/43/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "unique",
-            "url": "/api/v2/move-category/13/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "detect",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u307f\u304d\u308a"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ud310\ubcc4"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u770b\u7a7f"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "D\u00e9tection"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Scanner"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Detecci\u00f3n"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Individua"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Detect"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u307f\u304d\u308a"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u770b\u7a7f"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Detecci\u00f3n"
-        }
-    ],
-    "past_values": [],
-    "power": null,
-    "pp": 5,
-    "priority": 4,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/16/"
-    },
-    "target": {
-        "name": "user",
-        "url": "/api/v2/move-target/7/"
-    },
-    "type": {
-        "name": "fighting",
-        "url": "/api/v2/type/2/"
+    "super": {
+      "use_before": null,
+      "use_after": null
     }
+  },
+  "contest_type": {
+    "name": "cool",
+    "url": "/api/v2/contest-type/1/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/16/"
+  },
+  "damage_class": {
+    "name": "status",
+    "url": "/api/v2/move-damage-class/1/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Aucune capacité ne frappera le lanceur pour le reste de ce tour.  Si le lanceur est le dernier à agir ce tour, cette capacité échouera.\n\nSi le lanceur a utilisé avec succès Détection, Ténacité, Abri, Prévention, ou Garde Large le dernier tour, cette capacité a 50% de chances d'échouer.\n\nVerrouillage, Lire-Esprit, et Annule Garde fournissent (100 – accuracy)% de chances que les capacités passent à travers cette capacité.  Cela ne s'applique pas aux capacités OHKO (Abîme, Guillotine, Empal’Korne, et Glaciation); celles-ci sont toujours bloquées par cette capacité.\n\nFatal-Foudre sous Danse Pluie et Blizzard sous Grêle ont 30% de chances de passer à travers cette capacité.\n\nLes effets suivants ne sont pas empêchés par cette capacité:\n\n* Acupression d'un allié\n* Effet maudit de Malédiction\n* Dégâts retardés de Vœu Destructeur et Prescience; cependant, ces capacités seront empêchées si elles sont utilisées ce tour\n* Ruse, qui terminera aussi la protection de cette capacité après qu'elle frappe\n* Possessif\n* Requiem\n* Revenant\n* Capacités qui copient simplement le lanceur, comme Morphing ou Boost\n\nCette capacité ne peut pas être sélectionnée par Assistance ou Métronome.",
+      "short_effect": "Empêche n'importe quelle capacité de frapper le lanceur ce tour.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will fail.\n\nIf the user successfully used Detect, Endure, Protect, Quick Guard, or Wide Guard on the last turn, this move has a 50% chance to fail.\n\nLock-On, Mind Reader, and No Guard provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves (Fissure, Guillotine, Horn Drill, and Sheer Cold); those are always blocked by this move.\n\nThunder during Rain Dance and Blizzard during Hail have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* Acupressure from an ally\n* Curse’s curse effect\n* Delayed damage from Doom Desire and Future Sight; however, these moves will be prevented if they are used this turn\n* Feint, which will also end this move’s protection after it hits\n* Imprison\n* Perish Song\n* Shadow Force\n* Moves that merely copy the user, such as Transform or Psych Up\n\nThis move cannot be selected by Assist or Metronome.",
+      "short_effect": "Prevents any moves from hitting the user this turn.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii",
+    "url": "/api/v2/generation/2/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "protect",
+      "url": "/api/v2/move-ailment/43/"
+    },
+    "category": {
+      "name": "unique",
+      "url": "/api/v2/move-category/13/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "みきり",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "판별",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "看穿",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Détection",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Scanner",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Detección",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Individua",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Detect",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "みきり",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "看穿",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Detección",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/16/"
+  },
+  "target": {
+    "name": "user",
+    "url": "/api/v2/move-target/7/"
+  },
+  "type": {
+    "name": "fighting",
+    "url": "/api/v2/type/2/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/928/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/929/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Evades attack that\nturn. It may fail.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "flavor_text": "Evades attack that\nturn. It may fail.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    },
+    {
+      "flavor_text": "Evades attack, but may fail\nif used in succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "Evades attack, but may fail\nif used in succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "Enables the user to\nevade all attacks.\nIt may fail if used\nin succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur esquive toutes les attaques.\nPlus la capacité est utilisée de fois à la\nsuite, plus elle risque d’échouer.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "It enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "It enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "あいての　こうげきを\nまったく　うけない。\nれんぞくで　だすと　しっぱい　しやすい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "상대의 공격을\n전혀 받지 않는다.\n연속으로 쓰면 실패하기 쉽다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d’échec augmente lorsque la capacité\nest utilisée plusieurs fois de suite.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Anwender weicht jeder Attacke aus.\nScheitert eventuell bei Wiederholung.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se\nusa repetidamente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione può fallire.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "相手の　攻撃を\nまったく　受けない。\n連続で　だすと　失敗しやすい。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se\nusa repetidamente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "あいての　こうげきを\nまったく　うけない。\nれんぞくで　だすと　しっぱい　しやすい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "상대의 공격을\n전혀 받지 않는다.\n연속으로 쓰면 실패하기 쉽다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d’échec augmente lorsque la capacité\nest utilisée plusieurs fois de suite.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Anwender weicht jeder Attacke aus.\nScheitert eventuell bei Wiederholung.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione può fallire.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Enables the user to evade all attacks.\nIts chance of failing rises if it is used\nin succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "相手の　攻撃を\nまったく　受けない。\n連続で　だすと　失敗しやすい。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "あいての　こうげきを\nまったく　うけない。\nれんぞくで　だすと　しっぱい　しやすい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "상대의 공격을\n전혀 받지 않는다.\n연속으로 쓰면 실패하기 쉽다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "完全防住對手的所有攻擊。\n連續使用時容易失敗。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d’échec augmente lorsque la capacité\nest utilisée plusieurs fois de suite.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Anwender weicht jeder Attacke aus.\nScheitert eventuell bei Wiederholung.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione può fallire.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "相手の　攻撃を\nまったく　受けない。\n連続で　だすと　失敗しやすい。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "完全抵挡\n对手的攻击。\n连续使出则容易失败。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "あいての　こうげきを\nまったく　うけない。\nれんぞくで　だすと　しっぱい　しやすい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "상대의 공격을\n전혀 받지 않는다.\n연속으로 쓰면 실패하기 쉽다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "完全防住對手的所有攻擊。\n連續使用時容易失敗。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d’échec augmente lorsque la capacité\nest utilisée plusieurs fois de suite.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Anwender weicht jeder Attacke aus.\nScheitert eventuell bei Wiederholung.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione può fallire.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "相手の　攻撃を\nまったく　受けない。\n連続で　だすと　失敗しやすい。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "完全抵挡\n对手的攻击。\n连续使出则容易失败。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "あいての　こうげきを\nまったく　うけない。\nれんぞくで　だすと　しっぱい　しやすい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "상대의 공격을\n전혀 받지 않는다.\n연속으로 쓰면 실패하기 쉽다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "完全防住對手的所有攻擊。\n連續使用時容易失敗。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur esquive toutes les attaques.\nLe risque d’échec augmente lorsque la capacité\nest utilisée plusieurs fois de suite.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Anwender wehrt jede Attacke ab.\nScheitert eventuell bei Wiederholung.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione può fallire.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "相手の　攻撃を\nまったく　受けない。\n連続で　だすと　失敗しやすい。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "完全抵挡\n对手的攻击。\n连续使出则容易失败。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "あいての　こうげきを\nまったく　うけない。\nれんぞくで　だすと　しっぱい　しやすい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "상대의 공격을\n전혀 받지 않는다.\n연속으로 쓰면 실패하기 쉽다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "完全防住對手的所有攻擊。\n連續使用時容易失敗。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se protège de toutes les attaques.\nPeut échouer si utilisée plusieurs fois de suite.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Anwender wehrt jede Attacke ab. Scheitert eventuell\nbei Wiederholung.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Permette di eludere tutti gli attacchi.\nSe usata in successione può fallire.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "This move enables the user to protect itself from\nall attacks. Its chance of failing rises if it is used\nin succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "相手の　攻撃を\nまったく　受けない。\n連続で　だすと　失敗しやすい。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "完全抵挡\n对手的攻击。\n连续使出则容易失败。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Frena todos los ataques, pero puede fallar si se usa\nrepetidamente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "pidgey",
+      "url": "/api/v2/pokemon/16/"
+    },
+    {
+      "name": "pidgeotto",
+      "url": "/api/v2/pokemon/17/"
+    },
+    {
+      "name": "pidgeot",
+      "url": "/api/v2/pokemon/18/"
+    },
+    {
+      "name": "spearow",
+      "url": "/api/v2/pokemon/21/"
+    },
+    {
+      "name": "fearow",
+      "url": "/api/v2/pokemon/22/"
+    },
+    {
+      "name": "pikachu",
+      "url": "/api/v2/pokemon/25/"
+    },
+    {
+      "name": "raichu",
+      "url": "/api/v2/pokemon/26/"
+    },
+    {
+      "name": "sandshrew",
+      "url": "/api/v2/pokemon/27/"
+    },
+    {
+      "name": "sandslash",
+      "url": "/api/v2/pokemon/28/"
+    },
+    {
+      "name": "nidoran-f",
+      "url": "/api/v2/pokemon/29/"
+    },
+    {
+      "name": "nidorina",
+      "url": "/api/v2/pokemon/30/"
+    },
+    {
+      "name": "nidoqueen",
+      "url": "/api/v2/pokemon/31/"
+    },
+    {
+      "name": "nidoran-m",
+      "url": "/api/v2/pokemon/32/"
+    },
+    {
+      "name": "nidorino",
+      "url": "/api/v2/pokemon/33/"
+    },
+    {
+      "name": "nidoking",
+      "url": "/api/v2/pokemon/34/"
+    },
+    {
+      "name": "clefairy",
+      "url": "/api/v2/pokemon/35/"
+    },
+    {
+      "name": "clefable",
+      "url": "/api/v2/pokemon/36/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "zubat",
+      "url": "/api/v2/pokemon/41/"
+    },
+    {
+      "name": "golbat",
+      "url": "/api/v2/pokemon/42/"
+    },
+    {
+      "name": "meowth",
+      "url": "/api/v2/pokemon/52/"
+    },
+    {
+      "name": "persian",
+      "url": "/api/v2/pokemon/53/"
+    },
+    {
+      "name": "mankey",
+      "url": "/api/v2/pokemon/56/"
+    },
+    {
+      "name": "primeape",
+      "url": "/api/v2/pokemon/57/"
+    },
+    {
+      "name": "poliwhirl",
+      "url": "/api/v2/pokemon/61/"
+    },
+    {
+      "name": "poliwrath",
+      "url": "/api/v2/pokemon/62/"
+    },
+    {
+      "name": "machop",
+      "url": "/api/v2/pokemon/66/"
+    },
+    {
+      "name": "machoke",
+      "url": "/api/v2/pokemon/67/"
+    },
+    {
+      "name": "machamp",
+      "url": "/api/v2/pokemon/68/"
+    },
+    {
+      "name": "farfetchd",
+      "url": "/api/v2/pokemon/83/"
+    },
+    {
+      "name": "cubone",
+      "url": "/api/v2/pokemon/104/"
+    },
+    {
+      "name": "marowak",
+      "url": "/api/v2/pokemon/105/"
+    },
+    {
+      "name": "hitmonlee",
+      "url": "/api/v2/pokemon/106/"
+    },
+    {
+      "name": "hitmonchan",
+      "url": "/api/v2/pokemon/107/"
+    },
+    {
+      "name": "scyther",
+      "url": "/api/v2/pokemon/123/"
+    },
+    {
+      "name": "electabuzz",
+      "url": "/api/v2/pokemon/125/"
+    },
+    {
+      "name": "magmar",
+      "url": "/api/v2/pokemon/126/"
+    },
+    {
+      "name": "pinsir",
+      "url": "/api/v2/pokemon/127/"
+    },
+    {
+      "name": "eevee",
+      "url": "/api/v2/pokemon/133/"
+    },
+    {
+      "name": "vaporeon",
+      "url": "/api/v2/pokemon/134/"
+    },
+    {
+      "name": "jolteon",
+      "url": "/api/v2/pokemon/135/"
+    },
+    {
+      "name": "flareon",
+      "url": "/api/v2/pokemon/136/"
+    },
+    {
+      "name": "aerodactyl",
+      "url": "/api/v2/pokemon/142/"
+    },
+    {
+      "name": "articuno",
+      "url": "/api/v2/pokemon/144/"
+    },
+    {
+      "name": "zapdos",
+      "url": "/api/v2/pokemon/145/"
+    },
+    {
+      "name": "moltres",
+      "url": "/api/v2/pokemon/146/"
+    },
+    {
+      "name": "dratini",
+      "url": "/api/v2/pokemon/147/"
+    },
+    {
+      "name": "dragonair",
+      "url": "/api/v2/pokemon/148/"
+    },
+    {
+      "name": "dragonite",
+      "url": "/api/v2/pokemon/149/"
+    },
+    {
+      "name": "mewtwo",
+      "url": "/api/v2/pokemon/150/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "chikorita",
+      "url": "/api/v2/pokemon/152/"
+    },
+    {
+      "name": "bayleef",
+      "url": "/api/v2/pokemon/153/"
+    },
+    {
+      "name": "meganium",
+      "url": "/api/v2/pokemon/154/"
+    },
+    {
+      "name": "cyndaquil",
+      "url": "/api/v2/pokemon/155/"
+    },
+    {
+      "name": "quilava",
+      "url": "/api/v2/pokemon/156/"
+    },
+    {
+      "name": "typhlosion",
+      "url": "/api/v2/pokemon/157/"
+    },
+    {
+      "name": "totodile",
+      "url": "/api/v2/pokemon/158/"
+    },
+    {
+      "name": "croconaw",
+      "url": "/api/v2/pokemon/159/"
+    },
+    {
+      "name": "feraligatr",
+      "url": "/api/v2/pokemon/160/"
+    },
+    {
+      "name": "sentret",
+      "url": "/api/v2/pokemon/161/"
+    },
+    {
+      "name": "furret",
+      "url": "/api/v2/pokemon/162/"
+    },
+    {
+      "name": "hoothoot",
+      "url": "/api/v2/pokemon/163/"
+    },
+    {
+      "name": "noctowl",
+      "url": "/api/v2/pokemon/164/"
+    },
+    {
+      "name": "crobat",
+      "url": "/api/v2/pokemon/169/"
+    },
+    {
+      "name": "pichu",
+      "url": "/api/v2/pokemon/172/"
+    },
+    {
+      "name": "cleffa",
+      "url": "/api/v2/pokemon/173/"
+    },
+    {
+      "name": "igglybuff",
+      "url": "/api/v2/pokemon/174/"
+    },
+    {
+      "name": "togepi",
+      "url": "/api/v2/pokemon/175/"
+    },
+    {
+      "name": "togetic",
+      "url": "/api/v2/pokemon/176/"
+    },
+    {
+      "name": "natu",
+      "url": "/api/v2/pokemon/177/"
+    },
+    {
+      "name": "xatu",
+      "url": "/api/v2/pokemon/178/"
+    },
+    {
+      "name": "politoed",
+      "url": "/api/v2/pokemon/186/"
+    },
+    {
+      "name": "aipom",
+      "url": "/api/v2/pokemon/190/"
+    },
+    {
+      "name": "yanma",
+      "url": "/api/v2/pokemon/193/"
+    },
+    {
+      "name": "espeon",
+      "url": "/api/v2/pokemon/196/"
+    },
+    {
+      "name": "umbreon",
+      "url": "/api/v2/pokemon/197/"
+    },
+    {
+      "name": "murkrow",
+      "url": "/api/v2/pokemon/198/"
+    },
+    {
+      "name": "gligar",
+      "url": "/api/v2/pokemon/207/"
+    },
+    {
+      "name": "snubbull",
+      "url": "/api/v2/pokemon/209/"
+    },
+    {
+      "name": "granbull",
+      "url": "/api/v2/pokemon/210/"
+    },
+    {
+      "name": "scizor",
+      "url": "/api/v2/pokemon/212/"
+    },
+    {
+      "name": "heracross",
+      "url": "/api/v2/pokemon/214/"
+    },
+    {
+      "name": "sneasel",
+      "url": "/api/v2/pokemon/215/"
+    },
+    {
+      "name": "swinub",
+      "url": "/api/v2/pokemon/220/"
+    },
+    {
+      "name": "piloswine",
+      "url": "/api/v2/pokemon/221/"
+    },
+    {
+      "name": "delibird",
+      "url": "/api/v2/pokemon/225/"
+    },
+    {
+      "name": "skarmory",
+      "url": "/api/v2/pokemon/227/"
+    },
+    {
+      "name": "houndour",
+      "url": "/api/v2/pokemon/228/"
+    },
+    {
+      "name": "houndoom",
+      "url": "/api/v2/pokemon/229/"
+    },
+    {
+      "name": "stantler",
+      "url": "/api/v2/pokemon/234/"
+    },
+    {
+      "name": "tyrogue",
+      "url": "/api/v2/pokemon/236/"
+    },
+    {
+      "name": "hitmontop",
+      "url": "/api/v2/pokemon/237/"
+    },
+    {
+      "name": "elekid",
+      "url": "/api/v2/pokemon/239/"
+    },
+    {
+      "name": "magby",
+      "url": "/api/v2/pokemon/240/"
+    },
+    {
+      "name": "raikou",
+      "url": "/api/v2/pokemon/243/"
+    },
+    {
+      "name": "entei",
+      "url": "/api/v2/pokemon/244/"
+    },
+    {
+      "name": "suicune",
+      "url": "/api/v2/pokemon/245/"
+    },
+    {
+      "name": "larvitar",
+      "url": "/api/v2/pokemon/246/"
+    },
+    {
+      "name": "pupitar",
+      "url": "/api/v2/pokemon/247/"
+    },
+    {
+      "name": "tyranitar",
+      "url": "/api/v2/pokemon/248/"
+    },
+    {
+      "name": "lugia",
+      "url": "/api/v2/pokemon/249/"
+    },
+    {
+      "name": "ho-oh",
+      "url": "/api/v2/pokemon/250/"
+    },
+    {
+      "name": "celebi",
+      "url": "/api/v2/pokemon/251/"
+    },
+    {
+      "name": "treecko",
+      "url": "/api/v2/pokemon/252/"
+    },
+    {
+      "name": "grovyle",
+      "url": "/api/v2/pokemon/253/"
+    },
+    {
+      "name": "sceptile",
+      "url": "/api/v2/pokemon/254/"
+    },
+    {
+      "name": "torchic",
+      "url": "/api/v2/pokemon/255/"
+    },
+    {
+      "name": "combusken",
+      "url": "/api/v2/pokemon/256/"
+    },
+    {
+      "name": "blaziken",
+      "url": "/api/v2/pokemon/257/"
+    },
+    {
+      "name": "makuhita",
+      "url": "/api/v2/pokemon/296/"
+    },
+    {
+      "name": "hariyama",
+      "url": "/api/v2/pokemon/297/"
+    },
+    {
+      "name": "sableye",
+      "url": "/api/v2/pokemon/302/"
+    },
+    {
+      "name": "meditite",
+      "url": "/api/v2/pokemon/307/"
+    },
+    {
+      "name": "medicham",
+      "url": "/api/v2/pokemon/308/"
+    },
+    {
+      "name": "zangoose",
+      "url": "/api/v2/pokemon/335/"
+    },
+    {
+      "name": "kecleon",
+      "url": "/api/v2/pokemon/352/"
+    },
+    {
+      "name": "absol",
+      "url": "/api/v2/pokemon/359/"
+    },
+    {
+      "name": "starly",
+      "url": "/api/v2/pokemon/396/"
+    },
+    {
+      "name": "riolu",
+      "url": "/api/v2/pokemon/447/"
+    },
+    {
+      "name": "lucario",
+      "url": "/api/v2/pokemon/448/"
+    },
+    {
+      "name": "yanmega",
+      "url": "/api/v2/pokemon/469/"
+    },
+    {
+      "name": "leafeon",
+      "url": "/api/v2/pokemon/470/"
+    },
+    {
+      "name": "glaceon",
+      "url": "/api/v2/pokemon/471/"
+    },
+    {
+      "name": "azelf",
+      "url": "/api/v2/pokemon/482/"
+    },
+    {
+      "name": "oshawott",
+      "url": "/api/v2/pokemon/501/"
+    },
+    {
+      "name": "dewott",
+      "url": "/api/v2/pokemon/502/"
+    },
+    {
+      "name": "samurott",
+      "url": "/api/v2/pokemon/503/"
+    },
+    {
+      "name": "patrat",
+      "url": "/api/v2/pokemon/504/"
+    },
+    {
+      "name": "watchog",
+      "url": "/api/v2/pokemon/505/"
+    },
+    {
+      "name": "pidove",
+      "url": "/api/v2/pokemon/519/"
+    },
+    {
+      "name": "tranquill",
+      "url": "/api/v2/pokemon/520/"
+    },
+    {
+      "name": "unfezant",
+      "url": "/api/v2/pokemon/521/"
+    },
+    {
+      "name": "timburr",
+      "url": "/api/v2/pokemon/532/"
+    },
+    {
+      "name": "gurdurr",
+      "url": "/api/v2/pokemon/533/"
+    },
+    {
+      "name": "conkeldurr",
+      "url": "/api/v2/pokemon/534/"
+    },
+    {
+      "name": "scraggy",
+      "url": "/api/v2/pokemon/559/"
+    },
+    {
+      "name": "scrafty",
+      "url": "/api/v2/pokemon/560/"
+    },
+    {
+      "name": "zorua",
+      "url": "/api/v2/pokemon/570/"
+    },
+    {
+      "name": "zoroark",
+      "url": "/api/v2/pokemon/571/"
+    },
+    {
+      "name": "mienfoo",
+      "url": "/api/v2/pokemon/619/"
+    },
+    {
+      "name": "mienshao",
+      "url": "/api/v2/pokemon/620/"
+    },
+    {
+      "name": "pangoro",
+      "url": "/api/v2/pokemon/675/"
+    },
+    {
+      "name": "sylveon",
+      "url": "/api/v2/pokemon/700/"
+    },
+    {
+      "name": "hawlucha",
+      "url": "/api/v2/pokemon/701/"
+    },
+    {
+      "name": "kartana",
+      "url": "/api/v2/pokemon/798/"
+    },
+    {
+      "name": "clobbopus",
+      "url": "/api/v2/pokemon/852/"
+    },
+    {
+      "name": "grapploct",
+      "url": "/api/v2/pokemon/853/"
+    },
+    {
+      "name": "sirfetchd",
+      "url": "/api/v2/pokemon/865/"
+    },
+    {
+      "name": "kubfu",
+      "url": "/api/v2/pokemon/891/"
+    },
+    {
+      "name": "urshifu-single-strike",
+      "url": "/api/v2/pokemon/892/"
+    },
+    {
+      "name": "quaxly",
+      "url": "/api/v2/pokemon/912/"
+    },
+    {
+      "name": "quaquaval",
+      "url": "/api/v2/pokemon/914/"
+    },
+    {
+      "name": "lokix",
+      "url": "/api/v2/pokemon/920/"
+    },
+    {
+      "name": "flamigo",
+      "url": "/api/v2/pokemon/973/"
+    },
+    {
+      "name": "iron-hands",
+      "url": "/api/v2/pokemon/992/"
+    },
+    {
+      "name": "pinsir-mega",
+      "url": "/api/v2/pokemon/10040/"
+    },
+    {
+      "name": "heracross-mega",
+      "url": "/api/v2/pokemon/10047/"
+    },
+    {
+      "name": "blaziken-mega",
+      "url": "/api/v2/pokemon/10050/"
+    },
+    {
+      "name": "medicham-mega",
+      "url": "/api/v2/pokemon/10054/"
+    },
+    {
+      "name": "absol-mega",
+      "url": "/api/v2/pokemon/10057/"
+    },
+    {
+      "name": "lucario-mega",
+      "url": "/api/v2/pokemon/10059/"
+    },
+    {
+      "name": "sceptile-mega",
+      "url": "/api/v2/pokemon/10065/"
+    },
+    {
+      "name": "sableye-mega",
+      "url": "/api/v2/pokemon/10066/"
+    },
+    {
+      "name": "farfetchd-galar",
+      "url": "/api/v2/pokemon/10166/"
+    },
+    {
+      "name": "zapdos-galar",
+      "url": "/api/v2/pokemon/10170/"
+    },
+    {
+      "name": "urshifu-rapid-strike",
+      "url": "/api/v2/pokemon/10191/"
+    },
+    {
+      "name": "samurott-hisui",
+      "url": "/api/v2/pokemon/10236/"
+    },
+    {
+      "name": "zorua-hisui",
+      "url": "/api/v2/pokemon/10238/"
+    },
+    {
+      "name": "zoroark-hisui",
+      "url": "/api/v2/pokemon/10239/"
+    },
+    {
+      "name": "scrafty-mega",
+      "url": "/api/v2/pokemon/10289/"
+    },
+    {
+      "name": "hawlucha-mega",
+      "url": "/api/v2/pokemon/10300/"
+    }
+  ]
 }

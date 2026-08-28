@@ -1,180 +1,181 @@
 {
-    "form_name": "complete",
-    "form_names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30d1\u30fc\u30d5\u30a7\u30af\u30c8\u30d5\u30a9\u30eb\u30e0"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ud37c\ud399\ud2b8\ud3fc"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u5b8c\u5168\u9ad4\u5f62\u614b"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Forme Parfaite"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Optimumform"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Forma Completa"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Forma Perfetta"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Complete Forme"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30d1\u30fc\u30d5\u30a7\u30af\u30c8\u30d5\u30a9\u30eb\u30e0"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u5b8c\u5168\u4f53\u5f62\u6001"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Forma Completa"
-        }
-    ],
-    "form_order": 5,
-    "id": 10222,
-    "is_battle_only": true,
-    "is_default": true,
-    "is_mega": false,
+  "id": 10222,
+  "name": "zygarde-complete",
+  "order": 1039,
+  "form_order": 5,
+  "is_default": true,
+  "is_battle_only": true,
+  "is_mega": false,
+  "form_name": "complete",
+  "pokemon": {
     "name": "zygarde-complete",
-    "names": [
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Zygarde Forme Parfaite"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Zygarde (Optimum)"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Complete Zygarde"
+    "url": "/api/v2/pokemon/10120/"
+  },
+  "sprites": {
+    "versions": {
+      "generation-ix": {
+        "scarlet-violet": {
+          "front_female": null,
+          "front_default": null
         }
-    ],
-    "order": 1039,
-    "pokemon": {
-        "name": "zygarde-complete",
-        "url": "/api/v2/pokemon/10120/"
+      },
+      "generation-viii": {
+        "brilliant-diamond-shining-pearl": {
+          "front_female": null,
+          "front_default": null
+        }
+      }
     },
-    "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10120.png",
-        "back_female": null,
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10120.png",
-        "back_shiny_female": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10120.png",
-        "front_female": null,
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10120.png",
-        "front_shiny_female": null,
-        "versions": {
-            "generation-ix": {
-                "scarlet-violet": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            },
-            "generation-viii": {
-                "brilliant-diamond-shining-pearl": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            }
-        }
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10120.png",
+    "back_female": null,
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10120.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10120.png",
+    "front_female": null,
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10120.png",
+    "back_shiny_female": null,
+    "front_shiny_female": null
+  },
+  "version_group": {
+    "name": "sun-moon",
+    "url": "/api/v2/version-group/17/"
+  },
+  "form_names": [
+    {
+      "name": "パーフェクトフォルム",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
     },
-    "trigger_conditions": [
-        {
-            "base_form": {
-                "name": "zygarde-10-power-construct",
-                "url": "/api/v2/pokemon-form/10220/"
-            },
-            "name": "power-construct",
-            "trigger": "ability",
-            "url": "/api/v2/ability/211/"
-        },
-        {
-            "base_form": {
-                "name": "zygarde-50-power-construct",
-                "url": "/api/v2/pokemon-form/10221/"
-            },
-            "name": "power-construct",
-            "trigger": "ability",
-            "url": "/api/v2/ability/211/"
-        }
-    ],
-    "types": [
-        {
-            "slot": 1,
-            "type": {
-                "name": "dragon",
-                "url": "/api/v2/type/16/"
-            }
-        },
-        {
-            "slot": 2,
-            "type": {
-                "name": "ground",
-                "url": "/api/v2/type/5/"
-            }
-        }
-    ],
-    "version_group": {
-        "name": "sun-moon",
-        "url": "/api/v2/version-group/17/"
+    {
+      "name": "퍼펙트폼",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "完全體形態",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Forme Parfaite",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Optimumform",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Forma Completa",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Forma Perfetta",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Complete Forme",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "パーフェクトフォルム",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "完全体形态",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Forma Completa",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
     }
+  ],
+  "names": [
+    {
+      "name": "Zygarde Forme Parfaite",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Zygarde (Optimum)",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Complete Zygarde",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "dragon",
+        "url": "/api/v2/type/16/"
+      }
+    },
+    {
+      "slot": 2,
+      "type": {
+        "name": "ground",
+        "url": "/api/v2/type/5/"
+      }
+    }
+  ],
+  "trigger_conditions": [
+    {
+      "trigger": "ability",
+      "name": "power-construct",
+      "url": "/api/v2/ability/211/",
+      "base_form": {
+        "name": "zygarde-10-power-construct",
+        "url": "/api/v2/pokemon-form/10220/"
+      }
+    },
+    {
+      "trigger": "ability",
+      "name": "power-construct",
+      "url": "/api/v2/ability/211/",
+      "base_form": {
+        "name": "zygarde-50-power-construct",
+        "url": "/api/v2/pokemon-form/10221/"
+      }
+    }
+  ],
+  "flavor_text_entries": []
 }

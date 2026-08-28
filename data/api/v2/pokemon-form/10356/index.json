@@ -1,167 +1,168 @@
 {
-    "form_name": "hangry",
-    "form_names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u306f\u3089\u307a\u3053\u3082\u3088\u3046"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ubc30\uace0\ud508 \ubaa8\uc591"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u7a7a\u8179\u82b1\u7d0b"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Mode Affam\u00e9"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Kohldampfmuster"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Forma Voraz"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Motivo Panciavuota"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Hangry Mode"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u306f\u3089\u307a\u3053\u3082\u3088\u3046"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u7a7a\u8179\u82b1\u7eb9"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Forma Voraz"
-        }
-    ],
-    "form_order": 2,
-    "id": 10356,
-    "is_battle_only": true,
-    "is_default": true,
-    "is_mega": false,
+  "id": 10356,
+  "name": "morpeko-hangry",
+  "order": 1276,
+  "form_order": 2,
+  "is_default": true,
+  "is_battle_only": true,
+  "is_mega": false,
+  "form_name": "hangry",
+  "pokemon": {
     "name": "morpeko-hangry",
-    "names": [
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Morpeko Affam\u00e9"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Morpeko (Kohldampf)"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Hangry Morpeko"
+    "url": "/api/v2/pokemon/10187/"
+  },
+  "sprites": {
+    "versions": {
+      "generation-ix": {
+        "scarlet-violet": {
+          "front_female": null,
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10187.png"
         }
-    ],
-    "order": 1276,
-    "pokemon": {
-        "name": "morpeko-hangry",
-        "url": "/api/v2/pokemon/10187/"
+      },
+      "generation-viii": {
+        "brilliant-diamond-shining-pearl": {
+          "front_female": null,
+          "front_default": null
+        }
+      }
     },
-    "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10187.png",
-        "back_female": null,
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10187.png",
-        "back_shiny_female": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10187.png",
-        "front_female": null,
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10187.png",
-        "front_shiny_female": null,
-        "versions": {
-            "generation-ix": {
-                "scarlet-violet": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10187.png",
-                    "front_female": null
-                }
-            },
-            "generation-viii": {
-                "brilliant-diamond-shining-pearl": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            }
-        }
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10187.png",
+    "back_female": null,
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10187.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10187.png",
+    "front_female": null,
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10187.png",
+    "back_shiny_female": null,
+    "front_shiny_female": null
+  },
+  "version_group": {
+    "name": "sword-shield",
+    "url": "/api/v2/version-group/20/"
+  },
+  "form_names": [
+    {
+      "name": "はらぺこもよう",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
     },
-    "trigger_conditions": [
-        {
-            "name": "hunger-switch",
-            "trigger": "ability",
-            "url": "/api/v2/ability/258/"
-        }
-    ],
-    "types": [
-        {
-            "slot": 1,
-            "type": {
-                "name": "electric",
-                "url": "/api/v2/type/13/"
-            }
-        },
-        {
-            "slot": 2,
-            "type": {
-                "name": "dark",
-                "url": "/api/v2/type/17/"
-            }
-        }
-    ],
-    "version_group": {
-        "name": "sword-shield",
-        "url": "/api/v2/version-group/20/"
+    {
+      "name": "배고픈 모양",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "空腹花紋",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Mode Affamé",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Kohldampfmuster",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Forma Voraz",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Motivo Panciavuota",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Hangry Mode",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "はらぺこもよう",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "空腹花纹",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Forma Voraz",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
     }
+  ],
+  "names": [
+    {
+      "name": "Morpeko Affamé",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Morpeko (Kohldampf)",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Hangry Morpeko",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "electric",
+        "url": "/api/v2/type/13/"
+      }
+    },
+    {
+      "slot": 2,
+      "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+      }
+    }
+  ],
+  "trigger_conditions": [
+    {
+      "trigger": "ability",
+      "name": "hunger-switch",
+      "url": "/api/v2/ability/258/"
+    }
+  ],
+  "flavor_text_entries": []
 }

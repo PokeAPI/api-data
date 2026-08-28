@@ -1,83 +1,83 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 775,
-    "location": {
-        "name": "castelia-city",
-        "url": "/api/v2/location/350/"
+  "id": 775,
+  "name": "castelia-city-game-freak-hq-1f",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "castelia-city",
+    "url": "/api/v2/location/350/"
+  },
+  "names": [
+    {
+      "name": "Game Freak HQ 1F (Castelia City)",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     },
-    "name": "castelia-city-game-freak-hq-1f",
-    "names": [
+    {
+      "name": "Game Freak Gebäude (Stratos City)",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Bureaux de Game Freak (Volucité)",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "zorua",
+        "url": "/api/v2/pokemon/570/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Game Freak HQ 1F (Castelia City)"
+          "version": {
+            "name": "black",
+            "url": "/api/v2/version/17/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 10,
+              "max_level": 10,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Game Freak Geb\u00e4ude (Stratos City)"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Bureaux de Game Freak (Volucit\u00e9)"
+          "version": {
+            "name": "white",
+            "url": "/api/v2/version/18/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 10,
+              "max_level": 10,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "zorua",
-                "url": "/api/v2/pokemon/570/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 10,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 10,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "black",
-                        "url": "/api/v2/version/17/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 10,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 10,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "white",
-                        "url": "/api/v2/version/18/"
-                    }
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }

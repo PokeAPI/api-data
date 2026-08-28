@@ -1,626 +1,626 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "damage_relations": {
-            "properties": {
-                "double_damage_from": {
-                    "items": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "type": "array"
-                },
-                "double_damage_to": {
-                    "items": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "type": "array"
-                },
-                "half_damage_from": {
-                    "items": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "type": "array"
-                },
-                "half_damage_to": {
-                    "items": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "type": "array"
-                },
-                "no_damage_from": {
-                    "items": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "type": "array"
-                },
-                "no_damage_to": {
-                    "items": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "type": "array"
-                }
-            },
-            "required": [
-                "double_damage_from",
-                "double_damage_to",
-                "half_damage_from",
-                "half_damage_to",
-                "no_damage_from",
-                "no_damage_to"
-            ],
-            "type": "object"
-        },
-        "game_indices": {
-            "items": {
-                "$ref": "/schema/v2/generation_game_index.json"
-            },
-            "type": "array"
-        },
-        "generation": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "move_damage_class": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/named_api_resource.json"
-                }
-            ]
-        },
-        "moves": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        },
-        "past_damage_relations": {
-            "items": {
-                "properties": {
-                    "damage_relations": {
-                        "properties": {
-                            "double_damage_from": {
-                                "items": {
-                                    "$ref": "/schema/v2/named_api_resource.json"
-                                },
-                                "type": "array"
-                            },
-                            "double_damage_to": {
-                                "items": {
-                                    "$ref": "/schema/v2/named_api_resource.json"
-                                },
-                                "type": "array"
-                            },
-                            "half_damage_from": {
-                                "items": {
-                                    "$ref": "/schema/v2/named_api_resource.json"
-                                },
-                                "type": "array"
-                            },
-                            "half_damage_to": {
-                                "items": {
-                                    "$ref": "/schema/v2/named_api_resource.json"
-                                },
-                                "type": "array"
-                            },
-                            "no_damage_from": {
-                                "items": {
-                                    "$ref": "/schema/v2/named_api_resource.json"
-                                },
-                                "type": "array"
-                            },
-                            "no_damage_to": {
-                                "items": {
-                                    "$ref": "/schema/v2/named_api_resource.json"
-                                },
-                                "type": "array"
-                            }
-                        },
-                        "required": [
-                            "double_damage_from",
-                            "double_damage_to",
-                            "half_damage_from",
-                            "half_damage_to",
-                            "no_damage_from",
-                            "no_damage_to"
-                        ],
-                        "type": "object"
-                    },
-                    "generation": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "damage_relations",
-                    "generation"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "pokemon": {
-            "items": {
-                "properties": {
-                    "pokemon": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "slot": {
-                        "type": "integer"
-                    }
-                },
-                "required": [
-                    "pokemon",
-                    "slot"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "sprites": {
-            "properties": {
-                "generation-iii": {
-                    "properties": {
-                        "colosseum": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "emerald": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "firered-leafgreen": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "ruby-sapphire": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "xd": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "colosseum",
-                        "emerald",
-                        "firered-leafgreen",
-                        "ruby-sapphire",
-                        "xd"
-                    ],
-                    "type": "object"
-                },
-                "generation-iv": {
-                    "properties": {
-                        "diamond-pearl": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "heartgold-soulsilver": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "platinum": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "diamond-pearl",
-                        "heartgold-soulsilver",
-                        "platinum"
-                    ],
-                    "type": "object"
-                },
-                "generation-ix": {
-                    "properties": {
-                        "scarlet-violet": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "scarlet-violet"
-                    ],
-                    "type": "object"
-                },
-                "generation-v": {
-                    "properties": {
-                        "black-2-white-2": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "black-white": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "black-2-white-2",
-                        "black-white"
-                    ],
-                    "type": "object"
-                },
-                "generation-vi": {
-                    "properties": {
-                        "omega-ruby-alpha-sapphire": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "x-y": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "omega-ruby-alpha-sapphire",
-                        "x-y"
-                    ],
-                    "type": "object"
-                },
-                "generation-vii": {
-                    "properties": {
-                        "lets-go-pikachu-lets-go-eevee": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "sun-moon": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "ultra-sun-ultra-moon": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": "null"
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "lets-go-pikachu-lets-go-eevee",
-                        "sun-moon",
-                        "ultra-sun-ultra-moon"
-                    ],
-                    "type": "object"
-                },
-                "generation-viii": {
-                    "properties": {
-                        "brilliant-diamond-shining-pearl": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "legends-arceus": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        },
-                        "sword-shield": {
-                            "properties": {
-                                "name_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                },
-                                "symbol_icon": {
-                                    "type": [
-                                        "null",
-                                        "string"
-                                    ]
-                                }
-                            },
-                            "required": [
-                                "name_icon",
-                                "symbol_icon"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "brilliant-diamond-shining-pearl",
-                        "legends-arceus",
-                        "sword-shield"
-                    ],
-                    "type": "object"
-                }
-            },
-            "required": [
-                "generation-iii",
-                "generation-iv",
-                "generation-ix",
-                "generation-v",
-                "generation-vi",
-                "generation-vii",
-                "generation-viii"
-            ],
-            "type": "object"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "damage_relations",
-        "game_indices",
-        "generation",
-        "id",
-        "move_damage_class",
-        "moves",
-        "name",
-        "names",
-        "past_damage_relations",
-        "pokemon",
-        "sprites"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "damage_relations": {
+      "type": "object",
+      "properties": {
+        "no_damage_to": {
+          "type": "array",
+          "items": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "half_damage_to": {
+          "type": "array",
+          "items": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "double_damage_to": {
+          "type": "array",
+          "items": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "no_damage_from": {
+          "type": "array",
+          "items": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "half_damage_from": {
+          "type": "array",
+          "items": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "double_damage_from": {
+          "type": "array",
+          "items": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        }
+      },
+      "required": [
+        "double_damage_from",
+        "double_damage_to",
+        "half_damage_from",
+        "half_damage_to",
+        "no_damage_from",
+        "no_damage_to"
+      ]
+    },
+    "past_damage_relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "generation": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          },
+          "damage_relations": {
+            "type": "object",
+            "properties": {
+              "no_damage_to": {
+                "type": "array",
+                "items": {
+                  "$ref": "/schema/v2/named_api_resource.json"
+                }
+              },
+              "half_damage_to": {
+                "type": "array",
+                "items": {
+                  "$ref": "/schema/v2/named_api_resource.json"
+                }
+              },
+              "double_damage_to": {
+                "type": "array",
+                "items": {
+                  "$ref": "/schema/v2/named_api_resource.json"
+                }
+              },
+              "no_damage_from": {
+                "type": "array",
+                "items": {
+                  "$ref": "/schema/v2/named_api_resource.json"
+                }
+              },
+              "half_damage_from": {
+                "type": "array",
+                "items": {
+                  "$ref": "/schema/v2/named_api_resource.json"
+                }
+              },
+              "double_damage_from": {
+                "type": "array",
+                "items": {
+                  "$ref": "/schema/v2/named_api_resource.json"
+                }
+              }
+            },
+            "required": [
+              "double_damage_from",
+              "double_damage_to",
+              "half_damage_from",
+              "half_damage_to",
+              "no_damage_from",
+              "no_damage_to"
+            ]
+          }
+        },
+        "required": [
+          "damage_relations",
+          "generation"
+        ]
+      }
+    },
+    "game_indices": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/generation_game_index.json"
+      }
+    },
+    "generation": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "move_damage_class": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "/schema/v2/named_api_resource.json"
+        }
+      ]
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    },
+    "pokemon": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slot": {
+            "type": "integer"
+          },
+          "pokemon": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "pokemon",
+          "slot"
+        ]
+      }
+    },
+    "moves": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    },
+    "sprites": {
+      "type": "object",
+      "properties": {
+        "generation-v": {
+          "type": "object",
+          "properties": {
+            "black-white": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "black-2-white-2": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            }
+          },
+          "required": [
+            "black-2-white-2",
+            "black-white"
+          ]
+        },
+        "generation-iv": {
+          "type": "object",
+          "properties": {
+            "platinum": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "diamond-pearl": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "heartgold-soulsilver": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            }
+          },
+          "required": [
+            "diamond-pearl",
+            "heartgold-soulsilver",
+            "platinum"
+          ]
+        },
+        "generation-ix": {
+          "type": "object",
+          "properties": {
+            "scarlet-violet": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            }
+          },
+          "required": [
+            "scarlet-violet"
+          ]
+        },
+        "generation-vi": {
+          "type": "object",
+          "properties": {
+            "x-y": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "omega-ruby-alpha-sapphire": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            }
+          },
+          "required": [
+            "omega-ruby-alpha-sapphire",
+            "x-y"
+          ]
+        },
+        "generation-iii": {
+          "type": "object",
+          "properties": {
+            "xd": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "emerald": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "colosseum": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "ruby-sapphire": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "firered-leafgreen": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            }
+          },
+          "required": [
+            "colosseum",
+            "emerald",
+            "firered-leafgreen",
+            "ruby-sapphire",
+            "xd"
+          ]
+        },
+        "generation-vii": {
+          "type": "object",
+          "properties": {
+            "sun-moon": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "ultra-sun-ultra-moon": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "lets-go-pikachu-lets-go-eevee": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            }
+          },
+          "required": [
+            "lets-go-pikachu-lets-go-eevee",
+            "sun-moon",
+            "ultra-sun-ultra-moon"
+          ]
+        },
+        "generation-viii": {
+          "type": "object",
+          "properties": {
+            "sword-shield": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "legends-arceus": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
+            "brilliant-diamond-shining-pearl": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            }
+          },
+          "required": [
+            "brilliant-diamond-shining-pearl",
+            "legends-arceus",
+            "sword-shield"
+          ]
+        }
+      },
+      "required": [
+        "generation-iii",
+        "generation-iv",
+        "generation-ix",
+        "generation-v",
+        "generation-vi",
+        "generation-vii",
+        "generation-viii"
+      ]
+    }
+  },
+  "required": [
+    "damage_relations",
+    "game_indices",
+    "generation",
+    "id",
+    "move_damage_class",
+    "moves",
+    "name",
+    "names",
+    "past_damage_relations",
+    "pokemon",
+    "sprites"
+  ]
 }

@@ -1,2289 +1,2289 @@
 {
-    "accuracy": 100,
-    "contest_combos": {
-        "normal": {
-            "use_after": [
-                {
-                    "name": "focus-energy",
-                    "url": "/api/v2/move/116/"
-                }
-            ],
-            "use_before": null
-        },
-        "super": {
-            "use_after": null,
-            "use_before": null
+  "id": 264,
+  "name": "focus-punch",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": -3,
+  "power": 150,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "focus-energy",
+          "url": "/api/v2/move/116/"
         }
+      ]
     },
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/31/"
-    },
-    "contest_type": {
-        "name": "tough",
-        "url": "/api/v2/contest-type/5/"
-    },
-    "damage_class": {
-        "name": "physical",
-        "url": "/api/v2/move-damage-class/2/"
-    },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  Si le lanceur subit des d\u00e9g\u00e2ts ce tour avant de frapper, cette capacit\u00e9 \u00e9chouera.\n\nCette capacit\u00e9 ne peut pas \u00eatre copi\u00e9e par Mimique, ni s\u00e9lectionn\u00e9e par Assistance, M\u00e9tronome, ou Blabla Dodo.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Si le lanceur subit des d\u00e9g\u00e2ts avant d'attaquer, l'attaque est annul\u00e9e."
-        },
-        {
-            "effect": "Inflicts regular damage.  If the user takes damage this turn before hitting, this move will fail.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist, Metronome, or Sleep Talk.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "If the user takes damage before attacking, the attack is canceled."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "A powerful loyalty attack.\nThe user flinches if hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "A powerful loyalty attack.\nThe user flinches if hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "An attack that is\nexecuted last.\nThe user flinches\nif hit beforehand.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se concentre avant\nd\u2019attaquer. \u00c9choue s\u2019il est touch\u00e9\navant d\u2019avoir frapp\u00e9.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before\nlaunching a punch. It will fail if the user\nis hit before it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before\nlaunching a punch. It will fail if the user\nis hit before it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u305b\u3044\u3057\u3093\u3092\u3000\u305f\u304b\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\n\u304f\u308a\u3060\u3059\u3002\u308f\u3056\u3092\u3000\u3060\u3059\u3000\u307e\u3067\u306b\n\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u308b\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uc815\uc2e0\ub825\uc744 \ub192\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uae30\uc220\uc744 \uc4f0\uae30 \uc804\uc5d0\n\uacf5\uaca9\uc744 \ubc1b\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se concentre avant d\u2019attaquer.\n\u00c9choue s\u2019il est touch\u00e9 avant d\u2019avoir frapp\u00e9.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallir\u00e0 se verr\u00e0 colpito prima\ndi eseguire la mossa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before\nlaunching a punch. This move fails\nif the user is hit before it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u7cbe\u795e\u3092\u3000\u9ad8\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u6280\u3092\u3000\u3060\u3059\u307e\u3067\u306b\n\u653b\u6483\u3092\u3000\u53d7\u3051\u308b\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u305b\u3044\u3057\u3093\u3092\u3000\u305f\u304b\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\n\u304f\u308a\u3060\u3059\u3002\u308f\u3056\u3092\u3000\u3060\u3059\u3000\u307e\u3067\u306b\n\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u308b\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uc815\uc2e0\ub825\uc744 \ub192\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uae30\uc220\uc744 \uc4f0\uae30 \uc804\uc5d0\n\uacf5\uaca9\uc744 \ubc1b\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se concentre avant d\u2019attaquer.\n\u00c9choue s\u2019il est touch\u00e9 avant d\u2019avoir frapp\u00e9.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallir\u00e0 se verr\u00e0 colpito prima\ndi eseguire la mossa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before\nlaunching a punch. This move fails\nif the user is hit before it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u7cbe\u795e\u3092\u3000\u9ad8\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u6280\u3092\u3000\u3060\u3059\u307e\u3067\u306b\n\u653b\u6483\u3092\u3000\u53d7\u3051\u308b\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u305b\u3044\u3057\u3093\u3092\u3000\u305f\u304b\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\n\u304f\u308a\u3060\u3059\u3002\u3000\u308f\u3056\u3092\u3000\u3060\u3059\u3000\u307e\u3067\u306b\n\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u308b\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc815\uc2e0\ub825\uc744 \ub192\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uae30\uc220\uc744 \uc4f0\uae30 \uc804\uc5d0\n\uacf5\uaca9\uc744 \ubc1b\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u96c6\u4e2d\u7cbe\u795e\u5f8c\u51fa\u62f3\u3002\n\u82e5\u51fa\u62f3\u524d\u53d7\u5230\u653b\u64ca\uff0c\n\u5247\u6703\u5931\u6557\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se concentre avant d\u2019attaquer.\n\u00c9choue s\u2019il est touch\u00e9 avant d\u2019avoir frapp\u00e9.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallir\u00e0 se verr\u00e0 colpito prima\ndi eseguire la mossa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7cbe\u795e\u3092\u3000\u9ad8\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u6280\u3092\u3000\u3060\u3059\u307e\u3067\u306b\n\u653b\u6483\u3092\u3000\u53d7\u3051\u308b\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u96c6\u4e2d\u7cbe\u795e\u51fa\u62f3\u3002\n\u5728\u62db\u5f0f\u4f7f\u51fa\u524d\n\u82e5\u53d7\u5230\u653b\u51fb\u5219\u4f1a\u5931\u8d25\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u305b\u3044\u3057\u3093\u3092\u3000\u305f\u304b\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\n\u304f\u308a\u3060\u3059\u3002\u3000\u308f\u3056\u3092\u3000\u3060\u3059\u3000\u307e\u3067\u306b\n\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u308b\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc815\uc2e0\ub825\uc744 \ub192\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uae30\uc220\uc744 \uc4f0\uae30 \uc804\uc5d0\n\uacf5\uaca9\uc744 \ubc1b\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u96c6\u4e2d\u7cbe\u795e\u5f8c\u51fa\u62f3\u3002\n\u82e5\u51fa\u62f3\u524d\u53d7\u5230\u653b\u64ca\uff0c\n\u5247\u6703\u5931\u6557\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se concentre avant d\u2019attaquer.\n\u00c9choue s\u2019il est touch\u00e9 avant d\u2019avoir frapp\u00e9.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallir\u00e0 se verr\u00e0 colpito prima\ndi eseguire la mossa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u7cbe\u795e\u3092\u3000\u9ad8\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u6280\u3092\u3000\u3060\u3059\u307e\u3067\u306b\n\u653b\u6483\u3092\u3000\u53d7\u3051\u308b\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u96c6\u4e2d\u7cbe\u795e\u51fa\u62f3\u3002\n\u5728\u62db\u5f0f\u4f7f\u51fa\u524d\n\u82e5\u53d7\u5230\u653b\u51fb\u5219\u4f1a\u5931\u8d25\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u305b\u3044\u3057\u3093\u3092\u3000\u305f\u304b\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\n\u304f\u308a\u3060\u3059\u3002\u3000\u308f\u3056\u3092\u3000\u3060\u3059\u3000\u307e\u3067\u306b\n\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u308b\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uc815\uc2e0\ub825\uc744 \ub192\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uae30\uc220\uc744 \uc4f0\uae30 \uc804\uc5d0\n\uacf5\uaca9\uc744 \ubc1b\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u96c6\u4e2d\u7cbe\u795e\u5f8c\u51fa\u62f3\u3002\n\u82e5\u51fa\u62f3\u524d\u53d7\u5230\u653b\u64ca\uff0c\n\u5247\u6703\u5931\u6557\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se concentre avant d\u2019attaquer.\n\u00c9choue s\u2019il est touch\u00e9 avant d\u2019avoir frapp\u00e9.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallir\u00e0 se verr\u00e0 colpito prima\ndi eseguire la mossa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u7cbe\u795e\u3092\u3000\u9ad8\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u6280\u3092\u3000\u3060\u3059\u307e\u3067\u306b\n\u653b\u6483\u3092\u3000\u53d7\u3051\u308b\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u96c6\u4e2d\u7cbe\u795e\u51fa\u62f3\u3002\n\u5728\u62db\u5f0f\u4f7f\u51fa\u524d\n\u82e5\u53d7\u5230\u653b\u51fb\u5219\u4f1a\u5931\u8d25\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se\nsufre un golpe antes de su uso.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u305b\u3044\u3057\u3093\u3092\u3000\u305f\u304b\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\n\u304f\u308a\u3060\u3059\u3002\u3000\u308f\u3056\u3092\u3000\u3060\u3059\u3000\u307e\u3067\u306b\n\u3053\u3046\u3052\u304d\u3092\u3000\u3046\u3051\u308b\u3068\u3000\u3057\u3063\u3071\u3044\u3000\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc815\uc2e0\ub825\uc744 \ub192\uc5ec \ud380\uce58\ub97c \ub0a0\ub9b0\ub2e4.\n\uae30\uc220\uc744 \uc4f0\uae30 \uc804\uc5d0\n\uacf5\uaca9\uc744 \ubc1b\uc73c\uba74 \uc2e4\ud328\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u96c6\u4e2d\u7cbe\u795e\u5f8c\u51fa\u62f3\u3002\n\u82e5\u51fa\u62f3\u524d\u53d7\u5230\u653b\u64ca\uff0c\n\u5247\u6703\u5931\u6557\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se concentre avant d\u2019attaquer.\n\u00c9choue s\u2019il est touch\u00e9 avant d\u2019avoir frapp\u00e9.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Anwender konzentriert sich, bevor er angreift. Wird er\nvorher getroffen, ist die Attacke erfolglos.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se sufre un\ngolpe antes de su uso.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallir\u00e0 se verr\u00e0 colpito prima\ndi eseguire la mossa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7cbe\u795e\u3092\u3000\u9ad8\u3081\u3066\u3000\u30d1\u30f3\u30c1\u3092\u3000\u304f\u308a\u3060\u3059\u3002\n\u6280\u3092\u3000\u3060\u3059\u307e\u3067\u306b\n\u653b\u6483\u3092\u3000\u53d7\u3051\u308b\u3068\u3000\u5931\u6557\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u96c6\u4e2d\u7cbe\u795e\u51fa\u62f3\u3002\n\u5728\u62db\u5f0f\u4f7f\u51fa\u524d\n\u82e5\u53d7\u5230\u653b\u51fb\u5219\u4f1a\u5931\u8d25\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Se concentra para dar un pu\u00f1etazo. Falla si se sufre un\ngolpe antes de su uso.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-iii",
-        "url": "/api/v2/generation/3/"
-    },
-    "id": 264,
-    "learned_by_pokemon": [
-        {
-            "name": "charmander",
-            "url": "/api/v2/pokemon/4/"
-        },
-        {
-            "name": "charmeleon",
-            "url": "/api/v2/pokemon/5/"
-        },
-        {
-            "name": "charizard",
-            "url": "/api/v2/pokemon/6/"
-        },
-        {
-            "name": "squirtle",
-            "url": "/api/v2/pokemon/7/"
-        },
-        {
-            "name": "wartortle",
-            "url": "/api/v2/pokemon/8/"
-        },
-        {
-            "name": "blastoise",
-            "url": "/api/v2/pokemon/9/"
-        },
-        {
-            "name": "pikachu",
-            "url": "/api/v2/pokemon/25/"
-        },
-        {
-            "name": "raichu",
-            "url": "/api/v2/pokemon/26/"
-        },
-        {
-            "name": "sandshrew",
-            "url": "/api/v2/pokemon/27/"
-        },
-        {
-            "name": "sandslash",
-            "url": "/api/v2/pokemon/28/"
-        },
-        {
-            "name": "nidoqueen",
-            "url": "/api/v2/pokemon/31/"
-        },
-        {
-            "name": "nidoking",
-            "url": "/api/v2/pokemon/34/"
-        },
-        {
-            "name": "clefairy",
-            "url": "/api/v2/pokemon/35/"
-        },
-        {
-            "name": "clefable",
-            "url": "/api/v2/pokemon/36/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "psyduck",
-            "url": "/api/v2/pokemon/54/"
-        },
-        {
-            "name": "golduck",
-            "url": "/api/v2/pokemon/55/"
-        },
-        {
-            "name": "mankey",
-            "url": "/api/v2/pokemon/56/"
-        },
-        {
-            "name": "primeape",
-            "url": "/api/v2/pokemon/57/"
-        },
-        {
-            "name": "poliwag",
-            "url": "/api/v2/pokemon/60/"
-        },
-        {
-            "name": "poliwhirl",
-            "url": "/api/v2/pokemon/61/"
-        },
-        {
-            "name": "poliwrath",
-            "url": "/api/v2/pokemon/62/"
-        },
-        {
-            "name": "abra",
-            "url": "/api/v2/pokemon/63/"
-        },
-        {
-            "name": "kadabra",
-            "url": "/api/v2/pokemon/64/"
-        },
-        {
-            "name": "alakazam",
-            "url": "/api/v2/pokemon/65/"
-        },
-        {
-            "name": "machop",
-            "url": "/api/v2/pokemon/66/"
-        },
-        {
-            "name": "machoke",
-            "url": "/api/v2/pokemon/67/"
-        },
-        {
-            "name": "machamp",
-            "url": "/api/v2/pokemon/68/"
-        },
-        {
-            "name": "geodude",
-            "url": "/api/v2/pokemon/74/"
-        },
-        {
-            "name": "graveler",
-            "url": "/api/v2/pokemon/75/"
-        },
-        {
-            "name": "golem",
-            "url": "/api/v2/pokemon/76/"
-        },
-        {
-            "name": "slowbro",
-            "url": "/api/v2/pokemon/80/"
-        },
-        {
-            "name": "muk",
-            "url": "/api/v2/pokemon/89/"
-        },
-        {
-            "name": "gengar",
-            "url": "/api/v2/pokemon/94/"
-        },
-        {
-            "name": "drowzee",
-            "url": "/api/v2/pokemon/96/"
-        },
-        {
-            "name": "hypno",
-            "url": "/api/v2/pokemon/97/"
-        },
-        {
-            "name": "cubone",
-            "url": "/api/v2/pokemon/104/"
-        },
-        {
-            "name": "marowak",
-            "url": "/api/v2/pokemon/105/"
-        },
-        {
-            "name": "hitmonlee",
-            "url": "/api/v2/pokemon/106/"
-        },
-        {
-            "name": "hitmonchan",
-            "url": "/api/v2/pokemon/107/"
-        },
-        {
-            "name": "lickitung",
-            "url": "/api/v2/pokemon/108/"
-        },
-        {
-            "name": "rhydon",
-            "url": "/api/v2/pokemon/112/"
-        },
-        {
-            "name": "chansey",
-            "url": "/api/v2/pokemon/113/"
-        },
-        {
-            "name": "kangaskhan",
-            "url": "/api/v2/pokemon/115/"
-        },
-        {
-            "name": "mr-mime",
-            "url": "/api/v2/pokemon/122/"
-        },
-        {
-            "name": "jynx",
-            "url": "/api/v2/pokemon/124/"
-        },
-        {
-            "name": "electabuzz",
-            "url": "/api/v2/pokemon/125/"
-        },
-        {
-            "name": "magmar",
-            "url": "/api/v2/pokemon/126/"
-        },
-        {
-            "name": "pinsir",
-            "url": "/api/v2/pokemon/127/"
-        },
-        {
-            "name": "snorlax",
-            "url": "/api/v2/pokemon/143/"
-        },
-        {
-            "name": "dragonite",
-            "url": "/api/v2/pokemon/149/"
-        },
-        {
-            "name": "mewtwo",
-            "url": "/api/v2/pokemon/150/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "quilava",
-            "url": "/api/v2/pokemon/156/"
-        },
-        {
-            "name": "typhlosion",
-            "url": "/api/v2/pokemon/157/"
-        },
-        {
-            "name": "totodile",
-            "url": "/api/v2/pokemon/158/"
-        },
-        {
-            "name": "croconaw",
-            "url": "/api/v2/pokemon/159/"
-        },
-        {
-            "name": "feraligatr",
-            "url": "/api/v2/pokemon/160/"
-        },
-        {
-            "name": "sentret",
-            "url": "/api/v2/pokemon/161/"
-        },
-        {
-            "name": "furret",
-            "url": "/api/v2/pokemon/162/"
-        },
-        {
-            "name": "ledyba",
-            "url": "/api/v2/pokemon/165/"
-        },
-        {
-            "name": "ledian",
-            "url": "/api/v2/pokemon/166/"
-        },
-        {
-            "name": "togetic",
-            "url": "/api/v2/pokemon/176/"
-        },
-        {
-            "name": "flaaffy",
-            "url": "/api/v2/pokemon/180/"
-        },
-        {
-            "name": "ampharos",
-            "url": "/api/v2/pokemon/181/"
-        },
-        {
-            "name": "marill",
-            "url": "/api/v2/pokemon/183/"
-        },
-        {
-            "name": "azumarill",
-            "url": "/api/v2/pokemon/184/"
-        },
-        {
-            "name": "sudowoodo",
-            "url": "/api/v2/pokemon/185/"
-        },
-        {
-            "name": "politoed",
-            "url": "/api/v2/pokemon/186/"
-        },
-        {
-            "name": "aipom",
-            "url": "/api/v2/pokemon/190/"
-        },
-        {
-            "name": "quagsire",
-            "url": "/api/v2/pokemon/195/"
-        },
-        {
-            "name": "slowking",
-            "url": "/api/v2/pokemon/199/"
-        },
-        {
-            "name": "snubbull",
-            "url": "/api/v2/pokemon/209/"
-        },
-        {
-            "name": "granbull",
-            "url": "/api/v2/pokemon/210/"
-        },
-        {
-            "name": "heracross",
-            "url": "/api/v2/pokemon/214/"
-        },
-        {
-            "name": "sneasel",
-            "url": "/api/v2/pokemon/215/"
-        },
-        {
-            "name": "teddiursa",
-            "url": "/api/v2/pokemon/216/"
-        },
-        {
-            "name": "ursaring",
-            "url": "/api/v2/pokemon/217/"
-        },
-        {
-            "name": "delibird",
-            "url": "/api/v2/pokemon/225/"
-        },
-        {
-            "name": "elekid",
-            "url": "/api/v2/pokemon/239/"
-        },
-        {
-            "name": "magby",
-            "url": "/api/v2/pokemon/240/"
-        },
-        {
-            "name": "miltank",
-            "url": "/api/v2/pokemon/241/"
-        },
-        {
-            "name": "blissey",
-            "url": "/api/v2/pokemon/242/"
-        },
-        {
-            "name": "tyranitar",
-            "url": "/api/v2/pokemon/248/"
-        },
-        {
-            "name": "treecko",
-            "url": "/api/v2/pokemon/252/"
-        },
-        {
-            "name": "grovyle",
-            "url": "/api/v2/pokemon/253/"
-        },
-        {
-            "name": "sceptile",
-            "url": "/api/v2/pokemon/254/"
-        },
-        {
-            "name": "combusken",
-            "url": "/api/v2/pokemon/256/"
-        },
-        {
-            "name": "blaziken",
-            "url": "/api/v2/pokemon/257/"
-        },
-        {
-            "name": "marshtomp",
-            "url": "/api/v2/pokemon/259/"
-        },
-        {
-            "name": "swampert",
-            "url": "/api/v2/pokemon/260/"
-        },
-        {
-            "name": "ludicolo",
-            "url": "/api/v2/pokemon/272/"
-        },
-        {
-            "name": "shroomish",
-            "url": "/api/v2/pokemon/285/"
-        },
-        {
-            "name": "breloom",
-            "url": "/api/v2/pokemon/286/"
-        },
-        {
-            "name": "slakoth",
-            "url": "/api/v2/pokemon/287/"
-        },
-        {
-            "name": "vigoroth",
-            "url": "/api/v2/pokemon/288/"
-        },
-        {
-            "name": "slaking",
-            "url": "/api/v2/pokemon/289/"
-        },
-        {
-            "name": "makuhita",
-            "url": "/api/v2/pokemon/296/"
-        },
-        {
-            "name": "hariyama",
-            "url": "/api/v2/pokemon/297/"
-        },
-        {
-            "name": "sableye",
-            "url": "/api/v2/pokemon/302/"
-        },
-        {
-            "name": "mawile",
-            "url": "/api/v2/pokemon/303/"
-        },
-        {
-            "name": "aggron",
-            "url": "/api/v2/pokemon/306/"
-        },
-        {
-            "name": "meditite",
-            "url": "/api/v2/pokemon/307/"
-        },
-        {
-            "name": "medicham",
-            "url": "/api/v2/pokemon/308/"
-        },
-        {
-            "name": "volbeat",
-            "url": "/api/v2/pokemon/313/"
-        },
-        {
-            "name": "illumise",
-            "url": "/api/v2/pokemon/314/"
-        },
-        {
-            "name": "grumpig",
-            "url": "/api/v2/pokemon/326/"
-        },
-        {
-            "name": "spinda",
-            "url": "/api/v2/pokemon/327/"
-        },
-        {
-            "name": "cacnea",
-            "url": "/api/v2/pokemon/331/"
-        },
-        {
-            "name": "cacturne",
-            "url": "/api/v2/pokemon/332/"
-        },
-        {
-            "name": "zangoose",
-            "url": "/api/v2/pokemon/335/"
-        },
-        {
-            "name": "kecleon",
-            "url": "/api/v2/pokemon/352/"
-        },
-        {
-            "name": "dusclops",
-            "url": "/api/v2/pokemon/356/"
-        },
-        {
-            "name": "metang",
-            "url": "/api/v2/pokemon/375/"
-        },
-        {
-            "name": "metagross",
-            "url": "/api/v2/pokemon/376/"
-        },
-        {
-            "name": "regirock",
-            "url": "/api/v2/pokemon/377/"
-        },
-        {
-            "name": "regice",
-            "url": "/api/v2/pokemon/378/"
-        },
-        {
-            "name": "registeel",
-            "url": "/api/v2/pokemon/379/"
-        },
-        {
-            "name": "groudon",
-            "url": "/api/v2/pokemon/383/"
-        },
-        {
-            "name": "deoxys-normal",
-            "url": "/api/v2/pokemon/386/"
-        },
-        {
-            "name": "chimchar",
-            "url": "/api/v2/pokemon/390/"
-        },
-        {
-            "name": "monferno",
-            "url": "/api/v2/pokemon/391/"
-        },
-        {
-            "name": "infernape",
-            "url": "/api/v2/pokemon/392/"
-        },
-        {
-            "name": "bibarel",
-            "url": "/api/v2/pokemon/400/"
-        },
-        {
-            "name": "rampardos",
-            "url": "/api/v2/pokemon/409/"
-        },
-        {
-            "name": "buizel",
-            "url": "/api/v2/pokemon/418/"
-        },
-        {
-            "name": "floatzel",
-            "url": "/api/v2/pokemon/419/"
-        },
-        {
-            "name": "ambipom",
-            "url": "/api/v2/pokemon/424/"
-        },
-        {
-            "name": "buneary",
-            "url": "/api/v2/pokemon/427/"
-        },
-        {
-            "name": "lopunny",
-            "url": "/api/v2/pokemon/428/"
-        },
-        {
-            "name": "mime-jr",
-            "url": "/api/v2/pokemon/439/"
-        },
-        {
-            "name": "munchlax",
-            "url": "/api/v2/pokemon/446/"
-        },
-        {
-            "name": "riolu",
-            "url": "/api/v2/pokemon/447/"
-        },
-        {
-            "name": "lucario",
-            "url": "/api/v2/pokemon/448/"
-        },
-        {
-            "name": "croagunk",
-            "url": "/api/v2/pokemon/453/"
-        },
-        {
-            "name": "toxicroak",
-            "url": "/api/v2/pokemon/454/"
-        },
-        {
-            "name": "abomasnow",
-            "url": "/api/v2/pokemon/460/"
-        },
-        {
-            "name": "weavile",
-            "url": "/api/v2/pokemon/461/"
-        },
-        {
-            "name": "lickilicky",
-            "url": "/api/v2/pokemon/463/"
-        },
-        {
-            "name": "rhyperior",
-            "url": "/api/v2/pokemon/464/"
-        },
-        {
-            "name": "electivire",
-            "url": "/api/v2/pokemon/466/"
-        },
-        {
-            "name": "magmortar",
-            "url": "/api/v2/pokemon/467/"
-        },
-        {
-            "name": "togekiss",
-            "url": "/api/v2/pokemon/468/"
-        },
-        {
-            "name": "gallade",
-            "url": "/api/v2/pokemon/475/"
-        },
-        {
-            "name": "dusknoir",
-            "url": "/api/v2/pokemon/477/"
-        },
-        {
-            "name": "palkia",
-            "url": "/api/v2/pokemon/484/"
-        },
-        {
-            "name": "regigigas",
-            "url": "/api/v2/pokemon/486/"
-        },
-        {
-            "name": "darkrai",
-            "url": "/api/v2/pokemon/491/"
-        },
-        {
-            "name": "pignite",
-            "url": "/api/v2/pokemon/499/"
-        },
-        {
-            "name": "emboar",
-            "url": "/api/v2/pokemon/500/"
-        },
-        {
-            "name": "watchog",
-            "url": "/api/v2/pokemon/505/"
-        },
-        {
-            "name": "pansage",
-            "url": "/api/v2/pokemon/511/"
-        },
-        {
-            "name": "simisage",
-            "url": "/api/v2/pokemon/512/"
-        },
-        {
-            "name": "pansear",
-            "url": "/api/v2/pokemon/513/"
-        },
-        {
-            "name": "simisear",
-            "url": "/api/v2/pokemon/514/"
-        },
-        {
-            "name": "panpour",
-            "url": "/api/v2/pokemon/515/"
-        },
-        {
-            "name": "simipour",
-            "url": "/api/v2/pokemon/516/"
-        },
-        {
-            "name": "audino",
-            "url": "/api/v2/pokemon/531/"
-        },
-        {
-            "name": "timburr",
-            "url": "/api/v2/pokemon/532/"
-        },
-        {
-            "name": "gurdurr",
-            "url": "/api/v2/pokemon/533/"
-        },
-        {
-            "name": "conkeldurr",
-            "url": "/api/v2/pokemon/534/"
-        },
-        {
-            "name": "palpitoad",
-            "url": "/api/v2/pokemon/536/"
-        },
-        {
-            "name": "seismitoad",
-            "url": "/api/v2/pokemon/537/"
-        },
-        {
-            "name": "throh",
-            "url": "/api/v2/pokemon/538/"
-        },
-        {
-            "name": "sawk",
-            "url": "/api/v2/pokemon/539/"
-        },
-        {
-            "name": "krokorok",
-            "url": "/api/v2/pokemon/552/"
-        },
-        {
-            "name": "krookodile",
-            "url": "/api/v2/pokemon/553/"
-        },
-        {
-            "name": "darumaka",
-            "url": "/api/v2/pokemon/554/"
-        },
-        {
-            "name": "darmanitan-standard",
-            "url": "/api/v2/pokemon/555/"
-        },
-        {
-            "name": "scraggy",
-            "url": "/api/v2/pokemon/559/"
-        },
-        {
-            "name": "scrafty",
-            "url": "/api/v2/pokemon/560/"
-        },
-        {
-            "name": "reuniclus",
-            "url": "/api/v2/pokemon/579/"
-        },
-        {
-            "name": "eelektross",
-            "url": "/api/v2/pokemon/604/"
-        },
-        {
-            "name": "cubchoo",
-            "url": "/api/v2/pokemon/613/"
-        },
-        {
-            "name": "beartic",
-            "url": "/api/v2/pokemon/614/"
-        },
-        {
-            "name": "mienfoo",
-            "url": "/api/v2/pokemon/619/"
-        },
-        {
-            "name": "mienshao",
-            "url": "/api/v2/pokemon/620/"
-        },
-        {
-            "name": "golett",
-            "url": "/api/v2/pokemon/622/"
-        },
-        {
-            "name": "golurk",
-            "url": "/api/v2/pokemon/623/"
-        },
-        {
-            "name": "heatmor",
-            "url": "/api/v2/pokemon/631/"
-        },
-        {
-            "name": "zekrom",
-            "url": "/api/v2/pokemon/644/"
-        },
-        {
-            "name": "meloetta-aria",
-            "url": "/api/v2/pokemon/648/"
-        },
-        {
-            "name": "chespin",
-            "url": "/api/v2/pokemon/650/"
-        },
-        {
-            "name": "quilladin",
-            "url": "/api/v2/pokemon/651/"
-        },
-        {
-            "name": "chesnaught",
-            "url": "/api/v2/pokemon/652/"
-        },
-        {
-            "name": "diggersby",
-            "url": "/api/v2/pokemon/660/"
-        },
-        {
-            "name": "pancham",
-            "url": "/api/v2/pokemon/674/"
-        },
-        {
-            "name": "pangoro",
-            "url": "/api/v2/pokemon/675/"
-        },
-        {
-            "name": "hawlucha",
-            "url": "/api/v2/pokemon/701/"
-        },
-        {
-            "name": "goodra",
-            "url": "/api/v2/pokemon/706/"
-        },
-        {
-            "name": "hoopa",
-            "url": "/api/v2/pokemon/720/"
-        },
-        {
-            "name": "decidueye",
-            "url": "/api/v2/pokemon/724/"
-        },
-        {
-            "name": "incineroar",
-            "url": "/api/v2/pokemon/727/"
-        },
-        {
-            "name": "gumshoos",
-            "url": "/api/v2/pokemon/735/"
-        },
-        {
-            "name": "crabrawler",
-            "url": "/api/v2/pokemon/739/"
-        },
-        {
-            "name": "crabominable",
-            "url": "/api/v2/pokemon/740/"
-        },
-        {
-            "name": "stufful",
-            "url": "/api/v2/pokemon/759/"
-        },
-        {
-            "name": "bewear",
-            "url": "/api/v2/pokemon/760/"
-        },
-        {
-            "name": "passimian",
-            "url": "/api/v2/pokemon/766/"
-        },
-        {
-            "name": "jangmo-o",
-            "url": "/api/v2/pokemon/782/"
-        },
-        {
-            "name": "hakamo-o",
-            "url": "/api/v2/pokemon/783/"
-        },
-        {
-            "name": "kommo-o",
-            "url": "/api/v2/pokemon/784/"
-        },
-        {
-            "name": "tapu-bulu",
-            "url": "/api/v2/pokemon/787/"
-        },
-        {
-            "name": "buzzwole",
-            "url": "/api/v2/pokemon/794/"
-        },
-        {
-            "name": "marshadow",
-            "url": "/api/v2/pokemon/802/"
-        },
-        {
-            "name": "zeraora",
-            "url": "/api/v2/pokemon/807/"
-        },
-        {
-            "name": "rillaboom",
-            "url": "/api/v2/pokemon/812/"
-        },
-        {
-            "name": "grimmsnarl",
-            "url": "/api/v2/pokemon/861/"
-        },
-        {
-            "name": "kubfu",
-            "url": "/api/v2/pokemon/891/"
-        },
-        {
-            "name": "urshifu-single-strike",
-            "url": "/api/v2/pokemon/892/"
-        },
-        {
-            "name": "zarude",
-            "url": "/api/v2/pokemon/893/"
-        },
-        {
-            "name": "ursaluna",
-            "url": "/api/v2/pokemon/901/"
-        },
-        {
-            "name": "sneasler",
-            "url": "/api/v2/pokemon/903/"
-        },
-        {
-            "name": "pawmo",
-            "url": "/api/v2/pokemon/922/"
-        },
-        {
-            "name": "pawmot",
-            "url": "/api/v2/pokemon/923/"
-        },
-        {
-            "name": "garganacl",
-            "url": "/api/v2/pokemon/934/"
-        },
-        {
-            "name": "palafin-zero",
-            "url": "/api/v2/pokemon/964/"
-        },
-        {
-            "name": "annihilape",
-            "url": "/api/v2/pokemon/979/"
-        },
-        {
-            "name": "iron-hands",
-            "url": "/api/v2/pokemon/992/"
-        },
-        {
-            "name": "gholdengo",
-            "url": "/api/v2/pokemon/1000/"
-        },
-        {
-            "name": "koraidon",
-            "url": "/api/v2/pokemon/1007/"
-        },
-        {
-            "name": "okidogi",
-            "url": "/api/v2/pokemon/1014/"
-        },
-        {
-            "name": "deoxys-attack",
-            "url": "/api/v2/pokemon/10001/"
-        },
-        {
-            "name": "deoxys-defense",
-            "url": "/api/v2/pokemon/10002/"
-        },
-        {
-            "name": "deoxys-speed",
-            "url": "/api/v2/pokemon/10003/"
-        },
-        {
-            "name": "darmanitan-zen",
-            "url": "/api/v2/pokemon/10017/"
-        },
-        {
-            "name": "meloetta-pirouette",
-            "url": "/api/v2/pokemon/10018/"
-        },
-        {
-            "name": "charizard-mega-x",
-            "url": "/api/v2/pokemon/10034/"
-        },
-        {
-            "name": "charizard-mega-y",
-            "url": "/api/v2/pokemon/10035/"
-        },
-        {
-            "name": "blastoise-mega",
-            "url": "/api/v2/pokemon/10036/"
-        },
-        {
-            "name": "alakazam-mega",
-            "url": "/api/v2/pokemon/10037/"
-        },
-        {
-            "name": "gengar-mega",
-            "url": "/api/v2/pokemon/10038/"
-        },
-        {
-            "name": "kangaskhan-mega",
-            "url": "/api/v2/pokemon/10039/"
-        },
-        {
-            "name": "pinsir-mega",
-            "url": "/api/v2/pokemon/10040/"
-        },
-        {
-            "name": "mewtwo-mega-x",
-            "url": "/api/v2/pokemon/10043/"
-        },
-        {
-            "name": "mewtwo-mega-y",
-            "url": "/api/v2/pokemon/10044/"
-        },
-        {
-            "name": "ampharos-mega",
-            "url": "/api/v2/pokemon/10045/"
-        },
-        {
-            "name": "heracross-mega",
-            "url": "/api/v2/pokemon/10047/"
-        },
-        {
-            "name": "tyranitar-mega",
-            "url": "/api/v2/pokemon/10049/"
-        },
-        {
-            "name": "blaziken-mega",
-            "url": "/api/v2/pokemon/10050/"
-        },
-        {
-            "name": "mawile-mega",
-            "url": "/api/v2/pokemon/10052/"
-        },
-        {
-            "name": "aggron-mega",
-            "url": "/api/v2/pokemon/10053/"
-        },
-        {
-            "name": "medicham-mega",
-            "url": "/api/v2/pokemon/10054/"
-        },
-        {
-            "name": "lucario-mega",
-            "url": "/api/v2/pokemon/10059/"
-        },
-        {
-            "name": "abomasnow-mega",
-            "url": "/api/v2/pokemon/10060/"
-        },
-        {
-            "name": "swampert-mega",
-            "url": "/api/v2/pokemon/10064/"
-        },
-        {
-            "name": "sceptile-mega",
-            "url": "/api/v2/pokemon/10065/"
-        },
-        {
-            "name": "sableye-mega",
-            "url": "/api/v2/pokemon/10066/"
-        },
-        {
-            "name": "gallade-mega",
-            "url": "/api/v2/pokemon/10068/"
-        },
-        {
-            "name": "audino-mega",
-            "url": "/api/v2/pokemon/10069/"
-        },
-        {
-            "name": "slowbro-mega",
-            "url": "/api/v2/pokemon/10071/"
-        },
-        {
-            "name": "metagross-mega",
-            "url": "/api/v2/pokemon/10076/"
-        },
-        {
-            "name": "pikachu-rock-star",
-            "url": "/api/v2/pokemon/10080/"
-        },
-        {
-            "name": "pikachu-belle",
-            "url": "/api/v2/pokemon/10081/"
-        },
-        {
-            "name": "pikachu-pop-star",
-            "url": "/api/v2/pokemon/10082/"
-        },
-        {
-            "name": "pikachu-phd",
-            "url": "/api/v2/pokemon/10083/"
-        },
-        {
-            "name": "pikachu-libre",
-            "url": "/api/v2/pokemon/10084/"
-        },
-        {
-            "name": "pikachu-cosplay",
-            "url": "/api/v2/pokemon/10085/"
-        },
-        {
-            "name": "hoopa-unbound",
-            "url": "/api/v2/pokemon/10086/"
-        },
-        {
-            "name": "lopunny-mega",
-            "url": "/api/v2/pokemon/10088/"
-        },
-        {
-            "name": "pikachu-original-cap",
-            "url": "/api/v2/pokemon/10094/"
-        },
-        {
-            "name": "pikachu-hoenn-cap",
-            "url": "/api/v2/pokemon/10095/"
-        },
-        {
-            "name": "pikachu-sinnoh-cap",
-            "url": "/api/v2/pokemon/10096/"
-        },
-        {
-            "name": "pikachu-unova-cap",
-            "url": "/api/v2/pokemon/10097/"
-        },
-        {
-            "name": "pikachu-kalos-cap",
-            "url": "/api/v2/pokemon/10098/"
-        },
-        {
-            "name": "pikachu-alola-cap",
-            "url": "/api/v2/pokemon/10099/"
-        },
-        {
-            "name": "raichu-alola",
-            "url": "/api/v2/pokemon/10100/"
-        },
-        {
-            "name": "sandshrew-alola",
-            "url": "/api/v2/pokemon/10101/"
-        },
-        {
-            "name": "sandslash-alola",
-            "url": "/api/v2/pokemon/10102/"
-        },
-        {
-            "name": "geodude-alola",
-            "url": "/api/v2/pokemon/10109/"
-        },
-        {
-            "name": "graveler-alola",
-            "url": "/api/v2/pokemon/10110/"
-        },
-        {
-            "name": "golem-alola",
-            "url": "/api/v2/pokemon/10111/"
-        },
-        {
-            "name": "muk-alola",
-            "url": "/api/v2/pokemon/10113/"
-        },
-        {
-            "name": "marowak-alola",
-            "url": "/api/v2/pokemon/10115/"
-        },
-        {
-            "name": "lycanroc-midnight",
-            "url": "/api/v2/pokemon/10126/"
-        },
-        {
-            "name": "kommo-o-totem",
-            "url": "/api/v2/pokemon/10146/"
-        },
-        {
-            "name": "pikachu-partner-cap",
-            "url": "/api/v2/pokemon/10148/"
-        },
-        {
-            "name": "marowak-totem",
-            "url": "/api/v2/pokemon/10149/"
-        },
-        {
-            "name": "darumaka-galar",
-            "url": "/api/v2/pokemon/10176/"
-        },
-        {
-            "name": "urshifu-rapid-strike",
-            "url": "/api/v2/pokemon/10191/"
-        },
-        {
-            "name": "zarude-dada",
-            "url": "/api/v2/pokemon/10192/"
-        },
-        {
-            "name": "typhlosion-hisui",
-            "url": "/api/v2/pokemon/10233/"
-        },
-        {
-            "name": "sneasel-hisui",
-            "url": "/api/v2/pokemon/10235/"
-        },
-        {
-            "name": "zorua-hisui",
-            "url": "/api/v2/pokemon/10238/"
-        },
-        {
-            "name": "zoroark-hisui",
-            "url": "/api/v2/pokemon/10239/"
-        },
-        {
-            "name": "decidueye-hisui",
-            "url": "/api/v2/pokemon/10244/"
-        },
-        {
-            "name": "palafin-hero",
-            "url": "/api/v2/pokemon/10256/"
-        },
-        {
-            "name": "koraidon-limited-build",
-            "url": "/api/v2/pokemon/10264/"
-        },
-        {
-            "name": "koraidon-sprinting-build",
-            "url": "/api/v2/pokemon/10265/"
-        },
-        {
-            "name": "koraidon-swimming-build",
-            "url": "/api/v2/pokemon/10266/"
-        },
-        {
-            "name": "koraidon-gliding-build",
-            "url": "/api/v2/pokemon/10267/"
-        },
-        {
-            "name": "ursaluna-bloodmoon",
-            "url": "/api/v2/pokemon/10272/"
-        },
-        {
-            "name": "clefable-mega",
-            "url": "/api/v2/pokemon/10278/"
-        },
-        {
-            "name": "dragonite-mega",
-            "url": "/api/v2/pokemon/10281/"
-        },
-        {
-            "name": "feraligatr-mega",
-            "url": "/api/v2/pokemon/10283/"
-        },
-        {
-            "name": "emboar-mega",
-            "url": "/api/v2/pokemon/10286/"
-        },
-        {
-            "name": "scrafty-mega",
-            "url": "/api/v2/pokemon/10289/"
-        },
-        {
-            "name": "eelektross-mega",
-            "url": "/api/v2/pokemon/10290/"
-        },
-        {
-            "name": "chesnaught-mega",
-            "url": "/api/v2/pokemon/10292/"
-        },
-        {
-            "name": "hawlucha-mega",
-            "url": "/api/v2/pokemon/10300/"
-        },
-        {
-            "name": "raichu-mega-x",
-            "url": "/api/v2/pokemon/10304/"
-        },
-        {
-            "name": "raichu-mega-y",
-            "url": "/api/v2/pokemon/10305/"
-        },
-        {
-            "name": "golurk-mega",
-            "url": "/api/v2/pokemon/10313/"
-        },
-        {
-            "name": "crabominable-mega",
-            "url": "/api/v2/pokemon/10315/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/6/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/7/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/8/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/10/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/11/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/13/"
-            },
-            "version_group": {
-                "name": "colosseum",
-                "url": "/api/v2/version-group/12/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/14/"
-            },
-            "version_group": {
-                "name": "xd",
-                "url": "/api/v2/version-group/13/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2007/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2070/"
-            },
-            "version_group": {
-                "name": "the-teal-mask",
-                "url": "/api/v2/version-group/26/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "focus-punch",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u304d\u3042\u3044\u30d1\u30f3\u30c1"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ud798\uaecf\ud380\uce58"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u771f\u6c23\u62f3"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Mitra-Poing"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Power-Punch"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Pu\u00f1o Certero"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Centripugno"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Focus Punch"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u304d\u3042\u3044\u30d1\u30f3\u30c1"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u771f\u6c14\u62f3"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Pu\u00f1o Centrado"
-        }
-    ],
-    "past_values": [],
-    "power": 150,
-    "pp": 20,
-    "priority": -3,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/6/"
-    },
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "fighting",
-        "url": "/api/v2/type/2/"
+    "super": {
+      "use_before": null,
+      "use_after": null
     }
+  },
+  "contest_type": {
+    "name": "tough",
+    "url": "/api/v2/contest-type/5/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/31/"
+  },
+  "damage_class": {
+    "name": "physical",
+    "url": "/api/v2/move-damage-class/2/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts réguliers.  Si le lanceur subit des dégâts ce tour avant de frapper, cette capacité échouera.\n\nCette capacité ne peut pas être copiée par Mimique, ni sélectionnée par Assistance, Métronome, ou Blabla Dodo.",
+      "short_effect": "Si le lanceur subit des dégâts avant d'attaquer, l'attaque est annulée.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "Inflicts regular damage.  If the user takes damage this turn before hitting, this move will fail.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist, Metronome, or Sleep Talk.",
+      "short_effect": "If the user takes damage before attacking, the attack is canceled.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii",
+    "url": "/api/v2/generation/3/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "きあいパンチ",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "힘껏펀치",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "真氣拳",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Mitra-Poing",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Power-Punch",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Puño Certero",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Centripugno",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Focus Punch",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "きあいパンチ",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "真气拳",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Puño Centrado",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/6/"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "fighting",
+    "url": "/api/v2/type/2/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/6/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/7/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/8/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/10/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/11/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/13/"
+      },
+      "version_group": {
+        "name": "colosseum",
+        "url": "/api/v2/version-group/12/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/14/"
+      },
+      "version_group": {
+        "name": "xd",
+        "url": "/api/v2/version-group/13/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2007/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2070/"
+      },
+      "version_group": {
+        "name": "the-teal-mask",
+        "url": "/api/v2/version-group/26/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "A powerful loyalty attack.\nThe user flinches if hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "A powerful loyalty attack.\nThe user flinches if hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "An attack that is\nexecuted last.\nThe user flinches\nif hit beforehand.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se concentre avant\nd’attaquer. Échoue s’il est touché\navant d’avoir frappé.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before\nlaunching a punch. It will fail if the user\nis hit before it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before\nlaunching a punch. It will fail if the user\nis hit before it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "せいしんを　たかめて　パンチを\nくりだす。わざを　だす　までに\nこうげきを　うけると　しっぱい　する。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "정신력을 높여 펀치를 날린다.\n기술을 쓰기 전에\n공격을 받으면 실패한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se concentre avant d’attaquer.\nÉchoue s’il est touché avant d’avoir frappé.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallirà se verrà colpito prima\ndi eseguire la mossa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before\nlaunching a punch. This move fails\nif the user is hit before it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "精神を　高めて　パンチを　くりだす。\n技を　だすまでに\n攻撃を　受けると　失敗する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "せいしんを　たかめて　パンチを\nくりだす。わざを　だす　までに\nこうげきを　うけると　しっぱい　する。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "정신력을 높여 펀치를 날린다.\n기술을 쓰기 전에\n공격을 받으면 실패한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se concentre avant d’attaquer.\nÉchoue s’il est touché avant d’avoir frappé.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallirà se verrà colpito prima\ndi eseguire la mossa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before\nlaunching a punch. This move fails\nif the user is hit before it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "精神を　高めて　パンチを　くりだす。\n技を　だすまでに\n攻撃を　受けると　失敗する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "せいしんを　たかめて　パンチを\nくりだす。　わざを　だす　までに\nこうげきを　うけると　しっぱい　する。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "정신력을 높여 펀치를 날린다.\n기술을 쓰기 전에\n공격을 받으면 실패한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "集中精神後出拳。\n若出拳前受到攻擊，\n則會失敗。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se concentre avant d’attaquer.\nÉchoue s’il est touché avant d’avoir frappé.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallirà se verrà colpito prima\ndi eseguire la mossa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "精神を　高めて　パンチを　くりだす。\n技を　だすまでに\n攻撃を　受けると　失敗する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "集中精神出拳。\n在招式使出前\n若受到攻击则会失败。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "せいしんを　たかめて　パンチを\nくりだす。　わざを　だす　までに\nこうげきを　うけると　しっぱい　する。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "정신력을 높여 펀치를 날린다.\n기술을 쓰기 전에\n공격을 받으면 실패한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "集中精神後出拳。\n若出拳前受到攻擊，\n則會失敗。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se concentre avant d’attaquer.\nÉchoue s’il est touché avant d’avoir frappé.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallirà se verrà colpito prima\ndi eseguire la mossa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "精神を　高めて　パンチを　くりだす。\n技を　だすまでに\n攻撃を　受けると　失敗する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "集中精神出拳。\n在招式使出前\n若受到攻击则会失败。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "せいしんを　たかめて　パンチを\nくりだす。　わざを　だす　までに\nこうげきを　うけると　しっぱい　する。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "정신력을 높여 펀치를 날린다.\n기술을 쓰기 전에\n공격을 받으면 실패한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "集中精神後出拳。\n若出拳前受到攻擊，\n則會失敗。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se concentre avant d’attaquer.\nÉchoue s’il est touché avant d’avoir frappé.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Anwender konzentriert sich, bevor er angreift.\nWird er vorher getroffen, ist die Attacke erfolglos.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallirà se verrà colpito prima\ndi eseguire la mossa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "精神を　高めて　パンチを　くりだす。\n技を　だすまでに\n攻撃を　受けると　失敗する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "集中精神出拳。\n在招式使出前\n若受到攻击则会失败。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "せいしんを　たかめて　パンチを\nくりだす。　わざを　だす　までに\nこうげきを　うけると　しっぱい　する。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "정신력을 높여 펀치를 날린다.\n기술을 쓰기 전에\n공격을 받으면 실패한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "集中精神後出拳。\n若出拳前受到攻擊，\n則會失敗。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se concentre avant d’attaquer.\nÉchoue s’il est touché avant d’avoir frappé.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Anwender konzentriert sich, bevor er angreift. Wird er\nvorher getroffen, ist die Attacke erfolglos.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se sufre un\ngolpe antes de su uso.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa prende la mira prima di sferrare\nun pugno. Fallirà se verrà colpito prima\ndi eseguire la mossa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before launching a punch.\nThis move fails if the user is hit before it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "精神を　高めて　パンチを　くりだす。\n技を　だすまでに\n攻撃を　受けると　失敗する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "集中精神出拳。\n在招式使出前\n若受到攻击则会失败。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Se concentra para dar un puñetazo. Falla si se sufre un\ngolpe antes de su uso.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The user focuses its mind before launching a punch. This move fails if the user is hit before using the move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "charmander",
+      "url": "/api/v2/pokemon/4/"
+    },
+    {
+      "name": "charmeleon",
+      "url": "/api/v2/pokemon/5/"
+    },
+    {
+      "name": "charizard",
+      "url": "/api/v2/pokemon/6/"
+    },
+    {
+      "name": "squirtle",
+      "url": "/api/v2/pokemon/7/"
+    },
+    {
+      "name": "wartortle",
+      "url": "/api/v2/pokemon/8/"
+    },
+    {
+      "name": "blastoise",
+      "url": "/api/v2/pokemon/9/"
+    },
+    {
+      "name": "pikachu",
+      "url": "/api/v2/pokemon/25/"
+    },
+    {
+      "name": "raichu",
+      "url": "/api/v2/pokemon/26/"
+    },
+    {
+      "name": "sandshrew",
+      "url": "/api/v2/pokemon/27/"
+    },
+    {
+      "name": "sandslash",
+      "url": "/api/v2/pokemon/28/"
+    },
+    {
+      "name": "nidoqueen",
+      "url": "/api/v2/pokemon/31/"
+    },
+    {
+      "name": "nidoking",
+      "url": "/api/v2/pokemon/34/"
+    },
+    {
+      "name": "clefairy",
+      "url": "/api/v2/pokemon/35/"
+    },
+    {
+      "name": "clefable",
+      "url": "/api/v2/pokemon/36/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "psyduck",
+      "url": "/api/v2/pokemon/54/"
+    },
+    {
+      "name": "golduck",
+      "url": "/api/v2/pokemon/55/"
+    },
+    {
+      "name": "mankey",
+      "url": "/api/v2/pokemon/56/"
+    },
+    {
+      "name": "primeape",
+      "url": "/api/v2/pokemon/57/"
+    },
+    {
+      "name": "poliwag",
+      "url": "/api/v2/pokemon/60/"
+    },
+    {
+      "name": "poliwhirl",
+      "url": "/api/v2/pokemon/61/"
+    },
+    {
+      "name": "poliwrath",
+      "url": "/api/v2/pokemon/62/"
+    },
+    {
+      "name": "abra",
+      "url": "/api/v2/pokemon/63/"
+    },
+    {
+      "name": "kadabra",
+      "url": "/api/v2/pokemon/64/"
+    },
+    {
+      "name": "alakazam",
+      "url": "/api/v2/pokemon/65/"
+    },
+    {
+      "name": "machop",
+      "url": "/api/v2/pokemon/66/"
+    },
+    {
+      "name": "machoke",
+      "url": "/api/v2/pokemon/67/"
+    },
+    {
+      "name": "machamp",
+      "url": "/api/v2/pokemon/68/"
+    },
+    {
+      "name": "geodude",
+      "url": "/api/v2/pokemon/74/"
+    },
+    {
+      "name": "graveler",
+      "url": "/api/v2/pokemon/75/"
+    },
+    {
+      "name": "golem",
+      "url": "/api/v2/pokemon/76/"
+    },
+    {
+      "name": "slowbro",
+      "url": "/api/v2/pokemon/80/"
+    },
+    {
+      "name": "muk",
+      "url": "/api/v2/pokemon/89/"
+    },
+    {
+      "name": "gengar",
+      "url": "/api/v2/pokemon/94/"
+    },
+    {
+      "name": "drowzee",
+      "url": "/api/v2/pokemon/96/"
+    },
+    {
+      "name": "hypno",
+      "url": "/api/v2/pokemon/97/"
+    },
+    {
+      "name": "cubone",
+      "url": "/api/v2/pokemon/104/"
+    },
+    {
+      "name": "marowak",
+      "url": "/api/v2/pokemon/105/"
+    },
+    {
+      "name": "hitmonlee",
+      "url": "/api/v2/pokemon/106/"
+    },
+    {
+      "name": "hitmonchan",
+      "url": "/api/v2/pokemon/107/"
+    },
+    {
+      "name": "lickitung",
+      "url": "/api/v2/pokemon/108/"
+    },
+    {
+      "name": "rhydon",
+      "url": "/api/v2/pokemon/112/"
+    },
+    {
+      "name": "chansey",
+      "url": "/api/v2/pokemon/113/"
+    },
+    {
+      "name": "kangaskhan",
+      "url": "/api/v2/pokemon/115/"
+    },
+    {
+      "name": "mr-mime",
+      "url": "/api/v2/pokemon/122/"
+    },
+    {
+      "name": "jynx",
+      "url": "/api/v2/pokemon/124/"
+    },
+    {
+      "name": "electabuzz",
+      "url": "/api/v2/pokemon/125/"
+    },
+    {
+      "name": "magmar",
+      "url": "/api/v2/pokemon/126/"
+    },
+    {
+      "name": "pinsir",
+      "url": "/api/v2/pokemon/127/"
+    },
+    {
+      "name": "snorlax",
+      "url": "/api/v2/pokemon/143/"
+    },
+    {
+      "name": "dragonite",
+      "url": "/api/v2/pokemon/149/"
+    },
+    {
+      "name": "mewtwo",
+      "url": "/api/v2/pokemon/150/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "quilava",
+      "url": "/api/v2/pokemon/156/"
+    },
+    {
+      "name": "typhlosion",
+      "url": "/api/v2/pokemon/157/"
+    },
+    {
+      "name": "totodile",
+      "url": "/api/v2/pokemon/158/"
+    },
+    {
+      "name": "croconaw",
+      "url": "/api/v2/pokemon/159/"
+    },
+    {
+      "name": "feraligatr",
+      "url": "/api/v2/pokemon/160/"
+    },
+    {
+      "name": "sentret",
+      "url": "/api/v2/pokemon/161/"
+    },
+    {
+      "name": "furret",
+      "url": "/api/v2/pokemon/162/"
+    },
+    {
+      "name": "ledyba",
+      "url": "/api/v2/pokemon/165/"
+    },
+    {
+      "name": "ledian",
+      "url": "/api/v2/pokemon/166/"
+    },
+    {
+      "name": "togetic",
+      "url": "/api/v2/pokemon/176/"
+    },
+    {
+      "name": "flaaffy",
+      "url": "/api/v2/pokemon/180/"
+    },
+    {
+      "name": "ampharos",
+      "url": "/api/v2/pokemon/181/"
+    },
+    {
+      "name": "marill",
+      "url": "/api/v2/pokemon/183/"
+    },
+    {
+      "name": "azumarill",
+      "url": "/api/v2/pokemon/184/"
+    },
+    {
+      "name": "sudowoodo",
+      "url": "/api/v2/pokemon/185/"
+    },
+    {
+      "name": "politoed",
+      "url": "/api/v2/pokemon/186/"
+    },
+    {
+      "name": "aipom",
+      "url": "/api/v2/pokemon/190/"
+    },
+    {
+      "name": "quagsire",
+      "url": "/api/v2/pokemon/195/"
+    },
+    {
+      "name": "slowking",
+      "url": "/api/v2/pokemon/199/"
+    },
+    {
+      "name": "snubbull",
+      "url": "/api/v2/pokemon/209/"
+    },
+    {
+      "name": "granbull",
+      "url": "/api/v2/pokemon/210/"
+    },
+    {
+      "name": "heracross",
+      "url": "/api/v2/pokemon/214/"
+    },
+    {
+      "name": "sneasel",
+      "url": "/api/v2/pokemon/215/"
+    },
+    {
+      "name": "teddiursa",
+      "url": "/api/v2/pokemon/216/"
+    },
+    {
+      "name": "ursaring",
+      "url": "/api/v2/pokemon/217/"
+    },
+    {
+      "name": "delibird",
+      "url": "/api/v2/pokemon/225/"
+    },
+    {
+      "name": "elekid",
+      "url": "/api/v2/pokemon/239/"
+    },
+    {
+      "name": "magby",
+      "url": "/api/v2/pokemon/240/"
+    },
+    {
+      "name": "miltank",
+      "url": "/api/v2/pokemon/241/"
+    },
+    {
+      "name": "blissey",
+      "url": "/api/v2/pokemon/242/"
+    },
+    {
+      "name": "tyranitar",
+      "url": "/api/v2/pokemon/248/"
+    },
+    {
+      "name": "treecko",
+      "url": "/api/v2/pokemon/252/"
+    },
+    {
+      "name": "grovyle",
+      "url": "/api/v2/pokemon/253/"
+    },
+    {
+      "name": "sceptile",
+      "url": "/api/v2/pokemon/254/"
+    },
+    {
+      "name": "combusken",
+      "url": "/api/v2/pokemon/256/"
+    },
+    {
+      "name": "blaziken",
+      "url": "/api/v2/pokemon/257/"
+    },
+    {
+      "name": "marshtomp",
+      "url": "/api/v2/pokemon/259/"
+    },
+    {
+      "name": "swampert",
+      "url": "/api/v2/pokemon/260/"
+    },
+    {
+      "name": "ludicolo",
+      "url": "/api/v2/pokemon/272/"
+    },
+    {
+      "name": "shroomish",
+      "url": "/api/v2/pokemon/285/"
+    },
+    {
+      "name": "breloom",
+      "url": "/api/v2/pokemon/286/"
+    },
+    {
+      "name": "slakoth",
+      "url": "/api/v2/pokemon/287/"
+    },
+    {
+      "name": "vigoroth",
+      "url": "/api/v2/pokemon/288/"
+    },
+    {
+      "name": "slaking",
+      "url": "/api/v2/pokemon/289/"
+    },
+    {
+      "name": "makuhita",
+      "url": "/api/v2/pokemon/296/"
+    },
+    {
+      "name": "hariyama",
+      "url": "/api/v2/pokemon/297/"
+    },
+    {
+      "name": "sableye",
+      "url": "/api/v2/pokemon/302/"
+    },
+    {
+      "name": "mawile",
+      "url": "/api/v2/pokemon/303/"
+    },
+    {
+      "name": "aggron",
+      "url": "/api/v2/pokemon/306/"
+    },
+    {
+      "name": "meditite",
+      "url": "/api/v2/pokemon/307/"
+    },
+    {
+      "name": "medicham",
+      "url": "/api/v2/pokemon/308/"
+    },
+    {
+      "name": "volbeat",
+      "url": "/api/v2/pokemon/313/"
+    },
+    {
+      "name": "illumise",
+      "url": "/api/v2/pokemon/314/"
+    },
+    {
+      "name": "grumpig",
+      "url": "/api/v2/pokemon/326/"
+    },
+    {
+      "name": "spinda",
+      "url": "/api/v2/pokemon/327/"
+    },
+    {
+      "name": "cacnea",
+      "url": "/api/v2/pokemon/331/"
+    },
+    {
+      "name": "cacturne",
+      "url": "/api/v2/pokemon/332/"
+    },
+    {
+      "name": "zangoose",
+      "url": "/api/v2/pokemon/335/"
+    },
+    {
+      "name": "kecleon",
+      "url": "/api/v2/pokemon/352/"
+    },
+    {
+      "name": "dusclops",
+      "url": "/api/v2/pokemon/356/"
+    },
+    {
+      "name": "metang",
+      "url": "/api/v2/pokemon/375/"
+    },
+    {
+      "name": "metagross",
+      "url": "/api/v2/pokemon/376/"
+    },
+    {
+      "name": "regirock",
+      "url": "/api/v2/pokemon/377/"
+    },
+    {
+      "name": "regice",
+      "url": "/api/v2/pokemon/378/"
+    },
+    {
+      "name": "registeel",
+      "url": "/api/v2/pokemon/379/"
+    },
+    {
+      "name": "groudon",
+      "url": "/api/v2/pokemon/383/"
+    },
+    {
+      "name": "deoxys-normal",
+      "url": "/api/v2/pokemon/386/"
+    },
+    {
+      "name": "chimchar",
+      "url": "/api/v2/pokemon/390/"
+    },
+    {
+      "name": "monferno",
+      "url": "/api/v2/pokemon/391/"
+    },
+    {
+      "name": "infernape",
+      "url": "/api/v2/pokemon/392/"
+    },
+    {
+      "name": "bibarel",
+      "url": "/api/v2/pokemon/400/"
+    },
+    {
+      "name": "rampardos",
+      "url": "/api/v2/pokemon/409/"
+    },
+    {
+      "name": "buizel",
+      "url": "/api/v2/pokemon/418/"
+    },
+    {
+      "name": "floatzel",
+      "url": "/api/v2/pokemon/419/"
+    },
+    {
+      "name": "ambipom",
+      "url": "/api/v2/pokemon/424/"
+    },
+    {
+      "name": "buneary",
+      "url": "/api/v2/pokemon/427/"
+    },
+    {
+      "name": "lopunny",
+      "url": "/api/v2/pokemon/428/"
+    },
+    {
+      "name": "mime-jr",
+      "url": "/api/v2/pokemon/439/"
+    },
+    {
+      "name": "munchlax",
+      "url": "/api/v2/pokemon/446/"
+    },
+    {
+      "name": "riolu",
+      "url": "/api/v2/pokemon/447/"
+    },
+    {
+      "name": "lucario",
+      "url": "/api/v2/pokemon/448/"
+    },
+    {
+      "name": "croagunk",
+      "url": "/api/v2/pokemon/453/"
+    },
+    {
+      "name": "toxicroak",
+      "url": "/api/v2/pokemon/454/"
+    },
+    {
+      "name": "abomasnow",
+      "url": "/api/v2/pokemon/460/"
+    },
+    {
+      "name": "weavile",
+      "url": "/api/v2/pokemon/461/"
+    },
+    {
+      "name": "lickilicky",
+      "url": "/api/v2/pokemon/463/"
+    },
+    {
+      "name": "rhyperior",
+      "url": "/api/v2/pokemon/464/"
+    },
+    {
+      "name": "electivire",
+      "url": "/api/v2/pokemon/466/"
+    },
+    {
+      "name": "magmortar",
+      "url": "/api/v2/pokemon/467/"
+    },
+    {
+      "name": "togekiss",
+      "url": "/api/v2/pokemon/468/"
+    },
+    {
+      "name": "gallade",
+      "url": "/api/v2/pokemon/475/"
+    },
+    {
+      "name": "dusknoir",
+      "url": "/api/v2/pokemon/477/"
+    },
+    {
+      "name": "palkia",
+      "url": "/api/v2/pokemon/484/"
+    },
+    {
+      "name": "regigigas",
+      "url": "/api/v2/pokemon/486/"
+    },
+    {
+      "name": "darkrai",
+      "url": "/api/v2/pokemon/491/"
+    },
+    {
+      "name": "pignite",
+      "url": "/api/v2/pokemon/499/"
+    },
+    {
+      "name": "emboar",
+      "url": "/api/v2/pokemon/500/"
+    },
+    {
+      "name": "watchog",
+      "url": "/api/v2/pokemon/505/"
+    },
+    {
+      "name": "pansage",
+      "url": "/api/v2/pokemon/511/"
+    },
+    {
+      "name": "simisage",
+      "url": "/api/v2/pokemon/512/"
+    },
+    {
+      "name": "pansear",
+      "url": "/api/v2/pokemon/513/"
+    },
+    {
+      "name": "simisear",
+      "url": "/api/v2/pokemon/514/"
+    },
+    {
+      "name": "panpour",
+      "url": "/api/v2/pokemon/515/"
+    },
+    {
+      "name": "simipour",
+      "url": "/api/v2/pokemon/516/"
+    },
+    {
+      "name": "audino",
+      "url": "/api/v2/pokemon/531/"
+    },
+    {
+      "name": "timburr",
+      "url": "/api/v2/pokemon/532/"
+    },
+    {
+      "name": "gurdurr",
+      "url": "/api/v2/pokemon/533/"
+    },
+    {
+      "name": "conkeldurr",
+      "url": "/api/v2/pokemon/534/"
+    },
+    {
+      "name": "palpitoad",
+      "url": "/api/v2/pokemon/536/"
+    },
+    {
+      "name": "seismitoad",
+      "url": "/api/v2/pokemon/537/"
+    },
+    {
+      "name": "throh",
+      "url": "/api/v2/pokemon/538/"
+    },
+    {
+      "name": "sawk",
+      "url": "/api/v2/pokemon/539/"
+    },
+    {
+      "name": "krokorok",
+      "url": "/api/v2/pokemon/552/"
+    },
+    {
+      "name": "krookodile",
+      "url": "/api/v2/pokemon/553/"
+    },
+    {
+      "name": "darumaka",
+      "url": "/api/v2/pokemon/554/"
+    },
+    {
+      "name": "darmanitan-standard",
+      "url": "/api/v2/pokemon/555/"
+    },
+    {
+      "name": "scraggy",
+      "url": "/api/v2/pokemon/559/"
+    },
+    {
+      "name": "scrafty",
+      "url": "/api/v2/pokemon/560/"
+    },
+    {
+      "name": "reuniclus",
+      "url": "/api/v2/pokemon/579/"
+    },
+    {
+      "name": "eelektross",
+      "url": "/api/v2/pokemon/604/"
+    },
+    {
+      "name": "cubchoo",
+      "url": "/api/v2/pokemon/613/"
+    },
+    {
+      "name": "beartic",
+      "url": "/api/v2/pokemon/614/"
+    },
+    {
+      "name": "mienfoo",
+      "url": "/api/v2/pokemon/619/"
+    },
+    {
+      "name": "mienshao",
+      "url": "/api/v2/pokemon/620/"
+    },
+    {
+      "name": "golett",
+      "url": "/api/v2/pokemon/622/"
+    },
+    {
+      "name": "golurk",
+      "url": "/api/v2/pokemon/623/"
+    },
+    {
+      "name": "heatmor",
+      "url": "/api/v2/pokemon/631/"
+    },
+    {
+      "name": "zekrom",
+      "url": "/api/v2/pokemon/644/"
+    },
+    {
+      "name": "meloetta-aria",
+      "url": "/api/v2/pokemon/648/"
+    },
+    {
+      "name": "chespin",
+      "url": "/api/v2/pokemon/650/"
+    },
+    {
+      "name": "quilladin",
+      "url": "/api/v2/pokemon/651/"
+    },
+    {
+      "name": "chesnaught",
+      "url": "/api/v2/pokemon/652/"
+    },
+    {
+      "name": "diggersby",
+      "url": "/api/v2/pokemon/660/"
+    },
+    {
+      "name": "pancham",
+      "url": "/api/v2/pokemon/674/"
+    },
+    {
+      "name": "pangoro",
+      "url": "/api/v2/pokemon/675/"
+    },
+    {
+      "name": "hawlucha",
+      "url": "/api/v2/pokemon/701/"
+    },
+    {
+      "name": "goodra",
+      "url": "/api/v2/pokemon/706/"
+    },
+    {
+      "name": "hoopa",
+      "url": "/api/v2/pokemon/720/"
+    },
+    {
+      "name": "decidueye",
+      "url": "/api/v2/pokemon/724/"
+    },
+    {
+      "name": "incineroar",
+      "url": "/api/v2/pokemon/727/"
+    },
+    {
+      "name": "gumshoos",
+      "url": "/api/v2/pokemon/735/"
+    },
+    {
+      "name": "crabrawler",
+      "url": "/api/v2/pokemon/739/"
+    },
+    {
+      "name": "crabominable",
+      "url": "/api/v2/pokemon/740/"
+    },
+    {
+      "name": "stufful",
+      "url": "/api/v2/pokemon/759/"
+    },
+    {
+      "name": "bewear",
+      "url": "/api/v2/pokemon/760/"
+    },
+    {
+      "name": "passimian",
+      "url": "/api/v2/pokemon/766/"
+    },
+    {
+      "name": "jangmo-o",
+      "url": "/api/v2/pokemon/782/"
+    },
+    {
+      "name": "hakamo-o",
+      "url": "/api/v2/pokemon/783/"
+    },
+    {
+      "name": "kommo-o",
+      "url": "/api/v2/pokemon/784/"
+    },
+    {
+      "name": "tapu-bulu",
+      "url": "/api/v2/pokemon/787/"
+    },
+    {
+      "name": "buzzwole",
+      "url": "/api/v2/pokemon/794/"
+    },
+    {
+      "name": "marshadow",
+      "url": "/api/v2/pokemon/802/"
+    },
+    {
+      "name": "zeraora",
+      "url": "/api/v2/pokemon/807/"
+    },
+    {
+      "name": "rillaboom",
+      "url": "/api/v2/pokemon/812/"
+    },
+    {
+      "name": "grimmsnarl",
+      "url": "/api/v2/pokemon/861/"
+    },
+    {
+      "name": "kubfu",
+      "url": "/api/v2/pokemon/891/"
+    },
+    {
+      "name": "urshifu-single-strike",
+      "url": "/api/v2/pokemon/892/"
+    },
+    {
+      "name": "zarude",
+      "url": "/api/v2/pokemon/893/"
+    },
+    {
+      "name": "ursaluna",
+      "url": "/api/v2/pokemon/901/"
+    },
+    {
+      "name": "sneasler",
+      "url": "/api/v2/pokemon/903/"
+    },
+    {
+      "name": "pawmo",
+      "url": "/api/v2/pokemon/922/"
+    },
+    {
+      "name": "pawmot",
+      "url": "/api/v2/pokemon/923/"
+    },
+    {
+      "name": "garganacl",
+      "url": "/api/v2/pokemon/934/"
+    },
+    {
+      "name": "palafin-zero",
+      "url": "/api/v2/pokemon/964/"
+    },
+    {
+      "name": "annihilape",
+      "url": "/api/v2/pokemon/979/"
+    },
+    {
+      "name": "iron-hands",
+      "url": "/api/v2/pokemon/992/"
+    },
+    {
+      "name": "gholdengo",
+      "url": "/api/v2/pokemon/1000/"
+    },
+    {
+      "name": "koraidon",
+      "url": "/api/v2/pokemon/1007/"
+    },
+    {
+      "name": "okidogi",
+      "url": "/api/v2/pokemon/1014/"
+    },
+    {
+      "name": "deoxys-attack",
+      "url": "/api/v2/pokemon/10001/"
+    },
+    {
+      "name": "deoxys-defense",
+      "url": "/api/v2/pokemon/10002/"
+    },
+    {
+      "name": "deoxys-speed",
+      "url": "/api/v2/pokemon/10003/"
+    },
+    {
+      "name": "darmanitan-zen",
+      "url": "/api/v2/pokemon/10017/"
+    },
+    {
+      "name": "meloetta-pirouette",
+      "url": "/api/v2/pokemon/10018/"
+    },
+    {
+      "name": "charizard-mega-x",
+      "url": "/api/v2/pokemon/10034/"
+    },
+    {
+      "name": "charizard-mega-y",
+      "url": "/api/v2/pokemon/10035/"
+    },
+    {
+      "name": "blastoise-mega",
+      "url": "/api/v2/pokemon/10036/"
+    },
+    {
+      "name": "alakazam-mega",
+      "url": "/api/v2/pokemon/10037/"
+    },
+    {
+      "name": "gengar-mega",
+      "url": "/api/v2/pokemon/10038/"
+    },
+    {
+      "name": "kangaskhan-mega",
+      "url": "/api/v2/pokemon/10039/"
+    },
+    {
+      "name": "pinsir-mega",
+      "url": "/api/v2/pokemon/10040/"
+    },
+    {
+      "name": "mewtwo-mega-x",
+      "url": "/api/v2/pokemon/10043/"
+    },
+    {
+      "name": "mewtwo-mega-y",
+      "url": "/api/v2/pokemon/10044/"
+    },
+    {
+      "name": "ampharos-mega",
+      "url": "/api/v2/pokemon/10045/"
+    },
+    {
+      "name": "heracross-mega",
+      "url": "/api/v2/pokemon/10047/"
+    },
+    {
+      "name": "tyranitar-mega",
+      "url": "/api/v2/pokemon/10049/"
+    },
+    {
+      "name": "blaziken-mega",
+      "url": "/api/v2/pokemon/10050/"
+    },
+    {
+      "name": "mawile-mega",
+      "url": "/api/v2/pokemon/10052/"
+    },
+    {
+      "name": "aggron-mega",
+      "url": "/api/v2/pokemon/10053/"
+    },
+    {
+      "name": "medicham-mega",
+      "url": "/api/v2/pokemon/10054/"
+    },
+    {
+      "name": "lucario-mega",
+      "url": "/api/v2/pokemon/10059/"
+    },
+    {
+      "name": "abomasnow-mega",
+      "url": "/api/v2/pokemon/10060/"
+    },
+    {
+      "name": "swampert-mega",
+      "url": "/api/v2/pokemon/10064/"
+    },
+    {
+      "name": "sceptile-mega",
+      "url": "/api/v2/pokemon/10065/"
+    },
+    {
+      "name": "sableye-mega",
+      "url": "/api/v2/pokemon/10066/"
+    },
+    {
+      "name": "gallade-mega",
+      "url": "/api/v2/pokemon/10068/"
+    },
+    {
+      "name": "audino-mega",
+      "url": "/api/v2/pokemon/10069/"
+    },
+    {
+      "name": "slowbro-mega",
+      "url": "/api/v2/pokemon/10071/"
+    },
+    {
+      "name": "metagross-mega",
+      "url": "/api/v2/pokemon/10076/"
+    },
+    {
+      "name": "pikachu-rock-star",
+      "url": "/api/v2/pokemon/10080/"
+    },
+    {
+      "name": "pikachu-belle",
+      "url": "/api/v2/pokemon/10081/"
+    },
+    {
+      "name": "pikachu-pop-star",
+      "url": "/api/v2/pokemon/10082/"
+    },
+    {
+      "name": "pikachu-phd",
+      "url": "/api/v2/pokemon/10083/"
+    },
+    {
+      "name": "pikachu-libre",
+      "url": "/api/v2/pokemon/10084/"
+    },
+    {
+      "name": "pikachu-cosplay",
+      "url": "/api/v2/pokemon/10085/"
+    },
+    {
+      "name": "hoopa-unbound",
+      "url": "/api/v2/pokemon/10086/"
+    },
+    {
+      "name": "lopunny-mega",
+      "url": "/api/v2/pokemon/10088/"
+    },
+    {
+      "name": "pikachu-original-cap",
+      "url": "/api/v2/pokemon/10094/"
+    },
+    {
+      "name": "pikachu-hoenn-cap",
+      "url": "/api/v2/pokemon/10095/"
+    },
+    {
+      "name": "pikachu-sinnoh-cap",
+      "url": "/api/v2/pokemon/10096/"
+    },
+    {
+      "name": "pikachu-unova-cap",
+      "url": "/api/v2/pokemon/10097/"
+    },
+    {
+      "name": "pikachu-kalos-cap",
+      "url": "/api/v2/pokemon/10098/"
+    },
+    {
+      "name": "pikachu-alola-cap",
+      "url": "/api/v2/pokemon/10099/"
+    },
+    {
+      "name": "raichu-alola",
+      "url": "/api/v2/pokemon/10100/"
+    },
+    {
+      "name": "sandshrew-alola",
+      "url": "/api/v2/pokemon/10101/"
+    },
+    {
+      "name": "sandslash-alola",
+      "url": "/api/v2/pokemon/10102/"
+    },
+    {
+      "name": "geodude-alola",
+      "url": "/api/v2/pokemon/10109/"
+    },
+    {
+      "name": "graveler-alola",
+      "url": "/api/v2/pokemon/10110/"
+    },
+    {
+      "name": "golem-alola",
+      "url": "/api/v2/pokemon/10111/"
+    },
+    {
+      "name": "muk-alola",
+      "url": "/api/v2/pokemon/10113/"
+    },
+    {
+      "name": "marowak-alola",
+      "url": "/api/v2/pokemon/10115/"
+    },
+    {
+      "name": "lycanroc-midnight",
+      "url": "/api/v2/pokemon/10126/"
+    },
+    {
+      "name": "kommo-o-totem",
+      "url": "/api/v2/pokemon/10146/"
+    },
+    {
+      "name": "pikachu-partner-cap",
+      "url": "/api/v2/pokemon/10148/"
+    },
+    {
+      "name": "marowak-totem",
+      "url": "/api/v2/pokemon/10149/"
+    },
+    {
+      "name": "darumaka-galar",
+      "url": "/api/v2/pokemon/10176/"
+    },
+    {
+      "name": "urshifu-rapid-strike",
+      "url": "/api/v2/pokemon/10191/"
+    },
+    {
+      "name": "zarude-dada",
+      "url": "/api/v2/pokemon/10192/"
+    },
+    {
+      "name": "typhlosion-hisui",
+      "url": "/api/v2/pokemon/10233/"
+    },
+    {
+      "name": "sneasel-hisui",
+      "url": "/api/v2/pokemon/10235/"
+    },
+    {
+      "name": "zorua-hisui",
+      "url": "/api/v2/pokemon/10238/"
+    },
+    {
+      "name": "zoroark-hisui",
+      "url": "/api/v2/pokemon/10239/"
+    },
+    {
+      "name": "decidueye-hisui",
+      "url": "/api/v2/pokemon/10244/"
+    },
+    {
+      "name": "palafin-hero",
+      "url": "/api/v2/pokemon/10256/"
+    },
+    {
+      "name": "koraidon-limited-build",
+      "url": "/api/v2/pokemon/10264/"
+    },
+    {
+      "name": "koraidon-sprinting-build",
+      "url": "/api/v2/pokemon/10265/"
+    },
+    {
+      "name": "koraidon-swimming-build",
+      "url": "/api/v2/pokemon/10266/"
+    },
+    {
+      "name": "koraidon-gliding-build",
+      "url": "/api/v2/pokemon/10267/"
+    },
+    {
+      "name": "ursaluna-bloodmoon",
+      "url": "/api/v2/pokemon/10272/"
+    },
+    {
+      "name": "clefable-mega",
+      "url": "/api/v2/pokemon/10278/"
+    },
+    {
+      "name": "dragonite-mega",
+      "url": "/api/v2/pokemon/10281/"
+    },
+    {
+      "name": "feraligatr-mega",
+      "url": "/api/v2/pokemon/10283/"
+    },
+    {
+      "name": "emboar-mega",
+      "url": "/api/v2/pokemon/10286/"
+    },
+    {
+      "name": "scrafty-mega",
+      "url": "/api/v2/pokemon/10289/"
+    },
+    {
+      "name": "eelektross-mega",
+      "url": "/api/v2/pokemon/10290/"
+    },
+    {
+      "name": "chesnaught-mega",
+      "url": "/api/v2/pokemon/10292/"
+    },
+    {
+      "name": "hawlucha-mega",
+      "url": "/api/v2/pokemon/10300/"
+    },
+    {
+      "name": "raichu-mega-x",
+      "url": "/api/v2/pokemon/10304/"
+    },
+    {
+      "name": "raichu-mega-y",
+      "url": "/api/v2/pokemon/10305/"
+    },
+    {
+      "name": "golurk-mega",
+      "url": "/api/v2/pokemon/10313/"
+    },
+    {
+      "name": "crabominable-mega",
+      "url": "/api/v2/pokemon/10315/"
+    }
+  ]
 }

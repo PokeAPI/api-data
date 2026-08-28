@@ -1,62 +1,62 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "abilities": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "main_region": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "moves": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        },
-        "pokemon_species": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "types": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "version_groups": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "abilities",
-        "id",
-        "main_region",
-        "moves",
-        "name",
-        "names",
-        "pokemon_species",
-        "types",
-        "version_groups"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    },
+    "main_region": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "moves": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    },
+    "pokemon_species": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    },
+    "types": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    },
+    "version_groups": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    }
+  },
+  "required": [
+    "abilities",
+    "id",
+    "main_region",
+    "moves",
+    "name",
+    "names",
+    "pokemon_species",
+    "types",
+    "version_groups"
+  ]
 }

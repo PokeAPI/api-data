@@ -1,106 +1,106 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "effect_changes": {
-            "items": {
-                "properties": {
-                    "effect_entries": {
-                        "items": {
-                            "$ref": "/schema/v2/effect.json"
-                        },
-                        "type": "array"
-                    },
-                    "version_group": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "effect_entries",
-                    "version_group"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "effect_entries": {
-            "items": {
-                "$ref": "/schema/v2/verbose_effect.json"
-            },
-            "type": "array"
-        },
-        "flavor_text_entries": {
-            "items": {
-                "properties": {
-                    "flavor_text": {
-                        "type": "string"
-                    },
-                    "language": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "version_group": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "flavor_text",
-                    "language",
-                    "version_group"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "generation": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "is_main_series": {
-            "type": "boolean"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        },
-        "pokemon": {
-            "items": {
-                "properties": {
-                    "is_hidden": {
-                        "type": "boolean"
-                    },
-                    "pokemon": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "slot": {
-                        "type": "integer"
-                    }
-                },
-                "required": [
-                    "is_hidden",
-                    "pokemon",
-                    "slot"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "effect_changes",
-        "effect_entries",
-        "flavor_text_entries",
-        "generation",
-        "id",
-        "is_main_series",
-        "name",
-        "names",
-        "pokemon"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "is_main_series": {
+      "type": "boolean"
+    },
+    "generation": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    },
+    "effect_entries": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/verbose_effect.json"
+      }
+    },
+    "effect_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "version_group": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          },
+          "effect_entries": {
+            "type": "array",
+            "items": {
+              "$ref": "/schema/v2/effect.json"
+            }
+          }
+        },
+        "required": [
+          "effect_entries",
+          "version_group"
+        ]
+      }
+    },
+    "flavor_text_entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "flavor_text": {
+            "type": "string"
+          },
+          "language": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          },
+          "version_group": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "flavor_text",
+          "language",
+          "version_group"
+        ]
+      }
+    },
+    "pokemon": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "is_hidden": {
+            "type": "boolean"
+          },
+          "slot": {
+            "type": "integer"
+          },
+          "pokemon": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "is_hidden",
+          "pokemon",
+          "slot"
+        ]
+      }
+    }
+  },
+  "required": [
+    "effect_changes",
+    "effect_entries",
+    "flavor_text_entries",
+    "generation",
+    "id",
+    "is_main_series",
+    "name",
+    "names",
+    "pokemon"
+  ]
 }

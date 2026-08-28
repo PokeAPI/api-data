@@ -1,339 +1,339 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 835,
-    "location": {
-        "name": "saffron-city",
-        "url": "/api/v2/location/234/"
+  "id": 835,
+  "name": "saffron-city-silph-co",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "saffron-city",
+    "url": "/api/v2/location/234/"
+  },
+  "names": [
+    {
+      "name": "Silph Co.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     },
-    "name": "saffron-city-silph-co",
-    "names": [
+    {
+      "name": "Silph Company",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Sylphe SARL",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "porygon",
+        "url": "/api/v2/pokemon/137/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Silph Co."
+          "version": {
+            "name": "lets-go-pikachu",
+            "url": "/api/v2/version/31/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 36,
+              "max_level": 36,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Silph Company"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Sylphe SARL"
+          "version": {
+            "name": "lets-go-eevee",
+            "url": "/api/v2/version/32/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 36,
+              "max_level": 36,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "treecko",
+        "url": "/api/v2/pokemon/252/"
+      },
+      "version_details": [
         {
-            "pokemon": {
-                "name": "porygon",
-                "url": "/api/v2/pokemon/137/"
-            },
-            "version_details": [
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 36,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 36,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "lets-go-pikachu",
-                        "url": "/api/v2/version/31/"
-                    }
+                  "name": "story-progress-beat-red",
+                  "url": "/api/v2/encounter-condition-value/55/"
                 },
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 36,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 36,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "lets-go-eevee",
-                        "url": "/api/v2/version/32/"
-                    }
+                  "name": "other-received-kanto-starter",
+                  "url": "/api/v2/encounter-condition-value/56/"
                 }
-            ]
+              ],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "pokemon": {
-                "name": "treecko",
-                "url": "/api/v2/pokemon/252/"
-            },
-            "version_details": [
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-beat-red",
-                                    "url": "/api/v2/encounter-condition-value/55/"
-                                },
-                                {
-                                    "name": "other-received-kanto-starter",
-                                    "url": "/api/v2/encounter-condition-value/56/"
-                                }
-                            ],
-                            "max_level": 5,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
+                  "name": "story-progress-beat-red",
+                  "url": "/api/v2/encounter-condition-value/55/"
                 },
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-beat-red",
-                                    "url": "/api/v2/encounter-condition-value/55/"
-                                },
-                                {
-                                    "name": "other-received-kanto-starter",
-                                    "url": "/api/v2/encounter-condition-value/56/"
-                                }
-                            ],
-                            "max_level": 5,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
+                  "name": "other-received-kanto-starter",
+                  "url": "/api/v2/encounter-condition-value/56/"
                 }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "torchic",
-                "url": "/api/v2/pokemon/255/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-beat-red",
-                                    "url": "/api/v2/encounter-condition-value/55/"
-                                },
-                                {
-                                    "name": "other-received-kanto-starter",
-                                    "url": "/api/v2/encounter-condition-value/56/"
-                                }
-                            ],
-                            "max_level": 5,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-beat-red",
-                                    "url": "/api/v2/encounter-condition-value/55/"
-                                },
-                                {
-                                    "name": "other-received-kanto-starter",
-                                    "url": "/api/v2/encounter-condition-value/56/"
-                                }
-                            ],
-                            "max_level": 5,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "mudkip",
-                "url": "/api/v2/pokemon/258/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-beat-red",
-                                    "url": "/api/v2/encounter-condition-value/55/"
-                                },
-                                {
-                                    "name": "other-received-kanto-starter",
-                                    "url": "/api/v2/encounter-condition-value/56/"
-                                }
-                            ],
-                            "max_level": 5,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-beat-red",
-                                    "url": "/api/v2/encounter-condition-value/55/"
-                                },
-                                {
-                                    "name": "other-received-kanto-starter",
-                                    "url": "/api/v2/encounter-condition-value/56/"
-                                }
-                            ],
-                            "max_level": 5,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "beldum",
-                "url": "/api/v2/pokemon/374/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "trade-forretress",
-                                    "url": "/api/v2/encounter-condition-value/359/"
-                                }
-                            ],
-                            "max_level": 100,
-                            "method": {
-                                "name": "npc-trade",
-                                "url": "/api/v2/encounter-method/36/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "trade-forretress",
-                                    "url": "/api/v2/encounter-condition-value/359/"
-                                }
-                            ],
-                            "max_level": 100,
-                            "method": {
-                                "name": "npc-trade",
-                                "url": "/api/v2/encounter-method/36/"
-                            },
-                            "min_level": 31,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
+              ],
+              "pokemon_details": null
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "torchic",
+        "url": "/api/v2/pokemon/255/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [
+                {
+                  "name": "story-progress-beat-red",
+                  "url": "/api/v2/encounter-condition-value/55/"
+                },
+                {
+                  "name": "other-received-kanto-starter",
+                  "url": "/api/v2/encounter-condition-value/56/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [
+                {
+                  "name": "story-progress-beat-red",
+                  "url": "/api/v2/encounter-condition-value/55/"
+                },
+                {
+                  "name": "other-received-kanto-starter",
+                  "url": "/api/v2/encounter-condition-value/56/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "mudkip",
+        "url": "/api/v2/pokemon/258/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [
+                {
+                  "name": "story-progress-beat-red",
+                  "url": "/api/v2/encounter-condition-value/55/"
+                },
+                {
+                  "name": "other-received-kanto-starter",
+                  "url": "/api/v2/encounter-condition-value/56/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [
+                {
+                  "name": "story-progress-beat-red",
+                  "url": "/api/v2/encounter-condition-value/55/"
+                },
+                {
+                  "name": "other-received-kanto-starter",
+                  "url": "/api/v2/encounter-condition-value/56/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "beldum",
+        "url": "/api/v2/pokemon/374/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 31,
+              "max_level": 100,
+              "chance": 100,
+              "method": {
+                "name": "npc-trade",
+                "url": "/api/v2/encounter-method/36/"
+              },
+              "condition_values": [
+                {
+                  "name": "trade-forretress",
+                  "url": "/api/v2/encounter-condition-value/359/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 31,
+              "max_level": 100,
+              "chance": 100,
+              "method": {
+                "name": "npc-trade",
+                "url": "/api/v2/encounter-method/36/"
+              },
+              "condition_values": [
+                {
+                  "name": "trade-forretress",
+                  "url": "/api/v2/encounter-condition-value/359/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,1730 +1,1730 @@
 {
-    "accuracy": 100,
-    "contest_combos": null,
-    "contest_effect": null,
-    "contest_type": {
-        "name": "beauty",
-        "url": "/api/v2/contest-type/2/"
+  "id": 360,
+  "name": "gyro-ball",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty",
+    "url": "/api/v2/contest-type/2/"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical",
+    "url": "/api/v2/move-damage-class/2/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts réguliers.  La puissance augmente avec la Vitesse actuelle de la cible comparée au lanceur, donnée par `1 + 25 * Vitesse cible / Vitesse lanceur`, maximisée à 150.",
+      "short_effect": "La puissance augmente quand le lanceur a une Vitesse inférieure, jusqu'à un maximum de 150.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
     },
-    "damage_class": {
-        "name": "physical",
-        "url": "/api/v2/move-damage-class/2/"
-    },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  La puissance augmente avec la Vitesse actuelle de la cible compar\u00e9e au lanceur, donn\u00e9e par `1 + 25 * Vitesse cible / Vitesse lanceur`, maximis\u00e9e \u00e0 150.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "La puissance augmente quand le lanceur a une Vitesse inf\u00e9rieure, jusqu'\u00e0 un maximum de 150."
-        },
-        {
-            "effect": "Inflicts regular damage.  Power increases with the target\u2019s current Speed compared to the user, given by `1 + 25 * target Speed / user Speed`, capped at 150.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Power raises when the user has lower Speed, up to a maximum of 150."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur effectue une rotation et\nfrappe l\u2019ennemi. Plus le lanceur est\nlent, plus il fait de d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger\ndie Initiative des Anwenders, desto h\u00f6her\nder Schaden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Pi\u00f9 lento \u00e8 chi la usa, maggiore\n\u00e8 il danno.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger\ndie Initiative des Anwenders, desto h\u00f6her\nder Schaden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Pi\u00f9 lento \u00e8 chi la usa, maggiore\n\u00e8 il danno.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u9ad8\u901f\u65cb\u8f49\u8eab\u9ad4\uff0c\u649e\u64ca\u5c0d\u624b\u3002\n\u901f\u5ea6\u6bd4\u5c0d\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto h\u00f6her der Schaden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Pi\u00f9 lento \u00e8 chi la usa, maggiore\n\u00e8 il danno.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u8ba9\u8eab\u4f53\u9ad8\u901f\u65cb\u8f6c\u5e76\u649e\u51fb\u5bf9\u624b\u3002\n\u901f\u5ea6\u6bd4\u5bf9\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u9ad8\u901f\u65cb\u8f49\u8eab\u9ad4\uff0c\u649e\u64ca\u5c0d\u624b\u3002\n\u901f\u5ea6\u6bd4\u5c0d\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto h\u00f6her der Schaden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Pi\u00f9 lento \u00e8 chi la usa, maggiore\n\u00e8 il danno.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u8ba9\u8eab\u4f53\u9ad8\u901f\u65cb\u8f6c\u5e76\u649e\u51fb\u5bf9\u624b\u3002\n\u901f\u5ea6\u6bd4\u5bf9\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u9ad8\u901f\u65cb\u8f49\u8eab\u9ad4\uff0c\u649e\u64ca\u5c0d\u624b\u3002\n\u901f\u5ea6\u6bd4\u5c0d\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait de d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto h\u00f6her der Schaden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Pi\u00f9 lento \u00e8 chi la usa, maggiore\n\u00e8 il danno.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u8ba9\u8eab\u4f53\u9ad8\u901f\u65cb\u8f6c\u5e76\u649e\u51fb\u5bf9\u624b\u3002\n\u901f\u5ea6\u6bd4\u5bf9\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u304b\u3089\u3060\u3092\u3000\u3053\u3046\u305d\u304f\u306b\u3000\u304b\u3044\u3066\u3093\u3000\u3055\u305b\u3066\n\u305f\u3044\u3042\u305f\u308a\u3059\u308b\u3002\u3042\u3044\u3066\u3088\u308a\u3000\u3059\u3070\u3084\u3055\u304c\n\u3072\u304f\u3044\u307b\u3069\u3000\u3064\u3088\u3044\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\ubab8\uc744 \uace0\uc18d\uc73c\ub85c \ud68c\uc804\uc2dc\ucf1c\n\ubab8\ud1b5\ubc15\uce58\uae30\ud55c\ub2e4. \uc0c1\ub300\ubcf4\ub2e4 \uc2a4\ud53c\ub4dc\uac00\n\ub0ae\uc744\uc218\ub85d \uc704\ub825\uc740 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u9ad8\u901f\u65cb\u8f49\u8eab\u9ad4\uff0c\u649e\u64ca\u5c0d\u624b\u3002\n\u901f\u5ea6\u6bd4\u5c0d\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur effectue une rotation et frappe l\u2019ennemi.\nPlus la Vitesse du lanceur est basse, plus il inflige\nde d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto h\u00f6her der Schaden.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa si scaglia sul bersaglio facendo ruotare\nvorticosamente il proprio corpo. Pi\u00f9 lento \u00e8 chi la usa,\nmaggiore \u00e8 il danno.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u4f53\u3092\u3000\u9ad8\u901f\u306b\u3000\u56de\u8ee2\u3055\u305b\u3066\n\u4f53\u5f53\u305f\u308a\u3059\u308b\u3002\u76f8\u624b\u3088\u308a\u3000\u7d20\u65e9\u3055\u304c\n\u4f4e\u3044\u307b\u3069\u3000\u5f37\u3044\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u8ba9\u8eab\u4f53\u9ad8\u901f\u65cb\u8f6c\u5e76\u649e\u51fb\u5bf9\u624b\u3002\n\u901f\u5ea6\u6bd4\u5bf9\u624b\u8d8a\u6162\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto m\u00e1s lento es el usuario, m\u00e1s da\u00f1o causa.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move's power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The user tackles the target with a high-speed spin. The slower the user is than the target, the greater the move's power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-iv",
-        "url": "/api/v2/generation/4/"
-    },
-    "id": 360,
-    "learned_by_pokemon": [
-        {
-            "name": "squirtle",
-            "url": "/api/v2/pokemon/7/"
-        },
-        {
-            "name": "wartortle",
-            "url": "/api/v2/pokemon/8/"
-        },
-        {
-            "name": "blastoise",
-            "url": "/api/v2/pokemon/9/"
-        },
-        {
-            "name": "sandshrew",
-            "url": "/api/v2/pokemon/27/"
-        },
-        {
-            "name": "sandslash",
-            "url": "/api/v2/pokemon/28/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "geodude",
-            "url": "/api/v2/pokemon/74/"
-        },
-        {
-            "name": "graveler",
-            "url": "/api/v2/pokemon/75/"
-        },
-        {
-            "name": "golem",
-            "url": "/api/v2/pokemon/76/"
-        },
-        {
-            "name": "magnemite",
-            "url": "/api/v2/pokemon/81/"
-        },
-        {
-            "name": "magneton",
-            "url": "/api/v2/pokemon/82/"
-        },
-        {
-            "name": "onix",
-            "url": "/api/v2/pokemon/95/"
-        },
-        {
-            "name": "voltorb",
-            "url": "/api/v2/pokemon/100/"
-        },
-        {
-            "name": "electrode",
-            "url": "/api/v2/pokemon/101/"
-        },
-        {
-            "name": "koffing",
-            "url": "/api/v2/pokemon/109/"
-        },
-        {
-            "name": "weezing",
-            "url": "/api/v2/pokemon/110/"
-        },
-        {
-            "name": "staryu",
-            "url": "/api/v2/pokemon/120/"
-        },
-        {
-            "name": "starmie",
-            "url": "/api/v2/pokemon/121/"
-        },
-        {
-            "name": "omanyte",
-            "url": "/api/v2/pokemon/138/"
-        },
-        {
-            "name": "omastar",
-            "url": "/api/v2/pokemon/139/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "typhlosion",
-            "url": "/api/v2/pokemon/157/"
-        },
-        {
-            "name": "pineco",
-            "url": "/api/v2/pokemon/204/"
-        },
-        {
-            "name": "forretress",
-            "url": "/api/v2/pokemon/205/"
-        },
-        {
-            "name": "dunsparce",
-            "url": "/api/v2/pokemon/206/"
-        },
-        {
-            "name": "steelix",
-            "url": "/api/v2/pokemon/208/"
-        },
-        {
-            "name": "qwilfish",
-            "url": "/api/v2/pokemon/211/"
-        },
-        {
-            "name": "shuckle",
-            "url": "/api/v2/pokemon/213/"
-        },
-        {
-            "name": "magcargo",
-            "url": "/api/v2/pokemon/219/"
-        },
-        {
-            "name": "donphan",
-            "url": "/api/v2/pokemon/232/"
-        },
-        {
-            "name": "hitmontop",
-            "url": "/api/v2/pokemon/237/"
-        },
-        {
-            "name": "miltank",
-            "url": "/api/v2/pokemon/241/"
-        },
-        {
-            "name": "sableye",
-            "url": "/api/v2/pokemon/302/"
-        },
-        {
-            "name": "torkoal",
-            "url": "/api/v2/pokemon/324/"
-        },
-        {
-            "name": "lunatone",
-            "url": "/api/v2/pokemon/337/"
-        },
-        {
-            "name": "solrock",
-            "url": "/api/v2/pokemon/338/"
-        },
-        {
-            "name": "baltoy",
-            "url": "/api/v2/pokemon/343/"
-        },
-        {
-            "name": "claydol",
-            "url": "/api/v2/pokemon/344/"
-        },
-        {
-            "name": "glalie",
-            "url": "/api/v2/pokemon/362/"
-        },
-        {
-            "name": "metang",
-            "url": "/api/v2/pokemon/375/"
-        },
-        {
-            "name": "metagross",
-            "url": "/api/v2/pokemon/376/"
-        },
-        {
-            "name": "rayquaza",
-            "url": "/api/v2/pokemon/384/"
-        },
-        {
-            "name": "drifloon",
-            "url": "/api/v2/pokemon/425/"
-        },
-        {
-            "name": "drifblim",
-            "url": "/api/v2/pokemon/426/"
-        },
-        {
-            "name": "bronzor",
-            "url": "/api/v2/pokemon/436/"
-        },
-        {
-            "name": "bronzong",
-            "url": "/api/v2/pokemon/437/"
-        },
-        {
-            "name": "magnezone",
-            "url": "/api/v2/pokemon/462/"
-        },
-        {
-            "name": "lickilicky",
-            "url": "/api/v2/pokemon/463/"
-        },
-        {
-            "name": "tepig",
-            "url": "/api/v2/pokemon/498/"
-        },
-        {
-            "name": "pignite",
-            "url": "/api/v2/pokemon/499/"
-        },
-        {
-            "name": "emboar",
-            "url": "/api/v2/pokemon/500/"
-        },
-        {
-            "name": "munna",
-            "url": "/api/v2/pokemon/517/"
-        },
-        {
-            "name": "musharna",
-            "url": "/api/v2/pokemon/518/"
-        },
-        {
-            "name": "woobat",
-            "url": "/api/v2/pokemon/527/"
-        },
-        {
-            "name": "swoobat",
-            "url": "/api/v2/pokemon/528/"
-        },
-        {
-            "name": "venipede",
-            "url": "/api/v2/pokemon/543/"
-        },
-        {
-            "name": "whirlipede",
-            "url": "/api/v2/pokemon/544/"
-        },
-        {
-            "name": "scolipede",
-            "url": "/api/v2/pokemon/545/"
-        },
-        {
-            "name": "darumaka",
-            "url": "/api/v2/pokemon/554/"
-        },
-        {
-            "name": "darmanitan-standard",
-            "url": "/api/v2/pokemon/555/"
-        },
-        {
-            "name": "solosis",
-            "url": "/api/v2/pokemon/577/"
-        },
-        {
-            "name": "duosion",
-            "url": "/api/v2/pokemon/578/"
-        },
-        {
-            "name": "reuniclus",
-            "url": "/api/v2/pokemon/579/"
-        },
-        {
-            "name": "ferroseed",
-            "url": "/api/v2/pokemon/597/"
-        },
-        {
-            "name": "ferrothorn",
-            "url": "/api/v2/pokemon/598/"
-        },
-        {
-            "name": "golett",
-            "url": "/api/v2/pokemon/622/"
-        },
-        {
-            "name": "golurk",
-            "url": "/api/v2/pokemon/623/"
-        },
-        {
-            "name": "chespin",
-            "url": "/api/v2/pokemon/650/"
-        },
-        {
-            "name": "quilladin",
-            "url": "/api/v2/pokemon/651/"
-        },
-        {
-            "name": "chesnaught",
-            "url": "/api/v2/pokemon/652/"
-        },
-        {
-            "name": "honedge",
-            "url": "/api/v2/pokemon/679/"
-        },
-        {
-            "name": "doublade",
-            "url": "/api/v2/pokemon/680/"
-        },
-        {
-            "name": "aegislash-shield",
-            "url": "/api/v2/pokemon/681/"
-        },
-        {
-            "name": "spritzee",
-            "url": "/api/v2/pokemon/682/"
-        },
-        {
-            "name": "aromatisse",
-            "url": "/api/v2/pokemon/683/"
-        },
-        {
-            "name": "carbink",
-            "url": "/api/v2/pokemon/703/"
-        },
-        {
-            "name": "pumpkaboo-average",
-            "url": "/api/v2/pokemon/710/"
-        },
-        {
-            "name": "gourgeist-average",
-            "url": "/api/v2/pokemon/711/"
-        },
-        {
-            "name": "bergmite",
-            "url": "/api/v2/pokemon/712/"
-        },
-        {
-            "name": "avalugg",
-            "url": "/api/v2/pokemon/713/"
-        },
-        {
-            "name": "diancie",
-            "url": "/api/v2/pokemon/719/"
-        },
-        {
-            "name": "volcanion",
-            "url": "/api/v2/pokemon/721/"
-        },
-        {
-            "name": "passimian",
-            "url": "/api/v2/pokemon/766/"
-        },
-        {
-            "name": "minior-red-meteor",
-            "url": "/api/v2/pokemon/774/"
-        },
-        {
-            "name": "togedemaru",
-            "url": "/api/v2/pokemon/777/"
-        },
-        {
-            "name": "dhelmise",
-            "url": "/api/v2/pokemon/781/"
-        },
-        {
-            "name": "solgaleo",
-            "url": "/api/v2/pokemon/791/"
-        },
-        {
-            "name": "buzzwole",
-            "url": "/api/v2/pokemon/794/"
-        },
-        {
-            "name": "celesteela",
-            "url": "/api/v2/pokemon/797/"
-        },
-        {
-            "name": "guzzlord",
-            "url": "/api/v2/pokemon/799/"
-        },
-        {
-            "name": "necrozma",
-            "url": "/api/v2/pokemon/800/"
-        },
-        {
-            "name": "magearna",
-            "url": "/api/v2/pokemon/801/"
-        },
-        {
-            "name": "stakataka",
-            "url": "/api/v2/pokemon/805/"
-        },
-        {
-            "name": "meltan",
-            "url": "/api/v2/pokemon/808/"
-        },
-        {
-            "name": "melmetal",
-            "url": "/api/v2/pokemon/809/"
-        },
-        {
-            "name": "skwovet",
-            "url": "/api/v2/pokemon/819/"
-        },
-        {
-            "name": "greedent",
-            "url": "/api/v2/pokemon/820/"
-        },
-        {
-            "name": "rolycoly",
-            "url": "/api/v2/pokemon/837/"
-        },
-        {
-            "name": "carkol",
-            "url": "/api/v2/pokemon/838/"
-        },
-        {
-            "name": "coalossal",
-            "url": "/api/v2/pokemon/839/"
-        },
-        {
-            "name": "appletun",
-            "url": "/api/v2/pokemon/842/"
-        },
-        {
-            "name": "perrserker",
-            "url": "/api/v2/pokemon/863/"
-        },
-        {
-            "name": "duraludon",
-            "url": "/api/v2/pokemon/884/"
-        },
-        {
-            "name": "overqwil",
-            "url": "/api/v2/pokemon/904/"
-        },
-        {
-            "name": "varoom",
-            "url": "/api/v2/pokemon/965/"
-        },
-        {
-            "name": "revavroom",
-            "url": "/api/v2/pokemon/966/"
-        },
-        {
-            "name": "dudunsparce-two-segment",
-            "url": "/api/v2/pokemon/982/"
-        },
-        {
-            "name": "scream-tail",
-            "url": "/api/v2/pokemon/985/"
-        },
-        {
-            "name": "iron-treads",
-            "url": "/api/v2/pokemon/990/"
-        },
-        {
-            "name": "dipplin",
-            "url": "/api/v2/pokemon/1011/"
-        },
-        {
-            "name": "archaludon",
-            "url": "/api/v2/pokemon/1018/"
-        },
-        {
-            "name": "hydrapple",
-            "url": "/api/v2/pokemon/1019/"
-        },
-        {
-            "name": "terapagos",
-            "url": "/api/v2/pokemon/1024/"
-        },
-        {
-            "name": "wormadam-trash",
-            "url": "/api/v2/pokemon/10005/"
-        },
-        {
-            "name": "darmanitan-zen",
-            "url": "/api/v2/pokemon/10017/"
-        },
-        {
-            "name": "aegislash-blade",
-            "url": "/api/v2/pokemon/10026/"
-        },
-        {
-            "name": "pumpkaboo-small",
-            "url": "/api/v2/pokemon/10027/"
-        },
-        {
-            "name": "pumpkaboo-large",
-            "url": "/api/v2/pokemon/10028/"
-        },
-        {
-            "name": "pumpkaboo-super",
-            "url": "/api/v2/pokemon/10029/"
-        },
-        {
-            "name": "gourgeist-small",
-            "url": "/api/v2/pokemon/10030/"
-        },
-        {
-            "name": "gourgeist-large",
-            "url": "/api/v2/pokemon/10031/"
-        },
-        {
-            "name": "gourgeist-super",
-            "url": "/api/v2/pokemon/10032/"
-        },
-        {
-            "name": "blastoise-mega",
-            "url": "/api/v2/pokemon/10036/"
-        },
-        {
-            "name": "sableye-mega",
-            "url": "/api/v2/pokemon/10066/"
-        },
-        {
-            "name": "steelix-mega",
-            "url": "/api/v2/pokemon/10072/"
-        },
-        {
-            "name": "glalie-mega",
-            "url": "/api/v2/pokemon/10074/"
-        },
-        {
-            "name": "diancie-mega",
-            "url": "/api/v2/pokemon/10075/"
-        },
-        {
-            "name": "metagross-mega",
-            "url": "/api/v2/pokemon/10076/"
-        },
-        {
-            "name": "rayquaza-mega",
-            "url": "/api/v2/pokemon/10079/"
-        },
-        {
-            "name": "sandshrew-alola",
-            "url": "/api/v2/pokemon/10101/"
-        },
-        {
-            "name": "sandslash-alola",
-            "url": "/api/v2/pokemon/10102/"
-        },
-        {
-            "name": "geodude-alola",
-            "url": "/api/v2/pokemon/10109/"
-        },
-        {
-            "name": "graveler-alola",
-            "url": "/api/v2/pokemon/10110/"
-        },
-        {
-            "name": "golem-alola",
-            "url": "/api/v2/pokemon/10111/"
-        },
-        {
-            "name": "minior-orange-meteor",
-            "url": "/api/v2/pokemon/10130/"
-        },
-        {
-            "name": "minior-yellow-meteor",
-            "url": "/api/v2/pokemon/10131/"
-        },
-        {
-            "name": "minior-green-meteor",
-            "url": "/api/v2/pokemon/10132/"
-        },
-        {
-            "name": "minior-blue-meteor",
-            "url": "/api/v2/pokemon/10133/"
-        },
-        {
-            "name": "minior-indigo-meteor",
-            "url": "/api/v2/pokemon/10134/"
-        },
-        {
-            "name": "minior-violet-meteor",
-            "url": "/api/v2/pokemon/10135/"
-        },
-        {
-            "name": "minior-red",
-            "url": "/api/v2/pokemon/10136/"
-        },
-        {
-            "name": "minior-orange",
-            "url": "/api/v2/pokemon/10137/"
-        },
-        {
-            "name": "minior-yellow",
-            "url": "/api/v2/pokemon/10138/"
-        },
-        {
-            "name": "minior-green",
-            "url": "/api/v2/pokemon/10139/"
-        },
-        {
-            "name": "minior-blue",
-            "url": "/api/v2/pokemon/10140/"
-        },
-        {
-            "name": "minior-indigo",
-            "url": "/api/v2/pokemon/10141/"
-        },
-        {
-            "name": "minior-violet",
-            "url": "/api/v2/pokemon/10142/"
-        },
-        {
-            "name": "magearna-original",
-            "url": "/api/v2/pokemon/10147/"
-        },
-        {
-            "name": "togedemaru-totem",
-            "url": "/api/v2/pokemon/10154/"
-        },
-        {
-            "name": "necrozma-dusk",
-            "url": "/api/v2/pokemon/10155/"
-        },
-        {
-            "name": "necrozma-dawn",
-            "url": "/api/v2/pokemon/10156/"
-        },
-        {
-            "name": "necrozma-ultra",
-            "url": "/api/v2/pokemon/10157/"
-        },
-        {
-            "name": "meowth-galar",
-            "url": "/api/v2/pokemon/10161/"
-        },
-        {
-            "name": "weezing-galar",
-            "url": "/api/v2/pokemon/10167/"
-        },
-        {
-            "name": "darumaka-galar",
-            "url": "/api/v2/pokemon/10176/"
-        },
-        {
-            "name": "darmanitan-galar-standard",
-            "url": "/api/v2/pokemon/10177/"
-        },
-        {
-            "name": "darmanitan-galar-zen",
-            "url": "/api/v2/pokemon/10178/"
-        },
-        {
-            "name": "voltorb-hisui",
-            "url": "/api/v2/pokemon/10231/"
-        },
-        {
-            "name": "electrode-hisui",
-            "url": "/api/v2/pokemon/10232/"
-        },
-        {
-            "name": "typhlosion-hisui",
-            "url": "/api/v2/pokemon/10233/"
-        },
-        {
-            "name": "qwilfish-hisui",
-            "url": "/api/v2/pokemon/10234/"
-        },
-        {
-            "name": "sliggoo-hisui",
-            "url": "/api/v2/pokemon/10241/"
-        },
-        {
-            "name": "goodra-hisui",
-            "url": "/api/v2/pokemon/10242/"
-        },
-        {
-            "name": "avalugg-hisui",
-            "url": "/api/v2/pokemon/10243/"
-        },
-        {
-            "name": "dudunsparce-three-segment",
-            "url": "/api/v2/pokemon/10255/"
-        },
-        {
-            "name": "terapagos-terastal",
-            "url": "/api/v2/pokemon/10276/"
-        },
-        {
-            "name": "terapagos-stellar",
-            "url": "/api/v2/pokemon/10277/"
-        },
-        {
-            "name": "starmie-mega",
-            "url": "/api/v2/pokemon/10280/"
-        },
-        {
-            "name": "emboar-mega",
-            "url": "/api/v2/pokemon/10286/"
-        },
-        {
-            "name": "scolipede-mega",
-            "url": "/api/v2/pokemon/10288/"
-        },
-        {
-            "name": "chesnaught-mega",
-            "url": "/api/v2/pokemon/10292/"
-        },
-        {
-            "name": "golurk-mega",
-            "url": "/api/v2/pokemon/10313/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/1342/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1343/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1344/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1345/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1346/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1347/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1348/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1349/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1350/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1751/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1995/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2058/"
-            },
-            "version_group": {
-                "name": "the-teal-mask",
-                "url": "/api/v2/version-group/26/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "gyro-ball",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30b8\u30e3\u30a4\u30ed\u30dc\u30fc\u30eb"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uc790\uc774\ub85c\ubcfc"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u9640\u87ba\u7403"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Gyroballe"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Gyroball"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Giro Bola"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Vortexpalla"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Gyro Ball"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30b8\u30e3\u30a4\u30ed\u30dc\u30fc\u30eb"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u9640\u87ba\u7403"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Giro Bola"
-        }
-    ],
-    "past_values": [],
-    "power": null,
-    "pp": 5,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/15/"
-    },
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "steel",
-        "url": "/api/v2/type/9/"
+    {
+      "effect": "Inflicts regular damage.  Power increases with the target’s current Speed compared to the user, given by `1 + 25 * target Speed / user Speed`, capped at 150.",
+      "short_effect": "Power raises when the user has lower Speed, up to a maximum of 150.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv",
+    "url": "/api/v2/generation/4/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "ジャイロボール",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "자이로볼",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "陀螺球",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Gyroballe",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Gyroball",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Giro Bola",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Vortexpalla",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Gyro Ball",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "ジャイロボール",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "陀螺球",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Giro Bola",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/15/"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "steel",
+    "url": "/api/v2/type/9/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/1342/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1343/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1344/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1345/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1346/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1347/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1348/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1349/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1350/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1751/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1995/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2058/"
+      },
+      "version_group": {
+        "name": "the-teal-mask",
+        "url": "/api/v2/version-group/26/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur effectue une rotation et\nfrappe l’ennemi. Plus le lanceur est\nlent, plus il fait de dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "からだを　こうそくに　かいてん　させて\nたいあたりする。あいてより　すばやさが\nひくいほど　つよい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "몸을 고속으로 회전시켜\n몸통박치기한다. 상대보다 스피드가\n낮을수록 위력은 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur effectue une rotation et frappe l’ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger\ndie Initiative des Anwenders, desto höher\nder Schaden.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Più lento è chi la usa, maggiore\nè il danno.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "体を　高速に　回転させて\n体当たりする。相手より　素早さが\n低いほど　強い。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "からだを　こうそくに　かいてん　させて\nたいあたりする。あいてより　すばやさが\nひくいほど　つよい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "몸을 고속으로 회전시켜\n몸통박치기한다. 상대보다 스피드가\n낮을수록 위력은 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur effectue une rotation et frappe l’ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger\ndie Initiative des Anwenders, desto höher\nder Schaden.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Più lento è chi la usa, maggiore\nè il danno.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "体を　高速に　回転させて\n体当たりする。相手より　素早さが\n低いほど　強い。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "からだを　こうそくに　かいてん　させて\nたいあたりする。あいてより　すばやさが\nひくいほど　つよい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "몸을 고속으로 회전시켜\n몸통박치기한다. 상대보다 스피드가\n낮을수록 위력은 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "高速旋轉身體，撞擊對手。\n速度比對手越慢，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur effectue une rotation et frappe l’ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto höher der Schaden.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Più lento è chi la usa, maggiore\nè il danno.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "体を　高速に　回転させて\n体当たりする。相手より　素早さが\n低いほど　強い。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "让身体高速旋转并撞击对手。\n速度比对手越慢，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "からだを　こうそくに　かいてん　させて\nたいあたりする。あいてより　すばやさが\nひくいほど　つよい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "몸을 고속으로 회전시켜\n몸통박치기한다. 상대보다 스피드가\n낮을수록 위력은 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "高速旋轉身體，撞擊對手。\n速度比對手越慢，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur effectue une rotation et frappe l’ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait\nde dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto höher der Schaden.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Più lento è chi la usa, maggiore\nè il danno.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "体を　高速に　回転させて\n体当たりする。相手より　素早さが\n低いほど　強い。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "让身体高速旋转并撞击对手。\n速度比对手越慢，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "からだを　こうそくに　かいてん　させて\nたいあたりする。あいてより　すばやさが\nひくいほど　つよい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "몸을 고속으로 회전시켜\n몸통박치기한다. 상대보다 스피드가\n낮을수록 위력은 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "高速旋轉身體，撞擊對手。\n速度比對手越慢，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur effectue une rotation et frappe l’ennemi.\nPlus la Vitesse du lanceur est basse, plus il fait de dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto höher der Schaden.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa colpisce il bersaglio con un vortice\nrapidissimo. Più lento è chi la usa, maggiore\nè il danno.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "体を　高速に　回転させて\n体当たりする。相手より　素早さが\n低いほど　強い。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "让身体高速旋转并撞击对手。\n速度比对手越慢，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "からだを　こうそくに　かいてん　させて\nたいあたりする。あいてより　すばやさが\nひくいほど　つよい。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "몸을 고속으로 회전시켜\n몸통박치기한다. 상대보다 스피드가\n낮을수록 위력은 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "高速旋轉身體，撞擊對手。\n速度比對手越慢，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur effectue une rotation et frappe l’ennemi.\nPlus la Vitesse du lanceur est basse, plus il inflige\nde dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Angriff mit hoher Geschwindigkeit. Je niedriger die\nInitiative des Anwenders im Vergleich zum Ziel ist,\ndesto höher der Schaden.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa si scaglia sul bersaglio facendo ruotare\nvorticosamente il proprio corpo. Più lento è chi la usa,\nmaggiore è il danno.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a high-speed spin.\nThe slower the user compared to the target, the\ngreater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "体を　高速に　回転させて\n体当たりする。相手より　素早さが\n低いほど　強い。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "让身体高速旋转并撞击对手。\n速度比对手越慢，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Embiste al objetivo con un potente ataque giratorio.\nCuanto más lento es el usuario, más daño causa.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move's power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The user tackles the target with a high-speed spin. The slower the user is than the target, the greater the move's power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "squirtle",
+      "url": "/api/v2/pokemon/7/"
+    },
+    {
+      "name": "wartortle",
+      "url": "/api/v2/pokemon/8/"
+    },
+    {
+      "name": "blastoise",
+      "url": "/api/v2/pokemon/9/"
+    },
+    {
+      "name": "sandshrew",
+      "url": "/api/v2/pokemon/27/"
+    },
+    {
+      "name": "sandslash",
+      "url": "/api/v2/pokemon/28/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "geodude",
+      "url": "/api/v2/pokemon/74/"
+    },
+    {
+      "name": "graveler",
+      "url": "/api/v2/pokemon/75/"
+    },
+    {
+      "name": "golem",
+      "url": "/api/v2/pokemon/76/"
+    },
+    {
+      "name": "magnemite",
+      "url": "/api/v2/pokemon/81/"
+    },
+    {
+      "name": "magneton",
+      "url": "/api/v2/pokemon/82/"
+    },
+    {
+      "name": "onix",
+      "url": "/api/v2/pokemon/95/"
+    },
+    {
+      "name": "voltorb",
+      "url": "/api/v2/pokemon/100/"
+    },
+    {
+      "name": "electrode",
+      "url": "/api/v2/pokemon/101/"
+    },
+    {
+      "name": "koffing",
+      "url": "/api/v2/pokemon/109/"
+    },
+    {
+      "name": "weezing",
+      "url": "/api/v2/pokemon/110/"
+    },
+    {
+      "name": "staryu",
+      "url": "/api/v2/pokemon/120/"
+    },
+    {
+      "name": "starmie",
+      "url": "/api/v2/pokemon/121/"
+    },
+    {
+      "name": "omanyte",
+      "url": "/api/v2/pokemon/138/"
+    },
+    {
+      "name": "omastar",
+      "url": "/api/v2/pokemon/139/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "typhlosion",
+      "url": "/api/v2/pokemon/157/"
+    },
+    {
+      "name": "pineco",
+      "url": "/api/v2/pokemon/204/"
+    },
+    {
+      "name": "forretress",
+      "url": "/api/v2/pokemon/205/"
+    },
+    {
+      "name": "dunsparce",
+      "url": "/api/v2/pokemon/206/"
+    },
+    {
+      "name": "steelix",
+      "url": "/api/v2/pokemon/208/"
+    },
+    {
+      "name": "qwilfish",
+      "url": "/api/v2/pokemon/211/"
+    },
+    {
+      "name": "shuckle",
+      "url": "/api/v2/pokemon/213/"
+    },
+    {
+      "name": "magcargo",
+      "url": "/api/v2/pokemon/219/"
+    },
+    {
+      "name": "donphan",
+      "url": "/api/v2/pokemon/232/"
+    },
+    {
+      "name": "hitmontop",
+      "url": "/api/v2/pokemon/237/"
+    },
+    {
+      "name": "miltank",
+      "url": "/api/v2/pokemon/241/"
+    },
+    {
+      "name": "sableye",
+      "url": "/api/v2/pokemon/302/"
+    },
+    {
+      "name": "torkoal",
+      "url": "/api/v2/pokemon/324/"
+    },
+    {
+      "name": "lunatone",
+      "url": "/api/v2/pokemon/337/"
+    },
+    {
+      "name": "solrock",
+      "url": "/api/v2/pokemon/338/"
+    },
+    {
+      "name": "baltoy",
+      "url": "/api/v2/pokemon/343/"
+    },
+    {
+      "name": "claydol",
+      "url": "/api/v2/pokemon/344/"
+    },
+    {
+      "name": "glalie",
+      "url": "/api/v2/pokemon/362/"
+    },
+    {
+      "name": "metang",
+      "url": "/api/v2/pokemon/375/"
+    },
+    {
+      "name": "metagross",
+      "url": "/api/v2/pokemon/376/"
+    },
+    {
+      "name": "rayquaza",
+      "url": "/api/v2/pokemon/384/"
+    },
+    {
+      "name": "drifloon",
+      "url": "/api/v2/pokemon/425/"
+    },
+    {
+      "name": "drifblim",
+      "url": "/api/v2/pokemon/426/"
+    },
+    {
+      "name": "bronzor",
+      "url": "/api/v2/pokemon/436/"
+    },
+    {
+      "name": "bronzong",
+      "url": "/api/v2/pokemon/437/"
+    },
+    {
+      "name": "magnezone",
+      "url": "/api/v2/pokemon/462/"
+    },
+    {
+      "name": "lickilicky",
+      "url": "/api/v2/pokemon/463/"
+    },
+    {
+      "name": "tepig",
+      "url": "/api/v2/pokemon/498/"
+    },
+    {
+      "name": "pignite",
+      "url": "/api/v2/pokemon/499/"
+    },
+    {
+      "name": "emboar",
+      "url": "/api/v2/pokemon/500/"
+    },
+    {
+      "name": "munna",
+      "url": "/api/v2/pokemon/517/"
+    },
+    {
+      "name": "musharna",
+      "url": "/api/v2/pokemon/518/"
+    },
+    {
+      "name": "woobat",
+      "url": "/api/v2/pokemon/527/"
+    },
+    {
+      "name": "swoobat",
+      "url": "/api/v2/pokemon/528/"
+    },
+    {
+      "name": "venipede",
+      "url": "/api/v2/pokemon/543/"
+    },
+    {
+      "name": "whirlipede",
+      "url": "/api/v2/pokemon/544/"
+    },
+    {
+      "name": "scolipede",
+      "url": "/api/v2/pokemon/545/"
+    },
+    {
+      "name": "darumaka",
+      "url": "/api/v2/pokemon/554/"
+    },
+    {
+      "name": "darmanitan-standard",
+      "url": "/api/v2/pokemon/555/"
+    },
+    {
+      "name": "solosis",
+      "url": "/api/v2/pokemon/577/"
+    },
+    {
+      "name": "duosion",
+      "url": "/api/v2/pokemon/578/"
+    },
+    {
+      "name": "reuniclus",
+      "url": "/api/v2/pokemon/579/"
+    },
+    {
+      "name": "ferroseed",
+      "url": "/api/v2/pokemon/597/"
+    },
+    {
+      "name": "ferrothorn",
+      "url": "/api/v2/pokemon/598/"
+    },
+    {
+      "name": "golett",
+      "url": "/api/v2/pokemon/622/"
+    },
+    {
+      "name": "golurk",
+      "url": "/api/v2/pokemon/623/"
+    },
+    {
+      "name": "chespin",
+      "url": "/api/v2/pokemon/650/"
+    },
+    {
+      "name": "quilladin",
+      "url": "/api/v2/pokemon/651/"
+    },
+    {
+      "name": "chesnaught",
+      "url": "/api/v2/pokemon/652/"
+    },
+    {
+      "name": "honedge",
+      "url": "/api/v2/pokemon/679/"
+    },
+    {
+      "name": "doublade",
+      "url": "/api/v2/pokemon/680/"
+    },
+    {
+      "name": "aegislash-shield",
+      "url": "/api/v2/pokemon/681/"
+    },
+    {
+      "name": "spritzee",
+      "url": "/api/v2/pokemon/682/"
+    },
+    {
+      "name": "aromatisse",
+      "url": "/api/v2/pokemon/683/"
+    },
+    {
+      "name": "carbink",
+      "url": "/api/v2/pokemon/703/"
+    },
+    {
+      "name": "pumpkaboo-average",
+      "url": "/api/v2/pokemon/710/"
+    },
+    {
+      "name": "gourgeist-average",
+      "url": "/api/v2/pokemon/711/"
+    },
+    {
+      "name": "bergmite",
+      "url": "/api/v2/pokemon/712/"
+    },
+    {
+      "name": "avalugg",
+      "url": "/api/v2/pokemon/713/"
+    },
+    {
+      "name": "diancie",
+      "url": "/api/v2/pokemon/719/"
+    },
+    {
+      "name": "volcanion",
+      "url": "/api/v2/pokemon/721/"
+    },
+    {
+      "name": "passimian",
+      "url": "/api/v2/pokemon/766/"
+    },
+    {
+      "name": "minior-red-meteor",
+      "url": "/api/v2/pokemon/774/"
+    },
+    {
+      "name": "togedemaru",
+      "url": "/api/v2/pokemon/777/"
+    },
+    {
+      "name": "dhelmise",
+      "url": "/api/v2/pokemon/781/"
+    },
+    {
+      "name": "solgaleo",
+      "url": "/api/v2/pokemon/791/"
+    },
+    {
+      "name": "buzzwole",
+      "url": "/api/v2/pokemon/794/"
+    },
+    {
+      "name": "celesteela",
+      "url": "/api/v2/pokemon/797/"
+    },
+    {
+      "name": "guzzlord",
+      "url": "/api/v2/pokemon/799/"
+    },
+    {
+      "name": "necrozma",
+      "url": "/api/v2/pokemon/800/"
+    },
+    {
+      "name": "magearna",
+      "url": "/api/v2/pokemon/801/"
+    },
+    {
+      "name": "stakataka",
+      "url": "/api/v2/pokemon/805/"
+    },
+    {
+      "name": "meltan",
+      "url": "/api/v2/pokemon/808/"
+    },
+    {
+      "name": "melmetal",
+      "url": "/api/v2/pokemon/809/"
+    },
+    {
+      "name": "skwovet",
+      "url": "/api/v2/pokemon/819/"
+    },
+    {
+      "name": "greedent",
+      "url": "/api/v2/pokemon/820/"
+    },
+    {
+      "name": "rolycoly",
+      "url": "/api/v2/pokemon/837/"
+    },
+    {
+      "name": "carkol",
+      "url": "/api/v2/pokemon/838/"
+    },
+    {
+      "name": "coalossal",
+      "url": "/api/v2/pokemon/839/"
+    },
+    {
+      "name": "appletun",
+      "url": "/api/v2/pokemon/842/"
+    },
+    {
+      "name": "perrserker",
+      "url": "/api/v2/pokemon/863/"
+    },
+    {
+      "name": "duraludon",
+      "url": "/api/v2/pokemon/884/"
+    },
+    {
+      "name": "overqwil",
+      "url": "/api/v2/pokemon/904/"
+    },
+    {
+      "name": "varoom",
+      "url": "/api/v2/pokemon/965/"
+    },
+    {
+      "name": "revavroom",
+      "url": "/api/v2/pokemon/966/"
+    },
+    {
+      "name": "dudunsparce-two-segment",
+      "url": "/api/v2/pokemon/982/"
+    },
+    {
+      "name": "scream-tail",
+      "url": "/api/v2/pokemon/985/"
+    },
+    {
+      "name": "iron-treads",
+      "url": "/api/v2/pokemon/990/"
+    },
+    {
+      "name": "dipplin",
+      "url": "/api/v2/pokemon/1011/"
+    },
+    {
+      "name": "archaludon",
+      "url": "/api/v2/pokemon/1018/"
+    },
+    {
+      "name": "hydrapple",
+      "url": "/api/v2/pokemon/1019/"
+    },
+    {
+      "name": "terapagos",
+      "url": "/api/v2/pokemon/1024/"
+    },
+    {
+      "name": "wormadam-trash",
+      "url": "/api/v2/pokemon/10005/"
+    },
+    {
+      "name": "darmanitan-zen",
+      "url": "/api/v2/pokemon/10017/"
+    },
+    {
+      "name": "aegislash-blade",
+      "url": "/api/v2/pokemon/10026/"
+    },
+    {
+      "name": "pumpkaboo-small",
+      "url": "/api/v2/pokemon/10027/"
+    },
+    {
+      "name": "pumpkaboo-large",
+      "url": "/api/v2/pokemon/10028/"
+    },
+    {
+      "name": "pumpkaboo-super",
+      "url": "/api/v2/pokemon/10029/"
+    },
+    {
+      "name": "gourgeist-small",
+      "url": "/api/v2/pokemon/10030/"
+    },
+    {
+      "name": "gourgeist-large",
+      "url": "/api/v2/pokemon/10031/"
+    },
+    {
+      "name": "gourgeist-super",
+      "url": "/api/v2/pokemon/10032/"
+    },
+    {
+      "name": "blastoise-mega",
+      "url": "/api/v2/pokemon/10036/"
+    },
+    {
+      "name": "sableye-mega",
+      "url": "/api/v2/pokemon/10066/"
+    },
+    {
+      "name": "steelix-mega",
+      "url": "/api/v2/pokemon/10072/"
+    },
+    {
+      "name": "glalie-mega",
+      "url": "/api/v2/pokemon/10074/"
+    },
+    {
+      "name": "diancie-mega",
+      "url": "/api/v2/pokemon/10075/"
+    },
+    {
+      "name": "metagross-mega",
+      "url": "/api/v2/pokemon/10076/"
+    },
+    {
+      "name": "rayquaza-mega",
+      "url": "/api/v2/pokemon/10079/"
+    },
+    {
+      "name": "sandshrew-alola",
+      "url": "/api/v2/pokemon/10101/"
+    },
+    {
+      "name": "sandslash-alola",
+      "url": "/api/v2/pokemon/10102/"
+    },
+    {
+      "name": "geodude-alola",
+      "url": "/api/v2/pokemon/10109/"
+    },
+    {
+      "name": "graveler-alola",
+      "url": "/api/v2/pokemon/10110/"
+    },
+    {
+      "name": "golem-alola",
+      "url": "/api/v2/pokemon/10111/"
+    },
+    {
+      "name": "minior-orange-meteor",
+      "url": "/api/v2/pokemon/10130/"
+    },
+    {
+      "name": "minior-yellow-meteor",
+      "url": "/api/v2/pokemon/10131/"
+    },
+    {
+      "name": "minior-green-meteor",
+      "url": "/api/v2/pokemon/10132/"
+    },
+    {
+      "name": "minior-blue-meteor",
+      "url": "/api/v2/pokemon/10133/"
+    },
+    {
+      "name": "minior-indigo-meteor",
+      "url": "/api/v2/pokemon/10134/"
+    },
+    {
+      "name": "minior-violet-meteor",
+      "url": "/api/v2/pokemon/10135/"
+    },
+    {
+      "name": "minior-red",
+      "url": "/api/v2/pokemon/10136/"
+    },
+    {
+      "name": "minior-orange",
+      "url": "/api/v2/pokemon/10137/"
+    },
+    {
+      "name": "minior-yellow",
+      "url": "/api/v2/pokemon/10138/"
+    },
+    {
+      "name": "minior-green",
+      "url": "/api/v2/pokemon/10139/"
+    },
+    {
+      "name": "minior-blue",
+      "url": "/api/v2/pokemon/10140/"
+    },
+    {
+      "name": "minior-indigo",
+      "url": "/api/v2/pokemon/10141/"
+    },
+    {
+      "name": "minior-violet",
+      "url": "/api/v2/pokemon/10142/"
+    },
+    {
+      "name": "magearna-original",
+      "url": "/api/v2/pokemon/10147/"
+    },
+    {
+      "name": "togedemaru-totem",
+      "url": "/api/v2/pokemon/10154/"
+    },
+    {
+      "name": "necrozma-dusk",
+      "url": "/api/v2/pokemon/10155/"
+    },
+    {
+      "name": "necrozma-dawn",
+      "url": "/api/v2/pokemon/10156/"
+    },
+    {
+      "name": "necrozma-ultra",
+      "url": "/api/v2/pokemon/10157/"
+    },
+    {
+      "name": "meowth-galar",
+      "url": "/api/v2/pokemon/10161/"
+    },
+    {
+      "name": "weezing-galar",
+      "url": "/api/v2/pokemon/10167/"
+    },
+    {
+      "name": "darumaka-galar",
+      "url": "/api/v2/pokemon/10176/"
+    },
+    {
+      "name": "darmanitan-galar-standard",
+      "url": "/api/v2/pokemon/10177/"
+    },
+    {
+      "name": "darmanitan-galar-zen",
+      "url": "/api/v2/pokemon/10178/"
+    },
+    {
+      "name": "voltorb-hisui",
+      "url": "/api/v2/pokemon/10231/"
+    },
+    {
+      "name": "electrode-hisui",
+      "url": "/api/v2/pokemon/10232/"
+    },
+    {
+      "name": "typhlosion-hisui",
+      "url": "/api/v2/pokemon/10233/"
+    },
+    {
+      "name": "qwilfish-hisui",
+      "url": "/api/v2/pokemon/10234/"
+    },
+    {
+      "name": "sliggoo-hisui",
+      "url": "/api/v2/pokemon/10241/"
+    },
+    {
+      "name": "goodra-hisui",
+      "url": "/api/v2/pokemon/10242/"
+    },
+    {
+      "name": "avalugg-hisui",
+      "url": "/api/v2/pokemon/10243/"
+    },
+    {
+      "name": "dudunsparce-three-segment",
+      "url": "/api/v2/pokemon/10255/"
+    },
+    {
+      "name": "terapagos-terastal",
+      "url": "/api/v2/pokemon/10276/"
+    },
+    {
+      "name": "terapagos-stellar",
+      "url": "/api/v2/pokemon/10277/"
+    },
+    {
+      "name": "starmie-mega",
+      "url": "/api/v2/pokemon/10280/"
+    },
+    {
+      "name": "emboar-mega",
+      "url": "/api/v2/pokemon/10286/"
+    },
+    {
+      "name": "scolipede-mega",
+      "url": "/api/v2/pokemon/10288/"
+    },
+    {
+      "name": "chesnaught-mega",
+      "url": "/api/v2/pokemon/10292/"
+    },
+    {
+      "name": "golurk-mega",
+      "url": "/api/v2/pokemon/10313/"
+    }
+  ]
 }

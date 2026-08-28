@@ -1,37 +1,37 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "descriptions": {
-            "items": {
-                "$ref": "/schema/v2/description.json"
-            },
-            "type": "array"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "items": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "descriptions",
-        "id",
-        "items",
-        "name",
-        "names"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "descriptions": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/description.json"
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    }
+  },
+  "required": [
+    "descriptions",
+    "id",
+    "items",
+    "name",
+    "names"
+  ]
 }

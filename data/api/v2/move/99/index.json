@@ -1,1774 +1,1774 @@
 {
-    "accuracy": 100,
-    "contest_combos": {
-        "normal": {
-            "use_after": null,
-            "use_before": [
-                {
-                    "name": "thrash",
-                    "url": "/api/v2/move/37/"
-                },
-                {
-                    "name": "leer",
-                    "url": "/api/v2/move/43/"
-                },
-                {
-                    "name": "scary-face",
-                    "url": "/api/v2/move/184/"
-                }
-            ]
+  "id": 99,
+  "name": "rage",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": 20,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "thrash",
+          "url": "/api/v2/move/37/"
         },
-        "super": {
-            "use_after": null,
-            "use_before": null
+        {
+          "name": "leer",
+          "url": "/api/v2/move/43/"
+        },
+        {
+          "name": "scary-face",
+          "url": "/api/v2/move/184/"
         }
+      ],
+      "use_after": null
     },
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/17/"
-    },
-    "contest_type": {
-        "name": "cool",
-        "url": "/api/v2/contest-type/1/"
-    },
-    "damage_class": {
-        "name": "physical",
-        "url": "/api/v2/move-damage-class/2/"
-    },
-    "effect_chance": null,
-    "effect_changes": [
-        {
-            "effect_entries": [
-                {
-                    "effect": "Si cette capacit\u00e9 \u00e9choue, le lanceur re\u00e7oit des dommages \u00e9gaux \u00e0 la moiti\u00e9 de ses PV max arrondis \u00e0 l\u2019inf\u00e9rieur.",
-                    "language": {
-                        "name": "fr",
-                        "url": "/api/v2/language/5/"
-                    }
-                },
-                {
-                    "effect": "Locks the user into this move.  Due to a bug, if this move misses, its accuracy drops to 1/256 as long as the user is still locked in.",
-                    "language": {
-                        "name": "en",
-                        "url": "/api/v2/language/9/"
-                    }
-                }
-            ],
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        }
-    ],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  \u00c0 chaque fois que le lanceur est frapp\u00e9 apr\u00e8s avoir utilis\u00e9 cette capacit\u00e9 mais avant sa prochaine action, son Attaque augmente d'un niveau.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Si le lanceur est touch\u00e9 apr\u00e8s avoir utilis\u00e9 cette capacit\u00e9, son Attaque augmente d'un niveau."
-        },
-        {
-            "effect": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "If the user is hit after using this move, its Attack rises by one stage."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Raises ATTACK if\nthe user is hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "flavor_text": "Raises ATTACK if\nthe user is hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "flavor_text": "Raises the user\u2019s ATTACK\nevery time it is hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "Raises the user\u2019s ATTACK\nevery time it is hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "An attack that\nbecomes stronger\neach time the user\nis hit in battle.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Une fois activ\u00e9e, cette capacit\u00e9 augmente\nl\u2019Attaque du lanceur \u00e0 mesure que celui-ci\nsubit des attaques.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u308f\u3056\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u3053\u3046\u3052\u304d\u3092\n\u3046\u3051\u308b\u3068\u3000\u3044\u304b\u308a\u306e\u3000\u3061\u304b\u3089\u3067\n\u3053\u3046\u3052\u304d\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc37c\uc744 \ub54c \uacf5\uaca9\uc744\n\ubc1b\uc73c\uba74 \ubd84\ub178\uc758 \ud798\uc73c\ub85c\n\uacf5\uaca9\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Une fois activ\u00e9e, cette capacit\u00e9 augmente\nl\u2019Attaque du lanceur \u00e0 mesure que celui-ci\nsubit des attaques.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Erh\u00f6ht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u6280\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u653b\u6483\u3092\n\u53d7\u3051\u308b\u3068\u3000\u6012\u308a\u306e\u3000\u529b\u3067\n\u653b\u6483\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u308f\u3056\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u3053\u3046\u3052\u304d\u3092\n\u3046\u3051\u308b\u3068\u3000\u3044\u304b\u308a\u306e\u3000\u3061\u304b\u3089\u3067\n\u3053\u3046\u3052\u304d\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc37c\uc744 \ub54c \uacf5\uaca9\uc744\n\ubc1b\uc73c\uba74 \ubd84\ub178\uc758 \ud798\uc73c\ub85c\n\uacf5\uaca9\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Une fois activ\u00e9e, cette capacit\u00e9 augmente\nl\u2019Attaque du lanceur \u00e0 mesure que celui-ci\nsubit des attaques.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Erh\u00f6ht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u6280\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u653b\u6483\u3092\n\u53d7\u3051\u308b\u3068\u3000\u6012\u308a\u306e\u3000\u529b\u3067\n\u653b\u6483\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u308f\u3056\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u3053\u3046\u3052\u304d\u3092\n\u3046\u3051\u308b\u3068\u3000\u3044\u304b\u308a\u306e\u3000\u3061\u304b\u3089\u3067\n\u3053\u3046\u3052\u304d\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc37c\uc744 \ub54c \uacf5\uaca9\uc744\n\ubc1b\uc73c\uba74 \ubd84\ub178\uc758 \ud798\uc73c\ub85c\n\uacf5\uaca9\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5728\u4f7f\u7528\u62db\u5f0f\u5f8c\u53d7\u5230\u653b\u64ca\u6642\uff0c\n\u6703\u56e0\u61a4\u6012\u7684\u529b\u91cf\u800c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u653b\u64ca\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Une fois activ\u00e9e, cette capacit\u00e9 augmente\nl\u2019Attaque du lanceur \u00e0 mesure que celui-ci subit\ndes attaques.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Erh\u00f6ht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "As long as this move is in use, the power of rage\nraises the Attack stat each time the user is hit\nin battle.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u6280\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u653b\u6483\u3092\n\u53d7\u3051\u308b\u3068\u3000\u6012\u308a\u306e\u3000\u529b\u3067\n\u653b\u6483\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5982\u679c\u5728\u4f7f\u51fa\u62db\u5f0f\u540e\n\u53d7\u5230\u653b\u51fb\u7684\u8bdd\uff0c\n\u4f1a\u56e0\u6124\u6012\u7684\u529b\u91cf\u800c\u63d0\u9ad8\u653b\u51fb\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u308f\u3056\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u3053\u3046\u3052\u304d\u3092\n\u3046\u3051\u308b\u3068\u3000\u3044\u304b\u308a\u306e\u3000\u3061\u304b\u3089\u3067\n\u3053\u3046\u3052\u304d\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc37c\uc744 \ub54c \uacf5\uaca9\uc744\n\ubc1b\uc73c\uba74 \ubd84\ub178\uc758 \ud798\uc73c\ub85c\n\uacf5\uaca9\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5728\u4f7f\u7528\u62db\u5f0f\u5f8c\u53d7\u5230\u653b\u64ca\u6642\uff0c\n\u6703\u56e0\u61a4\u6012\u7684\u529b\u91cf\u800c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u653b\u64ca\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Une fois activ\u00e9e, cette capacit\u00e9 augmente\nl\u2019Attaque du lanceur \u00e0 mesure que celui-ci subit\ndes attaques.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Erh\u00f6ht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "As long as this move is in use, the power of rage\nraises the Attack stat each time the user is hit\nin battle.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u6280\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u653b\u6483\u3092\n\u53d7\u3051\u308b\u3068\u3000\u6012\u308a\u306e\u3000\u529b\u3067\n\u653b\u6483\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5982\u679c\u5728\u4f7f\u51fa\u62db\u5f0f\u540e\n\u53d7\u5230\u653b\u51fb\u7684\u8bdd\uff0c\n\u4f1a\u56e0\u6124\u6012\u7684\u529b\u91cf\u800c\u63d0\u9ad8\u653b\u51fb\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u308f\u3056\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u3053\u3046\u3052\u304d\u3092\n\u3046\u3051\u308b\u3068\u3000\u3044\u304b\u308a\u306e\u3000\u3061\u304b\u3089\u3067\n\u3053\u3046\u3052\u304d\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc37c\uc744 \ub54c \uacf5\uaca9\uc744\n\ubc1b\uc73c\uba74 \ubd84\ub178\uc758 \ud798\uc73c\ub85c\n\uacf5\uaca9\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5728\u4f7f\u7528\u62db\u5f0f\u5f8c\u53d7\u5230\u653b\u64ca\u6642\uff0c\n\u6703\u56e0\u61a4\u6012\u7684\u529b\u91cf\u800c\n\u63d0\u9ad8\u81ea\u5df1\u7684\u653b\u64ca\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Une fois activ\u00e9e, cette capacit\u00e9 augmente l\u2019Attaque\ndu lanceur \u00e0 mesure que celui-ci subit des attaques.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Erh\u00f6ht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "As long as this move is in use, the power of rage\nraises the Attack stat each time the user is hit\nin battle.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u6280\u3092\u3000\u3060\u3057\u305f\u3068\u304d\u306b\u3000\u653b\u6483\u3092\n\u53d7\u3051\u308b\u3068\u3000\u6012\u308a\u306e\u3000\u529b\u3067\n\u653b\u6483\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5982\u679c\u5728\u4f7f\u51fa\u62db\u5f0f\u540e\n\u53d7\u5230\u653b\u51fb\u7684\u8bdd\uff0c\n\u4f1a\u56e0\u6124\u6012\u7684\u529b\u91cf\u800c\u63d0\u9ad8\u653b\u51fb\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3053\u306e\u308f\u3056\u306f\u3000\u3064\u304b\u3048\u307e\u305b\u3093\n\u304a\u3082\u3044\u3060\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u304f\u306a\u308a\u307e\u3059\u304c\n\u308f\u3056\u3092\u3000\u308f\u3059\u308c\u308b\u3053\u3068\u3092\u3000\u304a\u3059\u3059\u3081\u3057\u307e\u3059",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc0ac\uc6a9\ud560 \uc218 \uc5c6\ub294 \uae30\uc220\uc785\ub2c8\ub2e4.\n\ub2e4\uc2dc \ubc30\uc6b0\uac8c \ud560 \uc218 \uc5c6\uc9c0\ub9cc\n\uae30\uc220\uc744 \uc78a\uac8c \ud558\ub294 \uac83\uc744 \uad8c\uc7a5\ud569\ub2c8\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7121\u6cd5\u4f7f\u7528\u6b64\u62db\u5f0f\u3002\n\u96d6\u7136\u5fd8\u8a18\u5f8c\u5c07\u7121\u6cd5\u518d\u60f3\u8d77\u4f86\uff0c\n\u4f46\u9084\u662f\u5efa\u8b70\u5fd8\u8a18\u6b64\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Cette capacit\u00e9 ne peut pas \u00eatre utilis\u00e9e.\nIl est recommand\u00e9 de l\u2019oublier, m\u00eame s\u2019il sera\nimpossible de se la rem\u00e9morer une fois oubli\u00e9e.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Diese Attacke kann nicht eingesetzt werden. Du solltest\ndein Pok\u00e9mon sie vergessen lassen. Beachte aber,\ndass es sich danach nicht wieder an sie erinnern kann.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Este movimiento no se puede usar, por lo que ser\u00eda\nmejor olvidarlo, aunque eso implique que no se pueda\nrecordar posteriormente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Questa mossa non pu\u00f2 essere usata.\n\u00c8 consigliabile farla dimenticare al Pok\u00e9mon. Tuttavia,\nuna volta dimenticata, non potr\u00e0 pi\u00f9 essere ricordata.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "This move can\u2019t be used.\nIt\u2019s recommended that this move is forgotten.\nOnce forgotten, this move can\u2019t be remembered.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u3053\u306e\u6280\u306f\u3000\u4f7f\u3048\u307e\u305b\u3093\n\u601d\u3044\u51fa\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u304f\u306a\u308a\u307e\u3059\u304c\n\u6280\u3092\u3000\u5fd8\u308c\u308b\u3053\u3068\u3092\u3000\u304a\u3059\u3059\u3081\u3057\u307e\u3059",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u65e0\u6cd5\u4f7f\u7528\u8fd9\u4e2a\u62db\u5f0f\u3002\n\u867d\u7136\u5fd8\u8bb0\u4e4b\u540e\u5c31\u518d\u4e5f\u60f3\u4e0d\u8d77\u6765\u4e86\uff0c\n\u4f46\u8fd8\u662f\u5efa\u8bae\u5fd8\u8bb0\u8fd9\u4e2a\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Este movimiento no se puede usar, por lo que ser\u00eda\nmejor olvidarlo, aunque eso implique que no se pueda\nrecordar posteriormente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-i",
-        "url": "/api/v2/generation/1/"
-    },
-    "id": 99,
-    "learned_by_pokemon": [
-        {
-            "name": "bulbasaur",
-            "url": "/api/v2/pokemon/1/"
-        },
-        {
-            "name": "ivysaur",
-            "url": "/api/v2/pokemon/2/"
-        },
-        {
-            "name": "venusaur",
-            "url": "/api/v2/pokemon/3/"
-        },
-        {
-            "name": "charmander",
-            "url": "/api/v2/pokemon/4/"
-        },
-        {
-            "name": "charmeleon",
-            "url": "/api/v2/pokemon/5/"
-        },
-        {
-            "name": "charizard",
-            "url": "/api/v2/pokemon/6/"
-        },
-        {
-            "name": "squirtle",
-            "url": "/api/v2/pokemon/7/"
-        },
-        {
-            "name": "wartortle",
-            "url": "/api/v2/pokemon/8/"
-        },
-        {
-            "name": "blastoise",
-            "url": "/api/v2/pokemon/9/"
-        },
-        {
-            "name": "butterfree",
-            "url": "/api/v2/pokemon/12/"
-        },
-        {
-            "name": "beedrill",
-            "url": "/api/v2/pokemon/15/"
-        },
-        {
-            "name": "pidgey",
-            "url": "/api/v2/pokemon/16/"
-        },
-        {
-            "name": "pidgeotto",
-            "url": "/api/v2/pokemon/17/"
-        },
-        {
-            "name": "pidgeot",
-            "url": "/api/v2/pokemon/18/"
-        },
-        {
-            "name": "rattata",
-            "url": "/api/v2/pokemon/19/"
-        },
-        {
-            "name": "raticate",
-            "url": "/api/v2/pokemon/20/"
-        },
-        {
-            "name": "spearow",
-            "url": "/api/v2/pokemon/21/"
-        },
-        {
-            "name": "fearow",
-            "url": "/api/v2/pokemon/22/"
-        },
-        {
-            "name": "ekans",
-            "url": "/api/v2/pokemon/23/"
-        },
-        {
-            "name": "arbok",
-            "url": "/api/v2/pokemon/24/"
-        },
-        {
-            "name": "pikachu",
-            "url": "/api/v2/pokemon/25/"
-        },
-        {
-            "name": "raichu",
-            "url": "/api/v2/pokemon/26/"
-        },
-        {
-            "name": "sandshrew",
-            "url": "/api/v2/pokemon/27/"
-        },
-        {
-            "name": "sandslash",
-            "url": "/api/v2/pokemon/28/"
-        },
-        {
-            "name": "nidoran-f",
-            "url": "/api/v2/pokemon/29/"
-        },
-        {
-            "name": "nidorina",
-            "url": "/api/v2/pokemon/30/"
-        },
-        {
-            "name": "nidoqueen",
-            "url": "/api/v2/pokemon/31/"
-        },
-        {
-            "name": "nidoran-m",
-            "url": "/api/v2/pokemon/32/"
-        },
-        {
-            "name": "nidorino",
-            "url": "/api/v2/pokemon/33/"
-        },
-        {
-            "name": "nidoking",
-            "url": "/api/v2/pokemon/34/"
-        },
-        {
-            "name": "clefairy",
-            "url": "/api/v2/pokemon/35/"
-        },
-        {
-            "name": "clefable",
-            "url": "/api/v2/pokemon/36/"
-        },
-        {
-            "name": "vulpix",
-            "url": "/api/v2/pokemon/37/"
-        },
-        {
-            "name": "ninetales",
-            "url": "/api/v2/pokemon/38/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "zubat",
-            "url": "/api/v2/pokemon/41/"
-        },
-        {
-            "name": "golbat",
-            "url": "/api/v2/pokemon/42/"
-        },
-        {
-            "name": "oddish",
-            "url": "/api/v2/pokemon/43/"
-        },
-        {
-            "name": "gloom",
-            "url": "/api/v2/pokemon/44/"
-        },
-        {
-            "name": "vileplume",
-            "url": "/api/v2/pokemon/45/"
-        },
-        {
-            "name": "paras",
-            "url": "/api/v2/pokemon/46/"
-        },
-        {
-            "name": "parasect",
-            "url": "/api/v2/pokemon/47/"
-        },
-        {
-            "name": "venonat",
-            "url": "/api/v2/pokemon/48/"
-        },
-        {
-            "name": "venomoth",
-            "url": "/api/v2/pokemon/49/"
-        },
-        {
-            "name": "diglett",
-            "url": "/api/v2/pokemon/50/"
-        },
-        {
-            "name": "dugtrio",
-            "url": "/api/v2/pokemon/51/"
-        },
-        {
-            "name": "meowth",
-            "url": "/api/v2/pokemon/52/"
-        },
-        {
-            "name": "persian",
-            "url": "/api/v2/pokemon/53/"
-        },
-        {
-            "name": "psyduck",
-            "url": "/api/v2/pokemon/54/"
-        },
-        {
-            "name": "golduck",
-            "url": "/api/v2/pokemon/55/"
-        },
-        {
-            "name": "mankey",
-            "url": "/api/v2/pokemon/56/"
-        },
-        {
-            "name": "primeape",
-            "url": "/api/v2/pokemon/57/"
-        },
-        {
-            "name": "growlithe",
-            "url": "/api/v2/pokemon/58/"
-        },
-        {
-            "name": "arcanine",
-            "url": "/api/v2/pokemon/59/"
-        },
-        {
-            "name": "poliwag",
-            "url": "/api/v2/pokemon/60/"
-        },
-        {
-            "name": "poliwhirl",
-            "url": "/api/v2/pokemon/61/"
-        },
-        {
-            "name": "poliwrath",
-            "url": "/api/v2/pokemon/62/"
-        },
-        {
-            "name": "abra",
-            "url": "/api/v2/pokemon/63/"
-        },
-        {
-            "name": "kadabra",
-            "url": "/api/v2/pokemon/64/"
-        },
-        {
-            "name": "alakazam",
-            "url": "/api/v2/pokemon/65/"
-        },
-        {
-            "name": "machop",
-            "url": "/api/v2/pokemon/66/"
-        },
-        {
-            "name": "machoke",
-            "url": "/api/v2/pokemon/67/"
-        },
-        {
-            "name": "machamp",
-            "url": "/api/v2/pokemon/68/"
-        },
-        {
-            "name": "bellsprout",
-            "url": "/api/v2/pokemon/69/"
-        },
-        {
-            "name": "weepinbell",
-            "url": "/api/v2/pokemon/70/"
-        },
-        {
-            "name": "victreebel",
-            "url": "/api/v2/pokemon/71/"
-        },
-        {
-            "name": "tentacool",
-            "url": "/api/v2/pokemon/72/"
-        },
-        {
-            "name": "tentacruel",
-            "url": "/api/v2/pokemon/73/"
-        },
-        {
-            "name": "geodude",
-            "url": "/api/v2/pokemon/74/"
-        },
-        {
-            "name": "graveler",
-            "url": "/api/v2/pokemon/75/"
-        },
-        {
-            "name": "golem",
-            "url": "/api/v2/pokemon/76/"
-        },
-        {
-            "name": "ponyta",
-            "url": "/api/v2/pokemon/77/"
-        },
-        {
-            "name": "rapidash",
-            "url": "/api/v2/pokemon/78/"
-        },
-        {
-            "name": "slowpoke",
-            "url": "/api/v2/pokemon/79/"
-        },
-        {
-            "name": "slowbro",
-            "url": "/api/v2/pokemon/80/"
-        },
-        {
-            "name": "magnemite",
-            "url": "/api/v2/pokemon/81/"
-        },
-        {
-            "name": "magneton",
-            "url": "/api/v2/pokemon/82/"
-        },
-        {
-            "name": "farfetchd",
-            "url": "/api/v2/pokemon/83/"
-        },
-        {
-            "name": "doduo",
-            "url": "/api/v2/pokemon/84/"
-        },
-        {
-            "name": "dodrio",
-            "url": "/api/v2/pokemon/85/"
-        },
-        {
-            "name": "seel",
-            "url": "/api/v2/pokemon/86/"
-        },
-        {
-            "name": "dewgong",
-            "url": "/api/v2/pokemon/87/"
-        },
-        {
-            "name": "grimer",
-            "url": "/api/v2/pokemon/88/"
-        },
-        {
-            "name": "muk",
-            "url": "/api/v2/pokemon/89/"
-        },
-        {
-            "name": "shellder",
-            "url": "/api/v2/pokemon/90/"
-        },
-        {
-            "name": "cloyster",
-            "url": "/api/v2/pokemon/91/"
-        },
-        {
-            "name": "gastly",
-            "url": "/api/v2/pokemon/92/"
-        },
-        {
-            "name": "haunter",
-            "url": "/api/v2/pokemon/93/"
-        },
-        {
-            "name": "gengar",
-            "url": "/api/v2/pokemon/94/"
-        },
-        {
-            "name": "onix",
-            "url": "/api/v2/pokemon/95/"
-        },
-        {
-            "name": "drowzee",
-            "url": "/api/v2/pokemon/96/"
-        },
-        {
-            "name": "hypno",
-            "url": "/api/v2/pokemon/97/"
-        },
-        {
-            "name": "krabby",
-            "url": "/api/v2/pokemon/98/"
-        },
-        {
-            "name": "kingler",
-            "url": "/api/v2/pokemon/99/"
-        },
-        {
-            "name": "voltorb",
-            "url": "/api/v2/pokemon/100/"
-        },
-        {
-            "name": "electrode",
-            "url": "/api/v2/pokemon/101/"
-        },
-        {
-            "name": "exeggcute",
-            "url": "/api/v2/pokemon/102/"
-        },
-        {
-            "name": "exeggutor",
-            "url": "/api/v2/pokemon/103/"
-        },
-        {
-            "name": "cubone",
-            "url": "/api/v2/pokemon/104/"
-        },
-        {
-            "name": "marowak",
-            "url": "/api/v2/pokemon/105/"
-        },
-        {
-            "name": "hitmonlee",
-            "url": "/api/v2/pokemon/106/"
-        },
-        {
-            "name": "hitmonchan",
-            "url": "/api/v2/pokemon/107/"
-        },
-        {
-            "name": "lickitung",
-            "url": "/api/v2/pokemon/108/"
-        },
-        {
-            "name": "koffing",
-            "url": "/api/v2/pokemon/109/"
-        },
-        {
-            "name": "weezing",
-            "url": "/api/v2/pokemon/110/"
-        },
-        {
-            "name": "rhyhorn",
-            "url": "/api/v2/pokemon/111/"
-        },
-        {
-            "name": "rhydon",
-            "url": "/api/v2/pokemon/112/"
-        },
-        {
-            "name": "chansey",
-            "url": "/api/v2/pokemon/113/"
-        },
-        {
-            "name": "tangela",
-            "url": "/api/v2/pokemon/114/"
-        },
-        {
-            "name": "kangaskhan",
-            "url": "/api/v2/pokemon/115/"
-        },
-        {
-            "name": "horsea",
-            "url": "/api/v2/pokemon/116/"
-        },
-        {
-            "name": "seadra",
-            "url": "/api/v2/pokemon/117/"
-        },
-        {
-            "name": "goldeen",
-            "url": "/api/v2/pokemon/118/"
-        },
-        {
-            "name": "seaking",
-            "url": "/api/v2/pokemon/119/"
-        },
-        {
-            "name": "staryu",
-            "url": "/api/v2/pokemon/120/"
-        },
-        {
-            "name": "starmie",
-            "url": "/api/v2/pokemon/121/"
-        },
-        {
-            "name": "mr-mime",
-            "url": "/api/v2/pokemon/122/"
-        },
-        {
-            "name": "scyther",
-            "url": "/api/v2/pokemon/123/"
-        },
-        {
-            "name": "jynx",
-            "url": "/api/v2/pokemon/124/"
-        },
-        {
-            "name": "electabuzz",
-            "url": "/api/v2/pokemon/125/"
-        },
-        {
-            "name": "magmar",
-            "url": "/api/v2/pokemon/126/"
-        },
-        {
-            "name": "pinsir",
-            "url": "/api/v2/pokemon/127/"
-        },
-        {
-            "name": "tauros",
-            "url": "/api/v2/pokemon/128/"
-        },
-        {
-            "name": "gyarados",
-            "url": "/api/v2/pokemon/130/"
-        },
-        {
-            "name": "lapras",
-            "url": "/api/v2/pokemon/131/"
-        },
-        {
-            "name": "eevee",
-            "url": "/api/v2/pokemon/133/"
-        },
-        {
-            "name": "vaporeon",
-            "url": "/api/v2/pokemon/134/"
-        },
-        {
-            "name": "jolteon",
-            "url": "/api/v2/pokemon/135/"
-        },
-        {
-            "name": "flareon",
-            "url": "/api/v2/pokemon/136/"
-        },
-        {
-            "name": "porygon",
-            "url": "/api/v2/pokemon/137/"
-        },
-        {
-            "name": "omanyte",
-            "url": "/api/v2/pokemon/138/"
-        },
-        {
-            "name": "omastar",
-            "url": "/api/v2/pokemon/139/"
-        },
-        {
-            "name": "kabuto",
-            "url": "/api/v2/pokemon/140/"
-        },
-        {
-            "name": "kabutops",
-            "url": "/api/v2/pokemon/141/"
-        },
-        {
-            "name": "aerodactyl",
-            "url": "/api/v2/pokemon/142/"
-        },
-        {
-            "name": "snorlax",
-            "url": "/api/v2/pokemon/143/"
-        },
-        {
-            "name": "articuno",
-            "url": "/api/v2/pokemon/144/"
-        },
-        {
-            "name": "zapdos",
-            "url": "/api/v2/pokemon/145/"
-        },
-        {
-            "name": "moltres",
-            "url": "/api/v2/pokemon/146/"
-        },
-        {
-            "name": "dratini",
-            "url": "/api/v2/pokemon/147/"
-        },
-        {
-            "name": "dragonair",
-            "url": "/api/v2/pokemon/148/"
-        },
-        {
-            "name": "dragonite",
-            "url": "/api/v2/pokemon/149/"
-        },
-        {
-            "name": "mewtwo",
-            "url": "/api/v2/pokemon/150/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "totodile",
-            "url": "/api/v2/pokemon/158/"
-        },
-        {
-            "name": "croconaw",
-            "url": "/api/v2/pokemon/159/"
-        },
-        {
-            "name": "feraligatr",
-            "url": "/api/v2/pokemon/160/"
-        },
-        {
-            "name": "dunsparce",
-            "url": "/api/v2/pokemon/206/"
-        },
-        {
-            "name": "steelix",
-            "url": "/api/v2/pokemon/208/"
-        },
-        {
-            "name": "snubbull",
-            "url": "/api/v2/pokemon/209/"
-        },
-        {
-            "name": "granbull",
-            "url": "/api/v2/pokemon/210/"
-        },
-        {
-            "name": "houndour",
-            "url": "/api/v2/pokemon/228/"
-        },
-        {
-            "name": "stantler",
-            "url": "/api/v2/pokemon/234/"
-        },
-        {
-            "name": "beautifly",
-            "url": "/api/v2/pokemon/267/"
-        },
-        {
-            "name": "taillow",
-            "url": "/api/v2/pokemon/276/"
-        },
-        {
-            "name": "carvanha",
-            "url": "/api/v2/pokemon/318/"
-        },
-        {
-            "name": "sharpedo",
-            "url": "/api/v2/pokemon/319/"
-        },
-        {
-            "name": "swablu",
-            "url": "/api/v2/pokemon/333/"
-        },
-        {
-            "name": "bagon",
-            "url": "/api/v2/pokemon/371/"
-        },
-        {
-            "name": "shelgon",
-            "url": "/api/v2/pokemon/372/"
-        },
-        {
-            "name": "salamence",
-            "url": "/api/v2/pokemon/373/"
-        },
-        {
-            "name": "blitzle",
-            "url": "/api/v2/pokemon/522/"
-        },
-        {
-            "name": "basculin-red-striped",
-            "url": "/api/v2/pokemon/550/"
-        },
-        {
-            "name": "sandile",
-            "url": "/api/v2/pokemon/551/"
-        },
-        {
-            "name": "krokorok",
-            "url": "/api/v2/pokemon/552/"
-        },
-        {
-            "name": "krookodile",
-            "url": "/api/v2/pokemon/553/"
-        },
-        {
-            "name": "darumaka",
-            "url": "/api/v2/pokemon/554/"
-        },
-        {
-            "name": "darmanitan-standard",
-            "url": "/api/v2/pokemon/555/"
-        },
-        {
-            "name": "bouffalant",
-            "url": "/api/v2/pokemon/626/"
-        },
-        {
-            "name": "type-null",
-            "url": "/api/v2/pokemon/772/"
-        },
-        {
-            "name": "silvally",
-            "url": "/api/v2/pokemon/773/"
-        },
-        {
-            "name": "bruxish",
-            "url": "/api/v2/pokemon/779/"
-        },
-        {
-            "name": "basculin-blue-striped",
-            "url": "/api/v2/pokemon/10016/"
-        },
-        {
-            "name": "darmanitan-zen",
-            "url": "/api/v2/pokemon/10017/"
-        },
-        {
-            "name": "kangaskhan-mega",
-            "url": "/api/v2/pokemon/10039/"
-        },
-        {
-            "name": "gyarados-mega",
-            "url": "/api/v2/pokemon/10041/"
-        },
-        {
-            "name": "sharpedo-mega",
-            "url": "/api/v2/pokemon/10070/"
-        },
-        {
-            "name": "steelix-mega",
-            "url": "/api/v2/pokemon/10072/"
-        },
-        {
-            "name": "salamence-mega",
-            "url": "/api/v2/pokemon/10089/"
-        },
-        {
-            "name": "beedrill-mega",
-            "url": "/api/v2/pokemon/10090/"
-        },
-        {
-            "name": "marowak-alola",
-            "url": "/api/v2/pokemon/10115/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/420/"
-            },
-            "version_group": {
-                "name": "red-blue",
-                "url": "/api/v2/version-group/1/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/421/"
-            },
-            "version_group": {
-                "name": "yellow",
-                "url": "/api/v2/version-group/2/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/440/"
-            },
-            "version_group": {
-                "name": "red-green-japan",
-                "url": "/api/v2/version-group/28/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/441/"
-            },
-            "version_group": {
-                "name": "blue-japan",
-                "url": "/api/v2/version-group/29/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "rage",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u3044\u304b\u308a"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ubd84\ub178"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u61a4\u6012"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Fr\u00e9n\u00e9sie"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Raserei"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Furia"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Ira"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Rage"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u3044\u304b\u308a"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u6124\u6012"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Furia"
-        }
-    ],
-    "past_values": [],
-    "power": 20,
-    "pp": 20,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/11/"
-    },
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "normal",
-        "url": "/api/v2/type/1/"
+    "super": {
+      "use_before": null,
+      "use_after": null
     }
+  },
+  "contest_type": {
+    "name": "cool",
+    "url": "/api/v2/contest-type/1/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/17/"
+  },
+  "damage_class": {
+    "name": "physical",
+    "url": "/api/v2/move-damage-class/2/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts réguliers.  À chaque fois que le lanceur est frappé après avoir utilisé cette capacité mais avant sa prochaine action, son Attaque augmente d'un niveau.",
+      "short_effect": "Si le lanceur est touché après avoir utilisé cette capacité, son Attaque augmente d'un niveau.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage.",
+      "short_effect": "If the user is hit after using this move, its Attack rises by one stage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      },
+      "effect_entries": [
+        {
+          "effect": "Si cette capacité échoue, le lanceur reçoit des dommages égaux à la moitié de ses PV max arrondis à l’inférieur.",
+          "language": {
+            "name": "fr",
+            "url": "/api/v2/language/5/"
+          }
+        },
+        {
+          "effect": "Locks the user into this move.  Due to a bug, if this move misses, its accuracy drops to 1/256 as long as the user is still locked in.",
+          "language": {
+            "name": "en",
+            "url": "/api/v2/language/9/"
+          }
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-i",
+    "url": "/api/v2/generation/1/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "いかり",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "분노",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "憤怒",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Frénésie",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Raserei",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Furia",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Ira",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Rage",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "いかり",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "愤怒",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Furia",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/11/"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "normal",
+    "url": "/api/v2/type/1/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/420/"
+      },
+      "version_group": {
+        "name": "red-blue",
+        "url": "/api/v2/version-group/1/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/421/"
+      },
+      "version_group": {
+        "name": "yellow",
+        "url": "/api/v2/version-group/2/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/440/"
+      },
+      "version_group": {
+        "name": "red-green-japan",
+        "url": "/api/v2/version-group/28/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/441/"
+      },
+      "version_group": {
+        "name": "blue-japan",
+        "url": "/api/v2/version-group/29/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Raises ATTACK if\nthe user is hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "flavor_text": "Raises ATTACK if\nthe user is hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    },
+    {
+      "flavor_text": "Raises the user’s ATTACK\nevery time it is hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "Raises the user’s ATTACK\nevery time it is hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "An attack that\nbecomes stronger\neach time the user\nis hit in battle.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Une fois activée, cette capacité augmente\nl’Attaque du lanceur à mesure que celui-ci\nsubit des attaques.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "わざを　だしたときに　こうげきを\nうけると　いかりの　ちからで\nこうげきが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "기술을 썼을 때 공격을\n받으면 분노의 힘으로\n공격이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Une fois activée, cette capacité augmente\nl’Attaque du lanceur à mesure que celui-ci\nsubit des attaques.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Erhöht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "技を　だしたときに　攻撃を\n受けると　怒りの　力で\n攻撃が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "わざを　だしたときに　こうげきを\nうけると　いかりの　ちからで\nこうげきが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "기술을 썼을 때 공격을\n받으면 분노의 힘으로\n공격이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Une fois activée, cette capacité augmente\nl’Attaque du lanceur à mesure que celui-ci\nsubit des attaques.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Erhöht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "As long as this move is in use, the power\nof rage raises the Attack stat each\ntime the user is hit in battle.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "技を　だしたときに　攻撃を\n受けると　怒りの　力で\n攻撃が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "わざを　だしたときに　こうげきを\nうけると　いかりの　ちからで\nこうげきが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "기술을 썼을 때 공격을\n받으면 분노의 힘으로\n공격이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "在使用招式後受到攻擊時，\n會因憤怒的力量而\n提高自己的攻擊。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Une fois activée, cette capacité augmente\nl’Attaque du lanceur à mesure que celui-ci subit\ndes attaques.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Erhöht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "As long as this move is in use, the power of rage\nraises the Attack stat each time the user is hit\nin battle.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "技を　だしたときに　攻撃を\n受けると　怒りの　力で\n攻撃が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "如果在使出招式后\n受到攻击的话，\n会因愤怒的力量而提高攻击。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "わざを　だしたときに　こうげきを\nうけると　いかりの　ちからで\nこうげきが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "기술을 썼을 때 공격을\n받으면 분노의 힘으로\n공격이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "在使用招式後受到攻擊時，\n會因憤怒的力量而\n提高自己的攻擊。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Une fois activée, cette capacité augmente\nl’Attaque du lanceur à mesure que celui-ci subit\ndes attaques.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Erhöht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "As long as this move is in use, the power of rage\nraises the Attack stat each time the user is hit\nin battle.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "技を　だしたときに　攻撃を\n受けると　怒りの　力で\n攻撃が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "如果在使出招式后\n受到攻击的话，\n会因愤怒的力量而提高攻击。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "わざを　だしたときに　こうげきを\nうけると　いかりの　ちからで\nこうげきが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "기술을 썼을 때 공격을\n받으면 분노의 힘으로\n공격이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "在使用招式後受到攻擊時，\n會因憤怒的力量而\n提高自己的攻擊。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Une fois activée, cette capacité augmente l’Attaque\ndu lanceur à mesure que celui-ci subit des attaques.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Erhöht Angriff des Anwenders, wenn dieser\ngetroffen wird, solange die Attacke aktiviert ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Questa mossa ha il potere di aumentare\nla statistica Attacco ogni volta che chi la usa\nviene colpito durante una lotta.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "As long as this move is in use, the power of rage\nraises the Attack stat each time the user is hit\nin battle.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "技を　だしたときに　攻撃を\n受けると　怒りの　力で\n攻撃が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "如果在使出招式后\n受到攻击的话，\n会因愤怒的力量而提高攻击。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "このわざは　つかえません\nおもいだすことが　できなくなりますが\nわざを　わすれることを　おすすめします",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "사용할 수 없는 기술입니다.\n다시 배우게 할 수 없지만\n기술을 잊게 하는 것을 권장합니다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "無法使用此招式。\n雖然忘記後將無法再想起來，\n但還是建議忘記此招式。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Cette capacité ne peut pas être utilisée.\nIl est recommandé de l’oublier, même s’il sera\nimpossible de se la remémorer une fois oubliée.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Diese Attacke kann nicht eingesetzt werden. Du solltest\ndein Pokémon sie vergessen lassen. Beachte aber,\ndass es sich danach nicht wieder an sie erinnern kann.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Este movimiento no se puede usar, por lo que sería\nmejor olvidarlo, aunque eso implique que no se pueda\nrecordar posteriormente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Questa mossa non può essere usata.\nÈ consigliabile farla dimenticare al Pokémon. Tuttavia,\nuna volta dimenticata, non potrà più essere ricordata.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "この技は　使えません\n思い出すことが　できなくなりますが\n技を　忘れることを　おすすめします",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "无法使用这个招式。\n虽然忘记之后就再也想不起来了，\n但还是建议忘记这个招式。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Este movimiento no se puede usar, por lo que sería\nmejor olvidarlo, aunque eso implique que no se pueda\nrecordar posteriormente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "bulbasaur",
+      "url": "/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "/api/v2/pokemon/2/"
+    },
+    {
+      "name": "venusaur",
+      "url": "/api/v2/pokemon/3/"
+    },
+    {
+      "name": "charmander",
+      "url": "/api/v2/pokemon/4/"
+    },
+    {
+      "name": "charmeleon",
+      "url": "/api/v2/pokemon/5/"
+    },
+    {
+      "name": "charizard",
+      "url": "/api/v2/pokemon/6/"
+    },
+    {
+      "name": "squirtle",
+      "url": "/api/v2/pokemon/7/"
+    },
+    {
+      "name": "wartortle",
+      "url": "/api/v2/pokemon/8/"
+    },
+    {
+      "name": "blastoise",
+      "url": "/api/v2/pokemon/9/"
+    },
+    {
+      "name": "butterfree",
+      "url": "/api/v2/pokemon/12/"
+    },
+    {
+      "name": "beedrill",
+      "url": "/api/v2/pokemon/15/"
+    },
+    {
+      "name": "pidgey",
+      "url": "/api/v2/pokemon/16/"
+    },
+    {
+      "name": "pidgeotto",
+      "url": "/api/v2/pokemon/17/"
+    },
+    {
+      "name": "pidgeot",
+      "url": "/api/v2/pokemon/18/"
+    },
+    {
+      "name": "rattata",
+      "url": "/api/v2/pokemon/19/"
+    },
+    {
+      "name": "raticate",
+      "url": "/api/v2/pokemon/20/"
+    },
+    {
+      "name": "spearow",
+      "url": "/api/v2/pokemon/21/"
+    },
+    {
+      "name": "fearow",
+      "url": "/api/v2/pokemon/22/"
+    },
+    {
+      "name": "ekans",
+      "url": "/api/v2/pokemon/23/"
+    },
+    {
+      "name": "arbok",
+      "url": "/api/v2/pokemon/24/"
+    },
+    {
+      "name": "pikachu",
+      "url": "/api/v2/pokemon/25/"
+    },
+    {
+      "name": "raichu",
+      "url": "/api/v2/pokemon/26/"
+    },
+    {
+      "name": "sandshrew",
+      "url": "/api/v2/pokemon/27/"
+    },
+    {
+      "name": "sandslash",
+      "url": "/api/v2/pokemon/28/"
+    },
+    {
+      "name": "nidoran-f",
+      "url": "/api/v2/pokemon/29/"
+    },
+    {
+      "name": "nidorina",
+      "url": "/api/v2/pokemon/30/"
+    },
+    {
+      "name": "nidoqueen",
+      "url": "/api/v2/pokemon/31/"
+    },
+    {
+      "name": "nidoran-m",
+      "url": "/api/v2/pokemon/32/"
+    },
+    {
+      "name": "nidorino",
+      "url": "/api/v2/pokemon/33/"
+    },
+    {
+      "name": "nidoking",
+      "url": "/api/v2/pokemon/34/"
+    },
+    {
+      "name": "clefairy",
+      "url": "/api/v2/pokemon/35/"
+    },
+    {
+      "name": "clefable",
+      "url": "/api/v2/pokemon/36/"
+    },
+    {
+      "name": "vulpix",
+      "url": "/api/v2/pokemon/37/"
+    },
+    {
+      "name": "ninetales",
+      "url": "/api/v2/pokemon/38/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "zubat",
+      "url": "/api/v2/pokemon/41/"
+    },
+    {
+      "name": "golbat",
+      "url": "/api/v2/pokemon/42/"
+    },
+    {
+      "name": "oddish",
+      "url": "/api/v2/pokemon/43/"
+    },
+    {
+      "name": "gloom",
+      "url": "/api/v2/pokemon/44/"
+    },
+    {
+      "name": "vileplume",
+      "url": "/api/v2/pokemon/45/"
+    },
+    {
+      "name": "paras",
+      "url": "/api/v2/pokemon/46/"
+    },
+    {
+      "name": "parasect",
+      "url": "/api/v2/pokemon/47/"
+    },
+    {
+      "name": "venonat",
+      "url": "/api/v2/pokemon/48/"
+    },
+    {
+      "name": "venomoth",
+      "url": "/api/v2/pokemon/49/"
+    },
+    {
+      "name": "diglett",
+      "url": "/api/v2/pokemon/50/"
+    },
+    {
+      "name": "dugtrio",
+      "url": "/api/v2/pokemon/51/"
+    },
+    {
+      "name": "meowth",
+      "url": "/api/v2/pokemon/52/"
+    },
+    {
+      "name": "persian",
+      "url": "/api/v2/pokemon/53/"
+    },
+    {
+      "name": "psyduck",
+      "url": "/api/v2/pokemon/54/"
+    },
+    {
+      "name": "golduck",
+      "url": "/api/v2/pokemon/55/"
+    },
+    {
+      "name": "mankey",
+      "url": "/api/v2/pokemon/56/"
+    },
+    {
+      "name": "primeape",
+      "url": "/api/v2/pokemon/57/"
+    },
+    {
+      "name": "growlithe",
+      "url": "/api/v2/pokemon/58/"
+    },
+    {
+      "name": "arcanine",
+      "url": "/api/v2/pokemon/59/"
+    },
+    {
+      "name": "poliwag",
+      "url": "/api/v2/pokemon/60/"
+    },
+    {
+      "name": "poliwhirl",
+      "url": "/api/v2/pokemon/61/"
+    },
+    {
+      "name": "poliwrath",
+      "url": "/api/v2/pokemon/62/"
+    },
+    {
+      "name": "abra",
+      "url": "/api/v2/pokemon/63/"
+    },
+    {
+      "name": "kadabra",
+      "url": "/api/v2/pokemon/64/"
+    },
+    {
+      "name": "alakazam",
+      "url": "/api/v2/pokemon/65/"
+    },
+    {
+      "name": "machop",
+      "url": "/api/v2/pokemon/66/"
+    },
+    {
+      "name": "machoke",
+      "url": "/api/v2/pokemon/67/"
+    },
+    {
+      "name": "machamp",
+      "url": "/api/v2/pokemon/68/"
+    },
+    {
+      "name": "bellsprout",
+      "url": "/api/v2/pokemon/69/"
+    },
+    {
+      "name": "weepinbell",
+      "url": "/api/v2/pokemon/70/"
+    },
+    {
+      "name": "victreebel",
+      "url": "/api/v2/pokemon/71/"
+    },
+    {
+      "name": "tentacool",
+      "url": "/api/v2/pokemon/72/"
+    },
+    {
+      "name": "tentacruel",
+      "url": "/api/v2/pokemon/73/"
+    },
+    {
+      "name": "geodude",
+      "url": "/api/v2/pokemon/74/"
+    },
+    {
+      "name": "graveler",
+      "url": "/api/v2/pokemon/75/"
+    },
+    {
+      "name": "golem",
+      "url": "/api/v2/pokemon/76/"
+    },
+    {
+      "name": "ponyta",
+      "url": "/api/v2/pokemon/77/"
+    },
+    {
+      "name": "rapidash",
+      "url": "/api/v2/pokemon/78/"
+    },
+    {
+      "name": "slowpoke",
+      "url": "/api/v2/pokemon/79/"
+    },
+    {
+      "name": "slowbro",
+      "url": "/api/v2/pokemon/80/"
+    },
+    {
+      "name": "magnemite",
+      "url": "/api/v2/pokemon/81/"
+    },
+    {
+      "name": "magneton",
+      "url": "/api/v2/pokemon/82/"
+    },
+    {
+      "name": "farfetchd",
+      "url": "/api/v2/pokemon/83/"
+    },
+    {
+      "name": "doduo",
+      "url": "/api/v2/pokemon/84/"
+    },
+    {
+      "name": "dodrio",
+      "url": "/api/v2/pokemon/85/"
+    },
+    {
+      "name": "seel",
+      "url": "/api/v2/pokemon/86/"
+    },
+    {
+      "name": "dewgong",
+      "url": "/api/v2/pokemon/87/"
+    },
+    {
+      "name": "grimer",
+      "url": "/api/v2/pokemon/88/"
+    },
+    {
+      "name": "muk",
+      "url": "/api/v2/pokemon/89/"
+    },
+    {
+      "name": "shellder",
+      "url": "/api/v2/pokemon/90/"
+    },
+    {
+      "name": "cloyster",
+      "url": "/api/v2/pokemon/91/"
+    },
+    {
+      "name": "gastly",
+      "url": "/api/v2/pokemon/92/"
+    },
+    {
+      "name": "haunter",
+      "url": "/api/v2/pokemon/93/"
+    },
+    {
+      "name": "gengar",
+      "url": "/api/v2/pokemon/94/"
+    },
+    {
+      "name": "onix",
+      "url": "/api/v2/pokemon/95/"
+    },
+    {
+      "name": "drowzee",
+      "url": "/api/v2/pokemon/96/"
+    },
+    {
+      "name": "hypno",
+      "url": "/api/v2/pokemon/97/"
+    },
+    {
+      "name": "krabby",
+      "url": "/api/v2/pokemon/98/"
+    },
+    {
+      "name": "kingler",
+      "url": "/api/v2/pokemon/99/"
+    },
+    {
+      "name": "voltorb",
+      "url": "/api/v2/pokemon/100/"
+    },
+    {
+      "name": "electrode",
+      "url": "/api/v2/pokemon/101/"
+    },
+    {
+      "name": "exeggcute",
+      "url": "/api/v2/pokemon/102/"
+    },
+    {
+      "name": "exeggutor",
+      "url": "/api/v2/pokemon/103/"
+    },
+    {
+      "name": "cubone",
+      "url": "/api/v2/pokemon/104/"
+    },
+    {
+      "name": "marowak",
+      "url": "/api/v2/pokemon/105/"
+    },
+    {
+      "name": "hitmonlee",
+      "url": "/api/v2/pokemon/106/"
+    },
+    {
+      "name": "hitmonchan",
+      "url": "/api/v2/pokemon/107/"
+    },
+    {
+      "name": "lickitung",
+      "url": "/api/v2/pokemon/108/"
+    },
+    {
+      "name": "koffing",
+      "url": "/api/v2/pokemon/109/"
+    },
+    {
+      "name": "weezing",
+      "url": "/api/v2/pokemon/110/"
+    },
+    {
+      "name": "rhyhorn",
+      "url": "/api/v2/pokemon/111/"
+    },
+    {
+      "name": "rhydon",
+      "url": "/api/v2/pokemon/112/"
+    },
+    {
+      "name": "chansey",
+      "url": "/api/v2/pokemon/113/"
+    },
+    {
+      "name": "tangela",
+      "url": "/api/v2/pokemon/114/"
+    },
+    {
+      "name": "kangaskhan",
+      "url": "/api/v2/pokemon/115/"
+    },
+    {
+      "name": "horsea",
+      "url": "/api/v2/pokemon/116/"
+    },
+    {
+      "name": "seadra",
+      "url": "/api/v2/pokemon/117/"
+    },
+    {
+      "name": "goldeen",
+      "url": "/api/v2/pokemon/118/"
+    },
+    {
+      "name": "seaking",
+      "url": "/api/v2/pokemon/119/"
+    },
+    {
+      "name": "staryu",
+      "url": "/api/v2/pokemon/120/"
+    },
+    {
+      "name": "starmie",
+      "url": "/api/v2/pokemon/121/"
+    },
+    {
+      "name": "mr-mime",
+      "url": "/api/v2/pokemon/122/"
+    },
+    {
+      "name": "scyther",
+      "url": "/api/v2/pokemon/123/"
+    },
+    {
+      "name": "jynx",
+      "url": "/api/v2/pokemon/124/"
+    },
+    {
+      "name": "electabuzz",
+      "url": "/api/v2/pokemon/125/"
+    },
+    {
+      "name": "magmar",
+      "url": "/api/v2/pokemon/126/"
+    },
+    {
+      "name": "pinsir",
+      "url": "/api/v2/pokemon/127/"
+    },
+    {
+      "name": "tauros",
+      "url": "/api/v2/pokemon/128/"
+    },
+    {
+      "name": "gyarados",
+      "url": "/api/v2/pokemon/130/"
+    },
+    {
+      "name": "lapras",
+      "url": "/api/v2/pokemon/131/"
+    },
+    {
+      "name": "eevee",
+      "url": "/api/v2/pokemon/133/"
+    },
+    {
+      "name": "vaporeon",
+      "url": "/api/v2/pokemon/134/"
+    },
+    {
+      "name": "jolteon",
+      "url": "/api/v2/pokemon/135/"
+    },
+    {
+      "name": "flareon",
+      "url": "/api/v2/pokemon/136/"
+    },
+    {
+      "name": "porygon",
+      "url": "/api/v2/pokemon/137/"
+    },
+    {
+      "name": "omanyte",
+      "url": "/api/v2/pokemon/138/"
+    },
+    {
+      "name": "omastar",
+      "url": "/api/v2/pokemon/139/"
+    },
+    {
+      "name": "kabuto",
+      "url": "/api/v2/pokemon/140/"
+    },
+    {
+      "name": "kabutops",
+      "url": "/api/v2/pokemon/141/"
+    },
+    {
+      "name": "aerodactyl",
+      "url": "/api/v2/pokemon/142/"
+    },
+    {
+      "name": "snorlax",
+      "url": "/api/v2/pokemon/143/"
+    },
+    {
+      "name": "articuno",
+      "url": "/api/v2/pokemon/144/"
+    },
+    {
+      "name": "zapdos",
+      "url": "/api/v2/pokemon/145/"
+    },
+    {
+      "name": "moltres",
+      "url": "/api/v2/pokemon/146/"
+    },
+    {
+      "name": "dratini",
+      "url": "/api/v2/pokemon/147/"
+    },
+    {
+      "name": "dragonair",
+      "url": "/api/v2/pokemon/148/"
+    },
+    {
+      "name": "dragonite",
+      "url": "/api/v2/pokemon/149/"
+    },
+    {
+      "name": "mewtwo",
+      "url": "/api/v2/pokemon/150/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "totodile",
+      "url": "/api/v2/pokemon/158/"
+    },
+    {
+      "name": "croconaw",
+      "url": "/api/v2/pokemon/159/"
+    },
+    {
+      "name": "feraligatr",
+      "url": "/api/v2/pokemon/160/"
+    },
+    {
+      "name": "dunsparce",
+      "url": "/api/v2/pokemon/206/"
+    },
+    {
+      "name": "steelix",
+      "url": "/api/v2/pokemon/208/"
+    },
+    {
+      "name": "snubbull",
+      "url": "/api/v2/pokemon/209/"
+    },
+    {
+      "name": "granbull",
+      "url": "/api/v2/pokemon/210/"
+    },
+    {
+      "name": "houndour",
+      "url": "/api/v2/pokemon/228/"
+    },
+    {
+      "name": "stantler",
+      "url": "/api/v2/pokemon/234/"
+    },
+    {
+      "name": "beautifly",
+      "url": "/api/v2/pokemon/267/"
+    },
+    {
+      "name": "taillow",
+      "url": "/api/v2/pokemon/276/"
+    },
+    {
+      "name": "carvanha",
+      "url": "/api/v2/pokemon/318/"
+    },
+    {
+      "name": "sharpedo",
+      "url": "/api/v2/pokemon/319/"
+    },
+    {
+      "name": "swablu",
+      "url": "/api/v2/pokemon/333/"
+    },
+    {
+      "name": "bagon",
+      "url": "/api/v2/pokemon/371/"
+    },
+    {
+      "name": "shelgon",
+      "url": "/api/v2/pokemon/372/"
+    },
+    {
+      "name": "salamence",
+      "url": "/api/v2/pokemon/373/"
+    },
+    {
+      "name": "blitzle",
+      "url": "/api/v2/pokemon/522/"
+    },
+    {
+      "name": "basculin-red-striped",
+      "url": "/api/v2/pokemon/550/"
+    },
+    {
+      "name": "sandile",
+      "url": "/api/v2/pokemon/551/"
+    },
+    {
+      "name": "krokorok",
+      "url": "/api/v2/pokemon/552/"
+    },
+    {
+      "name": "krookodile",
+      "url": "/api/v2/pokemon/553/"
+    },
+    {
+      "name": "darumaka",
+      "url": "/api/v2/pokemon/554/"
+    },
+    {
+      "name": "darmanitan-standard",
+      "url": "/api/v2/pokemon/555/"
+    },
+    {
+      "name": "bouffalant",
+      "url": "/api/v2/pokemon/626/"
+    },
+    {
+      "name": "type-null",
+      "url": "/api/v2/pokemon/772/"
+    },
+    {
+      "name": "silvally",
+      "url": "/api/v2/pokemon/773/"
+    },
+    {
+      "name": "bruxish",
+      "url": "/api/v2/pokemon/779/"
+    },
+    {
+      "name": "basculin-blue-striped",
+      "url": "/api/v2/pokemon/10016/"
+    },
+    {
+      "name": "darmanitan-zen",
+      "url": "/api/v2/pokemon/10017/"
+    },
+    {
+      "name": "kangaskhan-mega",
+      "url": "/api/v2/pokemon/10039/"
+    },
+    {
+      "name": "gyarados-mega",
+      "url": "/api/v2/pokemon/10041/"
+    },
+    {
+      "name": "sharpedo-mega",
+      "url": "/api/v2/pokemon/10070/"
+    },
+    {
+      "name": "steelix-mega",
+      "url": "/api/v2/pokemon/10072/"
+    },
+    {
+      "name": "salamence-mega",
+      "url": "/api/v2/pokemon/10089/"
+    },
+    {
+      "name": "beedrill-mega",
+      "url": "/api/v2/pokemon/10090/"
+    },
+    {
+      "name": "marowak-alola",
+      "url": "/api/v2/pokemon/10115/"
+    }
+  ]
 }

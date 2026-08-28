@@ -1,96 +1,96 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 809,
-    "location": {
-        "name": "hoenn-battle-frontier",
-        "url": "/api/v2/location/813/"
+  "id": 809,
+  "name": "hoenn-battle-frontier-area",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "hoenn-battle-frontier",
+    "url": "/api/v2/location/813/"
+  },
+  "names": [
+    {
+      "name": "Hoenn Battle Frontier",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     },
-    "name": "hoenn-battle-frontier-area",
-    "names": [
+    {
+      "name": "Kampfzone (Hoenn)",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Zone de Combat",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "meowth",
+        "url": "/api/v2/pokemon/52/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Hoenn Battle Frontier"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Kampfzone (Hoenn)"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Zone de Combat"
-        }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "meowth",
-                "url": "/api/v2/pokemon/52/"
-            },
-            "version_details": [
+          "version": {
+            "name": "emerald",
+            "url": "/api/v2/version/9/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 100,
+              "chance": 100,
+              "method": {
+                "name": "npc-trade",
+                "url": "/api/v2/encounter-method/36/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "trade-skitty",
-                                    "url": "/api/v2/encounter-condition-value/175/"
-                                }
-                            ],
-                            "max_level": 100,
-                            "method": {
-                                "name": "npc-trade",
-                                "url": "/api/v2/encounter-method/36/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "emerald",
-                        "url": "/api/v2/version/9/"
-                    }
+                  "name": "trade-skitty",
+                  "url": "/api/v2/encounter-condition-value/175/"
                 }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "sudowoodo",
-                "url": "/api/v2/pokemon/185/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "wailmer-pail",
-                                "url": "/api/v2/encounter-method/26/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "emerald",
-                        "url": "/api/v2/version/9/"
-                    }
-                }
-            ]
+              ],
+              "pokemon_details": null
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "sudowoodo",
+        "url": "/api/v2/pokemon/185/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "emerald",
+            "url": "/api/v2/version/9/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 100,
+              "method": {
+                "name": "wailmer-pail",
+                "url": "/api/v2/encounter-method/26/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

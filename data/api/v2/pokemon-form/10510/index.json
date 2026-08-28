@@ -1,111 +1,112 @@
 {
-    "form_name": "mega",
-    "form_names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30e1\u30ac\u30e6\u30ad\u30e1\u30ce\u30b3"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "M\u00e9ga-Momartik"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mega Froslass"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30e1\u30ac\u30e6\u30ad\u30e1\u30ce\u30b3"
-        }
-    ],
-    "form_order": 2,
-    "id": 10510,
-    "is_battle_only": true,
-    "is_default": true,
-    "is_mega": true,
+  "id": 10510,
+  "name": "froslass-mega",
+  "order": 523,
+  "form_order": 2,
+  "is_default": true,
+  "is_battle_only": true,
+  "is_mega": true,
+  "form_name": "mega",
+  "pokemon": {
     "name": "froslass-mega",
-    "names": [
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "M\u00e9ga-Momartik"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mega Froslass"
+    "url": "/api/v2/pokemon/10285/"
+  },
+  "sprites": {
+    "versions": {
+      "generation-ix": {
+        "scarlet-violet": {
+          "front_female": null,
+          "front_default": null
         }
-    ],
-    "order": 523,
-    "pokemon": {
-        "name": "froslass-mega",
-        "url": "/api/v2/pokemon/10285/"
+      },
+      "generation-viii": {
+        "brilliant-diamond-shining-pearl": {
+          "front_female": null,
+          "front_default": null
+        }
+      }
     },
-    "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10285.png",
-        "back_female": null,
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10285.png",
-        "back_shiny_female": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10285.png",
-        "front_female": null,
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10285.png",
-        "front_shiny_female": null,
-        "versions": {
-            "generation-ix": {
-                "scarlet-violet": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            },
-            "generation-viii": {
-                "brilliant-diamond-shining-pearl": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            }
-        }
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10285.png",
+    "back_female": null,
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10285.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10285.png",
+    "front_female": null,
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10285.png",
+    "back_shiny_female": null,
+    "front_shiny_female": null
+  },
+  "version_group": {
+    "name": "mega-dimension",
+    "url": "/api/v2/version-group/31/"
+  },
+  "form_names": [
+    {
+      "name": "メガユキメノコ",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
     },
-    "trigger_conditions": [
-        {
-            "name": "froslassite",
-            "trigger": "held-item",
-            "url": "/api/v2/item/2240/"
-        }
-    ],
-    "types": [
-        {
-            "slot": 1,
-            "type": {
-                "name": "ice",
-                "url": "/api/v2/type/15/"
-            }
-        },
-        {
-            "slot": 2,
-            "type": {
-                "name": "ghost",
-                "url": "/api/v2/type/8/"
-            }
-        }
-    ],
-    "version_group": {
-        "name": "mega-dimension",
-        "url": "/api/v2/version-group/31/"
+    {
+      "name": "Méga-Momartik",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Mega Froslass",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "メガユキメノコ",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
     }
+  ],
+  "names": [
+    {
+      "name": "Méga-Momartik",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Mega Froslass",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "ice",
+        "url": "/api/v2/type/15/"
+      }
+    },
+    {
+      "slot": 2,
+      "type": {
+        "name": "ghost",
+        "url": "/api/v2/type/8/"
+      }
+    }
+  ],
+  "trigger_conditions": [
+    {
+      "trigger": "held-item",
+      "name": "froslassite",
+      "url": "/api/v2/item/2240/"
+    }
+  ],
+  "flavor_text_entries": []
 }

@@ -1,981 +1,981 @@
 {
-    "accuracy": 90,
-    "contest_combos": null,
-    "contest_effect": null,
-    "contest_type": null,
-    "damage_class": {
-        "name": "physical",
-        "url": "/api/v2/move-damage-class/2/"
+  "id": 509,
+  "name": "circle-throw",
+  "accuracy": 90,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": -6,
+  "power": 60,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical",
+    "url": "/api/v2/move-damage-class/2/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts réguliers, puis retire la cible pour un autre Pokémon de son dresseur, sélectionné au hasard.\n\nSi la cible est sous l'effet de Racines ou Ventouse, ou a un Clonage, ou que son Dresseur n'a plus de Pokémon utilisable, elle ne sera pas retirée.  Si la cible est un Pokémon sauvage, le combat prend fin à la place.",
+      "short_effect": "Met fin aux combats sauvages.  Force les dresseurs à changer de Pokémon.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
     },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers, puis retire la cible pour un autre Pok\u00e9mon de son dresseur, s\u00e9lectionn\u00e9 au hasard.\n\nSi la cible est sous l'effet de Racines ou Ventouse, ou a un Clonage, ou que son Dresseur n'a plus de Pok\u00e9mon utilisable, elle ne sera pas retir\u00e9e.  Si la cible est un Pok\u00e9mon sauvage, le combat prend fin \u00e0 la place.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Met fin aux combats sauvages.  Force les dresseurs \u00e0 changer de Pok\u00e9mon."
-        },
-        {
-            "effect": "Inflicts regular damage, then switches the target out for another of its trainer\u2019s Pok\u00e9mon, selected at random.\n\nIf the target is under the effect of Ingrain or Suction Cups, or it has a Substitute, or its Trainer has no more usable Pok\u00e9mon, it will not be switched out.  If the target is a wild Pok\u00e9mon, the battle ends instead.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Ends wild battles.  Forces trainers to switch Pok\u00e9mon."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Projette le Pok\u00e9mon ennemi et le\nremplace par un autre. Dans la\nnature, met fin au combat.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user throws the target and drags out\nanother Pok\u00e9mon in its party.\nIn the wild, the battle ends.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown and switched.\nIn the wild, a battle against a single\nPok\u00e9mon ends.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\ub97c \ub0b4\ub358\uc838\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Projette le Pok\u00e9mon ennemi et le remplace par\nun autre. Dans la nature, met fin au combat.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pok\u00e9mon eingewechselt wird.\nBeendet K\u00e4mpfe gegen wilde Pok\u00e9mon.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga\notro Pok\u00e9mon. Si es uno salvaje, acaba el\ncombate.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio \u00e8 scaraventato via ed \u00e8 costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pok\u00e9mon selvatici.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown, and a different\nPok\u00e9mon is dragged out. In the wild,\nthis ends a battle against a single Pok\u00e9mon.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u3092\u3000\u6295\u3052\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga\notro Pok\u00e9mon. Si es uno salvaje, acaba el\ncombate.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\ub97c \ub0b4\ub358\uc838\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Projette le Pok\u00e9mon ennemi et le remplace par\nun autre. Dans la nature, met fin au combat.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pok\u00e9mon eingewechselt wird.\nBeendet K\u00e4mpfe gegen wilde Pok\u00e9mon.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio \u00e8 scaraventato via ed \u00e8 costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pok\u00e9mon selvatici.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown, and a different\nPok\u00e9mon is dragged out. In the wild,\nthis ends a battle against a single Pok\u00e9mon.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u3092\u3000\u6295\u3052\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\ub97c \ub0b4\ub358\uc838\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u6454\u98db\u5c0d\u624b\uff0c\n\u5f37\u5236\u8b93\u5f8c\u5099\u5bf6\u53ef\u5922\u4e0a\u5834\u3002\n\u5c0d\u624b\u70ba\u91ce\u751f\u5bf6\u53ef\u5922\u6642\uff0c\u6230\u9b25\u5c07\u76f4\u63a5\u7d50\u675f\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Projette le Pok\u00e9mon ennemi et le remplace par\nun autre. Lors d\u2019un combat contre un Pok\u00e9mon\nsauvage seul, met fin au combat.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pok\u00e9mon eingewechselt wird.\nBeendet K\u00e4mpfe gegen wilde Pok\u00e9mon.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio \u00e8 scaraventato via ed \u00e8 costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pok\u00e9mon selvatici.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown, and a different Pok\u00e9mon is\ndragged out. In the wild, this ends a battle against\na single Pok\u00e9mon.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u3092\u3000\u6295\u3052\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u6254\u98de\u5bf9\u624b\uff0c\u5f3a\u5236\u62c9\u540e\u5907\u5b9d\u53ef\u68a6\u4e0a\u573a\u3002\n\u5982\u679c\u5bf9\u624b\u4e3a\u91ce\u751f\u5b9d\u53ef\u68a6\uff0c\n\u6218\u6597\u5c06\u76f4\u63a5\u7ed3\u675f\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\ub97c \ub0b4\ub358\uc838\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u6454\u98db\u5c0d\u624b\uff0c\n\u5f37\u5236\u8b93\u5f8c\u5099\u5bf6\u53ef\u5922\u4e0a\u5834\u3002\n\u5c0d\u624b\u70ba\u91ce\u751f\u5bf6\u53ef\u5922\u6642\uff0c\u6230\u9b25\u5c07\u76f4\u63a5\u7d50\u675f\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Projette le Pok\u00e9mon ennemi et le remplace par\nun autre. Lors d\u2019un combat contre un Pok\u00e9mon\nsauvage seul, met fin au combat.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pok\u00e9mon eingewechselt wird.\nBeendet K\u00e4mpfe gegen wilde Pok\u00e9mon.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio \u00e8 scaraventato via ed \u00e8 costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pok\u00e9mon selvatici.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown, and a different Pok\u00e9mon is\ndragged out. In the wild, this ends a battle against\na single Pok\u00e9mon.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u3092\u3000\u6295\u3052\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u6254\u98de\u5bf9\u624b\uff0c\u5f3a\u5236\u62c9\u540e\u5907\u5b9d\u53ef\u68a6\u4e0a\u573a\u3002\n\u5982\u679c\u5bf9\u624b\u4e3a\u91ce\u751f\u5b9d\u53ef\u68a6\uff0c\n\u6218\u6597\u5c06\u76f4\u63a5\u7ed3\u675f\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\ub97c \ub0b4\ub358\uc838\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u6454\u98db\u5c0d\u624b\uff0c\n\u5f37\u5236\u8b93\u5f8c\u5099\u5bf6\u53ef\u5922\u4e0a\u5834\u3002\n\u5c0d\u624b\u70ba\u91ce\u751f\u5bf6\u53ef\u5922\u6642\uff0c\u6230\u9b25\u5c07\u76f4\u63a5\u7d50\u675f\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Projette le Pok\u00e9mon ennemi et le remplace par un autre.\nLors d\u2019un combat contre un Pok\u00e9mon sauvage seul,\nmet fin au combat.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pok\u00e9mon eingewechselt wird.\nBeendet K\u00e4mpfe gegen wilde Pok\u00e9mon.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio \u00e8 scaraventato via ed \u00e8 costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pok\u00e9mon selvatici.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown, and a different Pok\u00e9mon is\ndragged out. In the wild, this ends a battle against\na single Pok\u00e9mon.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u3092\u3000\u6295\u3052\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u6254\u98de\u5bf9\u624b\uff0c\u5f3a\u5236\u62c9\u540e\u5907\u5b9d\u53ef\u68a6\u4e0a\u573a\u3002\n\u5982\u679c\u5bf9\u624b\u4e3a\u91ce\u751f\u5b9d\u53ef\u68a6\uff0c\n\u6218\u6597\u5c06\u76f4\u63a5\u7ed3\u675f\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u3092\u3000\u306a\u3052\u3068\u3070\u3057\u3066\n\u3072\u304b\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u3084\u305b\u3044\u306e\u3000\u3070\u3042\u3044\u306f\u3000\u305b\u3093\u3068\u3046\u304c\u3000\u304a\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\ub97c \ub0b4\ub358\uc838\uc11c\n\uad50\ub300\ud560 \ud3ec\ucf13\ubaac\uc744 \ub04c\uc5b4\ub0b8\ub2e4.\n\uc57c\uc0dd\uc758 \uacbd\uc6b0\uc5d0\ub294 \ubc30\ud2c0\uc774 \ub05d\ub09c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u6454\u98db\u5c0d\u624b\uff0c\n\u5f37\u5236\u8b93\u5f8c\u5099\u5bf6\u53ef\u5922\u4e0a\u5834\u3002\n\u5c0d\u624b\u70ba\u91ce\u751f\u5bf6\u53ef\u5922\u6642\uff0c\u6230\u9b25\u5c07\u76f4\u63a5\u7d50\u675f\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Projette le Pok\u00e9mon ennemi et le remplace par un autre.\nLors d\u2019un combat contre un Pok\u00e9mon sauvage seul,\nmet fin au combat.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Schleudert das Ziel davon und bewirkt damit, dass ein\nanderes Pok\u00e9mon eingewechselt wird. Beendet K\u00e4mpfe\ngegen wilde Pok\u00e9mon.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio \u00e8 scaraventato via ed \u00e8 costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pok\u00e9mon selvatici.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown, and a different Pok\u00e9mon is\ndragged out. In the wild, this ends a battle against\na single Pok\u00e9mon.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u3092\u3000\u6295\u3052\u3068\u3070\u3057\u3066\n\u63a7\u3048\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u3072\u304d\u305a\u308a\u3060\u3059\u3002\n\u91ce\u751f\u306e\u3000\u5834\u5408\u306f\u3000\u6226\u95d8\u304c\u3000\u7d42\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u6254\u98de\u5bf9\u624b\uff0c\u5f3a\u5236\u62c9\u540e\u5907\u5b9d\u53ef\u68a6\u4e0a\u573a\u3002\n\u5982\u679c\u5bf9\u624b\u4e3a\u91ce\u751f\u5b9d\u53ef\u68a6\uff0c\n\u6218\u6597\u5c06\u76f4\u63a5\u7ed3\u675f\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPok\u00e9mon. Si es uno salvaje, acaba el combate.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown, and a different Pok\u00e9mon is dragged out. In the wild, this ends a battle against a single Pok\u00e9mon.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown, and a different Pok\u00e9mon is dragged out. In the wild, this ends a battle against a single Pok\u00e9mon.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-v",
-        "url": "/api/v2/generation/5/"
-    },
-    "id": 509,
-    "learned_by_pokemon": [
-        {
-            "name": "poliwrath",
-            "url": "/api/v2/pokemon/62/"
-        },
-        {
-            "name": "kangaskhan",
-            "url": "/api/v2/pokemon/115/"
-        },
-        {
-            "name": "pinsir",
-            "url": "/api/v2/pokemon/127/"
-        },
-        {
-            "name": "heracross",
-            "url": "/api/v2/pokemon/214/"
-        },
-        {
-            "name": "whismur",
-            "url": "/api/v2/pokemon/293/"
-        },
-        {
-            "name": "buneary",
-            "url": "/api/v2/pokemon/427/"
-        },
-        {
-            "name": "lopunny",
-            "url": "/api/v2/pokemon/428/"
-        },
-        {
-            "name": "riolu",
-            "url": "/api/v2/pokemon/447/"
-        },
-        {
-            "name": "lucario",
-            "url": "/api/v2/pokemon/448/"
-        },
-        {
-            "name": "throh",
-            "url": "/api/v2/pokemon/538/"
-        },
-        {
-            "name": "pancham",
-            "url": "/api/v2/pokemon/674/"
-        },
-        {
-            "name": "pangoro",
-            "url": "/api/v2/pokemon/675/"
-        },
-        {
-            "name": "clobbopus",
-            "url": "/api/v2/pokemon/852/"
-        },
-        {
-            "name": "tarountula",
-            "url": "/api/v2/pokemon/917/"
-        },
-        {
-            "name": "spidops",
-            "url": "/api/v2/pokemon/918/"
-        },
-        {
-            "name": "kangaskhan-mega",
-            "url": "/api/v2/pokemon/10039/"
-        },
-        {
-            "name": "pinsir-mega",
-            "url": "/api/v2/pokemon/10040/"
-        },
-        {
-            "name": "heracross-mega",
-            "url": "/api/v2/pokemon/10047/"
-        },
-        {
-            "name": "lucario-mega",
-            "url": "/api/v2/pokemon/10059/"
-        },
-        {
-            "name": "lopunny-mega",
-            "url": "/api/v2/pokemon/10088/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/2341/"
-            },
-            "version_group": {
-                "name": "mega-dimension",
-                "url": "/api/v2/version-group/31/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "circle-throw",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u3068\u3082\u3048\u306a\u3052"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ubc30\ub300\ub4a4\uce58\uae30"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u5df4\u6295"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Projection"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "\u00dcberkopfwurf"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Llave Giro"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Ribaltiro"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Circle Throw"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u3068\u3082\u3048\u306a\u3052"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u5df4\u6295"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Llave Giro"
-        }
-    ],
-    "past_values": [],
-    "power": 60,
-    "pp": 10,
-    "priority": -6,
-    "stat_changes": [],
-    "super_contest_effect": null,
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "fighting",
-        "url": "/api/v2/type/2/"
+    {
+      "effect": "Inflicts regular damage, then switches the target out for another of its trainer’s Pokémon, selected at random.\n\nIf the target is under the effect of Ingrain or Suction Cups, or it has a Substitute, or its Trainer has no more usable Pokémon, it will not be switched out.  If the target is a wild Pokémon, the battle ends instead.",
+      "short_effect": "Ends wild battles.  Forces trainers to switch Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v",
+    "url": "/api/v2/generation/5/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "ともえなげ",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "배대뒤치기",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "巴投",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Projection",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Überkopfwurf",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Llave Giro",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Ribaltiro",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Circle Throw",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "ともえなげ",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "巴投",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Llave Giro",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "fighting",
+    "url": "/api/v2/type/2/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/2341/"
+      },
+      "version_group": {
+        "name": "mega-dimension",
+        "url": "/api/v2/version-group/31/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Projette le Pokémon ennemi et le\nremplace par un autre. Dans la\nnature, met fin au combat.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user throws the target and drags out\nanother Pokémon in its party.\nIn the wild, the battle ends.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown and switched.\nIn the wild, a battle against a single\nPokémon ends.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "あいてを　なげとばして\nひかえの　ポケモンを　ひきずりだす。\nやせいの　ばあいは　せんとうが　おわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "상대를 내던져서\n교대할 포켓몬을 끌어낸다.\n야생의 경우에는 배틀이 끝난다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Projette le Pokémon ennemi et le remplace par\nun autre. Dans la nature, met fin au combat.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pokémon eingewechselt wird.\nBeendet Kämpfe gegen wilde Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga\notro Pokémon. Si es uno salvaje, acaba el\ncombate.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio è scaraventato via ed è costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pokémon selvatici.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown, and a different\nPokémon is dragged out. In the wild,\nthis ends a battle against a single Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "相手を　投げとばして\n控えの　ポケモンを　ひきずりだす。\n野生の　場合は　戦闘が　終わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga\notro Pokémon. Si es uno salvaje, acaba el\ncombate.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "あいてを　なげとばして\nひかえの　ポケモンを　ひきずりだす。\nやせいの　ばあいは　せんとうが　おわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "상대를 내던져서\n교대할 포켓몬을 끌어낸다.\n야생의 경우에는 배틀이 끝난다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Projette le Pokémon ennemi et le remplace par\nun autre. Dans la nature, met fin au combat.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pokémon eingewechselt wird.\nBeendet Kämpfe gegen wilde Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio è scaraventato via ed è costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pokémon selvatici.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown, and a different\nPokémon is dragged out. In the wild,\nthis ends a battle against a single Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "相手を　投げとばして\n控えの　ポケモンを　ひきずりだす。\n野生の　場合は　戦闘が　終わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "あいてを　なげとばして\nひかえの　ポケモンを　ひきずりだす。\nやせいの　ばあいは　せんとうが　おわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "상대를 내던져서\n교대할 포켓몬을 끌어낸다.\n야생의 경우에는 배틀이 끝난다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "摔飛對手，\n強制讓後備寶可夢上場。\n對手為野生寶可夢時，戰鬥將直接結束。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Projette le Pokémon ennemi et le remplace par\nun autre. Lors d’un combat contre un Pokémon\nsauvage seul, met fin au combat.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pokémon eingewechselt wird.\nBeendet Kämpfe gegen wilde Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio è scaraventato via ed è costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pokémon selvatici.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown, and a different Pokémon is\ndragged out. In the wild, this ends a battle against\na single Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "相手を　投げとばして\n控えの　ポケモンを　ひきずりだす。\n野生の　場合は　戦闘が　終わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "扔飞对手，强制拉后备宝可梦上场。\n如果对手为野生宝可梦，\n战斗将直接结束。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "あいてを　なげとばして\nひかえの　ポケモンを　ひきずりだす。\nやせいの　ばあいは　せんとうが　おわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "상대를 내던져서\n교대할 포켓몬을 끌어낸다.\n야생의 경우에는 배틀이 끝난다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "摔飛對手，\n強制讓後備寶可夢上場。\n對手為野生寶可夢時，戰鬥將直接結束。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Projette le Pokémon ennemi et le remplace par\nun autre. Lors d’un combat contre un Pokémon\nsauvage seul, met fin au combat.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pokémon eingewechselt wird.\nBeendet Kämpfe gegen wilde Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio è scaraventato via ed è costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pokémon selvatici.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown, and a different Pokémon is\ndragged out. In the wild, this ends a battle against\na single Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "相手を　投げとばして\n控えの　ポケモンを　ひきずりだす。\n野生の　場合は　戦闘が　終わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "扔飞对手，强制拉后备宝可梦上场。\n如果对手为野生宝可梦，\n战斗将直接结束。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "あいてを　なげとばして\nひかえの　ポケモンを　ひきずりだす。\nやせいの　ばあいは　せんとうが　おわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "상대를 내던져서\n교대할 포켓몬을 끌어낸다.\n야생의 경우에는 배틀이 끝난다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "摔飛對手，\n強制讓後備寶可夢上場。\n對手為野生寶可夢時，戰鬥將直接結束。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Projette le Pokémon ennemi et le remplace par un autre.\nLors d’un combat contre un Pokémon sauvage seul,\nmet fin au combat.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Schleudert das Ziel davon und bewirkt damit,\ndass ein anderes Pokémon eingewechselt wird.\nBeendet Kämpfe gegen wilde Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio è scaraventato via ed è costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pokémon selvatici.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown, and a different Pokémon is\ndragged out. In the wild, this ends a battle against\na single Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "相手を　投げとばして\n控えの　ポケモンを　ひきずりだす。\n野生の　場合は　戦闘が　終わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "扔飞对手，强制拉后备宝可梦上场。\n如果对手为野生宝可梦，\n战斗将直接结束。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "あいてを　なげとばして\nひかえの　ポケモンを　ひきずりだす。\nやせいの　ばあいは　せんとうが　おわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "상대를 내던져서\n교대할 포켓몬을 끌어낸다.\n야생의 경우에는 배틀이 끝난다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "摔飛對手，\n強制讓後備寶可夢上場。\n對手為野生寶可夢時，戰鬥將直接結束。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Projette le Pokémon ennemi et le remplace par un autre.\nLors d’un combat contre un Pokémon sauvage seul,\nmet fin au combat.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Schleudert das Ziel davon und bewirkt damit, dass ein\nanderes Pokémon eingewechselt wird. Beendet Kämpfe\ngegen wilde Pokémon.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio è scaraventato via ed è costretto\na lasciare il posto a un altro. Mette fine alle lotte\ncontro singoli Pokémon selvatici.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown, and a different Pokémon is\ndragged out. In the wild, this ends a battle against\na single Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "相手を　投げとばして\n控えの　ポケモンを　ひきずりだす。\n野生の　場合は　戦闘が　終わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "扔飞对手，强制拉后备宝可梦上场。\n如果对手为野生宝可梦，\n战斗将直接结束。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Lanza por los aires al objetivo y hace que salga otro\nPokémon. Si es uno salvaje, acaba el combate.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "poliwrath",
+      "url": "/api/v2/pokemon/62/"
+    },
+    {
+      "name": "kangaskhan",
+      "url": "/api/v2/pokemon/115/"
+    },
+    {
+      "name": "pinsir",
+      "url": "/api/v2/pokemon/127/"
+    },
+    {
+      "name": "heracross",
+      "url": "/api/v2/pokemon/214/"
+    },
+    {
+      "name": "whismur",
+      "url": "/api/v2/pokemon/293/"
+    },
+    {
+      "name": "buneary",
+      "url": "/api/v2/pokemon/427/"
+    },
+    {
+      "name": "lopunny",
+      "url": "/api/v2/pokemon/428/"
+    },
+    {
+      "name": "riolu",
+      "url": "/api/v2/pokemon/447/"
+    },
+    {
+      "name": "lucario",
+      "url": "/api/v2/pokemon/448/"
+    },
+    {
+      "name": "throh",
+      "url": "/api/v2/pokemon/538/"
+    },
+    {
+      "name": "pancham",
+      "url": "/api/v2/pokemon/674/"
+    },
+    {
+      "name": "pangoro",
+      "url": "/api/v2/pokemon/675/"
+    },
+    {
+      "name": "clobbopus",
+      "url": "/api/v2/pokemon/852/"
+    },
+    {
+      "name": "tarountula",
+      "url": "/api/v2/pokemon/917/"
+    },
+    {
+      "name": "spidops",
+      "url": "/api/v2/pokemon/918/"
+    },
+    {
+      "name": "kangaskhan-mega",
+      "url": "/api/v2/pokemon/10039/"
+    },
+    {
+      "name": "pinsir-mega",
+      "url": "/api/v2/pokemon/10040/"
+    },
+    {
+      "name": "heracross-mega",
+      "url": "/api/v2/pokemon/10047/"
+    },
+    {
+      "name": "lucario-mega",
+      "url": "/api/v2/pokemon/10059/"
+    },
+    {
+      "name": "lopunny-mega",
+      "url": "/api/v2/pokemon/10088/"
+    }
+  ]
 }

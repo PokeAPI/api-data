@@ -1,37 +1,37 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "descriptions": {
-            "items": {
-                "$ref": "/schema/v2/description.json"
-            },
-            "type": "array"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        },
-        "version_groups": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "descriptions",
-        "id",
-        "name",
-        "names",
-        "version_groups"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    },
+    "descriptions": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/description.json"
+      }
+    },
+    "version_groups": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    }
+  },
+  "required": [
+    "descriptions",
+    "id",
+    "name",
+    "names",
+    "version_groups"
+  ]
 }

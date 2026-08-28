@@ -1,24 +1,24 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "id": {
-            "type": "integer"
-        },
-        "item": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "move": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "version_group": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "id",
-        "item",
-        "move",
-        "version_group"
-    ],
-    "type": "object"
+    "item": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "version_group": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "move": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    }
+  },
+  "required": [
+    "id",
+    "item",
+    "move",
+    "version_group"
+  ]
 }

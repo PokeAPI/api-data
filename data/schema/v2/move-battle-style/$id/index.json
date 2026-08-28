@@ -1,23 +1,23 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "id": {
-            "type": "integer"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "id",
-        "name",
-        "names"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "names"
+  ]
 }

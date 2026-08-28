@@ -1,99 +1,99 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "items": {
-        "properties": {
-            "location_area": {
-                "$ref": "/schema/v2/named_api_resource.json"
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "location_area": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      },
+      "version_details": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "version": {
+              "$ref": "/schema/v2/named_api_resource.json"
             },
-            "version_details": {
-                "items": {
-                    "properties": {
-                        "encounter_details": {
-                            "items": {
-                                "properties": {
-                                    "chance": {
-                                        "type": "integer"
-                                    },
-                                    "condition_values": {
-                                        "items": {
-                                            "$ref": "/schema/v2/named_api_resource.json"
-                                        },
-                                        "type": "array"
-                                    },
-                                    "max_level": {
-                                        "type": "integer"
-                                    },
-                                    "method": {
-                                        "$ref": "/schema/v2/named_api_resource.json"
-                                    },
-                                    "min_level": {
-                                        "type": "integer"
-                                    },
-                                    "pokemon_details": {
-                                        "anyOf": [
-                                            {
-                                                "type": "null"
-                                            },
-                                            {
-                                                "properties": {
-                                                    "always_shiny": {
-                                                        "type": "boolean"
-                                                    },
-                                                    "is_alpha": {
-                                                        "type": "boolean"
-                                                    },
-                                                    "min_perfect_ivs": {
-                                                        "type": "null"
-                                                    },
-                                                    "never_shiny": {
-                                                        "type": "boolean"
-                                                    }
-                                                },
-                                                "required": [
-                                                    "always_shiny",
-                                                    "is_alpha",
-                                                    "min_perfect_ivs",
-                                                    "never_shiny"
-                                                ],
-                                                "type": "object"
-                                            }
-                                        ]
-                                    }
-                                },
-                                "required": [
-                                    "chance",
-                                    "condition_values",
-                                    "max_level",
-                                    "method",
-                                    "min_level",
-                                    "pokemon_details"
-                                ],
-                                "type": "object"
-                            },
-                            "type": "array"
+            "max_chance": {
+              "type": "integer"
+            },
+            "encounter_details": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "min_level": {
+                    "type": "integer"
+                  },
+                  "max_level": {
+                    "type": "integer"
+                  },
+                  "chance": {
+                    "type": "integer"
+                  },
+                  "method": {
+                    "$ref": "/schema/v2/named_api_resource.json"
+                  },
+                  "condition_values": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "/schema/v2/named_api_resource.json"
+                    }
+                  },
+                  "pokemon_details": {
+                    "anyOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "min_perfect_ivs": {
+                            "type": "null"
+                          },
+                          "always_shiny": {
+                            "type": "boolean"
+                          },
+                          "never_shiny": {
+                            "type": "boolean"
+                          },
+                          "is_alpha": {
+                            "type": "boolean"
+                          }
                         },
-                        "max_chance": {
-                            "type": "integer"
-                        },
-                        "version": {
-                            "$ref": "/schema/v2/named_api_resource.json"
-                        }
-                    },
-                    "required": [
-                        "encounter_details",
-                        "max_chance",
-                        "version"
-                    ],
-                    "type": "object"
+                        "required": [
+                          "always_shiny",
+                          "is_alpha",
+                          "min_perfect_ivs",
+                          "never_shiny"
+                        ]
+                      }
+                    ]
+                  }
                 },
-                "type": "array"
+                "required": [
+                  "chance",
+                  "condition_values",
+                  "max_level",
+                  "method",
+                  "min_level",
+                  "pokemon_details"
+                ]
+              }
             }
-        },
-        "required": [
-            "location_area",
-            "version_details"
-        ],
-        "type": "object"
+          },
+          "required": [
+            "encounter_details",
+            "max_chance",
+            "version"
+          ]
+        }
+      }
     },
-    "type": "array"
+    "required": [
+      "location_area",
+      "version_details"
+    ]
+  }
 }

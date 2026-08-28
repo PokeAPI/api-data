@@ -1,1436 +1,1436 @@
 {
-    "accuracy": 75,
-    "contest_combos": {
-        "normal": {
-            "use_after": [
-                {
-                    "name": "pound",
-                    "url": "/api/v2/move/1/"
-                }
-            ],
-            "use_before": null
-        },
-        "super": {
-            "use_after": null,
-            "use_before": null
+  "id": 21,
+  "name": "slam",
+  "accuracy": 75,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": 80,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "pound",
+          "url": "/api/v2/move/1/"
         }
+      ]
     },
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/23/"
-    },
-    "contest_type": {
-        "name": "tough",
-        "url": "/api/v2/contest-type/5/"
-    },
-    "damage_class": {
-        "name": "physical",
-        "url": "/api/v2/move-damage-class/2/"
-    },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9gats r\u00e9guliers.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers avec aucun effet additionnel."
-        },
-        {
-            "effect": "Inflicts regular damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Inflicts regular damage with no additional effect."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Slams the foe with\na tail, vine, etc.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "flavor_text": "Slams the foe with\na tail, vine, etc.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "flavor_text": "Slams the foe with a long\ntail, vine, etc.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "Slams the foe with a long\ntail, vine, etc.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "The foe is struck\nwith a long tail,\nvines, etc.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Fouette l\u2019ennemi avec la queue, une\nliane, etc. pour infliger des d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail,\nvines, etc., to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail,\nvines, etc., to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u306a\u304c\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u3064\u304b\u3044\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uae34 \uaf2c\ub9ac\ub098 \ub369\uad74 \ub4f1\uc744 \uc0ac\uc6a9\ud574\n\uc0c1\ub300\ub97c \ud798\uaecf \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Fouette l\u2019ennemi avec la queue ou une liane,\npar exemple, pour infliger des d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Schlag mit einem langen Schweif, einer Ranke\noder \u00c4hnlichem.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con las extremidades.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o simili.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail,\nvines, or the like to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u9577\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u4f7f\u3044\n\u76f8\u624b\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con las extremidades.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u306a\u304c\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u3064\u304b\u3044\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uae34 \uaf2c\ub9ac\ub098 \ub369\uad74 \ub4f1\uc744 \uc0ac\uc6a9\ud574\n\uc0c1\ub300\ub97c \ud798\uaecf \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Fouette l\u2019ennemi avec la queue ou une liane,\npar exemple, pour infliger des d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Schlag mit einem langen Schweif, einer Ranke\noder \u00c4hnlichem.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con las extremidades.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o simili.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail,\nvines, or the like to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u9577\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u4f7f\u3044\n\u76f8\u624b\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con las extremidades.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u306a\u304c\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u3064\u304b\u3044\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uae34 \uaf2c\ub9ac\ub098 \ub369\uad74 \ub4f1\uc744 \uc0ac\uc6a9\ud574\n\uc0c1\ub300\ub97c \ud798\uaecf \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u9577\u9577\u7684\u5c3e\u5df4\u6216\u85e4\u8513\u7b49\n\u7529\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Fouette l\u2019ennemi avec la queue ou une liane,\npar exemple, pour infliger des d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Schlag mit einem langen Schweif, einer Ranke oder\n\u00c4hnlichem.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar da\u00f1o al objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o con qualcosa di simile.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u9577\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u4f7f\u3044\n\u76f8\u624b\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u957f\u957f\u7684\u5c3e\u5df4\u6216\u85e4\u8513\u7b49\n\u6454\u6253\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar da\u00f1o al objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u306a\u304c\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u3064\u304b\u3044\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uae34 \uaf2c\ub9ac\ub098 \ub369\uad74 \ub4f1\uc744 \uc0ac\uc6a9\ud574\n\uc0c1\ub300\ub97c \ud798\uaecf \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u9577\u9577\u7684\u5c3e\u5df4\u6216\u85e4\u8513\u7b49\n\u7529\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Fouette l\u2019ennemi avec la queue ou une liane,\npar exemple, pour infliger des d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Schlag mit einem langen Schweif, einer Ranke oder\n\u00c4hnlichem.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar da\u00f1o al objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o con qualcosa di simile.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u9577\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u4f7f\u3044\n\u76f8\u624b\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u957f\u957f\u7684\u5c3e\u5df4\u6216\u85e4\u8513\u7b49\n\u6454\u6253\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar da\u00f1o al objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u306a\u304c\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u3064\u304b\u3044\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uae34 \uaf2c\ub9ac\ub098 \ub369\uad74 \ub4f1\uc744 \uc0ac\uc6a9\ud574\n\uc0c1\ub300\ub97c \ud798\uaecf \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u9577\u9577\u7684\u5c3e\u5df4\u6216\u85e4\u8513\u7b49\n\u7529\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Fouette l\u2019ennemi avec la queue ou une liane,\npar exemple, pour infliger des d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Schlag mit einem langen Schweif, einer Ranke oder\n\u00c4hnlichem.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar da\u00f1o al objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o con qualcosa di simile.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u9577\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u4f7f\u3044\n\u76f8\u624b\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u957f\u957f\u7684\u5c3e\u5df4\u6216\u85e4\u8513\u7b49\n\u6454\u6253\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar da\u00f1o al objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u306a\u304c\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u3064\u304b\u3044\n\u3042\u3044\u3066\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uae34 \uaf2c\ub9ac\ub098 \ub369\uad74 \ub4f1\uc744 \uc0ac\uc6a9\ud574\n\uc0c1\ub300\ub97c \ud798\uaecf \uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u9577\u9577\u7684\u5c3e\u5df4\u6216\u85e4\u8513\u7b49\n\u7529\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Fouette l\u2019ennemi avec la queue ou une liane,\npar exemple, pour infliger des d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Schlag mit einem langen Schweif, einer Ranke oder\n\u00c4hnlichem.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar da\u00f1o al objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o con qualcosa di simile.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u9577\u3044\u3000\u3057\u3063\u307d\u3084\u3000\u3064\u308b\u306a\u3069\u3092\u3000\u4f7f\u3044\n\u76f8\u624b\u3092\u3000\u305f\u305f\u304d\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u957f\u957f\u7684\u5c3e\u5df4\u6216\u85e4\u8513\u7b49\n\u6454\u6253\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar da\u00f1o al objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail, vines, or the like to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The target is slammed with a long tail, vines, or the like to inflict damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-i",
-        "url": "/api/v2/generation/1/"
-    },
-    "id": 21,
-    "learned_by_pokemon": [
-        {
-            "name": "ekans",
-            "url": "/api/v2/pokemon/23/"
-        },
-        {
-            "name": "arbok",
-            "url": "/api/v2/pokemon/24/"
-        },
-        {
-            "name": "pikachu",
-            "url": "/api/v2/pokemon/25/"
-        },
-        {
-            "name": "raichu",
-            "url": "/api/v2/pokemon/26/"
-        },
-        {
-            "name": "bellsprout",
-            "url": "/api/v2/pokemon/69/"
-        },
-        {
-            "name": "weepinbell",
-            "url": "/api/v2/pokemon/70/"
-        },
-        {
-            "name": "victreebel",
-            "url": "/api/v2/pokemon/71/"
-        },
-        {
-            "name": "seel",
-            "url": "/api/v2/pokemon/86/"
-        },
-        {
-            "name": "onix",
-            "url": "/api/v2/pokemon/95/"
-        },
-        {
-            "name": "krabby",
-            "url": "/api/v2/pokemon/98/"
-        },
-        {
-            "name": "kingler",
-            "url": "/api/v2/pokemon/99/"
-        },
-        {
-            "name": "lickitung",
-            "url": "/api/v2/pokemon/108/"
-        },
-        {
-            "name": "tangela",
-            "url": "/api/v2/pokemon/114/"
-        },
-        {
-            "name": "omanyte",
-            "url": "/api/v2/pokemon/138/"
-        },
-        {
-            "name": "dratini",
-            "url": "/api/v2/pokemon/147/"
-        },
-        {
-            "name": "dragonair",
-            "url": "/api/v2/pokemon/148/"
-        },
-        {
-            "name": "dragonite",
-            "url": "/api/v2/pokemon/149/"
-        },
-        {
-            "name": "sentret",
-            "url": "/api/v2/pokemon/161/"
-        },
-        {
-            "name": "furret",
-            "url": "/api/v2/pokemon/162/"
-        },
-        {
-            "name": "marill",
-            "url": "/api/v2/pokemon/183/"
-        },
-        {
-            "name": "azumarill",
-            "url": "/api/v2/pokemon/184/"
-        },
-        {
-            "name": "sudowoodo",
-            "url": "/api/v2/pokemon/185/"
-        },
-        {
-            "name": "aipom",
-            "url": "/api/v2/pokemon/190/"
-        },
-        {
-            "name": "wooper",
-            "url": "/api/v2/pokemon/194/"
-        },
-        {
-            "name": "quagsire",
-            "url": "/api/v2/pokemon/195/"
-        },
-        {
-            "name": "steelix",
-            "url": "/api/v2/pokemon/208/"
-        },
-        {
-            "name": "mantine",
-            "url": "/api/v2/pokemon/226/"
-        },
-        {
-            "name": "phanpy",
-            "url": "/api/v2/pokemon/231/"
-        },
-        {
-            "name": "donphan",
-            "url": "/api/v2/pokemon/232/"
-        },
-        {
-            "name": "treecko",
-            "url": "/api/v2/pokemon/252/"
-        },
-        {
-            "name": "grovyle",
-            "url": "/api/v2/pokemon/253/"
-        },
-        {
-            "name": "sceptile",
-            "url": "/api/v2/pokemon/254/"
-        },
-        {
-            "name": "azurill",
-            "url": "/api/v2/pokemon/298/"
-        },
-        {
-            "name": "mawile",
-            "url": "/api/v2/pokemon/303/"
-        },
-        {
-            "name": "tropius",
-            "url": "/api/v2/pokemon/357/"
-        },
-        {
-            "name": "cranidos",
-            "url": "/api/v2/pokemon/408/"
-        },
-        {
-            "name": "rampardos",
-            "url": "/api/v2/pokemon/409/"
-        },
-        {
-            "name": "ambipom",
-            "url": "/api/v2/pokemon/424/"
-        },
-        {
-            "name": "bonsly",
-            "url": "/api/v2/pokemon/438/"
-        },
-        {
-            "name": "carnivine",
-            "url": "/api/v2/pokemon/455/"
-        },
-        {
-            "name": "mantyke",
-            "url": "/api/v2/pokemon/458/"
-        },
-        {
-            "name": "lickilicky",
-            "url": "/api/v2/pokemon/463/"
-        },
-        {
-            "name": "tangrowth",
-            "url": "/api/v2/pokemon/465/"
-        },
-        {
-            "name": "snivy",
-            "url": "/api/v2/pokemon/495/"
-        },
-        {
-            "name": "servine",
-            "url": "/api/v2/pokemon/496/"
-        },
-        {
-            "name": "serperior",
-            "url": "/api/v2/pokemon/497/"
-        },
-        {
-            "name": "patrat",
-            "url": "/api/v2/pokemon/504/"
-        },
-        {
-            "name": "watchog",
-            "url": "/api/v2/pokemon/505/"
-        },
-        {
-            "name": "timburr",
-            "url": "/api/v2/pokemon/532/"
-        },
-        {
-            "name": "gurdurr",
-            "url": "/api/v2/pokemon/533/"
-        },
-        {
-            "name": "conkeldurr",
-            "url": "/api/v2/pokemon/534/"
-        },
-        {
-            "name": "tirtouga",
-            "url": "/api/v2/pokemon/564/"
-        },
-        {
-            "name": "minccino",
-            "url": "/api/v2/pokemon/572/"
-        },
-        {
-            "name": "cinccino",
-            "url": "/api/v2/pokemon/573/"
-        },
-        {
-            "name": "deino",
-            "url": "/api/v2/pokemon/633/"
-        },
-        {
-            "name": "zweilous",
-            "url": "/api/v2/pokemon/634/"
-        },
-        {
-            "name": "hydreigon",
-            "url": "/api/v2/pokemon/635/"
-        },
-        {
-            "name": "crabrawler",
-            "url": "/api/v2/pokemon/739/"
-        },
-        {
-            "name": "crabominable",
-            "url": "/api/v2/pokemon/740/"
-        },
-        {
-            "name": "komala",
-            "url": "/api/v2/pokemon/775/"
-        },
-        {
-            "name": "dhelmise",
-            "url": "/api/v2/pokemon/781/"
-        },
-        {
-            "name": "grookey",
-            "url": "/api/v2/pokemon/810/"
-        },
-        {
-            "name": "thwackey",
-            "url": "/api/v2/pokemon/811/"
-        },
-        {
-            "name": "rillaboom",
-            "url": "/api/v2/pokemon/812/"
-        },
-        {
-            "name": "silicobra",
-            "url": "/api/v2/pokemon/843/"
-        },
-        {
-            "name": "sandaconda",
-            "url": "/api/v2/pokemon/844/"
-        },
-        {
-            "name": "sizzlipede",
-            "url": "/api/v2/pokemon/850/"
-        },
-        {
-            "name": "centiskorch",
-            "url": "/api/v2/pokemon/851/"
-        },
-        {
-            "name": "sirfetchd",
-            "url": "/api/v2/pokemon/865/"
-        },
-        {
-            "name": "runerigus",
-            "url": "/api/v2/pokemon/867/"
-        },
-        {
-            "name": "cufant",
-            "url": "/api/v2/pokemon/878/"
-        },
-        {
-            "name": "dracozolt",
-            "url": "/api/v2/pokemon/880/"
-        },
-        {
-            "name": "arctozolt",
-            "url": "/api/v2/pokemon/881/"
-        },
-        {
-            "name": "pawmi",
-            "url": "/api/v2/pokemon/921/"
-        },
-        {
-            "name": "pawmo",
-            "url": "/api/v2/pokemon/922/"
-        },
-        {
-            "name": "pawmot",
-            "url": "/api/v2/pokemon/923/"
-        },
-        {
-            "name": "tinkatink",
-            "url": "/api/v2/pokemon/957/"
-        },
-        {
-            "name": "tinkatuff",
-            "url": "/api/v2/pokemon/958/"
-        },
-        {
-            "name": "tinkaton",
-            "url": "/api/v2/pokemon/959/"
-        },
-        {
-            "name": "wiglett",
-            "url": "/api/v2/pokemon/960/"
-        },
-        {
-            "name": "wugtrio",
-            "url": "/api/v2/pokemon/961/"
-        },
-        {
-            "name": "clodsire",
-            "url": "/api/v2/pokemon/980/"
-        },
-        {
-            "name": "iron-hands",
-            "url": "/api/v2/pokemon/992/"
-        },
-        {
-            "name": "ogerpon",
-            "url": "/api/v2/pokemon/1017/"
-        },
-        {
-            "name": "mawile-mega",
-            "url": "/api/v2/pokemon/10052/"
-        },
-        {
-            "name": "sceptile-mega",
-            "url": "/api/v2/pokemon/10065/"
-        },
-        {
-            "name": "steelix-mega",
-            "url": "/api/v2/pokemon/10072/"
-        },
-        {
-            "name": "pikachu-rock-star",
-            "url": "/api/v2/pokemon/10080/"
-        },
-        {
-            "name": "pikachu-belle",
-            "url": "/api/v2/pokemon/10081/"
-        },
-        {
-            "name": "pikachu-pop-star",
-            "url": "/api/v2/pokemon/10082/"
-        },
-        {
-            "name": "pikachu-phd",
-            "url": "/api/v2/pokemon/10083/"
-        },
-        {
-            "name": "pikachu-libre",
-            "url": "/api/v2/pokemon/10084/"
-        },
-        {
-            "name": "pikachu-cosplay",
-            "url": "/api/v2/pokemon/10085/"
-        },
-        {
-            "name": "pikachu-original-cap",
-            "url": "/api/v2/pokemon/10094/"
-        },
-        {
-            "name": "pikachu-hoenn-cap",
-            "url": "/api/v2/pokemon/10095/"
-        },
-        {
-            "name": "pikachu-sinnoh-cap",
-            "url": "/api/v2/pokemon/10096/"
-        },
-        {
-            "name": "pikachu-unova-cap",
-            "url": "/api/v2/pokemon/10097/"
-        },
-        {
-            "name": "pikachu-kalos-cap",
-            "url": "/api/v2/pokemon/10098/"
-        },
-        {
-            "name": "pikachu-alola-cap",
-            "url": "/api/v2/pokemon/10099/"
-        },
-        {
-            "name": "raichu-alola",
-            "url": "/api/v2/pokemon/10100/"
-        },
-        {
-            "name": "pikachu-partner-cap",
-            "url": "/api/v2/pokemon/10148/"
-        },
-        {
-            "name": "pikachu-starter",
-            "url": "/api/v2/pokemon/10158/"
-        },
-        {
-            "name": "pikachu-world-cap",
-            "url": "/api/v2/pokemon/10160/"
-        },
-        {
-            "name": "farfetchd-galar",
-            "url": "/api/v2/pokemon/10166/"
-        },
-        {
-            "name": "yamask-galar",
-            "url": "/api/v2/pokemon/10179/"
-        },
-        {
-            "name": "wooper-paldea",
-            "url": "/api/v2/pokemon/10253/"
-        },
-        {
-            "name": "ogerpon-wellspring-mask",
-            "url": "/api/v2/pokemon/10273/"
-        },
-        {
-            "name": "ogerpon-hearthflame-mask",
-            "url": "/api/v2/pokemon/10274/"
-        },
-        {
-            "name": "ogerpon-cornerstone-mask",
-            "url": "/api/v2/pokemon/10275/"
-        }
-    ],
-    "machines": [],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "slam",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u305f\u305f\u304d\u3064\u3051\u308b"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ud798\uaecf\uce58\uae30"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u6454\u6253"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Souplesse"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Slam"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Atizar"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Schianto"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Slam"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u305f\u305f\u304d\u3064\u3051\u308b"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u6454\u6253"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Golpazo"
-        }
-    ],
-    "past_values": [],
-    "power": 80,
-    "pp": 20,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/5/"
-    },
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "normal",
-        "url": "/api/v2/type/1/"
+    "super": {
+      "use_before": null,
+      "use_after": null
     }
+  },
+  "contest_type": {
+    "name": "tough",
+    "url": "/api/v2/contest-type/5/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/23/"
+  },
+  "damage_class": {
+    "name": "physical",
+    "url": "/api/v2/move-damage-class/2/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégats réguliers.",
+      "short_effect": "Inflige des dégâts réguliers avec aucun effet additionnel.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "Inflicts regular damage.",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i",
+    "url": "/api/v2/generation/1/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "たたきつける",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "힘껏치기",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "摔打",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Souplesse",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Slam",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Atizar",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Schianto",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Slam",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "たたきつける",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "摔打",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Golpazo",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/5/"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "normal",
+    "url": "/api/v2/type/1/"
+  },
+  "machines": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Slams the foe with\na tail, vine, etc.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "flavor_text": "Slams the foe with\na tail, vine, etc.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    },
+    {
+      "flavor_text": "Slams the foe with a long\ntail, vine, etc.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "Slams the foe with a long\ntail, vine, etc.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "The foe is struck\nwith a long tail,\nvines, etc.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Fouette l’ennemi avec la queue, une\nliane, etc. pour infliger des dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail,\nvines, etc., to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail,\nvines, etc., to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "ながい　しっぽや　つるなどを　つかい\nあいてを　たたきつけて　こうげきする。\n",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "긴 꼬리나 덩굴 등을 사용해\n상대를 힘껏 쳐서 공격한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Fouette l’ennemi avec la queue ou une liane,\npar exemple, pour infliger des dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Schlag mit einem langen Schweif, einer Ranke\noder Ähnlichem.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con las extremidades.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o simili.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail,\nvines, or the like to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "長い　しっぽや　つるなどを　使い\n相手を　たたきつけて　攻撃する。\n",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con las extremidades.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "ながい　しっぽや　つるなどを　つかい\nあいてを　たたきつけて　こうげきする。\n",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "긴 꼬리나 덩굴 등을 사용해\n상대를 힘껏 쳐서 공격한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Fouette l’ennemi avec la queue ou une liane,\npar exemple, pour infliger des dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Schlag mit einem langen Schweif, einer Ranke\noder Ähnlichem.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con las extremidades.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o simili.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail,\nvines, or the like to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "長い　しっぽや　つるなどを　使い\n相手を　たたきつけて　攻撃する。\n",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con las extremidades.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "ながい　しっぽや　つるなどを　つかい\nあいてを　たたきつけて　こうげきする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "긴 꼬리나 덩굴 등을 사용해\n상대를 힘껏 쳐서 공격한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "將長長的尾巴或藤蔓等\n甩向對手進行攻擊。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Fouette l’ennemi avec la queue ou une liane,\npar exemple, pour infliger des dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Schlag mit einem langen Schweif, einer Ranke oder\nÄhnlichem.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar daño al objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o con qualcosa di simile.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "長い　しっぽや　つるなどを　使い\n相手を　たたきつけて　攻撃する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "使用长长的尾巴或藤蔓等\n摔打对手进行攻击。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar daño al objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "ながい　しっぽや　つるなどを　つかい\nあいてを　たたきつけて　こうげきする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "긴 꼬리나 덩굴 등을 사용해\n상대를 힘껏 쳐서 공격한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "將長長的尾巴或藤蔓等\n甩向對手進行攻擊。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Fouette l’ennemi avec la queue ou une liane,\npar exemple, pour infliger des dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Schlag mit einem langen Schweif, einer Ranke oder\nÄhnlichem.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar daño al objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o con qualcosa di simile.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "長い　しっぽや　つるなどを　使い\n相手を　たたきつけて　攻撃する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "使用长长的尾巴或藤蔓等\n摔打对手进行攻击。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar daño al objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "ながい　しっぽや　つるなどを　つかい\nあいてを　たたきつけて　こうげきする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "긴 꼬리나 덩굴 등을 사용해\n상대를 힘껏 쳐서 공격한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "將長長的尾巴或藤蔓等\n甩向對手進行攻擊。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Fouette l’ennemi avec la queue ou une liane,\npar exemple, pour infliger des dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Schlag mit einem langen Schweif, einer Ranke oder\nÄhnlichem.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar daño al objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o con qualcosa di simile.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "長い　しっぽや　つるなどを　使い\n相手を　たたきつけて　攻撃する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "使用长长的尾巴或藤蔓等\n摔打对手进行攻击。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar daño al objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "ながい　しっぽや　つるなどを　つかい\nあいてを　たたきつけて　こうげきする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "긴 꼬리나 덩굴 등을 사용해\n상대를 힘껏 쳐서 공격한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "將長長的尾巴或藤蔓等\n甩向對手進行攻擊。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Fouette l’ennemi avec la queue ou une liane,\npar exemple, pour infliger des dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Schlag mit einem langen Schweif, einer Ranke oder\nÄhnlichem.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar daño al objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Infligge danni al bersaglio con la coda, con una\nliana o con qualcosa di simile.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail, vines, or the\nlike to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "長い　しっぽや　つるなどを　使い\n相手を　たたきつけて　攻撃する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "使用长长的尾巴或藤蔓等\n摔打对手进行攻击。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Golpea con la cola o con lianas, por ejemplo, para\ncausar daño al objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "ekans",
+      "url": "/api/v2/pokemon/23/"
+    },
+    {
+      "name": "arbok",
+      "url": "/api/v2/pokemon/24/"
+    },
+    {
+      "name": "pikachu",
+      "url": "/api/v2/pokemon/25/"
+    },
+    {
+      "name": "raichu",
+      "url": "/api/v2/pokemon/26/"
+    },
+    {
+      "name": "bellsprout",
+      "url": "/api/v2/pokemon/69/"
+    },
+    {
+      "name": "weepinbell",
+      "url": "/api/v2/pokemon/70/"
+    },
+    {
+      "name": "victreebel",
+      "url": "/api/v2/pokemon/71/"
+    },
+    {
+      "name": "seel",
+      "url": "/api/v2/pokemon/86/"
+    },
+    {
+      "name": "onix",
+      "url": "/api/v2/pokemon/95/"
+    },
+    {
+      "name": "krabby",
+      "url": "/api/v2/pokemon/98/"
+    },
+    {
+      "name": "kingler",
+      "url": "/api/v2/pokemon/99/"
+    },
+    {
+      "name": "lickitung",
+      "url": "/api/v2/pokemon/108/"
+    },
+    {
+      "name": "tangela",
+      "url": "/api/v2/pokemon/114/"
+    },
+    {
+      "name": "omanyte",
+      "url": "/api/v2/pokemon/138/"
+    },
+    {
+      "name": "dratini",
+      "url": "/api/v2/pokemon/147/"
+    },
+    {
+      "name": "dragonair",
+      "url": "/api/v2/pokemon/148/"
+    },
+    {
+      "name": "dragonite",
+      "url": "/api/v2/pokemon/149/"
+    },
+    {
+      "name": "sentret",
+      "url": "/api/v2/pokemon/161/"
+    },
+    {
+      "name": "furret",
+      "url": "/api/v2/pokemon/162/"
+    },
+    {
+      "name": "marill",
+      "url": "/api/v2/pokemon/183/"
+    },
+    {
+      "name": "azumarill",
+      "url": "/api/v2/pokemon/184/"
+    },
+    {
+      "name": "sudowoodo",
+      "url": "/api/v2/pokemon/185/"
+    },
+    {
+      "name": "aipom",
+      "url": "/api/v2/pokemon/190/"
+    },
+    {
+      "name": "wooper",
+      "url": "/api/v2/pokemon/194/"
+    },
+    {
+      "name": "quagsire",
+      "url": "/api/v2/pokemon/195/"
+    },
+    {
+      "name": "steelix",
+      "url": "/api/v2/pokemon/208/"
+    },
+    {
+      "name": "mantine",
+      "url": "/api/v2/pokemon/226/"
+    },
+    {
+      "name": "phanpy",
+      "url": "/api/v2/pokemon/231/"
+    },
+    {
+      "name": "donphan",
+      "url": "/api/v2/pokemon/232/"
+    },
+    {
+      "name": "treecko",
+      "url": "/api/v2/pokemon/252/"
+    },
+    {
+      "name": "grovyle",
+      "url": "/api/v2/pokemon/253/"
+    },
+    {
+      "name": "sceptile",
+      "url": "/api/v2/pokemon/254/"
+    },
+    {
+      "name": "azurill",
+      "url": "/api/v2/pokemon/298/"
+    },
+    {
+      "name": "mawile",
+      "url": "/api/v2/pokemon/303/"
+    },
+    {
+      "name": "tropius",
+      "url": "/api/v2/pokemon/357/"
+    },
+    {
+      "name": "cranidos",
+      "url": "/api/v2/pokemon/408/"
+    },
+    {
+      "name": "rampardos",
+      "url": "/api/v2/pokemon/409/"
+    },
+    {
+      "name": "ambipom",
+      "url": "/api/v2/pokemon/424/"
+    },
+    {
+      "name": "bonsly",
+      "url": "/api/v2/pokemon/438/"
+    },
+    {
+      "name": "carnivine",
+      "url": "/api/v2/pokemon/455/"
+    },
+    {
+      "name": "mantyke",
+      "url": "/api/v2/pokemon/458/"
+    },
+    {
+      "name": "lickilicky",
+      "url": "/api/v2/pokemon/463/"
+    },
+    {
+      "name": "tangrowth",
+      "url": "/api/v2/pokemon/465/"
+    },
+    {
+      "name": "snivy",
+      "url": "/api/v2/pokemon/495/"
+    },
+    {
+      "name": "servine",
+      "url": "/api/v2/pokemon/496/"
+    },
+    {
+      "name": "serperior",
+      "url": "/api/v2/pokemon/497/"
+    },
+    {
+      "name": "patrat",
+      "url": "/api/v2/pokemon/504/"
+    },
+    {
+      "name": "watchog",
+      "url": "/api/v2/pokemon/505/"
+    },
+    {
+      "name": "timburr",
+      "url": "/api/v2/pokemon/532/"
+    },
+    {
+      "name": "gurdurr",
+      "url": "/api/v2/pokemon/533/"
+    },
+    {
+      "name": "conkeldurr",
+      "url": "/api/v2/pokemon/534/"
+    },
+    {
+      "name": "tirtouga",
+      "url": "/api/v2/pokemon/564/"
+    },
+    {
+      "name": "minccino",
+      "url": "/api/v2/pokemon/572/"
+    },
+    {
+      "name": "cinccino",
+      "url": "/api/v2/pokemon/573/"
+    },
+    {
+      "name": "deino",
+      "url": "/api/v2/pokemon/633/"
+    },
+    {
+      "name": "zweilous",
+      "url": "/api/v2/pokemon/634/"
+    },
+    {
+      "name": "hydreigon",
+      "url": "/api/v2/pokemon/635/"
+    },
+    {
+      "name": "crabrawler",
+      "url": "/api/v2/pokemon/739/"
+    },
+    {
+      "name": "crabominable",
+      "url": "/api/v2/pokemon/740/"
+    },
+    {
+      "name": "komala",
+      "url": "/api/v2/pokemon/775/"
+    },
+    {
+      "name": "dhelmise",
+      "url": "/api/v2/pokemon/781/"
+    },
+    {
+      "name": "grookey",
+      "url": "/api/v2/pokemon/810/"
+    },
+    {
+      "name": "thwackey",
+      "url": "/api/v2/pokemon/811/"
+    },
+    {
+      "name": "rillaboom",
+      "url": "/api/v2/pokemon/812/"
+    },
+    {
+      "name": "silicobra",
+      "url": "/api/v2/pokemon/843/"
+    },
+    {
+      "name": "sandaconda",
+      "url": "/api/v2/pokemon/844/"
+    },
+    {
+      "name": "sizzlipede",
+      "url": "/api/v2/pokemon/850/"
+    },
+    {
+      "name": "centiskorch",
+      "url": "/api/v2/pokemon/851/"
+    },
+    {
+      "name": "sirfetchd",
+      "url": "/api/v2/pokemon/865/"
+    },
+    {
+      "name": "runerigus",
+      "url": "/api/v2/pokemon/867/"
+    },
+    {
+      "name": "cufant",
+      "url": "/api/v2/pokemon/878/"
+    },
+    {
+      "name": "dracozolt",
+      "url": "/api/v2/pokemon/880/"
+    },
+    {
+      "name": "arctozolt",
+      "url": "/api/v2/pokemon/881/"
+    },
+    {
+      "name": "pawmi",
+      "url": "/api/v2/pokemon/921/"
+    },
+    {
+      "name": "pawmo",
+      "url": "/api/v2/pokemon/922/"
+    },
+    {
+      "name": "pawmot",
+      "url": "/api/v2/pokemon/923/"
+    },
+    {
+      "name": "tinkatink",
+      "url": "/api/v2/pokemon/957/"
+    },
+    {
+      "name": "tinkatuff",
+      "url": "/api/v2/pokemon/958/"
+    },
+    {
+      "name": "tinkaton",
+      "url": "/api/v2/pokemon/959/"
+    },
+    {
+      "name": "wiglett",
+      "url": "/api/v2/pokemon/960/"
+    },
+    {
+      "name": "wugtrio",
+      "url": "/api/v2/pokemon/961/"
+    },
+    {
+      "name": "clodsire",
+      "url": "/api/v2/pokemon/980/"
+    },
+    {
+      "name": "iron-hands",
+      "url": "/api/v2/pokemon/992/"
+    },
+    {
+      "name": "ogerpon",
+      "url": "/api/v2/pokemon/1017/"
+    },
+    {
+      "name": "mawile-mega",
+      "url": "/api/v2/pokemon/10052/"
+    },
+    {
+      "name": "sceptile-mega",
+      "url": "/api/v2/pokemon/10065/"
+    },
+    {
+      "name": "steelix-mega",
+      "url": "/api/v2/pokemon/10072/"
+    },
+    {
+      "name": "pikachu-rock-star",
+      "url": "/api/v2/pokemon/10080/"
+    },
+    {
+      "name": "pikachu-belle",
+      "url": "/api/v2/pokemon/10081/"
+    },
+    {
+      "name": "pikachu-pop-star",
+      "url": "/api/v2/pokemon/10082/"
+    },
+    {
+      "name": "pikachu-phd",
+      "url": "/api/v2/pokemon/10083/"
+    },
+    {
+      "name": "pikachu-libre",
+      "url": "/api/v2/pokemon/10084/"
+    },
+    {
+      "name": "pikachu-cosplay",
+      "url": "/api/v2/pokemon/10085/"
+    },
+    {
+      "name": "pikachu-original-cap",
+      "url": "/api/v2/pokemon/10094/"
+    },
+    {
+      "name": "pikachu-hoenn-cap",
+      "url": "/api/v2/pokemon/10095/"
+    },
+    {
+      "name": "pikachu-sinnoh-cap",
+      "url": "/api/v2/pokemon/10096/"
+    },
+    {
+      "name": "pikachu-unova-cap",
+      "url": "/api/v2/pokemon/10097/"
+    },
+    {
+      "name": "pikachu-kalos-cap",
+      "url": "/api/v2/pokemon/10098/"
+    },
+    {
+      "name": "pikachu-alola-cap",
+      "url": "/api/v2/pokemon/10099/"
+    },
+    {
+      "name": "raichu-alola",
+      "url": "/api/v2/pokemon/10100/"
+    },
+    {
+      "name": "pikachu-partner-cap",
+      "url": "/api/v2/pokemon/10148/"
+    },
+    {
+      "name": "pikachu-starter",
+      "url": "/api/v2/pokemon/10158/"
+    },
+    {
+      "name": "pikachu-world-cap",
+      "url": "/api/v2/pokemon/10160/"
+    },
+    {
+      "name": "farfetchd-galar",
+      "url": "/api/v2/pokemon/10166/"
+    },
+    {
+      "name": "yamask-galar",
+      "url": "/api/v2/pokemon/10179/"
+    },
+    {
+      "name": "wooper-paldea",
+      "url": "/api/v2/pokemon/10253/"
+    },
+    {
+      "name": "ogerpon-wellspring-mask",
+      "url": "/api/v2/pokemon/10273/"
+    },
+    {
+      "name": "ogerpon-hearthflame-mask",
+      "url": "/api/v2/pokemon/10274/"
+    },
+    {
+      "name": "ogerpon-cornerstone-mask",
+      "url": "/api/v2/pokemon/10275/"
+    }
+  ]
 }

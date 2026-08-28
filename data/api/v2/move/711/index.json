@@ -1,676 +1,676 @@
 {
-    "accuracy": 100,
-    "contest_combos": null,
-    "contest_effect": null,
-    "contest_type": null,
-    "damage_class": {
-        "name": "special",
-        "url": "/api/v2/move-damage-class/3/"
+  "id": 711,
+  "name": "prismatic-laser",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 160,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special",
+    "url": "/api/v2/move-damage-class/3/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts réguliers.  Le lanceur passe son prochain tour pour \"se recharger\", et ne peut pas attaquer ou se retirer pendant ce tour.",
+      "short_effect": "Le lanceur passe son prochain tour pour se recharger.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
     },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  Le lanceur passe son prochain tour pour \"se recharger\", et ne peut pas attaquer ou se retirer pendant ce tour.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Le lanceur passe son prochain tour pour se recharger."
-        },
-        {
-            "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "User foregoes its next turn to recharge."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "\u30d7\u30ea\u30ba\u30e0\u306e\u3000\u3061\u304b\u3089\u3067\u3000\u304d\u3087\u3046\u308a\u3087\u304f\u306a\n\u3053\u3046\u305b\u3093\u3092\u3000\u306f\u3063\u3057\u3083\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u306a\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\ud504\ub9ac\uc998\uc758 \ud798\uc73c\ub85c \uac15\ub825\ud55c\n\uad11\uc120\uc744 \ubc1c\uc0ac\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u7a1c\u93e1\u7684\u529b\u91cf\u767c\u5c04\u5f37\u70c8\u5149\u7dda\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c07\u7121\u6cd5\u52d5\u5f48\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la puissance d\u2019un prisme\npour envoyer un laser destructeur, mais il doit\nse reposer au tour suivant.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender feuert mithilfe von Prisma-Kraft\nm\u00e4chtige Lichtstrahlen ab. In der n\u00e4chsten Runde\nkann er nicht handeln.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa proietta dei potenti raggi di luce\ngrazie alla potenza del suo prisma, ma non\npu\u00f2 agire nel turno successivo.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user shoots powerful lasers using the power of\na prism. The user can\u2019t move on the next turn.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u30d7\u30ea\u30ba\u30e0\u306e\u3000\u529b\u3067\u3000\u5f37\u529b\u306a\n\u5149\u7dda\u3092\u3000\u767a\u5c04\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u68f1\u955c\u7684\u529b\u91cf\u53d1\u5c04\u5f3a\u70c8\u5149\u7ebf\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c06\u65e0\u6cd5\u52a8\u5f39\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u30d7\u30ea\u30ba\u30e0\u306e\u3000\u3061\u304b\u3089\u3067\u3000\u304d\u3087\u3046\u308a\u3087\u304f\u306a\n\u3053\u3046\u305b\u3093\u3092\u3000\u306f\u3063\u3057\u3083\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u306a\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\ud504\ub9ac\uc998\uc758 \ud798\uc73c\ub85c \uac15\ub825\ud55c\n\uad11\uc120\uc744 \ubc1c\uc0ac\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u7a1c\u93e1\u7684\u529b\u91cf\u767c\u5c04\u5f37\u70c8\u5149\u7dda\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c07\u7121\u6cd5\u52d5\u5f48\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la puissance d\u2019un prisme\npour envoyer un laser destructeur, mais il doit\nse reposer au tour suivant.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender feuert mithilfe von Prisma-Kraft\nm\u00e4chtige Lichtstrahlen ab. In der n\u00e4chsten Runde\nkann er nicht handeln.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa proietta dei potenti raggi di luce\ngrazie alla potenza del suo prisma, ma non\npu\u00f2 agire nel turno successivo.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user shoots powerful lasers using the power of\na prism. The user can\u2019t move on the next turn.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u30d7\u30ea\u30ba\u30e0\u306e\u3000\u529b\u3067\u3000\u5f37\u529b\u306a\n\u5149\u7dda\u3092\u3000\u767a\u5c04\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u68f1\u955c\u7684\u529b\u91cf\u53d1\u5c04\u5f3a\u70c8\u5149\u7ebf\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c06\u65e0\u6cd5\u52a8\u5f39\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u30d7\u30ea\u30ba\u30e0\u306e\u3000\u3061\u304b\u3089\u3067\u3000\u304d\u3087\u3046\u308a\u3087\u304f\u306a\n\u3053\u3046\u305b\u3093\u3092\u3000\u306f\u3063\u3057\u3083\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u306a\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\ud504\ub9ac\uc998\uc758 \ud798\uc73c\ub85c \uac15\ub825\ud55c\n\uad11\uc120\uc744 \ubc1c\uc0ac\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u7a1c\u93e1\u7684\u529b\u91cf\u767c\u5c04\u5f37\u70c8\u5149\u7dda\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c07\u7121\u6cd5\u52d5\u5f48\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la puissance d\u2019un prisme pour envoyer\nun laser destructeur, mais il doit se reposer au tour suivant.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender feuert mithilfe von Prisma-Kraft\nm\u00e4chtige Lichtstrahlen ab. In der n\u00e4chsten Runde\nkann er nicht handeln.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa proietta dei potenti raggi di luce\ngrazie alla potenza del suo prisma, ma non\npu\u00f2 agire nel turno successivo.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user shoots powerful lasers using the power of\na prism. The user can\u2019t move on the next turn.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u30d7\u30ea\u30ba\u30e0\u306e\u3000\u529b\u3067\u3000\u5f37\u529b\u306a\n\u5149\u7dda\u3092\u3000\u767a\u5c04\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u68f1\u955c\u7684\u529b\u91cf\u53d1\u5c04\u5f3a\u70c8\u5149\u7ebf\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c06\u65e0\u6cd5\u52a8\u5f39\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u30d7\u30ea\u30ba\u30e0\u306e\u3000\u3061\u304b\u3089\u3067\u3000\u304d\u3087\u3046\u308a\u3087\u304f\u306a\n\u3053\u3046\u305b\u3093\u3092\u3000\u306f\u3063\u3057\u3083\u3059\u308b\u3002\n\u3064\u304e\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u3046\u3054\u3051\u306a\u304f\u306a\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\ud504\ub9ac\uc998\uc758 \ud798\uc73c\ub85c \uac15\ub825\ud55c\n\uad11\uc120\uc744 \ubc1c\uc0ac\ud55c\ub2e4.\n\ub2e4\uc74c \ud134\uc740 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u7a1c\u93e1\u7684\u529b\u91cf\u767c\u5c04\u5f37\u70c8\u5149\u7dda\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c07\u7121\u6cd5\u52d5\u5f48\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la puissance d\u2019un prisme pour envoyer\nun laser destructeur, mais il doit se reposer\nau tour suivant.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender feuert mithilfe von Prisma-Kraft m\u00e4chtige\nLichtstrahlen ab. In der n\u00e4chsten Runde kann er nicht\nhandeln.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa proietta dei potenti raggi di luce\ngrazie alla potenza del suo prisma, ma non\npu\u00f2 agire nel turno successivo.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user shoots powerful lasers using the power of\na prism. The user can\u2019t move on the next turn.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u30d7\u30ea\u30ba\u30e0\u306e\u3000\u529b\u3067\u3000\u5f37\u529b\u306a\n\u5149\u7dda\u3092\u3000\u767a\u5c04\u3059\u308b\u3002\n\u6b21\u306e\u3000\u30bf\u30fc\u30f3\u306f\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u68f1\u955c\u7684\u529b\u91cf\u53d1\u5c04\u5f3a\u70c8\u5149\u7ebf\u3002\n\u4e0b\u4e00\u56de\u5408\u81ea\u5df1\u5c06\u65e0\u6cd5\u52a8\u5f39\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-vii",
-        "url": "/api/v2/generation/7/"
-    },
-    "id": 711,
-    "learned_by_pokemon": [
-        {
-            "name": "necrozma",
-            "url": "/api/v2/pokemon/800/"
-        },
-        {
-            "name": "necrozma-dusk",
-            "url": "/api/v2/pokemon/10155/"
-        },
-        {
-            "name": "necrozma-dawn",
-            "url": "/api/v2/pokemon/10156/"
-        },
-        {
-            "name": "necrozma-ultra",
-            "url": "/api/v2/pokemon/10157/"
-        }
-    ],
-    "machines": [],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "prismatic-laser",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30d7\u30ea\u30ba\u30e0\u30ec\u30fc\u30b6\u30fc"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ud504\ub9ac\uc998\ub808\uc774\uc800"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u7a1c\u93e1\u9433\u5c04"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Laser Prisme"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Prisma-Laser"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "L\u00e1ser Prisma"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Prismalaser"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Prismatic Laser"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30d7\u30ea\u30ba\u30e0\u30ec\u30fc\u30b6\u30fc"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u68f1\u955c\u956d\u5c04"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "L\u00e1ser Prisma"
-        }
-    ],
-    "past_values": [],
-    "power": 160,
-    "pp": 10,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": null,
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "psychic",
-        "url": "/api/v2/type/14/"
+    {
+      "effect": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+      "short_effect": "User foregoes its next turn to recharge.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-vii",
+    "url": "/api/v2/generation/7/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "プリズムレーザー",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "프리즘레이저",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "稜鏡鐳射",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Laser Prisme",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Prisma-Laser",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Láser Prisma",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Prismalaser",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Prismatic Laser",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "プリズムレーザー",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "棱镜镭射",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Láser Prisma",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "psychic",
+    "url": "/api/v2/type/14/"
+  },
+  "machines": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "プリズムの　ちからで　きょうりょくな\nこうせんを　はっしゃする。\nつぎの　ターンは　うごけなくなる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "프리즘의 힘으로 강력한\n광선을 발사한다.\n다음 턴은 움직일 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "用稜鏡的力量發射強烈光線。\n下一回合自己將無法動彈。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la puissance d’un prisme\npour envoyer un laser destructeur, mais il doit\nse reposer au tour suivant.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender feuert mithilfe von Prisma-Kraft\nmächtige Lichtstrahlen ab. In der nächsten Runde\nkann er nicht handeln.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa proietta dei potenti raggi di luce\ngrazie alla potenza del suo prisma, ma non\npuò agire nel turno successivo.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user shoots powerful lasers using the power of\na prism. The user can’t move on the next turn.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "プリズムの　力で　強力な\n光線を　発射する。\n次の　ターンは　動けなくなる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "用棱镜的力量发射强烈光线。\n下一回合自己将无法动弹。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "プリズムの　ちからで　きょうりょくな\nこうせんを　はっしゃする。\nつぎの　ターンは　うごけなくなる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "프리즘의 힘으로 강력한\n광선을 발사한다.\n다음 턴은 움직일 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "用稜鏡的力量發射強烈光線。\n下一回合自己將無法動彈。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la puissance d’un prisme\npour envoyer un laser destructeur, mais il doit\nse reposer au tour suivant.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender feuert mithilfe von Prisma-Kraft\nmächtige Lichtstrahlen ab. In der nächsten Runde\nkann er nicht handeln.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa proietta dei potenti raggi di luce\ngrazie alla potenza del suo prisma, ma non\npuò agire nel turno successivo.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user shoots powerful lasers using the power of\na prism. The user can’t move on the next turn.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "プリズムの　力で　強力な\n光線を　発射する。\n次の　ターンは　動けなくなる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "用棱镜的力量发射强烈光线。\n下一回合自己将无法动弹。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "プリズムの　ちからで　きょうりょくな\nこうせんを　はっしゃする。\nつぎの　ターンは　うごけなくなる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "프리즘의 힘으로 강력한\n광선을 발사한다.\n다음 턴은 움직일 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "用稜鏡的力量發射強烈光線。\n下一回合自己將無法動彈。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la puissance d’un prisme pour envoyer\nun laser destructeur, mais il doit se reposer au tour suivant.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender feuert mithilfe von Prisma-Kraft\nmächtige Lichtstrahlen ab. In der nächsten Runde\nkann er nicht handeln.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa proietta dei potenti raggi di luce\ngrazie alla potenza del suo prisma, ma non\npuò agire nel turno successivo.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user shoots powerful lasers using the power of\na prism. The user can’t move on the next turn.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "プリズムの　力で　強力な\n光線を　発射する。\n次の　ターンは　動けなくなる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "用棱镜的力量发射强烈光线。\n下一回合自己将无法动弹。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "プリズムの　ちからで　きょうりょくな\nこうせんを　はっしゃする。\nつぎの　ターンは　うごけなくなる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "프리즘의 힘으로 강력한\n광선을 발사한다.\n다음 턴은 움직일 수 없다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "用稜鏡的力量發射強烈光線。\n下一回合自己將無法動彈。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la puissance d’un prisme pour envoyer\nun laser destructeur, mais il doit se reposer\nau tour suivant.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender feuert mithilfe von Prisma-Kraft mächtige\nLichtstrahlen ab. In der nächsten Runde kann er nicht\nhandeln.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa proietta dei potenti raggi di luce\ngrazie alla potenza del suo prisma, ma non\npuò agire nel turno successivo.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user shoots powerful lasers using the power of\na prism. The user can’t move on the next turn.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "プリズムの　力で　強力な\n光線を　発射する。\n次の　ターンは　動けなくなる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "用棱镜的力量发射强烈光线。\n下一回合自己将无法动弹。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El usuario utiliza un prisma para emitir un rayo de\ngran potencia, pero no puede moverse en el turno\nsiguiente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "necrozma",
+      "url": "/api/v2/pokemon/800/"
+    },
+    {
+      "name": "necrozma-dusk",
+      "url": "/api/v2/pokemon/10155/"
+    },
+    {
+      "name": "necrozma-dawn",
+      "url": "/api/v2/pokemon/10156/"
+    },
+    {
+      "name": "necrozma-ultra",
+      "url": "/api/v2/pokemon/10157/"
+    }
+  ]
 }

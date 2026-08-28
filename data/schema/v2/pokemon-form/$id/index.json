@@ -1,234 +1,257 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "form_name": {
-            "type": "string"
-        },
-        "form_names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        },
-        "form_order": {
-            "type": "integer"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "is_battle_only": {
-            "type": "boolean"
-        },
-        "is_default": {
-            "type": "boolean"
-        },
-        "is_mega": {
-            "type": "boolean"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        },
-        "order": {
-            "type": "integer"
-        },
-        "pokemon": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "sprites": {
-            "properties": {
-                "back_default": {
-                    "type": [
-                        "null",
-                        "string"
-                    ]
-                },
-                "back_female": {
-                    "type": [
-                        "null",
-                        "string"
-                    ]
-                },
-                "back_shiny": {
-                    "type": [
-                        "null",
-                        "string"
-                    ]
-                },
-                "back_shiny_female": {
-                    "type": [
-                        "null",
-                        "string"
-                    ]
-                },
-                "front_default": {
-                    "type": [
-                        "null",
-                        "string"
-                    ]
-                },
-                "front_female": {
-                    "type": [
-                        "null",
-                        "string"
-                    ]
-                },
-                "front_shiny": {
-                    "type": [
-                        "null",
-                        "string"
-                    ]
-                },
-                "front_shiny_female": {
-                    "type": [
-                        "null",
-                        "string"
-                    ]
-                },
-                "versions": {
-                    "properties": {
-                        "generation-ix": {
-                            "properties": {
-                                "scarlet-violet": {
-                                    "properties": {
-                                        "front_default": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        },
-                                        "front_female": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        }
-                                    },
-                                    "required": [
-                                        "front_default",
-                                        "front_female"
-                                    ],
-                                    "type": "object"
-                                }
-                            },
-                            "required": [
-                                "scarlet-violet"
-                            ],
-                            "type": "object"
-                        },
-                        "generation-viii": {
-                            "properties": {
-                                "brilliant-diamond-shining-pearl": {
-                                    "properties": {
-                                        "front_default": {
-                                            "type": [
-                                                "null",
-                                                "string"
-                                            ]
-                                        },
-                                        "front_female": {
-                                            "type": "null"
-                                        }
-                                    },
-                                    "required": [
-                                        "front_default",
-                                        "front_female"
-                                    ],
-                                    "type": "object"
-                                }
-                            },
-                            "required": [
-                                "brilliant-diamond-shining-pearl"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "generation-ix",
-                        "generation-viii"
-                    ],
-                    "type": "object"
-                }
-            },
-            "required": [
-                "back_default",
-                "back_female",
-                "back_shiny",
-                "back_shiny_female",
-                "front_default",
-                "front_female",
-                "front_shiny",
-                "front_shiny_female",
-                "versions"
-            ],
-            "type": "object"
-        },
-        "trigger_conditions": {
-            "items": {
-                "properties": {
-                    "base_form": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "name": {
-                        "type": "string"
-                    },
-                    "trigger": {
-                        "type": "string"
-                    },
-                    "url": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "trigger"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "types": {
-            "items": {
-                "properties": {
-                    "slot": {
-                        "type": "integer"
-                    },
-                    "type": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "slot",
-                    "type"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "version_group": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "form_name",
-        "form_names",
-        "form_order",
-        "id",
-        "is_battle_only",
-        "is_default",
-        "is_mega",
-        "name",
-        "names",
-        "order",
-        "pokemon",
-        "sprites",
-        "trigger_conditions",
-        "types",
-        "version_group"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "form_order": {
+      "type": "integer"
+    },
+    "is_default": {
+      "type": "boolean"
+    },
+    "is_battle_only": {
+      "type": "boolean"
+    },
+    "is_mega": {
+      "type": "boolean"
+    },
+    "form_name": {
+      "type": "string"
+    },
+    "pokemon": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "sprites": {
+      "type": "object",
+      "properties": {
+        "versions": {
+          "type": "object",
+          "properties": {
+            "generation-ix": {
+              "type": "object",
+              "properties": {
+                "scarlet-violet": {
+                  "type": "object",
+                  "properties": {
+                    "front_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "front_default",
+                    "front_female"
+                  ]
+                }
+              },
+              "required": [
+                "scarlet-violet"
+              ]
+            },
+            "generation-viii": {
+              "type": "object",
+              "properties": {
+                "brilliant-diamond-shining-pearl": {
+                  "type": "object",
+                  "properties": {
+                    "front_female": {
+                      "type": "null"
+                    },
+                    "front_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "front_default",
+                    "front_female"
+                  ]
+                }
+              },
+              "required": [
+                "brilliant-diamond-shining-pearl"
+              ]
+            }
+          },
+          "required": [
+            "generation-ix",
+            "generation-viii"
+          ]
+        },
+        "back_shiny": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "back_female": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "front_shiny": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "back_default": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "front_female": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "front_default": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "back_shiny_female": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "front_shiny_female": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      },
+      "required": [
+        "back_default",
+        "back_female",
+        "back_shiny",
+        "back_shiny_female",
+        "front_default",
+        "front_female",
+        "front_shiny",
+        "front_shiny_female",
+        "versions"
+      ]
+    },
+    "version_group": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "form_names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    },
+    "types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slot": {
+            "type": "integer"
+          },
+          "type": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "slot",
+          "type"
+        ]
+      }
+    },
+    "trigger_conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "trigger": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "base_form": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "trigger"
+        ]
+      }
+    },
+    "flavor_text_entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "flavor_text": {
+            "type": "string"
+          },
+          "language": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          },
+          "version": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "flavor_text",
+          "language",
+          "version"
+        ]
+      }
+    }
+  },
+  "required": [
+    "flavor_text_entries",
+    "form_name",
+    "form_names",
+    "form_order",
+    "id",
+    "is_battle_only",
+    "is_default",
+    "is_mega",
+    "name",
+    "names",
+    "order",
+    "pokemon",
+    "sprites",
+    "trigger_conditions",
+    "types",
+    "version_group"
+  ]
 }

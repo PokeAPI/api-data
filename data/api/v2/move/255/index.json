@@ -1,1190 +1,1190 @@
 {
-    "accuracy": 100,
-    "contest_combos": {
-        "normal": {
-            "use_after": [
-                {
-                    "name": "stockpile",
-                    "url": "/api/v2/move/254/"
-                }
-            ],
-            "use_before": null
-        },
-        "super": {
-            "use_after": null,
-            "use_before": null
+  "id": 255,
+  "name": "spit-up",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "stockpile",
+          "url": "/api/v2/move/254/"
         }
+      ]
     },
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/1/"
-    },
-    "contest_type": {
-        "name": "tough",
-        "url": "/api/v2/contest-type/5/"
-    },
-    "damage_class": {
-        "name": "special",
-        "url": "/api/v2/move-damage-class/3/"
-    },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  La puissance est \u00e9gale \u00e0 100 fois la quantit\u00e9 d'\u00e9nergie stock\u00e9e par Stockage.  Ignore le facteur al\u00e9atoire de la formule de d\u00e9g\u00e2ts.  L'\u00e9nergie stock\u00e9e est consomm\u00e9e, et la D\u00e9fense et D\u00e9fense Sp\u00e9ciale du lanceur sont r\u00e9initialis\u00e9es \u00e0 ce qu'elles auraient \u00e9t\u00e9 si Stockage n'avait pas \u00e9t\u00e9 utilis\u00e9e.  Si le lanceur n'a pas d'\u00e9nergie stock\u00e9e, cette capacit\u00e9 \u00e9chouera.\n\nCette capacit\u00e9 ne peut pas \u00eatre copi\u00e9e par Mimique.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "La puissance est 100 fois la quantit\u00e9 d'\u00e9nergie Stock\u00e9e."
-        },
-        {
-            "effect": "Inflicts regular damage.  Power is equal to 100 times the amount of energy stored by Stockpile.  Ignores the random factor in the damage formula.  Stored energy is consumed, and the user\u2019s Defense and Special Defense are reset to what they would be if Stockpile had not been used.  If the user has no energy stored, this move will fail.\n\nThis move cannot be copied by Mirror Move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Power is 100 times the amount of energy Stockpiled."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Releases stockpiled power\n(the more the better).",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "Releases stockpiled power\n(the more the better).",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "The power built\nusing STOCKPILE is\nreleased at once\nfor attack.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Lib\u00e8re dans une attaque la puissance\npr\u00e9c\u00e9demment accumul\u00e9e avec Stockage.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u305f\u304f\u308f\u3048\u305f\u3000\u3061\u304b\u3089\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u305f\u304f\u308f\u3048\u3066\u3000\u3044\u308b\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\ube44\ucd95\ub41c \ud798\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ube44\ucd95\ub41c \ub9cc\ud07c \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Lib\u00e8re dans une attaque la puissance\npr\u00e9c\u00e9demment accumul\u00e9e avec Stockage.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Entl\u00e4dt die Kraft, die w\u00e4hrend des Einsatzes\nvon Horter gesammelt wurde.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con\nReserva.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Tutta l\u2019energia accumulata in precedenza\ncon Accumulo \u00e8 rilasciata nell\u2019attacco.\nMaggiore \u00e8 l\u2019energia, pi\u00f9 danni si arrecano.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u84c4\u3048\u305f\u3000\u529b\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u84c4\u3048\u3066\u3044\u308b\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con\nReserva.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u305f\u304f\u308f\u3048\u305f\u3000\u3061\u304b\u3089\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u305f\u304f\u308f\u3048\u3066\u3000\u3044\u308b\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\ube44\ucd95\ub41c \ud798\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ube44\ucd95\ub41c \ub9cc\ud07c \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Lib\u00e8re dans une attaque la puissance\npr\u00e9c\u00e9demment accumul\u00e9e avec Stockage.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Entl\u00e4dt die Kraft, die w\u00e4hrend des Einsatzes\nvon Horter gesammelt wurde.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con\nReserva.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Tutta l\u2019energia accumulata in precedenza\ncon Accumulo \u00e8 rilasciata nell\u2019attacco.\nMaggiore \u00e8 l\u2019energia, pi\u00f9 danni si arrecano.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u84c4\u3048\u305f\u3000\u529b\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u84c4\u3048\u3066\u3044\u308b\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con\nReserva.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u305f\u304f\u308f\u3048\u305f\u3000\u3061\u304b\u3089\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u305f\u304f\u308f\u3048\u3066\u3000\u3044\u308b\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\ube44\ucd95\ub41c \ud798\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ube44\ucd95\ub41c \ub9cc\ud07c \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u84c4\u7a4d\u7684\u529b\u91cf\n\u649e\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u84c4\u7a4d\u5f97\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Lib\u00e8re dans une attaque la puissance\npr\u00e9c\u00e9demment accumul\u00e9e avec Stockage.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Entl\u00e4dt die Kraft, die w\u00e4hrend des Einsatzes von\nHorter gesammelt wurde. Je mehr Energie gehortet\nwurde, desto st\u00e4rker der Angriff.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con Reserva.\nLa potencia del ataque ser\u00e1 proporcional a la\ncantidad de energ\u00eda acumulada.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Tutta l\u2019energia accumulata in precedenza\ncon Accumulo \u00e8 rilasciata nell\u2019attacco.\nMaggiore \u00e8 l\u2019energia, pi\u00f9 danni si arrecano.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u84c4\u3048\u305f\u3000\u529b\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u84c4\u3048\u3066\u3044\u308b\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5c06\u79ef\u84c4\u7684\u529b\u91cf\n\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u79ef\u84c4\u5f97\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con Reserva.\nLa potencia del ataque ser\u00e1 proporcional a la\ncantidad de energ\u00eda acumulada.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u305f\u304f\u308f\u3048\u305f\u3000\u3061\u304b\u3089\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u305f\u304f\u308f\u3048\u3066\u3000\u3044\u308b\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\ube44\ucd95\ub41c \ud798\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ube44\ucd95\ub41c \ub9cc\ud07c \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u84c4\u7a4d\u7684\u529b\u91cf\n\u649e\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u84c4\u7a4d\u5f97\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Lib\u00e8re dans une attaque la puissance\npr\u00e9c\u00e9demment accumul\u00e9e avec Stockage.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Entl\u00e4dt die Kraft, die w\u00e4hrend des Einsatzes von\nHorter gesammelt wurde. Je mehr Energie gehortet\nwurde, desto st\u00e4rker der Angriff.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con Reserva.\nLa potencia del ataque ser\u00e1 proporcional a la\ncantidad de energ\u00eda acumulada.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Tutta l\u2019energia accumulata in precedenza\ncon Accumulo \u00e8 rilasciata nell\u2019attacco.\nMaggiore \u00e8 l\u2019energia, pi\u00f9 danni si arrecano.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u84c4\u3048\u305f\u3000\u529b\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u84c4\u3048\u3066\u3044\u308b\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5c06\u79ef\u84c4\u7684\u529b\u91cf\n\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u79ef\u84c4\u5f97\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con Reserva.\nLa potencia del ataque ser\u00e1 proporcional a la\ncantidad de energ\u00eda acumulada.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u305f\u304f\u308f\u3048\u305f\u3000\u3061\u304b\u3089\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u305f\u304f\u308f\u3048\u3066\u3000\u3044\u308b\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\ube44\ucd95\ub41c \ud798\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ube44\ucd95\ub41c \ub9cc\ud07c \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u84c4\u7a4d\u7684\u529b\u91cf\n\u649e\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u84c4\u7a4d\u5f97\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Lib\u00e8re dans une attaque la puissance\npr\u00e9c\u00e9demment accumul\u00e9e avec Stockage.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Entl\u00e4dt die Kraft, die w\u00e4hrend des Einsatzes von\nHorter gesammelt wurde. Je mehr Energie gehortet\nwurde, desto st\u00e4rker der Angriff.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con Reserva.\nLa potencia del ataque ser\u00e1 proporcional a la\ncantidad de energ\u00eda acumulada.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Tutta l\u2019energia accumulata in precedenza\ncon Accumulo \u00e8 rilasciata nell\u2019attacco.\nMaggiore \u00e8 l\u2019energia, pi\u00f9 danni si arrecano.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u84c4\u3048\u305f\u3000\u529b\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u84c4\u3048\u3066\u3044\u308b\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5c06\u79ef\u84c4\u7684\u529b\u91cf\n\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u79ef\u84c4\u5f97\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con Reserva.\nLa potencia del ataque ser\u00e1 proporcional a la\ncantidad de energ\u00eda acumulada.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u305f\u304f\u308f\u3048\u305f\u3000\u3061\u304b\u3089\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u3051\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u305f\u304f\u308f\u3048\u3066\u3000\u3044\u308b\u307b\u3069\n\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\ube44\ucd95\ub41c \ud798\uc744\n\uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\uc11c \uacf5\uaca9\ud55c\ub2e4.\n\ube44\ucd95\ub41c \ub9cc\ud07c \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u84c4\u7a4d\u7684\u529b\u91cf\n\u649e\u5411\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u84c4\u7a4d\u5f97\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Lib\u00e8re dans une attaque la puissance pr\u00e9c\u00e9demment\naccumul\u00e9e avec Stockage.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Entl\u00e4dt die Kraft, die w\u00e4hrend des Einsatzes von Horter\ngesammelt wurde. Je mehr Energie gehortet wurde,\ndesto st\u00e4rker der Angriff.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con Reserva.\nLa potencia del ataque ser\u00e1 proporcional a la cantidad\nde energ\u00eda acumulada.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Tutta l\u2019energia accumulata in precedenza\ncon Accumulo \u00e8 rilasciata nell\u2019attacco.\nMaggiore \u00e8 l\u2019energia, pi\u00f9 danni si arrecano.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u84c4\u3048\u305f\u3000\u529b\u3092\n\u76f8\u624b\u306b\u3000\u3076\u3064\u3051\u3066\u3000\u653b\u6483\u3059\u308b\u3002\n\u84c4\u3048\u3066\u3044\u308b\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5c06\u79ef\u84c4\u7684\u529b\u91cf\n\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u79ef\u84c4\u5f97\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Libera de una vez la energ\u00eda acumulada con Reserva.\nLa potencia del ataque ser\u00e1 proporcional a la cantidad\nde energ\u00eda acumulada.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-iii",
-        "url": "/api/v2/generation/3/"
-    },
-    "id": 255,
-    "learned_by_pokemon": [
-        {
-            "name": "ekans",
-            "url": "/api/v2/pokemon/23/"
-        },
-        {
-            "name": "arbok",
-            "url": "/api/v2/pokemon/24/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "victreebel",
-            "url": "/api/v2/pokemon/71/"
-        },
-        {
-            "name": "seel",
-            "url": "/api/v2/pokemon/86/"
-        },
-        {
-            "name": "dewgong",
-            "url": "/api/v2/pokemon/87/"
-        },
-        {
-            "name": "grimer",
-            "url": "/api/v2/pokemon/88/"
-        },
-        {
-            "name": "koffing",
-            "url": "/api/v2/pokemon/109/"
-        },
-        {
-            "name": "lanturn",
-            "url": "/api/v2/pokemon/171/"
-        },
-        {
-            "name": "wooper",
-            "url": "/api/v2/pokemon/194/"
-        },
-        {
-            "name": "qwilfish",
-            "url": "/api/v2/pokemon/211/"
-        },
-        {
-            "name": "slugma",
-            "url": "/api/v2/pokemon/218/"
-        },
-        {
-            "name": "pelipper",
-            "url": "/api/v2/pokemon/279/"
-        },
-        {
-            "name": "mawile",
-            "url": "/api/v2/pokemon/303/"
-        },
-        {
-            "name": "gulpin",
-            "url": "/api/v2/pokemon/316/"
-        },
-        {
-            "name": "swalot",
-            "url": "/api/v2/pokemon/317/"
-        },
-        {
-            "name": "numel",
-            "url": "/api/v2/pokemon/322/"
-        },
-        {
-            "name": "camerupt",
-            "url": "/api/v2/pokemon/323/"
-        },
-        {
-            "name": "seviper",
-            "url": "/api/v2/pokemon/336/"
-        },
-        {
-            "name": "lileep",
-            "url": "/api/v2/pokemon/345/"
-        },
-        {
-            "name": "cradily",
-            "url": "/api/v2/pokemon/346/"
-        },
-        {
-            "name": "spheal",
-            "url": "/api/v2/pokemon/363/"
-        },
-        {
-            "name": "turtwig",
-            "url": "/api/v2/pokemon/387/"
-        },
-        {
-            "name": "grotle",
-            "url": "/api/v2/pokemon/388/"
-        },
-        {
-            "name": "torterra",
-            "url": "/api/v2/pokemon/389/"
-        },
-        {
-            "name": "shellos",
-            "url": "/api/v2/pokemon/422/"
-        },
-        {
-            "name": "drifloon",
-            "url": "/api/v2/pokemon/425/"
-        },
-        {
-            "name": "drifblim",
-            "url": "/api/v2/pokemon/426/"
-        },
-        {
-            "name": "hippopotas",
-            "url": "/api/v2/pokemon/449/"
-        },
-        {
-            "name": "hippowdon",
-            "url": "/api/v2/pokemon/450/"
-        },
-        {
-            "name": "carnivine",
-            "url": "/api/v2/pokemon/455/"
-        },
-        {
-            "name": "heatmor",
-            "url": "/api/v2/pokemon/631/"
-        },
-        {
-            "name": "mareanie",
-            "url": "/api/v2/pokemon/747/"
-        },
-        {
-            "name": "toxapex",
-            "url": "/api/v2/pokemon/748/"
-        },
-        {
-            "name": "dewpider",
-            "url": "/api/v2/pokemon/751/"
-        },
-        {
-            "name": "araquanid",
-            "url": "/api/v2/pokemon/752/"
-        },
-        {
-            "name": "sandygast",
-            "url": "/api/v2/pokemon/769/"
-        },
-        {
-            "name": "komala",
-            "url": "/api/v2/pokemon/775/"
-        },
-        {
-            "name": "skwovet",
-            "url": "/api/v2/pokemon/819/"
-        },
-        {
-            "name": "greedent",
-            "url": "/api/v2/pokemon/820/"
-        },
-        {
-            "name": "cramorant",
-            "url": "/api/v2/pokemon/845/"
-        },
-        {
-            "name": "overqwil",
-            "url": "/api/v2/pokemon/904/"
-        },
-        {
-            "name": "lechonk",
-            "url": "/api/v2/pokemon/915/"
-        },
-        {
-            "name": "wattrel",
-            "url": "/api/v2/pokemon/940/"
-        },
-        {
-            "name": "mawile-mega",
-            "url": "/api/v2/pokemon/10052/"
-        },
-        {
-            "name": "camerupt-mega",
-            "url": "/api/v2/pokemon/10087/"
-        },
-        {
-            "name": "grimer-alola",
-            "url": "/api/v2/pokemon/10112/"
-        },
-        {
-            "name": "cramorant-gulping",
-            "url": "/api/v2/pokemon/10182/"
-        },
-        {
-            "name": "cramorant-gorging",
-            "url": "/api/v2/pokemon/10183/"
-        },
-        {
-            "name": "qwilfish-hisui",
-            "url": "/api/v2/pokemon/10234/"
-        },
-        {
-            "name": "wooper-paldea",
-            "url": "/api/v2/pokemon/10253/"
-        },
-        {
-            "name": "victreebel-mega",
-            "url": "/api/v2/pokemon/10279/"
-        }
-    ],
-    "machines": [],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "spit-up",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u306f\u304d\u3060\u3059"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ud1a0\ud574\ub0b4\uae30"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u5674\u51fa"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Rel\u00e2che"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Entfessler"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Escupir"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Sfoghenergia"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Spit Up"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u306f\u304d\u3060\u3059"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u55b7\u51fa"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Escupida"
-        }
-    ],
-    "past_values": [],
-    "power": null,
-    "pp": 10,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/18/"
-    },
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "normal",
-        "url": "/api/v2/type/1/"
+    "super": {
+      "use_before": null,
+      "use_after": null
     }
+  },
+  "contest_type": {
+    "name": "tough",
+    "url": "/api/v2/contest-type/5/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/1/"
+  },
+  "damage_class": {
+    "name": "special",
+    "url": "/api/v2/move-damage-class/3/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts réguliers.  La puissance est égale à 100 fois la quantité d'énergie stockée par Stockage.  Ignore le facteur aléatoire de la formule de dégâts.  L'énergie stockée est consommée, et la Défense et Défense Spéciale du lanceur sont réinitialisées à ce qu'elles auraient été si Stockage n'avait pas été utilisée.  Si le lanceur n'a pas d'énergie stockée, cette capacité échouera.\n\nCette capacité ne peut pas être copiée par Mimique.",
+      "short_effect": "La puissance est 100 fois la quantité d'énergie Stockée.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "Inflicts regular damage.  Power is equal to 100 times the amount of energy stored by Stockpile.  Ignores the random factor in the damage formula.  Stored energy is consumed, and the user’s Defense and Special Defense are reset to what they would be if Stockpile had not been used.  If the user has no energy stored, this move will fail.\n\nThis move cannot be copied by Mirror Move.",
+      "short_effect": "Power is 100 times the amount of energy Stockpiled.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii",
+    "url": "/api/v2/generation/3/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "はきだす",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "토해내기",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "噴出",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Relâche",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Entfessler",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Escupir",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Sfoghenergia",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Spit Up",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "はきだす",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "喷出",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Escupida",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/18/"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "normal",
+    "url": "/api/v2/type/1/"
+  },
+  "machines": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Releases stockpiled power\n(the more the better).",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "Releases stockpiled power\n(the more the better).",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "The power built\nusing STOCKPILE is\nreleased at once\nfor attack.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Libère dans une attaque la puissance\nprécédemment accumulée avec Stockage.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "たくわえた　ちからを　あいてに　ぶつけて\nこうげきする。たくわえて　いるほど\nいりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "비축된 힘을\n상대에게 부딪쳐서 공격한다.\n비축된 만큼 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Libère dans une attaque la puissance\nprécédemment accumulée avec Stockage.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Entlädt die Kraft, die während des Einsatzes\nvon Horter gesammelt wurde.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con\nReserva.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Tutta l’energia accumulata in precedenza\ncon Accumulo è rilasciata nell’attacco.\nMaggiore è l’energia, più danni si arrecano.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "蓄えた　力を\n相手に　ぶつけて　攻撃する。\n蓄えているほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con\nReserva.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "たくわえた　ちからを　あいてに　ぶつけて\nこうげきする。たくわえて　いるほど\nいりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "비축된 힘을\n상대에게 부딪쳐서 공격한다.\n비축된 만큼 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Libère dans une attaque la puissance\nprécédemment accumulée avec Stockage.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Entlädt die Kraft, die während des Einsatzes\nvon Horter gesammelt wurde.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con\nReserva.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Tutta l’energia accumulata in precedenza\ncon Accumulo è rilasciata nell’attacco.\nMaggiore è l’energia, più danni si arrecano.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile\nis released at once in an attack. The more\npower is stored, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "蓄えた　力を\n相手に　ぶつけて　攻撃する。\n蓄えているほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con\nReserva.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "たくわえた　ちからを　あいてに　ぶつけて\nこうげきする。たくわえて　いるほど\nいりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "비축된 힘을\n상대에게 부딪쳐서 공격한다.\n비축된 만큼 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "將蓄積的力量\n撞向對手進行攻擊。\n蓄積得越多，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Libère dans une attaque la puissance\nprécédemment accumulée avec Stockage.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Entlädt die Kraft, die während des Einsatzes von\nHorter gesammelt wurde. Je mehr Energie gehortet\nwurde, desto stärker der Angriff.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con Reserva.\nLa potencia del ataque será proporcional a la\ncantidad de energía acumulada.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Tutta l’energia accumulata in precedenza\ncon Accumulo è rilasciata nell’attacco.\nMaggiore è l’energia, più danni si arrecano.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "蓄えた　力を\n相手に　ぶつけて　攻撃する。\n蓄えているほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "将积蓄的力量\n撞向对手进行攻击。\n积蓄得越多，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con Reserva.\nLa potencia del ataque será proporcional a la\ncantidad de energía acumulada.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "たくわえた　ちからを　あいてに　ぶつけて\nこうげきする。たくわえて　いるほど\nいりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "비축된 힘을\n상대에게 부딪쳐서 공격한다.\n비축된 만큼 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "將蓄積的力量\n撞向對手進行攻擊。\n蓄積得越多，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Libère dans une attaque la puissance\nprécédemment accumulée avec Stockage.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Entlädt die Kraft, die während des Einsatzes von\nHorter gesammelt wurde. Je mehr Energie gehortet\nwurde, desto stärker der Angriff.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con Reserva.\nLa potencia del ataque será proporcional a la\ncantidad de energía acumulada.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Tutta l’energia accumulata in precedenza\ncon Accumulo è rilasciata nell’attacco.\nMaggiore è l’energia, più danni si arrecano.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "蓄えた　力を\n相手に　ぶつけて　攻撃する。\n蓄えているほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "将积蓄的力量\n撞向对手进行攻击。\n积蓄得越多，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con Reserva.\nLa potencia del ataque será proporcional a la\ncantidad de energía acumulada.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "たくわえた　ちからを　あいてに　ぶつけて\nこうげきする。たくわえて　いるほど\nいりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "비축된 힘을\n상대에게 부딪쳐서 공격한다.\n비축된 만큼 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "將蓄積的力量\n撞向對手進行攻擊。\n蓄積得越多，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Libère dans une attaque la puissance\nprécédemment accumulée avec Stockage.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Entlädt die Kraft, die während des Einsatzes von\nHorter gesammelt wurde. Je mehr Energie gehortet\nwurde, desto stärker der Angriff.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con Reserva.\nLa potencia del ataque será proporcional a la\ncantidad de energía acumulada.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Tutta l’energia accumulata in precedenza\ncon Accumulo è rilasciata nell’attacco.\nMaggiore è l’energia, più danni si arrecano.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "蓄えた　力を\n相手に　ぶつけて　攻撃する。\n蓄えているほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "将积蓄的力量\n撞向对手进行攻击。\n积蓄得越多，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con Reserva.\nLa potencia del ataque será proporcional a la\ncantidad de energía acumulada.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "たくわえた　ちからを　あいてに　ぶつけて\nこうげきする。たくわえて　いるほど\nいりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "비축된 힘을\n상대에게 부딪쳐서 공격한다.\n비축된 만큼 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "將蓄積的力量\n撞向對手進行攻擊。\n蓄積得越多，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Libère dans une attaque la puissance précédemment\naccumulée avec Stockage.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Entlädt die Kraft, die während des Einsatzes von Horter\ngesammelt wurde. Je mehr Energie gehortet wurde,\ndesto stärker der Angriff.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con Reserva.\nLa potencia del ataque será proporcional a la cantidad\nde energía acumulada.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Tutta l’energia accumulata in precedenza\ncon Accumulo è rilasciata nell’attacco.\nMaggiore è l’energia, più danni si arrecano.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile is\nreleased at once in an attack. The more power\nis stored, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "蓄えた　力を\n相手に　ぶつけて　攻撃する。\n蓄えているほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "将积蓄的力量\n撞向对手进行攻击。\n积蓄得越多，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Libera de una vez la energía acumulada con Reserva.\nLa potencia del ataque será proporcional a la cantidad\nde energía acumulada.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move's power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "ekans",
+      "url": "/api/v2/pokemon/23/"
+    },
+    {
+      "name": "arbok",
+      "url": "/api/v2/pokemon/24/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "victreebel",
+      "url": "/api/v2/pokemon/71/"
+    },
+    {
+      "name": "seel",
+      "url": "/api/v2/pokemon/86/"
+    },
+    {
+      "name": "dewgong",
+      "url": "/api/v2/pokemon/87/"
+    },
+    {
+      "name": "grimer",
+      "url": "/api/v2/pokemon/88/"
+    },
+    {
+      "name": "koffing",
+      "url": "/api/v2/pokemon/109/"
+    },
+    {
+      "name": "lanturn",
+      "url": "/api/v2/pokemon/171/"
+    },
+    {
+      "name": "wooper",
+      "url": "/api/v2/pokemon/194/"
+    },
+    {
+      "name": "qwilfish",
+      "url": "/api/v2/pokemon/211/"
+    },
+    {
+      "name": "slugma",
+      "url": "/api/v2/pokemon/218/"
+    },
+    {
+      "name": "pelipper",
+      "url": "/api/v2/pokemon/279/"
+    },
+    {
+      "name": "mawile",
+      "url": "/api/v2/pokemon/303/"
+    },
+    {
+      "name": "gulpin",
+      "url": "/api/v2/pokemon/316/"
+    },
+    {
+      "name": "swalot",
+      "url": "/api/v2/pokemon/317/"
+    },
+    {
+      "name": "numel",
+      "url": "/api/v2/pokemon/322/"
+    },
+    {
+      "name": "camerupt",
+      "url": "/api/v2/pokemon/323/"
+    },
+    {
+      "name": "seviper",
+      "url": "/api/v2/pokemon/336/"
+    },
+    {
+      "name": "lileep",
+      "url": "/api/v2/pokemon/345/"
+    },
+    {
+      "name": "cradily",
+      "url": "/api/v2/pokemon/346/"
+    },
+    {
+      "name": "spheal",
+      "url": "/api/v2/pokemon/363/"
+    },
+    {
+      "name": "turtwig",
+      "url": "/api/v2/pokemon/387/"
+    },
+    {
+      "name": "grotle",
+      "url": "/api/v2/pokemon/388/"
+    },
+    {
+      "name": "torterra",
+      "url": "/api/v2/pokemon/389/"
+    },
+    {
+      "name": "shellos",
+      "url": "/api/v2/pokemon/422/"
+    },
+    {
+      "name": "drifloon",
+      "url": "/api/v2/pokemon/425/"
+    },
+    {
+      "name": "drifblim",
+      "url": "/api/v2/pokemon/426/"
+    },
+    {
+      "name": "hippopotas",
+      "url": "/api/v2/pokemon/449/"
+    },
+    {
+      "name": "hippowdon",
+      "url": "/api/v2/pokemon/450/"
+    },
+    {
+      "name": "carnivine",
+      "url": "/api/v2/pokemon/455/"
+    },
+    {
+      "name": "heatmor",
+      "url": "/api/v2/pokemon/631/"
+    },
+    {
+      "name": "mareanie",
+      "url": "/api/v2/pokemon/747/"
+    },
+    {
+      "name": "toxapex",
+      "url": "/api/v2/pokemon/748/"
+    },
+    {
+      "name": "dewpider",
+      "url": "/api/v2/pokemon/751/"
+    },
+    {
+      "name": "araquanid",
+      "url": "/api/v2/pokemon/752/"
+    },
+    {
+      "name": "sandygast",
+      "url": "/api/v2/pokemon/769/"
+    },
+    {
+      "name": "komala",
+      "url": "/api/v2/pokemon/775/"
+    },
+    {
+      "name": "skwovet",
+      "url": "/api/v2/pokemon/819/"
+    },
+    {
+      "name": "greedent",
+      "url": "/api/v2/pokemon/820/"
+    },
+    {
+      "name": "cramorant",
+      "url": "/api/v2/pokemon/845/"
+    },
+    {
+      "name": "overqwil",
+      "url": "/api/v2/pokemon/904/"
+    },
+    {
+      "name": "lechonk",
+      "url": "/api/v2/pokemon/915/"
+    },
+    {
+      "name": "wattrel",
+      "url": "/api/v2/pokemon/940/"
+    },
+    {
+      "name": "mawile-mega",
+      "url": "/api/v2/pokemon/10052/"
+    },
+    {
+      "name": "camerupt-mega",
+      "url": "/api/v2/pokemon/10087/"
+    },
+    {
+      "name": "grimer-alola",
+      "url": "/api/v2/pokemon/10112/"
+    },
+    {
+      "name": "cramorant-gulping",
+      "url": "/api/v2/pokemon/10182/"
+    },
+    {
+      "name": "cramorant-gorging",
+      "url": "/api/v2/pokemon/10183/"
+    },
+    {
+      "name": "qwilfish-hisui",
+      "url": "/api/v2/pokemon/10234/"
+    },
+    {
+      "name": "wooper-paldea",
+      "url": "/api/v2/pokemon/10253/"
+    },
+    {
+      "name": "victreebel-mega",
+      "url": "/api/v2/pokemon/10279/"
+    }
+  ]
 }

@@ -1,866 +1,866 @@
 {
-    "accuracy": 100,
-    "contest_combos": null,
-    "contest_effect": null,
-    "contest_type": null,
-    "damage_class": {
-        "name": "status",
-        "url": "/api/v2/move-damage-class/1/"
+  "id": 571,
+  "name": "forests-curse",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status",
+    "url": "/api/v2/move-damage-class/1/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Ajoute Plante aux types de la cible.",
+      "short_effect": "Ajoute Plante aux types de la cible.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
     },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Ajoute Plante aux types de la cible.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Ajoute Plante aux types de la cible."
-        },
-        {
-            "effect": "Adds Grass to the target\u2019s types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Adds Grass to the target\u2019s types."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306b\u3000\u3082\u308a\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u3064\u3044\u304b\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uc232\uc758 \uc800\uc8fc\ub97c \uac74\ub2e4.\n\uc800\uc8fc\uc5d0 \uac78\ub9b0 \uc0c1\ub300\ub294\n\ud0c0\uc785\uc5d0 \ud480\ud0c0\uc785\uc774 \ucd94\uac00\ub41c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "La cible est charm\u00e9e par l\u2019esprit de la for\u00eat.\nLe type Plante est ajout\u00e9 \u00e0 ses types actuels.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender belegt das Ziel mit einem\nWaldesfluch, durch den dieses zus\u00e4tzlich\nden Typ Pflanze annimmt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce cos\u00ec anche il tipo Erba.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The user puts a forest curse on the target.\nAfflicted targets are now Grass type as well.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306b\u3000\u68ee\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u8ffd\u52a0\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306b\u3000\u3082\u308a\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u3064\u3044\u304b\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uc232\uc758 \uc800\uc8fc\ub97c \uac74\ub2e4.\n\uc800\uc8fc\uc5d0 \uac78\ub9b0 \uc0c1\ub300\ub294\n\ud0c0\uc785\uc5d0 \ud480\ud0c0\uc785\uc774 \ucd94\uac00\ub41c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "La cible est charm\u00e9e par l\u2019esprit de la for\u00eat.\nLe type Plante est ajout\u00e9 \u00e0 ses types actuels.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender belegt das Ziel mit einem\nWaldesfluch, durch den dieses zus\u00e4tzlich\nden Typ Pflanze annimmt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce cos\u00ec anche il tipo Erba.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The user puts a forest curse on the target.\nAfflicted targets are now Grass type as well.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306b\u3000\u68ee\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u8ffd\u52a0\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306b\u3000\u3082\u308a\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u3064\u3044\u304b\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uc232\uc758 \uc800\uc8fc\ub97c \uac74\ub2e4.\n\uc800\uc8fc\uc5d0 \uac78\ub9b0 \uc0c1\ub300\ub294\n\ud0c0\uc785\uc5d0 \ud480\ud0c0\uc785\uc774 \ucd94\uac00\ub41c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u65bd\u52a0\u68ee\u6797\u8a5b\u5492\u3002\n\u4e2d\u4e86\u8a5b\u5492\u7684\u5c0d\u624b\n\u6703\u88ab\u8ffd\u52a0\u8349\u5c6c\u6027\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "La cible est charm\u00e9e par l\u2019esprit de la for\u00eat.\nLe type Plante est ajout\u00e9 \u00e0 ses types actuels.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender belegt das Ziel mit einem Waldesfluch,\ndurch den dieses zus\u00e4tzlich den Typ Pflanze\nannimmt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce cos\u00ec anche il tipo Erba.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306b\u3000\u68ee\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u8ffd\u52a0\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5bf9\u624b\u65bd\u52a0\u68ee\u6797\u8bc5\u5492\u3002\n\u4e2d\u4e86\u8bc5\u5492\u7684\u5bf9\u624b\n\u4f1a\u88ab\u8ffd\u52a0\u8349\u5c5e\u6027\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306b\u3000\u3082\u308a\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u3064\u3044\u304b\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uc232\uc758 \uc800\uc8fc\ub97c \uac74\ub2e4.\n\uc800\uc8fc\uc5d0 \uac78\ub9b0 \uc0c1\ub300\ub294\n\ud0c0\uc785\uc5d0 \ud480\ud0c0\uc785\uc774 \ucd94\uac00\ub41c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u65bd\u52a0\u68ee\u6797\u8a5b\u5492\u3002\n\u4e2d\u4e86\u8a5b\u5492\u7684\u5c0d\u624b\n\u6703\u88ab\u8ffd\u52a0\u8349\u5c6c\u6027\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "La cible est charm\u00e9e par l\u2019esprit de la for\u00eat.\nLe type Plante est ajout\u00e9 \u00e0 ses types actuels.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender belegt das Ziel mit einem Waldesfluch,\ndurch den dieses zus\u00e4tzlich den Typ Pflanze\nannimmt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce cos\u00ec anche il tipo Erba.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306b\u3000\u68ee\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u8ffd\u52a0\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5bf9\u624b\u65bd\u52a0\u68ee\u6797\u8bc5\u5492\u3002\n\u4e2d\u4e86\u8bc5\u5492\u7684\u5bf9\u624b\n\u4f1a\u88ab\u8ffd\u52a0\u8349\u5c5e\u6027\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306b\u3000\u3082\u308a\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u3064\u3044\u304b\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uc232\uc758 \uc800\uc8fc\ub97c \uac74\ub2e4.\n\uc800\uc8fc\uc5d0 \uac78\ub9b0 \uc0c1\ub300\ub294\n\ud0c0\uc785\uc5d0 \ud480\ud0c0\uc785\uc774 \ucd94\uac00\ub41c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u65bd\u52a0\u68ee\u6797\u8a5b\u5492\u3002\n\u4e2d\u4e86\u8a5b\u5492\u7684\u5c0d\u624b\n\u6703\u88ab\u8ffd\u52a0\u8349\u5c6c\u6027\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "La cible est charm\u00e9e par l\u2019esprit de la for\u00eat.\nLe type Plante est ajout\u00e9 \u00e0 ses types actuels.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender belegt das Ziel mit einem Waldesfluch,\ndurch den dieses zus\u00e4tzlich den Typ Pflanze\nannimmt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce cos\u00ec anche il tipo Erba.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306b\u3000\u68ee\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u8ffd\u52a0\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5bf9\u624b\u65bd\u52a0\u68ee\u6797\u8bc5\u5492\u3002\n\u4e2d\u4e86\u8bc5\u5492\u7684\u5bf9\u624b\n\u4f1a\u88ab\u8ffd\u52a0\u8349\u5c5e\u6027\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque,\npor lo que pasa a ser un Pok\u00e9mon de tipo Planta,\nadem\u00e1s de conservar sus tipos habituales.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306b\u3000\u3082\u308a\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u3042\u3044\u3066\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u3064\u3044\u304b\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc5d0\uac8c \uc232\uc758 \uc800\uc8fc\ub97c \uac74\ub2e4.\n\uc800\uc8fc\uc5d0 \uac78\ub9b0 \uc0c1\ub300\ub294\n\ud0c0\uc785\uc5d0 \ud480\ud0c0\uc785\uc774 \ucd94\uac00\ub41c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u65bd\u52a0\u68ee\u6797\u8a5b\u5492\u3002\n\u4e2d\u4e86\u8a5b\u5492\u7684\u5c0d\u624b\n\u6703\u88ab\u8ffd\u52a0\u8349\u5c6c\u6027\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "La cible est charm\u00e9e par l\u2019esprit de la for\u00eat.\nLe type Plante est ajout\u00e9 \u00e0 ses types actuels.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender belegt das Ziel mit einem Waldesfluch,\ndurch den dieses zus\u00e4tzlich den Typ Pflanze annimmt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque, por lo\nque pasa a ser un Pok\u00e9mon de tipo Planta, adem\u00e1s de\nconservar sus tipos habituales.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce cos\u00ec anche il tipo Erba.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306b\u3000\u68ee\u306e\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u308b\u3002\n\u306e\u308d\u3044\u3092\u3000\u304b\u3051\u3089\u308c\u305f\u3000\u76f8\u624b\u306f\n\u30bf\u30a4\u30d7\u306b\u3000\u304f\u3055\u30bf\u30a4\u30d7\u304c\u3000\u8ffd\u52a0\u3055\u308c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5bf9\u624b\u65bd\u52a0\u68ee\u6797\u8bc5\u5492\u3002\n\u4e2d\u4e86\u8bc5\u5492\u7684\u5bf9\u624b\n\u4f1a\u88ab\u8ffd\u52a0\u8349\u5c5e\u6027\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El objetivo es presa de la maldici\u00f3n del bosque, por lo\nque pasa a ser un Pok\u00e9mon de tipo Planta, adem\u00e1s de\nconservar sus tipos habituales.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user puts a forest curse on the target. The target is now Grass type as well.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The user puts a forest curse on the target. This adds Grass type to the target's type.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-vi",
-        "url": "/api/v2/generation/6/"
-    },
-    "id": 571,
-    "learned_by_pokemon": [
-        {
-            "name": "phantump",
-            "url": "/api/v2/pokemon/708/"
-        },
-        {
-            "name": "trevenant",
-            "url": "/api/v2/pokemon/709/"
-        }
-    ],
-    "machines": [],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "unique",
-            "url": "/api/v2/move-category/13/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "forests-curse",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u3082\u308a\u306e\u306e\u308d\u3044"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uc232\uc758\uc800\uc8fc"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u68ee\u6797\u8a5b\u5492"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Mal\u00e9fice Sylvain"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Waldesfluch"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Condena Silvana"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Boscomalocchio"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Forest\u2019s Curse"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u3082\u308a\u306e\u306e\u308d\u3044"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u68ee\u6797\u8bc5\u5492"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Condena Silvana"
-        }
-    ],
-    "past_values": [],
-    "power": null,
-    "pp": 20,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": null,
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "grass",
-        "url": "/api/v2/type/12/"
+    {
+      "effect": "Adds Grass to the target’s types.",
+      "short_effect": "Adds Grass to the target’s types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-vi",
+    "url": "/api/v2/generation/6/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "unique",
+      "url": "/api/v2/move-category/13/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "もりののろい",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "숲의저주",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "森林詛咒",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Maléfice Sylvain",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Waldesfluch",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Condena Silvana",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Boscomalocchio",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Forest’s Curse",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "もりののろい",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "森林诅咒",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Condena Silvana",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "grass",
+    "url": "/api/v2/type/12/"
+  },
+  "machines": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "あいてに　もりののろいを　かける。\nのろいを　かけられた　あいては\nタイプに　くさタイプが　ついかされる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "상대에게 숲의 저주를 건다.\n저주에 걸린 상대는\n타입에 풀타입이 추가된다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "La cible est charmée par l’esprit de la forêt.\nLe type Plante est ajouté à ses types actuels.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender belegt das Ziel mit einem\nWaldesfluch, durch den dieses zusätzlich\nden Typ Pflanze annimmt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce così anche il tipo Erba.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The user puts a forest curse on the target.\nAfflicted targets are now Grass type as well.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "相手に　森ののろいを　かける。\nのろいを　かけられた　相手は\nタイプに　くさタイプが　追加される。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "あいてに　もりののろいを　かける。\nのろいを　かけられた　あいては\nタイプに　くさタイプが　ついかされる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "상대에게 숲의 저주를 건다.\n저주에 걸린 상대는\n타입에 풀타입이 추가된다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "La cible est charmée par l’esprit de la forêt.\nLe type Plante est ajouté à ses types actuels.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender belegt das Ziel mit einem\nWaldesfluch, durch den dieses zusätzlich\nden Typ Pflanze annimmt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce così anche il tipo Erba.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The user puts a forest curse on the target.\nAfflicted targets are now Grass type as well.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "相手に　森ののろいを　かける。\nのろいを　かけられた　相手は\nタイプに　くさタイプが　追加される。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "あいてに　もりののろいを　かける。\nのろいを　かけられた　あいては\nタイプに　くさタイプが　ついかされる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "상대에게 숲의 저주를 건다.\n저주에 걸린 상대는\n타입에 풀타입이 추가된다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "向對手施加森林詛咒。\n中了詛咒的對手\n會被追加草屬性。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "La cible est charmée par l’esprit de la forêt.\nLe type Plante est ajouté à ses types actuels.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender belegt das Ziel mit einem Waldesfluch,\ndurch den dieses zusätzlich den Typ Pflanze\nannimmt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce così anche il tipo Erba.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "相手に　森ののろいを　かける。\nのろいを　かけられた　相手は\nタイプに　くさタイプが　追加される。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "向对手施加森林诅咒。\n中了诅咒的对手\n会被追加草属性。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "あいてに　もりののろいを　かける。\nのろいを　かけられた　あいては\nタイプに　くさタイプが　ついかされる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "상대에게 숲의 저주를 건다.\n저주에 걸린 상대는\n타입에 풀타입이 추가된다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "向對手施加森林詛咒。\n中了詛咒的對手\n會被追加草屬性。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "La cible est charmée par l’esprit de la forêt.\nLe type Plante est ajouté à ses types actuels.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender belegt das Ziel mit einem Waldesfluch,\ndurch den dieses zusätzlich den Typ Pflanze\nannimmt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce così anche il tipo Erba.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "相手に　森ののろいを　かける。\nのろいを　かけられた　相手は\nタイプに　くさタイプが　追加される。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "向对手施加森林诅咒。\n中了诅咒的对手\n会被追加草属性。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "あいてに　もりののろいを　かける。\nのろいを　かけられた　あいては\nタイプに　くさタイプが　ついかされる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "상대에게 숲의 저주를 건다.\n저주에 걸린 상대는\n타입에 풀타입이 추가된다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "向對手施加森林詛咒。\n中了詛咒的對手\n會被追加草屬性。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "La cible est charmée par l’esprit de la forêt.\nLe type Plante est ajouté à ses types actuels.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender belegt das Ziel mit einem Waldesfluch,\ndurch den dieses zusätzlich den Typ Pflanze\nannimmt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce così anche il tipo Erba.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "相手に　森ののろいを　かける。\nのろいを　かけられた　相手は\nタイプに　くさタイプが　追加される。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "向对手施加森林诅咒。\n中了诅咒的对手\n会被追加草属性。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque,\npor lo que pasa a ser un Pokémon de tipo Planta,\nademás de conservar sus tipos habituales.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "あいてに　もりののろいを　かける。\nのろいを　かけられた　あいては\nタイプに　くさタイプが　ついかされる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "상대에게 숲의 저주를 건다.\n저주에 걸린 상대는\n타입에 풀타입이 추가된다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "向對手施加森林詛咒。\n中了詛咒的對手\n會被追加草屬性。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "La cible est charmée par l’esprit de la forêt.\nLe type Plante est ajouté à ses types actuels.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender belegt das Ziel mit einem Waldesfluch,\ndurch den dieses zusätzlich den Typ Pflanze annimmt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque, por lo\nque pasa a ser un Pokémon de tipo Planta, además de\nconservar sus tipos habituales.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa invoca la maledizione del bosco sul\nbersaglio, che acquisisce così anche il tipo Erba.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user puts a forest curse on the target.\nThe target is now Grass type as well.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "相手に　森ののろいを　かける。\nのろいを　かけられた　相手は\nタイプに　くさタイプが　追加される。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "向对手施加森林诅咒。\n中了诅咒的对手\n会被追加草属性。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El objetivo es presa de la maldición del bosque, por lo\nque pasa a ser un Pokémon de tipo Planta, además de\nconservar sus tipos habituales.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user puts a forest curse on the target. The target is now Grass type as well.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The user puts a forest curse on the target. This adds Grass type to the target's type.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "phantump",
+      "url": "/api/v2/pokemon/708/"
+    },
+    {
+      "name": "trevenant",
+      "url": "/api/v2/pokemon/709/"
+    }
+  ]
 }

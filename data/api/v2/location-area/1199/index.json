@@ -1,93 +1,93 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 1199,
-    "location": {
-        "name": "mount-lanakila",
-        "url": "/api/v2/location/775/"
+  "id": 1199,
+  "name": "mount-lanakila-crater",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "mount-lanakila",
+    "url": "/api/v2/location/775/"
+  },
+  "names": [
+    {
+      "name": "Mount Lanakila Crater",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     },
-    "name": "mount-lanakila-crater",
-    "names": [
+    {
+      "name": "Mount Lanakila Krater",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Mont Lanakila Cratère",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "necrozma",
+        "url": "/api/v2/pokemon/800/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Mount Lanakila Crater"
+          "version": {
+            "name": "ultra-sun",
+            "url": "/api/v2/version/29/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 100,
+              "method": {
+                "name": "static",
+                "url": "/api/v2/encounter-method/20/"
+              },
+              "condition_values": [],
+              "pokemon_details": {
+                "min_perfect_ivs": null,
+                "always_shiny": false,
+                "never_shiny": true,
+                "is_alpha": false
+              }
+            }
+          ]
         },
         {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Mount Lanakila Krater"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Mont Lanakila Crat\u00e8re"
+          "version": {
+            "name": "ultra-moon",
+            "url": "/api/v2/version/30/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 100,
+              "method": {
+                "name": "static",
+                "url": "/api/v2/encounter-method/20/"
+              },
+              "condition_values": [],
+              "pokemon_details": {
+                "min_perfect_ivs": null,
+                "always_shiny": false,
+                "never_shiny": true,
+                "is_alpha": false
+              }
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "necrozma",
-                "url": "/api/v2/pokemon/800/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "static",
-                                "url": "/api/v2/encounter-method/20/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": {
-                                "always_shiny": false,
-                                "is_alpha": false,
-                                "min_perfect_ivs": null,
-                                "never_shiny": true
-                            }
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "ultra-sun",
-                        "url": "/api/v2/version/29/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "static",
-                                "url": "/api/v2/encounter-method/20/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": {
-                                "always_shiny": false,
-                                "is_alpha": false,
-                                "min_perfect_ivs": null,
-                                "never_shiny": true
-                            }
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "ultra-moon",
-                        "url": "/api/v2/version/30/"
-                    }
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }

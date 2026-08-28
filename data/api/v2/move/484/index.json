@@ -1,1519 +1,1519 @@
 {
-    "accuracy": 100,
-    "contest_combos": null,
-    "contest_effect": null,
-    "contest_type": null,
-    "damage_class": {
-        "name": "physical",
-        "url": "/api/v2/move-damage-class/2/"
+  "id": 484,
+  "name": "heavy-slam",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical",
+    "url": "/api/v2/move-damage-class/2/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts réguliers.  Plus le poids du lanceur est supérieur à celui de la cible, plus la puissance de cette capacité est grande, jusqu'à un maximum de 120.\n\nPoids du lanceur                    | Puissance\n-------------------------------- | ----:\nJusqu'à 2× le poids de la cible     |    40\nJusqu'à 3× le poids de la cible     |    60\nJusqu'à 4× le poids de la cible     |    80\nJusqu'à 5× le poids de la cible     |   100\nPlus de 5× le poids de la cible |   120\n",
+      "short_effect": "La puissance est plus grande quand le lanceur pèse plus lourd que la cible, jusqu'à un maximum de 120.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
     },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  Plus le poids du lanceur est sup\u00e9rieur \u00e0 celui de la cible, plus la puissance de cette capacit\u00e9 est grande, jusqu'\u00e0 un maximum de 120.\n\nPoids du lanceur                    | Puissance\n-------------------------------- | ----:\nJusqu'\u00e0 2\u00d7 le poids de la cible     |    40\nJusqu'\u00e0 3\u00d7 le poids de la cible     |    60\nJusqu'\u00e0 4\u00d7 le poids de la cible     |    80\nJusqu'\u00e0 5\u00d7 le poids de la cible     |   100\nPlus de 5\u00d7 le poids de la cible |   120\n",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "La puissance est plus grande quand le lanceur p\u00e8se plus lourd que la cible, jusqu'\u00e0 un maximum de 120."
-        },
-        {
-            "effect": "Inflicts regular damage.  The greater the user\u2019s weight compared to the target\u2019s, the higher power this move has, to a maximum of 120.\n\nUser\u2019s weight                    | Power\n-------------------------------- | ----:\nUp to 2\u00d7 the target\u2019s weight     |    40\nUp to 3\u00d7 the target\u2019s weight     |    60\nUp to 4\u00d7 the target\u2019s weight     |    80\nUp to 5\u00d7 the target\u2019s weight     |   100\nMore than 5\u00d7 the target\u2019s weight |   120\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Power is higher when the user weighs more than the target, up to a maximum of 120."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Le lanceur se jette sur l\u2019ennemi de tout\nson poids. S\u2019il est plus lourd que l\u2019ennemi,\nl\u2019effet augmente en cons\u00e9quence.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater its damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater its damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u304a\u3082\u305f\u3044\u3000\u304b\u3089\u3060\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3058\u3076\u3093\u304c\u3000\u3042\u3044\u3066\u3088\u308a\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\ubb34\uac70\uc6b4 \ubab8\uc73c\ub85c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc774 \uc0c1\ub300\ubcf4\ub2e4\n\ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se jette sur l\u2019ennemi de tout son poids.\nS\u2019il est plus lourd que l\u2019ennemi, l\u2019effet augmente\nen cons\u00e9quence.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Anwender rammt das Ziel mit massivem K\u00f6rper.\nJe schwerer er im Vergleich zum Ziel ist,\ndesto st\u00e4rker die Attacke.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto\nmayor sea su peso comparado con el del objetivo,\nm\u00e1s da\u00f1o causar\u00e1.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Pi\u00f9 \u00e8 pesante rispetto ad esso,\npi\u00f9 danni causa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u91cd\u305f\u3044\u3000\u4f53\u3067\u3000\u76f8\u624b\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u304c\u3000\u76f8\u624b\u3088\u308a\n\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto\nmayor sea su peso comparado con el del objetivo,\nm\u00e1s da\u00f1o causar\u00e1.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u304a\u3082\u305f\u3044\u3000\u304b\u3089\u3060\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3058\u3076\u3093\u304c\u3000\u3042\u3044\u3066\u3088\u308a\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\ubb34\uac70\uc6b4 \ubab8\uc73c\ub85c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc774 \uc0c1\ub300\ubcf4\ub2e4\n\ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se jette sur l\u2019ennemi de tout son poids.\nS\u2019il est plus lourd que l\u2019ennemi, l\u2019effet augmente\nen cons\u00e9quence.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Anwender rammt das Ziel mit massivem K\u00f6rper.\nJe schwerer er im Vergleich zum Ziel ist,\ndesto st\u00e4rker die Attacke.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s da\u00f1o\ncausar\u00e1.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Pi\u00f9 \u00e8 pesante rispetto ad esso,\npi\u00f9 danni causa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u91cd\u305f\u3044\u3000\u4f53\u3067\u3000\u76f8\u624b\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u81ea\u5206\u304c\u3000\u76f8\u624b\u3088\u308a\n\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s da\u00f1o\ncausar\u00e1.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u304a\u3082\u305f\u3044\u3000\u304b\u3089\u3060\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3058\u3076\u3093\u304c\u3000\u3042\u3044\u3066\u3088\u308a\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\ubb34\uac70\uc6b4 \ubab8\uc73c\ub85c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc774 \uc0c1\ub300\ubcf4\ub2e4\n\ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c89\u91cd\u7684\u8eab\u9ad4\u885d\u649e\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u9ad4\u91cd\u6bd4\u5c0d\u624b\u91cd\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se jette sur l\u2019ennemi de tout son poids.\nS\u2019il est plus lourd que l\u2019ennemi, l\u2019effet augmente\nen cons\u00e9quence.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Anwender rammt das Ziel mit massivem K\u00f6rper.\nJe schwerer er im Vergleich zum Ziel ist, desto\nst\u00e4rker die Attacke.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s\nda\u00f1o causar\u00e1.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Pi\u00f9 \u00e8 pesante rispetto ad esso,\npi\u00f9 danni causa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u91cd\u305f\u3044\u3000\u4f53\u3067\u3000\u76f8\u624b\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u81ea\u5206\u304c\u3000\u76f8\u624b\u3088\u308a\n\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c89\u91cd\u7684\u8eab\u4f53\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u81ea\u5df1\u6bd4\u5bf9\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s\nda\u00f1o causar\u00e1.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u304a\u3082\u305f\u3044\u3000\u304b\u3089\u3060\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3058\u3076\u3093\u304c\u3000\u3042\u3044\u3066\u3088\u308a\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\ubb34\uac70\uc6b4 \ubab8\uc73c\ub85c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc774 \uc0c1\ub300\ubcf4\ub2e4\n\ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c89\u91cd\u7684\u8eab\u9ad4\u885d\u649e\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u9ad4\u91cd\u6bd4\u5c0d\u624b\u91cd\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se jette sur l\u2019ennemi de tout son poids.\nS\u2019il est plus lourd que l\u2019ennemi, l\u2019effet augmente\nen cons\u00e9quence.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Anwender rammt das Ziel mit massivem K\u00f6rper.\nJe schwerer er im Vergleich zum Ziel ist, desto\nst\u00e4rker die Attacke.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s\nda\u00f1o causar\u00e1.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Pi\u00f9 \u00e8 pesante rispetto ad esso,\npi\u00f9 danni causa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u91cd\u305f\u3044\u3000\u4f53\u3067\u3000\u76f8\u624b\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u81ea\u5206\u304c\u3000\u76f8\u624b\u3088\u308a\n\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c89\u91cd\u7684\u8eab\u4f53\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u81ea\u5df1\u6bd4\u5bf9\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s\nda\u00f1o causar\u00e1.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u304a\u3082\u305f\u3044\u3000\u304b\u3089\u3060\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3058\u3076\u3093\u304c\u3000\u3042\u3044\u3066\u3088\u308a\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\ubb34\uac70\uc6b4 \ubab8\uc73c\ub85c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc774 \uc0c1\ub300\ubcf4\ub2e4\n\ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c89\u91cd\u7684\u8eab\u9ad4\u885d\u649e\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u9ad4\u91cd\u6bd4\u5c0d\u624b\u91cd\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se jette sur l\u2019ennemi de tout son poids.\nS\u2019il est plus lourd que l\u2019ennemi, l\u2019effet augmente\nen cons\u00e9quence.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Anwender rammt das Ziel mit massivem K\u00f6rper.\nJe schwerer er im Vergleich zum Ziel ist, desto\nst\u00e4rker die Attacke.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s\nda\u00f1o causar\u00e1.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Pi\u00f9 \u00e8 pesante rispetto ad esso,\npi\u00f9 danni causa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u91cd\u305f\u3044\u3000\u4f53\u3067\u3000\u76f8\u624b\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u81ea\u5206\u304c\u3000\u76f8\u624b\u3088\u308a\n\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c89\u91cd\u7684\u8eab\u4f53\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u81ea\u5df1\u6bd4\u5bf9\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s\nda\u00f1o causar\u00e1.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u304a\u3082\u305f\u3044\u3000\u304b\u3089\u3060\u3067\u3000\u3042\u3044\u3066\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3058\u3076\u3093\u304c\u3000\u3042\u3044\u3066\u3088\u308a\n\u304a\u3082\u3044\u307b\u3069\u3000\u3044\u308a\u3087\u304f\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\ubb34\uac70\uc6b4 \ubab8\uc73c\ub85c \uc0c1\ub300\uc5d0\uac8c \ubd80\ub52a\uccd0\n\uacf5\uaca9\ud55c\ub2e4. \uc790\uc2e0\uc774 \uc0c1\ub300\ubcf4\ub2e4\n\ubb34\uac70\uc6b8\uc218\ub85d \uc704\ub825\uc774 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c89\u91cd\u7684\u8eab\u9ad4\u885d\u649e\u5c0d\u624b\u9032\u884c\u653b\u64ca\u3002\n\u9ad4\u91cd\u6bd4\u5c0d\u624b\u91cd\u8d8a\u591a\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur se jette sur l\u2019ennemi de tout son poids.\nS\u2019il est plus lourd que l\u2019ennemi, l\u2019effet augmente\nen cons\u00e9quence.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Anwender rammt das Ziel mit massivem K\u00f6rper.\nJe schwerer er im Vergleich zum Ziel ist, desto\nst\u00e4rker die Attacke.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s da\u00f1o\ncausar\u00e1.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Pi\u00f9 \u00e8 pesante rispetto ad esso,\npi\u00f9 danni causa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u91cd\u305f\u3044\u3000\u4f53\u3067\u3000\u76f8\u624b\u306b\u3000\u3076\u3064\u304b\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u81ea\u5206\u304c\u3000\u76f8\u624b\u3088\u308a\n\u91cd\u3044\u307b\u3069\u3000\u5a01\u529b\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c89\u91cd\u7684\u8eab\u4f53\u649e\u5411\u5bf9\u624b\u8fdb\u884c\u653b\u51fb\u3002\n\u81ea\u5df1\u6bd4\u5bf9\u624b\u8d8a\u91cd\uff0c\u5a01\u529b\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, m\u00e1s da\u00f1o\ncausar\u00e1.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-v",
-        "url": "/api/v2/generation/5/"
-    },
-    "id": 484,
-    "learned_by_pokemon": [
-        {
-            "name": "machop",
-            "url": "/api/v2/pokemon/66/"
-        },
-        {
-            "name": "machoke",
-            "url": "/api/v2/pokemon/67/"
-        },
-        {
-            "name": "machamp",
-            "url": "/api/v2/pokemon/68/"
-        },
-        {
-            "name": "graveler",
-            "url": "/api/v2/pokemon/75/"
-        },
-        {
-            "name": "golem",
-            "url": "/api/v2/pokemon/76/"
-        },
-        {
-            "name": "magnemite",
-            "url": "/api/v2/pokemon/81/"
-        },
-        {
-            "name": "magneton",
-            "url": "/api/v2/pokemon/82/"
-        },
-        {
-            "name": "onix",
-            "url": "/api/v2/pokemon/95/"
-        },
-        {
-            "name": "rhyhorn",
-            "url": "/api/v2/pokemon/111/"
-        },
-        {
-            "name": "rhydon",
-            "url": "/api/v2/pokemon/112/"
-        },
-        {
-            "name": "snorlax",
-            "url": "/api/v2/pokemon/143/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "forretress",
-            "url": "/api/v2/pokemon/205/"
-        },
-        {
-            "name": "steelix",
-            "url": "/api/v2/pokemon/208/"
-        },
-        {
-            "name": "phanpy",
-            "url": "/api/v2/pokemon/231/"
-        },
-        {
-            "name": "donphan",
-            "url": "/api/v2/pokemon/232/"
-        },
-        {
-            "name": "miltank",
-            "url": "/api/v2/pokemon/241/"
-        },
-        {
-            "name": "tyranitar",
-            "url": "/api/v2/pokemon/248/"
-        },
-        {
-            "name": "slaking",
-            "url": "/api/v2/pokemon/289/"
-        },
-        {
-            "name": "makuhita",
-            "url": "/api/v2/pokemon/296/"
-        },
-        {
-            "name": "hariyama",
-            "url": "/api/v2/pokemon/297/"
-        },
-        {
-            "name": "nosepass",
-            "url": "/api/v2/pokemon/299/"
-        },
-        {
-            "name": "aron",
-            "url": "/api/v2/pokemon/304/"
-        },
-        {
-            "name": "lairon",
-            "url": "/api/v2/pokemon/305/"
-        },
-        {
-            "name": "aggron",
-            "url": "/api/v2/pokemon/306/"
-        },
-        {
-            "name": "wailmer",
-            "url": "/api/v2/pokemon/320/"
-        },
-        {
-            "name": "wailord",
-            "url": "/api/v2/pokemon/321/"
-        },
-        {
-            "name": "numel",
-            "url": "/api/v2/pokemon/322/"
-        },
-        {
-            "name": "camerupt",
-            "url": "/api/v2/pokemon/323/"
-        },
-        {
-            "name": "torkoal",
-            "url": "/api/v2/pokemon/324/"
-        },
-        {
-            "name": "walrein",
-            "url": "/api/v2/pokemon/365/"
-        },
-        {
-            "name": "metang",
-            "url": "/api/v2/pokemon/375/"
-        },
-        {
-            "name": "metagross",
-            "url": "/api/v2/pokemon/376/"
-        },
-        {
-            "name": "regirock",
-            "url": "/api/v2/pokemon/377/"
-        },
-        {
-            "name": "regice",
-            "url": "/api/v2/pokemon/378/"
-        },
-        {
-            "name": "registeel",
-            "url": "/api/v2/pokemon/379/"
-        },
-        {
-            "name": "kyogre",
-            "url": "/api/v2/pokemon/382/"
-        },
-        {
-            "name": "groudon",
-            "url": "/api/v2/pokemon/383/"
-        },
-        {
-            "name": "turtwig",
-            "url": "/api/v2/pokemon/387/"
-        },
-        {
-            "name": "grotle",
-            "url": "/api/v2/pokemon/388/"
-        },
-        {
-            "name": "torterra",
-            "url": "/api/v2/pokemon/389/"
-        },
-        {
-            "name": "rampardos",
-            "url": "/api/v2/pokemon/409/"
-        },
-        {
-            "name": "shieldon",
-            "url": "/api/v2/pokemon/410/"
-        },
-        {
-            "name": "bastiodon",
-            "url": "/api/v2/pokemon/411/"
-        },
-        {
-            "name": "bronzor",
-            "url": "/api/v2/pokemon/436/"
-        },
-        {
-            "name": "bronzong",
-            "url": "/api/v2/pokemon/437/"
-        },
-        {
-            "name": "hippowdon",
-            "url": "/api/v2/pokemon/450/"
-        },
-        {
-            "name": "magnezone",
-            "url": "/api/v2/pokemon/462/"
-        },
-        {
-            "name": "rhyperior",
-            "url": "/api/v2/pokemon/464/"
-        },
-        {
-            "name": "mamoswine",
-            "url": "/api/v2/pokemon/473/"
-        },
-        {
-            "name": "probopass",
-            "url": "/api/v2/pokemon/476/"
-        },
-        {
-            "name": "dialga",
-            "url": "/api/v2/pokemon/483/"
-        },
-        {
-            "name": "palkia",
-            "url": "/api/v2/pokemon/484/"
-        },
-        {
-            "name": "heatran",
-            "url": "/api/v2/pokemon/485/"
-        },
-        {
-            "name": "regigigas",
-            "url": "/api/v2/pokemon/486/"
-        },
-        {
-            "name": "arceus",
-            "url": "/api/v2/pokemon/493/"
-        },
-        {
-            "name": "tepig",
-            "url": "/api/v2/pokemon/498/"
-        },
-        {
-            "name": "pignite",
-            "url": "/api/v2/pokemon/499/"
-        },
-        {
-            "name": "emboar",
-            "url": "/api/v2/pokemon/500/"
-        },
-        {
-            "name": "roggenrola",
-            "url": "/api/v2/pokemon/524/"
-        },
-        {
-            "name": "boldore",
-            "url": "/api/v2/pokemon/525/"
-        },
-        {
-            "name": "gigalith",
-            "url": "/api/v2/pokemon/526/"
-        },
-        {
-            "name": "crustle",
-            "url": "/api/v2/pokemon/558/"
-        },
-        {
-            "name": "ferrothorn",
-            "url": "/api/v2/pokemon/598/"
-        },
-        {
-            "name": "eelektross",
-            "url": "/api/v2/pokemon/604/"
-        },
-        {
-            "name": "cubchoo",
-            "url": "/api/v2/pokemon/613/"
-        },
-        {
-            "name": "beartic",
-            "url": "/api/v2/pokemon/614/"
-        },
-        {
-            "name": "golett",
-            "url": "/api/v2/pokemon/622/"
-        },
-        {
-            "name": "golurk",
-            "url": "/api/v2/pokemon/623/"
-        },
-        {
-            "name": "cobalion",
-            "url": "/api/v2/pokemon/638/"
-        },
-        {
-            "name": "carbink",
-            "url": "/api/v2/pokemon/703/"
-        },
-        {
-            "name": "avalugg",
-            "url": "/api/v2/pokemon/713/"
-        },
-        {
-            "name": "volcanion",
-            "url": "/api/v2/pokemon/721/"
-        },
-        {
-            "name": "mudbray",
-            "url": "/api/v2/pokemon/749/"
-        },
-        {
-            "name": "mudsdale",
-            "url": "/api/v2/pokemon/750/"
-        },
-        {
-            "name": "turtonator",
-            "url": "/api/v2/pokemon/776/"
-        },
-        {
-            "name": "dhelmise",
-            "url": "/api/v2/pokemon/781/"
-        },
-        {
-            "name": "solgaleo",
-            "url": "/api/v2/pokemon/791/"
-        },
-        {
-            "name": "celesteela",
-            "url": "/api/v2/pokemon/797/"
-        },
-        {
-            "name": "guzzlord",
-            "url": "/api/v2/pokemon/799/"
-        },
-        {
-            "name": "magearna",
-            "url": "/api/v2/pokemon/801/"
-        },
-        {
-            "name": "stakataka",
-            "url": "/api/v2/pokemon/805/"
-        },
-        {
-            "name": "melmetal",
-            "url": "/api/v2/pokemon/809/"
-        },
-        {
-            "name": "corviknight",
-            "url": "/api/v2/pokemon/823/"
-        },
-        {
-            "name": "carkol",
-            "url": "/api/v2/pokemon/838/"
-        },
-        {
-            "name": "coalossal",
-            "url": "/api/v2/pokemon/839/"
-        },
-        {
-            "name": "flapple",
-            "url": "/api/v2/pokemon/841/"
-        },
-        {
-            "name": "appletun",
-            "url": "/api/v2/pokemon/842/"
-        },
-        {
-            "name": "perrserker",
-            "url": "/api/v2/pokemon/863/"
-        },
-        {
-            "name": "stonjourner",
-            "url": "/api/v2/pokemon/874/"
-        },
-        {
-            "name": "cufant",
-            "url": "/api/v2/pokemon/878/"
-        },
-        {
-            "name": "copperajah",
-            "url": "/api/v2/pokemon/879/"
-        },
-        {
-            "name": "duraludon",
-            "url": "/api/v2/pokemon/884/"
-        },
-        {
-            "name": "zamazenta",
-            "url": "/api/v2/pokemon/889/"
-        },
-        {
-            "name": "glastrier",
-            "url": "/api/v2/pokemon/896/"
-        },
-        {
-            "name": "ursaluna",
-            "url": "/api/v2/pokemon/901/"
-        },
-        {
-            "name": "nacli",
-            "url": "/api/v2/pokemon/932/"
-        },
-        {
-            "name": "naclstack",
-            "url": "/api/v2/pokemon/933/"
-        },
-        {
-            "name": "garganacl",
-            "url": "/api/v2/pokemon/934/"
-        },
-        {
-            "name": "tinkaton",
-            "url": "/api/v2/pokemon/959/"
-        },
-        {
-            "name": "revavroom",
-            "url": "/api/v2/pokemon/966/"
-        },
-        {
-            "name": "orthworm",
-            "url": "/api/v2/pokemon/968/"
-        },
-        {
-            "name": "cetoddle",
-            "url": "/api/v2/pokemon/974/"
-        },
-        {
-            "name": "cetitan",
-            "url": "/api/v2/pokemon/975/"
-        },
-        {
-            "name": "dondozo",
-            "url": "/api/v2/pokemon/977/"
-        },
-        {
-            "name": "clodsire",
-            "url": "/api/v2/pokemon/980/"
-        },
-        {
-            "name": "dudunsparce-two-segment",
-            "url": "/api/v2/pokemon/982/"
-        },
-        {
-            "name": "great-tusk",
-            "url": "/api/v2/pokemon/984/"
-        },
-        {
-            "name": "slither-wing",
-            "url": "/api/v2/pokemon/988/"
-        },
-        {
-            "name": "sandy-shocks",
-            "url": "/api/v2/pokemon/989/"
-        },
-        {
-            "name": "iron-treads",
-            "url": "/api/v2/pokemon/990/"
-        },
-        {
-            "name": "iron-hands",
-            "url": "/api/v2/pokemon/992/"
-        },
-        {
-            "name": "iron-thorns",
-            "url": "/api/v2/pokemon/995/"
-        },
-        {
-            "name": "gholdengo",
-            "url": "/api/v2/pokemon/1000/"
-        },
-        {
-            "name": "ting-lu",
-            "url": "/api/v2/pokemon/1003/"
-        },
-        {
-            "name": "koraidon",
-            "url": "/api/v2/pokemon/1007/"
-        },
-        {
-            "name": "miraidon",
-            "url": "/api/v2/pokemon/1008/"
-        },
-        {
-            "name": "archaludon",
-            "url": "/api/v2/pokemon/1018/"
-        },
-        {
-            "name": "hydrapple",
-            "url": "/api/v2/pokemon/1019/"
-        },
-        {
-            "name": "raging-bolt",
-            "url": "/api/v2/pokemon/1021/"
-        },
-        {
-            "name": "iron-crown",
-            "url": "/api/v2/pokemon/1023/"
-        },
-        {
-            "name": "terapagos",
-            "url": "/api/v2/pokemon/1024/"
-        },
-        {
-            "name": "tyranitar-mega",
-            "url": "/api/v2/pokemon/10049/"
-        },
-        {
-            "name": "aggron-mega",
-            "url": "/api/v2/pokemon/10053/"
-        },
-        {
-            "name": "steelix-mega",
-            "url": "/api/v2/pokemon/10072/"
-        },
-        {
-            "name": "camerupt-mega",
-            "url": "/api/v2/pokemon/10087/"
-        },
-        {
-            "name": "golem-alola",
-            "url": "/api/v2/pokemon/10111/"
-        },
-        {
-            "name": "magearna-original",
-            "url": "/api/v2/pokemon/10147/"
-        },
-        {
-            "name": "zamazenta-crowned",
-            "url": "/api/v2/pokemon/10189/"
-        },
-        {
-            "name": "calyrex-ice",
-            "url": "/api/v2/pokemon/10193/"
-        },
-        {
-            "name": "sliggoo-hisui",
-            "url": "/api/v2/pokemon/10241/"
-        },
-        {
-            "name": "goodra-hisui",
-            "url": "/api/v2/pokemon/10242/"
-        },
-        {
-            "name": "avalugg-hisui",
-            "url": "/api/v2/pokemon/10243/"
-        },
-        {
-            "name": "dialga-origin",
-            "url": "/api/v2/pokemon/10245/"
-        },
-        {
-            "name": "palkia-origin",
-            "url": "/api/v2/pokemon/10246/"
-        },
-        {
-            "name": "dudunsparce-three-segment",
-            "url": "/api/v2/pokemon/10255/"
-        },
-        {
-            "name": "koraidon-limited-build",
-            "url": "/api/v2/pokemon/10264/"
-        },
-        {
-            "name": "koraidon-sprinting-build",
-            "url": "/api/v2/pokemon/10265/"
-        },
-        {
-            "name": "koraidon-swimming-build",
-            "url": "/api/v2/pokemon/10266/"
-        },
-        {
-            "name": "koraidon-gliding-build",
-            "url": "/api/v2/pokemon/10267/"
-        },
-        {
-            "name": "miraidon-low-power-mode",
-            "url": "/api/v2/pokemon/10268/"
-        },
-        {
-            "name": "miraidon-drive-mode",
-            "url": "/api/v2/pokemon/10269/"
-        },
-        {
-            "name": "miraidon-aquatic-mode",
-            "url": "/api/v2/pokemon/10270/"
-        },
-        {
-            "name": "miraidon-glide-mode",
-            "url": "/api/v2/pokemon/10271/"
-        },
-        {
-            "name": "ursaluna-bloodmoon",
-            "url": "/api/v2/pokemon/10272/"
-        },
-        {
-            "name": "terapagos-terastal",
-            "url": "/api/v2/pokemon/10276/"
-        },
-        {
-            "name": "terapagos-stellar",
-            "url": "/api/v2/pokemon/10277/"
-        },
-        {
-            "name": "emboar-mega",
-            "url": "/api/v2/pokemon/10286/"
-        },
-        {
-            "name": "eelektross-mega",
-            "url": "/api/v2/pokemon/10290/"
-        },
-        {
-            "name": "golurk-mega",
-            "url": "/api/v2/pokemon/10313/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/1778/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1936/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2131/"
-            },
-            "version_group": {
-                "name": "the-indigo-disk",
-                "url": "/api/v2/version-group/27/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "heavy-slam",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30d8\u30d3\u30fc\u30dc\u30f3\u30d0\u30fc"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ud5e4\ube44\ubd04\ubc84"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u91cd\u78c5\u885d\u649e"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Tacle Lourd"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Rammboss"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Cuerpo Pesado"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Pesobomba"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Heavy Slam"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30d8\u30d3\u30fc\u30dc\u30f3\u30d0\u30fc"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u91cd\u78c5\u51b2\u649e"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Golpe Pesado"
-        }
-    ],
-    "past_values": [],
-    "power": null,
-    "pp": 10,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": null,
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "steel",
-        "url": "/api/v2/type/9/"
+    {
+      "effect": "Inflicts regular damage.  The greater the user’s weight compared to the target’s, the higher power this move has, to a maximum of 120.\n\nUser’s weight                    | Power\n-------------------------------- | ----:\nUp to 2× the target’s weight     |    40\nUp to 3× the target’s weight     |    60\nUp to 4× the target’s weight     |    80\nUp to 5× the target’s weight     |   100\nMore than 5× the target’s weight |   120\n",
+      "short_effect": "Power is higher when the user weighs more than the target, up to a maximum of 120.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v",
+    "url": "/api/v2/generation/5/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "ヘビーボンバー",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "헤비봄버",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "重磅衝撞",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Tacle Lourd",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Rammboss",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Cuerpo Pesado",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Pesobomba",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Heavy Slam",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "ヘビーボンバー",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "重磅冲撞",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Golpe Pesado",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "steel",
+    "url": "/api/v2/type/9/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/1778/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1936/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2131/"
+      },
+      "version_group": {
+        "name": "the-indigo-disk",
+        "url": "/api/v2/version-group/27/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Le lanceur se jette sur l’ennemi de tout\nson poids. S’il est plus lourd que l’ennemi,\nl’effet augmente en conséquence.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater its damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater its damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "おもたい　からだで　あいてに　ぶつかって\nこうげきする。じぶんが　あいてより\nおもいほど　いりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "무거운 몸으로 상대에게 부딪쳐\n공격한다. 자신이 상대보다\n무거울수록 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se jette sur l’ennemi de tout son poids.\nS’il est plus lourd que l’ennemi, l’effet augmente\nen conséquence.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Anwender rammt das Ziel mit massivem Körper.\nJe schwerer er im Vergleich zum Ziel ist,\ndesto stärker die Attacke.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto\nmayor sea su peso comparado con el del objetivo,\nmás daño causará.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Più è pesante rispetto ad esso,\npiù danni causa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "重たい　体で　相手に　ぶつかって\n攻撃する。自分が　相手より\n重いほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto\nmayor sea su peso comparado con el del objetivo,\nmás daño causará.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "おもたい　からだで　あいてに　ぶつかって\nこうげきする。じぶんが　あいてより\nおもいほど　いりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "무거운 몸으로 상대에게 부딪쳐\n공격한다. 자신이 상대보다\n무거울수록 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se jette sur l’ennemi de tout son poids.\nS’il est plus lourd que l’ennemi, l’effet augmente\nen conséquence.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Anwender rammt das Ziel mit massivem Körper.\nJe schwerer er im Vergleich zum Ziel ist,\ndesto stärker die Attacke.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más daño\ncausará.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Più è pesante rispetto ad esso,\npiù danni causa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its\nheavy body. The more the user outweighs\nthe target, the greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "重たい　体で　相手に　ぶつかって\n攻撃する。自分が　相手より\n重いほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más daño\ncausará.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "おもたい　からだで　あいてに　ぶつかって\nこうげきする。　じぶんが　あいてより\nおもいほど　いりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "무거운 몸으로 상대에게 부딪쳐\n공격한다. 자신이 상대보다\n무거울수록 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "用沉重的身體衝撞對手進行攻擊。\n體重比對手重越多，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se jette sur l’ennemi de tout son poids.\nS’il est plus lourd que l’ennemi, l’effet augmente\nen conséquence.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Anwender rammt das Ziel mit massivem Körper.\nJe schwerer er im Vergleich zum Ziel ist, desto\nstärker die Attacke.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más\ndaño causará.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Più è pesante rispetto ad esso,\npiù danni causa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "重たい　体で　相手に　ぶつかって\n攻撃する。　自分が　相手より\n重いほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "用沉重的身体撞向对手进行攻击。\n自己比对手越重，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más\ndaño causará.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "おもたい　からだで　あいてに　ぶつかって\nこうげきする。　じぶんが　あいてより\nおもいほど　いりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "무거운 몸으로 상대에게 부딪쳐\n공격한다. 자신이 상대보다\n무거울수록 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "用沉重的身體衝撞對手進行攻擊。\n體重比對手重越多，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se jette sur l’ennemi de tout son poids.\nS’il est plus lourd que l’ennemi, l’effet augmente\nen conséquence.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Anwender rammt das Ziel mit massivem Körper.\nJe schwerer er im Vergleich zum Ziel ist, desto\nstärker die Attacke.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más\ndaño causará.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Più è pesante rispetto ad esso,\npiù danni causa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "重たい　体で　相手に　ぶつかって\n攻撃する。　自分が　相手より\n重いほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "用沉重的身体撞向对手进行攻击。\n自己比对手越重，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más\ndaño causará.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "おもたい　からだで　あいてに　ぶつかって\nこうげきする。　じぶんが　あいてより\nおもいほど　いりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "무거운 몸으로 상대에게 부딪쳐\n공격한다. 자신이 상대보다\n무거울수록 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "用沉重的身體衝撞對手進行攻擊。\n體重比對手重越多，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se jette sur l’ennemi de tout son poids.\nS’il est plus lourd que l’ennemi, l’effet augmente\nen conséquence.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Anwender rammt das Ziel mit massivem Körper.\nJe schwerer er im Vergleich zum Ziel ist, desto\nstärker die Attacke.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más\ndaño causará.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Più è pesante rispetto ad esso,\npiù danni causa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "重たい　体で　相手に　ぶつかって\n攻撃する。　自分が　相手より\n重いほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "用沉重的身体撞向对手进行攻击。\n自己比对手越重，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más\ndaño causará.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "おもたい　からだで　あいてに　ぶつかって\nこうげきする。　じぶんが　あいてより\nおもいほど　いりょくが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "무거운 몸으로 상대에게 부딪쳐\n공격한다. 자신이 상대보다\n무거울수록 위력이 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "用沉重的身體衝撞對手進行攻擊。\n體重比對手重越多，威力越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur se jette sur l’ennemi de tout son poids.\nS’il est plus lourd que l’ennemi, l’effet augmente\nen conséquence.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Anwender rammt das Ziel mit massivem Körper.\nJe schwerer er im Vergleich zum Ziel ist, desto\nstärker die Attacke.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más daño\ncausará.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa si lancia contro il bersaglio con tutto\nil proprio peso. Più è pesante rispetto ad esso,\npiù danni causa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its heavy body.\nThe more the user outweighs the target, the greater\nthe move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "重たい　体で　相手に　ぶつかって\n攻撃する。　自分が　相手より\n重いほど　威力が　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "用沉重的身体撞向对手进行攻击。\n自己比对手越重，威力越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El usuario golpea con todo su cuerpo. Cuanto mayor\nsea su peso comparado con el del objetivo, más daño\ncausará.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "machop",
+      "url": "/api/v2/pokemon/66/"
+    },
+    {
+      "name": "machoke",
+      "url": "/api/v2/pokemon/67/"
+    },
+    {
+      "name": "machamp",
+      "url": "/api/v2/pokemon/68/"
+    },
+    {
+      "name": "graveler",
+      "url": "/api/v2/pokemon/75/"
+    },
+    {
+      "name": "golem",
+      "url": "/api/v2/pokemon/76/"
+    },
+    {
+      "name": "magnemite",
+      "url": "/api/v2/pokemon/81/"
+    },
+    {
+      "name": "magneton",
+      "url": "/api/v2/pokemon/82/"
+    },
+    {
+      "name": "onix",
+      "url": "/api/v2/pokemon/95/"
+    },
+    {
+      "name": "rhyhorn",
+      "url": "/api/v2/pokemon/111/"
+    },
+    {
+      "name": "rhydon",
+      "url": "/api/v2/pokemon/112/"
+    },
+    {
+      "name": "snorlax",
+      "url": "/api/v2/pokemon/143/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "forretress",
+      "url": "/api/v2/pokemon/205/"
+    },
+    {
+      "name": "steelix",
+      "url": "/api/v2/pokemon/208/"
+    },
+    {
+      "name": "phanpy",
+      "url": "/api/v2/pokemon/231/"
+    },
+    {
+      "name": "donphan",
+      "url": "/api/v2/pokemon/232/"
+    },
+    {
+      "name": "miltank",
+      "url": "/api/v2/pokemon/241/"
+    },
+    {
+      "name": "tyranitar",
+      "url": "/api/v2/pokemon/248/"
+    },
+    {
+      "name": "slaking",
+      "url": "/api/v2/pokemon/289/"
+    },
+    {
+      "name": "makuhita",
+      "url": "/api/v2/pokemon/296/"
+    },
+    {
+      "name": "hariyama",
+      "url": "/api/v2/pokemon/297/"
+    },
+    {
+      "name": "nosepass",
+      "url": "/api/v2/pokemon/299/"
+    },
+    {
+      "name": "aron",
+      "url": "/api/v2/pokemon/304/"
+    },
+    {
+      "name": "lairon",
+      "url": "/api/v2/pokemon/305/"
+    },
+    {
+      "name": "aggron",
+      "url": "/api/v2/pokemon/306/"
+    },
+    {
+      "name": "wailmer",
+      "url": "/api/v2/pokemon/320/"
+    },
+    {
+      "name": "wailord",
+      "url": "/api/v2/pokemon/321/"
+    },
+    {
+      "name": "numel",
+      "url": "/api/v2/pokemon/322/"
+    },
+    {
+      "name": "camerupt",
+      "url": "/api/v2/pokemon/323/"
+    },
+    {
+      "name": "torkoal",
+      "url": "/api/v2/pokemon/324/"
+    },
+    {
+      "name": "walrein",
+      "url": "/api/v2/pokemon/365/"
+    },
+    {
+      "name": "metang",
+      "url": "/api/v2/pokemon/375/"
+    },
+    {
+      "name": "metagross",
+      "url": "/api/v2/pokemon/376/"
+    },
+    {
+      "name": "regirock",
+      "url": "/api/v2/pokemon/377/"
+    },
+    {
+      "name": "regice",
+      "url": "/api/v2/pokemon/378/"
+    },
+    {
+      "name": "registeel",
+      "url": "/api/v2/pokemon/379/"
+    },
+    {
+      "name": "kyogre",
+      "url": "/api/v2/pokemon/382/"
+    },
+    {
+      "name": "groudon",
+      "url": "/api/v2/pokemon/383/"
+    },
+    {
+      "name": "turtwig",
+      "url": "/api/v2/pokemon/387/"
+    },
+    {
+      "name": "grotle",
+      "url": "/api/v2/pokemon/388/"
+    },
+    {
+      "name": "torterra",
+      "url": "/api/v2/pokemon/389/"
+    },
+    {
+      "name": "rampardos",
+      "url": "/api/v2/pokemon/409/"
+    },
+    {
+      "name": "shieldon",
+      "url": "/api/v2/pokemon/410/"
+    },
+    {
+      "name": "bastiodon",
+      "url": "/api/v2/pokemon/411/"
+    },
+    {
+      "name": "bronzor",
+      "url": "/api/v2/pokemon/436/"
+    },
+    {
+      "name": "bronzong",
+      "url": "/api/v2/pokemon/437/"
+    },
+    {
+      "name": "hippowdon",
+      "url": "/api/v2/pokemon/450/"
+    },
+    {
+      "name": "magnezone",
+      "url": "/api/v2/pokemon/462/"
+    },
+    {
+      "name": "rhyperior",
+      "url": "/api/v2/pokemon/464/"
+    },
+    {
+      "name": "mamoswine",
+      "url": "/api/v2/pokemon/473/"
+    },
+    {
+      "name": "probopass",
+      "url": "/api/v2/pokemon/476/"
+    },
+    {
+      "name": "dialga",
+      "url": "/api/v2/pokemon/483/"
+    },
+    {
+      "name": "palkia",
+      "url": "/api/v2/pokemon/484/"
+    },
+    {
+      "name": "heatran",
+      "url": "/api/v2/pokemon/485/"
+    },
+    {
+      "name": "regigigas",
+      "url": "/api/v2/pokemon/486/"
+    },
+    {
+      "name": "arceus",
+      "url": "/api/v2/pokemon/493/"
+    },
+    {
+      "name": "tepig",
+      "url": "/api/v2/pokemon/498/"
+    },
+    {
+      "name": "pignite",
+      "url": "/api/v2/pokemon/499/"
+    },
+    {
+      "name": "emboar",
+      "url": "/api/v2/pokemon/500/"
+    },
+    {
+      "name": "roggenrola",
+      "url": "/api/v2/pokemon/524/"
+    },
+    {
+      "name": "boldore",
+      "url": "/api/v2/pokemon/525/"
+    },
+    {
+      "name": "gigalith",
+      "url": "/api/v2/pokemon/526/"
+    },
+    {
+      "name": "crustle",
+      "url": "/api/v2/pokemon/558/"
+    },
+    {
+      "name": "ferrothorn",
+      "url": "/api/v2/pokemon/598/"
+    },
+    {
+      "name": "eelektross",
+      "url": "/api/v2/pokemon/604/"
+    },
+    {
+      "name": "cubchoo",
+      "url": "/api/v2/pokemon/613/"
+    },
+    {
+      "name": "beartic",
+      "url": "/api/v2/pokemon/614/"
+    },
+    {
+      "name": "golett",
+      "url": "/api/v2/pokemon/622/"
+    },
+    {
+      "name": "golurk",
+      "url": "/api/v2/pokemon/623/"
+    },
+    {
+      "name": "cobalion",
+      "url": "/api/v2/pokemon/638/"
+    },
+    {
+      "name": "carbink",
+      "url": "/api/v2/pokemon/703/"
+    },
+    {
+      "name": "avalugg",
+      "url": "/api/v2/pokemon/713/"
+    },
+    {
+      "name": "volcanion",
+      "url": "/api/v2/pokemon/721/"
+    },
+    {
+      "name": "mudbray",
+      "url": "/api/v2/pokemon/749/"
+    },
+    {
+      "name": "mudsdale",
+      "url": "/api/v2/pokemon/750/"
+    },
+    {
+      "name": "turtonator",
+      "url": "/api/v2/pokemon/776/"
+    },
+    {
+      "name": "dhelmise",
+      "url": "/api/v2/pokemon/781/"
+    },
+    {
+      "name": "solgaleo",
+      "url": "/api/v2/pokemon/791/"
+    },
+    {
+      "name": "celesteela",
+      "url": "/api/v2/pokemon/797/"
+    },
+    {
+      "name": "guzzlord",
+      "url": "/api/v2/pokemon/799/"
+    },
+    {
+      "name": "magearna",
+      "url": "/api/v2/pokemon/801/"
+    },
+    {
+      "name": "stakataka",
+      "url": "/api/v2/pokemon/805/"
+    },
+    {
+      "name": "melmetal",
+      "url": "/api/v2/pokemon/809/"
+    },
+    {
+      "name": "corviknight",
+      "url": "/api/v2/pokemon/823/"
+    },
+    {
+      "name": "carkol",
+      "url": "/api/v2/pokemon/838/"
+    },
+    {
+      "name": "coalossal",
+      "url": "/api/v2/pokemon/839/"
+    },
+    {
+      "name": "flapple",
+      "url": "/api/v2/pokemon/841/"
+    },
+    {
+      "name": "appletun",
+      "url": "/api/v2/pokemon/842/"
+    },
+    {
+      "name": "perrserker",
+      "url": "/api/v2/pokemon/863/"
+    },
+    {
+      "name": "stonjourner",
+      "url": "/api/v2/pokemon/874/"
+    },
+    {
+      "name": "cufant",
+      "url": "/api/v2/pokemon/878/"
+    },
+    {
+      "name": "copperajah",
+      "url": "/api/v2/pokemon/879/"
+    },
+    {
+      "name": "duraludon",
+      "url": "/api/v2/pokemon/884/"
+    },
+    {
+      "name": "zamazenta",
+      "url": "/api/v2/pokemon/889/"
+    },
+    {
+      "name": "glastrier",
+      "url": "/api/v2/pokemon/896/"
+    },
+    {
+      "name": "ursaluna",
+      "url": "/api/v2/pokemon/901/"
+    },
+    {
+      "name": "nacli",
+      "url": "/api/v2/pokemon/932/"
+    },
+    {
+      "name": "naclstack",
+      "url": "/api/v2/pokemon/933/"
+    },
+    {
+      "name": "garganacl",
+      "url": "/api/v2/pokemon/934/"
+    },
+    {
+      "name": "tinkaton",
+      "url": "/api/v2/pokemon/959/"
+    },
+    {
+      "name": "revavroom",
+      "url": "/api/v2/pokemon/966/"
+    },
+    {
+      "name": "orthworm",
+      "url": "/api/v2/pokemon/968/"
+    },
+    {
+      "name": "cetoddle",
+      "url": "/api/v2/pokemon/974/"
+    },
+    {
+      "name": "cetitan",
+      "url": "/api/v2/pokemon/975/"
+    },
+    {
+      "name": "dondozo",
+      "url": "/api/v2/pokemon/977/"
+    },
+    {
+      "name": "clodsire",
+      "url": "/api/v2/pokemon/980/"
+    },
+    {
+      "name": "dudunsparce-two-segment",
+      "url": "/api/v2/pokemon/982/"
+    },
+    {
+      "name": "great-tusk",
+      "url": "/api/v2/pokemon/984/"
+    },
+    {
+      "name": "slither-wing",
+      "url": "/api/v2/pokemon/988/"
+    },
+    {
+      "name": "sandy-shocks",
+      "url": "/api/v2/pokemon/989/"
+    },
+    {
+      "name": "iron-treads",
+      "url": "/api/v2/pokemon/990/"
+    },
+    {
+      "name": "iron-hands",
+      "url": "/api/v2/pokemon/992/"
+    },
+    {
+      "name": "iron-thorns",
+      "url": "/api/v2/pokemon/995/"
+    },
+    {
+      "name": "gholdengo",
+      "url": "/api/v2/pokemon/1000/"
+    },
+    {
+      "name": "ting-lu",
+      "url": "/api/v2/pokemon/1003/"
+    },
+    {
+      "name": "koraidon",
+      "url": "/api/v2/pokemon/1007/"
+    },
+    {
+      "name": "miraidon",
+      "url": "/api/v2/pokemon/1008/"
+    },
+    {
+      "name": "archaludon",
+      "url": "/api/v2/pokemon/1018/"
+    },
+    {
+      "name": "hydrapple",
+      "url": "/api/v2/pokemon/1019/"
+    },
+    {
+      "name": "raging-bolt",
+      "url": "/api/v2/pokemon/1021/"
+    },
+    {
+      "name": "iron-crown",
+      "url": "/api/v2/pokemon/1023/"
+    },
+    {
+      "name": "terapagos",
+      "url": "/api/v2/pokemon/1024/"
+    },
+    {
+      "name": "tyranitar-mega",
+      "url": "/api/v2/pokemon/10049/"
+    },
+    {
+      "name": "aggron-mega",
+      "url": "/api/v2/pokemon/10053/"
+    },
+    {
+      "name": "steelix-mega",
+      "url": "/api/v2/pokemon/10072/"
+    },
+    {
+      "name": "camerupt-mega",
+      "url": "/api/v2/pokemon/10087/"
+    },
+    {
+      "name": "golem-alola",
+      "url": "/api/v2/pokemon/10111/"
+    },
+    {
+      "name": "magearna-original",
+      "url": "/api/v2/pokemon/10147/"
+    },
+    {
+      "name": "zamazenta-crowned",
+      "url": "/api/v2/pokemon/10189/"
+    },
+    {
+      "name": "calyrex-ice",
+      "url": "/api/v2/pokemon/10193/"
+    },
+    {
+      "name": "sliggoo-hisui",
+      "url": "/api/v2/pokemon/10241/"
+    },
+    {
+      "name": "goodra-hisui",
+      "url": "/api/v2/pokemon/10242/"
+    },
+    {
+      "name": "avalugg-hisui",
+      "url": "/api/v2/pokemon/10243/"
+    },
+    {
+      "name": "dialga-origin",
+      "url": "/api/v2/pokemon/10245/"
+    },
+    {
+      "name": "palkia-origin",
+      "url": "/api/v2/pokemon/10246/"
+    },
+    {
+      "name": "dudunsparce-three-segment",
+      "url": "/api/v2/pokemon/10255/"
+    },
+    {
+      "name": "koraidon-limited-build",
+      "url": "/api/v2/pokemon/10264/"
+    },
+    {
+      "name": "koraidon-sprinting-build",
+      "url": "/api/v2/pokemon/10265/"
+    },
+    {
+      "name": "koraidon-swimming-build",
+      "url": "/api/v2/pokemon/10266/"
+    },
+    {
+      "name": "koraidon-gliding-build",
+      "url": "/api/v2/pokemon/10267/"
+    },
+    {
+      "name": "miraidon-low-power-mode",
+      "url": "/api/v2/pokemon/10268/"
+    },
+    {
+      "name": "miraidon-drive-mode",
+      "url": "/api/v2/pokemon/10269/"
+    },
+    {
+      "name": "miraidon-aquatic-mode",
+      "url": "/api/v2/pokemon/10270/"
+    },
+    {
+      "name": "miraidon-glide-mode",
+      "url": "/api/v2/pokemon/10271/"
+    },
+    {
+      "name": "ursaluna-bloodmoon",
+      "url": "/api/v2/pokemon/10272/"
+    },
+    {
+      "name": "terapagos-terastal",
+      "url": "/api/v2/pokemon/10276/"
+    },
+    {
+      "name": "terapagos-stellar",
+      "url": "/api/v2/pokemon/10277/"
+    },
+    {
+      "name": "emboar-mega",
+      "url": "/api/v2/pokemon/10286/"
+    },
+    {
+      "name": "eelektross-mega",
+      "url": "/api/v2/pokemon/10290/"
+    },
+    {
+      "name": "golurk-mega",
+      "url": "/api/v2/pokemon/10313/"
+    }
+  ]
 }

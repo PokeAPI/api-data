@@ -1,30 +1,30 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "effect_entries": {
-            "items": {
-                "$ref": "/schema/v2/effect.json"
-            },
-            "type": "array"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "items": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "name": {
-            "type": "string"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "effect_entries",
-        "id",
-        "items",
-        "name"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "effect_entries": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/effect.json"
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    }
+  },
+  "required": [
+    "effect_entries",
+    "id",
+    "items",
+    "name"
+  ]
 }

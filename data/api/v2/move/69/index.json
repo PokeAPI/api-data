@@ -1,1678 +1,1678 @@
 {
-    "accuracy": 100,
-    "contest_combos": {
-        "normal": {
-            "use_after": [
-                {
-                    "name": "fake-out",
-                    "url": "/api/v2/move/252/"
-                }
-            ],
-            "use_before": null
-        },
-        "super": {
-            "use_after": null,
-            "use_before": null
+  "id": 69,
+  "name": "seismic-toss",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "fake-out",
+          "url": "/api/v2/move/252/"
         }
+      ]
     },
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/23/"
-    },
-    "contest_type": {
-        "name": "tough",
-        "url": "/api/v2/contest-type/5/"
-    },
-    "damage_class": {
-        "name": "physical",
-        "url": "/api/v2/move-damage-class/2/"
-    },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts \u00e9gaux au niveau du lanceur.  Les immunit\u00e9s de type s'appliquent, mais les autres effets sont ignor\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Inflige des d\u00e9g\u00e2ts \u00e9gaux au niveau du lanceur."
-        },
-        {
-            "effect": "Inflicts damage equal to the user\u2019s level.  Type immunity applies, but other type effects are ignored.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Inflicts damage equal to the user\u2019s level."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "The user's level\nequals damage HP.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "flavor_text": "The user's level\nequals damage HP.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "flavor_text": "Inflicts damage identical\nto the user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "Inflicts damage identical\nto the user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "A gravity-fed throw\nthat causes damage\nmatching the user\u2019s\nlevel.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "L\u2019ennemi est projet\u00e9 gr\u00e2ce au pouvoir de\nla gravit\u00e9. Inflige des d\u00e9g\u00e2ts \u00e9quivalents\nau niveau du lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u3044\u3093\u308a\u3087\u304f\u3092\u3000\u3064\u304b\u3044\u3000\u306a\u3052\u3068\u3070\u3059\u3002\n\u3058\u3076\u3093\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u304a\u306a\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u3048\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uc778\ub825\uc744 \uc0ac\uc6a9\ud574 \ub0b4\ub358\uc9c4\ub2e4.\n\uc790\uc2e0\uc758 \ub808\ubca8\uacfc \ub611\uac19\uc740 \ub370\ubbf8\uc9c0\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "L\u2019ennemi est projet\u00e9 gr\u00e2ce au pouvoir de la\ngravit\u00e9. Inflige des d\u00e9g\u00e2ts \u00e9quivalents au niveau\ndu lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gem\u00e4\u00df Level des Angreifers an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos\nPS como nivel tenga el agresor.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Colpisce il bersaglio con la forza di gravit\u00e0.\nInfligge un danno pari al livello di chi la usa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u5f15\u529b\u3092\u3000\u4f7f\u3044\u3000\u6295\u3052\u3068\u3070\u3059\u3002\n\u81ea\u5206\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u540c\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u76f8\u624b\u306b\u3000\u4e0e\u3048\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos\nPS como nivel tenga el agresor.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3044\u3093\u308a\u3087\u304f\u3092\u3000\u3064\u304b\u3044\u3000\u306a\u3052\u3068\u3070\u3059\u3002\n\u3058\u3076\u3093\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u304a\u306a\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u3048\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uc778\ub825\uc744 \uc0ac\uc6a9\ud574 \ub0b4\ub358\uc9c4\ub2e4.\n\uc790\uc2e0\uc758 \ub808\ubca8\uacfc \ub611\uac19\uc740 \ub370\ubbf8\uc9c0\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "L\u2019ennemi est projet\u00e9 gr\u00e2ce au pouvoir de la\ngravit\u00e9. Inflige des d\u00e9g\u00e2ts \u00e9quivalents au niveau\ndu lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gem\u00e4\u00df Level des Angreifers an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos PS\ncomo nivel tenga el agresor.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Colpisce il bersaglio con la forza di gravit\u00e0.\nInfligge un danno pari al livello di chi la usa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u5f15\u529b\u3092\u3000\u4f7f\u3044\u3000\u6295\u3052\u3068\u3070\u3059\u3002\n\u81ea\u5206\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u540c\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u76f8\u624b\u306b\u3000\u4e0e\u3048\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos PS\ncomo nivel tenga el agresor.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3044\u3093\u308a\u3087\u304f\u3092\u3000\u3064\u304b\u3044\u3000\u306a\u3052\u3068\u3070\u3059\u3002\n\u3058\u3076\u3093\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u304a\u306a\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u3048\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc778\ub825\uc744 \uc0ac\uc6a9\ud574 \ub0b4\ub358\uc9c4\ub2e4.\n\uc790\uc2e0\uc758 \ub808\ubca8\uacfc \ub611\uac19\uc740 \ub370\ubbf8\uc9c0\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5f15\u529b\u5c07\u5c0d\u624b\u7529\u98db\u51fa\u53bb\u3002\n\u7d66\u4e88\u5c0d\u624b\u548c\u81ea\u5df1\u7b49\u7d1a\u76f8\u540c\u7684\u50b7\u5bb3\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "L\u2019ennemi est projet\u00e9 gr\u00e2ce au pouvoir de la gravit\u00e9.\nInflige des d\u00e9g\u00e2ts \u00e9quivalents au niveau du lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gem\u00e4\u00df Level des Angreifers an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos\nPS como nivel tenga el agresor.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Colpisce il bersaglio con la forza di gravit\u00e0.\nInfligge un danno pari al livello di chi la usa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5f15\u529b\u3092\u3000\u4f7f\u3044\u3000\u6295\u3052\u3068\u3070\u3059\u3002\n\u81ea\u5206\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u540c\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u76f8\u624b\u306b\u3000\u4e0e\u3048\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5f15\u529b\u5c06\u5bf9\u624b\u7529\u98de\u51fa\u53bb\u3002\n\u7ed9\u4e88\u5bf9\u624b\u548c\u81ea\u5df1\u7b49\u7ea7\u76f8\u540c\u7684\u4f24\u5bb3\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos\nPS como nivel tenga el agresor.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3044\u3093\u308a\u3087\u304f\u3092\u3000\u3064\u304b\u3044\u3000\u306a\u3052\u3068\u3070\u3059\u3002\n\u3058\u3076\u3093\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u304a\u306a\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u3048\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc778\ub825\uc744 \uc0ac\uc6a9\ud574 \ub0b4\ub358\uc9c4\ub2e4.\n\uc790\uc2e0\uc758 \ub808\ubca8\uacfc \ub611\uac19\uc740 \ub370\ubbf8\uc9c0\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5f15\u529b\u5c07\u5c0d\u624b\u7529\u98db\u51fa\u53bb\u3002\n\u7d66\u4e88\u5c0d\u624b\u548c\u81ea\u5df1\u7b49\u7d1a\u76f8\u540c\u7684\u50b7\u5bb3\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "L\u2019ennemi est projet\u00e9 gr\u00e2ce au pouvoir de la gravit\u00e9.\nInflige des d\u00e9g\u00e2ts \u00e9quivalents au niveau du lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gem\u00e4\u00df Level des Angreifers an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos\nPS como nivel tenga el agresor.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Colpisce il bersaglio con la forza di gravit\u00e0.\nInfligge un danno pari al livello di chi la usa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5f15\u529b\u3092\u3000\u4f7f\u3044\u3000\u6295\u3052\u3068\u3070\u3059\u3002\n\u81ea\u5206\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u540c\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u76f8\u624b\u306b\u3000\u4e0e\u3048\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5f15\u529b\u5c06\u5bf9\u624b\u7529\u98de\u51fa\u53bb\u3002\n\u7ed9\u4e88\u5bf9\u624b\u548c\u81ea\u5df1\u7b49\u7ea7\u76f8\u540c\u7684\u4f24\u5bb3\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos\nPS como nivel tenga el agresor.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3044\u3093\u308a\u3087\u304f\u3092\u3000\u3064\u304b\u3044\u3000\u306a\u3052\u3068\u3070\u3059\u3002\n\u3058\u3076\u3093\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u304a\u306a\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u3048\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uc778\ub825\uc744 \uc0ac\uc6a9\ud574 \ub0b4\ub358\uc9c4\ub2e4.\n\uc790\uc2e0\uc758 \ub808\ubca8\uacfc \ub611\uac19\uc740 \ub370\ubbf8\uc9c0\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5f15\u529b\u5c07\u5c0d\u624b\u7529\u98db\u51fa\u53bb\u3002\n\u7d66\u4e88\u5c0d\u624b\u548c\u81ea\u5df1\u7b49\u7d1a\u76f8\u540c\u7684\u50b7\u5bb3\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "L\u2019ennemi est projet\u00e9 gr\u00e2ce au pouvoir de la gravit\u00e9.\nInflige des d\u00e9g\u00e2ts \u00e9quivalents au niveau du lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gem\u00e4\u00df Level des Angreifers an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos\nPS como nivel tenga el agresor.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Colpisce il bersaglio con la forza di gravit\u00e0.\nInfligge un danno pari al livello di chi la usa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5f15\u529b\u3092\u3000\u4f7f\u3044\u3000\u6295\u3052\u3068\u3070\u3059\u3002\n\u81ea\u5206\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u540c\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u76f8\u624b\u306b\u3000\u4e0e\u3048\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5f15\u529b\u5c06\u5bf9\u624b\u7529\u98de\u51fa\u53bb\u3002\n\u7ed9\u4e88\u5bf9\u624b\u548c\u81ea\u5df1\u7b49\u7ea7\u76f8\u540c\u7684\u4f24\u5bb3\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "La gravedad derriba al objetivo. Se restar\u00e1n tantos\nPS como nivel tenga el agresor.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3044\u3093\u308a\u3087\u304f\u3092\u3000\u3064\u304b\u3044\u3000\u306a\u3052\u3068\u3070\u3059\u3002\n\u3058\u3076\u3093\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u304a\u306a\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u3042\u3044\u3066\u306b\u3000\u3042\u305f\u3048\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc778\ub825\uc744 \uc0ac\uc6a9\ud574 \ub0b4\ub358\uc9c4\ub2e4.\n\uc790\uc2e0\uc758 \ub808\ubca8\uacfc \ub611\uac19\uc740 \ub370\ubbf8\uc9c0\ub97c\n\uc0c1\ub300\uc5d0\uac8c \uc900\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5f15\u529b\u5c07\u5c0d\u624b\u7529\u98db\u51fa\u53bb\u3002\n\u7d66\u4e88\u5c0d\u624b\u548c\u81ea\u5df1\u7b49\u7d1a\u76f8\u540c\u7684\u50b7\u5bb3\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "L\u2019ennemi est projet\u00e9 gr\u00e2ce au pouvoir de la gravit\u00e9.\nInflige des d\u00e9g\u00e2ts \u00e9quivalents au niveau du lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gem\u00e4\u00df dem Level des Anwenders an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Aprovecha la gravedad para derribar al objetivo.\nLe resta tantos PS como nivel tenga el usuario.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Colpisce il bersaglio con la forza di gravit\u00e0.\nInfligge un danno pari al livello di chi la usa.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user\u2019s level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5f15\u529b\u3092\u3000\u4f7f\u3044\u3000\u6295\u3052\u3068\u3070\u3059\u3002\n\u81ea\u5206\u306e\u3000\u30ec\u30d9\u30eb\u3068\u3000\u540c\u3058\u3000\u30c0\u30e1\u30fc\u30b8\u3092\n\u76f8\u624b\u306b\u3000\u4e0e\u3048\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5f15\u529b\u5c06\u5bf9\u624b\u7529\u98de\u51fa\u53bb\u3002\n\u7ed9\u4e88\u5bf9\u624b\u548c\u81ea\u5df1\u7b49\u7ea7\u76f8\u540c\u7684\u4f24\u5bb3\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Aprovecha la gravedad para derribar al objetivo.\nLe resta tantos PS como nivel tenga el usuario.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of gravity. It inflicts damage equal to the user's level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The target is thrown using the power of gravity. It inflicts damage equal to the user's level.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-i",
-        "url": "/api/v2/generation/1/"
-    },
-    "id": 69,
-    "learned_by_pokemon": [
-        {
-            "name": "charmander",
-            "url": "/api/v2/pokemon/4/"
-        },
-        {
-            "name": "charmeleon",
-            "url": "/api/v2/pokemon/5/"
-        },
-        {
-            "name": "charizard",
-            "url": "/api/v2/pokemon/6/"
-        },
-        {
-            "name": "squirtle",
-            "url": "/api/v2/pokemon/7/"
-        },
-        {
-            "name": "wartortle",
-            "url": "/api/v2/pokemon/8/"
-        },
-        {
-            "name": "blastoise",
-            "url": "/api/v2/pokemon/9/"
-        },
-        {
-            "name": "pikachu",
-            "url": "/api/v2/pokemon/25/"
-        },
-        {
-            "name": "raichu",
-            "url": "/api/v2/pokemon/26/"
-        },
-        {
-            "name": "sandshrew",
-            "url": "/api/v2/pokemon/27/"
-        },
-        {
-            "name": "sandslash",
-            "url": "/api/v2/pokemon/28/"
-        },
-        {
-            "name": "nidoqueen",
-            "url": "/api/v2/pokemon/31/"
-        },
-        {
-            "name": "nidoking",
-            "url": "/api/v2/pokemon/34/"
-        },
-        {
-            "name": "clefairy",
-            "url": "/api/v2/pokemon/35/"
-        },
-        {
-            "name": "clefable",
-            "url": "/api/v2/pokemon/36/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "psyduck",
-            "url": "/api/v2/pokemon/54/"
-        },
-        {
-            "name": "golduck",
-            "url": "/api/v2/pokemon/55/"
-        },
-        {
-            "name": "mankey",
-            "url": "/api/v2/pokemon/56/"
-        },
-        {
-            "name": "primeape",
-            "url": "/api/v2/pokemon/57/"
-        },
-        {
-            "name": "poliwhirl",
-            "url": "/api/v2/pokemon/61/"
-        },
-        {
-            "name": "poliwrath",
-            "url": "/api/v2/pokemon/62/"
-        },
-        {
-            "name": "abra",
-            "url": "/api/v2/pokemon/63/"
-        },
-        {
-            "name": "kadabra",
-            "url": "/api/v2/pokemon/64/"
-        },
-        {
-            "name": "alakazam",
-            "url": "/api/v2/pokemon/65/"
-        },
-        {
-            "name": "machop",
-            "url": "/api/v2/pokemon/66/"
-        },
-        {
-            "name": "machoke",
-            "url": "/api/v2/pokemon/67/"
-        },
-        {
-            "name": "machamp",
-            "url": "/api/v2/pokemon/68/"
-        },
-        {
-            "name": "geodude",
-            "url": "/api/v2/pokemon/74/"
-        },
-        {
-            "name": "graveler",
-            "url": "/api/v2/pokemon/75/"
-        },
-        {
-            "name": "golem",
-            "url": "/api/v2/pokemon/76/"
-        },
-        {
-            "name": "slowbro",
-            "url": "/api/v2/pokemon/80/"
-        },
-        {
-            "name": "gengar",
-            "url": "/api/v2/pokemon/94/"
-        },
-        {
-            "name": "drowzee",
-            "url": "/api/v2/pokemon/96/"
-        },
-        {
-            "name": "hypno",
-            "url": "/api/v2/pokemon/97/"
-        },
-        {
-            "name": "cubone",
-            "url": "/api/v2/pokemon/104/"
-        },
-        {
-            "name": "marowak",
-            "url": "/api/v2/pokemon/105/"
-        },
-        {
-            "name": "hitmonlee",
-            "url": "/api/v2/pokemon/106/"
-        },
-        {
-            "name": "hitmonchan",
-            "url": "/api/v2/pokemon/107/"
-        },
-        {
-            "name": "lickitung",
-            "url": "/api/v2/pokemon/108/"
-        },
-        {
-            "name": "rhydon",
-            "url": "/api/v2/pokemon/112/"
-        },
-        {
-            "name": "chansey",
-            "url": "/api/v2/pokemon/113/"
-        },
-        {
-            "name": "kangaskhan",
-            "url": "/api/v2/pokemon/115/"
-        },
-        {
-            "name": "mr-mime",
-            "url": "/api/v2/pokemon/122/"
-        },
-        {
-            "name": "jynx",
-            "url": "/api/v2/pokemon/124/"
-        },
-        {
-            "name": "electabuzz",
-            "url": "/api/v2/pokemon/125/"
-        },
-        {
-            "name": "magmar",
-            "url": "/api/v2/pokemon/126/"
-        },
-        {
-            "name": "pinsir",
-            "url": "/api/v2/pokemon/127/"
-        },
-        {
-            "name": "omastar",
-            "url": "/api/v2/pokemon/139/"
-        },
-        {
-            "name": "kabutops",
-            "url": "/api/v2/pokemon/141/"
-        },
-        {
-            "name": "snorlax",
-            "url": "/api/v2/pokemon/143/"
-        },
-        {
-            "name": "mewtwo",
-            "url": "/api/v2/pokemon/150/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "typhlosion",
-            "url": "/api/v2/pokemon/157/"
-        },
-        {
-            "name": "totodile",
-            "url": "/api/v2/pokemon/158/"
-        },
-        {
-            "name": "croconaw",
-            "url": "/api/v2/pokemon/159/"
-        },
-        {
-            "name": "feraligatr",
-            "url": "/api/v2/pokemon/160/"
-        },
-        {
-            "name": "pichu",
-            "url": "/api/v2/pokemon/172/"
-        },
-        {
-            "name": "cleffa",
-            "url": "/api/v2/pokemon/173/"
-        },
-        {
-            "name": "igglybuff",
-            "url": "/api/v2/pokemon/174/"
-        },
-        {
-            "name": "togepi",
-            "url": "/api/v2/pokemon/175/"
-        },
-        {
-            "name": "togetic",
-            "url": "/api/v2/pokemon/176/"
-        },
-        {
-            "name": "flaaffy",
-            "url": "/api/v2/pokemon/180/"
-        },
-        {
-            "name": "ampharos",
-            "url": "/api/v2/pokemon/181/"
-        },
-        {
-            "name": "marill",
-            "url": "/api/v2/pokemon/183/"
-        },
-        {
-            "name": "azumarill",
-            "url": "/api/v2/pokemon/184/"
-        },
-        {
-            "name": "sudowoodo",
-            "url": "/api/v2/pokemon/185/"
-        },
-        {
-            "name": "politoed",
-            "url": "/api/v2/pokemon/186/"
-        },
-        {
-            "name": "aipom",
-            "url": "/api/v2/pokemon/190/"
-        },
-        {
-            "name": "quagsire",
-            "url": "/api/v2/pokemon/195/"
-        },
-        {
-            "name": "slowking",
-            "url": "/api/v2/pokemon/199/"
-        },
-        {
-            "name": "snubbull",
-            "url": "/api/v2/pokemon/209/"
-        },
-        {
-            "name": "granbull",
-            "url": "/api/v2/pokemon/210/"
-        },
-        {
-            "name": "heracross",
-            "url": "/api/v2/pokemon/214/"
-        },
-        {
-            "name": "teddiursa",
-            "url": "/api/v2/pokemon/216/"
-        },
-        {
-            "name": "ursaring",
-            "url": "/api/v2/pokemon/217/"
-        },
-        {
-            "name": "octillery",
-            "url": "/api/v2/pokemon/224/"
-        },
-        {
-            "name": "delibird",
-            "url": "/api/v2/pokemon/225/"
-        },
-        {
-            "name": "tyrogue",
-            "url": "/api/v2/pokemon/236/"
-        },
-        {
-            "name": "hitmontop",
-            "url": "/api/v2/pokemon/237/"
-        },
-        {
-            "name": "smoochum",
-            "url": "/api/v2/pokemon/238/"
-        },
-        {
-            "name": "elekid",
-            "url": "/api/v2/pokemon/239/"
-        },
-        {
-            "name": "magby",
-            "url": "/api/v2/pokemon/240/"
-        },
-        {
-            "name": "miltank",
-            "url": "/api/v2/pokemon/241/"
-        },
-        {
-            "name": "blissey",
-            "url": "/api/v2/pokemon/242/"
-        },
-        {
-            "name": "tyranitar",
-            "url": "/api/v2/pokemon/248/"
-        },
-        {
-            "name": "treecko",
-            "url": "/api/v2/pokemon/252/"
-        },
-        {
-            "name": "grovyle",
-            "url": "/api/v2/pokemon/253/"
-        },
-        {
-            "name": "sceptile",
-            "url": "/api/v2/pokemon/254/"
-        },
-        {
-            "name": "torchic",
-            "url": "/api/v2/pokemon/255/"
-        },
-        {
-            "name": "combusken",
-            "url": "/api/v2/pokemon/256/"
-        },
-        {
-            "name": "blaziken",
-            "url": "/api/v2/pokemon/257/"
-        },
-        {
-            "name": "marshtomp",
-            "url": "/api/v2/pokemon/259/"
-        },
-        {
-            "name": "swampert",
-            "url": "/api/v2/pokemon/260/"
-        },
-        {
-            "name": "ludicolo",
-            "url": "/api/v2/pokemon/272/"
-        },
-        {
-            "name": "breloom",
-            "url": "/api/v2/pokemon/286/"
-        },
-        {
-            "name": "slakoth",
-            "url": "/api/v2/pokemon/287/"
-        },
-        {
-            "name": "vigoroth",
-            "url": "/api/v2/pokemon/288/"
-        },
-        {
-            "name": "slaking",
-            "url": "/api/v2/pokemon/289/"
-        },
-        {
-            "name": "whismur",
-            "url": "/api/v2/pokemon/293/"
-        },
-        {
-            "name": "loudred",
-            "url": "/api/v2/pokemon/294/"
-        },
-        {
-            "name": "exploud",
-            "url": "/api/v2/pokemon/295/"
-        },
-        {
-            "name": "makuhita",
-            "url": "/api/v2/pokemon/296/"
-        },
-        {
-            "name": "hariyama",
-            "url": "/api/v2/pokemon/297/"
-        },
-        {
-            "name": "sableye",
-            "url": "/api/v2/pokemon/302/"
-        },
-        {
-            "name": "mawile",
-            "url": "/api/v2/pokemon/303/"
-        },
-        {
-            "name": "aggron",
-            "url": "/api/v2/pokemon/306/"
-        },
-        {
-            "name": "meditite",
-            "url": "/api/v2/pokemon/307/"
-        },
-        {
-            "name": "medicham",
-            "url": "/api/v2/pokemon/308/"
-        },
-        {
-            "name": "plusle",
-            "url": "/api/v2/pokemon/311/"
-        },
-        {
-            "name": "minun",
-            "url": "/api/v2/pokemon/312/"
-        },
-        {
-            "name": "volbeat",
-            "url": "/api/v2/pokemon/313/"
-        },
-        {
-            "name": "illumise",
-            "url": "/api/v2/pokemon/314/"
-        },
-        {
-            "name": "grumpig",
-            "url": "/api/v2/pokemon/326/"
-        },
-        {
-            "name": "spinda",
-            "url": "/api/v2/pokemon/327/"
-        },
-        {
-            "name": "cacnea",
-            "url": "/api/v2/pokemon/331/"
-        },
-        {
-            "name": "cacturne",
-            "url": "/api/v2/pokemon/332/"
-        },
-        {
-            "name": "zangoose",
-            "url": "/api/v2/pokemon/335/"
-        },
-        {
-            "name": "armaldo",
-            "url": "/api/v2/pokemon/348/"
-        },
-        {
-            "name": "kecleon",
-            "url": "/api/v2/pokemon/352/"
-        },
-        {
-            "name": "dusclops",
-            "url": "/api/v2/pokemon/356/"
-        },
-        {
-            "name": "regirock",
-            "url": "/api/v2/pokemon/377/"
-        },
-        {
-            "name": "regice",
-            "url": "/api/v2/pokemon/378/"
-        },
-        {
-            "name": "registeel",
-            "url": "/api/v2/pokemon/379/"
-        },
-        {
-            "name": "groudon",
-            "url": "/api/v2/pokemon/383/"
-        },
-        {
-            "name": "deoxys-normal",
-            "url": "/api/v2/pokemon/386/"
-        },
-        {
-            "name": "happiny",
-            "url": "/api/v2/pokemon/440/"
-        },
-        {
-            "name": "arceus",
-            "url": "/api/v2/pokemon/493/"
-        },
-        {
-            "name": "throh",
-            "url": "/api/v2/pokemon/538/"
-        },
-        {
-            "name": "pancham",
-            "url": "/api/v2/pokemon/674/"
-        },
-        {
-            "name": "pangoro",
-            "url": "/api/v2/pokemon/675/"
-        },
-        {
-            "name": "passimian",
-            "url": "/api/v2/pokemon/766/"
-        },
-        {
-            "name": "clobbopus",
-            "url": "/api/v2/pokemon/852/"
-        },
-        {
-            "name": "annihilape",
-            "url": "/api/v2/pokemon/979/"
-        },
-        {
-            "name": "iron-hands",
-            "url": "/api/v2/pokemon/992/"
-        },
-        {
-            "name": "deoxys-attack",
-            "url": "/api/v2/pokemon/10001/"
-        },
-        {
-            "name": "deoxys-defense",
-            "url": "/api/v2/pokemon/10002/"
-        },
-        {
-            "name": "deoxys-speed",
-            "url": "/api/v2/pokemon/10003/"
-        },
-        {
-            "name": "charizard-mega-x",
-            "url": "/api/v2/pokemon/10034/"
-        },
-        {
-            "name": "charizard-mega-y",
-            "url": "/api/v2/pokemon/10035/"
-        },
-        {
-            "name": "blastoise-mega",
-            "url": "/api/v2/pokemon/10036/"
-        },
-        {
-            "name": "alakazam-mega",
-            "url": "/api/v2/pokemon/10037/"
-        },
-        {
-            "name": "gengar-mega",
-            "url": "/api/v2/pokemon/10038/"
-        },
-        {
-            "name": "kangaskhan-mega",
-            "url": "/api/v2/pokemon/10039/"
-        },
-        {
-            "name": "pinsir-mega",
-            "url": "/api/v2/pokemon/10040/"
-        },
-        {
-            "name": "mewtwo-mega-x",
-            "url": "/api/v2/pokemon/10043/"
-        },
-        {
-            "name": "mewtwo-mega-y",
-            "url": "/api/v2/pokemon/10044/"
-        },
-        {
-            "name": "heracross-mega",
-            "url": "/api/v2/pokemon/10047/"
-        },
-        {
-            "name": "mawile-mega",
-            "url": "/api/v2/pokemon/10052/"
-        },
-        {
-            "name": "slowbro-mega",
-            "url": "/api/v2/pokemon/10071/"
-        },
-        {
-            "name": "raichu-alola",
-            "url": "/api/v2/pokemon/10100/"
-        },
-        {
-            "name": "sandshrew-alola",
-            "url": "/api/v2/pokemon/10101/"
-        },
-        {
-            "name": "sandslash-alola",
-            "url": "/api/v2/pokemon/10102/"
-        },
-        {
-            "name": "geodude-alola",
-            "url": "/api/v2/pokemon/10109/"
-        },
-        {
-            "name": "graveler-alola",
-            "url": "/api/v2/pokemon/10110/"
-        },
-        {
-            "name": "golem-alola",
-            "url": "/api/v2/pokemon/10111/"
-        },
-        {
-            "name": "marowak-alola",
-            "url": "/api/v2/pokemon/10115/"
-        },
-        {
-            "name": "pikachu-starter",
-            "url": "/api/v2/pokemon/10158/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/328/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/398/"
-            },
-            "version_group": {
-                "name": "red-blue",
-                "url": "/api/v2/version-group/1/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/399/"
-            },
-            "version_group": {
-                "name": "yellow",
-                "url": "/api/v2/version-group/2/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/418/"
-            },
-            "version_group": {
-                "name": "red-green-japan",
-                "url": "/api/v2/version-group/28/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/419/"
-            },
-            "version_group": {
-                "name": "blue-japan",
-                "url": "/api/v2/version-group/29/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "seismic-toss",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u3061\u304d\u3085\u3046\u306a\u3052"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uc9c0\uad6c\ub358\uc9c0\uae30"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u5730\u7403\u4e0a\u6295"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Frappe Atlas"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Geowurf"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "S\u00edsmico"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Movim. Sismico"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Seismic Toss"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u3061\u304d\u3085\u3046\u306a\u3052"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u5730\u7403\u4e0a\u6295"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "S\u00edsmico"
-        }
-    ],
-    "past_values": [],
-    "power": null,
-    "pp": 20,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/5/"
-    },
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "fighting",
-        "url": "/api/v2/type/2/"
+    "super": {
+      "use_before": null,
+      "use_after": null
     }
+  },
+  "contest_type": {
+    "name": "tough",
+    "url": "/api/v2/contest-type/5/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/23/"
+  },
+  "damage_class": {
+    "name": "physical",
+    "url": "/api/v2/move-damage-class/2/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts égaux au niveau du lanceur.  Les immunités de type s'appliquent, mais les autres effets sont ignorés.",
+      "short_effect": "Inflige des dégâts égaux au niveau du lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "Inflicts damage equal to the user’s level.  Type immunity applies, but other type effects are ignored.",
+      "short_effect": "Inflicts damage equal to the user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i",
+    "url": "/api/v2/generation/1/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "ちきゅうなげ",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "지구던지기",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "地球上投",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Frappe Atlas",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Geowurf",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Sísmico",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Movim. Sismico",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Seismic Toss",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "ちきゅうなげ",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "地球上投",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Sísmico",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/5/"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "fighting",
+    "url": "/api/v2/type/2/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/328/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/398/"
+      },
+      "version_group": {
+        "name": "red-blue",
+        "url": "/api/v2/version-group/1/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/399/"
+      },
+      "version_group": {
+        "name": "yellow",
+        "url": "/api/v2/version-group/2/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/418/"
+      },
+      "version_group": {
+        "name": "red-green-japan",
+        "url": "/api/v2/version-group/28/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/419/"
+      },
+      "version_group": {
+        "name": "blue-japan",
+        "url": "/api/v2/version-group/29/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "The user's level\nequals damage HP.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "flavor_text": "The user's level\nequals damage HP.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    },
+    {
+      "flavor_text": "Inflicts damage identical\nto the user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "Inflicts damage identical\nto the user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "A gravity-fed throw\nthat causes damage\nmatching the user’s\nlevel.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est projeté grâce au pouvoir de\nla gravité. Inflige des dégâts équivalents\nau niveau du lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "いんりょくを　つかい　なげとばす。\nじぶんの　レベルと　おなじ　ダメージを\nあいてに　あたえる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "인력을 사용해 내던진다.\n자신의 레벨과 똑같은 데미지를\n상대에게 준다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est projeté grâce au pouvoir de la\ngravité. Inflige des dégâts équivalents au niveau\ndu lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gemäß Level des Angreifers an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos\nPS como nivel tenga el agresor.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Colpisce il bersaglio con la forza di gravità.\nInfligge un danno pari al livello di chi la usa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "引力を　使い　投げとばす。\n自分の　レベルと　同じ　ダメージを\n相手に　与える。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos\nPS como nivel tenga el agresor.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "いんりょくを　つかい　なげとばす。\nじぶんの　レベルと　おなじ　ダメージを\nあいてに　あたえる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "인력을 사용해 내던진다.\n자신의 레벨과 똑같은 데미지를\n상대에게 준다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est projeté grâce au pouvoir de la\ngravité. Inflige des dégâts équivalents au niveau\ndu lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gemäß Level des Angreifers an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos PS\ncomo nivel tenga el agresor.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Colpisce il bersaglio con la forza di gravità.\nInfligge un danno pari al livello di chi la usa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of\ngravity. It inflicts damage equal to\nthe user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "引力を　使い　投げとばす。\n自分の　レベルと　同じ　ダメージを\n相手に　与える。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos PS\ncomo nivel tenga el agresor.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "いんりょくを　つかい　なげとばす。\nじぶんの　レベルと　おなじ　ダメージを\nあいてに　あたえる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "인력을 사용해 내던진다.\n자신의 레벨과 똑같은 데미지를\n상대에게 준다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "利用引力將對手甩飛出去。\n給予對手和自己等級相同的傷害。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est projeté grâce au pouvoir de la gravité.\nInflige des dégâts équivalents au niveau du lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gemäß Level des Angreifers an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos\nPS como nivel tenga el agresor.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Colpisce il bersaglio con la forza di gravità.\nInfligge un danno pari al livello di chi la usa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "引力を　使い　投げとばす。\n自分の　レベルと　同じ　ダメージを\n相手に　与える。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "利用引力将对手甩飞出去。\n给予对手和自己等级相同的伤害。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos\nPS como nivel tenga el agresor.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "いんりょくを　つかい　なげとばす。\nじぶんの　レベルと　おなじ　ダメージを\nあいてに　あたえる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "인력을 사용해 내던진다.\n자신의 레벨과 똑같은 데미지를\n상대에게 준다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "利用引力將對手甩飛出去。\n給予對手和自己等級相同的傷害。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est projeté grâce au pouvoir de la gravité.\nInflige des dégâts équivalents au niveau du lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gemäß Level des Angreifers an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos\nPS como nivel tenga el agresor.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Colpisce il bersaglio con la forza di gravità.\nInfligge un danno pari al livello di chi la usa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "引力を　使い　投げとばす。\n自分の　レベルと　同じ　ダメージを\n相手に　与える。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "利用引力将对手甩飞出去。\n给予对手和自己等级相同的伤害。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos\nPS como nivel tenga el agresor.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "いんりょくを　つかい　なげとばす。\nじぶんの　レベルと　おなじ　ダメージを\nあいてに　あたえる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "인력을 사용해 내던진다.\n자신의 레벨과 똑같은 데미지를\n상대에게 준다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "利用引力將對手甩飛出去。\n給予對手和自己等級相同的傷害。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est projeté grâce au pouvoir de la gravité.\nInflige des dégâts équivalents au niveau du lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gemäß Level des Angreifers an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos\nPS como nivel tenga el agresor.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Colpisce il bersaglio con la forza di gravità.\nInfligge un danno pari al livello di chi la usa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "引力を　使い　投げとばす。\n自分の　レベルと　同じ　ダメージを\n相手に　与える。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "利用引力将对手甩飞出去。\n给予对手和自己等级相同的伤害。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "La gravedad derriba al objetivo. Se restarán tantos\nPS como nivel tenga el agresor.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "いんりょくを　つかい　なげとばす。\nじぶんの　レベルと　おなじ　ダメージを\nあいてに　あたえる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "인력을 사용해 내던진다.\n자신의 레벨과 똑같은 데미지를\n상대에게 준다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "利用引力將對手甩飛出去。\n給予對手和自己等級相同的傷害。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "L’ennemi est projeté grâce au pouvoir de la gravité.\nInflige des dégâts équivalents au niveau du lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Ziel wird mit der Kraft der Gravitation umgeworfen.\nRichtet Schaden gemäß dem Level des Anwenders an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Aprovecha la gravedad para derribar al objetivo.\nLe resta tantos PS como nivel tenga el usuario.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Colpisce il bersaglio con la forza di gravità.\nInfligge un danno pari al livello di chi la usa.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "引力を　使い　投げとばす。\n自分の　レベルと　同じ　ダメージを\n相手に　与える。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "利用引力将对手甩飞出去。\n给予对手和自己等级相同的伤害。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Aprovecha la gravedad para derribar al objetivo.\nLe resta tantos PS como nivel tenga el usuario.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of gravity. It inflicts damage equal to the user's level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The target is thrown using the power of gravity. It inflicts damage equal to the user's level.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "charmander",
+      "url": "/api/v2/pokemon/4/"
+    },
+    {
+      "name": "charmeleon",
+      "url": "/api/v2/pokemon/5/"
+    },
+    {
+      "name": "charizard",
+      "url": "/api/v2/pokemon/6/"
+    },
+    {
+      "name": "squirtle",
+      "url": "/api/v2/pokemon/7/"
+    },
+    {
+      "name": "wartortle",
+      "url": "/api/v2/pokemon/8/"
+    },
+    {
+      "name": "blastoise",
+      "url": "/api/v2/pokemon/9/"
+    },
+    {
+      "name": "pikachu",
+      "url": "/api/v2/pokemon/25/"
+    },
+    {
+      "name": "raichu",
+      "url": "/api/v2/pokemon/26/"
+    },
+    {
+      "name": "sandshrew",
+      "url": "/api/v2/pokemon/27/"
+    },
+    {
+      "name": "sandslash",
+      "url": "/api/v2/pokemon/28/"
+    },
+    {
+      "name": "nidoqueen",
+      "url": "/api/v2/pokemon/31/"
+    },
+    {
+      "name": "nidoking",
+      "url": "/api/v2/pokemon/34/"
+    },
+    {
+      "name": "clefairy",
+      "url": "/api/v2/pokemon/35/"
+    },
+    {
+      "name": "clefable",
+      "url": "/api/v2/pokemon/36/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "psyduck",
+      "url": "/api/v2/pokemon/54/"
+    },
+    {
+      "name": "golduck",
+      "url": "/api/v2/pokemon/55/"
+    },
+    {
+      "name": "mankey",
+      "url": "/api/v2/pokemon/56/"
+    },
+    {
+      "name": "primeape",
+      "url": "/api/v2/pokemon/57/"
+    },
+    {
+      "name": "poliwhirl",
+      "url": "/api/v2/pokemon/61/"
+    },
+    {
+      "name": "poliwrath",
+      "url": "/api/v2/pokemon/62/"
+    },
+    {
+      "name": "abra",
+      "url": "/api/v2/pokemon/63/"
+    },
+    {
+      "name": "kadabra",
+      "url": "/api/v2/pokemon/64/"
+    },
+    {
+      "name": "alakazam",
+      "url": "/api/v2/pokemon/65/"
+    },
+    {
+      "name": "machop",
+      "url": "/api/v2/pokemon/66/"
+    },
+    {
+      "name": "machoke",
+      "url": "/api/v2/pokemon/67/"
+    },
+    {
+      "name": "machamp",
+      "url": "/api/v2/pokemon/68/"
+    },
+    {
+      "name": "geodude",
+      "url": "/api/v2/pokemon/74/"
+    },
+    {
+      "name": "graveler",
+      "url": "/api/v2/pokemon/75/"
+    },
+    {
+      "name": "golem",
+      "url": "/api/v2/pokemon/76/"
+    },
+    {
+      "name": "slowbro",
+      "url": "/api/v2/pokemon/80/"
+    },
+    {
+      "name": "gengar",
+      "url": "/api/v2/pokemon/94/"
+    },
+    {
+      "name": "drowzee",
+      "url": "/api/v2/pokemon/96/"
+    },
+    {
+      "name": "hypno",
+      "url": "/api/v2/pokemon/97/"
+    },
+    {
+      "name": "cubone",
+      "url": "/api/v2/pokemon/104/"
+    },
+    {
+      "name": "marowak",
+      "url": "/api/v2/pokemon/105/"
+    },
+    {
+      "name": "hitmonlee",
+      "url": "/api/v2/pokemon/106/"
+    },
+    {
+      "name": "hitmonchan",
+      "url": "/api/v2/pokemon/107/"
+    },
+    {
+      "name": "lickitung",
+      "url": "/api/v2/pokemon/108/"
+    },
+    {
+      "name": "rhydon",
+      "url": "/api/v2/pokemon/112/"
+    },
+    {
+      "name": "chansey",
+      "url": "/api/v2/pokemon/113/"
+    },
+    {
+      "name": "kangaskhan",
+      "url": "/api/v2/pokemon/115/"
+    },
+    {
+      "name": "mr-mime",
+      "url": "/api/v2/pokemon/122/"
+    },
+    {
+      "name": "jynx",
+      "url": "/api/v2/pokemon/124/"
+    },
+    {
+      "name": "electabuzz",
+      "url": "/api/v2/pokemon/125/"
+    },
+    {
+      "name": "magmar",
+      "url": "/api/v2/pokemon/126/"
+    },
+    {
+      "name": "pinsir",
+      "url": "/api/v2/pokemon/127/"
+    },
+    {
+      "name": "omastar",
+      "url": "/api/v2/pokemon/139/"
+    },
+    {
+      "name": "kabutops",
+      "url": "/api/v2/pokemon/141/"
+    },
+    {
+      "name": "snorlax",
+      "url": "/api/v2/pokemon/143/"
+    },
+    {
+      "name": "mewtwo",
+      "url": "/api/v2/pokemon/150/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "typhlosion",
+      "url": "/api/v2/pokemon/157/"
+    },
+    {
+      "name": "totodile",
+      "url": "/api/v2/pokemon/158/"
+    },
+    {
+      "name": "croconaw",
+      "url": "/api/v2/pokemon/159/"
+    },
+    {
+      "name": "feraligatr",
+      "url": "/api/v2/pokemon/160/"
+    },
+    {
+      "name": "pichu",
+      "url": "/api/v2/pokemon/172/"
+    },
+    {
+      "name": "cleffa",
+      "url": "/api/v2/pokemon/173/"
+    },
+    {
+      "name": "igglybuff",
+      "url": "/api/v2/pokemon/174/"
+    },
+    {
+      "name": "togepi",
+      "url": "/api/v2/pokemon/175/"
+    },
+    {
+      "name": "togetic",
+      "url": "/api/v2/pokemon/176/"
+    },
+    {
+      "name": "flaaffy",
+      "url": "/api/v2/pokemon/180/"
+    },
+    {
+      "name": "ampharos",
+      "url": "/api/v2/pokemon/181/"
+    },
+    {
+      "name": "marill",
+      "url": "/api/v2/pokemon/183/"
+    },
+    {
+      "name": "azumarill",
+      "url": "/api/v2/pokemon/184/"
+    },
+    {
+      "name": "sudowoodo",
+      "url": "/api/v2/pokemon/185/"
+    },
+    {
+      "name": "politoed",
+      "url": "/api/v2/pokemon/186/"
+    },
+    {
+      "name": "aipom",
+      "url": "/api/v2/pokemon/190/"
+    },
+    {
+      "name": "quagsire",
+      "url": "/api/v2/pokemon/195/"
+    },
+    {
+      "name": "slowking",
+      "url": "/api/v2/pokemon/199/"
+    },
+    {
+      "name": "snubbull",
+      "url": "/api/v2/pokemon/209/"
+    },
+    {
+      "name": "granbull",
+      "url": "/api/v2/pokemon/210/"
+    },
+    {
+      "name": "heracross",
+      "url": "/api/v2/pokemon/214/"
+    },
+    {
+      "name": "teddiursa",
+      "url": "/api/v2/pokemon/216/"
+    },
+    {
+      "name": "ursaring",
+      "url": "/api/v2/pokemon/217/"
+    },
+    {
+      "name": "octillery",
+      "url": "/api/v2/pokemon/224/"
+    },
+    {
+      "name": "delibird",
+      "url": "/api/v2/pokemon/225/"
+    },
+    {
+      "name": "tyrogue",
+      "url": "/api/v2/pokemon/236/"
+    },
+    {
+      "name": "hitmontop",
+      "url": "/api/v2/pokemon/237/"
+    },
+    {
+      "name": "smoochum",
+      "url": "/api/v2/pokemon/238/"
+    },
+    {
+      "name": "elekid",
+      "url": "/api/v2/pokemon/239/"
+    },
+    {
+      "name": "magby",
+      "url": "/api/v2/pokemon/240/"
+    },
+    {
+      "name": "miltank",
+      "url": "/api/v2/pokemon/241/"
+    },
+    {
+      "name": "blissey",
+      "url": "/api/v2/pokemon/242/"
+    },
+    {
+      "name": "tyranitar",
+      "url": "/api/v2/pokemon/248/"
+    },
+    {
+      "name": "treecko",
+      "url": "/api/v2/pokemon/252/"
+    },
+    {
+      "name": "grovyle",
+      "url": "/api/v2/pokemon/253/"
+    },
+    {
+      "name": "sceptile",
+      "url": "/api/v2/pokemon/254/"
+    },
+    {
+      "name": "torchic",
+      "url": "/api/v2/pokemon/255/"
+    },
+    {
+      "name": "combusken",
+      "url": "/api/v2/pokemon/256/"
+    },
+    {
+      "name": "blaziken",
+      "url": "/api/v2/pokemon/257/"
+    },
+    {
+      "name": "marshtomp",
+      "url": "/api/v2/pokemon/259/"
+    },
+    {
+      "name": "swampert",
+      "url": "/api/v2/pokemon/260/"
+    },
+    {
+      "name": "ludicolo",
+      "url": "/api/v2/pokemon/272/"
+    },
+    {
+      "name": "breloom",
+      "url": "/api/v2/pokemon/286/"
+    },
+    {
+      "name": "slakoth",
+      "url": "/api/v2/pokemon/287/"
+    },
+    {
+      "name": "vigoroth",
+      "url": "/api/v2/pokemon/288/"
+    },
+    {
+      "name": "slaking",
+      "url": "/api/v2/pokemon/289/"
+    },
+    {
+      "name": "whismur",
+      "url": "/api/v2/pokemon/293/"
+    },
+    {
+      "name": "loudred",
+      "url": "/api/v2/pokemon/294/"
+    },
+    {
+      "name": "exploud",
+      "url": "/api/v2/pokemon/295/"
+    },
+    {
+      "name": "makuhita",
+      "url": "/api/v2/pokemon/296/"
+    },
+    {
+      "name": "hariyama",
+      "url": "/api/v2/pokemon/297/"
+    },
+    {
+      "name": "sableye",
+      "url": "/api/v2/pokemon/302/"
+    },
+    {
+      "name": "mawile",
+      "url": "/api/v2/pokemon/303/"
+    },
+    {
+      "name": "aggron",
+      "url": "/api/v2/pokemon/306/"
+    },
+    {
+      "name": "meditite",
+      "url": "/api/v2/pokemon/307/"
+    },
+    {
+      "name": "medicham",
+      "url": "/api/v2/pokemon/308/"
+    },
+    {
+      "name": "plusle",
+      "url": "/api/v2/pokemon/311/"
+    },
+    {
+      "name": "minun",
+      "url": "/api/v2/pokemon/312/"
+    },
+    {
+      "name": "volbeat",
+      "url": "/api/v2/pokemon/313/"
+    },
+    {
+      "name": "illumise",
+      "url": "/api/v2/pokemon/314/"
+    },
+    {
+      "name": "grumpig",
+      "url": "/api/v2/pokemon/326/"
+    },
+    {
+      "name": "spinda",
+      "url": "/api/v2/pokemon/327/"
+    },
+    {
+      "name": "cacnea",
+      "url": "/api/v2/pokemon/331/"
+    },
+    {
+      "name": "cacturne",
+      "url": "/api/v2/pokemon/332/"
+    },
+    {
+      "name": "zangoose",
+      "url": "/api/v2/pokemon/335/"
+    },
+    {
+      "name": "armaldo",
+      "url": "/api/v2/pokemon/348/"
+    },
+    {
+      "name": "kecleon",
+      "url": "/api/v2/pokemon/352/"
+    },
+    {
+      "name": "dusclops",
+      "url": "/api/v2/pokemon/356/"
+    },
+    {
+      "name": "regirock",
+      "url": "/api/v2/pokemon/377/"
+    },
+    {
+      "name": "regice",
+      "url": "/api/v2/pokemon/378/"
+    },
+    {
+      "name": "registeel",
+      "url": "/api/v2/pokemon/379/"
+    },
+    {
+      "name": "groudon",
+      "url": "/api/v2/pokemon/383/"
+    },
+    {
+      "name": "deoxys-normal",
+      "url": "/api/v2/pokemon/386/"
+    },
+    {
+      "name": "happiny",
+      "url": "/api/v2/pokemon/440/"
+    },
+    {
+      "name": "arceus",
+      "url": "/api/v2/pokemon/493/"
+    },
+    {
+      "name": "throh",
+      "url": "/api/v2/pokemon/538/"
+    },
+    {
+      "name": "pancham",
+      "url": "/api/v2/pokemon/674/"
+    },
+    {
+      "name": "pangoro",
+      "url": "/api/v2/pokemon/675/"
+    },
+    {
+      "name": "passimian",
+      "url": "/api/v2/pokemon/766/"
+    },
+    {
+      "name": "clobbopus",
+      "url": "/api/v2/pokemon/852/"
+    },
+    {
+      "name": "annihilape",
+      "url": "/api/v2/pokemon/979/"
+    },
+    {
+      "name": "iron-hands",
+      "url": "/api/v2/pokemon/992/"
+    },
+    {
+      "name": "deoxys-attack",
+      "url": "/api/v2/pokemon/10001/"
+    },
+    {
+      "name": "deoxys-defense",
+      "url": "/api/v2/pokemon/10002/"
+    },
+    {
+      "name": "deoxys-speed",
+      "url": "/api/v2/pokemon/10003/"
+    },
+    {
+      "name": "charizard-mega-x",
+      "url": "/api/v2/pokemon/10034/"
+    },
+    {
+      "name": "charizard-mega-y",
+      "url": "/api/v2/pokemon/10035/"
+    },
+    {
+      "name": "blastoise-mega",
+      "url": "/api/v2/pokemon/10036/"
+    },
+    {
+      "name": "alakazam-mega",
+      "url": "/api/v2/pokemon/10037/"
+    },
+    {
+      "name": "gengar-mega",
+      "url": "/api/v2/pokemon/10038/"
+    },
+    {
+      "name": "kangaskhan-mega",
+      "url": "/api/v2/pokemon/10039/"
+    },
+    {
+      "name": "pinsir-mega",
+      "url": "/api/v2/pokemon/10040/"
+    },
+    {
+      "name": "mewtwo-mega-x",
+      "url": "/api/v2/pokemon/10043/"
+    },
+    {
+      "name": "mewtwo-mega-y",
+      "url": "/api/v2/pokemon/10044/"
+    },
+    {
+      "name": "heracross-mega",
+      "url": "/api/v2/pokemon/10047/"
+    },
+    {
+      "name": "mawile-mega",
+      "url": "/api/v2/pokemon/10052/"
+    },
+    {
+      "name": "slowbro-mega",
+      "url": "/api/v2/pokemon/10071/"
+    },
+    {
+      "name": "raichu-alola",
+      "url": "/api/v2/pokemon/10100/"
+    },
+    {
+      "name": "sandshrew-alola",
+      "url": "/api/v2/pokemon/10101/"
+    },
+    {
+      "name": "sandslash-alola",
+      "url": "/api/v2/pokemon/10102/"
+    },
+    {
+      "name": "geodude-alola",
+      "url": "/api/v2/pokemon/10109/"
+    },
+    {
+      "name": "graveler-alola",
+      "url": "/api/v2/pokemon/10110/"
+    },
+    {
+      "name": "golem-alola",
+      "url": "/api/v2/pokemon/10111/"
+    },
+    {
+      "name": "marowak-alola",
+      "url": "/api/v2/pokemon/10115/"
+    },
+    {
+      "name": "pikachu-starter",
+      "url": "/api/v2/pokemon/10158/"
+    }
+  ]
 }

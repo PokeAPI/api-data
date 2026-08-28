@@ -1,87 +1,87 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 869,
-    "location": {
-        "name": "circhester",
-        "url": "/api/v2/location/886/"
+  "id": 869,
+  "name": "circhester-area",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "circhester",
+    "url": "/api/v2/location/886/"
+  },
+  "names": [
+    {
+      "name": "Circhester",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "throh",
+        "url": "/api/v2/pokemon/538/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "sword",
+            "url": "/api/v2/version/33/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 37,
+              "max_level": 37,
+              "chance": 100,
+              "method": {
+                "name": "npc-trade",
+                "url": "/api/v2/encounter-method/36/"
+              },
+              "condition_values": [
+                {
+                  "name": "trade-vanillish",
+                  "url": "/api/v2/encounter-condition-value/234/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
     },
-    "name": "circhester-area",
-    "names": [
+    {
+      "pokemon": {
+        "name": "sawk",
+        "url": "/api/v2/pokemon/539/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Circhester"
-        }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "throh",
-                "url": "/api/v2/pokemon/538/"
-            },
-            "version_details": [
+          "version": {
+            "name": "shield",
+            "url": "/api/v2/version/34/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 37,
+              "max_level": 37,
+              "chance": 100,
+              "method": {
+                "name": "npc-trade",
+                "url": "/api/v2/encounter-method/36/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "trade-vanillish",
-                                    "url": "/api/v2/encounter-condition-value/234/"
-                                }
-                            ],
-                            "max_level": 37,
-                            "method": {
-                                "name": "npc-trade",
-                                "url": "/api/v2/encounter-method/36/"
-                            },
-                            "min_level": 37,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "sword",
-                        "url": "/api/v2/version/33/"
-                    }
+                  "name": "trade-vanillish",
+                  "url": "/api/v2/encounter-condition-value/234/"
                 }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "sawk",
-                "url": "/api/v2/pokemon/539/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "trade-vanillish",
-                                    "url": "/api/v2/encounter-condition-value/234/"
-                                }
-                            ],
-                            "max_level": 37,
-                            "method": {
-                                "name": "npc-trade",
-                                "url": "/api/v2/encounter-method/36/"
-                            },
-                            "min_level": 37,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "shield",
-                        "url": "/api/v2/version/34/"
-                    }
-                }
-            ]
+              ],
+              "pokemon_details": null
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

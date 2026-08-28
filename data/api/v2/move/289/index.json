@@ -1,1731 +1,1731 @@
 {
-    "accuracy": null,
-    "contest_combos": null,
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/14/"
+  "id": 289,
+  "name": "snatch",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 4,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart",
+    "url": "/api/v2/contest-type/4/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/14/"
+  },
+  "damage_class": {
+    "name": "status",
+    "url": "/api/v2/move-damage-class/1/"
+  },
+  "effect_entries": [
+    {
+      "effect": "La prochaine fois qu'un Pokémon utilise une capacité bénéfique sur elle-même ou elle-même et ses alliés ce tour, le lanceur de cette capacité volera la capacité et l'utilisera elle-même.  Les capacités qui peuvent être volées par cette capacité sont identifiées par la marque \"saisissable\".\n\nSi deux Pokémon utilisent cette capacité le même tour, le Pokémon le plus rapide volera la première capacité bénéfique, et le Pokémon plus lent va ensuite la voler à nouveau—ainsi, seulement le Pokémon le plus lent utilisant cette capacité gagnera finalement un effet volé de capacité.\n\nSi le voleur vole Boost, elle ciblera le Pokémon qui a utilisé Boost.  Si le lanceur était la cible originale de Boost, et que le Pokémon qui l'a utilisé à l'origine est affecté par Pression, elle ne perdra qu'1 PP.\n\nCette capacité ne peut pas être copiée par Mimique, ni sélectionnée par Assistance ou Métronome. ",
+      "short_effect": "Vole la capacité de la cible, si elle se cible elle-même.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
     },
-    "contest_type": {
-        "name": "smart",
-        "url": "/api/v2/contest-type/4/"
-    },
-    "damage_class": {
-        "name": "status",
-        "url": "/api/v2/move-damage-class/1/"
-    },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "La prochaine fois qu'un Pok\u00e9mon utilise une capacit\u00e9 b\u00e9n\u00e9fique sur elle-m\u00eame ou elle-m\u00eame et ses alli\u00e9s ce tour, le lanceur de cette capacit\u00e9 volera la capacit\u00e9 et l'utilisera elle-m\u00eame.  Les capacit\u00e9s qui peuvent \u00eatre vol\u00e9es par cette capacit\u00e9 sont identifi\u00e9es par la marque \"saisissable\".\n\nSi deux Pok\u00e9mon utilisent cette capacit\u00e9 le m\u00eame tour, le Pok\u00e9mon le plus rapide volera la premi\u00e8re capacit\u00e9 b\u00e9n\u00e9fique, et le Pok\u00e9mon plus lent va ensuite la voler \u00e0 nouveau\u2014ainsi, seulement le Pok\u00e9mon le plus lent utilisant cette capacit\u00e9 gagnera finalement un effet vol\u00e9 de capacit\u00e9.\n\nSi le voleur vole Boost, elle ciblera le Pok\u00e9mon qui a utilis\u00e9 Boost.  Si le lanceur \u00e9tait la cible originale de Boost, et que le Pok\u00e9mon qui l'a utilis\u00e9 \u00e0 l'origine est affect\u00e9 par Pression, elle ne perdra qu'1 PP.\n\nCette capacit\u00e9 ne peut pas \u00eatre copi\u00e9e par Mimique, ni s\u00e9lectionn\u00e9e par Assistance ou M\u00e9tronome. ",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Vole la capacit\u00e9 de la cible, si elle se cible elle-m\u00eame."
-        },
-        {
-            "effect": "The next time a Pok\u00e9mon uses a beneficial move on itself or itself and its ally this turn, the user of this move will steal the move and use it itself.  Moves which may be stolen by this move are identified by the \"snatchable\" flag.\n\nIf two Pok\u00e9mon use this move on the same turn, the faster Pok\u00e9mon will steal the first beneficial move, and the slower Pok\u00e9mon will then steal it again\u2014thus, only the slowest Pok\u00e9mon using this move ultimately gains a stolen move\u2019s effect.\n\nIf the user steals Psych Up, it will target the Pok\u00e9mon that used Psych Up.  If the user was the original target of Psych Up, and the Pok\u00e9mon that originally used it\u2019s affected by Pressure, it will only lose 1 PP.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Steals the target\u2019s move, if it\u2019s self-targeted."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Steals the effects of the\nmove the foe uses next.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "Steals the effects of the\nmove the target uses next.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "Steals the effects\nof the foe\u2019s\nhealing or status-\nchanging move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the\neffects of any\nhealing or status-\nchanging move the foe\nattempts to use.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur vole l\u2019effet des capacit\u00e9s\nde soin ou de changement de stats\nutilis\u00e9es par la cible.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3064\u304b\u304a\u3046\u3068\u3000\u3057\u305f\n\u304b\u3044\u3075\u304f\u308f\u3056\u3084\u3000\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u306e\n\u308f\u3056\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3064\u304b\u3046\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \uc0ac\uc6a9\ud558\ub824\uace0 \ud55c\n\ud68c\ubcf5 \uae30\uc220\uc774\ub098 \ub2a5\ub825 \ubcc0\ud654\uc758\n\uae30\uc220\uc744 \ube7c\uc557\uc544 \uc790\uc2e0\uc5d0\uac8c \uc4f4\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Lorsqu\u2019une capacit\u00e9 de soin ou de changement\nde stats est utilis\u00e9e, le lanceur vole ses effets.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Raubt den Effekt eingesetzter heilender\noder Werte ver\u00e4ndernder Attacken.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pok\u00e9mon\nstava per usare.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the effects of any attempts\nto use a healing or stat-changing move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u4f7f\u304a\u3046\u3068\u3000\u3057\u305f\n\u56de\u5fa9\u6280\u3084\u3000\u80fd\u529b\u5909\u5316\u306e\n\u6280\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u81ea\u5206\u306b\u3000\u4f7f\u3046\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3064\u304b\u304a\u3046\u3068\u3000\u3057\u305f\n\u304b\u3044\u3075\u304f\u308f\u3056\u3084\u3000\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u306e\n\u308f\u3056\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3064\u304b\u3046\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \uc0ac\uc6a9\ud558\ub824\uace0 \ud55c\n\ud68c\ubcf5 \uae30\uc220\uc774\ub098 \ub2a5\ub825 \ubcc0\ud654\uc758\n\uae30\uc220\uc744 \ube7c\uc557\uc544 \uc790\uc2e0\uc5d0\uac8c \uc4f4\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Lorsqu\u2019une capacit\u00e9 de soin ou de changement\nde stats est utilis\u00e9e, le lanceur vole ses effets.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Raubt den Effekt eingesetzter heilender\noder Werte ver\u00e4ndernder Attacken.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pok\u00e9mon\nstava per usare.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the effects of any attempts\nto use a healing or stat-changing move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u4f7f\u304a\u3046\u3068\u3000\u3057\u305f\n\u56de\u5fa9\u6280\u3084\u3000\u80fd\u529b\u5909\u5316\u306e\n\u6280\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u81ea\u5206\u306b\u3000\u4f7f\u3046\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3064\u304b\u304a\u3046\u3068\u3000\u3057\u305f\n\u304b\u3044\u3075\u304f\u308f\u3056\u3084\u3000\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u306e\n\u308f\u3056\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3064\u304b\u3046\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \uc0ac\uc6a9\ud558\ub824\uace0 \ud55c\n\ud68c\ubcf5 \uae30\uc220\uc774\ub098 \ub2a5\ub825 \ubcc0\ud654\uc758\n\uae30\uc220\uc744 \ube7c\uc557\uc544 \uc790\uc2e0\uc5d0\uac8c \uc4f4\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u5c0d\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u5fa9\u62db\u5f0f\n\u6216\u80fd\u529b\u8b8a\u5316\u62db\u5f0f\u596a\u70ba\u5df1\u7528\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Lorsqu\u2019une capacit\u00e9 de soin ou de changement\nde stats est utilis\u00e9e, le lanceur vole ses effets.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Raubt den Effekt heilender oder Werte ver\u00e4ndernder\nAttacken des Zieles.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pok\u00e9mon\nstava per usare.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u4f7f\u304a\u3046\u3068\u3000\u3057\u305f\n\u56de\u5fa9\u6280\u3084\u3000\u80fd\u529b\u5909\u5316\u306e\n\u6280\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u81ea\u5206\u306b\u3000\u4f7f\u3046\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5c06\u5bf9\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u590d\u62db\u5f0f\n\u6216\u80fd\u529b\u53d8\u5316\u62db\u5f0f\u593a\u4e3a\u5df1\u7528\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3064\u304b\u304a\u3046\u3068\u3000\u3057\u305f\n\u304b\u3044\u3075\u304f\u308f\u3056\u3084\u3000\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u306e\n\u308f\u3056\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3064\u304b\u3046\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \uc0ac\uc6a9\ud558\ub824\uace0 \ud55c\n\ud68c\ubcf5 \uae30\uc220\uc774\ub098 \ub2a5\ub825 \ubcc0\ud654\uc758\n\uae30\uc220\uc744 \ube7c\uc557\uc544 \uc790\uc2e0\uc5d0\uac8c \uc4f4\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u5c0d\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u5fa9\u62db\u5f0f\n\u6216\u80fd\u529b\u8b8a\u5316\u62db\u5f0f\u596a\u70ba\u5df1\u7528\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Lorsqu\u2019une capacit\u00e9 de soin ou de changement\nde stats est utilis\u00e9e, le lanceur vole ses effets.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Raubt den Effekt heilender oder Werte ver\u00e4ndernder\nAttacken des Zieles.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pok\u00e9mon\nstava per usare.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u4f7f\u304a\u3046\u3068\u3000\u3057\u305f\n\u56de\u5fa9\u6280\u3084\u3000\u80fd\u529b\u5909\u5316\u306e\n\u6280\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u81ea\u5206\u306b\u3000\u4f7f\u3046\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5c06\u5bf9\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u590d\u62db\u5f0f\n\u6216\u80fd\u529b\u53d8\u5316\u62db\u5f0f\u593a\u4e3a\u5df1\u7528\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3064\u304b\u304a\u3046\u3068\u3000\u3057\u305f\n\u304b\u3044\u3075\u304f\u308f\u3056\u3084\u3000\u306e\u3046\u308a\u3087\u304f\u3000\u3078\u3093\u304b\u306e\n\u308f\u3056\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u3058\u3076\u3093\u306b\u3000\u3064\u304b\u3046\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \uc0ac\uc6a9\ud558\ub824\uace0 \ud55c\n\ud68c\ubcf5 \uae30\uc220\uc774\ub098 \ub2a5\ub825 \ubcc0\ud654\uc758\n\uae30\uc220\uc744 \ube7c\uc557\uc544 \uc790\uc2e0\uc5d0\uac8c \uc4f4\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5c07\u5c0d\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u5fa9\u62db\u5f0f\n\u6216\u80fd\u529b\u8b8a\u5316\u62db\u5f0f\u596a\u70ba\u5df1\u7528\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Lorsqu\u2019une capacit\u00e9 de soin ou de changement de stats\nest utilis\u00e9e, le lanceur vole ses effets.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Raubt den Effekt heilender oder Werte ver\u00e4ndernder\nAttacken des Zieles.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pok\u00e9mon\nstava per usare.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u4f7f\u304a\u3046\u3068\u3000\u3057\u305f\n\u56de\u5fa9\u6280\u3084\u3000\u80fd\u529b\u5909\u5316\u306e\n\u6280\u3092\u3000\u3046\u3070\u3063\u3066\u3000\u81ea\u5206\u306b\u3000\u4f7f\u3046\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5c06\u5bf9\u624b\u6253\u7b97\u4f7f\u7528\u7684\u56de\u590d\u62db\u5f0f\n\u6216\u80fd\u529b\u53d8\u5316\u62db\u5f0f\u593a\u4e3a\u5df1\u7528\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Roba el efecto de los movimientos de curaci\u00f3n\no de cambio de caracter\u00edsticas que se usen.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3053\u306e\u308f\u3056\u306f\u3000\u3064\u304b\u3048\u307e\u305b\u3093\n\u304a\u3082\u3044\u3060\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u304f\u306a\u308a\u307e\u3059\u304c\n\u308f\u3056\u3092\u3000\u308f\u3059\u308c\u308b\u3053\u3068\u3092\u3000\u304a\u3059\u3059\u3081\u3057\u307e\u3059",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc0ac\uc6a9\ud560 \uc218 \uc5c6\ub294 \uae30\uc220\uc785\ub2c8\ub2e4.\n\ub2e4\uc2dc \ubc30\uc6b0\uac8c \ud560 \uc218 \uc5c6\uc9c0\ub9cc\n\uae30\uc220\uc744 \uc78a\uac8c \ud558\ub294 \uac83\uc744 \uad8c\uc7a5\ud569\ub2c8\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7121\u6cd5\u4f7f\u7528\u6b64\u62db\u5f0f\u3002\n\u96d6\u7136\u5fd8\u8a18\u5f8c\u5c07\u7121\u6cd5\u518d\u60f3\u8d77\u4f86\uff0c\n\u4f46\u9084\u662f\u5efa\u8b70\u5fd8\u8a18\u6b64\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Cette capacit\u00e9 ne peut pas \u00eatre utilis\u00e9e.\nIl est recommand\u00e9 de l\u2019oublier, m\u00eame s\u2019il sera\nimpossible de se la rem\u00e9morer une fois oubli\u00e9e.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Diese Attacke kann nicht eingesetzt werden. Du solltest\ndein Pok\u00e9mon sie vergessen lassen. Beachte aber,\ndass es sich danach nicht wieder an sie erinnern kann.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Este movimiento no se puede usar, por lo que ser\u00eda\nmejor olvidarlo, aunque eso implique que no se pueda\nrecordar posteriormente.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Questa mossa non pu\u00f2 essere usata.\n\u00c8 consigliabile farla dimenticare al Pok\u00e9mon. Tuttavia,\nuna volta dimenticata, non potr\u00e0 pi\u00f9 essere ricordata.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "This move can\u2019t be used.\nIt\u2019s recommended that this move is forgotten.\nOnce forgotten, this move can\u2019t be remembered.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u3053\u306e\u6280\u306f\u3000\u4f7f\u3048\u307e\u305b\u3093\n\u601d\u3044\u51fa\u3059\u3053\u3068\u304c\u3000\u3067\u304d\u306a\u304f\u306a\u308a\u307e\u3059\u304c\n\u6280\u3092\u3000\u5fd8\u308c\u308b\u3053\u3068\u3092\u3000\u304a\u3059\u3059\u3081\u3057\u307e\u3059",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u65e0\u6cd5\u4f7f\u7528\u8fd9\u4e2a\u62db\u5f0f\u3002\n\u867d\u7136\u5fd8\u8bb0\u4e4b\u540e\u5c31\u518d\u4e5f\u60f3\u4e0d\u8d77\u6765\u4e86\uff0c\n\u4f46\u8fd8\u662f\u5efa\u8bae\u5fd8\u8bb0\u8fd9\u4e2a\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Este movimiento no se puede usar, por lo que ser\u00eda\nmejor olvidarlo, aunque eso implique que no se pueda\nrecordar posteriormente.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-iii",
-        "url": "/api/v2/generation/3/"
-    },
-    "id": 289,
-    "learned_by_pokemon": [
-        {
-            "name": "ekans",
-            "url": "/api/v2/pokemon/23/"
-        },
-        {
-            "name": "arbok",
-            "url": "/api/v2/pokemon/24/"
-        },
-        {
-            "name": "clefairy",
-            "url": "/api/v2/pokemon/35/"
-        },
-        {
-            "name": "clefable",
-            "url": "/api/v2/pokemon/36/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "zubat",
-            "url": "/api/v2/pokemon/41/"
-        },
-        {
-            "name": "golbat",
-            "url": "/api/v2/pokemon/42/"
-        },
-        {
-            "name": "meowth",
-            "url": "/api/v2/pokemon/52/"
-        },
-        {
-            "name": "persian",
-            "url": "/api/v2/pokemon/53/"
-        },
-        {
-            "name": "abra",
-            "url": "/api/v2/pokemon/63/"
-        },
-        {
-            "name": "kadabra",
-            "url": "/api/v2/pokemon/64/"
-        },
-        {
-            "name": "alakazam",
-            "url": "/api/v2/pokemon/65/"
-        },
-        {
-            "name": "gastly",
-            "url": "/api/v2/pokemon/92/"
-        },
-        {
-            "name": "haunter",
-            "url": "/api/v2/pokemon/93/"
-        },
-        {
-            "name": "gengar",
-            "url": "/api/v2/pokemon/94/"
-        },
-        {
-            "name": "drowzee",
-            "url": "/api/v2/pokemon/96/"
-        },
-        {
-            "name": "hypno",
-            "url": "/api/v2/pokemon/97/"
-        },
-        {
-            "name": "chansey",
-            "url": "/api/v2/pokemon/113/"
-        },
-        {
-            "name": "mr-mime",
-            "url": "/api/v2/pokemon/122/"
-        },
-        {
-            "name": "snorlax",
-            "url": "/api/v2/pokemon/143/"
-        },
-        {
-            "name": "mewtwo",
-            "url": "/api/v2/pokemon/150/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "crobat",
-            "url": "/api/v2/pokemon/169/"
-        },
-        {
-            "name": "aipom",
-            "url": "/api/v2/pokemon/190/"
-        },
-        {
-            "name": "umbreon",
-            "url": "/api/v2/pokemon/197/"
-        },
-        {
-            "name": "murkrow",
-            "url": "/api/v2/pokemon/198/"
-        },
-        {
-            "name": "misdreavus",
-            "url": "/api/v2/pokemon/200/"
-        },
-        {
-            "name": "sneasel",
-            "url": "/api/v2/pokemon/215/"
-        },
-        {
-            "name": "houndour",
-            "url": "/api/v2/pokemon/228/"
-        },
-        {
-            "name": "houndoom",
-            "url": "/api/v2/pokemon/229/"
-        },
-        {
-            "name": "blissey",
-            "url": "/api/v2/pokemon/242/"
-        },
-        {
-            "name": "poochyena",
-            "url": "/api/v2/pokemon/261/"
-        },
-        {
-            "name": "mightyena",
-            "url": "/api/v2/pokemon/262/"
-        },
-        {
-            "name": "ralts",
-            "url": "/api/v2/pokemon/280/"
-        },
-        {
-            "name": "kirlia",
-            "url": "/api/v2/pokemon/281/"
-        },
-        {
-            "name": "gardevoir",
-            "url": "/api/v2/pokemon/282/"
-        },
-        {
-            "name": "shroomish",
-            "url": "/api/v2/pokemon/285/"
-        },
-        {
-            "name": "breloom",
-            "url": "/api/v2/pokemon/286/"
-        },
-        {
-            "name": "sableye",
-            "url": "/api/v2/pokemon/302/"
-        },
-        {
-            "name": "mawile",
-            "url": "/api/v2/pokemon/303/"
-        },
-        {
-            "name": "gulpin",
-            "url": "/api/v2/pokemon/316/"
-        },
-        {
-            "name": "swalot",
-            "url": "/api/v2/pokemon/317/"
-        },
-        {
-            "name": "spoink",
-            "url": "/api/v2/pokemon/325/"
-        },
-        {
-            "name": "grumpig",
-            "url": "/api/v2/pokemon/326/"
-        },
-        {
-            "name": "spinda",
-            "url": "/api/v2/pokemon/327/"
-        },
-        {
-            "name": "seviper",
-            "url": "/api/v2/pokemon/336/"
-        },
-        {
-            "name": "kecleon",
-            "url": "/api/v2/pokemon/352/"
-        },
-        {
-            "name": "shuppet",
-            "url": "/api/v2/pokemon/353/"
-        },
-        {
-            "name": "banette",
-            "url": "/api/v2/pokemon/354/"
-        },
-        {
-            "name": "duskull",
-            "url": "/api/v2/pokemon/355/"
-        },
-        {
-            "name": "dusclops",
-            "url": "/api/v2/pokemon/356/"
-        },
-        {
-            "name": "chimecho",
-            "url": "/api/v2/pokemon/358/"
-        },
-        {
-            "name": "absol",
-            "url": "/api/v2/pokemon/359/"
-        },
-        {
-            "name": "huntail",
-            "url": "/api/v2/pokemon/367/"
-        },
-        {
-            "name": "deoxys-normal",
-            "url": "/api/v2/pokemon/386/"
-        },
-        {
-            "name": "ambipom",
-            "url": "/api/v2/pokemon/424/"
-        },
-        {
-            "name": "mismagius",
-            "url": "/api/v2/pokemon/429/"
-        },
-        {
-            "name": "honchkrow",
-            "url": "/api/v2/pokemon/430/"
-        },
-        {
-            "name": "glameow",
-            "url": "/api/v2/pokemon/431/"
-        },
-        {
-            "name": "purugly",
-            "url": "/api/v2/pokemon/432/"
-        },
-        {
-            "name": "chingling",
-            "url": "/api/v2/pokemon/433/"
-        },
-        {
-            "name": "stunky",
-            "url": "/api/v2/pokemon/434/"
-        },
-        {
-            "name": "skuntank",
-            "url": "/api/v2/pokemon/435/"
-        },
-        {
-            "name": "mime-jr",
-            "url": "/api/v2/pokemon/439/"
-        },
-        {
-            "name": "spiritomb",
-            "url": "/api/v2/pokemon/442/"
-        },
-        {
-            "name": "munchlax",
-            "url": "/api/v2/pokemon/446/"
-        },
-        {
-            "name": "croagunk",
-            "url": "/api/v2/pokemon/453/"
-        },
-        {
-            "name": "toxicroak",
-            "url": "/api/v2/pokemon/454/"
-        },
-        {
-            "name": "weavile",
-            "url": "/api/v2/pokemon/461/"
-        },
-        {
-            "name": "gallade",
-            "url": "/api/v2/pokemon/475/"
-        },
-        {
-            "name": "dusknoir",
-            "url": "/api/v2/pokemon/477/"
-        },
-        {
-            "name": "froslass",
-            "url": "/api/v2/pokemon/478/"
-        },
-        {
-            "name": "rotom",
-            "url": "/api/v2/pokemon/479/"
-        },
-        {
-            "name": "darkrai",
-            "url": "/api/v2/pokemon/491/"
-        },
-        {
-            "name": "snivy",
-            "url": "/api/v2/pokemon/495/"
-        },
-        {
-            "name": "servine",
-            "url": "/api/v2/pokemon/496/"
-        },
-        {
-            "name": "serperior",
-            "url": "/api/v2/pokemon/497/"
-        },
-        {
-            "name": "purrloin",
-            "url": "/api/v2/pokemon/509/"
-        },
-        {
-            "name": "liepard",
-            "url": "/api/v2/pokemon/510/"
-        },
-        {
-            "name": "blitzle",
-            "url": "/api/v2/pokemon/522/"
-        },
-        {
-            "name": "zebstrika",
-            "url": "/api/v2/pokemon/523/"
-        },
-        {
-            "name": "audino",
-            "url": "/api/v2/pokemon/531/"
-        },
-        {
-            "name": "scolipede",
-            "url": "/api/v2/pokemon/545/"
-        },
-        {
-            "name": "sandile",
-            "url": "/api/v2/pokemon/551/"
-        },
-        {
-            "name": "krokorok",
-            "url": "/api/v2/pokemon/552/"
-        },
-        {
-            "name": "krookodile",
-            "url": "/api/v2/pokemon/553/"
-        },
-        {
-            "name": "darumaka",
-            "url": "/api/v2/pokemon/554/"
-        },
-        {
-            "name": "darmanitan-standard",
-            "url": "/api/v2/pokemon/555/"
-        },
-        {
-            "name": "scraggy",
-            "url": "/api/v2/pokemon/559/"
-        },
-        {
-            "name": "scrafty",
-            "url": "/api/v2/pokemon/560/"
-        },
-        {
-            "name": "yamask",
-            "url": "/api/v2/pokemon/562/"
-        },
-        {
-            "name": "cofagrigus",
-            "url": "/api/v2/pokemon/563/"
-        },
-        {
-            "name": "zorua",
-            "url": "/api/v2/pokemon/570/"
-        },
-        {
-            "name": "zoroark",
-            "url": "/api/v2/pokemon/571/"
-        },
-        {
-            "name": "gothita",
-            "url": "/api/v2/pokemon/574/"
-        },
-        {
-            "name": "gothorita",
-            "url": "/api/v2/pokemon/575/"
-        },
-        {
-            "name": "gothitelle",
-            "url": "/api/v2/pokemon/576/"
-        },
-        {
-            "name": "solosis",
-            "url": "/api/v2/pokemon/577/"
-        },
-        {
-            "name": "duosion",
-            "url": "/api/v2/pokemon/578/"
-        },
-        {
-            "name": "reuniclus",
-            "url": "/api/v2/pokemon/579/"
-        },
-        {
-            "name": "elgyem",
-            "url": "/api/v2/pokemon/605/"
-        },
-        {
-            "name": "beheeyem",
-            "url": "/api/v2/pokemon/606/"
-        },
-        {
-            "name": "druddigon",
-            "url": "/api/v2/pokemon/621/"
-        },
-        {
-            "name": "pawniard",
-            "url": "/api/v2/pokemon/624/"
-        },
-        {
-            "name": "bisharp",
-            "url": "/api/v2/pokemon/625/"
-        },
-        {
-            "name": "vullaby",
-            "url": "/api/v2/pokemon/629/"
-        },
-        {
-            "name": "mandibuzz",
-            "url": "/api/v2/pokemon/630/"
-        },
-        {
-            "name": "heatmor",
-            "url": "/api/v2/pokemon/631/"
-        },
-        {
-            "name": "meloetta-aria",
-            "url": "/api/v2/pokemon/648/"
-        },
-        {
-            "name": "braixen",
-            "url": "/api/v2/pokemon/654/"
-        },
-        {
-            "name": "delphox",
-            "url": "/api/v2/pokemon/655/"
-        },
-        {
-            "name": "froakie",
-            "url": "/api/v2/pokemon/656/"
-        },
-        {
-            "name": "frogadier",
-            "url": "/api/v2/pokemon/657/"
-        },
-        {
-            "name": "greninja",
-            "url": "/api/v2/pokemon/658/"
-        },
-        {
-            "name": "diggersby",
-            "url": "/api/v2/pokemon/660/"
-        },
-        {
-            "name": "fletchling",
-            "url": "/api/v2/pokemon/661/"
-        },
-        {
-            "name": "fletchinder",
-            "url": "/api/v2/pokemon/662/"
-        },
-        {
-            "name": "talonflame",
-            "url": "/api/v2/pokemon/663/"
-        },
-        {
-            "name": "litleo",
-            "url": "/api/v2/pokemon/667/"
-        },
-        {
-            "name": "pyroar-male",
-            "url": "/api/v2/pokemon/668/"
-        },
-        {
-            "name": "pancham",
-            "url": "/api/v2/pokemon/674/"
-        },
-        {
-            "name": "pangoro",
-            "url": "/api/v2/pokemon/675/"
-        },
-        {
-            "name": "espurr",
-            "url": "/api/v2/pokemon/677/"
-        },
-        {
-            "name": "meowstic-male",
-            "url": "/api/v2/pokemon/678/"
-        },
-        {
-            "name": "inkay",
-            "url": "/api/v2/pokemon/686/"
-        },
-        {
-            "name": "malamar",
-            "url": "/api/v2/pokemon/687/"
-        },
-        {
-            "name": "noibat",
-            "url": "/api/v2/pokemon/714/"
-        },
-        {
-            "name": "noivern",
-            "url": "/api/v2/pokemon/715/"
-        },
-        {
-            "name": "hoopa",
-            "url": "/api/v2/pokemon/720/"
-        },
-        {
-            "name": "incineroar",
-            "url": "/api/v2/pokemon/727/"
-        },
-        {
-            "name": "mareanie",
-            "url": "/api/v2/pokemon/747/"
-        },
-        {
-            "name": "toxapex",
-            "url": "/api/v2/pokemon/748/"
-        },
-        {
-            "name": "salandit",
-            "url": "/api/v2/pokemon/757/"
-        },
-        {
-            "name": "salazzle",
-            "url": "/api/v2/pokemon/758/"
-        },
-        {
-            "name": "oranguru",
-            "url": "/api/v2/pokemon/765/"
-        },
-        {
-            "name": "passimian",
-            "url": "/api/v2/pokemon/766/"
-        },
-        {
-            "name": "mimikyu-disguised",
-            "url": "/api/v2/pokemon/778/"
-        },
-        {
-            "name": "bruxish",
-            "url": "/api/v2/pokemon/779/"
-        },
-        {
-            "name": "pheromosa",
-            "url": "/api/v2/pokemon/795/"
-        },
-        {
-            "name": "marshadow",
-            "url": "/api/v2/pokemon/802/"
-        },
-        {
-            "name": "poipole",
-            "url": "/api/v2/pokemon/803/"
-        },
-        {
-            "name": "naganadel",
-            "url": "/api/v2/pokemon/804/"
-        },
-        {
-            "name": "zeraora",
-            "url": "/api/v2/pokemon/807/"
-        },
-        {
-            "name": "deoxys-attack",
-            "url": "/api/v2/pokemon/10001/"
-        },
-        {
-            "name": "deoxys-defense",
-            "url": "/api/v2/pokemon/10002/"
-        },
-        {
-            "name": "deoxys-speed",
-            "url": "/api/v2/pokemon/10003/"
-        },
-        {
-            "name": "rotom-heat",
-            "url": "/api/v2/pokemon/10008/"
-        },
-        {
-            "name": "rotom-wash",
-            "url": "/api/v2/pokemon/10009/"
-        },
-        {
-            "name": "rotom-frost",
-            "url": "/api/v2/pokemon/10010/"
-        },
-        {
-            "name": "rotom-fan",
-            "url": "/api/v2/pokemon/10011/"
-        },
-        {
-            "name": "rotom-mow",
-            "url": "/api/v2/pokemon/10012/"
-        },
-        {
-            "name": "darmanitan-zen",
-            "url": "/api/v2/pokemon/10017/"
-        },
-        {
-            "name": "meloetta-pirouette",
-            "url": "/api/v2/pokemon/10018/"
-        },
-        {
-            "name": "meowstic-female",
-            "url": "/api/v2/pokemon/10025/"
-        },
-        {
-            "name": "alakazam-mega",
-            "url": "/api/v2/pokemon/10037/"
-        },
-        {
-            "name": "gengar-mega",
-            "url": "/api/v2/pokemon/10038/"
-        },
-        {
-            "name": "mewtwo-mega-x",
-            "url": "/api/v2/pokemon/10043/"
-        },
-        {
-            "name": "mewtwo-mega-y",
-            "url": "/api/v2/pokemon/10044/"
-        },
-        {
-            "name": "houndoom-mega",
-            "url": "/api/v2/pokemon/10048/"
-        },
-        {
-            "name": "gardevoir-mega",
-            "url": "/api/v2/pokemon/10051/"
-        },
-        {
-            "name": "mawile-mega",
-            "url": "/api/v2/pokemon/10052/"
-        },
-        {
-            "name": "banette-mega",
-            "url": "/api/v2/pokemon/10056/"
-        },
-        {
-            "name": "absol-mega",
-            "url": "/api/v2/pokemon/10057/"
-        },
-        {
-            "name": "sableye-mega",
-            "url": "/api/v2/pokemon/10066/"
-        },
-        {
-            "name": "gallade-mega",
-            "url": "/api/v2/pokemon/10068/"
-        },
-        {
-            "name": "audino-mega",
-            "url": "/api/v2/pokemon/10069/"
-        },
-        {
-            "name": "hoopa-unbound",
-            "url": "/api/v2/pokemon/10086/"
-        },
-        {
-            "name": "rattata-alola",
-            "url": "/api/v2/pokemon/10091/"
-        },
-        {
-            "name": "raticate-alola",
-            "url": "/api/v2/pokemon/10092/"
-        },
-        {
-            "name": "raticate-totem-alola",
-            "url": "/api/v2/pokemon/10093/"
-        },
-        {
-            "name": "meowth-alola",
-            "url": "/api/v2/pokemon/10107/"
-        },
-        {
-            "name": "persian-alola",
-            "url": "/api/v2/pokemon/10108/"
-        },
-        {
-            "name": "greninja-battle-bond",
-            "url": "/api/v2/pokemon/10116/"
-        },
-        {
-            "name": "greninja-ash",
-            "url": "/api/v2/pokemon/10117/"
-        },
-        {
-            "name": "salazzle-totem",
-            "url": "/api/v2/pokemon/10129/"
-        },
-        {
-            "name": "mimikyu-busted",
-            "url": "/api/v2/pokemon/10143/"
-        },
-        {
-            "name": "mimikyu-totem-disguised",
-            "url": "/api/v2/pokemon/10144/"
-        },
-        {
-            "name": "mimikyu-totem-busted",
-            "url": "/api/v2/pokemon/10145/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/1062/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1063/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1064/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1065/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1066/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1067/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1069/"
-            },
-            "version_group": {
-                "name": "colosseum",
-                "url": "/api/v2/version-group/12/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1070/"
-            },
-            "version_group": {
-                "name": "xd",
-                "url": "/api/v2/version-group/13/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "unique",
-            "url": "/api/v2/move-category/13/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "snatch",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u3088\u3053\u3069\u308a"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uac00\ub85c\ucc44\uae30"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u6436\u596a"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Saisie"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "\u00dcbernahme"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Robo"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Scippo"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Snatch"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u3088\u3053\u3069\u308a"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u62a2\u593a"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Robo"
-        }
-    ],
-    "past_values": [],
-    "power": null,
-    "pp": 10,
-    "priority": 4,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/12/"
-    },
-    "target": {
-        "name": "user",
-        "url": "/api/v2/move-target/7/"
-    },
-    "type": {
-        "name": "dark",
-        "url": "/api/v2/type/17/"
+    {
+      "effect": "The next time a Pokémon uses a beneficial move on itself or itself and its ally this turn, the user of this move will steal the move and use it itself.  Moves which may be stolen by this move are identified by the \"snatchable\" flag.\n\nIf two Pokémon use this move on the same turn, the faster Pokémon will steal the first beneficial move, and the slower Pokémon will then steal it again—thus, only the slowest Pokémon using this move ultimately gains a stolen move’s effect.\n\nIf the user steals Psych Up, it will target the Pokémon that used Psych Up.  If the user was the original target of Psych Up, and the Pokémon that originally used it’s affected by Pressure, it will only lose 1 PP.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
+      "short_effect": "Steals the target’s move, if it’s self-targeted.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii",
+    "url": "/api/v2/generation/3/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "unique",
+      "url": "/api/v2/move-category/13/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "よこどり",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "가로채기",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "搶奪",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Saisie",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Übernahme",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Robo",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Scippo",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Snatch",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "よこどり",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "抢夺",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Robo",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/12/"
+  },
+  "target": {
+    "name": "user",
+    "url": "/api/v2/move-target/7/"
+  },
+  "type": {
+    "name": "dark",
+    "url": "/api/v2/type/17/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/1062/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1063/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1064/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1065/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1066/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1067/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1069/"
+      },
+      "version_group": {
+        "name": "colosseum",
+        "url": "/api/v2/version-group/12/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1070/"
+      },
+      "version_group": {
+        "name": "xd",
+        "url": "/api/v2/version-group/13/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Steals the effects of the\nmove the foe uses next.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "Steals the effects of the\nmove the target uses next.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "Steals the effects\nof the foe’s\nhealing or status-\nchanging move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the\neffects of any\nhealing or status-\nchanging move the foe\nattempts to use.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur vole l’effet des capacités\nde soin ou de changement de stats\nutilisées par la cible.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the effects of any\nhealing or stat-changing move the\nopponent attempts to use.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　つかおうと　した\nかいふくわざや　のうりょく　へんかの\nわざを　うばって　じぶんに　つかう。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "상대가 사용하려고 한\n회복 기술이나 능력 변화의\n기술을 빼앗아 자신에게 쓴다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Lorsqu’une capacité de soin ou de changement\nde stats est utilisée, le lanceur vole ses effets.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Raubt den Effekt eingesetzter heilender\noder Werte verändernder Attacken.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pokémon\nstava per usare.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the effects of any attempts\nto use a healing or stat-changing move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "相手が　使おうと　した\n回復技や　能力変化の\n技を　うばって　自分に　使う。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　つかおうと　した\nかいふくわざや　のうりょく　へんかの\nわざを　うばって　じぶんに　つかう。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "상대가 사용하려고 한\n회복 기술이나 능력 변화의\n기술을 빼앗아 자신에게 쓴다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Lorsqu’une capacité de soin ou de changement\nde stats est utilisée, le lanceur vole ses effets.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Raubt den Effekt eingesetzter heilender\noder Werte verändernder Attacken.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pokémon\nstava per usare.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the effects of any attempts\nto use a healing or stat-changing move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "相手が　使おうと　した\n回復技や　能力変化の\n技を　うばって　自分に　使う。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　つかおうと　した\nかいふくわざや　のうりょく　へんかの\nわざを　うばって　じぶんに　つかう。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "상대가 사용하려고 한\n회복 기술이나 능력 변화의\n기술을 빼앗아 자신에게 쓴다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "將對手打算使用的回復招式\n或能力變化招式奪為己用。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Lorsqu’une capacité de soin ou de changement\nde stats est utilisée, le lanceur vole ses effets.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Raubt den Effekt heilender oder Werte verändernder\nAttacken des Zieles.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pokémon\nstava per usare.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "相手が　使おうと　した\n回復技や　能力変化の\n技を　うばって　自分に　使う。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "将对手打算使用的回复招式\n或能力变化招式夺为己用。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　つかおうと　した\nかいふくわざや　のうりょく　へんかの\nわざを　うばって　じぶんに　つかう。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "상대가 사용하려고 한\n회복 기술이나 능력 변화의\n기술을 빼앗아 자신에게 쓴다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "將對手打算使用的回復招式\n或能力變化招式奪為己用。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Lorsqu’une capacité de soin ou de changement\nde stats est utilisée, le lanceur vole ses effets.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Raubt den Effekt heilender oder Werte verändernder\nAttacken des Zieles.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pokémon\nstava per usare.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "相手が　使おうと　した\n回復技や　能力変化の\n技を　うばって　自分に　使う。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "将对手打算使用的回复招式\n或能力变化招式夺为己用。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　つかおうと　した\nかいふくわざや　のうりょく　へんかの\nわざを　うばって　じぶんに　つかう。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "상대가 사용하려고 한\n회복 기술이나 능력 변화의\n기술을 빼앗아 자신에게 쓴다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "將對手打算使用的回復招式\n或能力變化招式奪為己用。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Lorsqu’une capacité de soin ou de changement de stats\nest utilisée, le lanceur vole ses effets.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Raubt den Effekt heilender oder Werte verändernder\nAttacken des Zieles.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa ruba e utilizza la mossa curativa\no modifica-statistiche che un altro Pokémon\nstava per usare.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the effects of any attempts to use a\nhealing or stat-changing move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "相手が　使おうと　した\n回復技や　能力変化の\n技を　うばって　自分に　使う。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "将对手打算使用的回复招式\n或能力变化招式夺为己用。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Roba el efecto de los movimientos de curación\no de cambio de características que se usen.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "このわざは　つかえません\nおもいだすことが　できなくなりますが\nわざを　わすれることを　おすすめします",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "사용할 수 없는 기술입니다.\n다시 배우게 할 수 없지만\n기술을 잊게 하는 것을 권장합니다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "無法使用此招式。\n雖然忘記後將無法再想起來，\n但還是建議忘記此招式。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Cette capacité ne peut pas être utilisée.\nIl est recommandé de l’oublier, même s’il sera\nimpossible de se la remémorer une fois oubliée.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Diese Attacke kann nicht eingesetzt werden. Du solltest\ndein Pokémon sie vergessen lassen. Beachte aber,\ndass es sich danach nicht wieder an sie erinnern kann.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Este movimiento no se puede usar, por lo que sería\nmejor olvidarlo, aunque eso implique que no se pueda\nrecordar posteriormente.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Questa mossa non può essere usata.\nÈ consigliabile farla dimenticare al Pokémon. Tuttavia,\nuna volta dimenticata, non potrà più essere ricordata.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "This move can’t be used.\nIt’s recommended that this move is forgotten.\nOnce forgotten, this move can’t be remembered.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "この技は　使えません\n思い出すことが　できなくなりますが\n技を　忘れることを　おすすめします",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "无法使用这个招式。\n虽然忘记之后就再也想不起来了，\n但还是建议忘记这个招式。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Este movimiento no se puede usar, por lo que sería\nmejor olvidarlo, aunque eso implique que no se pueda\nrecordar posteriormente.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "ekans",
+      "url": "/api/v2/pokemon/23/"
+    },
+    {
+      "name": "arbok",
+      "url": "/api/v2/pokemon/24/"
+    },
+    {
+      "name": "clefairy",
+      "url": "/api/v2/pokemon/35/"
+    },
+    {
+      "name": "clefable",
+      "url": "/api/v2/pokemon/36/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "zubat",
+      "url": "/api/v2/pokemon/41/"
+    },
+    {
+      "name": "golbat",
+      "url": "/api/v2/pokemon/42/"
+    },
+    {
+      "name": "meowth",
+      "url": "/api/v2/pokemon/52/"
+    },
+    {
+      "name": "persian",
+      "url": "/api/v2/pokemon/53/"
+    },
+    {
+      "name": "abra",
+      "url": "/api/v2/pokemon/63/"
+    },
+    {
+      "name": "kadabra",
+      "url": "/api/v2/pokemon/64/"
+    },
+    {
+      "name": "alakazam",
+      "url": "/api/v2/pokemon/65/"
+    },
+    {
+      "name": "gastly",
+      "url": "/api/v2/pokemon/92/"
+    },
+    {
+      "name": "haunter",
+      "url": "/api/v2/pokemon/93/"
+    },
+    {
+      "name": "gengar",
+      "url": "/api/v2/pokemon/94/"
+    },
+    {
+      "name": "drowzee",
+      "url": "/api/v2/pokemon/96/"
+    },
+    {
+      "name": "hypno",
+      "url": "/api/v2/pokemon/97/"
+    },
+    {
+      "name": "chansey",
+      "url": "/api/v2/pokemon/113/"
+    },
+    {
+      "name": "mr-mime",
+      "url": "/api/v2/pokemon/122/"
+    },
+    {
+      "name": "snorlax",
+      "url": "/api/v2/pokemon/143/"
+    },
+    {
+      "name": "mewtwo",
+      "url": "/api/v2/pokemon/150/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "crobat",
+      "url": "/api/v2/pokemon/169/"
+    },
+    {
+      "name": "aipom",
+      "url": "/api/v2/pokemon/190/"
+    },
+    {
+      "name": "umbreon",
+      "url": "/api/v2/pokemon/197/"
+    },
+    {
+      "name": "murkrow",
+      "url": "/api/v2/pokemon/198/"
+    },
+    {
+      "name": "misdreavus",
+      "url": "/api/v2/pokemon/200/"
+    },
+    {
+      "name": "sneasel",
+      "url": "/api/v2/pokemon/215/"
+    },
+    {
+      "name": "houndour",
+      "url": "/api/v2/pokemon/228/"
+    },
+    {
+      "name": "houndoom",
+      "url": "/api/v2/pokemon/229/"
+    },
+    {
+      "name": "blissey",
+      "url": "/api/v2/pokemon/242/"
+    },
+    {
+      "name": "poochyena",
+      "url": "/api/v2/pokemon/261/"
+    },
+    {
+      "name": "mightyena",
+      "url": "/api/v2/pokemon/262/"
+    },
+    {
+      "name": "ralts",
+      "url": "/api/v2/pokemon/280/"
+    },
+    {
+      "name": "kirlia",
+      "url": "/api/v2/pokemon/281/"
+    },
+    {
+      "name": "gardevoir",
+      "url": "/api/v2/pokemon/282/"
+    },
+    {
+      "name": "shroomish",
+      "url": "/api/v2/pokemon/285/"
+    },
+    {
+      "name": "breloom",
+      "url": "/api/v2/pokemon/286/"
+    },
+    {
+      "name": "sableye",
+      "url": "/api/v2/pokemon/302/"
+    },
+    {
+      "name": "mawile",
+      "url": "/api/v2/pokemon/303/"
+    },
+    {
+      "name": "gulpin",
+      "url": "/api/v2/pokemon/316/"
+    },
+    {
+      "name": "swalot",
+      "url": "/api/v2/pokemon/317/"
+    },
+    {
+      "name": "spoink",
+      "url": "/api/v2/pokemon/325/"
+    },
+    {
+      "name": "grumpig",
+      "url": "/api/v2/pokemon/326/"
+    },
+    {
+      "name": "spinda",
+      "url": "/api/v2/pokemon/327/"
+    },
+    {
+      "name": "seviper",
+      "url": "/api/v2/pokemon/336/"
+    },
+    {
+      "name": "kecleon",
+      "url": "/api/v2/pokemon/352/"
+    },
+    {
+      "name": "shuppet",
+      "url": "/api/v2/pokemon/353/"
+    },
+    {
+      "name": "banette",
+      "url": "/api/v2/pokemon/354/"
+    },
+    {
+      "name": "duskull",
+      "url": "/api/v2/pokemon/355/"
+    },
+    {
+      "name": "dusclops",
+      "url": "/api/v2/pokemon/356/"
+    },
+    {
+      "name": "chimecho",
+      "url": "/api/v2/pokemon/358/"
+    },
+    {
+      "name": "absol",
+      "url": "/api/v2/pokemon/359/"
+    },
+    {
+      "name": "huntail",
+      "url": "/api/v2/pokemon/367/"
+    },
+    {
+      "name": "deoxys-normal",
+      "url": "/api/v2/pokemon/386/"
+    },
+    {
+      "name": "ambipom",
+      "url": "/api/v2/pokemon/424/"
+    },
+    {
+      "name": "mismagius",
+      "url": "/api/v2/pokemon/429/"
+    },
+    {
+      "name": "honchkrow",
+      "url": "/api/v2/pokemon/430/"
+    },
+    {
+      "name": "glameow",
+      "url": "/api/v2/pokemon/431/"
+    },
+    {
+      "name": "purugly",
+      "url": "/api/v2/pokemon/432/"
+    },
+    {
+      "name": "chingling",
+      "url": "/api/v2/pokemon/433/"
+    },
+    {
+      "name": "stunky",
+      "url": "/api/v2/pokemon/434/"
+    },
+    {
+      "name": "skuntank",
+      "url": "/api/v2/pokemon/435/"
+    },
+    {
+      "name": "mime-jr",
+      "url": "/api/v2/pokemon/439/"
+    },
+    {
+      "name": "spiritomb",
+      "url": "/api/v2/pokemon/442/"
+    },
+    {
+      "name": "munchlax",
+      "url": "/api/v2/pokemon/446/"
+    },
+    {
+      "name": "croagunk",
+      "url": "/api/v2/pokemon/453/"
+    },
+    {
+      "name": "toxicroak",
+      "url": "/api/v2/pokemon/454/"
+    },
+    {
+      "name": "weavile",
+      "url": "/api/v2/pokemon/461/"
+    },
+    {
+      "name": "gallade",
+      "url": "/api/v2/pokemon/475/"
+    },
+    {
+      "name": "dusknoir",
+      "url": "/api/v2/pokemon/477/"
+    },
+    {
+      "name": "froslass",
+      "url": "/api/v2/pokemon/478/"
+    },
+    {
+      "name": "rotom",
+      "url": "/api/v2/pokemon/479/"
+    },
+    {
+      "name": "darkrai",
+      "url": "/api/v2/pokemon/491/"
+    },
+    {
+      "name": "snivy",
+      "url": "/api/v2/pokemon/495/"
+    },
+    {
+      "name": "servine",
+      "url": "/api/v2/pokemon/496/"
+    },
+    {
+      "name": "serperior",
+      "url": "/api/v2/pokemon/497/"
+    },
+    {
+      "name": "purrloin",
+      "url": "/api/v2/pokemon/509/"
+    },
+    {
+      "name": "liepard",
+      "url": "/api/v2/pokemon/510/"
+    },
+    {
+      "name": "blitzle",
+      "url": "/api/v2/pokemon/522/"
+    },
+    {
+      "name": "zebstrika",
+      "url": "/api/v2/pokemon/523/"
+    },
+    {
+      "name": "audino",
+      "url": "/api/v2/pokemon/531/"
+    },
+    {
+      "name": "scolipede",
+      "url": "/api/v2/pokemon/545/"
+    },
+    {
+      "name": "sandile",
+      "url": "/api/v2/pokemon/551/"
+    },
+    {
+      "name": "krokorok",
+      "url": "/api/v2/pokemon/552/"
+    },
+    {
+      "name": "krookodile",
+      "url": "/api/v2/pokemon/553/"
+    },
+    {
+      "name": "darumaka",
+      "url": "/api/v2/pokemon/554/"
+    },
+    {
+      "name": "darmanitan-standard",
+      "url": "/api/v2/pokemon/555/"
+    },
+    {
+      "name": "scraggy",
+      "url": "/api/v2/pokemon/559/"
+    },
+    {
+      "name": "scrafty",
+      "url": "/api/v2/pokemon/560/"
+    },
+    {
+      "name": "yamask",
+      "url": "/api/v2/pokemon/562/"
+    },
+    {
+      "name": "cofagrigus",
+      "url": "/api/v2/pokemon/563/"
+    },
+    {
+      "name": "zorua",
+      "url": "/api/v2/pokemon/570/"
+    },
+    {
+      "name": "zoroark",
+      "url": "/api/v2/pokemon/571/"
+    },
+    {
+      "name": "gothita",
+      "url": "/api/v2/pokemon/574/"
+    },
+    {
+      "name": "gothorita",
+      "url": "/api/v2/pokemon/575/"
+    },
+    {
+      "name": "gothitelle",
+      "url": "/api/v2/pokemon/576/"
+    },
+    {
+      "name": "solosis",
+      "url": "/api/v2/pokemon/577/"
+    },
+    {
+      "name": "duosion",
+      "url": "/api/v2/pokemon/578/"
+    },
+    {
+      "name": "reuniclus",
+      "url": "/api/v2/pokemon/579/"
+    },
+    {
+      "name": "elgyem",
+      "url": "/api/v2/pokemon/605/"
+    },
+    {
+      "name": "beheeyem",
+      "url": "/api/v2/pokemon/606/"
+    },
+    {
+      "name": "druddigon",
+      "url": "/api/v2/pokemon/621/"
+    },
+    {
+      "name": "pawniard",
+      "url": "/api/v2/pokemon/624/"
+    },
+    {
+      "name": "bisharp",
+      "url": "/api/v2/pokemon/625/"
+    },
+    {
+      "name": "vullaby",
+      "url": "/api/v2/pokemon/629/"
+    },
+    {
+      "name": "mandibuzz",
+      "url": "/api/v2/pokemon/630/"
+    },
+    {
+      "name": "heatmor",
+      "url": "/api/v2/pokemon/631/"
+    },
+    {
+      "name": "meloetta-aria",
+      "url": "/api/v2/pokemon/648/"
+    },
+    {
+      "name": "braixen",
+      "url": "/api/v2/pokemon/654/"
+    },
+    {
+      "name": "delphox",
+      "url": "/api/v2/pokemon/655/"
+    },
+    {
+      "name": "froakie",
+      "url": "/api/v2/pokemon/656/"
+    },
+    {
+      "name": "frogadier",
+      "url": "/api/v2/pokemon/657/"
+    },
+    {
+      "name": "greninja",
+      "url": "/api/v2/pokemon/658/"
+    },
+    {
+      "name": "diggersby",
+      "url": "/api/v2/pokemon/660/"
+    },
+    {
+      "name": "fletchling",
+      "url": "/api/v2/pokemon/661/"
+    },
+    {
+      "name": "fletchinder",
+      "url": "/api/v2/pokemon/662/"
+    },
+    {
+      "name": "talonflame",
+      "url": "/api/v2/pokemon/663/"
+    },
+    {
+      "name": "litleo",
+      "url": "/api/v2/pokemon/667/"
+    },
+    {
+      "name": "pyroar-male",
+      "url": "/api/v2/pokemon/668/"
+    },
+    {
+      "name": "pancham",
+      "url": "/api/v2/pokemon/674/"
+    },
+    {
+      "name": "pangoro",
+      "url": "/api/v2/pokemon/675/"
+    },
+    {
+      "name": "espurr",
+      "url": "/api/v2/pokemon/677/"
+    },
+    {
+      "name": "meowstic-male",
+      "url": "/api/v2/pokemon/678/"
+    },
+    {
+      "name": "inkay",
+      "url": "/api/v2/pokemon/686/"
+    },
+    {
+      "name": "malamar",
+      "url": "/api/v2/pokemon/687/"
+    },
+    {
+      "name": "noibat",
+      "url": "/api/v2/pokemon/714/"
+    },
+    {
+      "name": "noivern",
+      "url": "/api/v2/pokemon/715/"
+    },
+    {
+      "name": "hoopa",
+      "url": "/api/v2/pokemon/720/"
+    },
+    {
+      "name": "incineroar",
+      "url": "/api/v2/pokemon/727/"
+    },
+    {
+      "name": "mareanie",
+      "url": "/api/v2/pokemon/747/"
+    },
+    {
+      "name": "toxapex",
+      "url": "/api/v2/pokemon/748/"
+    },
+    {
+      "name": "salandit",
+      "url": "/api/v2/pokemon/757/"
+    },
+    {
+      "name": "salazzle",
+      "url": "/api/v2/pokemon/758/"
+    },
+    {
+      "name": "oranguru",
+      "url": "/api/v2/pokemon/765/"
+    },
+    {
+      "name": "passimian",
+      "url": "/api/v2/pokemon/766/"
+    },
+    {
+      "name": "mimikyu-disguised",
+      "url": "/api/v2/pokemon/778/"
+    },
+    {
+      "name": "bruxish",
+      "url": "/api/v2/pokemon/779/"
+    },
+    {
+      "name": "pheromosa",
+      "url": "/api/v2/pokemon/795/"
+    },
+    {
+      "name": "marshadow",
+      "url": "/api/v2/pokemon/802/"
+    },
+    {
+      "name": "poipole",
+      "url": "/api/v2/pokemon/803/"
+    },
+    {
+      "name": "naganadel",
+      "url": "/api/v2/pokemon/804/"
+    },
+    {
+      "name": "zeraora",
+      "url": "/api/v2/pokemon/807/"
+    },
+    {
+      "name": "deoxys-attack",
+      "url": "/api/v2/pokemon/10001/"
+    },
+    {
+      "name": "deoxys-defense",
+      "url": "/api/v2/pokemon/10002/"
+    },
+    {
+      "name": "deoxys-speed",
+      "url": "/api/v2/pokemon/10003/"
+    },
+    {
+      "name": "rotom-heat",
+      "url": "/api/v2/pokemon/10008/"
+    },
+    {
+      "name": "rotom-wash",
+      "url": "/api/v2/pokemon/10009/"
+    },
+    {
+      "name": "rotom-frost",
+      "url": "/api/v2/pokemon/10010/"
+    },
+    {
+      "name": "rotom-fan",
+      "url": "/api/v2/pokemon/10011/"
+    },
+    {
+      "name": "rotom-mow",
+      "url": "/api/v2/pokemon/10012/"
+    },
+    {
+      "name": "darmanitan-zen",
+      "url": "/api/v2/pokemon/10017/"
+    },
+    {
+      "name": "meloetta-pirouette",
+      "url": "/api/v2/pokemon/10018/"
+    },
+    {
+      "name": "meowstic-female",
+      "url": "/api/v2/pokemon/10025/"
+    },
+    {
+      "name": "alakazam-mega",
+      "url": "/api/v2/pokemon/10037/"
+    },
+    {
+      "name": "gengar-mega",
+      "url": "/api/v2/pokemon/10038/"
+    },
+    {
+      "name": "mewtwo-mega-x",
+      "url": "/api/v2/pokemon/10043/"
+    },
+    {
+      "name": "mewtwo-mega-y",
+      "url": "/api/v2/pokemon/10044/"
+    },
+    {
+      "name": "houndoom-mega",
+      "url": "/api/v2/pokemon/10048/"
+    },
+    {
+      "name": "gardevoir-mega",
+      "url": "/api/v2/pokemon/10051/"
+    },
+    {
+      "name": "mawile-mega",
+      "url": "/api/v2/pokemon/10052/"
+    },
+    {
+      "name": "banette-mega",
+      "url": "/api/v2/pokemon/10056/"
+    },
+    {
+      "name": "absol-mega",
+      "url": "/api/v2/pokemon/10057/"
+    },
+    {
+      "name": "sableye-mega",
+      "url": "/api/v2/pokemon/10066/"
+    },
+    {
+      "name": "gallade-mega",
+      "url": "/api/v2/pokemon/10068/"
+    },
+    {
+      "name": "audino-mega",
+      "url": "/api/v2/pokemon/10069/"
+    },
+    {
+      "name": "hoopa-unbound",
+      "url": "/api/v2/pokemon/10086/"
+    },
+    {
+      "name": "rattata-alola",
+      "url": "/api/v2/pokemon/10091/"
+    },
+    {
+      "name": "raticate-alola",
+      "url": "/api/v2/pokemon/10092/"
+    },
+    {
+      "name": "raticate-totem-alola",
+      "url": "/api/v2/pokemon/10093/"
+    },
+    {
+      "name": "meowth-alola",
+      "url": "/api/v2/pokemon/10107/"
+    },
+    {
+      "name": "persian-alola",
+      "url": "/api/v2/pokemon/10108/"
+    },
+    {
+      "name": "greninja-battle-bond",
+      "url": "/api/v2/pokemon/10116/"
+    },
+    {
+      "name": "greninja-ash",
+      "url": "/api/v2/pokemon/10117/"
+    },
+    {
+      "name": "salazzle-totem",
+      "url": "/api/v2/pokemon/10129/"
+    },
+    {
+      "name": "mimikyu-busted",
+      "url": "/api/v2/pokemon/10143/"
+    },
+    {
+      "name": "mimikyu-totem-disguised",
+      "url": "/api/v2/pokemon/10144/"
+    },
+    {
+      "name": "mimikyu-totem-busted",
+      "url": "/api/v2/pokemon/10145/"
+    }
+  ]
 }

@@ -1,1820 +1,1820 @@
 {
-    "encounter_method_rates": [
+  "id": 702,
+  "name": "nature-sanctuary-area",
+  "game_index": 95,
+  "encounter_method_rates": [
+    {
+      "encounter_method": {
+        "name": "walk",
+        "url": "/api/v2/encounter-method/1/"
+      },
+      "version_details": [
         {
-            "encounter_method": {
-                "name": "walk",
-                "url": "/api/v2/encounter-method/1/"
-            },
-            "version_details": [
-                {
-                    "rate": 1,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rate": 1,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
+          "rate": 1,
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          }
         },
         {
-            "encounter_method": {
-                "name": "super-rod",
-                "url": "/api/v2/encounter-method/4/"
-            },
-            "version_details": [
-                {
-                    "rate": 50,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rate": 50,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
+          "rate": 1,
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "super-rod",
+        "url": "/api/v2/encounter-method/4/"
+      },
+      "version_details": [
+        {
+          "rate": 50,
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          }
         },
         {
-            "encounter_method": {
-                "name": "surf",
-                "url": "/api/v2/encounter-method/5/"
-            },
-            "version_details": [
-                {
-                    "rate": 10,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rate": 10,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
+          "rate": 50,
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "surf",
+        "url": "/api/v2/encounter-method/5/"
+      },
+      "version_details": [
+        {
+          "rate": 10,
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          }
         },
         {
-            "encounter_method": {
+          "rate": 10,
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "dark-grass",
+        "url": "/api/v2/encounter-method/8/"
+      },
+      "version_details": [
+        {
+          "rate": 3,
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          }
+        },
+        {
+          "rate": 3,
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          }
+        }
+      ]
+    }
+  ],
+  "location": {
+    "name": "nature-sanctuary",
+    "url": "/api/v2/location/560/"
+  },
+  "names": [
+    {
+      "name": "Nature Sanctuary",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "Naturschutzgebiet",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Réserve Naturelle",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "golduck",
+        "url": "/api/v2/pokemon/55/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 10,
+              "method": {
                 "name": "dark-grass",
                 "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "version_details": [
-                {
-                    "rate": 3,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "rate": 3,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 10,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "game_index": 95,
-    "id": 702,
-    "location": {
-        "name": "nature-sanctuary",
-        "url": "/api/v2/location/560/"
+      ]
     },
-    "name": "nature-sanctuary-area",
-    "names": [
+    {
+      "pokemon": {
+        "name": "magikarp",
+        "url": "/api/v2/pokemon/129/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 60,
+              "chance": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "name": "Nature Sanctuary"
+            {
+              "min_level": 50,
+              "max_level": 70,
+              "chance": 15,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 70,
+              "chance": 4,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 1,
+              "max_level": 100,
+              "chance": 1,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 40,
+              "max_level": 60,
+              "chance": 40,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 60,
+              "chance": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "name": "Naturschutzgebiet"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
+            {
+              "min_level": 50,
+              "max_level": 70,
+              "chance": 15,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "name": "R\u00e9serve Naturelle"
+            {
+              "min_level": 50,
+              "max_level": 70,
+              "chance": 4,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 1,
+              "max_level": 100,
+              "chance": 1,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 40,
+              "max_level": 60,
+              "chance": 40,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "gyarados",
+        "url": "/api/v2/pokemon/130/"
+      },
+      "version_details": [
         {
-            "pokemon": {
-                "name": "golduck",
-                "url": "/api/v2/pokemon/55/"
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 50,
+              "max_level": 70,
+              "chance": 15,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
+            {
+              "min_level": 50,
+              "max_level": 70,
+              "chance": 4,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 1,
+              "max_level": 100,
+              "chance": 1,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "pokemon": {
-                "name": "magikarp",
-                "url": "/api/v2/pokemon/129/"
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 50,
+              "max_level": 70,
+              "chance": 15,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 15,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 100,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 1,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 15,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 100,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 1,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "gyarados",
-                "url": "/api/v2/pokemon/130/"
+            {
+              "min_level": 50,
+              "max_level": 70,
+              "chance": 4,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 15,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 100,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 1,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 15,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 100,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 1,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "noctowl",
-                "url": "/api/v2/pokemon/164/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 66,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 66,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 66,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 66,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "girafarig",
-                "url": "/api/v2/pokemon/203/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 66,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 66,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 67,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 67,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 30,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 66,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 66,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 67,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 67,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 30,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "dunsparce",
-                "url": "/api/v2/pokemon/206/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 10,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 10,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "nuzleaf",
-                "url": "/api/v2/pokemon/274/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 64,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 64,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 60,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 64,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 64,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 60,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "shiftry",
-                "url": "/api/v2/pokemon/275/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "altaria",
-                "url": "/api/v2/pokemon/334/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 64,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 64,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 40,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 64,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 64,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 40,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "kecleon",
-                "url": "/api/v2/pokemon/352/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 67,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 67,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 10,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 67,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 67,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 10,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "buizel",
-                "url": "/api/v2/pokemon/418/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 90,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 90,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "floatzel",
-                "url": "/api/v2/pokemon/419/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "audino",
-                "url": "/api/v2/pokemon/531/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 85,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 56,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 56,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 58,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 58,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "grass-spots",
-                                "url": "/api/v2/encounter-method/9/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 85,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "basculin-red-striped",
-                "url": "/api/v2/pokemon/550/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 110,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 75,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "fraxure",
-                "url": "/api/v2/pokemon/611/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 67,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 67,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 67,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 67,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 65,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 65,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 67,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 67,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 67,
-                            "method": {
-                                "name": "dark-grass",
-                                "url": "/api/v2/encounter-method/8/"
-                            },
-                            "min_level": 67,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 57,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 57,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 59,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 59,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "haxorus",
-                "url": "/api/v2/pokemon/612/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "static",
-                                "url": "/api/v2/encounter-method/20/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "static",
-                                "url": "/api/v2/encounter-method/20/"
-                            },
-                            "min_level": 60,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "basculin-blue-striped",
-                "url": "/api/v2/pokemon/10016/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod-spots",
-                                "url": "/api/v2/encounter-method/12/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf-spots",
-                                "url": "/api/v2/encounter-method/13/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 75,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 45,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 60,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 50,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 110,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
+            {
+              "min_level": 1,
+              "max_level": 100,
+              "chance": 1,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "noctowl",
+        "url": "/api/v2/pokemon/164/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 66,
+              "max_level": 66,
+              "chance": 10,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 58,
+              "max_level": 58,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 66,
+              "max_level": 66,
+              "chance": 10,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 58,
+              "max_level": 58,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "girafarig",
+        "url": "/api/v2/pokemon/203/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 30,
+          "encounter_details": [
+            {
+              "min_level": 66,
+              "max_level": 66,
+              "chance": 10,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 67,
+              "max_level": 67,
+              "chance": 5,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 58,
+              "max_level": 58,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 30,
+          "encounter_details": [
+            {
+              "min_level": 66,
+              "max_level": 66,
+              "chance": 10,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 67,
+              "max_level": 67,
+              "chance": 5,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 58,
+              "max_level": 58,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "dunsparce",
+        "url": "/api/v2/pokemon/206/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 10,
+          "encounter_details": [
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 10,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 10,
+          "encounter_details": [
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 10,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "nuzleaf",
+        "url": "/api/v2/pokemon/274/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 60,
+          "encounter_details": [
+            {
+              "min_level": 64,
+              "max_level": 64,
+              "chance": 20,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 10,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 56,
+              "max_level": 56,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 60,
+          "encounter_details": [
+            {
+              "min_level": 64,
+              "max_level": 64,
+              "chance": 20,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 10,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 56,
+              "max_level": 56,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "shiftry",
+        "url": "/api/v2/pokemon/275/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 4,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 1,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 4,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 1,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "altaria",
+        "url": "/api/v2/pokemon/334/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 40,
+          "encounter_details": [
+            {
+              "min_level": 64,
+              "max_level": 64,
+              "chance": 20,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 56,
+              "max_level": 56,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 40,
+          "encounter_details": [
+            {
+              "min_level": 64,
+              "max_level": 64,
+              "chance": 20,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 56,
+              "max_level": 56,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "kecleon",
+        "url": "/api/v2/pokemon/352/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 10,
+          "encounter_details": [
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 4,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 67,
+              "max_level": 67,
+              "chance": 1,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 10,
+          "encounter_details": [
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 4,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 67,
+              "max_level": 67,
+              "chance": 1,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "buizel",
+        "url": "/api/v2/pokemon/418/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 90,
+          "encounter_details": [
+            {
+              "min_level": 45,
+              "max_level": 60,
+              "chance": 30,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 45,
+              "max_level": 60,
+              "chance": 60,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 90,
+          "encounter_details": [
+            {
+              "min_level": 45,
+              "max_level": 60,
+              "chance": 30,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 45,
+              "max_level": 60,
+              "chance": 60,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "floatzel",
+        "url": "/api/v2/pokemon/419/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 4,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 1,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 4,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 1,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "audino",
+        "url": "/api/v2/pokemon/531/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 85,
+          "encounter_details": [
+            {
+              "min_level": 56,
+              "max_level": 56,
+              "chance": 20,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 56,
+              "max_level": 56,
+              "chance": 20,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 10,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 58,
+              "max_level": 58,
+              "chance": 10,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 58,
+              "max_level": 58,
+              "chance": 10,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 5,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 5,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 4,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 1,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 85,
+          "encounter_details": [
+            {
+              "min_level": 56,
+              "max_level": 56,
+              "chance": 20,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 56,
+              "max_level": 56,
+              "chance": 20,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 10,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 58,
+              "max_level": 58,
+              "chance": 10,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 58,
+              "max_level": 58,
+              "chance": 10,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 5,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 5,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 4,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 1,
+              "method": {
+                "name": "grass-spots",
+                "url": "/api/v2/encounter-method/9/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "basculin-red-striped",
+        "url": "/api/v2/pokemon/550/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 110,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 60,
+              "chance": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 45,
+              "max_level": 60,
+              "chance": 60,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 5,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 4,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 1,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 75,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 60,
+              "chance": 40,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 45,
+              "max_level": 60,
+              "chance": 30,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 5,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "fraxure",
+        "url": "/api/v2/pokemon/611/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 5,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 67,
+              "max_level": 67,
+              "chance": 4,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 67,
+              "max_level": 67,
+              "chance": 1,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 65,
+              "max_level": 65,
+              "chance": 5,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 67,
+              "max_level": 67,
+              "chance": 4,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 67,
+              "max_level": 67,
+              "chance": 1,
+              "method": {
+                "name": "dark-grass",
+                "url": "/api/v2/encounter-method/8/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 57,
+              "max_level": 57,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 59,
+              "max_level": 59,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "haxorus",
+        "url": "/api/v2/pokemon/612/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 60,
+              "max_level": 60,
+              "chance": 100,
+              "method": {
+                "name": "static",
+                "url": "/api/v2/encounter-method/20/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 60,
+              "max_level": 60,
+              "chance": 100,
+              "method": {
+                "name": "static",
+                "url": "/api/v2/encounter-method/20/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "basculin-blue-striped",
+        "url": "/api/v2/pokemon/10016/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 75,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 60,
+              "chance": 40,
+              "method": {
+                "name": "super-rod-spots",
+                "url": "/api/v2/encounter-method/12/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 45,
+              "max_level": 60,
+              "chance": 30,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 5,
+              "method": {
+                "name": "surf-spots",
+                "url": "/api/v2/encounter-method/13/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 110,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 60,
+              "chance": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 45,
+              "max_level": 60,
+              "chance": 60,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 5,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 4,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 50,
+              "max_level": 60,
+              "chance": 1,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

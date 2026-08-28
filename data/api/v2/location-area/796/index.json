@@ -1,203 +1,203 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 796,
-    "location": {
-        "name": "roaming-hoenn",
-        "url": "/api/v2/location/801/"
+  "id": 796,
+  "name": "roaming-hoenn-area",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "roaming-hoenn",
+    "url": "/api/v2/location/801/"
+  },
+  "names": [
+    {
+      "name": "Roaming Hoenn",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     },
-    "name": "roaming-hoenn-area",
-    "names": [
+    {
+      "name": "Wandert durch Hoenn",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Sillonnant Hoenn",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "latias",
+        "url": "/api/v2/pokemon/380/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+          "version": {
+            "name": "sapphire",
+            "url": "/api/v2/version/8/"
+          },
+          "max_chance": 50,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 25,
+              "method": {
+                "name": "roaming-grass",
+                "url": "/api/v2/encounter-method/28/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "name": "Roaming Hoenn"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Wandert durch Hoenn"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Sillonnant Hoenn"
-        }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "latias",
-                "url": "/api/v2/pokemon/380/"
-            },
-            "version_details": [
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 25,
+              "method": {
+                "name": "roaming-water",
+                "url": "/api/v2/encounter-method/29/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 25,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "roaming-grass",
-                                "url": "/api/v2/encounter-method/28/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-hall-of-fame",
-                                    "url": "/api/v2/encounter-condition-value/35/"
-                                }
-                            ],
-                            "max_level": 40,
-                            "method": {
-                                "name": "roaming-water",
-                                "url": "/api/v2/encounter-method/29/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 50,
-                    "version": {
-                        "name": "sapphire",
-                        "url": "/api/v2/version/8/"
-                    }
+                  "name": "story-progress-hall-of-fame",
+                  "url": "/api/v2/encounter-condition-value/35/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "emerald",
+            "url": "/api/v2/version/9/"
+          },
+          "max_chance": 50,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 25,
+              "method": {
+                "name": "roaming-grass",
+                "url": "/api/v2/encounter-method/28/"
+              },
+              "condition_values": [
+                {
+                  "name": "story-progress-hall-of-fame",
+                  "url": "/api/v2/encounter-condition-value/35/"
                 },
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-hall-of-fame",
-                                    "url": "/api/v2/encounter-condition-value/35/"
-                                },
-                                {
-                                    "name": "tv-option-red",
-                                    "url": "/api/v2/encounter-condition-value/28/"
-                                }
-                            ],
-                            "max_level": 40,
-                            "method": {
-                                "name": "roaming-grass",
-                                "url": "/api/v2/encounter-method/28/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "roaming-water",
-                                "url": "/api/v2/encounter-method/29/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 50,
-                    "version": {
-                        "name": "emerald",
-                        "url": "/api/v2/version/9/"
-                    }
+                  "name": "tv-option-red",
+                  "url": "/api/v2/encounter-condition-value/28/"
                 }
-            ]
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 25,
+              "method": {
+                "name": "roaming-water",
+                "url": "/api/v2/encounter-method/29/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "latios",
+        "url": "/api/v2/pokemon/381/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "ruby",
+            "url": "/api/v2/version/7/"
+          },
+          "max_chance": 50,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 25,
+              "method": {
+                "name": "roaming-grass",
+                "url": "/api/v2/encounter-method/28/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 25,
+              "method": {
+                "name": "roaming-water",
+                "url": "/api/v2/encounter-method/29/"
+              },
+              "condition_values": [
+                {
+                  "name": "story-progress-hall-of-fame",
+                  "url": "/api/v2/encounter-condition-value/35/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "pokemon": {
-                "name": "latios",
-                "url": "/api/v2/pokemon/381/"
-            },
-            "version_details": [
+          "version": {
+            "name": "emerald",
+            "url": "/api/v2/version/9/"
+          },
+          "max_chance": 50,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 25,
+              "method": {
+                "name": "roaming-grass",
+                "url": "/api/v2/encounter-method/28/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 25,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "roaming-grass",
-                                "url": "/api/v2/encounter-method/28/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-hall-of-fame",
-                                    "url": "/api/v2/encounter-condition-value/35/"
-                                }
-                            ],
-                            "max_level": 40,
-                            "method": {
-                                "name": "roaming-water",
-                                "url": "/api/v2/encounter-method/29/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 50,
-                    "version": {
-                        "name": "ruby",
-                        "url": "/api/v2/version/7/"
-                    }
+                  "name": "story-progress-hall-of-fame",
+                  "url": "/api/v2/encounter-condition-value/35/"
                 },
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 25,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-hall-of-fame",
-                                    "url": "/api/v2/encounter-condition-value/35/"
-                                },
-                                {
-                                    "name": "tv-option-blue",
-                                    "url": "/api/v2/encounter-condition-value/27/"
-                                }
-                            ],
-                            "max_level": 40,
-                            "method": {
-                                "name": "roaming-grass",
-                                "url": "/api/v2/encounter-method/28/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 25,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "roaming-water",
-                                "url": "/api/v2/encounter-method/29/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 50,
-                    "version": {
-                        "name": "emerald",
-                        "url": "/api/v2/version/9/"
-                    }
+                  "name": "tv-option-blue",
+                  "url": "/api/v2/encounter-condition-value/27/"
                 }
-            ]
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 25,
+              "method": {
+                "name": "roaming-water",
+                "url": "/api/v2/encounter-method/29/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

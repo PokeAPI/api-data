@@ -1,412 +1,412 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "accuracy": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
-        "contest_combos": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "properties": {
-                        "normal": {
-                            "properties": {
-                                "use_after": {
-                                    "anyOf": [
-                                        {
-                                            "type": "null"
-                                        },
-                                        {
-                                            "items": {
-                                                "$ref": "/schema/v2/named_api_resource.json"
-                                            },
-                                            "type": "array"
-                                        }
-                                    ]
-                                },
-                                "use_before": {
-                                    "anyOf": [
-                                        {
-                                            "type": "null"
-                                        },
-                                        {
-                                            "items": {
-                                                "$ref": "/schema/v2/named_api_resource.json"
-                                            },
-                                            "type": "array"
-                                        }
-                                    ]
-                                }
-                            },
-                            "required": [
-                                "use_after",
-                                "use_before"
-                            ],
-                            "type": "object"
-                        },
-                        "super": {
-                            "properties": {
-                                "use_after": {
-                                    "anyOf": [
-                                        {
-                                            "type": "null"
-                                        },
-                                        {
-                                            "items": {
-                                                "$ref": "/schema/v2/named_api_resource.json"
-                                            },
-                                            "type": "array"
-                                        }
-                                    ]
-                                },
-                                "use_before": {
-                                    "anyOf": [
-                                        {
-                                            "type": "null"
-                                        },
-                                        {
-                                            "items": {
-                                                "$ref": "/schema/v2/named_api_resource.json"
-                                            },
-                                            "type": "array"
-                                        }
-                                    ]
-                                }
-                            },
-                            "required": [
-                                "use_after",
-                                "use_before"
-                            ],
-                            "type": "object"
-                        }
-                    },
-                    "required": [
-                        "normal",
-                        "super"
-                    ],
-                    "type": "object"
-                }
-            ]
-        },
-        "contest_effect": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/api_resource.json"
-                }
-            ]
-        },
-        "contest_type": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/named_api_resource.json"
-                }
-            ]
-        },
-        "damage_class": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "effect_chance": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
-        "effect_changes": {
-            "items": {
-                "properties": {
-                    "effect_entries": {
-                        "items": {
-                            "$ref": "/schema/v2/effect.json"
-                        },
-                        "type": "array"
-                    },
-                    "version_group": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "effect_entries",
-                    "version_group"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "effect_entries": {
-            "items": {
-                "$ref": "/schema/v2/verbose_effect.json"
-            },
-            "type": "array"
-        },
-        "flavor_text_entries": {
-            "items": {
-                "properties": {
-                    "flavor_text": {
-                        "type": "string"
-                    },
-                    "language": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "version_group": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "flavor_text",
-                    "language",
-                    "version_group"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "generation": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "learned_by_pokemon": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "machines": {
-            "items": {
-                "$ref": "/schema/v2/machine_version_detail.json"
-            },
-            "type": "array"
-        },
-        "meta": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "properties": {
-                        "ailment": {
-                            "$ref": "/schema/v2/named_api_resource.json"
-                        },
-                        "ailment_chance": {
-                            "type": "integer"
-                        },
-                        "category": {
-                            "$ref": "/schema/v2/named_api_resource.json"
-                        },
-                        "crit_rate": {
-                            "type": "integer"
-                        },
-                        "drain": {
-                            "type": "integer"
-                        },
-                        "flinch_chance": {
-                            "type": "integer"
-                        },
-                        "healing": {
-                            "type": "integer"
-                        },
-                        "max_hits": {
-                            "type": [
-                                "integer",
-                                "null"
-                            ]
-                        },
-                        "max_turns": {
-                            "type": [
-                                "integer",
-                                "null"
-                            ]
-                        },
-                        "min_hits": {
-                            "type": [
-                                "integer",
-                                "null"
-                            ]
-                        },
-                        "min_turns": {
-                            "type": [
-                                "integer",
-                                "null"
-                            ]
-                        },
-                        "stat_chance": {
-                            "type": "integer"
-                        }
-                    },
-                    "required": [
-                        "ailment",
-                        "ailment_chance",
-                        "category",
-                        "crit_rate",
-                        "drain",
-                        "flinch_chance",
-                        "healing",
-                        "max_hits",
-                        "max_turns",
-                        "min_hits",
-                        "min_turns",
-                        "stat_chance"
-                    ],
-                    "type": "object"
-                }
-            ]
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        },
-        "past_values": {
-            "items": {
-                "properties": {
-                    "accuracy": {
-                        "type": [
-                            "integer",
-                            "null"
-                        ]
-                    },
-                    "effect_chance": {
-                        "type": [
-                            "integer",
-                            "null"
-                        ]
-                    },
-                    "effect_entries": {
-                        "items": {
-                            "$ref": "/schema/v2/verbose_effect.json"
-                        },
-                        "type": "array"
-                    },
-                    "power": {
-                        "type": [
-                            "integer",
-                            "null"
-                        ]
-                    },
-                    "pp": {
-                        "type": [
-                            "integer",
-                            "null"
-                        ]
-                    },
-                    "type": {
-                        "anyOf": [
-                            {
-                                "type": "null"
-                            },
-                            {
-                                "$ref": "/schema/v2/named_api_resource.json"
-                            }
-                        ]
-                    },
-                    "version_group": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "accuracy",
-                    "effect_chance",
-                    "effect_entries",
-                    "power",
-                    "pp",
-                    "type",
-                    "version_group"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "power": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
-        "pp": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
-        "priority": {
-            "type": "integer"
-        },
-        "stat_changes": {
-            "items": {
-                "properties": {
-                    "change": {
-                        "type": "integer"
-                    },
-                    "stat": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    }
-                },
-                "required": [
-                    "change",
-                    "stat"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "super_contest_effect": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/api_resource.json"
-                }
-            ]
-        },
-        "target": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "type": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "accuracy",
-        "contest_combos",
-        "contest_effect",
-        "contest_type",
-        "damage_class",
-        "effect_chance",
-        "effect_changes",
-        "effect_entries",
-        "flavor_text_entries",
-        "generation",
-        "id",
-        "learned_by_pokemon",
-        "machines",
-        "meta",
-        "name",
-        "names",
-        "past_values",
-        "power",
-        "pp",
-        "priority",
-        "stat_changes",
-        "super_contest_effect",
-        "target",
-        "type"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "accuracy": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "effect_chance": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "pp": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "priority": {
+      "type": "integer"
+    },
+    "power": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "contest_combos": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "normal": {
+              "type": "object",
+              "properties": {
+                "use_before": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                      }
+                    }
+                  ]
+                },
+                "use_after": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "use_after",
+                "use_before"
+              ]
+            },
+            "super": {
+              "type": "object",
+              "properties": {
+                "use_before": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                      }
+                    }
+                  ]
+                },
+                "use_after": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "/schema/v2/named_api_resource.json"
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "use_after",
+                "use_before"
+              ]
+            }
+          },
+          "required": [
+            "normal",
+            "super"
+          ]
+        }
+      ]
+    },
+    "contest_type": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "/schema/v2/named_api_resource.json"
+        }
+      ]
+    },
+    "contest_effect": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "/schema/v2/api_resource.json"
+        }
+      ]
+    },
+    "damage_class": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "effect_entries": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/verbose_effect.json"
+      }
+    },
+    "effect_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "version_group": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          },
+          "effect_entries": {
+            "type": "array",
+            "items": {
+              "$ref": "/schema/v2/effect.json"
+            }
+          }
+        },
+        "required": [
+          "effect_entries",
+          "version_group"
+        ]
+      }
+    },
+    "generation": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "meta": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "ailment": {
+              "$ref": "/schema/v2/named_api_resource.json"
+            },
+            "category": {
+              "$ref": "/schema/v2/named_api_resource.json"
+            },
+            "min_hits": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "max_hits": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "min_turns": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "max_turns": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "drain": {
+              "type": "integer"
+            },
+            "healing": {
+              "type": "integer"
+            },
+            "crit_rate": {
+              "type": "integer"
+            },
+            "ailment_chance": {
+              "type": "integer"
+            },
+            "flinch_chance": {
+              "type": "integer"
+            },
+            "stat_chance": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ailment",
+            "ailment_chance",
+            "category",
+            "crit_rate",
+            "drain",
+            "flinch_chance",
+            "healing",
+            "max_hits",
+            "max_turns",
+            "min_hits",
+            "min_turns",
+            "stat_chance"
+          ]
+        }
+      ]
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    },
+    "past_values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "accuracy": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "power": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "pp": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "effect_chance": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "effect_entries": {
+            "type": "array",
+            "items": {
+              "$ref": "/schema/v2/verbose_effect.json"
+            }
+          },
+          "type": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "/schema/v2/named_api_resource.json"
+              }
+            ]
+          },
+          "version_group": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "accuracy",
+          "effect_chance",
+          "effect_entries",
+          "power",
+          "pp",
+          "type",
+          "version_group"
+        ]
+      }
+    },
+    "stat_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "change": {
+            "type": "integer"
+          },
+          "stat": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "change",
+          "stat"
+        ]
+      }
+    },
+    "super_contest_effect": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "/schema/v2/api_resource.json"
+        }
+      ]
+    },
+    "target": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "type": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "machines": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/machine_version_detail.json"
+      }
+    },
+    "flavor_text_entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "flavor_text": {
+            "type": "string"
+          },
+          "language": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          },
+          "version_group": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "flavor_text",
+          "language",
+          "version_group"
+        ]
+      }
+    },
+    "learned_by_pokemon": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    }
+  },
+  "required": [
+    "accuracy",
+    "contest_combos",
+    "contest_effect",
+    "contest_type",
+    "damage_class",
+    "effect_chance",
+    "effect_changes",
+    "effect_entries",
+    "flavor_text_entries",
+    "generation",
+    "id",
+    "learned_by_pokemon",
+    "machines",
+    "meta",
+    "name",
+    "names",
+    "past_values",
+    "power",
+    "pp",
+    "priority",
+    "stat_changes",
+    "super_contest_effect",
+    "target",
+    "type"
+  ]
 }

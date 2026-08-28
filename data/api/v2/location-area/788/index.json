@@ -1,68 +1,68 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 788,
-    "location": {
-        "name": "eterna-city",
-        "url": "/api/v2/location/2/"
+  "id": 788,
+  "name": "eterna-city-west-gate",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "eterna-city",
+    "url": "/api/v2/location/2/"
+  },
+  "names": [
+    {
+      "name": "Eterna City (west gate)",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     },
-    "name": "eterna-city-west-gate",
-    "names": [
+    {
+      "name": "Ewigenau (Westliches Tor)",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Vestigion (porte ouest)",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "togepi",
+        "url": "/api/v2/pokemon/175/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Eterna City (west gate)"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Ewigenau (Westliches Tor)"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Vestigion (porte ouest)"
-        }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "togepi",
-                "url": "/api/v2/pokemon/175/"
-            },
-            "version_details": [
+          "version": {
+            "name": "platinum",
+            "url": "/api/v2/version/14/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 1,
+              "max_level": 1,
+              "chance": 100,
+              "method": {
+                "name": "gift-egg",
+                "url": "/api/v2/encounter-method/19/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-defeat-jupiter",
-                                    "url": "/api/v2/encounter-condition-value/51/"
-                                }
-                            ],
-                            "max_level": 1,
-                            "method": {
-                                "name": "gift-egg",
-                                "url": "/api/v2/encounter-method/19/"
-                            },
-                            "min_level": 1,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "platinum",
-                        "url": "/api/v2/version/14/"
-                    }
+                  "name": "story-progress-defeat-jupiter",
+                  "url": "/api/v2/encounter-condition-value/51/"
                 }
-            ]
+              ],
+              "pokemon_details": null
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

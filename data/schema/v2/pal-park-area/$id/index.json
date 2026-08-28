@@ -1,46 +1,46 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "id": {
-            "type": "integer"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        },
-        "pokemon_encounters": {
-            "items": {
-                "properties": {
-                    "base_score": {
-                        "type": "integer"
-                    },
-                    "pokemon_species": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "rate": {
-                        "type": "integer"
-                    }
-                },
-                "required": [
-                    "base_score",
-                    "pokemon_species",
-                    "rate"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "id",
-        "name",
-        "names",
-        "pokemon_encounters"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    },
+    "pokemon_encounters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "base_score": {
+            "type": "integer"
+          },
+          "rate": {
+            "type": "integer"
+          },
+          "pokemon_species": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "base_score",
+          "pokemon_species",
+          "rate"
+        ]
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "names",
+    "pokemon_encounters"
+  ]
 }

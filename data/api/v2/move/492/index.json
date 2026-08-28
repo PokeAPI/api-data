@@ -1,1727 +1,1727 @@
 {
-    "accuracy": 100,
-    "contest_combos": null,
-    "contest_effect": null,
-    "contest_type": null,
-    "damage_class": {
-        "name": "physical",
-        "url": "/api/v2/move-damage-class/2/"
+  "id": 492,
+  "name": "foul-play",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": 95,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical",
+    "url": "/api/v2/move-damage-class/2/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts réguliers.  Les dégâts sont calculés en utilisant la stat attaquante de la cible plutôt que celle du lanceur.",
+      "short_effect": "Calcule les dégâts avec la stat d'attaque de la cible.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
     },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  Les d\u00e9g\u00e2ts sont calcul\u00e9s en utilisant la stat attaquante de la cible plut\u00f4t que celle du lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Calcule les d\u00e9g\u00e2ts avec la stat d'attaque de la cible."
-        },
-        {
-            "effect": "Inflicts regular damage.  Damage is calculated using the target\u2019s attacking stat rather than the user\u2019s.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Calculates damage with the target\u2019s attacking stat."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Le lanceur utilise la force de l\u2019ennemi.\nPlus l\u2019Attaque de l\u2019ennemi est \u00e9lev\u00e9e,\nplus le lanceur inflige de d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target\u2019s power\nagainst it. The higher the target\u2019s\nAttack stat, the greater the damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target\u2019s power\nagainst it. The higher the target\u2019s\nAttack stat, the greater the damage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3061\u304b\u3089\u3092\u3000\u308a\u3088\u3046\u3059\u308b\u3002\n\u305f\u305f\u304b\u3063\u3066\u3044\u308b\u3000\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u304c\n\u305f\u304b\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \ud798\uc744 \uc774\uc6a9\ud55c\ub2e4.\n\uc2f8\uc6b0\uace0 \uc788\ub294 \uc0c1\ub300\uc758 \uacf5\uaca9\uc774\n\ub192\uc744\uc218\ub85d \ub370\ubbf8\uc9c0\uac00 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la force de l\u2019ennemi.\nPlus l\u2019Attaque de l\u2019ennemi est \u00e9lev\u00e9e, plus le\nlanceur inflige de d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe h\u00f6her dessen Angriff, desto mehr Schaden\nrichtet die Attacke an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm\u00e1s da\u00f1o provoca.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto \u00e8 proporzionale all\u2019Attacco del nemico.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target\u2019s power\nagainst it. The higher the target\u2019s Attack stat,\nthe greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u529b\u3092\u3000\u5229\u7528\u3059\u308b\u3002\n\u6226\u3063\u3066\u3044\u308b\u3000\u76f8\u624b\u306e\u3000\u653b\u6483\u304c\n\u9ad8\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm\u00e1s da\u00f1o provoca.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3061\u304b\u3089\u3092\u3000\u308a\u3088\u3046\u3059\u308b\u3002\n\u305f\u305f\u304b\u3063\u3066\u3044\u308b\u3000\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u304c\n\u305f\u304b\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \ud798\uc744 \uc774\uc6a9\ud55c\ub2e4.\n\uc2f8\uc6b0\uace0 \uc788\ub294 \uc0c1\ub300\uc758 \uacf5\uaca9\uc774\n\ub192\uc744\uc218\ub85d \ub370\ubbf8\uc9c0\uac00 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la force de l\u2019ennemi.\nPlus l\u2019Attaque de l\u2019ennemi est \u00e9lev\u00e9e, plus le\nlanceur inflige de d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe h\u00f6her dessen Angriff, desto mehr Schaden\nrichtet die Attacke an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para atacarlo.\nCuanto mayor es el Ataque del objetivo, m\u00e1s da\u00f1o\nprovoca.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto \u00e8 proporzionale all\u2019Attacco del nemico.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target\u2019s power\nagainst it. The higher the target\u2019s Attack stat,\nthe greater the move\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u529b\u3092\u3000\u5229\u7528\u3059\u308b\u3002\n\u6226\u3063\u3066\u3044\u308b\u3000\u76f8\u624b\u306e\u3000\u653b\u6483\u304c\n\u9ad8\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para atacarlo.\nCuanto mayor es el Ataque del objetivo, m\u00e1s da\u00f1o\nprovoca.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3061\u304b\u3089\u3092\u3000\u308a\u3088\u3046\u3059\u308b\u3002\n\u305f\u305f\u304b\u3063\u3066\u3044\u308b\u3000\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u304c\n\u305f\u304b\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \ud798\uc744 \uc774\uc6a9\ud55c\ub2e4.\n\uc2f8\uc6b0\uace0 \uc788\ub294 \uc0c1\ub300\uc758 \uacf5\uaca9\uc774\n\ub192\uc744\uc218\ub85d \ub370\ubbf8\uc9c0\uac00 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5c0d\u624b\u7684\u529b\u91cf\u9032\u884c\u653b\u64ca\u3002\n\u5c0d\u624b\u7684\u653b\u64ca\u8d8a\u9ad8\uff0c\n\u7d66\u4e88\u5c0d\u624b\u7684\u50b7\u5bb3\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la force de l\u2019ennemi.\nPlus l\u2019Attaque de l\u2019ennemi est \u00e9lev\u00e9e, plus le lanceur\ninflige de d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe h\u00f6her dessen Angriff, desto mehr Schaden richtet\ndie Attacke an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm\u00e1s da\u00f1o provoca.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto \u00e8 proporzionale all\u2019Attacco del nemico.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target\u2019s power against it. The\nhigher the target\u2019s Attack stat, the greater the\nmove\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u529b\u3092\u3000\u5229\u7528\u3059\u308b\u3002\n\u6226\u3063\u3066\u3044\u308b\u3000\u76f8\u624b\u306e\u3000\u653b\u6483\u304c\n\u9ad8\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5bf9\u624b\u7684\u529b\u91cf\u8fdb\u884c\u653b\u51fb\u3002\n\u6b63\u548c\u81ea\u5df1\u6218\u6597\u7684\u5bf9\u624b\uff0c\n\u5176\u653b\u51fb\u8d8a\u9ad8\uff0c\u4f24\u5bb3\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm\u00e1s da\u00f1o provoca.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3061\u304b\u3089\u3092\u3000\u308a\u3088\u3046\u3059\u308b\u3002\n\u305f\u305f\u304b\u3063\u3066\u3044\u308b\u3000\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u304c\n\u305f\u304b\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \ud798\uc744 \uc774\uc6a9\ud55c\ub2e4.\n\uc2f8\uc6b0\uace0 \uc788\ub294 \uc0c1\ub300\uc758 \uacf5\uaca9\uc774\n\ub192\uc744\uc218\ub85d \ub370\ubbf8\uc9c0\uac00 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5c0d\u624b\u7684\u529b\u91cf\u9032\u884c\u653b\u64ca\u3002\n\u5c0d\u624b\u7684\u653b\u64ca\u8d8a\u9ad8\uff0c\n\u7d66\u4e88\u5c0d\u624b\u7684\u50b7\u5bb3\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la force de l\u2019ennemi.\nPlus l\u2019Attaque de l\u2019ennemi est \u00e9lev\u00e9e, plus le lanceur\ninflige de d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe h\u00f6her dessen Angriff, desto mehr Schaden richtet\ndie Attacke an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm\u00e1s da\u00f1o provoca.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto \u00e8 proporzionale all\u2019Attacco del nemico.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target\u2019s power against it. The\nhigher the target\u2019s Attack stat, the greater the\nmove\u2019s power.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u529b\u3092\u3000\u5229\u7528\u3059\u308b\u3002\n\u6226\u3063\u3066\u3044\u308b\u3000\u76f8\u624b\u306e\u3000\u653b\u6483\u304c\n\u9ad8\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5bf9\u624b\u7684\u529b\u91cf\u8fdb\u884c\u653b\u51fb\u3002\n\u6b63\u548c\u81ea\u5df1\u6218\u6597\u7684\u5bf9\u624b\uff0c\n\u5176\u653b\u51fb\u8d8a\u9ad8\uff0c\u4f24\u5bb3\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm\u00e1s da\u00f1o provoca.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3061\u304b\u3089\u3092\u3000\u308a\u3088\u3046\u3059\u308b\u3002\n\u305f\u305f\u304b\u3063\u3066\u3044\u308b\u3000\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u304c\n\u305f\u304b\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \ud798\uc744 \uc774\uc6a9\ud55c\ub2e4.\n\uc2f8\uc6b0\uace0 \uc788\ub294 \uc0c1\ub300\uc758 \uacf5\uaca9\uc774\n\ub192\uc744\uc218\ub85d \ub370\ubbf8\uc9c0\uac00 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5c0d\u624b\u7684\u529b\u91cf\u9032\u884c\u653b\u64ca\u3002\n\u5c0d\u624b\u7684\u653b\u64ca\u8d8a\u9ad8\uff0c\n\u7d66\u4e88\u5c0d\u624b\u7684\u50b7\u5bb3\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la force de l\u2019ennemi.\nPlus l\u2019Attaque de l\u2019ennemi est \u00e9lev\u00e9e, plus le lanceur\ninflige de d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe h\u00f6her dessen Angriff, desto mehr Schaden richtet\ndie Attacke an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm\u00e1s da\u00f1o provoca.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto \u00e8 proporzionale all\u2019Attacco del nemico.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target\u2019s power against it.\nThe higher the target\u2019s Attack stat, the greater\nthe damage it deals.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u529b\u3092\u3000\u5229\u7528\u3059\u308b\u3002\n\u6226\u3063\u3066\u3044\u308b\u3000\u76f8\u624b\u306e\u3000\u653b\u6483\u304c\n\u9ad8\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5bf9\u624b\u7684\u529b\u91cf\u8fdb\u884c\u653b\u51fb\u3002\n\u6b63\u548c\u81ea\u5df1\u6218\u6597\u7684\u5bf9\u624b\uff0c\n\u5176\u653b\u51fb\u8d8a\u9ad8\uff0c\u4f24\u5bb3\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm\u00e1s da\u00f1o provoca.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u306e\u3000\u3061\u304b\u3089\u3092\u3000\u308a\u3088\u3046\u3059\u308b\u3002\n\u305f\u305f\u304b\u3063\u3066\u3044\u308b\u3000\u3042\u3044\u3066\u306e\u3000\u3053\u3046\u3052\u304d\u304c\n\u305f\u304b\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uc758 \ud798\uc744 \uc774\uc6a9\ud55c\ub2e4.\n\uc2f8\uc6b0\uace0 \uc788\ub294 \uc0c1\ub300\uc758 \uacf5\uaca9\uc774\n\ub192\uc744\uc218\ub85d \ub370\ubbf8\uc9c0\uac00 \uc62c\ub77c\uac04\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5c0d\u624b\u7684\u529b\u91cf\u9032\u884c\u653b\u64ca\u3002\n\u5c0d\u624b\u7684\u653b\u64ca\u8d8a\u9ad8\uff0c\n\u7d66\u4e88\u5c0d\u624b\u7684\u50b7\u5bb3\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur utilise la force de l\u2019ennemi.\nPlus l\u2019Attaque de l\u2019ennemi est \u00e9lev\u00e9e,\nplus le lanceur inflige de d\u00e9g\u00e2ts.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe h\u00f6her dessen Angriff, desto mehr Schaden richtet\ndie Attacke an.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para atacarlo.\nCuanto mayor es el Ataque del objetivo, m\u00e1s da\u00f1o\nprovoca.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto \u00e8 proporzionale all\u2019Attacco del nemico.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target\u2019s power against it.\nThe higher the target\u2019s Attack stat, the greater\nthe damage it deals.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u306e\u3000\u529b\u3092\u3000\u5229\u7528\u3059\u308b\u3002\n\u6226\u3063\u3066\u3044\u308b\u3000\u76f8\u624b\u306e\u3000\u653b\u6483\u304c\n\u9ad8\u3044\u307b\u3069\u3000\u30c0\u30e1\u30fc\u30b8\u304c\u3000\u3042\u304c\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5229\u7528\u5bf9\u624b\u7684\u529b\u91cf\u8fdb\u884c\u653b\u51fb\u3002\n\u6b63\u548c\u81ea\u5df1\u6218\u6597\u7684\u5bf9\u624b\uff0c\n\u5176\u653b\u51fb\u8d8a\u9ad8\uff0c\u4f24\u5bb3\u8d8a\u5927\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El usuario emplea la fuerza del objetivo para atacarlo.\nCuanto mayor es el Ataque del objetivo, m\u00e1s da\u00f1o\nprovoca.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target's power against it. The higher the target's Attack stat, the greater the damage it deals.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-v",
-        "url": "/api/v2/generation/5/"
-    },
-    "id": 492,
-    "learned_by_pokemon": [
-        {
-            "name": "vulpix",
-            "url": "/api/v2/pokemon/37/"
-        },
-        {
-            "name": "ninetales",
-            "url": "/api/v2/pokemon/38/"
-        },
-        {
-            "name": "diglett",
-            "url": "/api/v2/pokemon/50/"
-        },
-        {
-            "name": "dugtrio",
-            "url": "/api/v2/pokemon/51/"
-        },
-        {
-            "name": "meowth",
-            "url": "/api/v2/pokemon/52/"
-        },
-        {
-            "name": "persian",
-            "url": "/api/v2/pokemon/53/"
-        },
-        {
-            "name": "abra",
-            "url": "/api/v2/pokemon/63/"
-        },
-        {
-            "name": "kadabra",
-            "url": "/api/v2/pokemon/64/"
-        },
-        {
-            "name": "alakazam",
-            "url": "/api/v2/pokemon/65/"
-        },
-        {
-            "name": "slowpoke",
-            "url": "/api/v2/pokemon/79/"
-        },
-        {
-            "name": "slowbro",
-            "url": "/api/v2/pokemon/80/"
-        },
-        {
-            "name": "gastly",
-            "url": "/api/v2/pokemon/92/"
-        },
-        {
-            "name": "haunter",
-            "url": "/api/v2/pokemon/93/"
-        },
-        {
-            "name": "gengar",
-            "url": "/api/v2/pokemon/94/"
-        },
-        {
-            "name": "drowzee",
-            "url": "/api/v2/pokemon/96/"
-        },
-        {
-            "name": "hypno",
-            "url": "/api/v2/pokemon/97/"
-        },
-        {
-            "name": "voltorb",
-            "url": "/api/v2/pokemon/100/"
-        },
-        {
-            "name": "electrode",
-            "url": "/api/v2/pokemon/101/"
-        },
-        {
-            "name": "mr-mime",
-            "url": "/api/v2/pokemon/122/"
-        },
-        {
-            "name": "porygon",
-            "url": "/api/v2/pokemon/137/"
-        },
-        {
-            "name": "mewtwo",
-            "url": "/api/v2/pokemon/150/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "spinarak",
-            "url": "/api/v2/pokemon/167/"
-        },
-        {
-            "name": "ariados",
-            "url": "/api/v2/pokemon/168/"
-        },
-        {
-            "name": "xatu",
-            "url": "/api/v2/pokemon/178/"
-        },
-        {
-            "name": "sudowoodo",
-            "url": "/api/v2/pokemon/185/"
-        },
-        {
-            "name": "aipom",
-            "url": "/api/v2/pokemon/190/"
-        },
-        {
-            "name": "umbreon",
-            "url": "/api/v2/pokemon/197/"
-        },
-        {
-            "name": "murkrow",
-            "url": "/api/v2/pokemon/198/"
-        },
-        {
-            "name": "slowking",
-            "url": "/api/v2/pokemon/199/"
-        },
-        {
-            "name": "misdreavus",
-            "url": "/api/v2/pokemon/200/"
-        },
-        {
-            "name": "girafarig",
-            "url": "/api/v2/pokemon/203/"
-        },
-        {
-            "name": "sneasel",
-            "url": "/api/v2/pokemon/215/"
-        },
-        {
-            "name": "delibird",
-            "url": "/api/v2/pokemon/225/"
-        },
-        {
-            "name": "houndour",
-            "url": "/api/v2/pokemon/228/"
-        },
-        {
-            "name": "houndoom",
-            "url": "/api/v2/pokemon/229/"
-        },
-        {
-            "name": "porygon2",
-            "url": "/api/v2/pokemon/233/"
-        },
-        {
-            "name": "tyranitar",
-            "url": "/api/v2/pokemon/248/"
-        },
-        {
-            "name": "poochyena",
-            "url": "/api/v2/pokemon/261/"
-        },
-        {
-            "name": "mightyena",
-            "url": "/api/v2/pokemon/262/"
-        },
-        {
-            "name": "seedot",
-            "url": "/api/v2/pokemon/273/"
-        },
-        {
-            "name": "nuzleaf",
-            "url": "/api/v2/pokemon/274/"
-        },
-        {
-            "name": "shiftry",
-            "url": "/api/v2/pokemon/275/"
-        },
-        {
-            "name": "masquerain",
-            "url": "/api/v2/pokemon/284/"
-        },
-        {
-            "name": "sableye",
-            "url": "/api/v2/pokemon/302/"
-        },
-        {
-            "name": "mawile",
-            "url": "/api/v2/pokemon/303/"
-        },
-        {
-            "name": "cacnea",
-            "url": "/api/v2/pokemon/331/"
-        },
-        {
-            "name": "cacturne",
-            "url": "/api/v2/pokemon/332/"
-        },
-        {
-            "name": "kecleon",
-            "url": "/api/v2/pokemon/352/"
-        },
-        {
-            "name": "shuppet",
-            "url": "/api/v2/pokemon/353/"
-        },
-        {
-            "name": "banette",
-            "url": "/api/v2/pokemon/354/"
-        },
-        {
-            "name": "absol",
-            "url": "/api/v2/pokemon/359/"
-        },
-        {
-            "name": "glalie",
-            "url": "/api/v2/pokemon/362/"
-        },
-        {
-            "name": "bastiodon",
-            "url": "/api/v2/pokemon/411/"
-        },
-        {
-            "name": "ambipom",
-            "url": "/api/v2/pokemon/424/"
-        },
-        {
-            "name": "mismagius",
-            "url": "/api/v2/pokemon/429/"
-        },
-        {
-            "name": "honchkrow",
-            "url": "/api/v2/pokemon/430/"
-        },
-        {
-            "name": "glameow",
-            "url": "/api/v2/pokemon/431/"
-        },
-        {
-            "name": "purugly",
-            "url": "/api/v2/pokemon/432/"
-        },
-        {
-            "name": "stunky",
-            "url": "/api/v2/pokemon/434/"
-        },
-        {
-            "name": "skuntank",
-            "url": "/api/v2/pokemon/435/"
-        },
-        {
-            "name": "bonsly",
-            "url": "/api/v2/pokemon/438/"
-        },
-        {
-            "name": "spiritomb",
-            "url": "/api/v2/pokemon/442/"
-        },
-        {
-            "name": "croagunk",
-            "url": "/api/v2/pokemon/453/"
-        },
-        {
-            "name": "toxicroak",
-            "url": "/api/v2/pokemon/454/"
-        },
-        {
-            "name": "weavile",
-            "url": "/api/v2/pokemon/461/"
-        },
-        {
-            "name": "porygon-z",
-            "url": "/api/v2/pokemon/474/"
-        },
-        {
-            "name": "rotom",
-            "url": "/api/v2/pokemon/479/"
-        },
-        {
-            "name": "uxie",
-            "url": "/api/v2/pokemon/480/"
-        },
-        {
-            "name": "darkrai",
-            "url": "/api/v2/pokemon/491/"
-        },
-        {
-            "name": "arceus",
-            "url": "/api/v2/pokemon/493/"
-        },
-        {
-            "name": "purrloin",
-            "url": "/api/v2/pokemon/509/"
-        },
-        {
-            "name": "liepard",
-            "url": "/api/v2/pokemon/510/"
-        },
-        {
-            "name": "sandile",
-            "url": "/api/v2/pokemon/551/"
-        },
-        {
-            "name": "krokorok",
-            "url": "/api/v2/pokemon/552/"
-        },
-        {
-            "name": "krookodile",
-            "url": "/api/v2/pokemon/553/"
-        },
-        {
-            "name": "scraggy",
-            "url": "/api/v2/pokemon/559/"
-        },
-        {
-            "name": "scrafty",
-            "url": "/api/v2/pokemon/560/"
-        },
-        {
-            "name": "zorua",
-            "url": "/api/v2/pokemon/570/"
-        },
-        {
-            "name": "zoroark",
-            "url": "/api/v2/pokemon/571/"
-        },
-        {
-            "name": "gothita",
-            "url": "/api/v2/pokemon/574/"
-        },
-        {
-            "name": "gothorita",
-            "url": "/api/v2/pokemon/575/"
-        },
-        {
-            "name": "gothitelle",
-            "url": "/api/v2/pokemon/576/"
-        },
-        {
-            "name": "foongus",
-            "url": "/api/v2/pokemon/590/"
-        },
-        {
-            "name": "amoonguss",
-            "url": "/api/v2/pokemon/591/"
-        },
-        {
-            "name": "stunfisk",
-            "url": "/api/v2/pokemon/618/"
-        },
-        {
-            "name": "pawniard",
-            "url": "/api/v2/pokemon/624/"
-        },
-        {
-            "name": "bisharp",
-            "url": "/api/v2/pokemon/625/"
-        },
-        {
-            "name": "vullaby",
-            "url": "/api/v2/pokemon/629/"
-        },
-        {
-            "name": "mandibuzz",
-            "url": "/api/v2/pokemon/630/"
-        },
-        {
-            "name": "tornadus-incarnate",
-            "url": "/api/v2/pokemon/641/"
-        },
-        {
-            "name": "thundurus-incarnate",
-            "url": "/api/v2/pokemon/642/"
-        },
-        {
-            "name": "fennekin",
-            "url": "/api/v2/pokemon/653/"
-        },
-        {
-            "name": "braixen",
-            "url": "/api/v2/pokemon/654/"
-        },
-        {
-            "name": "delphox",
-            "url": "/api/v2/pokemon/655/"
-        },
-        {
-            "name": "diggersby",
-            "url": "/api/v2/pokemon/660/"
-        },
-        {
-            "name": "pancham",
-            "url": "/api/v2/pokemon/674/"
-        },
-        {
-            "name": "pangoro",
-            "url": "/api/v2/pokemon/675/"
-        },
-        {
-            "name": "inkay",
-            "url": "/api/v2/pokemon/686/"
-        },
-        {
-            "name": "malamar",
-            "url": "/api/v2/pokemon/687/"
-        },
-        {
-            "name": "klefki",
-            "url": "/api/v2/pokemon/707/"
-        },
-        {
-            "name": "phantump",
-            "url": "/api/v2/pokemon/708/"
-        },
-        {
-            "name": "trevenant",
-            "url": "/api/v2/pokemon/709/"
-        },
-        {
-            "name": "pumpkaboo-average",
-            "url": "/api/v2/pokemon/710/"
-        },
-        {
-            "name": "gourgeist-average",
-            "url": "/api/v2/pokemon/711/"
-        },
-        {
-            "name": "yveltal",
-            "url": "/api/v2/pokemon/717/"
-        },
-        {
-            "name": "hoopa",
-            "url": "/api/v2/pokemon/720/"
-        },
-        {
-            "name": "salandit",
-            "url": "/api/v2/pokemon/757/"
-        },
-        {
-            "name": "salazzle",
-            "url": "/api/v2/pokemon/758/"
-        },
-        {
-            "name": "oranguru",
-            "url": "/api/v2/pokemon/765/"
-        },
-        {
-            "name": "nihilego",
-            "url": "/api/v2/pokemon/793/"
-        },
-        {
-            "name": "pheromosa",
-            "url": "/api/v2/pokemon/795/"
-        },
-        {
-            "name": "marshadow",
-            "url": "/api/v2/pokemon/802/"
-        },
-        {
-            "name": "blacephalon",
-            "url": "/api/v2/pokemon/806/"
-        },
-        {
-            "name": "nickit",
-            "url": "/api/v2/pokemon/827/"
-        },
-        {
-            "name": "thievul",
-            "url": "/api/v2/pokemon/828/"
-        },
-        {
-            "name": "sinistea",
-            "url": "/api/v2/pokemon/854/"
-        },
-        {
-            "name": "polteageist",
-            "url": "/api/v2/pokemon/855/"
-        },
-        {
-            "name": "impidimp",
-            "url": "/api/v2/pokemon/859/"
-        },
-        {
-            "name": "morgrem",
-            "url": "/api/v2/pokemon/860/"
-        },
-        {
-            "name": "grimmsnarl",
-            "url": "/api/v2/pokemon/861/"
-        },
-        {
-            "name": "perrserker",
-            "url": "/api/v2/pokemon/863/"
-        },
-        {
-            "name": "mr-rime",
-            "url": "/api/v2/pokemon/866/"
-        },
-        {
-            "name": "morpeko-full-belly",
-            "url": "/api/v2/pokemon/877/"
-        },
-        {
-            "name": "duraludon",
-            "url": "/api/v2/pokemon/884/"
-        },
-        {
-            "name": "urshifu-single-strike",
-            "url": "/api/v2/pokemon/892/"
-        },
-        {
-            "name": "spectrier",
-            "url": "/api/v2/pokemon/897/"
-        },
-        {
-            "name": "meowscarada",
-            "url": "/api/v2/pokemon/908/"
-        },
-        {
-            "name": "squawkabilly-green-plumage",
-            "url": "/api/v2/pokemon/931/"
-        },
-        {
-            "name": "shroodle",
-            "url": "/api/v2/pokemon/944/"
-        },
-        {
-            "name": "grafaiai",
-            "url": "/api/v2/pokemon/945/"
-        },
-        {
-            "name": "toedscool",
-            "url": "/api/v2/pokemon/948/"
-        },
-        {
-            "name": "toedscruel",
-            "url": "/api/v2/pokemon/949/"
-        },
-        {
-            "name": "flittle",
-            "url": "/api/v2/pokemon/955/"
-        },
-        {
-            "name": "espathra",
-            "url": "/api/v2/pokemon/956/"
-        },
-        {
-            "name": "tinkatink",
-            "url": "/api/v2/pokemon/957/"
-        },
-        {
-            "name": "tinkatuff",
-            "url": "/api/v2/pokemon/958/"
-        },
-        {
-            "name": "tinkaton",
-            "url": "/api/v2/pokemon/959/"
-        },
-        {
-            "name": "wiglett",
-            "url": "/api/v2/pokemon/960/"
-        },
-        {
-            "name": "wugtrio",
-            "url": "/api/v2/pokemon/961/"
-        },
-        {
-            "name": "bombirdier",
-            "url": "/api/v2/pokemon/962/"
-        },
-        {
-            "name": "farigiraf",
-            "url": "/api/v2/pokemon/981/"
-        },
-        {
-            "name": "kingambit",
-            "url": "/api/v2/pokemon/983/"
-        },
-        {
-            "name": "wo-chien",
-            "url": "/api/v2/pokemon/1001/"
-        },
-        {
-            "name": "poltchageist",
-            "url": "/api/v2/pokemon/1012/"
-        },
-        {
-            "name": "sinistcha",
-            "url": "/api/v2/pokemon/1013/"
-        },
-        {
-            "name": "archaludon",
-            "url": "/api/v2/pokemon/1018/"
-        },
-        {
-            "name": "pecharunt",
-            "url": "/api/v2/pokemon/1025/"
-        },
-        {
-            "name": "rotom-heat",
-            "url": "/api/v2/pokemon/10008/"
-        },
-        {
-            "name": "rotom-wash",
-            "url": "/api/v2/pokemon/10009/"
-        },
-        {
-            "name": "rotom-frost",
-            "url": "/api/v2/pokemon/10010/"
-        },
-        {
-            "name": "rotom-fan",
-            "url": "/api/v2/pokemon/10011/"
-        },
-        {
-            "name": "rotom-mow",
-            "url": "/api/v2/pokemon/10012/"
-        },
-        {
-            "name": "tornadus-therian",
-            "url": "/api/v2/pokemon/10019/"
-        },
-        {
-            "name": "thundurus-therian",
-            "url": "/api/v2/pokemon/10020/"
-        },
-        {
-            "name": "pumpkaboo-small",
-            "url": "/api/v2/pokemon/10027/"
-        },
-        {
-            "name": "pumpkaboo-large",
-            "url": "/api/v2/pokemon/10028/"
-        },
-        {
-            "name": "pumpkaboo-super",
-            "url": "/api/v2/pokemon/10029/"
-        },
-        {
-            "name": "gourgeist-small",
-            "url": "/api/v2/pokemon/10030/"
-        },
-        {
-            "name": "gourgeist-large",
-            "url": "/api/v2/pokemon/10031/"
-        },
-        {
-            "name": "gourgeist-super",
-            "url": "/api/v2/pokemon/10032/"
-        },
-        {
-            "name": "alakazam-mega",
-            "url": "/api/v2/pokemon/10037/"
-        },
-        {
-            "name": "gengar-mega",
-            "url": "/api/v2/pokemon/10038/"
-        },
-        {
-            "name": "mewtwo-mega-x",
-            "url": "/api/v2/pokemon/10043/"
-        },
-        {
-            "name": "mewtwo-mega-y",
-            "url": "/api/v2/pokemon/10044/"
-        },
-        {
-            "name": "houndoom-mega",
-            "url": "/api/v2/pokemon/10048/"
-        },
-        {
-            "name": "tyranitar-mega",
-            "url": "/api/v2/pokemon/10049/"
-        },
-        {
-            "name": "mawile-mega",
-            "url": "/api/v2/pokemon/10052/"
-        },
-        {
-            "name": "banette-mega",
-            "url": "/api/v2/pokemon/10056/"
-        },
-        {
-            "name": "absol-mega",
-            "url": "/api/v2/pokemon/10057/"
-        },
-        {
-            "name": "sableye-mega",
-            "url": "/api/v2/pokemon/10066/"
-        },
-        {
-            "name": "slowbro-mega",
-            "url": "/api/v2/pokemon/10071/"
-        },
-        {
-            "name": "glalie-mega",
-            "url": "/api/v2/pokemon/10074/"
-        },
-        {
-            "name": "hoopa-unbound",
-            "url": "/api/v2/pokemon/10086/"
-        },
-        {
-            "name": "vulpix-alola",
-            "url": "/api/v2/pokemon/10103/"
-        },
-        {
-            "name": "ninetales-alola",
-            "url": "/api/v2/pokemon/10104/"
-        },
-        {
-            "name": "diglett-alola",
-            "url": "/api/v2/pokemon/10105/"
-        },
-        {
-            "name": "dugtrio-alola",
-            "url": "/api/v2/pokemon/10106/"
-        },
-        {
-            "name": "meowth-alola",
-            "url": "/api/v2/pokemon/10107/"
-        },
-        {
-            "name": "persian-alola",
-            "url": "/api/v2/pokemon/10108/"
-        },
-        {
-            "name": "muk-alola",
-            "url": "/api/v2/pokemon/10113/"
-        },
-        {
-            "name": "lycanroc-midnight",
-            "url": "/api/v2/pokemon/10126/"
-        },
-        {
-            "name": "salazzle-totem",
-            "url": "/api/v2/pokemon/10129/"
-        },
-        {
-            "name": "meowth-galar",
-            "url": "/api/v2/pokemon/10161/"
-        },
-        {
-            "name": "slowpoke-galar",
-            "url": "/api/v2/pokemon/10164/"
-        },
-        {
-            "name": "slowbro-galar",
-            "url": "/api/v2/pokemon/10165/"
-        },
-        {
-            "name": "mr-mime-galar",
-            "url": "/api/v2/pokemon/10168/"
-        },
-        {
-            "name": "moltres-galar",
-            "url": "/api/v2/pokemon/10171/"
-        },
-        {
-            "name": "slowking-galar",
-            "url": "/api/v2/pokemon/10172/"
-        },
-        {
-            "name": "stunfisk-galar",
-            "url": "/api/v2/pokemon/10180/"
-        },
-        {
-            "name": "morpeko-hangry",
-            "url": "/api/v2/pokemon/10187/"
-        },
-        {
-            "name": "calyrex-shadow",
-            "url": "/api/v2/pokemon/10194/"
-        },
-        {
-            "name": "voltorb-hisui",
-            "url": "/api/v2/pokemon/10231/"
-        },
-        {
-            "name": "electrode-hisui",
-            "url": "/api/v2/pokemon/10232/"
-        },
-        {
-            "name": "zorua-hisui",
-            "url": "/api/v2/pokemon/10238/"
-        },
-        {
-            "name": "zoroark-hisui",
-            "url": "/api/v2/pokemon/10239/"
-        },
-        {
-            "name": "squawkabilly-blue-plumage",
-            "url": "/api/v2/pokemon/10260/"
-        },
-        {
-            "name": "squawkabilly-yellow-plumage",
-            "url": "/api/v2/pokemon/10261/"
-        },
-        {
-            "name": "squawkabilly-white-plumage",
-            "url": "/api/v2/pokemon/10262/"
-        },
-        {
-            "name": "scrafty-mega",
-            "url": "/api/v2/pokemon/10289/"
-        },
-        {
-            "name": "delphox-mega",
-            "url": "/api/v2/pokemon/10293/"
-        },
-        {
-            "name": "malamar-mega",
-            "url": "/api/v2/pokemon/10297/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/460/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1780/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1877/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage",
-            "url": "/api/v2/move-category/0/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "foul-play",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30a4\u30ab\u30b5\u30de"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uc18d\uc784\uc218"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u6b3a\u8a50"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Tricherie"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Schmarotzer"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Juego Sucio"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Ripicca"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Foul Play"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30a4\u30ab\u30b5\u30de"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u6b3a\u8bc8"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Juego Sucio"
-        }
-    ],
-    "past_values": [],
-    "power": 95,
-    "pp": 15,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": null,
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "dark",
-        "url": "/api/v2/type/17/"
+    {
+      "effect": "Inflicts regular damage.  Damage is calculated using the target’s attacking stat rather than the user’s.",
+      "short_effect": "Calculates damage with the target’s attacking stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v",
+    "url": "/api/v2/generation/5/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage",
+      "url": "/api/v2/move-category/0/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "イカサマ",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "속임수",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "欺詐",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Tricherie",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Schmarotzer",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Juego Sucio",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Ripicca",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Foul Play",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "イカサマ",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "欺诈",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Juego Sucio",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "dark",
+    "url": "/api/v2/type/17/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/460/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1780/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1877/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Le lanceur utilise la force de l’ennemi.\nPlus l’Attaque de l’ennemi est élevée,\nplus le lanceur inflige de dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target’s power\nagainst it. The higher the target’s\nAttack stat, the greater the damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target’s power\nagainst it. The higher the target’s\nAttack stat, the greater the damage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "あいての　ちからを　りようする。\nたたかっている　あいての　こうげきが\nたかいほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "상대의 힘을 이용한다.\n싸우고 있는 상대의 공격이\n높을수록 데미지가 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la force de l’ennemi.\nPlus l’Attaque de l’ennemi est élevée, plus le\nlanceur inflige de dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe höher dessen Angriff, desto mehr Schaden\nrichtet die Attacke an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto è proporzionale all’Attacco del nemico.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target’s power\nagainst it. The higher the target’s Attack stat,\nthe greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "相手の　力を　利用する。\n戦っている　相手の　攻撃が\n高いほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "あいての　ちからを　りようする。\nたたかっている　あいての　こうげきが\nたかいほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "상대의 힘을 이용한다.\n싸우고 있는 상대의 공격이\n높을수록 데미지가 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la force de l’ennemi.\nPlus l’Attaque de l’ennemi est élevée, plus le\nlanceur inflige de dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe höher dessen Angriff, desto mehr Schaden\nrichtet die Attacke an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para atacarlo.\nCuanto mayor es el Ataque del objetivo, más daño\nprovoca.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto è proporzionale all’Attacco del nemico.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target’s power\nagainst it. The higher the target’s Attack stat,\nthe greater the move’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "相手の　力を　利用する。\n戦っている　相手の　攻撃が\n高いほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para atacarlo.\nCuanto mayor es el Ataque del objetivo, más daño\nprovoca.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "あいての　ちからを　りようする。\nたたかっている　あいての　こうげきが\nたかいほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "상대의 힘을 이용한다.\n싸우고 있는 상대의 공격이\n높을수록 데미지가 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "利用對手的力量進行攻擊。\n對手的攻擊越高，\n給予對手的傷害越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la force de l’ennemi.\nPlus l’Attaque de l’ennemi est élevée, plus le lanceur\ninflige de dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe höher dessen Angriff, desto mehr Schaden richtet\ndie Attacke an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto è proporzionale all’Attacco del nemico.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target’s power against it. The\nhigher the target’s Attack stat, the greater the\nmove’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "相手の　力を　利用する。\n戦っている　相手の　攻撃が\n高いほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "利用对手的力量进行攻击。\n正和自己战斗的对手，\n其攻击越高，伤害越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "あいての　ちからを　りようする。\nたたかっている　あいての　こうげきが\nたかいほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "상대의 힘을 이용한다.\n싸우고 있는 상대의 공격이\n높을수록 데미지가 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "利用對手的力量進行攻擊。\n對手的攻擊越高，\n給予對手的傷害越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la force de l’ennemi.\nPlus l’Attaque de l’ennemi est élevée, plus le lanceur\ninflige de dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe höher dessen Angriff, desto mehr Schaden richtet\ndie Attacke an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto è proporzionale all’Attacco del nemico.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target’s power against it. The\nhigher the target’s Attack stat, the greater the\nmove’s power.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "相手の　力を　利用する。\n戦っている　相手の　攻撃が\n高いほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "利用对手的力量进行攻击。\n正和自己战斗的对手，\n其攻击越高，伤害越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "あいての　ちからを　りようする。\nたたかっている　あいての　こうげきが\nたかいほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "상대의 힘을 이용한다.\n싸우고 있는 상대의 공격이\n높을수록 데미지가 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "利用對手的力量進行攻擊。\n對手的攻擊越高，\n給予對手的傷害越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la force de l’ennemi.\nPlus l’Attaque de l’ennemi est élevée, plus le lanceur\ninflige de dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe höher dessen Angriff, desto mehr Schaden richtet\ndie Attacke an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto è proporzionale all’Attacco del nemico.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target’s power against it.\nThe higher the target’s Attack stat, the greater\nthe damage it deals.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "相手の　力を　利用する。\n戦っている　相手の　攻撃が\n高いほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "利用对手的力量进行攻击。\n正和自己战斗的对手，\n其攻击越高，伤害越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "あいての　ちからを　りようする。\nたたかっている　あいての　こうげきが\nたかいほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "상대의 힘을 이용한다.\n싸우고 있는 상대의 공격이\n높을수록 데미지가 올라간다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "利用對手的力量進行攻擊。\n對手的攻擊越高，\n給予對手的傷害越大。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur utilise la force de l’ennemi.\nPlus l’Attaque de l’ennemi est élevée,\nplus le lanceur inflige de dégâts.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Anwender macht sich die Kraft des Zieles zunutze.\nJe höher dessen Angriff, desto mehr Schaden richtet\ndie Attacke an.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para atacarlo.\nCuanto mayor es el Ataque del objetivo, más daño\nprovoca.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfrutta la forza del bersaglio. Il danno\ninflitto è proporzionale all’Attacco del nemico.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target’s power against it.\nThe higher the target’s Attack stat, the greater\nthe damage it deals.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "相手の　力を　利用する。\n戦っている　相手の　攻撃が\n高いほど　ダメージが　あがる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "利用对手的力量进行攻击。\n正和自己战斗的对手，\n其攻击越高，伤害越大。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El usuario emplea la fuerza del objetivo para atacarlo.\nCuanto mayor es el Ataque del objetivo, más daño\nprovoca.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target's power against it. The higher the target's Attack stat, the greater the damage it deals.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "vulpix",
+      "url": "/api/v2/pokemon/37/"
+    },
+    {
+      "name": "ninetales",
+      "url": "/api/v2/pokemon/38/"
+    },
+    {
+      "name": "diglett",
+      "url": "/api/v2/pokemon/50/"
+    },
+    {
+      "name": "dugtrio",
+      "url": "/api/v2/pokemon/51/"
+    },
+    {
+      "name": "meowth",
+      "url": "/api/v2/pokemon/52/"
+    },
+    {
+      "name": "persian",
+      "url": "/api/v2/pokemon/53/"
+    },
+    {
+      "name": "abra",
+      "url": "/api/v2/pokemon/63/"
+    },
+    {
+      "name": "kadabra",
+      "url": "/api/v2/pokemon/64/"
+    },
+    {
+      "name": "alakazam",
+      "url": "/api/v2/pokemon/65/"
+    },
+    {
+      "name": "slowpoke",
+      "url": "/api/v2/pokemon/79/"
+    },
+    {
+      "name": "slowbro",
+      "url": "/api/v2/pokemon/80/"
+    },
+    {
+      "name": "gastly",
+      "url": "/api/v2/pokemon/92/"
+    },
+    {
+      "name": "haunter",
+      "url": "/api/v2/pokemon/93/"
+    },
+    {
+      "name": "gengar",
+      "url": "/api/v2/pokemon/94/"
+    },
+    {
+      "name": "drowzee",
+      "url": "/api/v2/pokemon/96/"
+    },
+    {
+      "name": "hypno",
+      "url": "/api/v2/pokemon/97/"
+    },
+    {
+      "name": "voltorb",
+      "url": "/api/v2/pokemon/100/"
+    },
+    {
+      "name": "electrode",
+      "url": "/api/v2/pokemon/101/"
+    },
+    {
+      "name": "mr-mime",
+      "url": "/api/v2/pokemon/122/"
+    },
+    {
+      "name": "porygon",
+      "url": "/api/v2/pokemon/137/"
+    },
+    {
+      "name": "mewtwo",
+      "url": "/api/v2/pokemon/150/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "spinarak",
+      "url": "/api/v2/pokemon/167/"
+    },
+    {
+      "name": "ariados",
+      "url": "/api/v2/pokemon/168/"
+    },
+    {
+      "name": "xatu",
+      "url": "/api/v2/pokemon/178/"
+    },
+    {
+      "name": "sudowoodo",
+      "url": "/api/v2/pokemon/185/"
+    },
+    {
+      "name": "aipom",
+      "url": "/api/v2/pokemon/190/"
+    },
+    {
+      "name": "umbreon",
+      "url": "/api/v2/pokemon/197/"
+    },
+    {
+      "name": "murkrow",
+      "url": "/api/v2/pokemon/198/"
+    },
+    {
+      "name": "slowking",
+      "url": "/api/v2/pokemon/199/"
+    },
+    {
+      "name": "misdreavus",
+      "url": "/api/v2/pokemon/200/"
+    },
+    {
+      "name": "girafarig",
+      "url": "/api/v2/pokemon/203/"
+    },
+    {
+      "name": "sneasel",
+      "url": "/api/v2/pokemon/215/"
+    },
+    {
+      "name": "delibird",
+      "url": "/api/v2/pokemon/225/"
+    },
+    {
+      "name": "houndour",
+      "url": "/api/v2/pokemon/228/"
+    },
+    {
+      "name": "houndoom",
+      "url": "/api/v2/pokemon/229/"
+    },
+    {
+      "name": "porygon2",
+      "url": "/api/v2/pokemon/233/"
+    },
+    {
+      "name": "tyranitar",
+      "url": "/api/v2/pokemon/248/"
+    },
+    {
+      "name": "poochyena",
+      "url": "/api/v2/pokemon/261/"
+    },
+    {
+      "name": "mightyena",
+      "url": "/api/v2/pokemon/262/"
+    },
+    {
+      "name": "seedot",
+      "url": "/api/v2/pokemon/273/"
+    },
+    {
+      "name": "nuzleaf",
+      "url": "/api/v2/pokemon/274/"
+    },
+    {
+      "name": "shiftry",
+      "url": "/api/v2/pokemon/275/"
+    },
+    {
+      "name": "masquerain",
+      "url": "/api/v2/pokemon/284/"
+    },
+    {
+      "name": "sableye",
+      "url": "/api/v2/pokemon/302/"
+    },
+    {
+      "name": "mawile",
+      "url": "/api/v2/pokemon/303/"
+    },
+    {
+      "name": "cacnea",
+      "url": "/api/v2/pokemon/331/"
+    },
+    {
+      "name": "cacturne",
+      "url": "/api/v2/pokemon/332/"
+    },
+    {
+      "name": "kecleon",
+      "url": "/api/v2/pokemon/352/"
+    },
+    {
+      "name": "shuppet",
+      "url": "/api/v2/pokemon/353/"
+    },
+    {
+      "name": "banette",
+      "url": "/api/v2/pokemon/354/"
+    },
+    {
+      "name": "absol",
+      "url": "/api/v2/pokemon/359/"
+    },
+    {
+      "name": "glalie",
+      "url": "/api/v2/pokemon/362/"
+    },
+    {
+      "name": "bastiodon",
+      "url": "/api/v2/pokemon/411/"
+    },
+    {
+      "name": "ambipom",
+      "url": "/api/v2/pokemon/424/"
+    },
+    {
+      "name": "mismagius",
+      "url": "/api/v2/pokemon/429/"
+    },
+    {
+      "name": "honchkrow",
+      "url": "/api/v2/pokemon/430/"
+    },
+    {
+      "name": "glameow",
+      "url": "/api/v2/pokemon/431/"
+    },
+    {
+      "name": "purugly",
+      "url": "/api/v2/pokemon/432/"
+    },
+    {
+      "name": "stunky",
+      "url": "/api/v2/pokemon/434/"
+    },
+    {
+      "name": "skuntank",
+      "url": "/api/v2/pokemon/435/"
+    },
+    {
+      "name": "bonsly",
+      "url": "/api/v2/pokemon/438/"
+    },
+    {
+      "name": "spiritomb",
+      "url": "/api/v2/pokemon/442/"
+    },
+    {
+      "name": "croagunk",
+      "url": "/api/v2/pokemon/453/"
+    },
+    {
+      "name": "toxicroak",
+      "url": "/api/v2/pokemon/454/"
+    },
+    {
+      "name": "weavile",
+      "url": "/api/v2/pokemon/461/"
+    },
+    {
+      "name": "porygon-z",
+      "url": "/api/v2/pokemon/474/"
+    },
+    {
+      "name": "rotom",
+      "url": "/api/v2/pokemon/479/"
+    },
+    {
+      "name": "uxie",
+      "url": "/api/v2/pokemon/480/"
+    },
+    {
+      "name": "darkrai",
+      "url": "/api/v2/pokemon/491/"
+    },
+    {
+      "name": "arceus",
+      "url": "/api/v2/pokemon/493/"
+    },
+    {
+      "name": "purrloin",
+      "url": "/api/v2/pokemon/509/"
+    },
+    {
+      "name": "liepard",
+      "url": "/api/v2/pokemon/510/"
+    },
+    {
+      "name": "sandile",
+      "url": "/api/v2/pokemon/551/"
+    },
+    {
+      "name": "krokorok",
+      "url": "/api/v2/pokemon/552/"
+    },
+    {
+      "name": "krookodile",
+      "url": "/api/v2/pokemon/553/"
+    },
+    {
+      "name": "scraggy",
+      "url": "/api/v2/pokemon/559/"
+    },
+    {
+      "name": "scrafty",
+      "url": "/api/v2/pokemon/560/"
+    },
+    {
+      "name": "zorua",
+      "url": "/api/v2/pokemon/570/"
+    },
+    {
+      "name": "zoroark",
+      "url": "/api/v2/pokemon/571/"
+    },
+    {
+      "name": "gothita",
+      "url": "/api/v2/pokemon/574/"
+    },
+    {
+      "name": "gothorita",
+      "url": "/api/v2/pokemon/575/"
+    },
+    {
+      "name": "gothitelle",
+      "url": "/api/v2/pokemon/576/"
+    },
+    {
+      "name": "foongus",
+      "url": "/api/v2/pokemon/590/"
+    },
+    {
+      "name": "amoonguss",
+      "url": "/api/v2/pokemon/591/"
+    },
+    {
+      "name": "stunfisk",
+      "url": "/api/v2/pokemon/618/"
+    },
+    {
+      "name": "pawniard",
+      "url": "/api/v2/pokemon/624/"
+    },
+    {
+      "name": "bisharp",
+      "url": "/api/v2/pokemon/625/"
+    },
+    {
+      "name": "vullaby",
+      "url": "/api/v2/pokemon/629/"
+    },
+    {
+      "name": "mandibuzz",
+      "url": "/api/v2/pokemon/630/"
+    },
+    {
+      "name": "tornadus-incarnate",
+      "url": "/api/v2/pokemon/641/"
+    },
+    {
+      "name": "thundurus-incarnate",
+      "url": "/api/v2/pokemon/642/"
+    },
+    {
+      "name": "fennekin",
+      "url": "/api/v2/pokemon/653/"
+    },
+    {
+      "name": "braixen",
+      "url": "/api/v2/pokemon/654/"
+    },
+    {
+      "name": "delphox",
+      "url": "/api/v2/pokemon/655/"
+    },
+    {
+      "name": "diggersby",
+      "url": "/api/v2/pokemon/660/"
+    },
+    {
+      "name": "pancham",
+      "url": "/api/v2/pokemon/674/"
+    },
+    {
+      "name": "pangoro",
+      "url": "/api/v2/pokemon/675/"
+    },
+    {
+      "name": "inkay",
+      "url": "/api/v2/pokemon/686/"
+    },
+    {
+      "name": "malamar",
+      "url": "/api/v2/pokemon/687/"
+    },
+    {
+      "name": "klefki",
+      "url": "/api/v2/pokemon/707/"
+    },
+    {
+      "name": "phantump",
+      "url": "/api/v2/pokemon/708/"
+    },
+    {
+      "name": "trevenant",
+      "url": "/api/v2/pokemon/709/"
+    },
+    {
+      "name": "pumpkaboo-average",
+      "url": "/api/v2/pokemon/710/"
+    },
+    {
+      "name": "gourgeist-average",
+      "url": "/api/v2/pokemon/711/"
+    },
+    {
+      "name": "yveltal",
+      "url": "/api/v2/pokemon/717/"
+    },
+    {
+      "name": "hoopa",
+      "url": "/api/v2/pokemon/720/"
+    },
+    {
+      "name": "salandit",
+      "url": "/api/v2/pokemon/757/"
+    },
+    {
+      "name": "salazzle",
+      "url": "/api/v2/pokemon/758/"
+    },
+    {
+      "name": "oranguru",
+      "url": "/api/v2/pokemon/765/"
+    },
+    {
+      "name": "nihilego",
+      "url": "/api/v2/pokemon/793/"
+    },
+    {
+      "name": "pheromosa",
+      "url": "/api/v2/pokemon/795/"
+    },
+    {
+      "name": "marshadow",
+      "url": "/api/v2/pokemon/802/"
+    },
+    {
+      "name": "blacephalon",
+      "url": "/api/v2/pokemon/806/"
+    },
+    {
+      "name": "nickit",
+      "url": "/api/v2/pokemon/827/"
+    },
+    {
+      "name": "thievul",
+      "url": "/api/v2/pokemon/828/"
+    },
+    {
+      "name": "sinistea",
+      "url": "/api/v2/pokemon/854/"
+    },
+    {
+      "name": "polteageist",
+      "url": "/api/v2/pokemon/855/"
+    },
+    {
+      "name": "impidimp",
+      "url": "/api/v2/pokemon/859/"
+    },
+    {
+      "name": "morgrem",
+      "url": "/api/v2/pokemon/860/"
+    },
+    {
+      "name": "grimmsnarl",
+      "url": "/api/v2/pokemon/861/"
+    },
+    {
+      "name": "perrserker",
+      "url": "/api/v2/pokemon/863/"
+    },
+    {
+      "name": "mr-rime",
+      "url": "/api/v2/pokemon/866/"
+    },
+    {
+      "name": "morpeko-full-belly",
+      "url": "/api/v2/pokemon/877/"
+    },
+    {
+      "name": "duraludon",
+      "url": "/api/v2/pokemon/884/"
+    },
+    {
+      "name": "urshifu-single-strike",
+      "url": "/api/v2/pokemon/892/"
+    },
+    {
+      "name": "spectrier",
+      "url": "/api/v2/pokemon/897/"
+    },
+    {
+      "name": "meowscarada",
+      "url": "/api/v2/pokemon/908/"
+    },
+    {
+      "name": "squawkabilly-green-plumage",
+      "url": "/api/v2/pokemon/931/"
+    },
+    {
+      "name": "shroodle",
+      "url": "/api/v2/pokemon/944/"
+    },
+    {
+      "name": "grafaiai",
+      "url": "/api/v2/pokemon/945/"
+    },
+    {
+      "name": "toedscool",
+      "url": "/api/v2/pokemon/948/"
+    },
+    {
+      "name": "toedscruel",
+      "url": "/api/v2/pokemon/949/"
+    },
+    {
+      "name": "flittle",
+      "url": "/api/v2/pokemon/955/"
+    },
+    {
+      "name": "espathra",
+      "url": "/api/v2/pokemon/956/"
+    },
+    {
+      "name": "tinkatink",
+      "url": "/api/v2/pokemon/957/"
+    },
+    {
+      "name": "tinkatuff",
+      "url": "/api/v2/pokemon/958/"
+    },
+    {
+      "name": "tinkaton",
+      "url": "/api/v2/pokemon/959/"
+    },
+    {
+      "name": "wiglett",
+      "url": "/api/v2/pokemon/960/"
+    },
+    {
+      "name": "wugtrio",
+      "url": "/api/v2/pokemon/961/"
+    },
+    {
+      "name": "bombirdier",
+      "url": "/api/v2/pokemon/962/"
+    },
+    {
+      "name": "farigiraf",
+      "url": "/api/v2/pokemon/981/"
+    },
+    {
+      "name": "kingambit",
+      "url": "/api/v2/pokemon/983/"
+    },
+    {
+      "name": "wo-chien",
+      "url": "/api/v2/pokemon/1001/"
+    },
+    {
+      "name": "poltchageist",
+      "url": "/api/v2/pokemon/1012/"
+    },
+    {
+      "name": "sinistcha",
+      "url": "/api/v2/pokemon/1013/"
+    },
+    {
+      "name": "archaludon",
+      "url": "/api/v2/pokemon/1018/"
+    },
+    {
+      "name": "pecharunt",
+      "url": "/api/v2/pokemon/1025/"
+    },
+    {
+      "name": "rotom-heat",
+      "url": "/api/v2/pokemon/10008/"
+    },
+    {
+      "name": "rotom-wash",
+      "url": "/api/v2/pokemon/10009/"
+    },
+    {
+      "name": "rotom-frost",
+      "url": "/api/v2/pokemon/10010/"
+    },
+    {
+      "name": "rotom-fan",
+      "url": "/api/v2/pokemon/10011/"
+    },
+    {
+      "name": "rotom-mow",
+      "url": "/api/v2/pokemon/10012/"
+    },
+    {
+      "name": "tornadus-therian",
+      "url": "/api/v2/pokemon/10019/"
+    },
+    {
+      "name": "thundurus-therian",
+      "url": "/api/v2/pokemon/10020/"
+    },
+    {
+      "name": "pumpkaboo-small",
+      "url": "/api/v2/pokemon/10027/"
+    },
+    {
+      "name": "pumpkaboo-large",
+      "url": "/api/v2/pokemon/10028/"
+    },
+    {
+      "name": "pumpkaboo-super",
+      "url": "/api/v2/pokemon/10029/"
+    },
+    {
+      "name": "gourgeist-small",
+      "url": "/api/v2/pokemon/10030/"
+    },
+    {
+      "name": "gourgeist-large",
+      "url": "/api/v2/pokemon/10031/"
+    },
+    {
+      "name": "gourgeist-super",
+      "url": "/api/v2/pokemon/10032/"
+    },
+    {
+      "name": "alakazam-mega",
+      "url": "/api/v2/pokemon/10037/"
+    },
+    {
+      "name": "gengar-mega",
+      "url": "/api/v2/pokemon/10038/"
+    },
+    {
+      "name": "mewtwo-mega-x",
+      "url": "/api/v2/pokemon/10043/"
+    },
+    {
+      "name": "mewtwo-mega-y",
+      "url": "/api/v2/pokemon/10044/"
+    },
+    {
+      "name": "houndoom-mega",
+      "url": "/api/v2/pokemon/10048/"
+    },
+    {
+      "name": "tyranitar-mega",
+      "url": "/api/v2/pokemon/10049/"
+    },
+    {
+      "name": "mawile-mega",
+      "url": "/api/v2/pokemon/10052/"
+    },
+    {
+      "name": "banette-mega",
+      "url": "/api/v2/pokemon/10056/"
+    },
+    {
+      "name": "absol-mega",
+      "url": "/api/v2/pokemon/10057/"
+    },
+    {
+      "name": "sableye-mega",
+      "url": "/api/v2/pokemon/10066/"
+    },
+    {
+      "name": "slowbro-mega",
+      "url": "/api/v2/pokemon/10071/"
+    },
+    {
+      "name": "glalie-mega",
+      "url": "/api/v2/pokemon/10074/"
+    },
+    {
+      "name": "hoopa-unbound",
+      "url": "/api/v2/pokemon/10086/"
+    },
+    {
+      "name": "vulpix-alola",
+      "url": "/api/v2/pokemon/10103/"
+    },
+    {
+      "name": "ninetales-alola",
+      "url": "/api/v2/pokemon/10104/"
+    },
+    {
+      "name": "diglett-alola",
+      "url": "/api/v2/pokemon/10105/"
+    },
+    {
+      "name": "dugtrio-alola",
+      "url": "/api/v2/pokemon/10106/"
+    },
+    {
+      "name": "meowth-alola",
+      "url": "/api/v2/pokemon/10107/"
+    },
+    {
+      "name": "persian-alola",
+      "url": "/api/v2/pokemon/10108/"
+    },
+    {
+      "name": "muk-alola",
+      "url": "/api/v2/pokemon/10113/"
+    },
+    {
+      "name": "lycanroc-midnight",
+      "url": "/api/v2/pokemon/10126/"
+    },
+    {
+      "name": "salazzle-totem",
+      "url": "/api/v2/pokemon/10129/"
+    },
+    {
+      "name": "meowth-galar",
+      "url": "/api/v2/pokemon/10161/"
+    },
+    {
+      "name": "slowpoke-galar",
+      "url": "/api/v2/pokemon/10164/"
+    },
+    {
+      "name": "slowbro-galar",
+      "url": "/api/v2/pokemon/10165/"
+    },
+    {
+      "name": "mr-mime-galar",
+      "url": "/api/v2/pokemon/10168/"
+    },
+    {
+      "name": "moltres-galar",
+      "url": "/api/v2/pokemon/10171/"
+    },
+    {
+      "name": "slowking-galar",
+      "url": "/api/v2/pokemon/10172/"
+    },
+    {
+      "name": "stunfisk-galar",
+      "url": "/api/v2/pokemon/10180/"
+    },
+    {
+      "name": "morpeko-hangry",
+      "url": "/api/v2/pokemon/10187/"
+    },
+    {
+      "name": "calyrex-shadow",
+      "url": "/api/v2/pokemon/10194/"
+    },
+    {
+      "name": "voltorb-hisui",
+      "url": "/api/v2/pokemon/10231/"
+    },
+    {
+      "name": "electrode-hisui",
+      "url": "/api/v2/pokemon/10232/"
+    },
+    {
+      "name": "zorua-hisui",
+      "url": "/api/v2/pokemon/10238/"
+    },
+    {
+      "name": "zoroark-hisui",
+      "url": "/api/v2/pokemon/10239/"
+    },
+    {
+      "name": "squawkabilly-blue-plumage",
+      "url": "/api/v2/pokemon/10260/"
+    },
+    {
+      "name": "squawkabilly-yellow-plumage",
+      "url": "/api/v2/pokemon/10261/"
+    },
+    {
+      "name": "squawkabilly-white-plumage",
+      "url": "/api/v2/pokemon/10262/"
+    },
+    {
+      "name": "scrafty-mega",
+      "url": "/api/v2/pokemon/10289/"
+    },
+    {
+      "name": "delphox-mega",
+      "url": "/api/v2/pokemon/10293/"
+    },
+    {
+      "name": "malamar-mega",
+      "url": "/api/v2/pokemon/10297/"
+    }
+  ]
 }

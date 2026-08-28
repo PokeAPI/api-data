@@ -1,46 +1,46 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "berries": {
-            "items": {
-                "properties": {
-                    "berry": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "potency": {
-                        "type": "integer"
-                    }
-                },
-                "required": [
-                    "berry",
-                    "potency"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "contest_type": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "berries",
-        "contest_type",
-        "id",
-        "name",
-        "names"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "berries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "potency": {
+            "type": "integer"
+          },
+          "berry": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "berry",
+          "potency"
+        ]
+      }
+    },
+    "contest_type": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    }
+  },
+  "required": [
+    "berries",
+    "contest_type",
+    "id",
+    "name",
+    "names"
+  ]
 }

@@ -1,103 +1,103 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "firmness": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/named_api_resource.json"
-                }
-            ]
-        },
-        "flavors": {
-            "items": {
-                "properties": {
-                    "flavor": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "potency": {
-                        "type": "integer"
-                    }
-                },
-                "required": [
-                    "flavor",
-                    "potency"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "growth_time": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
-        "id": {
-            "type": "integer"
-        },
-        "item": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "max_harvest": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
-        "name": {
-            "type": "string"
-        },
-        "natural_gift_power": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
-        "natural_gift_type": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/named_api_resource.json"
-                }
-            ]
-        },
-        "size": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
-        "smoothness": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
-        "soil_dryness": {
-            "type": [
-                "integer",
-                "null"
-            ]
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "firmness",
-        "flavors",
-        "growth_time",
-        "id",
-        "item",
-        "max_harvest",
-        "name",
-        "natural_gift_power",
-        "natural_gift_type",
-        "size",
-        "smoothness",
-        "soil_dryness"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "growth_time": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "max_harvest": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "natural_gift_power": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "size": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "smoothness": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "soil_dryness": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "firmness": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "/schema/v2/named_api_resource.json"
+        }
+      ]
+    },
+    "flavors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "potency": {
+            "type": "integer"
+          },
+          "flavor": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "flavor",
+          "potency"
+        ]
+      }
+    },
+    "item": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "natural_gift_type": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "/schema/v2/named_api_resource.json"
+        }
+      ]
+    }
+  },
+  "required": [
+    "firmness",
+    "flavors",
+    "growth_time",
+    "id",
+    "item",
+    "max_harvest",
+    "name",
+    "natural_gift_power",
+    "natural_gift_type",
+    "size",
+    "smoothness",
+    "soil_dryness"
+  ]
 }

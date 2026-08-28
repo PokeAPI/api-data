@@ -1,3082 +1,3082 @@
 {
-    "accuracy": null,
-    "contest_combos": {
-        "normal": {
-            "use_after": null,
-            "use_before": [
-                {
-                    "name": "spite",
-                    "url": "/api/v2/move/180/"
-                },
-                {
-                    "name": "destiny-bond",
-                    "url": "/api/v2/move/194/"
-                },
-                {
-                    "name": "mean-look",
-                    "url": "/api/v2/move/212/"
-                },
-                {
-                    "name": "grudge",
-                    "url": "/api/v2/move/288/"
-                }
-            ]
+  "id": 174,
+  "name": "curse",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "spite",
+          "url": "/api/v2/move/180/"
         },
-        "super": {
-            "use_after": null,
-            "use_before": null
+        {
+          "name": "destiny-bond",
+          "url": "/api/v2/move/194/"
+        },
+        {
+          "name": "mean-look",
+          "url": "/api/v2/move/212/"
+        },
+        {
+          "name": "grudge",
+          "url": "/api/v2/move/288/"
         }
+      ],
+      "use_after": null
     },
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/31/"
-    },
-    "contest_type": {
-        "name": "tough",
-        "url": "/api/v2/contest-type/5/"
-    },
-    "damage_class": {
-        "name": "status",
-        "url": "/api/v2/move-damage-class/1/"
-    },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Si le lanceur est un Spectre: le lanceur paye la moiti\u00e9 de ses PV max pour placer une mal\u00e9diction sur la cible, lui infligeant 1/4 de ses PV max \u00e0 chaque tour.\nSinon: Diminue la Vitesse du lanceur d'un niveau, et augmente son Attaque et D\u00e9fense d'un niveau chacune.\n\nL'effet maudit est transmis par Relais.\n\nCette capacit\u00e9 ne peut pas \u00eatre copi\u00e9e par Mimique.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Les spectres d\u00e9pensent la moiti\u00e9 de leurs PV max pour infliger des d\u00e9g\u00e2ts \u00e0 la cible \u00e0 chaque tour.  Les autres diminuent la Vitesse, mais augmentent l'Attaque et la D\u00e9fense."
-        },
-        {
-            "effect": "If the user is a Ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user\u2019s Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by Baton Pass.\n\nThis move cannot be copied by Mirror Move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Works differently\nfor ghost-types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "flavor_text": "Works differently\nfor ghost-types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "flavor_text": "A move that functions\ndifferently for GHOSTS.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "A move that functions\ndifferently for GHOSTS.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "A move that works\ndifferently for the\nGHOST-type and all\nthe other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que\nle lanceur est un Pok\u00e9mon Spectre ou non.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u304b\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u3044\u304c\u3044\u3000\u3068\u3067\u306f\n\u3053\u3046\u304b\u304c\u3000\u304b\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc4f0\ub294 \ud3ec\ucf13\ubaac\uc774\n\uace0\uc2a4\ud2b8\ud0c0\uc785\uc77c \ub54c\uc640 \uadf8 \uc774\uc678\uc758\n\ud0c0\uc785\uc77c \ub54c\ub294 \ud6a8\uacfc\uac00 \ub2e4\ub974\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que le\nlanceur est un Pok\u00e9mon Spectre ou non.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Attacke, deren Wirkung davon abh\u00e4ngt,\nob der Anwender ein Geist-Pok\u00e9mon ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa \u00e8 di tipo Spettro.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u4ee5\u5916\u3000\u3068\u3067\u306f\n\u52b9\u679c\u304c\u3000\u5909\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u304b\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u3044\u304c\u3044\u3000\u3068\u3067\u306f\n\u3053\u3046\u304b\u304c\u3000\u304b\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc4f0\ub294 \ud3ec\ucf13\ubaac\uc774\n\uace0\uc2a4\ud2b8\ud0c0\uc785\uc77c \ub54c\uc640 \uadf8 \uc774\uc678\uc758\n\ud0c0\uc785\uc77c \ub54c\ub294 \ud6a8\uacfc\uac00 \ub2e4\ub974\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que le\nlanceur est un Pok\u00e9mon Spectre ou non.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Attacke, deren Wirkung davon abh\u00e4ngt,\nob der Anwender ein Geister-Pok\u00e9mon ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa \u00e8 di tipo Spettro.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u4ee5\u5916\u3000\u3068\u3067\u306f\n\u52b9\u679c\u304c\u3000\u5909\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u304b\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u3044\u304c\u3044\u3000\u3068\u3067\u306f\n\u3053\u3046\u304b\u304c\u3000\u304b\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc4f0\ub294 \ud3ec\ucf13\ubaac\uc774\n\uace0\uc2a4\ud2b8\ud0c0\uc785\uc77c \ub54c\uc640 \uadf8 \uc774\uc678\uc758\n\ud0c0\uc785\uc77c \ub54c\ub294 \ud6a8\uacfc\uac00 \ub2e4\ub974\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u8a5b\u5492\u6642\uff0c\n\u5e7d\u9748\u5c6c\u6027\u7684\u5bf6\u53ef\u5922\u548c\u5176\u4ed6\u5c6c\u6027\u7684\u5bf6\u53ef\u5922\uff0c\n\u6703\u7372\u5f97\u4e0d\u540c\u7684\u62db\u5f0f\u6548\u679c\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que le\nlanceur est un Pok\u00e9mon Spectre ou non.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Attacke, deren Wirkung davon abh\u00e4ngt, ob der\nAnwender ein Geister-Pok\u00e9mon ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa \u00e8 di tipo Spettro.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "A move that works differently for the Ghost type\nthan for all other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u4ee5\u5916\u3000\u3068\u3067\u306f\n\u52b9\u679c\u304c\u3000\u5909\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u8be5\u62db\u5f0f\u7684\u5b9d\u53ef\u68a6\uff0c\n\u5176\u5c5e\u6027\u662f\u5e7d\u7075\u5c5e\u6027\u6216\u5176\u4ed6\u5c5e\u6027\u65f6\uff0c\n\u6548\u679c\u4f1a\u4e0d\u4e00\u6837\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u304b\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u3044\u304c\u3044\u3000\u3068\u3067\u306f\n\u3053\u3046\u304b\u304c\u3000\u304b\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc4f0\ub294 \ud3ec\ucf13\ubaac\uc774\n\uace0\uc2a4\ud2b8\ud0c0\uc785\uc77c \ub54c\uc640 \uadf8 \uc774\uc678\uc758\n\ud0c0\uc785\uc77c \ub54c\ub294 \ud6a8\uacfc\uac00 \ub2e4\ub974\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u8a5b\u5492\u6642\uff0c\n\u5e7d\u9748\u5c6c\u6027\u7684\u5bf6\u53ef\u5922\u548c\u5176\u4ed6\u5c6c\u6027\u7684\u5bf6\u53ef\u5922\uff0c\n\u6703\u7372\u5f97\u4e0d\u540c\u7684\u62db\u5f0f\u6548\u679c\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que le\nlanceur est un Pok\u00e9mon Spectre ou non.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Attacke, deren Wirkung davon abh\u00e4ngt, ob der\nAnwender ein Geister-Pok\u00e9mon ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa \u00e8 di tipo Spettro.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "A move that works differently for the Ghost type\nthan for all other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u4ee5\u5916\u3000\u3068\u3067\u306f\n\u52b9\u679c\u304c\u3000\u5909\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u8be5\u62db\u5f0f\u7684\u5b9d\u53ef\u68a6\uff0c\n\u5176\u5c5e\u6027\u662f\u5e7d\u7075\u5c5e\u6027\u6216\u5176\u4ed6\u5c5e\u6027\u65f6\uff0c\n\u6548\u679c\u4f1a\u4e0d\u4e00\u6837\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u304b\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u3044\u304c\u3044\u3000\u3068\u3067\u306f\n\u3053\u3046\u304b\u304c\u3000\u304b\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc4f0\ub294 \ud3ec\ucf13\ubaac\uc774\n\uace0\uc2a4\ud2b8\ud0c0\uc785\uc77c \ub54c\uc640 \uadf8 \uc774\uc678\uc758\n\ud0c0\uc785\uc77c \ub54c\ub294 \ud6a8\uacfc\uac00 \ub2e4\ub974\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u8a5b\u5492\u6642\uff0c\n\u5e7d\u9748\u5c6c\u6027\u7684\u5bf6\u53ef\u5922\u548c\u5176\u4ed6\u5c6c\u6027\u7684\u5bf6\u53ef\u5922\uff0c\n\u6703\u7372\u5f97\u4e0d\u540c\u7684\u62db\u5f0f\u6548\u679c\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que le lanceur\nest un Pok\u00e9mon Spectre ou non.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Attacke, deren Wirkung davon abh\u00e4ngt, ob der\nAnwender ein Geister-Pok\u00e9mon ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa \u00e8 di tipo Spettro.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "A move that works differently for the Ghost type\nthan for all other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u4ee5\u5916\u3000\u3068\u3067\u306f\n\u52b9\u679c\u304c\u3000\u5909\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u8be5\u62db\u5f0f\u65f6\uff0c\n\u5e7d\u7075\u5c5e\u6027\u548c\u5176\u4ed6\u5c5e\u6027\u7684\u5b9d\u53ef\u68a6\n\u4f1a\u83b7\u5f97\u4e0d\u540c\u7684\u62db\u5f0f\u6548\u679c\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u304b\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u3044\u304c\u3044\u3000\u3068\u3067\u306f\n\u3053\u3046\u304b\u304c\u3000\u304b\u308f\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uae30\uc220\uc744 \uc4f0\ub294 \ud3ec\ucf13\ubaac\uc774\n\uace0\uc2a4\ud2b8\ud0c0\uc785\uc77c \ub54c\uc640 \uadf8 \uc774\uc678\uc758\n\ud0c0\uc785\uc77c \ub54c\ub294 \ud6a8\uacfc\uac00 \ub2e4\ub974\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u8a5b\u5492\u6642\uff0c\n\u5e7d\u9748\u5c6c\u6027\u7684\u5bf6\u53ef\u5922\u548c\u5176\u4ed6\u5c6c\u6027\u7684\u5bf6\u53ef\u5922\uff0c\n\u6703\u7372\u5f97\u4e0d\u540c\u7684\u62db\u5f0f\u6548\u679c\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Une capacit\u00e9 \u00e0 l\u2019effet diff\u00e9rent selon que le lanceur\nest un Pok\u00e9mon Spectre ou non.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Attacke, deren Wirkung davon abh\u00e4ngt, ob der\nAnwender ein Geister-Pok\u00e9mon ist.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el usuario\nes de tipo Fantasma o no.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa \u00e8 di tipo Spettro.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "A move that works differently for the Ghost type\nthan for all other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u3046\u3000\u30dd\u30b1\u30e2\u30f3\u304c\n\u30b4\u30fc\u30b9\u30c8\u30bf\u30a4\u30d7\u3068\u3000\u305d\u308c\u4ee5\u5916\u3000\u3068\u3067\u306f\n\u52b9\u679c\u304c\u3000\u5909\u308f\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u4f7f\u7528\u8be5\u62db\u5f0f\u7684\u5b9d\u53ef\u68a6\uff0c\n\u5176\u5c5e\u6027\u662f\u5e7d\u7075\u5c5e\u6027\u6216\u5176\u4ed6\u5c5e\u6027\u65f6\uff0c\n\u6548\u679c\u4f1a\u4e0d\u4e00\u6837\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Un movimiento que tiene efectos distintos si el usuario\nes de tipo Fantasma o no.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "A move that works differently for the Ghost type than for all other types.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "A move that has different effects depending on whether the user is a Ghost type or not.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-ii",
-        "url": "/api/v2/generation/2/"
-    },
-    "id": 174,
-    "learned_by_pokemon": [
-        {
-            "name": "bulbasaur",
-            "url": "/api/v2/pokemon/1/"
-        },
-        {
-            "name": "ivysaur",
-            "url": "/api/v2/pokemon/2/"
-        },
-        {
-            "name": "venusaur",
-            "url": "/api/v2/pokemon/3/"
-        },
-        {
-            "name": "charmander",
-            "url": "/api/v2/pokemon/4/"
-        },
-        {
-            "name": "charmeleon",
-            "url": "/api/v2/pokemon/5/"
-        },
-        {
-            "name": "charizard",
-            "url": "/api/v2/pokemon/6/"
-        },
-        {
-            "name": "squirtle",
-            "url": "/api/v2/pokemon/7/"
-        },
-        {
-            "name": "wartortle",
-            "url": "/api/v2/pokemon/8/"
-        },
-        {
-            "name": "blastoise",
-            "url": "/api/v2/pokemon/9/"
-        },
-        {
-            "name": "butterfree",
-            "url": "/api/v2/pokemon/12/"
-        },
-        {
-            "name": "beedrill",
-            "url": "/api/v2/pokemon/15/"
-        },
-        {
-            "name": "pidgey",
-            "url": "/api/v2/pokemon/16/"
-        },
-        {
-            "name": "pidgeotto",
-            "url": "/api/v2/pokemon/17/"
-        },
-        {
-            "name": "pidgeot",
-            "url": "/api/v2/pokemon/18/"
-        },
-        {
-            "name": "rattata",
-            "url": "/api/v2/pokemon/19/"
-        },
-        {
-            "name": "raticate",
-            "url": "/api/v2/pokemon/20/"
-        },
-        {
-            "name": "spearow",
-            "url": "/api/v2/pokemon/21/"
-        },
-        {
-            "name": "fearow",
-            "url": "/api/v2/pokemon/22/"
-        },
-        {
-            "name": "ekans",
-            "url": "/api/v2/pokemon/23/"
-        },
-        {
-            "name": "arbok",
-            "url": "/api/v2/pokemon/24/"
-        },
-        {
-            "name": "pikachu",
-            "url": "/api/v2/pokemon/25/"
-        },
-        {
-            "name": "raichu",
-            "url": "/api/v2/pokemon/26/"
-        },
-        {
-            "name": "sandshrew",
-            "url": "/api/v2/pokemon/27/"
-        },
-        {
-            "name": "sandslash",
-            "url": "/api/v2/pokemon/28/"
-        },
-        {
-            "name": "nidoran-f",
-            "url": "/api/v2/pokemon/29/"
-        },
-        {
-            "name": "nidorina",
-            "url": "/api/v2/pokemon/30/"
-        },
-        {
-            "name": "nidoqueen",
-            "url": "/api/v2/pokemon/31/"
-        },
-        {
-            "name": "nidoran-m",
-            "url": "/api/v2/pokemon/32/"
-        },
-        {
-            "name": "nidorino",
-            "url": "/api/v2/pokemon/33/"
-        },
-        {
-            "name": "nidoking",
-            "url": "/api/v2/pokemon/34/"
-        },
-        {
-            "name": "clefairy",
-            "url": "/api/v2/pokemon/35/"
-        },
-        {
-            "name": "clefable",
-            "url": "/api/v2/pokemon/36/"
-        },
-        {
-            "name": "vulpix",
-            "url": "/api/v2/pokemon/37/"
-        },
-        {
-            "name": "ninetales",
-            "url": "/api/v2/pokemon/38/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "zubat",
-            "url": "/api/v2/pokemon/41/"
-        },
-        {
-            "name": "golbat",
-            "url": "/api/v2/pokemon/42/"
-        },
-        {
-            "name": "oddish",
-            "url": "/api/v2/pokemon/43/"
-        },
-        {
-            "name": "gloom",
-            "url": "/api/v2/pokemon/44/"
-        },
-        {
-            "name": "vileplume",
-            "url": "/api/v2/pokemon/45/"
-        },
-        {
-            "name": "paras",
-            "url": "/api/v2/pokemon/46/"
-        },
-        {
-            "name": "parasect",
-            "url": "/api/v2/pokemon/47/"
-        },
-        {
-            "name": "venonat",
-            "url": "/api/v2/pokemon/48/"
-        },
-        {
-            "name": "venomoth",
-            "url": "/api/v2/pokemon/49/"
-        },
-        {
-            "name": "diglett",
-            "url": "/api/v2/pokemon/50/"
-        },
-        {
-            "name": "dugtrio",
-            "url": "/api/v2/pokemon/51/"
-        },
-        {
-            "name": "meowth",
-            "url": "/api/v2/pokemon/52/"
-        },
-        {
-            "name": "persian",
-            "url": "/api/v2/pokemon/53/"
-        },
-        {
-            "name": "psyduck",
-            "url": "/api/v2/pokemon/54/"
-        },
-        {
-            "name": "golduck",
-            "url": "/api/v2/pokemon/55/"
-        },
-        {
-            "name": "mankey",
-            "url": "/api/v2/pokemon/56/"
-        },
-        {
-            "name": "primeape",
-            "url": "/api/v2/pokemon/57/"
-        },
-        {
-            "name": "growlithe",
-            "url": "/api/v2/pokemon/58/"
-        },
-        {
-            "name": "arcanine",
-            "url": "/api/v2/pokemon/59/"
-        },
-        {
-            "name": "poliwag",
-            "url": "/api/v2/pokemon/60/"
-        },
-        {
-            "name": "poliwhirl",
-            "url": "/api/v2/pokemon/61/"
-        },
-        {
-            "name": "poliwrath",
-            "url": "/api/v2/pokemon/62/"
-        },
-        {
-            "name": "abra",
-            "url": "/api/v2/pokemon/63/"
-        },
-        {
-            "name": "kadabra",
-            "url": "/api/v2/pokemon/64/"
-        },
-        {
-            "name": "alakazam",
-            "url": "/api/v2/pokemon/65/"
-        },
-        {
-            "name": "machop",
-            "url": "/api/v2/pokemon/66/"
-        },
-        {
-            "name": "machoke",
-            "url": "/api/v2/pokemon/67/"
-        },
-        {
-            "name": "machamp",
-            "url": "/api/v2/pokemon/68/"
-        },
-        {
-            "name": "bellsprout",
-            "url": "/api/v2/pokemon/69/"
-        },
-        {
-            "name": "weepinbell",
-            "url": "/api/v2/pokemon/70/"
-        },
-        {
-            "name": "victreebel",
-            "url": "/api/v2/pokemon/71/"
-        },
-        {
-            "name": "tentacool",
-            "url": "/api/v2/pokemon/72/"
-        },
-        {
-            "name": "tentacruel",
-            "url": "/api/v2/pokemon/73/"
-        },
-        {
-            "name": "geodude",
-            "url": "/api/v2/pokemon/74/"
-        },
-        {
-            "name": "graveler",
-            "url": "/api/v2/pokemon/75/"
-        },
-        {
-            "name": "golem",
-            "url": "/api/v2/pokemon/76/"
-        },
-        {
-            "name": "ponyta",
-            "url": "/api/v2/pokemon/77/"
-        },
-        {
-            "name": "rapidash",
-            "url": "/api/v2/pokemon/78/"
-        },
-        {
-            "name": "slowpoke",
-            "url": "/api/v2/pokemon/79/"
-        },
-        {
-            "name": "slowbro",
-            "url": "/api/v2/pokemon/80/"
-        },
-        {
-            "name": "magnemite",
-            "url": "/api/v2/pokemon/81/"
-        },
-        {
-            "name": "magneton",
-            "url": "/api/v2/pokemon/82/"
-        },
-        {
-            "name": "farfetchd",
-            "url": "/api/v2/pokemon/83/"
-        },
-        {
-            "name": "doduo",
-            "url": "/api/v2/pokemon/84/"
-        },
-        {
-            "name": "dodrio",
-            "url": "/api/v2/pokemon/85/"
-        },
-        {
-            "name": "seel",
-            "url": "/api/v2/pokemon/86/"
-        },
-        {
-            "name": "dewgong",
-            "url": "/api/v2/pokemon/87/"
-        },
-        {
-            "name": "grimer",
-            "url": "/api/v2/pokemon/88/"
-        },
-        {
-            "name": "muk",
-            "url": "/api/v2/pokemon/89/"
-        },
-        {
-            "name": "shellder",
-            "url": "/api/v2/pokemon/90/"
-        },
-        {
-            "name": "cloyster",
-            "url": "/api/v2/pokemon/91/"
-        },
-        {
-            "name": "gastly",
-            "url": "/api/v2/pokemon/92/"
-        },
-        {
-            "name": "haunter",
-            "url": "/api/v2/pokemon/93/"
-        },
-        {
-            "name": "gengar",
-            "url": "/api/v2/pokemon/94/"
-        },
-        {
-            "name": "onix",
-            "url": "/api/v2/pokemon/95/"
-        },
-        {
-            "name": "drowzee",
-            "url": "/api/v2/pokemon/96/"
-        },
-        {
-            "name": "hypno",
-            "url": "/api/v2/pokemon/97/"
-        },
-        {
-            "name": "krabby",
-            "url": "/api/v2/pokemon/98/"
-        },
-        {
-            "name": "kingler",
-            "url": "/api/v2/pokemon/99/"
-        },
-        {
-            "name": "voltorb",
-            "url": "/api/v2/pokemon/100/"
-        },
-        {
-            "name": "electrode",
-            "url": "/api/v2/pokemon/101/"
-        },
-        {
-            "name": "exeggcute",
-            "url": "/api/v2/pokemon/102/"
-        },
-        {
-            "name": "exeggutor",
-            "url": "/api/v2/pokemon/103/"
-        },
-        {
-            "name": "cubone",
-            "url": "/api/v2/pokemon/104/"
-        },
-        {
-            "name": "marowak",
-            "url": "/api/v2/pokemon/105/"
-        },
-        {
-            "name": "hitmonlee",
-            "url": "/api/v2/pokemon/106/"
-        },
-        {
-            "name": "hitmonchan",
-            "url": "/api/v2/pokemon/107/"
-        },
-        {
-            "name": "lickitung",
-            "url": "/api/v2/pokemon/108/"
-        },
-        {
-            "name": "koffing",
-            "url": "/api/v2/pokemon/109/"
-        },
-        {
-            "name": "weezing",
-            "url": "/api/v2/pokemon/110/"
-        },
-        {
-            "name": "rhyhorn",
-            "url": "/api/v2/pokemon/111/"
-        },
-        {
-            "name": "rhydon",
-            "url": "/api/v2/pokemon/112/"
-        },
-        {
-            "name": "chansey",
-            "url": "/api/v2/pokemon/113/"
-        },
-        {
-            "name": "tangela",
-            "url": "/api/v2/pokemon/114/"
-        },
-        {
-            "name": "kangaskhan",
-            "url": "/api/v2/pokemon/115/"
-        },
-        {
-            "name": "horsea",
-            "url": "/api/v2/pokemon/116/"
-        },
-        {
-            "name": "seadra",
-            "url": "/api/v2/pokemon/117/"
-        },
-        {
-            "name": "goldeen",
-            "url": "/api/v2/pokemon/118/"
-        },
-        {
-            "name": "seaking",
-            "url": "/api/v2/pokemon/119/"
-        },
-        {
-            "name": "staryu",
-            "url": "/api/v2/pokemon/120/"
-        },
-        {
-            "name": "starmie",
-            "url": "/api/v2/pokemon/121/"
-        },
-        {
-            "name": "mr-mime",
-            "url": "/api/v2/pokemon/122/"
-        },
-        {
-            "name": "scyther",
-            "url": "/api/v2/pokemon/123/"
-        },
-        {
-            "name": "jynx",
-            "url": "/api/v2/pokemon/124/"
-        },
-        {
-            "name": "electabuzz",
-            "url": "/api/v2/pokemon/125/"
-        },
-        {
-            "name": "magmar",
-            "url": "/api/v2/pokemon/126/"
-        },
-        {
-            "name": "pinsir",
-            "url": "/api/v2/pokemon/127/"
-        },
-        {
-            "name": "tauros",
-            "url": "/api/v2/pokemon/128/"
-        },
-        {
-            "name": "gyarados",
-            "url": "/api/v2/pokemon/130/"
-        },
-        {
-            "name": "lapras",
-            "url": "/api/v2/pokemon/131/"
-        },
-        {
-            "name": "eevee",
-            "url": "/api/v2/pokemon/133/"
-        },
-        {
-            "name": "vaporeon",
-            "url": "/api/v2/pokemon/134/"
-        },
-        {
-            "name": "jolteon",
-            "url": "/api/v2/pokemon/135/"
-        },
-        {
-            "name": "flareon",
-            "url": "/api/v2/pokemon/136/"
-        },
-        {
-            "name": "porygon",
-            "url": "/api/v2/pokemon/137/"
-        },
-        {
-            "name": "omanyte",
-            "url": "/api/v2/pokemon/138/"
-        },
-        {
-            "name": "omastar",
-            "url": "/api/v2/pokemon/139/"
-        },
-        {
-            "name": "kabuto",
-            "url": "/api/v2/pokemon/140/"
-        },
-        {
-            "name": "kabutops",
-            "url": "/api/v2/pokemon/141/"
-        },
-        {
-            "name": "aerodactyl",
-            "url": "/api/v2/pokemon/142/"
-        },
-        {
-            "name": "snorlax",
-            "url": "/api/v2/pokemon/143/"
-        },
-        {
-            "name": "articuno",
-            "url": "/api/v2/pokemon/144/"
-        },
-        {
-            "name": "zapdos",
-            "url": "/api/v2/pokemon/145/"
-        },
-        {
-            "name": "moltres",
-            "url": "/api/v2/pokemon/146/"
-        },
-        {
-            "name": "dratini",
-            "url": "/api/v2/pokemon/147/"
-        },
-        {
-            "name": "dragonair",
-            "url": "/api/v2/pokemon/148/"
-        },
-        {
-            "name": "dragonite",
-            "url": "/api/v2/pokemon/149/"
-        },
-        {
-            "name": "mewtwo",
-            "url": "/api/v2/pokemon/150/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "chikorita",
-            "url": "/api/v2/pokemon/152/"
-        },
-        {
-            "name": "bayleef",
-            "url": "/api/v2/pokemon/153/"
-        },
-        {
-            "name": "meganium",
-            "url": "/api/v2/pokemon/154/"
-        },
-        {
-            "name": "cyndaquil",
-            "url": "/api/v2/pokemon/155/"
-        },
-        {
-            "name": "quilava",
-            "url": "/api/v2/pokemon/156/"
-        },
-        {
-            "name": "typhlosion",
-            "url": "/api/v2/pokemon/157/"
-        },
-        {
-            "name": "totodile",
-            "url": "/api/v2/pokemon/158/"
-        },
-        {
-            "name": "croconaw",
-            "url": "/api/v2/pokemon/159/"
-        },
-        {
-            "name": "feraligatr",
-            "url": "/api/v2/pokemon/160/"
-        },
-        {
-            "name": "sentret",
-            "url": "/api/v2/pokemon/161/"
-        },
-        {
-            "name": "furret",
-            "url": "/api/v2/pokemon/162/"
-        },
-        {
-            "name": "hoothoot",
-            "url": "/api/v2/pokemon/163/"
-        },
-        {
-            "name": "noctowl",
-            "url": "/api/v2/pokemon/164/"
-        },
-        {
-            "name": "ledyba",
-            "url": "/api/v2/pokemon/165/"
-        },
-        {
-            "name": "ledian",
-            "url": "/api/v2/pokemon/166/"
-        },
-        {
-            "name": "spinarak",
-            "url": "/api/v2/pokemon/167/"
-        },
-        {
-            "name": "ariados",
-            "url": "/api/v2/pokemon/168/"
-        },
-        {
-            "name": "crobat",
-            "url": "/api/v2/pokemon/169/"
-        },
-        {
-            "name": "chinchou",
-            "url": "/api/v2/pokemon/170/"
-        },
-        {
-            "name": "lanturn",
-            "url": "/api/v2/pokemon/171/"
-        },
-        {
-            "name": "pichu",
-            "url": "/api/v2/pokemon/172/"
-        },
-        {
-            "name": "cleffa",
-            "url": "/api/v2/pokemon/173/"
-        },
-        {
-            "name": "igglybuff",
-            "url": "/api/v2/pokemon/174/"
-        },
-        {
-            "name": "togepi",
-            "url": "/api/v2/pokemon/175/"
-        },
-        {
-            "name": "togetic",
-            "url": "/api/v2/pokemon/176/"
-        },
-        {
-            "name": "natu",
-            "url": "/api/v2/pokemon/177/"
-        },
-        {
-            "name": "xatu",
-            "url": "/api/v2/pokemon/178/"
-        },
-        {
-            "name": "mareep",
-            "url": "/api/v2/pokemon/179/"
-        },
-        {
-            "name": "flaaffy",
-            "url": "/api/v2/pokemon/180/"
-        },
-        {
-            "name": "ampharos",
-            "url": "/api/v2/pokemon/181/"
-        },
-        {
-            "name": "bellossom",
-            "url": "/api/v2/pokemon/182/"
-        },
-        {
-            "name": "marill",
-            "url": "/api/v2/pokemon/183/"
-        },
-        {
-            "name": "azumarill",
-            "url": "/api/v2/pokemon/184/"
-        },
-        {
-            "name": "sudowoodo",
-            "url": "/api/v2/pokemon/185/"
-        },
-        {
-            "name": "politoed",
-            "url": "/api/v2/pokemon/186/"
-        },
-        {
-            "name": "hoppip",
-            "url": "/api/v2/pokemon/187/"
-        },
-        {
-            "name": "skiploom",
-            "url": "/api/v2/pokemon/188/"
-        },
-        {
-            "name": "jumpluff",
-            "url": "/api/v2/pokemon/189/"
-        },
-        {
-            "name": "aipom",
-            "url": "/api/v2/pokemon/190/"
-        },
-        {
-            "name": "sunkern",
-            "url": "/api/v2/pokemon/191/"
-        },
-        {
-            "name": "sunflora",
-            "url": "/api/v2/pokemon/192/"
-        },
-        {
-            "name": "yanma",
-            "url": "/api/v2/pokemon/193/"
-        },
-        {
-            "name": "wooper",
-            "url": "/api/v2/pokemon/194/"
-        },
-        {
-            "name": "quagsire",
-            "url": "/api/v2/pokemon/195/"
-        },
-        {
-            "name": "espeon",
-            "url": "/api/v2/pokemon/196/"
-        },
-        {
-            "name": "umbreon",
-            "url": "/api/v2/pokemon/197/"
-        },
-        {
-            "name": "murkrow",
-            "url": "/api/v2/pokemon/198/"
-        },
-        {
-            "name": "slowking",
-            "url": "/api/v2/pokemon/199/"
-        },
-        {
-            "name": "misdreavus",
-            "url": "/api/v2/pokemon/200/"
-        },
-        {
-            "name": "girafarig",
-            "url": "/api/v2/pokemon/203/"
-        },
-        {
-            "name": "pineco",
-            "url": "/api/v2/pokemon/204/"
-        },
-        {
-            "name": "forretress",
-            "url": "/api/v2/pokemon/205/"
-        },
-        {
-            "name": "dunsparce",
-            "url": "/api/v2/pokemon/206/"
-        },
-        {
-            "name": "gligar",
-            "url": "/api/v2/pokemon/207/"
-        },
-        {
-            "name": "steelix",
-            "url": "/api/v2/pokemon/208/"
-        },
-        {
-            "name": "snubbull",
-            "url": "/api/v2/pokemon/209/"
-        },
-        {
-            "name": "granbull",
-            "url": "/api/v2/pokemon/210/"
-        },
-        {
-            "name": "qwilfish",
-            "url": "/api/v2/pokemon/211/"
-        },
-        {
-            "name": "scizor",
-            "url": "/api/v2/pokemon/212/"
-        },
-        {
-            "name": "shuckle",
-            "url": "/api/v2/pokemon/213/"
-        },
-        {
-            "name": "heracross",
-            "url": "/api/v2/pokemon/214/"
-        },
-        {
-            "name": "sneasel",
-            "url": "/api/v2/pokemon/215/"
-        },
-        {
-            "name": "teddiursa",
-            "url": "/api/v2/pokemon/216/"
-        },
-        {
-            "name": "ursaring",
-            "url": "/api/v2/pokemon/217/"
-        },
-        {
-            "name": "slugma",
-            "url": "/api/v2/pokemon/218/"
-        },
-        {
-            "name": "magcargo",
-            "url": "/api/v2/pokemon/219/"
-        },
-        {
-            "name": "swinub",
-            "url": "/api/v2/pokemon/220/"
-        },
-        {
-            "name": "piloswine",
-            "url": "/api/v2/pokemon/221/"
-        },
-        {
-            "name": "corsola",
-            "url": "/api/v2/pokemon/222/"
-        },
-        {
-            "name": "remoraid",
-            "url": "/api/v2/pokemon/223/"
-        },
-        {
-            "name": "octillery",
-            "url": "/api/v2/pokemon/224/"
-        },
-        {
-            "name": "delibird",
-            "url": "/api/v2/pokemon/225/"
-        },
-        {
-            "name": "mantine",
-            "url": "/api/v2/pokemon/226/"
-        },
-        {
-            "name": "skarmory",
-            "url": "/api/v2/pokemon/227/"
-        },
-        {
-            "name": "houndour",
-            "url": "/api/v2/pokemon/228/"
-        },
-        {
-            "name": "houndoom",
-            "url": "/api/v2/pokemon/229/"
-        },
-        {
-            "name": "kingdra",
-            "url": "/api/v2/pokemon/230/"
-        },
-        {
-            "name": "phanpy",
-            "url": "/api/v2/pokemon/231/"
-        },
-        {
-            "name": "donphan",
-            "url": "/api/v2/pokemon/232/"
-        },
-        {
-            "name": "porygon2",
-            "url": "/api/v2/pokemon/233/"
-        },
-        {
-            "name": "stantler",
-            "url": "/api/v2/pokemon/234/"
-        },
-        {
-            "name": "tyrogue",
-            "url": "/api/v2/pokemon/236/"
-        },
-        {
-            "name": "hitmontop",
-            "url": "/api/v2/pokemon/237/"
-        },
-        {
-            "name": "smoochum",
-            "url": "/api/v2/pokemon/238/"
-        },
-        {
-            "name": "elekid",
-            "url": "/api/v2/pokemon/239/"
-        },
-        {
-            "name": "magby",
-            "url": "/api/v2/pokemon/240/"
-        },
-        {
-            "name": "miltank",
-            "url": "/api/v2/pokemon/241/"
-        },
-        {
-            "name": "blissey",
-            "url": "/api/v2/pokemon/242/"
-        },
-        {
-            "name": "raikou",
-            "url": "/api/v2/pokemon/243/"
-        },
-        {
-            "name": "entei",
-            "url": "/api/v2/pokemon/244/"
-        },
-        {
-            "name": "suicune",
-            "url": "/api/v2/pokemon/245/"
-        },
-        {
-            "name": "larvitar",
-            "url": "/api/v2/pokemon/246/"
-        },
-        {
-            "name": "pupitar",
-            "url": "/api/v2/pokemon/247/"
-        },
-        {
-            "name": "tyranitar",
-            "url": "/api/v2/pokemon/248/"
-        },
-        {
-            "name": "lugia",
-            "url": "/api/v2/pokemon/249/"
-        },
-        {
-            "name": "ho-oh",
-            "url": "/api/v2/pokemon/250/"
-        },
-        {
-            "name": "celebi",
-            "url": "/api/v2/pokemon/251/"
-        },
-        {
-            "name": "torchic",
-            "url": "/api/v2/pokemon/255/"
-        },
-        {
-            "name": "combusken",
-            "url": "/api/v2/pokemon/256/"
-        },
-        {
-            "name": "blaziken",
-            "url": "/api/v2/pokemon/257/"
-        },
-        {
-            "name": "mudkip",
-            "url": "/api/v2/pokemon/258/"
-        },
-        {
-            "name": "marshtomp",
-            "url": "/api/v2/pokemon/259/"
-        },
-        {
-            "name": "swampert",
-            "url": "/api/v2/pokemon/260/"
-        },
-        {
-            "name": "seedot",
-            "url": "/api/v2/pokemon/273/"
-        },
-        {
-            "name": "nuzleaf",
-            "url": "/api/v2/pokemon/274/"
-        },
-        {
-            "name": "shiftry",
-            "url": "/api/v2/pokemon/275/"
-        },
-        {
-            "name": "slakoth",
-            "url": "/api/v2/pokemon/287/"
-        },
-        {
-            "name": "vigoroth",
-            "url": "/api/v2/pokemon/288/"
-        },
-        {
-            "name": "slaking",
-            "url": "/api/v2/pokemon/289/"
-        },
-        {
-            "name": "hariyama",
-            "url": "/api/v2/pokemon/297/"
-        },
-        {
-            "name": "nosepass",
-            "url": "/api/v2/pokemon/299/"
-        },
-        {
-            "name": "aron",
-            "url": "/api/v2/pokemon/304/"
-        },
-        {
-            "name": "aggron",
-            "url": "/api/v2/pokemon/306/"
-        },
-        {
-            "name": "electrike",
-            "url": "/api/v2/pokemon/309/"
-        },
-        {
-            "name": "manectric",
-            "url": "/api/v2/pokemon/310/"
-        },
-        {
-            "name": "gulpin",
-            "url": "/api/v2/pokemon/316/"
-        },
-        {
-            "name": "swalot",
-            "url": "/api/v2/pokemon/317/"
-        },
-        {
-            "name": "wailmer",
-            "url": "/api/v2/pokemon/320/"
-        },
-        {
-            "name": "numel",
-            "url": "/api/v2/pokemon/322/"
-        },
-        {
-            "name": "camerupt",
-            "url": "/api/v2/pokemon/323/"
-        },
-        {
-            "name": "torkoal",
-            "url": "/api/v2/pokemon/324/"
-        },
-        {
-            "name": "cacnea",
-            "url": "/api/v2/pokemon/331/"
-        },
-        {
-            "name": "cacturne",
-            "url": "/api/v2/pokemon/332/"
-        },
-        {
-            "name": "zangoose",
-            "url": "/api/v2/pokemon/335/"
-        },
-        {
-            "name": "seviper",
-            "url": "/api/v2/pokemon/336/"
-        },
-        {
-            "name": "whiscash",
-            "url": "/api/v2/pokemon/340/"
-        },
-        {
-            "name": "lileep",
-            "url": "/api/v2/pokemon/345/"
-        },
-        {
-            "name": "anorith",
-            "url": "/api/v2/pokemon/347/"
-        },
-        {
-            "name": "shuppet",
-            "url": "/api/v2/pokemon/353/"
-        },
-        {
-            "name": "banette",
-            "url": "/api/v2/pokemon/354/"
-        },
-        {
-            "name": "duskull",
-            "url": "/api/v2/pokemon/355/"
-        },
-        {
-            "name": "dusclops",
-            "url": "/api/v2/pokemon/356/"
-        },
-        {
-            "name": "tropius",
-            "url": "/api/v2/pokemon/357/"
-        },
-        {
-            "name": "chimecho",
-            "url": "/api/v2/pokemon/358/"
-        },
-        {
-            "name": "absol",
-            "url": "/api/v2/pokemon/359/"
-        },
-        {
-            "name": "spheal",
-            "url": "/api/v2/pokemon/363/"
-        },
-        {
-            "name": "regirock",
-            "url": "/api/v2/pokemon/377/"
-        },
-        {
-            "name": "regice",
-            "url": "/api/v2/pokemon/378/"
-        },
-        {
-            "name": "registeel",
-            "url": "/api/v2/pokemon/379/"
-        },
-        {
-            "name": "turtwig",
-            "url": "/api/v2/pokemon/387/"
-        },
-        {
-            "name": "grotle",
-            "url": "/api/v2/pokemon/388/"
-        },
-        {
-            "name": "torterra",
-            "url": "/api/v2/pokemon/389/"
-        },
-        {
-            "name": "bidoof",
-            "url": "/api/v2/pokemon/399/"
-        },
-        {
-            "name": "bibarel",
-            "url": "/api/v2/pokemon/400/"
-        },
-        {
-            "name": "cranidos",
-            "url": "/api/v2/pokemon/408/"
-        },
-        {
-            "name": "rampardos",
-            "url": "/api/v2/pokemon/409/"
-        },
-        {
-            "name": "shieldon",
-            "url": "/api/v2/pokemon/410/"
-        },
-        {
-            "name": "bastiodon",
-            "url": "/api/v2/pokemon/411/"
-        },
-        {
-            "name": "shellos",
-            "url": "/api/v2/pokemon/422/"
-        },
-        {
-            "name": "gastrodon",
-            "url": "/api/v2/pokemon/423/"
-        },
-        {
-            "name": "drifloon",
-            "url": "/api/v2/pokemon/425/"
-        },
-        {
-            "name": "drifblim",
-            "url": "/api/v2/pokemon/426/"
-        },
-        {
-            "name": "mismagius",
-            "url": "/api/v2/pokemon/429/"
-        },
-        {
-            "name": "chingling",
-            "url": "/api/v2/pokemon/433/"
-        },
-        {
-            "name": "bonsly",
-            "url": "/api/v2/pokemon/438/"
-        },
-        {
-            "name": "spiritomb",
-            "url": "/api/v2/pokemon/442/"
-        },
-        {
-            "name": "munchlax",
-            "url": "/api/v2/pokemon/446/"
-        },
-        {
-            "name": "hippopotas",
-            "url": "/api/v2/pokemon/449/"
-        },
-        {
-            "name": "hippowdon",
-            "url": "/api/v2/pokemon/450/"
-        },
-        {
-            "name": "snover",
-            "url": "/api/v2/pokemon/459/"
-        },
-        {
-            "name": "abomasnow",
-            "url": "/api/v2/pokemon/460/"
-        },
-        {
-            "name": "rhyperior",
-            "url": "/api/v2/pokemon/464/"
-        },
-        {
-            "name": "magmortar",
-            "url": "/api/v2/pokemon/467/"
-        },
-        {
-            "name": "leafeon",
-            "url": "/api/v2/pokemon/470/"
-        },
-        {
-            "name": "glaceon",
-            "url": "/api/v2/pokemon/471/"
-        },
-        {
-            "name": "mamoswine",
-            "url": "/api/v2/pokemon/473/"
-        },
-        {
-            "name": "probopass",
-            "url": "/api/v2/pokemon/476/"
-        },
-        {
-            "name": "dusknoir",
-            "url": "/api/v2/pokemon/477/"
-        },
-        {
-            "name": "froslass",
-            "url": "/api/v2/pokemon/478/"
-        },
-        {
-            "name": "giratina-altered",
-            "url": "/api/v2/pokemon/487/"
-        },
-        {
-            "name": "darkrai",
-            "url": "/api/v2/pokemon/491/"
-        },
-        {
-            "name": "tepig",
-            "url": "/api/v2/pokemon/498/"
-        },
-        {
-            "name": "pignite",
-            "url": "/api/v2/pokemon/499/"
-        },
-        {
-            "name": "emboar",
-            "url": "/api/v2/pokemon/500/"
-        },
-        {
-            "name": "munna",
-            "url": "/api/v2/pokemon/517/"
-        },
-        {
-            "name": "musharna",
-            "url": "/api/v2/pokemon/518/"
-        },
-        {
-            "name": "roggenrola",
-            "url": "/api/v2/pokemon/524/"
-        },
-        {
-            "name": "drilbur",
-            "url": "/api/v2/pokemon/529/"
-        },
-        {
-            "name": "excadrill",
-            "url": "/api/v2/pokemon/530/"
-        },
-        {
-            "name": "timburr",
-            "url": "/api/v2/pokemon/532/"
-        },
-        {
-            "name": "gurdurr",
-            "url": "/api/v2/pokemon/533/"
-        },
-        {
-            "name": "conkeldurr",
-            "url": "/api/v2/pokemon/534/"
-        },
-        {
-            "name": "sandile",
-            "url": "/api/v2/pokemon/551/"
-        },
-        {
-            "name": "krokorok",
-            "url": "/api/v2/pokemon/552/"
-        },
-        {
-            "name": "krookodile",
-            "url": "/api/v2/pokemon/553/"
-        },
-        {
-            "name": "dwebble",
-            "url": "/api/v2/pokemon/557/"
-        },
-        {
-            "name": "scraggy",
-            "url": "/api/v2/pokemon/559/"
-        },
-        {
-            "name": "scrafty",
-            "url": "/api/v2/pokemon/560/"
-        },
-        {
-            "name": "yamask",
-            "url": "/api/v2/pokemon/562/"
-        },
-        {
-            "name": "cofagrigus",
-            "url": "/api/v2/pokemon/563/"
-        },
-        {
-            "name": "tirtouga",
-            "url": "/api/v2/pokemon/564/"
-        },
-        {
-            "name": "carracosta",
-            "url": "/api/v2/pokemon/565/"
-        },
-        {
-            "name": "trubbish",
-            "url": "/api/v2/pokemon/568/"
-        },
-        {
-            "name": "garbodor",
-            "url": "/api/v2/pokemon/569/"
-        },
-        {
-            "name": "sawsbuck",
-            "url": "/api/v2/pokemon/586/"
-        },
-        {
-            "name": "ferroseed",
-            "url": "/api/v2/pokemon/597/"
-        },
-        {
-            "name": "ferrothorn",
-            "url": "/api/v2/pokemon/598/"
-        },
-        {
-            "name": "litwick",
-            "url": "/api/v2/pokemon/607/"
-        },
-        {
-            "name": "lampent",
-            "url": "/api/v2/pokemon/608/"
-        },
-        {
-            "name": "chandelure",
-            "url": "/api/v2/pokemon/609/"
-        },
-        {
-            "name": "beartic",
-            "url": "/api/v2/pokemon/614/"
-        },
-        {
-            "name": "shelmet",
-            "url": "/api/v2/pokemon/616/"
-        },
-        {
-            "name": "accelgor",
-            "url": "/api/v2/pokemon/617/"
-        },
-        {
-            "name": "stunfisk",
-            "url": "/api/v2/pokemon/618/"
-        },
-        {
-            "name": "golett",
-            "url": "/api/v2/pokemon/622/"
-        },
-        {
-            "name": "golurk",
-            "url": "/api/v2/pokemon/623/"
-        },
-        {
-            "name": "heatmor",
-            "url": "/api/v2/pokemon/631/"
-        },
-        {
-            "name": "chespin",
-            "url": "/api/v2/pokemon/650/"
-        },
-        {
-            "name": "quilladin",
-            "url": "/api/v2/pokemon/651/"
-        },
-        {
-            "name": "chesnaught",
-            "url": "/api/v2/pokemon/652/"
-        },
-        {
-            "name": "tyrunt",
-            "url": "/api/v2/pokemon/696/"
-        },
-        {
-            "name": "tyrantrum",
-            "url": "/api/v2/pokemon/697/"
-        },
-        {
-            "name": "sylveon",
-            "url": "/api/v2/pokemon/700/"
-        },
-        {
-            "name": "goomy",
-            "url": "/api/v2/pokemon/704/"
-        },
-        {
-            "name": "sliggoo",
-            "url": "/api/v2/pokemon/705/"
-        },
-        {
-            "name": "goodra",
-            "url": "/api/v2/pokemon/706/"
-        },
-        {
-            "name": "phantump",
-            "url": "/api/v2/pokemon/708/"
-        },
-        {
-            "name": "trevenant",
-            "url": "/api/v2/pokemon/709/"
-        },
-        {
-            "name": "pumpkaboo-average",
-            "url": "/api/v2/pokemon/710/"
-        },
-        {
-            "name": "gourgeist-average",
-            "url": "/api/v2/pokemon/711/"
-        },
-        {
-            "name": "bergmite",
-            "url": "/api/v2/pokemon/712/"
-        },
-        {
-            "name": "avalugg",
-            "url": "/api/v2/pokemon/713/"
-        },
-        {
-            "name": "rowlet",
-            "url": "/api/v2/pokemon/722/"
-        },
-        {
-            "name": "decidueye",
-            "url": "/api/v2/pokemon/724/"
-        },
-        {
-            "name": "gumshoos",
-            "url": "/api/v2/pokemon/735/"
-        },
-        {
-            "name": "mudbray",
-            "url": "/api/v2/pokemon/749/"
-        },
-        {
-            "name": "mudsdale",
-            "url": "/api/v2/pokemon/750/"
-        },
-        {
-            "name": "passimian",
-            "url": "/api/v2/pokemon/766/"
-        },
-        {
-            "name": "sandygast",
-            "url": "/api/v2/pokemon/769/"
-        },
-        {
-            "name": "palossand",
-            "url": "/api/v2/pokemon/770/"
-        },
-        {
-            "name": "pyukumuku",
-            "url": "/api/v2/pokemon/771/"
-        },
-        {
-            "name": "komala",
-            "url": "/api/v2/pokemon/775/"
-        },
-        {
-            "name": "turtonator",
-            "url": "/api/v2/pokemon/776/"
-        },
-        {
-            "name": "mimikyu-disguised",
-            "url": "/api/v2/pokemon/778/"
-        },
-        {
-            "name": "skwovet",
-            "url": "/api/v2/pokemon/819/"
-        },
-        {
-            "name": "greedent",
-            "url": "/api/v2/pokemon/820/"
-        },
-        {
-            "name": "corviknight",
-            "url": "/api/v2/pokemon/823/"
-        },
-        {
-            "name": "rolycoly",
-            "url": "/api/v2/pokemon/837/"
-        },
-        {
-            "name": "carkol",
-            "url": "/api/v2/pokemon/838/"
-        },
-        {
-            "name": "coalossal",
-            "url": "/api/v2/pokemon/839/"
-        },
-        {
-            "name": "appletun",
-            "url": "/api/v2/pokemon/842/"
-        },
-        {
-            "name": "sinistea",
-            "url": "/api/v2/pokemon/854/"
-        },
-        {
-            "name": "polteageist",
-            "url": "/api/v2/pokemon/855/"
-        },
-        {
-            "name": "perrserker",
-            "url": "/api/v2/pokemon/863/"
-        },
-        {
-            "name": "cursola",
-            "url": "/api/v2/pokemon/864/"
-        },
-        {
-            "name": "runerigus",
-            "url": "/api/v2/pokemon/867/"
-        },
-        {
-            "name": "pincurchin",
-            "url": "/api/v2/pokemon/871/"
-        },
-        {
-            "name": "stonjourner",
-            "url": "/api/v2/pokemon/874/"
-        },
-        {
-            "name": "cufant",
-            "url": "/api/v2/pokemon/878/"
-        },
-        {
-            "name": "copperajah",
-            "url": "/api/v2/pokemon/879/"
-        },
-        {
-            "name": "dreepy",
-            "url": "/api/v2/pokemon/885/"
-        },
-        {
-            "name": "drakloak",
-            "url": "/api/v2/pokemon/886/"
-        },
-        {
-            "name": "dragapult",
-            "url": "/api/v2/pokemon/887/"
-        },
-        {
-            "name": "glastrier",
-            "url": "/api/v2/pokemon/896/"
-        },
-        {
-            "name": "spectrier",
-            "url": "/api/v2/pokemon/897/"
-        },
-        {
-            "name": "wyrdeer",
-            "url": "/api/v2/pokemon/899/"
-        },
-        {
-            "name": "ursaluna",
-            "url": "/api/v2/pokemon/901/"
-        },
-        {
-            "name": "overqwil",
-            "url": "/api/v2/pokemon/904/"
-        },
-        {
-            "name": "fuecoco",
-            "url": "/api/v2/pokemon/909/"
-        },
-        {
-            "name": "crocalor",
-            "url": "/api/v2/pokemon/910/"
-        },
-        {
-            "name": "skeledirge",
-            "url": "/api/v2/pokemon/911/"
-        },
-        {
-            "name": "lechonk",
-            "url": "/api/v2/pokemon/915/"
-        },
-        {
-            "name": "oinkologne-male",
-            "url": "/api/v2/pokemon/916/"
-        },
-        {
-            "name": "nacli",
-            "url": "/api/v2/pokemon/932/"
-        },
-        {
-            "name": "naclstack",
-            "url": "/api/v2/pokemon/933/"
-        },
-        {
-            "name": "garganacl",
-            "url": "/api/v2/pokemon/934/"
-        },
-        {
-            "name": "ceruledge",
-            "url": "/api/v2/pokemon/937/"
-        },
-        {
-            "name": "mabosstiff",
-            "url": "/api/v2/pokemon/943/"
-        },
-        {
-            "name": "bramblin",
-            "url": "/api/v2/pokemon/946/"
-        },
-        {
-            "name": "brambleghast",
-            "url": "/api/v2/pokemon/947/"
-        },
-        {
-            "name": "bombirdier",
-            "url": "/api/v2/pokemon/962/"
-        },
-        {
-            "name": "varoom",
-            "url": "/api/v2/pokemon/965/"
-        },
-        {
-            "name": "revavroom",
-            "url": "/api/v2/pokemon/966/"
-        },
-        {
-            "name": "orthworm",
-            "url": "/api/v2/pokemon/968/"
-        },
-        {
-            "name": "cetoddle",
-            "url": "/api/v2/pokemon/974/"
-        },
-        {
-            "name": "cetitan",
-            "url": "/api/v2/pokemon/975/"
-        },
-        {
-            "name": "dondozo",
-            "url": "/api/v2/pokemon/977/"
-        },
-        {
-            "name": "annihilape",
-            "url": "/api/v2/pokemon/979/"
-        },
-        {
-            "name": "clodsire",
-            "url": "/api/v2/pokemon/980/"
-        },
-        {
-            "name": "farigiraf",
-            "url": "/api/v2/pokemon/981/"
-        },
-        {
-            "name": "dudunsparce-two-segment",
-            "url": "/api/v2/pokemon/982/"
-        },
-        {
-            "name": "slither-wing",
-            "url": "/api/v2/pokemon/988/"
-        },
-        {
-            "name": "iron-thorns",
-            "url": "/api/v2/pokemon/995/"
-        },
-        {
-            "name": "poltchageist",
-            "url": "/api/v2/pokemon/1012/"
-        },
-        {
-            "name": "sinistcha",
-            "url": "/api/v2/pokemon/1013/"
-        },
-        {
-            "name": "okidogi",
-            "url": "/api/v2/pokemon/1014/"
-        },
-        {
-            "name": "hydrapple",
-            "url": "/api/v2/pokemon/1019/"
-        },
-        {
-            "name": "pecharunt",
-            "url": "/api/v2/pokemon/1025/"
-        },
-        {
-            "name": "giratina-origin",
-            "url": "/api/v2/pokemon/10007/"
-        },
-        {
-            "name": "pumpkaboo-small",
-            "url": "/api/v2/pokemon/10027/"
-        },
-        {
-            "name": "pumpkaboo-large",
-            "url": "/api/v2/pokemon/10028/"
-        },
-        {
-            "name": "pumpkaboo-super",
-            "url": "/api/v2/pokemon/10029/"
-        },
-        {
-            "name": "gourgeist-small",
-            "url": "/api/v2/pokemon/10030/"
-        },
-        {
-            "name": "gourgeist-large",
-            "url": "/api/v2/pokemon/10031/"
-        },
-        {
-            "name": "gourgeist-super",
-            "url": "/api/v2/pokemon/10032/"
-        },
-        {
-            "name": "venusaur-mega",
-            "url": "/api/v2/pokemon/10033/"
-        },
-        {
-            "name": "gengar-mega",
-            "url": "/api/v2/pokemon/10038/"
-        },
-        {
-            "name": "aerodactyl-mega",
-            "url": "/api/v2/pokemon/10042/"
-        },
-        {
-            "name": "scizor-mega",
-            "url": "/api/v2/pokemon/10046/"
-        },
-        {
-            "name": "heracross-mega",
-            "url": "/api/v2/pokemon/10047/"
-        },
-        {
-            "name": "tyranitar-mega",
-            "url": "/api/v2/pokemon/10049/"
-        },
-        {
-            "name": "blaziken-mega",
-            "url": "/api/v2/pokemon/10050/"
-        },
-        {
-            "name": "aggron-mega",
-            "url": "/api/v2/pokemon/10053/"
-        },
-        {
-            "name": "manectric-mega",
-            "url": "/api/v2/pokemon/10055/"
-        },
-        {
-            "name": "banette-mega",
-            "url": "/api/v2/pokemon/10056/"
-        },
-        {
-            "name": "absol-mega",
-            "url": "/api/v2/pokemon/10057/"
-        },
-        {
-            "name": "abomasnow-mega",
-            "url": "/api/v2/pokemon/10060/"
-        },
-        {
-            "name": "swampert-mega",
-            "url": "/api/v2/pokemon/10064/"
-        },
-        {
-            "name": "slowbro-mega",
-            "url": "/api/v2/pokemon/10071/"
-        },
-        {
-            "name": "steelix-mega",
-            "url": "/api/v2/pokemon/10072/"
-        },
-        {
-            "name": "camerupt-mega",
-            "url": "/api/v2/pokemon/10087/"
-        },
-        {
-            "name": "sandshrew-alola",
-            "url": "/api/v2/pokemon/10101/"
-        },
-        {
-            "name": "sandslash-alola",
-            "url": "/api/v2/pokemon/10102/"
-        },
-        {
-            "name": "dugtrio-alola",
-            "url": "/api/v2/pokemon/10106/"
-        },
-        {
-            "name": "meowth-alola",
-            "url": "/api/v2/pokemon/10107/"
-        },
-        {
-            "name": "persian-alola",
-            "url": "/api/v2/pokemon/10108/"
-        },
-        {
-            "name": "geodude-alola",
-            "url": "/api/v2/pokemon/10109/"
-        },
-        {
-            "name": "graveler-alola",
-            "url": "/api/v2/pokemon/10110/"
-        },
-        {
-            "name": "golem-alola",
-            "url": "/api/v2/pokemon/10111/"
-        },
-        {
-            "name": "grimer-alola",
-            "url": "/api/v2/pokemon/10112/"
-        },
-        {
-            "name": "muk-alola",
-            "url": "/api/v2/pokemon/10113/"
-        },
-        {
-            "name": "exeggutor-alola",
-            "url": "/api/v2/pokemon/10114/"
-        },
-        {
-            "name": "mimikyu-busted",
-            "url": "/api/v2/pokemon/10143/"
-        },
-        {
-            "name": "meowth-galar",
-            "url": "/api/v2/pokemon/10161/"
-        },
-        {
-            "name": "slowpoke-galar",
-            "url": "/api/v2/pokemon/10164/"
-        },
-        {
-            "name": "slowbro-galar",
-            "url": "/api/v2/pokemon/10165/"
-        },
-        {
-            "name": "farfetchd-galar",
-            "url": "/api/v2/pokemon/10166/"
-        },
-        {
-            "name": "weezing-galar",
-            "url": "/api/v2/pokemon/10167/"
-        },
-        {
-            "name": "slowking-galar",
-            "url": "/api/v2/pokemon/10172/"
-        },
-        {
-            "name": "corsola-galar",
-            "url": "/api/v2/pokemon/10173/"
-        },
-        {
-            "name": "yamask-galar",
-            "url": "/api/v2/pokemon/10179/"
-        },
-        {
-            "name": "stunfisk-galar",
-            "url": "/api/v2/pokemon/10180/"
-        },
-        {
-            "name": "electrode-hisui",
-            "url": "/api/v2/pokemon/10232/"
-        },
-        {
-            "name": "typhlosion-hisui",
-            "url": "/api/v2/pokemon/10233/"
-        },
-        {
-            "name": "qwilfish-hisui",
-            "url": "/api/v2/pokemon/10234/"
-        },
-        {
-            "name": "zorua-hisui",
-            "url": "/api/v2/pokemon/10238/"
-        },
-        {
-            "name": "zoroark-hisui",
-            "url": "/api/v2/pokemon/10239/"
-        },
-        {
-            "name": "sliggoo-hisui",
-            "url": "/api/v2/pokemon/10241/"
-        },
-        {
-            "name": "goodra-hisui",
-            "url": "/api/v2/pokemon/10242/"
-        },
-        {
-            "name": "avalugg-hisui",
-            "url": "/api/v2/pokemon/10243/"
-        },
-        {
-            "name": "tauros-paldea-combat-breed",
-            "url": "/api/v2/pokemon/10250/"
-        },
-        {
-            "name": "tauros-paldea-blaze-breed",
-            "url": "/api/v2/pokemon/10251/"
-        },
-        {
-            "name": "tauros-paldea-aqua-breed",
-            "url": "/api/v2/pokemon/10252/"
-        },
-        {
-            "name": "wooper-paldea",
-            "url": "/api/v2/pokemon/10253/"
-        },
-        {
-            "name": "oinkologne-female",
-            "url": "/api/v2/pokemon/10254/"
-        },
-        {
-            "name": "dudunsparce-three-segment",
-            "url": "/api/v2/pokemon/10255/"
-        },
-        {
-            "name": "meganium-mega",
-            "url": "/api/v2/pokemon/10282/"
-        },
-        {
-            "name": "feraligatr-mega",
-            "url": "/api/v2/pokemon/10283/"
-        },
-        {
-            "name": "skarmory-mega",
-            "url": "/api/v2/pokemon/10284/"
-        },
-        {
-            "name": "froslass-mega",
-            "url": "/api/v2/pokemon/10285/"
-        },
-        {
-            "name": "emboar-mega",
-            "url": "/api/v2/pokemon/10286/"
-        },
-        {
-            "name": "excadrill-mega",
-            "url": "/api/v2/pokemon/10287/"
-        },
-        {
-            "name": "scrafty-mega",
-            "url": "/api/v2/pokemon/10289/"
-        },
-        {
-            "name": "chandelure-mega",
-            "url": "/api/v2/pokemon/10291/"
-        },
-        {
-            "name": "chesnaught-mega",
-            "url": "/api/v2/pokemon/10292/"
-        },
-        {
-            "name": "chimecho-mega",
-            "url": "/api/v2/pokemon/10306/"
-        },
-        {
-            "name": "golurk-mega",
-            "url": "/api/v2/pokemon/10313/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/48/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/49/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2039/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2207/"
-            },
-            "version_group": {
-                "name": "the-indigo-disk",
-                "url": "/api/v2/version-group/27/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2303/"
-            },
-            "version_group": {
-                "name": "legends-za",
-                "url": "/api/v2/version-group/30/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "unique",
-            "url": "/api/v2/move-category/13/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "curse",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u306e\u308d\u3044"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uc800\uc8fc"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u8a5b\u5492"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Mal\u00e9diction"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Fluch"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Maldici\u00f3n"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Maledizione"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Curse"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u306e\u308d\u3044"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u8bc5\u5492"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Maldici\u00f3n"
-        }
-    ],
-    "past_values": [
-        {
-            "accuracy": null,
-            "effect_chance": null,
-            "effect_entries": [],
-            "power": null,
-            "pp": null,
-            "type": {
-                "name": "unknown",
-                "url": "/api/v2/type/10001/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        }
-    ],
-    "power": null,
-    "pp": 10,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/21/"
-    },
-    "target": {
-        "name": "specific-move",
-        "url": "/api/v2/move-target/1/"
-    },
-    "type": {
-        "name": "ghost",
-        "url": "/api/v2/type/8/"
+    "super": {
+      "use_before": null,
+      "use_after": null
     }
+  },
+  "contest_type": {
+    "name": "tough",
+    "url": "/api/v2/contest-type/5/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/31/"
+  },
+  "damage_class": {
+    "name": "status",
+    "url": "/api/v2/move-damage-class/1/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Si le lanceur est un Spectre: le lanceur paye la moitié de ses PV max pour placer une malédiction sur la cible, lui infligeant 1/4 de ses PV max à chaque tour.\nSinon: Diminue la Vitesse du lanceur d'un niveau, et augmente son Attaque et Défense d'un niveau chacune.\n\nL'effet maudit est transmis par Relais.\n\nCette capacité ne peut pas être copiée par Mimique.",
+      "short_effect": "Les spectres dépensent la moitié de leurs PV max pour infliger des dégâts à la cible à chaque tour.  Les autres diminuent la Vitesse, mais augmentent l'Attaque et la Défense.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "If the user is a Ghost: user pays half its max HP to place a curse on the target, damaging it for 1/4 its max HP every turn.\nOtherwise: Lowers the user’s Speed by one stage, and raises its Attack and Defense by one stage each.\n\nThe curse effect is passed on by Baton Pass.\n\nThis move cannot be copied by Mirror Move.",
+      "short_effect": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii",
+    "url": "/api/v2/generation/2/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "unique",
+      "url": "/api/v2/move-category/13/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "のろい",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "저주",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "詛咒",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Malédiction",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Fluch",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Maldición",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Maledizione",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Curse",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "のろい",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "诅咒",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Maldición",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": null,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": {
+        "name": "unknown",
+        "url": "/api/v2/type/10001/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/21/"
+  },
+  "target": {
+    "name": "specific-move",
+    "url": "/api/v2/move-target/1/"
+  },
+  "type": {
+    "name": "ghost",
+    "url": "/api/v2/type/8/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/48/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/49/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2039/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2207/"
+      },
+      "version_group": {
+        "name": "the-indigo-disk",
+        "url": "/api/v2/version-group/27/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2303/"
+      },
+      "version_group": {
+        "name": "legends-za",
+        "url": "/api/v2/version-group/30/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Works differently\nfor ghost-types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "flavor_text": "Works differently\nfor ghost-types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    },
+    {
+      "flavor_text": "A move that functions\ndifferently for GHOSTS.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "A move that functions\ndifferently for GHOSTS.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "A move that works\ndifferently for the\nGHOST-type and all\nthe other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Une capacité à l’effet différent selon que\nle lanceur est un Pokémon Spectre ou non.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "つかう　ポケモンが\nゴーストタイプと　それいがい　とでは\nこうかが　かわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "기술을 쓰는 포켓몬이\n고스트타입일 때와 그 이외의\n타입일 때는 효과가 다르다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Une capacité à l’effet différent selon que le\nlanceur est un Pokémon Spectre ou non.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Attacke, deren Wirkung davon abhängt,\nob der Anwender ein Geist-Pokémon ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa è di tipo Spettro.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "使う　ポケモンが\nゴーストタイプと　それ以外　とでは\n効果が　変わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "つかう　ポケモンが\nゴーストタイプと　それいがい　とでは\nこうかが　かわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "기술을 쓰는 포켓몬이\n고스트타입일 때와 그 이외의\n타입일 때는 효과가 다르다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Une capacité à l’effet différent selon que le\nlanceur est un Pokémon Spectre ou non.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Attacke, deren Wirkung davon abhängt,\nob der Anwender ein Geister-Pokémon ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa è di tipo Spettro.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "A move that works differently for the\nGhost type than for all other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "使う　ポケモンが\nゴーストタイプと　それ以外　とでは\n効果が　変わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "つかう　ポケモンが\nゴーストタイプと　それいがい　とでは\nこうかが　かわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "기술을 쓰는 포켓몬이\n고스트타입일 때와 그 이외의\n타입일 때는 효과가 다르다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "使用詛咒時，\n幽靈屬性的寶可夢和其他屬性的寶可夢，\n會獲得不同的招式效果。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Une capacité à l’effet différent selon que le\nlanceur est un Pokémon Spectre ou non.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Attacke, deren Wirkung davon abhängt, ob der\nAnwender ein Geister-Pokémon ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa è di tipo Spettro.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "A move that works differently for the Ghost type\nthan for all other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "使う　ポケモンが\nゴーストタイプと　それ以外　とでは\n効果が　変わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "使用该招式的宝可梦，\n其属性是幽灵属性或其他属性时，\n效果会不一样。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "つかう　ポケモンが\nゴーストタイプと　それいがい　とでは\nこうかが　かわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "기술을 쓰는 포켓몬이\n고스트타입일 때와 그 이외의\n타입일 때는 효과가 다르다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "使用詛咒時，\n幽靈屬性的寶可夢和其他屬性的寶可夢，\n會獲得不同的招式效果。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Une capacité à l’effet différent selon que le\nlanceur est un Pokémon Spectre ou non.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Attacke, deren Wirkung davon abhängt, ob der\nAnwender ein Geister-Pokémon ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa è di tipo Spettro.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "A move that works differently for the Ghost type\nthan for all other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "使う　ポケモンが\nゴーストタイプと　それ以外　とでは\n効果が　変わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "使用该招式的宝可梦，\n其属性是幽灵属性或其他属性时，\n效果会不一样。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "つかう　ポケモンが\nゴーストタイプと　それいがい　とでは\nこうかが　かわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "기술을 쓰는 포켓몬이\n고스트타입일 때와 그 이외의\n타입일 때는 효과가 다르다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "使用詛咒時，\n幽靈屬性的寶可夢和其他屬性的寶可夢，\n會獲得不同的招式效果。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Une capacité à l’effet différent selon que le lanceur\nest un Pokémon Spectre ou non.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Attacke, deren Wirkung davon abhängt, ob der\nAnwender ein Geister-Pokémon ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa è di tipo Spettro.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "A move that works differently for the Ghost type\nthan for all other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "使う　ポケモンが\nゴーストタイプと　それ以外　とでは\n効果が　変わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "使用该招式时，\n幽灵属性和其他属性的宝可梦\n会获得不同的招式效果。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "つかう　ポケモンが\nゴーストタイプと　それいがい　とでは\nこうかが　かわる。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "기술을 쓰는 포켓몬이\n고스트타입일 때와 그 이외의\n타입일 때는 효과가 다르다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "使用詛咒時，\n幽靈屬性的寶可夢和其他屬性的寶可夢，\n會獲得不同的招式效果。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Une capacité à l’effet différent selon que le lanceur\nest un Pokémon Spectre ou non.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Attacke, deren Wirkung davon abhängt, ob der\nAnwender ein Geister-Pokémon ist.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el usuario\nes de tipo Fantasma o no.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Una mossa che agisce in modo diverso\nse chi la usa è di tipo Spettro.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "A move that works differently for the Ghost type\nthan for all other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "使う　ポケモンが\nゴーストタイプと　それ以外　とでは\n効果が　変わる。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "使用该招式的宝可梦，\n其属性是幽灵属性或其他属性时，\n效果会不一样。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Un movimiento que tiene efectos distintos si el usuario\nes de tipo Fantasma o no.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "A move that works differently for the Ghost type than for all other types.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "A move that has different effects depending on whether the user is a Ghost type or not.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "bulbasaur",
+      "url": "/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "/api/v2/pokemon/2/"
+    },
+    {
+      "name": "venusaur",
+      "url": "/api/v2/pokemon/3/"
+    },
+    {
+      "name": "charmander",
+      "url": "/api/v2/pokemon/4/"
+    },
+    {
+      "name": "charmeleon",
+      "url": "/api/v2/pokemon/5/"
+    },
+    {
+      "name": "charizard",
+      "url": "/api/v2/pokemon/6/"
+    },
+    {
+      "name": "squirtle",
+      "url": "/api/v2/pokemon/7/"
+    },
+    {
+      "name": "wartortle",
+      "url": "/api/v2/pokemon/8/"
+    },
+    {
+      "name": "blastoise",
+      "url": "/api/v2/pokemon/9/"
+    },
+    {
+      "name": "butterfree",
+      "url": "/api/v2/pokemon/12/"
+    },
+    {
+      "name": "beedrill",
+      "url": "/api/v2/pokemon/15/"
+    },
+    {
+      "name": "pidgey",
+      "url": "/api/v2/pokemon/16/"
+    },
+    {
+      "name": "pidgeotto",
+      "url": "/api/v2/pokemon/17/"
+    },
+    {
+      "name": "pidgeot",
+      "url": "/api/v2/pokemon/18/"
+    },
+    {
+      "name": "rattata",
+      "url": "/api/v2/pokemon/19/"
+    },
+    {
+      "name": "raticate",
+      "url": "/api/v2/pokemon/20/"
+    },
+    {
+      "name": "spearow",
+      "url": "/api/v2/pokemon/21/"
+    },
+    {
+      "name": "fearow",
+      "url": "/api/v2/pokemon/22/"
+    },
+    {
+      "name": "ekans",
+      "url": "/api/v2/pokemon/23/"
+    },
+    {
+      "name": "arbok",
+      "url": "/api/v2/pokemon/24/"
+    },
+    {
+      "name": "pikachu",
+      "url": "/api/v2/pokemon/25/"
+    },
+    {
+      "name": "raichu",
+      "url": "/api/v2/pokemon/26/"
+    },
+    {
+      "name": "sandshrew",
+      "url": "/api/v2/pokemon/27/"
+    },
+    {
+      "name": "sandslash",
+      "url": "/api/v2/pokemon/28/"
+    },
+    {
+      "name": "nidoran-f",
+      "url": "/api/v2/pokemon/29/"
+    },
+    {
+      "name": "nidorina",
+      "url": "/api/v2/pokemon/30/"
+    },
+    {
+      "name": "nidoqueen",
+      "url": "/api/v2/pokemon/31/"
+    },
+    {
+      "name": "nidoran-m",
+      "url": "/api/v2/pokemon/32/"
+    },
+    {
+      "name": "nidorino",
+      "url": "/api/v2/pokemon/33/"
+    },
+    {
+      "name": "nidoking",
+      "url": "/api/v2/pokemon/34/"
+    },
+    {
+      "name": "clefairy",
+      "url": "/api/v2/pokemon/35/"
+    },
+    {
+      "name": "clefable",
+      "url": "/api/v2/pokemon/36/"
+    },
+    {
+      "name": "vulpix",
+      "url": "/api/v2/pokemon/37/"
+    },
+    {
+      "name": "ninetales",
+      "url": "/api/v2/pokemon/38/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "zubat",
+      "url": "/api/v2/pokemon/41/"
+    },
+    {
+      "name": "golbat",
+      "url": "/api/v2/pokemon/42/"
+    },
+    {
+      "name": "oddish",
+      "url": "/api/v2/pokemon/43/"
+    },
+    {
+      "name": "gloom",
+      "url": "/api/v2/pokemon/44/"
+    },
+    {
+      "name": "vileplume",
+      "url": "/api/v2/pokemon/45/"
+    },
+    {
+      "name": "paras",
+      "url": "/api/v2/pokemon/46/"
+    },
+    {
+      "name": "parasect",
+      "url": "/api/v2/pokemon/47/"
+    },
+    {
+      "name": "venonat",
+      "url": "/api/v2/pokemon/48/"
+    },
+    {
+      "name": "venomoth",
+      "url": "/api/v2/pokemon/49/"
+    },
+    {
+      "name": "diglett",
+      "url": "/api/v2/pokemon/50/"
+    },
+    {
+      "name": "dugtrio",
+      "url": "/api/v2/pokemon/51/"
+    },
+    {
+      "name": "meowth",
+      "url": "/api/v2/pokemon/52/"
+    },
+    {
+      "name": "persian",
+      "url": "/api/v2/pokemon/53/"
+    },
+    {
+      "name": "psyduck",
+      "url": "/api/v2/pokemon/54/"
+    },
+    {
+      "name": "golduck",
+      "url": "/api/v2/pokemon/55/"
+    },
+    {
+      "name": "mankey",
+      "url": "/api/v2/pokemon/56/"
+    },
+    {
+      "name": "primeape",
+      "url": "/api/v2/pokemon/57/"
+    },
+    {
+      "name": "growlithe",
+      "url": "/api/v2/pokemon/58/"
+    },
+    {
+      "name": "arcanine",
+      "url": "/api/v2/pokemon/59/"
+    },
+    {
+      "name": "poliwag",
+      "url": "/api/v2/pokemon/60/"
+    },
+    {
+      "name": "poliwhirl",
+      "url": "/api/v2/pokemon/61/"
+    },
+    {
+      "name": "poliwrath",
+      "url": "/api/v2/pokemon/62/"
+    },
+    {
+      "name": "abra",
+      "url": "/api/v2/pokemon/63/"
+    },
+    {
+      "name": "kadabra",
+      "url": "/api/v2/pokemon/64/"
+    },
+    {
+      "name": "alakazam",
+      "url": "/api/v2/pokemon/65/"
+    },
+    {
+      "name": "machop",
+      "url": "/api/v2/pokemon/66/"
+    },
+    {
+      "name": "machoke",
+      "url": "/api/v2/pokemon/67/"
+    },
+    {
+      "name": "machamp",
+      "url": "/api/v2/pokemon/68/"
+    },
+    {
+      "name": "bellsprout",
+      "url": "/api/v2/pokemon/69/"
+    },
+    {
+      "name": "weepinbell",
+      "url": "/api/v2/pokemon/70/"
+    },
+    {
+      "name": "victreebel",
+      "url": "/api/v2/pokemon/71/"
+    },
+    {
+      "name": "tentacool",
+      "url": "/api/v2/pokemon/72/"
+    },
+    {
+      "name": "tentacruel",
+      "url": "/api/v2/pokemon/73/"
+    },
+    {
+      "name": "geodude",
+      "url": "/api/v2/pokemon/74/"
+    },
+    {
+      "name": "graveler",
+      "url": "/api/v2/pokemon/75/"
+    },
+    {
+      "name": "golem",
+      "url": "/api/v2/pokemon/76/"
+    },
+    {
+      "name": "ponyta",
+      "url": "/api/v2/pokemon/77/"
+    },
+    {
+      "name": "rapidash",
+      "url": "/api/v2/pokemon/78/"
+    },
+    {
+      "name": "slowpoke",
+      "url": "/api/v2/pokemon/79/"
+    },
+    {
+      "name": "slowbro",
+      "url": "/api/v2/pokemon/80/"
+    },
+    {
+      "name": "magnemite",
+      "url": "/api/v2/pokemon/81/"
+    },
+    {
+      "name": "magneton",
+      "url": "/api/v2/pokemon/82/"
+    },
+    {
+      "name": "farfetchd",
+      "url": "/api/v2/pokemon/83/"
+    },
+    {
+      "name": "doduo",
+      "url": "/api/v2/pokemon/84/"
+    },
+    {
+      "name": "dodrio",
+      "url": "/api/v2/pokemon/85/"
+    },
+    {
+      "name": "seel",
+      "url": "/api/v2/pokemon/86/"
+    },
+    {
+      "name": "dewgong",
+      "url": "/api/v2/pokemon/87/"
+    },
+    {
+      "name": "grimer",
+      "url": "/api/v2/pokemon/88/"
+    },
+    {
+      "name": "muk",
+      "url": "/api/v2/pokemon/89/"
+    },
+    {
+      "name": "shellder",
+      "url": "/api/v2/pokemon/90/"
+    },
+    {
+      "name": "cloyster",
+      "url": "/api/v2/pokemon/91/"
+    },
+    {
+      "name": "gastly",
+      "url": "/api/v2/pokemon/92/"
+    },
+    {
+      "name": "haunter",
+      "url": "/api/v2/pokemon/93/"
+    },
+    {
+      "name": "gengar",
+      "url": "/api/v2/pokemon/94/"
+    },
+    {
+      "name": "onix",
+      "url": "/api/v2/pokemon/95/"
+    },
+    {
+      "name": "drowzee",
+      "url": "/api/v2/pokemon/96/"
+    },
+    {
+      "name": "hypno",
+      "url": "/api/v2/pokemon/97/"
+    },
+    {
+      "name": "krabby",
+      "url": "/api/v2/pokemon/98/"
+    },
+    {
+      "name": "kingler",
+      "url": "/api/v2/pokemon/99/"
+    },
+    {
+      "name": "voltorb",
+      "url": "/api/v2/pokemon/100/"
+    },
+    {
+      "name": "electrode",
+      "url": "/api/v2/pokemon/101/"
+    },
+    {
+      "name": "exeggcute",
+      "url": "/api/v2/pokemon/102/"
+    },
+    {
+      "name": "exeggutor",
+      "url": "/api/v2/pokemon/103/"
+    },
+    {
+      "name": "cubone",
+      "url": "/api/v2/pokemon/104/"
+    },
+    {
+      "name": "marowak",
+      "url": "/api/v2/pokemon/105/"
+    },
+    {
+      "name": "hitmonlee",
+      "url": "/api/v2/pokemon/106/"
+    },
+    {
+      "name": "hitmonchan",
+      "url": "/api/v2/pokemon/107/"
+    },
+    {
+      "name": "lickitung",
+      "url": "/api/v2/pokemon/108/"
+    },
+    {
+      "name": "koffing",
+      "url": "/api/v2/pokemon/109/"
+    },
+    {
+      "name": "weezing",
+      "url": "/api/v2/pokemon/110/"
+    },
+    {
+      "name": "rhyhorn",
+      "url": "/api/v2/pokemon/111/"
+    },
+    {
+      "name": "rhydon",
+      "url": "/api/v2/pokemon/112/"
+    },
+    {
+      "name": "chansey",
+      "url": "/api/v2/pokemon/113/"
+    },
+    {
+      "name": "tangela",
+      "url": "/api/v2/pokemon/114/"
+    },
+    {
+      "name": "kangaskhan",
+      "url": "/api/v2/pokemon/115/"
+    },
+    {
+      "name": "horsea",
+      "url": "/api/v2/pokemon/116/"
+    },
+    {
+      "name": "seadra",
+      "url": "/api/v2/pokemon/117/"
+    },
+    {
+      "name": "goldeen",
+      "url": "/api/v2/pokemon/118/"
+    },
+    {
+      "name": "seaking",
+      "url": "/api/v2/pokemon/119/"
+    },
+    {
+      "name": "staryu",
+      "url": "/api/v2/pokemon/120/"
+    },
+    {
+      "name": "starmie",
+      "url": "/api/v2/pokemon/121/"
+    },
+    {
+      "name": "mr-mime",
+      "url": "/api/v2/pokemon/122/"
+    },
+    {
+      "name": "scyther",
+      "url": "/api/v2/pokemon/123/"
+    },
+    {
+      "name": "jynx",
+      "url": "/api/v2/pokemon/124/"
+    },
+    {
+      "name": "electabuzz",
+      "url": "/api/v2/pokemon/125/"
+    },
+    {
+      "name": "magmar",
+      "url": "/api/v2/pokemon/126/"
+    },
+    {
+      "name": "pinsir",
+      "url": "/api/v2/pokemon/127/"
+    },
+    {
+      "name": "tauros",
+      "url": "/api/v2/pokemon/128/"
+    },
+    {
+      "name": "gyarados",
+      "url": "/api/v2/pokemon/130/"
+    },
+    {
+      "name": "lapras",
+      "url": "/api/v2/pokemon/131/"
+    },
+    {
+      "name": "eevee",
+      "url": "/api/v2/pokemon/133/"
+    },
+    {
+      "name": "vaporeon",
+      "url": "/api/v2/pokemon/134/"
+    },
+    {
+      "name": "jolteon",
+      "url": "/api/v2/pokemon/135/"
+    },
+    {
+      "name": "flareon",
+      "url": "/api/v2/pokemon/136/"
+    },
+    {
+      "name": "porygon",
+      "url": "/api/v2/pokemon/137/"
+    },
+    {
+      "name": "omanyte",
+      "url": "/api/v2/pokemon/138/"
+    },
+    {
+      "name": "omastar",
+      "url": "/api/v2/pokemon/139/"
+    },
+    {
+      "name": "kabuto",
+      "url": "/api/v2/pokemon/140/"
+    },
+    {
+      "name": "kabutops",
+      "url": "/api/v2/pokemon/141/"
+    },
+    {
+      "name": "aerodactyl",
+      "url": "/api/v2/pokemon/142/"
+    },
+    {
+      "name": "snorlax",
+      "url": "/api/v2/pokemon/143/"
+    },
+    {
+      "name": "articuno",
+      "url": "/api/v2/pokemon/144/"
+    },
+    {
+      "name": "zapdos",
+      "url": "/api/v2/pokemon/145/"
+    },
+    {
+      "name": "moltres",
+      "url": "/api/v2/pokemon/146/"
+    },
+    {
+      "name": "dratini",
+      "url": "/api/v2/pokemon/147/"
+    },
+    {
+      "name": "dragonair",
+      "url": "/api/v2/pokemon/148/"
+    },
+    {
+      "name": "dragonite",
+      "url": "/api/v2/pokemon/149/"
+    },
+    {
+      "name": "mewtwo",
+      "url": "/api/v2/pokemon/150/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "chikorita",
+      "url": "/api/v2/pokemon/152/"
+    },
+    {
+      "name": "bayleef",
+      "url": "/api/v2/pokemon/153/"
+    },
+    {
+      "name": "meganium",
+      "url": "/api/v2/pokemon/154/"
+    },
+    {
+      "name": "cyndaquil",
+      "url": "/api/v2/pokemon/155/"
+    },
+    {
+      "name": "quilava",
+      "url": "/api/v2/pokemon/156/"
+    },
+    {
+      "name": "typhlosion",
+      "url": "/api/v2/pokemon/157/"
+    },
+    {
+      "name": "totodile",
+      "url": "/api/v2/pokemon/158/"
+    },
+    {
+      "name": "croconaw",
+      "url": "/api/v2/pokemon/159/"
+    },
+    {
+      "name": "feraligatr",
+      "url": "/api/v2/pokemon/160/"
+    },
+    {
+      "name": "sentret",
+      "url": "/api/v2/pokemon/161/"
+    },
+    {
+      "name": "furret",
+      "url": "/api/v2/pokemon/162/"
+    },
+    {
+      "name": "hoothoot",
+      "url": "/api/v2/pokemon/163/"
+    },
+    {
+      "name": "noctowl",
+      "url": "/api/v2/pokemon/164/"
+    },
+    {
+      "name": "ledyba",
+      "url": "/api/v2/pokemon/165/"
+    },
+    {
+      "name": "ledian",
+      "url": "/api/v2/pokemon/166/"
+    },
+    {
+      "name": "spinarak",
+      "url": "/api/v2/pokemon/167/"
+    },
+    {
+      "name": "ariados",
+      "url": "/api/v2/pokemon/168/"
+    },
+    {
+      "name": "crobat",
+      "url": "/api/v2/pokemon/169/"
+    },
+    {
+      "name": "chinchou",
+      "url": "/api/v2/pokemon/170/"
+    },
+    {
+      "name": "lanturn",
+      "url": "/api/v2/pokemon/171/"
+    },
+    {
+      "name": "pichu",
+      "url": "/api/v2/pokemon/172/"
+    },
+    {
+      "name": "cleffa",
+      "url": "/api/v2/pokemon/173/"
+    },
+    {
+      "name": "igglybuff",
+      "url": "/api/v2/pokemon/174/"
+    },
+    {
+      "name": "togepi",
+      "url": "/api/v2/pokemon/175/"
+    },
+    {
+      "name": "togetic",
+      "url": "/api/v2/pokemon/176/"
+    },
+    {
+      "name": "natu",
+      "url": "/api/v2/pokemon/177/"
+    },
+    {
+      "name": "xatu",
+      "url": "/api/v2/pokemon/178/"
+    },
+    {
+      "name": "mareep",
+      "url": "/api/v2/pokemon/179/"
+    },
+    {
+      "name": "flaaffy",
+      "url": "/api/v2/pokemon/180/"
+    },
+    {
+      "name": "ampharos",
+      "url": "/api/v2/pokemon/181/"
+    },
+    {
+      "name": "bellossom",
+      "url": "/api/v2/pokemon/182/"
+    },
+    {
+      "name": "marill",
+      "url": "/api/v2/pokemon/183/"
+    },
+    {
+      "name": "azumarill",
+      "url": "/api/v2/pokemon/184/"
+    },
+    {
+      "name": "sudowoodo",
+      "url": "/api/v2/pokemon/185/"
+    },
+    {
+      "name": "politoed",
+      "url": "/api/v2/pokemon/186/"
+    },
+    {
+      "name": "hoppip",
+      "url": "/api/v2/pokemon/187/"
+    },
+    {
+      "name": "skiploom",
+      "url": "/api/v2/pokemon/188/"
+    },
+    {
+      "name": "jumpluff",
+      "url": "/api/v2/pokemon/189/"
+    },
+    {
+      "name": "aipom",
+      "url": "/api/v2/pokemon/190/"
+    },
+    {
+      "name": "sunkern",
+      "url": "/api/v2/pokemon/191/"
+    },
+    {
+      "name": "sunflora",
+      "url": "/api/v2/pokemon/192/"
+    },
+    {
+      "name": "yanma",
+      "url": "/api/v2/pokemon/193/"
+    },
+    {
+      "name": "wooper",
+      "url": "/api/v2/pokemon/194/"
+    },
+    {
+      "name": "quagsire",
+      "url": "/api/v2/pokemon/195/"
+    },
+    {
+      "name": "espeon",
+      "url": "/api/v2/pokemon/196/"
+    },
+    {
+      "name": "umbreon",
+      "url": "/api/v2/pokemon/197/"
+    },
+    {
+      "name": "murkrow",
+      "url": "/api/v2/pokemon/198/"
+    },
+    {
+      "name": "slowking",
+      "url": "/api/v2/pokemon/199/"
+    },
+    {
+      "name": "misdreavus",
+      "url": "/api/v2/pokemon/200/"
+    },
+    {
+      "name": "girafarig",
+      "url": "/api/v2/pokemon/203/"
+    },
+    {
+      "name": "pineco",
+      "url": "/api/v2/pokemon/204/"
+    },
+    {
+      "name": "forretress",
+      "url": "/api/v2/pokemon/205/"
+    },
+    {
+      "name": "dunsparce",
+      "url": "/api/v2/pokemon/206/"
+    },
+    {
+      "name": "gligar",
+      "url": "/api/v2/pokemon/207/"
+    },
+    {
+      "name": "steelix",
+      "url": "/api/v2/pokemon/208/"
+    },
+    {
+      "name": "snubbull",
+      "url": "/api/v2/pokemon/209/"
+    },
+    {
+      "name": "granbull",
+      "url": "/api/v2/pokemon/210/"
+    },
+    {
+      "name": "qwilfish",
+      "url": "/api/v2/pokemon/211/"
+    },
+    {
+      "name": "scizor",
+      "url": "/api/v2/pokemon/212/"
+    },
+    {
+      "name": "shuckle",
+      "url": "/api/v2/pokemon/213/"
+    },
+    {
+      "name": "heracross",
+      "url": "/api/v2/pokemon/214/"
+    },
+    {
+      "name": "sneasel",
+      "url": "/api/v2/pokemon/215/"
+    },
+    {
+      "name": "teddiursa",
+      "url": "/api/v2/pokemon/216/"
+    },
+    {
+      "name": "ursaring",
+      "url": "/api/v2/pokemon/217/"
+    },
+    {
+      "name": "slugma",
+      "url": "/api/v2/pokemon/218/"
+    },
+    {
+      "name": "magcargo",
+      "url": "/api/v2/pokemon/219/"
+    },
+    {
+      "name": "swinub",
+      "url": "/api/v2/pokemon/220/"
+    },
+    {
+      "name": "piloswine",
+      "url": "/api/v2/pokemon/221/"
+    },
+    {
+      "name": "corsola",
+      "url": "/api/v2/pokemon/222/"
+    },
+    {
+      "name": "remoraid",
+      "url": "/api/v2/pokemon/223/"
+    },
+    {
+      "name": "octillery",
+      "url": "/api/v2/pokemon/224/"
+    },
+    {
+      "name": "delibird",
+      "url": "/api/v2/pokemon/225/"
+    },
+    {
+      "name": "mantine",
+      "url": "/api/v2/pokemon/226/"
+    },
+    {
+      "name": "skarmory",
+      "url": "/api/v2/pokemon/227/"
+    },
+    {
+      "name": "houndour",
+      "url": "/api/v2/pokemon/228/"
+    },
+    {
+      "name": "houndoom",
+      "url": "/api/v2/pokemon/229/"
+    },
+    {
+      "name": "kingdra",
+      "url": "/api/v2/pokemon/230/"
+    },
+    {
+      "name": "phanpy",
+      "url": "/api/v2/pokemon/231/"
+    },
+    {
+      "name": "donphan",
+      "url": "/api/v2/pokemon/232/"
+    },
+    {
+      "name": "porygon2",
+      "url": "/api/v2/pokemon/233/"
+    },
+    {
+      "name": "stantler",
+      "url": "/api/v2/pokemon/234/"
+    },
+    {
+      "name": "tyrogue",
+      "url": "/api/v2/pokemon/236/"
+    },
+    {
+      "name": "hitmontop",
+      "url": "/api/v2/pokemon/237/"
+    },
+    {
+      "name": "smoochum",
+      "url": "/api/v2/pokemon/238/"
+    },
+    {
+      "name": "elekid",
+      "url": "/api/v2/pokemon/239/"
+    },
+    {
+      "name": "magby",
+      "url": "/api/v2/pokemon/240/"
+    },
+    {
+      "name": "miltank",
+      "url": "/api/v2/pokemon/241/"
+    },
+    {
+      "name": "blissey",
+      "url": "/api/v2/pokemon/242/"
+    },
+    {
+      "name": "raikou",
+      "url": "/api/v2/pokemon/243/"
+    },
+    {
+      "name": "entei",
+      "url": "/api/v2/pokemon/244/"
+    },
+    {
+      "name": "suicune",
+      "url": "/api/v2/pokemon/245/"
+    },
+    {
+      "name": "larvitar",
+      "url": "/api/v2/pokemon/246/"
+    },
+    {
+      "name": "pupitar",
+      "url": "/api/v2/pokemon/247/"
+    },
+    {
+      "name": "tyranitar",
+      "url": "/api/v2/pokemon/248/"
+    },
+    {
+      "name": "lugia",
+      "url": "/api/v2/pokemon/249/"
+    },
+    {
+      "name": "ho-oh",
+      "url": "/api/v2/pokemon/250/"
+    },
+    {
+      "name": "celebi",
+      "url": "/api/v2/pokemon/251/"
+    },
+    {
+      "name": "torchic",
+      "url": "/api/v2/pokemon/255/"
+    },
+    {
+      "name": "combusken",
+      "url": "/api/v2/pokemon/256/"
+    },
+    {
+      "name": "blaziken",
+      "url": "/api/v2/pokemon/257/"
+    },
+    {
+      "name": "mudkip",
+      "url": "/api/v2/pokemon/258/"
+    },
+    {
+      "name": "marshtomp",
+      "url": "/api/v2/pokemon/259/"
+    },
+    {
+      "name": "swampert",
+      "url": "/api/v2/pokemon/260/"
+    },
+    {
+      "name": "seedot",
+      "url": "/api/v2/pokemon/273/"
+    },
+    {
+      "name": "nuzleaf",
+      "url": "/api/v2/pokemon/274/"
+    },
+    {
+      "name": "shiftry",
+      "url": "/api/v2/pokemon/275/"
+    },
+    {
+      "name": "slakoth",
+      "url": "/api/v2/pokemon/287/"
+    },
+    {
+      "name": "vigoroth",
+      "url": "/api/v2/pokemon/288/"
+    },
+    {
+      "name": "slaking",
+      "url": "/api/v2/pokemon/289/"
+    },
+    {
+      "name": "hariyama",
+      "url": "/api/v2/pokemon/297/"
+    },
+    {
+      "name": "nosepass",
+      "url": "/api/v2/pokemon/299/"
+    },
+    {
+      "name": "aron",
+      "url": "/api/v2/pokemon/304/"
+    },
+    {
+      "name": "aggron",
+      "url": "/api/v2/pokemon/306/"
+    },
+    {
+      "name": "electrike",
+      "url": "/api/v2/pokemon/309/"
+    },
+    {
+      "name": "manectric",
+      "url": "/api/v2/pokemon/310/"
+    },
+    {
+      "name": "gulpin",
+      "url": "/api/v2/pokemon/316/"
+    },
+    {
+      "name": "swalot",
+      "url": "/api/v2/pokemon/317/"
+    },
+    {
+      "name": "wailmer",
+      "url": "/api/v2/pokemon/320/"
+    },
+    {
+      "name": "numel",
+      "url": "/api/v2/pokemon/322/"
+    },
+    {
+      "name": "camerupt",
+      "url": "/api/v2/pokemon/323/"
+    },
+    {
+      "name": "torkoal",
+      "url": "/api/v2/pokemon/324/"
+    },
+    {
+      "name": "cacnea",
+      "url": "/api/v2/pokemon/331/"
+    },
+    {
+      "name": "cacturne",
+      "url": "/api/v2/pokemon/332/"
+    },
+    {
+      "name": "zangoose",
+      "url": "/api/v2/pokemon/335/"
+    },
+    {
+      "name": "seviper",
+      "url": "/api/v2/pokemon/336/"
+    },
+    {
+      "name": "whiscash",
+      "url": "/api/v2/pokemon/340/"
+    },
+    {
+      "name": "lileep",
+      "url": "/api/v2/pokemon/345/"
+    },
+    {
+      "name": "anorith",
+      "url": "/api/v2/pokemon/347/"
+    },
+    {
+      "name": "shuppet",
+      "url": "/api/v2/pokemon/353/"
+    },
+    {
+      "name": "banette",
+      "url": "/api/v2/pokemon/354/"
+    },
+    {
+      "name": "duskull",
+      "url": "/api/v2/pokemon/355/"
+    },
+    {
+      "name": "dusclops",
+      "url": "/api/v2/pokemon/356/"
+    },
+    {
+      "name": "tropius",
+      "url": "/api/v2/pokemon/357/"
+    },
+    {
+      "name": "chimecho",
+      "url": "/api/v2/pokemon/358/"
+    },
+    {
+      "name": "absol",
+      "url": "/api/v2/pokemon/359/"
+    },
+    {
+      "name": "spheal",
+      "url": "/api/v2/pokemon/363/"
+    },
+    {
+      "name": "regirock",
+      "url": "/api/v2/pokemon/377/"
+    },
+    {
+      "name": "regice",
+      "url": "/api/v2/pokemon/378/"
+    },
+    {
+      "name": "registeel",
+      "url": "/api/v2/pokemon/379/"
+    },
+    {
+      "name": "turtwig",
+      "url": "/api/v2/pokemon/387/"
+    },
+    {
+      "name": "grotle",
+      "url": "/api/v2/pokemon/388/"
+    },
+    {
+      "name": "torterra",
+      "url": "/api/v2/pokemon/389/"
+    },
+    {
+      "name": "bidoof",
+      "url": "/api/v2/pokemon/399/"
+    },
+    {
+      "name": "bibarel",
+      "url": "/api/v2/pokemon/400/"
+    },
+    {
+      "name": "cranidos",
+      "url": "/api/v2/pokemon/408/"
+    },
+    {
+      "name": "rampardos",
+      "url": "/api/v2/pokemon/409/"
+    },
+    {
+      "name": "shieldon",
+      "url": "/api/v2/pokemon/410/"
+    },
+    {
+      "name": "bastiodon",
+      "url": "/api/v2/pokemon/411/"
+    },
+    {
+      "name": "shellos",
+      "url": "/api/v2/pokemon/422/"
+    },
+    {
+      "name": "gastrodon",
+      "url": "/api/v2/pokemon/423/"
+    },
+    {
+      "name": "drifloon",
+      "url": "/api/v2/pokemon/425/"
+    },
+    {
+      "name": "drifblim",
+      "url": "/api/v2/pokemon/426/"
+    },
+    {
+      "name": "mismagius",
+      "url": "/api/v2/pokemon/429/"
+    },
+    {
+      "name": "chingling",
+      "url": "/api/v2/pokemon/433/"
+    },
+    {
+      "name": "bonsly",
+      "url": "/api/v2/pokemon/438/"
+    },
+    {
+      "name": "spiritomb",
+      "url": "/api/v2/pokemon/442/"
+    },
+    {
+      "name": "munchlax",
+      "url": "/api/v2/pokemon/446/"
+    },
+    {
+      "name": "hippopotas",
+      "url": "/api/v2/pokemon/449/"
+    },
+    {
+      "name": "hippowdon",
+      "url": "/api/v2/pokemon/450/"
+    },
+    {
+      "name": "snover",
+      "url": "/api/v2/pokemon/459/"
+    },
+    {
+      "name": "abomasnow",
+      "url": "/api/v2/pokemon/460/"
+    },
+    {
+      "name": "rhyperior",
+      "url": "/api/v2/pokemon/464/"
+    },
+    {
+      "name": "magmortar",
+      "url": "/api/v2/pokemon/467/"
+    },
+    {
+      "name": "leafeon",
+      "url": "/api/v2/pokemon/470/"
+    },
+    {
+      "name": "glaceon",
+      "url": "/api/v2/pokemon/471/"
+    },
+    {
+      "name": "mamoswine",
+      "url": "/api/v2/pokemon/473/"
+    },
+    {
+      "name": "probopass",
+      "url": "/api/v2/pokemon/476/"
+    },
+    {
+      "name": "dusknoir",
+      "url": "/api/v2/pokemon/477/"
+    },
+    {
+      "name": "froslass",
+      "url": "/api/v2/pokemon/478/"
+    },
+    {
+      "name": "giratina-altered",
+      "url": "/api/v2/pokemon/487/"
+    },
+    {
+      "name": "darkrai",
+      "url": "/api/v2/pokemon/491/"
+    },
+    {
+      "name": "tepig",
+      "url": "/api/v2/pokemon/498/"
+    },
+    {
+      "name": "pignite",
+      "url": "/api/v2/pokemon/499/"
+    },
+    {
+      "name": "emboar",
+      "url": "/api/v2/pokemon/500/"
+    },
+    {
+      "name": "munna",
+      "url": "/api/v2/pokemon/517/"
+    },
+    {
+      "name": "musharna",
+      "url": "/api/v2/pokemon/518/"
+    },
+    {
+      "name": "roggenrola",
+      "url": "/api/v2/pokemon/524/"
+    },
+    {
+      "name": "drilbur",
+      "url": "/api/v2/pokemon/529/"
+    },
+    {
+      "name": "excadrill",
+      "url": "/api/v2/pokemon/530/"
+    },
+    {
+      "name": "timburr",
+      "url": "/api/v2/pokemon/532/"
+    },
+    {
+      "name": "gurdurr",
+      "url": "/api/v2/pokemon/533/"
+    },
+    {
+      "name": "conkeldurr",
+      "url": "/api/v2/pokemon/534/"
+    },
+    {
+      "name": "sandile",
+      "url": "/api/v2/pokemon/551/"
+    },
+    {
+      "name": "krokorok",
+      "url": "/api/v2/pokemon/552/"
+    },
+    {
+      "name": "krookodile",
+      "url": "/api/v2/pokemon/553/"
+    },
+    {
+      "name": "dwebble",
+      "url": "/api/v2/pokemon/557/"
+    },
+    {
+      "name": "scraggy",
+      "url": "/api/v2/pokemon/559/"
+    },
+    {
+      "name": "scrafty",
+      "url": "/api/v2/pokemon/560/"
+    },
+    {
+      "name": "yamask",
+      "url": "/api/v2/pokemon/562/"
+    },
+    {
+      "name": "cofagrigus",
+      "url": "/api/v2/pokemon/563/"
+    },
+    {
+      "name": "tirtouga",
+      "url": "/api/v2/pokemon/564/"
+    },
+    {
+      "name": "carracosta",
+      "url": "/api/v2/pokemon/565/"
+    },
+    {
+      "name": "trubbish",
+      "url": "/api/v2/pokemon/568/"
+    },
+    {
+      "name": "garbodor",
+      "url": "/api/v2/pokemon/569/"
+    },
+    {
+      "name": "sawsbuck",
+      "url": "/api/v2/pokemon/586/"
+    },
+    {
+      "name": "ferroseed",
+      "url": "/api/v2/pokemon/597/"
+    },
+    {
+      "name": "ferrothorn",
+      "url": "/api/v2/pokemon/598/"
+    },
+    {
+      "name": "litwick",
+      "url": "/api/v2/pokemon/607/"
+    },
+    {
+      "name": "lampent",
+      "url": "/api/v2/pokemon/608/"
+    },
+    {
+      "name": "chandelure",
+      "url": "/api/v2/pokemon/609/"
+    },
+    {
+      "name": "beartic",
+      "url": "/api/v2/pokemon/614/"
+    },
+    {
+      "name": "shelmet",
+      "url": "/api/v2/pokemon/616/"
+    },
+    {
+      "name": "accelgor",
+      "url": "/api/v2/pokemon/617/"
+    },
+    {
+      "name": "stunfisk",
+      "url": "/api/v2/pokemon/618/"
+    },
+    {
+      "name": "golett",
+      "url": "/api/v2/pokemon/622/"
+    },
+    {
+      "name": "golurk",
+      "url": "/api/v2/pokemon/623/"
+    },
+    {
+      "name": "heatmor",
+      "url": "/api/v2/pokemon/631/"
+    },
+    {
+      "name": "chespin",
+      "url": "/api/v2/pokemon/650/"
+    },
+    {
+      "name": "quilladin",
+      "url": "/api/v2/pokemon/651/"
+    },
+    {
+      "name": "chesnaught",
+      "url": "/api/v2/pokemon/652/"
+    },
+    {
+      "name": "tyrunt",
+      "url": "/api/v2/pokemon/696/"
+    },
+    {
+      "name": "tyrantrum",
+      "url": "/api/v2/pokemon/697/"
+    },
+    {
+      "name": "sylveon",
+      "url": "/api/v2/pokemon/700/"
+    },
+    {
+      "name": "goomy",
+      "url": "/api/v2/pokemon/704/"
+    },
+    {
+      "name": "sliggoo",
+      "url": "/api/v2/pokemon/705/"
+    },
+    {
+      "name": "goodra",
+      "url": "/api/v2/pokemon/706/"
+    },
+    {
+      "name": "phantump",
+      "url": "/api/v2/pokemon/708/"
+    },
+    {
+      "name": "trevenant",
+      "url": "/api/v2/pokemon/709/"
+    },
+    {
+      "name": "pumpkaboo-average",
+      "url": "/api/v2/pokemon/710/"
+    },
+    {
+      "name": "gourgeist-average",
+      "url": "/api/v2/pokemon/711/"
+    },
+    {
+      "name": "bergmite",
+      "url": "/api/v2/pokemon/712/"
+    },
+    {
+      "name": "avalugg",
+      "url": "/api/v2/pokemon/713/"
+    },
+    {
+      "name": "rowlet",
+      "url": "/api/v2/pokemon/722/"
+    },
+    {
+      "name": "decidueye",
+      "url": "/api/v2/pokemon/724/"
+    },
+    {
+      "name": "gumshoos",
+      "url": "/api/v2/pokemon/735/"
+    },
+    {
+      "name": "mudbray",
+      "url": "/api/v2/pokemon/749/"
+    },
+    {
+      "name": "mudsdale",
+      "url": "/api/v2/pokemon/750/"
+    },
+    {
+      "name": "passimian",
+      "url": "/api/v2/pokemon/766/"
+    },
+    {
+      "name": "sandygast",
+      "url": "/api/v2/pokemon/769/"
+    },
+    {
+      "name": "palossand",
+      "url": "/api/v2/pokemon/770/"
+    },
+    {
+      "name": "pyukumuku",
+      "url": "/api/v2/pokemon/771/"
+    },
+    {
+      "name": "komala",
+      "url": "/api/v2/pokemon/775/"
+    },
+    {
+      "name": "turtonator",
+      "url": "/api/v2/pokemon/776/"
+    },
+    {
+      "name": "mimikyu-disguised",
+      "url": "/api/v2/pokemon/778/"
+    },
+    {
+      "name": "skwovet",
+      "url": "/api/v2/pokemon/819/"
+    },
+    {
+      "name": "greedent",
+      "url": "/api/v2/pokemon/820/"
+    },
+    {
+      "name": "corviknight",
+      "url": "/api/v2/pokemon/823/"
+    },
+    {
+      "name": "rolycoly",
+      "url": "/api/v2/pokemon/837/"
+    },
+    {
+      "name": "carkol",
+      "url": "/api/v2/pokemon/838/"
+    },
+    {
+      "name": "coalossal",
+      "url": "/api/v2/pokemon/839/"
+    },
+    {
+      "name": "appletun",
+      "url": "/api/v2/pokemon/842/"
+    },
+    {
+      "name": "sinistea",
+      "url": "/api/v2/pokemon/854/"
+    },
+    {
+      "name": "polteageist",
+      "url": "/api/v2/pokemon/855/"
+    },
+    {
+      "name": "perrserker",
+      "url": "/api/v2/pokemon/863/"
+    },
+    {
+      "name": "cursola",
+      "url": "/api/v2/pokemon/864/"
+    },
+    {
+      "name": "runerigus",
+      "url": "/api/v2/pokemon/867/"
+    },
+    {
+      "name": "pincurchin",
+      "url": "/api/v2/pokemon/871/"
+    },
+    {
+      "name": "stonjourner",
+      "url": "/api/v2/pokemon/874/"
+    },
+    {
+      "name": "cufant",
+      "url": "/api/v2/pokemon/878/"
+    },
+    {
+      "name": "copperajah",
+      "url": "/api/v2/pokemon/879/"
+    },
+    {
+      "name": "dreepy",
+      "url": "/api/v2/pokemon/885/"
+    },
+    {
+      "name": "drakloak",
+      "url": "/api/v2/pokemon/886/"
+    },
+    {
+      "name": "dragapult",
+      "url": "/api/v2/pokemon/887/"
+    },
+    {
+      "name": "glastrier",
+      "url": "/api/v2/pokemon/896/"
+    },
+    {
+      "name": "spectrier",
+      "url": "/api/v2/pokemon/897/"
+    },
+    {
+      "name": "wyrdeer",
+      "url": "/api/v2/pokemon/899/"
+    },
+    {
+      "name": "ursaluna",
+      "url": "/api/v2/pokemon/901/"
+    },
+    {
+      "name": "overqwil",
+      "url": "/api/v2/pokemon/904/"
+    },
+    {
+      "name": "fuecoco",
+      "url": "/api/v2/pokemon/909/"
+    },
+    {
+      "name": "crocalor",
+      "url": "/api/v2/pokemon/910/"
+    },
+    {
+      "name": "skeledirge",
+      "url": "/api/v2/pokemon/911/"
+    },
+    {
+      "name": "lechonk",
+      "url": "/api/v2/pokemon/915/"
+    },
+    {
+      "name": "oinkologne-male",
+      "url": "/api/v2/pokemon/916/"
+    },
+    {
+      "name": "nacli",
+      "url": "/api/v2/pokemon/932/"
+    },
+    {
+      "name": "naclstack",
+      "url": "/api/v2/pokemon/933/"
+    },
+    {
+      "name": "garganacl",
+      "url": "/api/v2/pokemon/934/"
+    },
+    {
+      "name": "ceruledge",
+      "url": "/api/v2/pokemon/937/"
+    },
+    {
+      "name": "mabosstiff",
+      "url": "/api/v2/pokemon/943/"
+    },
+    {
+      "name": "bramblin",
+      "url": "/api/v2/pokemon/946/"
+    },
+    {
+      "name": "brambleghast",
+      "url": "/api/v2/pokemon/947/"
+    },
+    {
+      "name": "bombirdier",
+      "url": "/api/v2/pokemon/962/"
+    },
+    {
+      "name": "varoom",
+      "url": "/api/v2/pokemon/965/"
+    },
+    {
+      "name": "revavroom",
+      "url": "/api/v2/pokemon/966/"
+    },
+    {
+      "name": "orthworm",
+      "url": "/api/v2/pokemon/968/"
+    },
+    {
+      "name": "cetoddle",
+      "url": "/api/v2/pokemon/974/"
+    },
+    {
+      "name": "cetitan",
+      "url": "/api/v2/pokemon/975/"
+    },
+    {
+      "name": "dondozo",
+      "url": "/api/v2/pokemon/977/"
+    },
+    {
+      "name": "annihilape",
+      "url": "/api/v2/pokemon/979/"
+    },
+    {
+      "name": "clodsire",
+      "url": "/api/v2/pokemon/980/"
+    },
+    {
+      "name": "farigiraf",
+      "url": "/api/v2/pokemon/981/"
+    },
+    {
+      "name": "dudunsparce-two-segment",
+      "url": "/api/v2/pokemon/982/"
+    },
+    {
+      "name": "slither-wing",
+      "url": "/api/v2/pokemon/988/"
+    },
+    {
+      "name": "iron-thorns",
+      "url": "/api/v2/pokemon/995/"
+    },
+    {
+      "name": "poltchageist",
+      "url": "/api/v2/pokemon/1012/"
+    },
+    {
+      "name": "sinistcha",
+      "url": "/api/v2/pokemon/1013/"
+    },
+    {
+      "name": "okidogi",
+      "url": "/api/v2/pokemon/1014/"
+    },
+    {
+      "name": "hydrapple",
+      "url": "/api/v2/pokemon/1019/"
+    },
+    {
+      "name": "pecharunt",
+      "url": "/api/v2/pokemon/1025/"
+    },
+    {
+      "name": "giratina-origin",
+      "url": "/api/v2/pokemon/10007/"
+    },
+    {
+      "name": "pumpkaboo-small",
+      "url": "/api/v2/pokemon/10027/"
+    },
+    {
+      "name": "pumpkaboo-large",
+      "url": "/api/v2/pokemon/10028/"
+    },
+    {
+      "name": "pumpkaboo-super",
+      "url": "/api/v2/pokemon/10029/"
+    },
+    {
+      "name": "gourgeist-small",
+      "url": "/api/v2/pokemon/10030/"
+    },
+    {
+      "name": "gourgeist-large",
+      "url": "/api/v2/pokemon/10031/"
+    },
+    {
+      "name": "gourgeist-super",
+      "url": "/api/v2/pokemon/10032/"
+    },
+    {
+      "name": "venusaur-mega",
+      "url": "/api/v2/pokemon/10033/"
+    },
+    {
+      "name": "gengar-mega",
+      "url": "/api/v2/pokemon/10038/"
+    },
+    {
+      "name": "aerodactyl-mega",
+      "url": "/api/v2/pokemon/10042/"
+    },
+    {
+      "name": "scizor-mega",
+      "url": "/api/v2/pokemon/10046/"
+    },
+    {
+      "name": "heracross-mega",
+      "url": "/api/v2/pokemon/10047/"
+    },
+    {
+      "name": "tyranitar-mega",
+      "url": "/api/v2/pokemon/10049/"
+    },
+    {
+      "name": "blaziken-mega",
+      "url": "/api/v2/pokemon/10050/"
+    },
+    {
+      "name": "aggron-mega",
+      "url": "/api/v2/pokemon/10053/"
+    },
+    {
+      "name": "manectric-mega",
+      "url": "/api/v2/pokemon/10055/"
+    },
+    {
+      "name": "banette-mega",
+      "url": "/api/v2/pokemon/10056/"
+    },
+    {
+      "name": "absol-mega",
+      "url": "/api/v2/pokemon/10057/"
+    },
+    {
+      "name": "abomasnow-mega",
+      "url": "/api/v2/pokemon/10060/"
+    },
+    {
+      "name": "swampert-mega",
+      "url": "/api/v2/pokemon/10064/"
+    },
+    {
+      "name": "slowbro-mega",
+      "url": "/api/v2/pokemon/10071/"
+    },
+    {
+      "name": "steelix-mega",
+      "url": "/api/v2/pokemon/10072/"
+    },
+    {
+      "name": "camerupt-mega",
+      "url": "/api/v2/pokemon/10087/"
+    },
+    {
+      "name": "sandshrew-alola",
+      "url": "/api/v2/pokemon/10101/"
+    },
+    {
+      "name": "sandslash-alola",
+      "url": "/api/v2/pokemon/10102/"
+    },
+    {
+      "name": "dugtrio-alola",
+      "url": "/api/v2/pokemon/10106/"
+    },
+    {
+      "name": "meowth-alola",
+      "url": "/api/v2/pokemon/10107/"
+    },
+    {
+      "name": "persian-alola",
+      "url": "/api/v2/pokemon/10108/"
+    },
+    {
+      "name": "geodude-alola",
+      "url": "/api/v2/pokemon/10109/"
+    },
+    {
+      "name": "graveler-alola",
+      "url": "/api/v2/pokemon/10110/"
+    },
+    {
+      "name": "golem-alola",
+      "url": "/api/v2/pokemon/10111/"
+    },
+    {
+      "name": "grimer-alola",
+      "url": "/api/v2/pokemon/10112/"
+    },
+    {
+      "name": "muk-alola",
+      "url": "/api/v2/pokemon/10113/"
+    },
+    {
+      "name": "exeggutor-alola",
+      "url": "/api/v2/pokemon/10114/"
+    },
+    {
+      "name": "mimikyu-busted",
+      "url": "/api/v2/pokemon/10143/"
+    },
+    {
+      "name": "meowth-galar",
+      "url": "/api/v2/pokemon/10161/"
+    },
+    {
+      "name": "slowpoke-galar",
+      "url": "/api/v2/pokemon/10164/"
+    },
+    {
+      "name": "slowbro-galar",
+      "url": "/api/v2/pokemon/10165/"
+    },
+    {
+      "name": "farfetchd-galar",
+      "url": "/api/v2/pokemon/10166/"
+    },
+    {
+      "name": "weezing-galar",
+      "url": "/api/v2/pokemon/10167/"
+    },
+    {
+      "name": "slowking-galar",
+      "url": "/api/v2/pokemon/10172/"
+    },
+    {
+      "name": "corsola-galar",
+      "url": "/api/v2/pokemon/10173/"
+    },
+    {
+      "name": "yamask-galar",
+      "url": "/api/v2/pokemon/10179/"
+    },
+    {
+      "name": "stunfisk-galar",
+      "url": "/api/v2/pokemon/10180/"
+    },
+    {
+      "name": "electrode-hisui",
+      "url": "/api/v2/pokemon/10232/"
+    },
+    {
+      "name": "typhlosion-hisui",
+      "url": "/api/v2/pokemon/10233/"
+    },
+    {
+      "name": "qwilfish-hisui",
+      "url": "/api/v2/pokemon/10234/"
+    },
+    {
+      "name": "zorua-hisui",
+      "url": "/api/v2/pokemon/10238/"
+    },
+    {
+      "name": "zoroark-hisui",
+      "url": "/api/v2/pokemon/10239/"
+    },
+    {
+      "name": "sliggoo-hisui",
+      "url": "/api/v2/pokemon/10241/"
+    },
+    {
+      "name": "goodra-hisui",
+      "url": "/api/v2/pokemon/10242/"
+    },
+    {
+      "name": "avalugg-hisui",
+      "url": "/api/v2/pokemon/10243/"
+    },
+    {
+      "name": "tauros-paldea-combat-breed",
+      "url": "/api/v2/pokemon/10250/"
+    },
+    {
+      "name": "tauros-paldea-blaze-breed",
+      "url": "/api/v2/pokemon/10251/"
+    },
+    {
+      "name": "tauros-paldea-aqua-breed",
+      "url": "/api/v2/pokemon/10252/"
+    },
+    {
+      "name": "wooper-paldea",
+      "url": "/api/v2/pokemon/10253/"
+    },
+    {
+      "name": "oinkologne-female",
+      "url": "/api/v2/pokemon/10254/"
+    },
+    {
+      "name": "dudunsparce-three-segment",
+      "url": "/api/v2/pokemon/10255/"
+    },
+    {
+      "name": "meganium-mega",
+      "url": "/api/v2/pokemon/10282/"
+    },
+    {
+      "name": "feraligatr-mega",
+      "url": "/api/v2/pokemon/10283/"
+    },
+    {
+      "name": "skarmory-mega",
+      "url": "/api/v2/pokemon/10284/"
+    },
+    {
+      "name": "froslass-mega",
+      "url": "/api/v2/pokemon/10285/"
+    },
+    {
+      "name": "emboar-mega",
+      "url": "/api/v2/pokemon/10286/"
+    },
+    {
+      "name": "excadrill-mega",
+      "url": "/api/v2/pokemon/10287/"
+    },
+    {
+      "name": "scrafty-mega",
+      "url": "/api/v2/pokemon/10289/"
+    },
+    {
+      "name": "chandelure-mega",
+      "url": "/api/v2/pokemon/10291/"
+    },
+    {
+      "name": "chesnaught-mega",
+      "url": "/api/v2/pokemon/10292/"
+    },
+    {
+      "name": "chimecho-mega",
+      "url": "/api/v2/pokemon/10306/"
+    },
+    {
+      "name": "golurk-mega",
+      "url": "/api/v2/pokemon/10313/"
+    }
+  ]
 }

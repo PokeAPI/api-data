@@ -1,53 +1,53 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "descriptions": {
-            "items": {
-                "$ref": "/schema/v2/description.json"
-            },
-            "type": "array"
-        },
-        "formula": {
-            "type": "string"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "levels": {
-            "items": {
-                "properties": {
-                    "experience": {
-                        "type": "integer"
-                    },
-                    "level": {
-                        "type": "integer"
-                    }
-                },
-                "required": [
-                    "experience",
-                    "level"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        },
-        "name": {
-            "type": "string"
-        },
-        "pokemon_species": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "descriptions",
-        "formula",
-        "id",
-        "levels",
-        "name",
-        "pokemon_species"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "formula": {
+      "type": "string"
+    },
+    "descriptions": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/description.json"
+      }
+    },
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": {
+            "type": "integer"
+          },
+          "experience": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "experience",
+          "level"
+        ]
+      }
+    },
+    "pokemon_species": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    }
+  },
+  "required": [
+    "descriptions",
+    "formula",
+    "id",
+    "levels",
+    "name",
+    "pokemon_species"
+  ]
 }

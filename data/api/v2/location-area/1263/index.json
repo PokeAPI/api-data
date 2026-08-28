@@ -1,49 +1,49 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 1263,
-    "location": {
-        "name": "pokemon-hq-lab",
-        "url": "/api/v2/location/1106/"
-    },
-    "name": "pokemon-hq-lab-area",
-    "names": [
+  "id": 1263,
+  "name": "pokemon-hq-lab-area",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "pokemon-hq-lab",
+    "url": "/api/v2/location/1106/"
+  },
+  "names": [
+    {
+      "name": "Pokemon HQ Lab",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "eevee",
+        "url": "/api/v2/pokemon/133/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Pokemon HQ Lab"
+          "version": {
+            "name": "xd",
+            "url": "/api/v2/version/20/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 10,
+              "max_level": 10,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "eevee",
-                "url": "/api/v2/pokemon/133/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 10,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 10,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "xd",
-                        "url": "/api/v2/version/20/"
-                    }
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }

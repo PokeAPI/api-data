@@ -1,52 +1,52 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "generation": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "move_learn_methods": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "name": {
-            "type": "string"
-        },
-        "order": {
-            "type": "integer"
-        },
-        "pokedexes": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "regions": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "versions": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "generation",
-        "id",
-        "move_learn_methods",
-        "name",
-        "order",
-        "pokedexes",
-        "regions",
-        "versions"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "generation": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "move_learn_methods": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    },
+    "pokedexes": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    }
+  },
+  "required": [
+    "generation",
+    "id",
+    "move_learn_methods",
+    "name",
+    "order",
+    "pokedexes",
+    "regions",
+    "versions"
+  ]
 }

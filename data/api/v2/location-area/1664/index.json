@@ -1,79 +1,79 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 1664,
-    "location": {
-        "name": "saffron-city",
-        "url": "/api/v2/location/234/"
-    },
-    "name": "saffron-city-magnet-train-station",
-    "names": [
+  "id": 1664,
+  "name": "saffron-city-magnet-train-station",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "saffron-city",
+    "url": "/api/v2/location/234/"
+  },
+  "names": [
+    {
+      "name": "Saffron City Magnet Train Station",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "pikachu",
+        "url": "/api/v2/pokemon/25/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Saffron City Magnet Train Station"
-        }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "pikachu",
-                "url": "/api/v2/pokemon/25/"
-            },
-            "version_details": [
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 2,
+              "max_level": 100,
+              "chance": 100,
+              "method": {
+                "name": "npc-trade",
+                "url": "/api/v2/encounter-method/36/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "trade-pikachu",
-                                    "url": "/api/v2/encounter-condition-value/170/"
-                                }
-                            ],
-                            "max_level": 100,
-                            "method": {
-                                "name": "npc-trade",
-                                "url": "/api/v2/encounter-method/36/"
-                            },
-                            "min_level": 2,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "trade-pikachu",
-                                    "url": "/api/v2/encounter-condition-value/170/"
-                                }
-                            ],
-                            "max_level": 100,
-                            "method": {
-                                "name": "npc-trade",
-                                "url": "/api/v2/encounter-method/36/"
-                            },
-                            "min_level": 2,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
+                  "name": "trade-pikachu",
+                  "url": "/api/v2/encounter-condition-value/170/"
                 }
-            ]
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 2,
+              "max_level": 100,
+              "chance": 100,
+              "method": {
+                "name": "npc-trade",
+                "url": "/api/v2/encounter-method/36/"
+              },
+              "condition_values": [
+                {
+                  "name": "trade-pikachu",
+                  "url": "/api/v2/encounter-condition-value/170/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

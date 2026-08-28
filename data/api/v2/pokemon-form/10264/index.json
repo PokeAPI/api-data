@@ -1,101 +1,102 @@
 {
-    "form_name": "totem-busted",
-    "form_names": [
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Totemform"
-        }
-    ],
-    "form_order": 4,
-    "id": 10264,
-    "is_battle_only": true,
-    "is_default": true,
-    "is_mega": false,
+  "id": 10264,
+  "name": "mimikyu-totem-busted",
+  "order": 1151,
+  "form_order": 4,
+  "is_default": true,
+  "is_battle_only": true,
+  "is_mega": false,
+  "form_name": "totem-busted",
+  "pokemon": {
     "name": "mimikyu-totem-busted",
-    "names": [
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Mimiqui Dominant Forme D\u00e9masqu\u00e9e"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Totem Mimigma (Entlarvt)"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Totem Busted Mimikyu"
+    "url": "/api/v2/pokemon/10145/"
+  },
+  "sprites": {
+    "versions": {
+      "generation-ix": {
+        "scarlet-violet": {
+          "front_female": null,
+          "front_default": null
         }
-    ],
-    "order": 1151,
-    "pokemon": {
-        "name": "mimikyu-totem-busted",
-        "url": "/api/v2/pokemon/10145/"
+      },
+      "generation-viii": {
+        "brilliant-diamond-shining-pearl": {
+          "front_female": null,
+          "front_default": null
+        }
+      }
     },
-    "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10145.png",
-        "back_female": null,
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10145.png",
-        "back_shiny_female": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10145.png",
-        "front_female": null,
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10145.png",
-        "front_shiny_female": null,
-        "versions": {
-            "generation-ix": {
-                "scarlet-violet": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            },
-            "generation-viii": {
-                "brilliant-diamond-shining-pearl": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            }
-        }
-    },
-    "trigger_conditions": [
-        {
-            "base_form": {
-                "name": "mimikyu-totem-disguised",
-                "url": "/api/v2/pokemon-form/10263/"
-            },
-            "name": "disguise",
-            "trigger": "ability",
-            "url": "/api/v2/ability/209/"
-        }
-    ],
-    "types": [
-        {
-            "slot": 1,
-            "type": {
-                "name": "ghost",
-                "url": "/api/v2/type/8/"
-            }
-        },
-        {
-            "slot": 2,
-            "type": {
-                "name": "fairy",
-                "url": "/api/v2/type/18/"
-            }
-        }
-    ],
-    "version_group": {
-        "name": "sun-moon",
-        "url": "/api/v2/version-group/17/"
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10145.png",
+    "back_female": null,
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10145.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10145.png",
+    "front_female": null,
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10145.png",
+    "back_shiny_female": null,
+    "front_shiny_female": null
+  },
+  "version_group": {
+    "name": "sun-moon",
+    "url": "/api/v2/version-group/17/"
+  },
+  "form_names": [
+    {
+      "name": "Totemform",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
     }
+  ],
+  "names": [
+    {
+      "name": "Mimiqui Dominant Forme Démasquée",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Totem Mimigma (Entlarvt)",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Totem Busted Mimikyu",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "ghost",
+        "url": "/api/v2/type/8/"
+      }
+    },
+    {
+      "slot": 2,
+      "type": {
+        "name": "fairy",
+        "url": "/api/v2/type/18/"
+      }
+    }
+  ],
+  "trigger_conditions": [
+    {
+      "trigger": "ability",
+      "name": "disguise",
+      "url": "/api/v2/ability/209/",
+      "base_form": {
+        "name": "mimikyu-totem-disguised",
+        "url": "/api/v2/pokemon-form/10263/"
+      }
+    }
+  ],
+  "flavor_text_entries": []
 }

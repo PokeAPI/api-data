@@ -1,1475 +1,1475 @@
 {
-    "encounter_method_rates": [
+  "id": 238,
+  "name": "mt-mortar-lower-cave",
+  "game_index": 55,
+  "encounter_method_rates": [
+    {
+      "encounter_method": {
+        "name": "walk",
+        "url": "/api/v2/encounter-method/1/"
+      },
+      "version_details": [
         {
-            "encounter_method": {
+          "rate": 10,
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          }
+        },
+        {
+          "rate": 10,
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          }
+        }
+      ]
+    }
+  ],
+  "location": {
+    "name": "mt-mortar",
+    "url": "/api/v2/location/81/"
+  },
+  "names": [
+    {
+      "name": "Mount Mortar (Lower Cave)",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "Kesselberg (untere Höhle)",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Mont Creuset (caverne inférieure)",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "rattata",
+        "url": "/api/v2/pokemon/19/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "gold",
+            "url": "/api/v2/version/4/"
+          },
+          "max_chance": 10,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 10,
+              "method": {
                 "name": "walk",
                 "url": "/api/v2/encounter-method/1/"
-            },
-            "version_details": [
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "silver",
+            "url": "/api/v2/version/5/"
+          },
+          "max_chance": 10,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "crystal",
+            "url": "/api/v2/version/6/"
+          },
+          "max_chance": 90,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
                 {
-                    "rate": 10,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "rate": 10,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
+                  "name": "time-day",
+                  "url": "/api/v2/encounter-condition-value/4/"
                 }
-            ]
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "/api/v2/encounter-condition-value/3/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "/api/v2/encounter-condition-value/5/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 10,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 10,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "game_index": 55,
-    "id": 238,
-    "location": {
-        "name": "mt-mortar",
-        "url": "/api/v2/location/81/"
+      ]
     },
-    "name": "mt-mortar-lower-cave",
-    "names": [
+    {
+      "pokemon": {
+        "name": "raticate",
+        "url": "/api/v2/pokemon/20/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+          "version": {
+            "name": "crystal",
+            "url": "/api/v2/version/6/"
+          },
+          "max_chance": 40,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "/api/v2/encounter-condition-value/5/"
+                }
+              ],
+              "pokemon_details": null
             },
-            "name": "Mount Mortar (Lower Cave)"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "/api/v2/encounter-condition-value/4/"
+                }
+              ],
+              "pokemon_details": null
             },
-            "name": "Kesselberg (untere H\u00f6hle)"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Mont Creuset (caverne inf\u00e9rieure)"
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "/api/v2/encounter-condition-value/3/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "zubat",
+        "url": "/api/v2/pokemon/41/"
+      },
+      "version_details": [
         {
-            "pokemon": {
-                "name": "rattata",
-                "url": "/api/v2/pokemon/19/"
+          "version": {
+            "name": "gold",
+            "url": "/api/v2/version/4/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 10,
-                    "version": {
-                        "name": "gold",
-                        "url": "/api/v2/version/4/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 10,
-                    "version": {
-                        "name": "silver",
-                        "url": "/api/v2/version/5/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 30,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 90,
-                    "version": {
-                        "name": "crystal",
-                        "url": "/api/v2/version/6/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 10,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 10,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "pokemon": {
-                "name": "raticate",
-                "url": "/api/v2/pokemon/20/"
+          "version": {
+            "name": "silver",
+            "url": "/api/v2/version/5/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 40,
-                    "version": {
-                        "name": "crystal",
-                        "url": "/api/v2/version/6/"
-                    }
-                }
-            ]
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "pokemon": {
-                "name": "zubat",
-                "url": "/api/v2/pokemon/41/"
-            },
-            "version_details": [
+          "version": {
+            "name": "crystal",
+            "url": "/api/v2/version/6/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "gold",
-                        "url": "/api/v2/version/4/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "silver",
-                        "url": "/api/v2/version/5/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "crystal",
-                        "url": "/api/v2/version/6/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 14,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 14,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
+                  "name": "time-night",
+                  "url": "/api/v2/encounter-condition-value/5/"
                 }
-            ]
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "/api/v2/encounter-condition-value/4/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "/api/v2/encounter-condition-value/3/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "pokemon": {
-                "name": "golbat",
-                "url": "/api/v2/pokemon/42/"
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 15,
-                    "version": {
-                        "name": "crystal",
-                        "url": "/api/v2/version/6/"
-                    }
-                }
-            ]
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "pokemon": {
-                "name": "machop",
-                "url": "/api/v2/pokemon/66/"
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 35,
-                    "version": {
-                        "name": "gold",
-                        "url": "/api/v2/version/4/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 35,
-                    "version": {
-                        "name": "silver",
-                        "url": "/api/v2/version/5/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 40,
-                    "version": {
-                        "name": "crystal",
-                        "url": "/api/v2/version/6/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 35,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 35,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "geodude",
-                "url": "/api/v2/pokemon/74/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 50,
-                    "version": {
-                        "name": "gold",
-                        "url": "/api/v2/version/4/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 50,
-                    "version": {
-                        "name": "silver",
-                        "url": "/api/v2/version/5/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 30,
-                            "condition_values": [
-                                {
-                                    "name": "time-day",
-                                    "url": "/api/v2/encounter-condition-value/4/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [
-                                {
-                                    "name": "time-morning",
-                                    "url": "/api/v2/encounter-condition-value/3/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 90,
-                    "version": {
-                        "name": "crystal",
-                        "url": "/api/v2/version/6/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 50,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-off",
-                                    "url": "/api/v2/encounter-condition-value/14/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 50,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "marill",
-                "url": "/api/v2/pokemon/183/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 5,
-                            "condition_values": [
-                                {
-                                    "name": "time-night",
-                                    "url": "/api/v2/encounter-condition-value/5/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "crystal",
-                        "url": "/api/v2/version/6/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "makuhita",
-                "url": "/api/v2/pokemon/296/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-hoenn",
-                                    "url": "/api/v2/encounter-condition-value/15/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-hoenn",
-                                    "url": "/api/v2/encounter-condition-value/15/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-hoenn",
-                                    "url": "/api/v2/encounter-condition-value/15/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-hoenn",
-                                    "url": "/api/v2/encounter-condition-value/15/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "absol",
-                "url": "/api/v2/pokemon/359/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-hoenn",
-                                    "url": "/api/v2/encounter-condition-value/15/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-hoenn",
-                                    "url": "/api/v2/encounter-condition-value/15/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-hoenn",
-                                    "url": "/api/v2/encounter-condition-value/15/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-hoenn",
-                                    "url": "/api/v2/encounter-condition-value/15/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "chingling",
-                "url": "/api/v2/pokemon/433/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-sinnoh",
-                                    "url": "/api/v2/encounter-condition-value/16/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-sinnoh",
-                                    "url": "/api/v2/encounter-condition-value/16/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-sinnoh",
-                                    "url": "/api/v2/encounter-condition-value/16/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-sinnoh",
-                                    "url": "/api/v2/encounter-condition-value/16/"
-                                }
-                            ],
-                            "max_level": 15,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "bronzor",
-                "url": "/api/v2/pokemon/436/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-sinnoh",
-                                    "url": "/api/v2/encounter-condition-value/16/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-sinnoh",
-                                    "url": "/api/v2/encounter-condition-value/16/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "heartgold",
-                        "url": "/api/v2/version/15/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-sinnoh",
-                                    "url": "/api/v2/encounter-condition-value/16/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 10,
-                            "condition_values": [
-                                {
-                                    "name": "radio-sinnoh",
-                                    "url": "/api/v2/encounter-condition-value/16/"
-                                }
-                            ],
-                            "max_level": 13,
-                            "method": {
-                                "name": "walk",
-                                "url": "/api/v2/encounter-method/1/"
-                            },
-                            "min_level": 13,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 20,
-                    "version": {
-                        "name": "soulsilver",
-                        "url": "/api/v2/version/16/"
-                    }
-                }
-            ]
+            {
+              "min_level": 14,
+              "max_level": 14,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "golbat",
+        "url": "/api/v2/pokemon/42/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "crystal",
+            "url": "/api/v2/version/6/"
+          },
+          "max_chance": 15,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "/api/v2/encounter-condition-value/4/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "/api/v2/encounter-condition-value/3/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "/api/v2/encounter-condition-value/5/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "/api/v2/encounter-condition-value/4/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "/api/v2/encounter-condition-value/3/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "/api/v2/encounter-condition-value/5/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "machop",
+        "url": "/api/v2/pokemon/66/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "gold",
+            "url": "/api/v2/version/4/"
+          },
+          "max_chance": 35,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "silver",
+            "url": "/api/v2/version/5/"
+          },
+          "max_chance": 35,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "crystal",
+            "url": "/api/v2/version/6/"
+          },
+          "max_chance": 40,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "/api/v2/encounter-condition-value/4/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "/api/v2/encounter-condition-value/3/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 35,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "/api/v2/encounter-condition-value/14/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 35,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "/api/v2/encounter-condition-value/14/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 4,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 1,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "geodude",
+        "url": "/api/v2/pokemon/74/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "gold",
+            "url": "/api/v2/version/4/"
+          },
+          "max_chance": 50,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "silver",
+            "url": "/api/v2/version/5/"
+          },
+          "max_chance": 50,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "crystal",
+            "url": "/api/v2/version/6/"
+          },
+          "max_chance": 90,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-day",
+                  "url": "/api/v2/encounter-condition-value/4/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-morning",
+                  "url": "/api/v2/encounter-condition-value/3/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 30,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "/api/v2/encounter-condition-value/5/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 50,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "/api/v2/encounter-condition-value/14/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "/api/v2/encounter-condition-value/14/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "/api/v2/encounter-condition-value/14/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 50,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 20,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "/api/v2/encounter-condition-value/14/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "/api/v2/encounter-condition-value/14/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-off",
+                  "url": "/api/v2/encounter-condition-value/14/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "marill",
+        "url": "/api/v2/pokemon/183/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "crystal",
+            "url": "/api/v2/version/6/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 5,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "time-night",
+                  "url": "/api/v2/encounter-condition-value/5/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "makuhita",
+        "url": "/api/v2/pokemon/296/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "/api/v2/encounter-condition-value/15/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "/api/v2/encounter-condition-value/15/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "/api/v2/encounter-condition-value/15/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "/api/v2/encounter-condition-value/15/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "absol",
+        "url": "/api/v2/pokemon/359/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "/api/v2/encounter-condition-value/15/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "/api/v2/encounter-condition-value/15/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "/api/v2/encounter-condition-value/15/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-hoenn",
+                  "url": "/api/v2/encounter-condition-value/15/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "chingling",
+        "url": "/api/v2/pokemon/433/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "/api/v2/encounter-condition-value/16/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "/api/v2/encounter-condition-value/16/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "/api/v2/encounter-condition-value/16/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "/api/v2/encounter-condition-value/16/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "bronzor",
+        "url": "/api/v2/pokemon/436/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "heartgold",
+            "url": "/api/v2/version/15/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "/api/v2/encounter-condition-value/16/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "/api/v2/encounter-condition-value/16/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "soulsilver",
+            "url": "/api/v2/version/16/"
+          },
+          "max_chance": 20,
+          "encounter_details": [
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "/api/v2/encounter-condition-value/16/"
+                }
+              ],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 13,
+              "max_level": 13,
+              "chance": 10,
+              "method": {
+                "name": "walk",
+                "url": "/api/v2/encounter-method/1/"
+              },
+              "condition_values": [
+                {
+                  "name": "radio-sinnoh",
+                  "url": "/api/v2/encounter-condition-value/16/"
+                }
+              ],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

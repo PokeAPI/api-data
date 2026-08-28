@@ -1,34 +1,34 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "descriptions": {
-            "items": {
-                "$ref": "/schema/v2/description.json"
-            },
-            "type": "array"
-        },
-        "gene_modulo": {
-            "type": "integer"
-        },
-        "highest_stat": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "possible_values": {
-            "items": {
-                "type": "integer"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "descriptions",
-        "gene_modulo",
-        "highest_stat",
-        "id",
-        "possible_values"
-    ],
-    "type": "object"
+    "gene_modulo": {
+      "type": "integer"
+    },
+    "possible_values": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "highest_stat": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "descriptions": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/description.json"
+      }
+    }
+  },
+  "required": [
+    "descriptions",
+    "gene_modulo",
+    "highest_stat",
+    "id",
+    "possible_values"
+  ]
 }

@@ -1,521 +1,521 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "baby_trigger_item": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/named_api_resource.json"
-                }
-            ]
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "baby_trigger_item": {
+      "anyOf": [
+        {
+          "type": "null"
         },
-        "chain": {
+        {
+          "$ref": "/schema/v2/named_api_resource.json"
+        }
+      ]
+    },
+    "chain": {
+      "type": "object",
+      "properties": {
+        "is_baby": {
+          "type": "boolean"
+        },
+        "species": {
+          "$ref": "/schema/v2/named_api_resource.json"
+        },
+        "evolution_details": {
+          "type": "array"
+        },
+        "evolves_to": {
+          "type": "array",
+          "items": {
+            "type": "object",
             "properties": {
-                "evolution_details": {
-                    "type": "array"
-                },
-                "evolves_to": {
-                    "items": {
+              "is_baby": {
+                "type": "boolean"
+              },
+              "species": {
+                "$ref": "/schema/v2/named_api_resource.json"
+              },
+              "evolution_details": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "version_group": {
+                      "$ref": "/schema/v2/named_api_resource.json"
+                    },
+                    "is_default": {
+                      "type": "boolean"
+                    },
+                    "item": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "trigger": {
+                      "$ref": "/schema/v2/named_api_resource.json"
+                    },
+                    "gender": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "held_item": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "known_move": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "known_move_type": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "location": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "min_level": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "min_happiness": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "min_beauty": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "min_affection": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "near_special_rock": {
+                      "type": "boolean"
+                    },
+                    "needs_multiplayer": {
+                      "type": "boolean"
+                    },
+                    "needs_overworld_rain": {
+                      "type": "boolean"
+                    },
+                    "party_species": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "party_type": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "relative_physical_stats": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "time_of_day": {
+                      "type": "string"
+                    },
+                    "trade_species": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "turn_upside_down": {
+                      "type": "boolean"
+                    },
+                    "region": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "base_form": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "evolved_form": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "used_move": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "$ref": "/schema/v2/named_api_resource.json"
+                        }
+                      ]
+                    },
+                    "min_move_count": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "min_steps": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "min_damage_taken": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "base_form",
+                    "evolved_form",
+                    "gender",
+                    "held_item",
+                    "is_default",
+                    "item",
+                    "known_move",
+                    "known_move_type",
+                    "location",
+                    "min_affection",
+                    "min_beauty",
+                    "min_damage_taken",
+                    "min_happiness",
+                    "min_level",
+                    "min_move_count",
+                    "min_steps",
+                    "near_special_rock",
+                    "needs_multiplayer",
+                    "needs_overworld_rain",
+                    "party_species",
+                    "party_type",
+                    "region",
+                    "relative_physical_stats",
+                    "time_of_day",
+                    "trade_species",
+                    "trigger",
+                    "turn_upside_down",
+                    "used_move",
+                    "version_group"
+                  ]
+                }
+              },
+              "evolves_to": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "is_baby": {
+                      "type": "boolean"
+                    },
+                    "species": {
+                      "$ref": "/schema/v2/named_api_resource.json"
+                    },
+                    "evolution_details": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
                         "properties": {
-                            "evolution_details": {
-                                "items": {
-                                    "properties": {
-                                        "base_form": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "evolved_form": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "gender": {
-                                            "type": [
-                                                "integer",
-                                                "null"
-                                            ]
-                                        },
-                                        "held_item": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "is_default": {
-                                            "type": "boolean"
-                                        },
-                                        "item": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "known_move": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "known_move_type": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "location": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "min_affection": {
-                                            "type": [
-                                                "integer",
-                                                "null"
-                                            ]
-                                        },
-                                        "min_beauty": {
-                                            "type": [
-                                                "integer",
-                                                "null"
-                                            ]
-                                        },
-                                        "min_damage_taken": {
-                                            "type": [
-                                                "integer",
-                                                "null"
-                                            ]
-                                        },
-                                        "min_happiness": {
-                                            "type": [
-                                                "integer",
-                                                "null"
-                                            ]
-                                        },
-                                        "min_level": {
-                                            "type": [
-                                                "integer",
-                                                "null"
-                                            ]
-                                        },
-                                        "min_move_count": {
-                                            "type": [
-                                                "integer",
-                                                "null"
-                                            ]
-                                        },
-                                        "min_steps": {
-                                            "type": [
-                                                "integer",
-                                                "null"
-                                            ]
-                                        },
-                                        "near_special_rock": {
-                                            "type": "boolean"
-                                        },
-                                        "needs_multiplayer": {
-                                            "type": "boolean"
-                                        },
-                                        "needs_overworld_rain": {
-                                            "type": "boolean"
-                                        },
-                                        "party_species": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "party_type": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "region": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "relative_physical_stats": {
-                                            "type": [
-                                                "integer",
-                                                "null"
-                                            ]
-                                        },
-                                        "time_of_day": {
-                                            "type": "string"
-                                        },
-                                        "trade_species": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "trigger": {
-                                            "$ref": "/schema/v2/named_api_resource.json"
-                                        },
-                                        "turn_upside_down": {
-                                            "type": "boolean"
-                                        },
-                                        "used_move": {
-                                            "anyOf": [
-                                                {
-                                                    "type": "null"
-                                                },
-                                                {
-                                                    "$ref": "/schema/v2/named_api_resource.json"
-                                                }
-                                            ]
-                                        },
-                                        "version_group": {
-                                            "$ref": "/schema/v2/named_api_resource.json"
-                                        }
-                                    },
-                                    "required": [
-                                        "base_form",
-                                        "evolved_form",
-                                        "gender",
-                                        "held_item",
-                                        "is_default",
-                                        "item",
-                                        "known_move",
-                                        "known_move_type",
-                                        "location",
-                                        "min_affection",
-                                        "min_beauty",
-                                        "min_damage_taken",
-                                        "min_happiness",
-                                        "min_level",
-                                        "min_move_count",
-                                        "min_steps",
-                                        "near_special_rock",
-                                        "needs_multiplayer",
-                                        "needs_overworld_rain",
-                                        "party_species",
-                                        "party_type",
-                                        "region",
-                                        "relative_physical_stats",
-                                        "time_of_day",
-                                        "trade_species",
-                                        "trigger",
-                                        "turn_upside_down",
-                                        "used_move",
-                                        "version_group"
-                                    ],
-                                    "type": "object"
-                                },
-                                "type": "array"
-                            },
-                            "evolves_to": {
-                                "items": {
-                                    "properties": {
-                                        "evolution_details": {
-                                            "items": {
-                                                "properties": {
-                                                    "base_form": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "evolved_form": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "gender": {
-                                                        "type": [
-                                                            "integer",
-                                                            "null"
-                                                        ]
-                                                    },
-                                                    "held_item": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "is_default": {
-                                                        "type": "boolean"
-                                                    },
-                                                    "item": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "known_move": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "known_move_type": {
-                                                        "type": "null"
-                                                    },
-                                                    "location": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "min_affection": {
-                                                        "type": "null"
-                                                    },
-                                                    "min_beauty": {
-                                                        "type": "null"
-                                                    },
-                                                    "min_damage_taken": {
-                                                        "type": "null"
-                                                    },
-                                                    "min_happiness": {
-                                                        "type": [
-                                                            "integer",
-                                                            "null"
-                                                        ]
-                                                    },
-                                                    "min_level": {
-                                                        "type": [
-                                                            "integer",
-                                                            "null"
-                                                        ]
-                                                    },
-                                                    "min_move_count": {
-                                                        "type": [
-                                                            "integer",
-                                                            "null"
-                                                        ]
-                                                    },
-                                                    "min_steps": {
-                                                        "type": [
-                                                            "integer",
-                                                            "null"
-                                                        ]
-                                                    },
-                                                    "near_special_rock": {
-                                                        "type": "boolean"
-                                                    },
-                                                    "needs_multiplayer": {
-                                                        "type": "boolean"
-                                                    },
-                                                    "needs_overworld_rain": {
-                                                        "type": "boolean"
-                                                    },
-                                                    "party_species": {
-                                                        "type": "null"
-                                                    },
-                                                    "party_type": {
-                                                        "type": "null"
-                                                    },
-                                                    "region": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "relative_physical_stats": {
-                                                        "type": "null"
-                                                    },
-                                                    "time_of_day": {
-                                                        "type": "string"
-                                                    },
-                                                    "trade_species": {
-                                                        "type": "null"
-                                                    },
-                                                    "trigger": {
-                                                        "$ref": "/schema/v2/named_api_resource.json"
-                                                    },
-                                                    "turn_upside_down": {
-                                                        "type": "boolean"
-                                                    },
-                                                    "used_move": {
-                                                        "anyOf": [
-                                                            {
-                                                                "type": "null"
-                                                            },
-                                                            {
-                                                                "$ref": "/schema/v2/named_api_resource.json"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "version_group": {
-                                                        "$ref": "/schema/v2/named_api_resource.json"
-                                                    }
-                                                },
-                                                "required": [
-                                                    "base_form",
-                                                    "evolved_form",
-                                                    "gender",
-                                                    "held_item",
-                                                    "is_default",
-                                                    "item",
-                                                    "known_move",
-                                                    "known_move_type",
-                                                    "location",
-                                                    "min_affection",
-                                                    "min_beauty",
-                                                    "min_damage_taken",
-                                                    "min_happiness",
-                                                    "min_level",
-                                                    "min_move_count",
-                                                    "min_steps",
-                                                    "near_special_rock",
-                                                    "needs_multiplayer",
-                                                    "needs_overworld_rain",
-                                                    "party_species",
-                                                    "party_type",
-                                                    "region",
-                                                    "relative_physical_stats",
-                                                    "time_of_day",
-                                                    "trade_species",
-                                                    "trigger",
-                                                    "turn_upside_down",
-                                                    "used_move",
-                                                    "version_group"
-                                                ],
-                                                "type": "object"
-                                            },
-                                            "type": "array"
-                                        },
-                                        "evolves_to": {
-                                            "type": "array"
-                                        },
-                                        "is_baby": {
-                                            "type": "boolean"
-                                        },
-                                        "species": {
-                                            "$ref": "/schema/v2/named_api_resource.json"
-                                        }
-                                    },
-                                    "required": [
-                                        "evolution_details",
-                                        "evolves_to",
-                                        "is_baby",
-                                        "species"
-                                    ],
-                                    "type": "object"
-                                },
-                                "type": "array"
-                            },
-                            "is_baby": {
-                                "type": "boolean"
-                            },
-                            "species": {
+                          "version_group": {
+                            "$ref": "/schema/v2/named_api_resource.json"
+                          },
+                          "is_default": {
+                            "type": "boolean"
+                          },
+                          "item": {
+                            "anyOf": [
+                              {
+                                "type": "null"
+                              },
+                              {
                                 "$ref": "/schema/v2/named_api_resource.json"
-                            }
+                              }
+                            ]
+                          },
+                          "trigger": {
+                            "$ref": "/schema/v2/named_api_resource.json"
+                          },
+                          "gender": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "held_item": {
+                            "anyOf": [
+                              {
+                                "type": "null"
+                              },
+                              {
+                                "$ref": "/schema/v2/named_api_resource.json"
+                              }
+                            ]
+                          },
+                          "known_move": {
+                            "anyOf": [
+                              {
+                                "type": "null"
+                              },
+                              {
+                                "$ref": "/schema/v2/named_api_resource.json"
+                              }
+                            ]
+                          },
+                          "known_move_type": {
+                            "type": "null"
+                          },
+                          "location": {
+                            "anyOf": [
+                              {
+                                "type": "null"
+                              },
+                              {
+                                "$ref": "/schema/v2/named_api_resource.json"
+                              }
+                            ]
+                          },
+                          "min_level": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "min_happiness": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "min_beauty": {
+                            "type": "null"
+                          },
+                          "min_affection": {
+                            "type": "null"
+                          },
+                          "near_special_rock": {
+                            "type": "boolean"
+                          },
+                          "needs_multiplayer": {
+                            "type": "boolean"
+                          },
+                          "needs_overworld_rain": {
+                            "type": "boolean"
+                          },
+                          "party_species": {
+                            "type": "null"
+                          },
+                          "party_type": {
+                            "type": "null"
+                          },
+                          "relative_physical_stats": {
+                            "type": "null"
+                          },
+                          "time_of_day": {
+                            "type": "string"
+                          },
+                          "trade_species": {
+                            "type": "null"
+                          },
+                          "turn_upside_down": {
+                            "type": "boolean"
+                          },
+                          "region": {
+                            "anyOf": [
+                              {
+                                "type": "null"
+                              },
+                              {
+                                "$ref": "/schema/v2/named_api_resource.json"
+                              }
+                            ]
+                          },
+                          "base_form": {
+                            "anyOf": [
+                              {
+                                "type": "null"
+                              },
+                              {
+                                "$ref": "/schema/v2/named_api_resource.json"
+                              }
+                            ]
+                          },
+                          "evolved_form": {
+                            "anyOf": [
+                              {
+                                "type": "null"
+                              },
+                              {
+                                "$ref": "/schema/v2/named_api_resource.json"
+                              }
+                            ]
+                          },
+                          "used_move": {
+                            "anyOf": [
+                              {
+                                "type": "null"
+                              },
+                              {
+                                "$ref": "/schema/v2/named_api_resource.json"
+                              }
+                            ]
+                          },
+                          "min_move_count": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "min_steps": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "min_damage_taken": {
+                            "type": "null"
+                          }
                         },
                         "required": [
-                            "evolution_details",
-                            "evolves_to",
-                            "is_baby",
-                            "species"
-                        ],
-                        "type": "object"
+                          "base_form",
+                          "evolved_form",
+                          "gender",
+                          "held_item",
+                          "is_default",
+                          "item",
+                          "known_move",
+                          "known_move_type",
+                          "location",
+                          "min_affection",
+                          "min_beauty",
+                          "min_damage_taken",
+                          "min_happiness",
+                          "min_level",
+                          "min_move_count",
+                          "min_steps",
+                          "near_special_rock",
+                          "needs_multiplayer",
+                          "needs_overworld_rain",
+                          "party_species",
+                          "party_type",
+                          "region",
+                          "relative_physical_stats",
+                          "time_of_day",
+                          "trade_species",
+                          "trigger",
+                          "turn_upside_down",
+                          "used_move",
+                          "version_group"
+                        ]
+                      }
                     },
-                    "type": "array"
-                },
-                "is_baby": {
-                    "type": "boolean"
-                },
-                "species": {
-                    "$ref": "/schema/v2/named_api_resource.json"
+                    "evolves_to": {
+                      "type": "array"
+                    }
+                  },
+                  "required": [
+                    "evolution_details",
+                    "evolves_to",
+                    "is_baby",
+                    "species"
+                  ]
                 }
+              }
             },
             "required": [
-                "evolution_details",
-                "evolves_to",
-                "is_baby",
-                "species"
-            ],
-            "type": "object"
-        },
-        "id": {
-            "type": "integer"
+              "evolution_details",
+              "evolves_to",
+              "is_baby",
+              "species"
+            ]
+          }
         }
-    },
-    "required": [
-        "baby_trigger_item",
-        "chain",
-        "id"
-    ],
-    "type": "object"
+      },
+      "required": [
+        "evolution_details",
+        "evolves_to",
+        "is_baby",
+        "species"
+      ]
+    }
+  },
+  "required": [
+    "baby_trigger_item",
+    "chain",
+    "id"
+  ]
 }

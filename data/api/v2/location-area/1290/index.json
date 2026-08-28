@@ -1,49 +1,49 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 1290,
-    "location": {
-        "name": "citadark-isle",
-        "url": "/api/v2/location/1112/"
-    },
-    "name": "citadark-isle-dome-bf1",
-    "names": [
+  "id": 1290,
+  "name": "citadark-isle-dome-bf1",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "citadark-isle",
+    "url": "/api/v2/location/1112/"
+  },
+  "names": [
+    {
+      "name": "Citadark Isle Dome B1F",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "dugtrio",
+        "url": "/api/v2/pokemon/51/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Citadark Isle Dome B1F"
+          "version": {
+            "name": "xd",
+            "url": "/api/v2/version/20/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 40,
+              "max_level": 40,
+              "chance": 100,
+              "method": {
+                "name": "snag",
+                "url": "/api/v2/encounter-method/51/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "dugtrio",
-                "url": "/api/v2/pokemon/51/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "snag",
-                                "url": "/api/v2/encounter-method/51/"
-                            },
-                            "min_level": 40,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "xd",
-                        "url": "/api/v2/version/20/"
-                    }
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }

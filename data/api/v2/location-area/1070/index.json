@@ -1,46 +1,46 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 1070,
-    "location": {
-        "name": "altar-of-the-sunne",
-        "url": "/api/v2/location/790/"
-    },
-    "name": "altar-of-the-sunne-area",
-    "names": [],
-    "pokemon_encounters": [
+  "id": 1070,
+  "name": "altar-of-the-sunne-area",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "altar-of-the-sunne",
+    "url": "/api/v2/location/790/"
+  },
+  "names": [],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "solgaleo",
+        "url": "/api/v2/pokemon/791/"
+      },
+      "version_details": [
         {
-            "pokemon": {
-                "name": "solgaleo",
-                "url": "/api/v2/pokemon/791/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 55,
-                            "method": {
-                                "name": "static",
-                                "url": "/api/v2/encounter-method/20/"
-                            },
-                            "min_level": 55,
-                            "pokemon_details": {
-                                "always_shiny": false,
-                                "is_alpha": false,
-                                "min_perfect_ivs": null,
-                                "never_shiny": true
-                            }
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "sun",
-                        "url": "/api/v2/version/27/"
-                    }
-                }
-            ]
+          "version": {
+            "name": "sun",
+            "url": "/api/v2/version/27/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 55,
+              "max_level": 55,
+              "chance": 100,
+              "method": {
+                "name": "static",
+                "url": "/api/v2/encounter-method/20/"
+              },
+              "condition_values": [],
+              "pokemon_details": {
+                "min_perfect_ivs": null,
+                "always_shiny": false,
+                "never_shiny": true,
+                "is_alpha": false
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

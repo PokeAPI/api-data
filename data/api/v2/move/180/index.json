@@ -1,1967 +1,1967 @@
 {
-    "accuracy": 100,
-    "contest_combos": {
-        "normal": {
-            "use_after": [
-                {
-                    "name": "curse",
-                    "url": "/api/v2/move/174/"
-                }
-            ],
-            "use_before": null
-        },
-        "super": {
-            "use_after": null,
-            "use_before": null
+  "id": 180,
+  "name": "spite",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "curse",
+          "url": "/api/v2/move/174/"
         }
+      ]
     },
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/26/"
-    },
-    "contest_type": {
-        "name": "tough",
-        "url": "/api/v2/contest-type/5/"
-    },
-    "damage_class": {
-        "name": "status",
-        "url": "/api/v2/move-damage-class/1/"
-    },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Diminue les PP de la derni\u00e8re capacit\u00e9 utilis\u00e9e par la cible de 4.  Si la cible n'a pas utilis\u00e9 de capacit\u00e9 depuis son entr\u00e9e sur le terrain, si elle a essay\u00e9 d'utiliser cette capacit\u00e9 ce tour et a \u00e9chou\u00e9, ou si sa derni\u00e8re capacit\u00e9 utilis\u00e9e a 0 PP restant, cette capacit\u00e9 \u00e9chouera.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Diminue les PP de la derni\u00e8re capacit\u00e9 utilis\u00e9e par la cible de 4."
-        },
-        {
-            "effect": "Lowers the PP of the target\u2019s last used move by 4.  If the target hasn\u2019t used a move since entering the field, if it tried to use a move this turn and failed, or if its last used move has 0 PP remaining, this move will fail.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Lowers the PP of the target\u2019s last used move by 4."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Cuts the PP of the\nfoe's last move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "flavor_text": "Cuts the PP of the\nfoe's last move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "flavor_text": "Spitefully cuts the PP\nof the foe\u2019s last move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "Spitefully cuts the PP\nof the foe\u2019s last move.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "A move that cuts\n2 to 5 PP from the\nmove last used by\nthe foe.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur exprime son ressentiment\nen retirant 4 PP de la derni\u00e8re attaque\nde l\u2019ennemi.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u307f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la derni\u00e8re attaque de l\u2019ennemi.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "AP der letzten Attacke des Zieles\nwerden um 4 gesenkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u307f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u202f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la derni\u00e8re attaque de l\u2019ennemi.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "AP der letzten Attacke des Zieles\nwerden um 4 gesenkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u202f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u307f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\n\u767c\u51fa\u6028\u5ff5\uff0c\n\u8b93\u8a72\u62db\u5f0f\u6e1b\u5c11\uff14\uff30\uff30\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la derni\u00e8re attaque de l\u2019ennemi.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "AP der letzten Attacke des Zieles werden um 4\ngesenkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u307f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5bf9\u5bf9\u624b\u6700\u540e\u4f7f\u7528\u7684\u62db\u5f0f\n\u6000\u6709\u6028\u6068\uff0c\n\u51cf\u5c11\uff14\uff30\uff30\u8be5\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u307f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\n\u767c\u51fa\u6028\u5ff5\uff0c\n\u8b93\u8a72\u62db\u5f0f\u6e1b\u5c11\uff14\uff30\uff30\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la derni\u00e8re attaque de l\u2019ennemi.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "AP der letzten Attacke des Zieles werden um 4\ngesenkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u307f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5bf9\u5bf9\u624b\u6700\u540e\u4f7f\u7528\u7684\u62db\u5f0f\n\u6000\u6709\u6028\u6068\uff0c\n\u51cf\u5c11\uff14\uff30\uff30\u8be5\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u307f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\n\u767c\u51fa\u6028\u5ff5\uff0c\n\u8b93\u8a72\u62db\u5f0f\u6e1b\u5c11\uff14PP\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la derni\u00e8re capacit\u00e9 de l\u2019ennemi.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "AP der letzten Attacke des Zieles werden um 4\ngesenkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u307f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5bf9\u5bf9\u624b\u6700\u540e\u4f7f\u7528\u7684\u62db\u5f0f\n\u6000\u6709\u6028\u6068\uff0c\n\u51cf\u5c11\u8be5\u62db\u5f0f\uff14PP\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3042\u3044\u3066\u304c\u3000\u3055\u3044\u3054\u306b\u3000\u3064\u304b\u3063\u305f\u3000\u308f\u3056\u306b\n\u3046\u3089\u307f\u3092\u3000\u3044\u3060\u3044\u3066\n\u305d\u306e\u308f\u3056\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u3078\u3089\u3059\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc0c1\ub300\uac00 \ub9c8\uc9c0\ub9c9\uc73c\ub85c\n\uc0ac\uc6a9\ud55c \uae30\uc220\uc5d0 \uc6d0\ud55c\uc744 \ud488\uc5b4\n\uadf8 \uae30\uc220\uc758 PP\ub97c 4\ub9cc\ud07c \uc904\uc778\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u6700\u8fd1\u4e00\u6b21\u4f7f\u7528\u7684\u62db\u5f0f\n\u767c\u51fa\u6028\u5ff5\uff0c\n\u8b93\u8a72\u62db\u5f0f\u6e1b\u5c11\uff14\uff30\uff30\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Le lanceur exprime son ressentiment en retirant 4 PP\nde la derni\u00e8re capacit\u00e9 de l\u2019ennemi.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "AP der letzten Attacke des Zieles werden um 4 gesenkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo. ",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa sfoga la propria rabbia sull\u2019ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u76f8\u624b\u304c\u3000\u6700\u5f8c\u306b\u3000\u4f7f\u3063\u305f\u6280\u306b\n\u6068\u307f\u3092\u3000\u62b1\u3044\u3066\n\u305d\u306e\u6280\u306e\u3000\uff30\uff30\u3092\u3000\uff14\u3060\u3051\u3000\u6e1b\u3089\u3059\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5bf9\u5bf9\u624b\u6700\u540e\u4f7f\u7528\u7684\u62db\u5f0f\n\u6000\u6709\u6028\u6068\uff0c\n\u51cf\u5c11\uff14\uff30\uff30\u8be5\u62db\u5f0f\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel \u00faltimo movimiento usado por el objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-ii",
-        "url": "/api/v2/generation/2/"
-    },
-    "id": 180,
-    "learned_by_pokemon": [
-        {
-            "name": "ekans",
-            "url": "/api/v2/pokemon/23/"
-        },
-        {
-            "name": "arbok",
-            "url": "/api/v2/pokemon/24/"
-        },
-        {
-            "name": "vulpix",
-            "url": "/api/v2/pokemon/37/"
-        },
-        {
-            "name": "ninetales",
-            "url": "/api/v2/pokemon/38/"
-        },
-        {
-            "name": "meowth",
-            "url": "/api/v2/pokemon/52/"
-        },
-        {
-            "name": "persian",
-            "url": "/api/v2/pokemon/53/"
-        },
-        {
-            "name": "mankey",
-            "url": "/api/v2/pokemon/56/"
-        },
-        {
-            "name": "primeape",
-            "url": "/api/v2/pokemon/57/"
-        },
-        {
-            "name": "muk",
-            "url": "/api/v2/pokemon/89/"
-        },
-        {
-            "name": "gastly",
-            "url": "/api/v2/pokemon/92/"
-        },
-        {
-            "name": "haunter",
-            "url": "/api/v2/pokemon/93/"
-        },
-        {
-            "name": "gengar",
-            "url": "/api/v2/pokemon/94/"
-        },
-        {
-            "name": "koffing",
-            "url": "/api/v2/pokemon/109/"
-        },
-        {
-            "name": "weezing",
-            "url": "/api/v2/pokemon/110/"
-        },
-        {
-            "name": "rhyhorn",
-            "url": "/api/v2/pokemon/111/"
-        },
-        {
-            "name": "rhydon",
-            "url": "/api/v2/pokemon/112/"
-        },
-        {
-            "name": "kangaskhan",
-            "url": "/api/v2/pokemon/115/"
-        },
-        {
-            "name": "tauros",
-            "url": "/api/v2/pokemon/128/"
-        },
-        {
-            "name": "gyarados",
-            "url": "/api/v2/pokemon/130/"
-        },
-        {
-            "name": "mewtwo",
-            "url": "/api/v2/pokemon/150/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "typhlosion",
-            "url": "/api/v2/pokemon/157/"
-        },
-        {
-            "name": "totodile",
-            "url": "/api/v2/pokemon/158/"
-        },
-        {
-            "name": "croconaw",
-            "url": "/api/v2/pokemon/159/"
-        },
-        {
-            "name": "feraligatr",
-            "url": "/api/v2/pokemon/160/"
-        },
-        {
-            "name": "hoothoot",
-            "url": "/api/v2/pokemon/163/"
-        },
-        {
-            "name": "noctowl",
-            "url": "/api/v2/pokemon/164/"
-        },
-        {
-            "name": "spinarak",
-            "url": "/api/v2/pokemon/167/"
-        },
-        {
-            "name": "ariados",
-            "url": "/api/v2/pokemon/168/"
-        },
-        {
-            "name": "aipom",
-            "url": "/api/v2/pokemon/190/"
-        },
-        {
-            "name": "umbreon",
-            "url": "/api/v2/pokemon/197/"
-        },
-        {
-            "name": "murkrow",
-            "url": "/api/v2/pokemon/198/"
-        },
-        {
-            "name": "misdreavus",
-            "url": "/api/v2/pokemon/200/"
-        },
-        {
-            "name": "dunsparce",
-            "url": "/api/v2/pokemon/206/"
-        },
-        {
-            "name": "snubbull",
-            "url": "/api/v2/pokemon/209/"
-        },
-        {
-            "name": "granbull",
-            "url": "/api/v2/pokemon/210/"
-        },
-        {
-            "name": "qwilfish",
-            "url": "/api/v2/pokemon/211/"
-        },
-        {
-            "name": "sneasel",
-            "url": "/api/v2/pokemon/215/"
-        },
-        {
-            "name": "houndour",
-            "url": "/api/v2/pokemon/228/"
-        },
-        {
-            "name": "houndoom",
-            "url": "/api/v2/pokemon/229/"
-        },
-        {
-            "name": "stantler",
-            "url": "/api/v2/pokemon/234/"
-        },
-        {
-            "name": "larvitar",
-            "url": "/api/v2/pokemon/246/"
-        },
-        {
-            "name": "pupitar",
-            "url": "/api/v2/pokemon/247/"
-        },
-        {
-            "name": "tyranitar",
-            "url": "/api/v2/pokemon/248/"
-        },
-        {
-            "name": "poochyena",
-            "url": "/api/v2/pokemon/261/"
-        },
-        {
-            "name": "mightyena",
-            "url": "/api/v2/pokemon/262/"
-        },
-        {
-            "name": "seedot",
-            "url": "/api/v2/pokemon/273/"
-        },
-        {
-            "name": "nuzleaf",
-            "url": "/api/v2/pokemon/274/"
-        },
-        {
-            "name": "shiftry",
-            "url": "/api/v2/pokemon/275/"
-        },
-        {
-            "name": "nincada",
-            "url": "/api/v2/pokemon/290/"
-        },
-        {
-            "name": "ninjask",
-            "url": "/api/v2/pokemon/291/"
-        },
-        {
-            "name": "shedinja",
-            "url": "/api/v2/pokemon/292/"
-        },
-        {
-            "name": "sableye",
-            "url": "/api/v2/pokemon/302/"
-        },
-        {
-            "name": "aron",
-            "url": "/api/v2/pokemon/304/"
-        },
-        {
-            "name": "lairon",
-            "url": "/api/v2/pokemon/305/"
-        },
-        {
-            "name": "aggron",
-            "url": "/api/v2/pokemon/306/"
-        },
-        {
-            "name": "carvanha",
-            "url": "/api/v2/pokemon/318/"
-        },
-        {
-            "name": "sharpedo",
-            "url": "/api/v2/pokemon/319/"
-        },
-        {
-            "name": "cacnea",
-            "url": "/api/v2/pokemon/331/"
-        },
-        {
-            "name": "cacturne",
-            "url": "/api/v2/pokemon/332/"
-        },
-        {
-            "name": "corphish",
-            "url": "/api/v2/pokemon/341/"
-        },
-        {
-            "name": "crawdaunt",
-            "url": "/api/v2/pokemon/342/"
-        },
-        {
-            "name": "shuppet",
-            "url": "/api/v2/pokemon/353/"
-        },
-        {
-            "name": "banette",
-            "url": "/api/v2/pokemon/354/"
-        },
-        {
-            "name": "duskull",
-            "url": "/api/v2/pokemon/355/"
-        },
-        {
-            "name": "dusclops",
-            "url": "/api/v2/pokemon/356/"
-        },
-        {
-            "name": "tropius",
-            "url": "/api/v2/pokemon/357/"
-        },
-        {
-            "name": "absol",
-            "url": "/api/v2/pokemon/359/"
-        },
-        {
-            "name": "snorunt",
-            "url": "/api/v2/pokemon/361/"
-        },
-        {
-            "name": "glalie",
-            "url": "/api/v2/pokemon/362/"
-        },
-        {
-            "name": "cranidos",
-            "url": "/api/v2/pokemon/408/"
-        },
-        {
-            "name": "rampardos",
-            "url": "/api/v2/pokemon/409/"
-        },
-        {
-            "name": "vespiquen",
-            "url": "/api/v2/pokemon/416/"
-        },
-        {
-            "name": "ambipom",
-            "url": "/api/v2/pokemon/424/"
-        },
-        {
-            "name": "drifloon",
-            "url": "/api/v2/pokemon/425/"
-        },
-        {
-            "name": "drifblim",
-            "url": "/api/v2/pokemon/426/"
-        },
-        {
-            "name": "mismagius",
-            "url": "/api/v2/pokemon/429/"
-        },
-        {
-            "name": "honchkrow",
-            "url": "/api/v2/pokemon/430/"
-        },
-        {
-            "name": "spiritomb",
-            "url": "/api/v2/pokemon/442/"
-        },
-        {
-            "name": "croagunk",
-            "url": "/api/v2/pokemon/453/"
-        },
-        {
-            "name": "toxicroak",
-            "url": "/api/v2/pokemon/454/"
-        },
-        {
-            "name": "weavile",
-            "url": "/api/v2/pokemon/461/"
-        },
-        {
-            "name": "rhyperior",
-            "url": "/api/v2/pokemon/464/"
-        },
-        {
-            "name": "dusknoir",
-            "url": "/api/v2/pokemon/477/"
-        },
-        {
-            "name": "froslass",
-            "url": "/api/v2/pokemon/478/"
-        },
-        {
-            "name": "rotom",
-            "url": "/api/v2/pokemon/479/"
-        },
-        {
-            "name": "giratina-altered",
-            "url": "/api/v2/pokemon/487/"
-        },
-        {
-            "name": "darkrai",
-            "url": "/api/v2/pokemon/491/"
-        },
-        {
-            "name": "purrloin",
-            "url": "/api/v2/pokemon/509/"
-        },
-        {
-            "name": "liepard",
-            "url": "/api/v2/pokemon/510/"
-        },
-        {
-            "name": "sandile",
-            "url": "/api/v2/pokemon/551/"
-        },
-        {
-            "name": "krokorok",
-            "url": "/api/v2/pokemon/552/"
-        },
-        {
-            "name": "krookodile",
-            "url": "/api/v2/pokemon/553/"
-        },
-        {
-            "name": "scraggy",
-            "url": "/api/v2/pokemon/559/"
-        },
-        {
-            "name": "scrafty",
-            "url": "/api/v2/pokemon/560/"
-        },
-        {
-            "name": "yamask",
-            "url": "/api/v2/pokemon/562/"
-        },
-        {
-            "name": "cofagrigus",
-            "url": "/api/v2/pokemon/563/"
-        },
-        {
-            "name": "trubbish",
-            "url": "/api/v2/pokemon/568/"
-        },
-        {
-            "name": "garbodor",
-            "url": "/api/v2/pokemon/569/"
-        },
-        {
-            "name": "zorua",
-            "url": "/api/v2/pokemon/570/"
-        },
-        {
-            "name": "zoroark",
-            "url": "/api/v2/pokemon/571/"
-        },
-        {
-            "name": "frillish-male",
-            "url": "/api/v2/pokemon/592/"
-        },
-        {
-            "name": "jellicent-male",
-            "url": "/api/v2/pokemon/593/"
-        },
-        {
-            "name": "litwick",
-            "url": "/api/v2/pokemon/607/"
-        },
-        {
-            "name": "lampent",
-            "url": "/api/v2/pokemon/608/"
-        },
-        {
-            "name": "chandelure",
-            "url": "/api/v2/pokemon/609/"
-        },
-        {
-            "name": "stunfisk",
-            "url": "/api/v2/pokemon/618/"
-        },
-        {
-            "name": "pawniard",
-            "url": "/api/v2/pokemon/624/"
-        },
-        {
-            "name": "bisharp",
-            "url": "/api/v2/pokemon/625/"
-        },
-        {
-            "name": "vullaby",
-            "url": "/api/v2/pokemon/629/"
-        },
-        {
-            "name": "mandibuzz",
-            "url": "/api/v2/pokemon/630/"
-        },
-        {
-            "name": "deino",
-            "url": "/api/v2/pokemon/633/"
-        },
-        {
-            "name": "zweilous",
-            "url": "/api/v2/pokemon/634/"
-        },
-        {
-            "name": "hydreigon",
-            "url": "/api/v2/pokemon/635/"
-        },
-        {
-            "name": "froakie",
-            "url": "/api/v2/pokemon/656/"
-        },
-        {
-            "name": "frogadier",
-            "url": "/api/v2/pokemon/657/"
-        },
-        {
-            "name": "greninja",
-            "url": "/api/v2/pokemon/658/"
-        },
-        {
-            "name": "pancham",
-            "url": "/api/v2/pokemon/674/"
-        },
-        {
-            "name": "pangoro",
-            "url": "/api/v2/pokemon/675/"
-        },
-        {
-            "name": "honedge",
-            "url": "/api/v2/pokemon/679/"
-        },
-        {
-            "name": "doublade",
-            "url": "/api/v2/pokemon/680/"
-        },
-        {
-            "name": "aegislash-shield",
-            "url": "/api/v2/pokemon/681/"
-        },
-        {
-            "name": "inkay",
-            "url": "/api/v2/pokemon/686/"
-        },
-        {
-            "name": "malamar",
-            "url": "/api/v2/pokemon/687/"
-        },
-        {
-            "name": "skrelp",
-            "url": "/api/v2/pokemon/690/"
-        },
-        {
-            "name": "dragalge",
-            "url": "/api/v2/pokemon/691/"
-        },
-        {
-            "name": "phantump",
-            "url": "/api/v2/pokemon/708/"
-        },
-        {
-            "name": "trevenant",
-            "url": "/api/v2/pokemon/709/"
-        },
-        {
-            "name": "pumpkaboo-average",
-            "url": "/api/v2/pokemon/710/"
-        },
-        {
-            "name": "gourgeist-average",
-            "url": "/api/v2/pokemon/711/"
-        },
-        {
-            "name": "zygarde-50",
-            "url": "/api/v2/pokemon/718/"
-        },
-        {
-            "name": "decidueye",
-            "url": "/api/v2/pokemon/724/"
-        },
-        {
-            "name": "mareanie",
-            "url": "/api/v2/pokemon/747/"
-        },
-        {
-            "name": "toxapex",
-            "url": "/api/v2/pokemon/748/"
-        },
-        {
-            "name": "oranguru",
-            "url": "/api/v2/pokemon/765/"
-        },
-        {
-            "name": "golisopod",
-            "url": "/api/v2/pokemon/768/"
-        },
-        {
-            "name": "sandygast",
-            "url": "/api/v2/pokemon/769/"
-        },
-        {
-            "name": "palossand",
-            "url": "/api/v2/pokemon/770/"
-        },
-        {
-            "name": "pyukumuku",
-            "url": "/api/v2/pokemon/771/"
-        },
-        {
-            "name": "mimikyu-disguised",
-            "url": "/api/v2/pokemon/778/"
-        },
-        {
-            "name": "dhelmise",
-            "url": "/api/v2/pokemon/781/"
-        },
-        {
-            "name": "lunala",
-            "url": "/api/v2/pokemon/792/"
-        },
-        {
-            "name": "nihilego",
-            "url": "/api/v2/pokemon/793/"
-        },
-        {
-            "name": "blacephalon",
-            "url": "/api/v2/pokemon/806/"
-        },
-        {
-            "name": "rookidee",
-            "url": "/api/v2/pokemon/821/"
-        },
-        {
-            "name": "corvisquire",
-            "url": "/api/v2/pokemon/822/"
-        },
-        {
-            "name": "corviknight",
-            "url": "/api/v2/pokemon/823/"
-        },
-        {
-            "name": "sinistea",
-            "url": "/api/v2/pokemon/854/"
-        },
-        {
-            "name": "polteageist",
-            "url": "/api/v2/pokemon/855/"
-        },
-        {
-            "name": "perrserker",
-            "url": "/api/v2/pokemon/863/"
-        },
-        {
-            "name": "cursola",
-            "url": "/api/v2/pokemon/864/"
-        },
-        {
-            "name": "morpeko-full-belly",
-            "url": "/api/v2/pokemon/877/"
-        },
-        {
-            "name": "wyrdeer",
-            "url": "/api/v2/pokemon/899/"
-        },
-        {
-            "name": "basculegion-male",
-            "url": "/api/v2/pokemon/902/"
-        },
-        {
-            "name": "sneasler",
-            "url": "/api/v2/pokemon/903/"
-        },
-        {
-            "name": "overqwil",
-            "url": "/api/v2/pokemon/904/"
-        },
-        {
-            "name": "lokix",
-            "url": "/api/v2/pokemon/920/"
-        },
-        {
-            "name": "charcadet",
-            "url": "/api/v2/pokemon/935/"
-        },
-        {
-            "name": "armarouge",
-            "url": "/api/v2/pokemon/936/"
-        },
-        {
-            "name": "ceruledge",
-            "url": "/api/v2/pokemon/937/"
-        },
-        {
-            "name": "mabosstiff",
-            "url": "/api/v2/pokemon/943/"
-        },
-        {
-            "name": "bramblin",
-            "url": "/api/v2/pokemon/946/"
-        },
-        {
-            "name": "brambleghast",
-            "url": "/api/v2/pokemon/947/"
-        },
-        {
-            "name": "annihilape",
-            "url": "/api/v2/pokemon/979/"
-        },
-        {
-            "name": "dudunsparce-two-segment",
-            "url": "/api/v2/pokemon/982/"
-        },
-        {
-            "name": "kingambit",
-            "url": "/api/v2/pokemon/983/"
-        },
-        {
-            "name": "flutter-mane",
-            "url": "/api/v2/pokemon/987/"
-        },
-        {
-            "name": "wo-chien",
-            "url": "/api/v2/pokemon/1001/"
-        },
-        {
-            "name": "chien-pao",
-            "url": "/api/v2/pokemon/1002/"
-        },
-        {
-            "name": "ting-lu",
-            "url": "/api/v2/pokemon/1003/"
-        },
-        {
-            "name": "chi-yu",
-            "url": "/api/v2/pokemon/1004/"
-        },
-        {
-            "name": "poltchageist",
-            "url": "/api/v2/pokemon/1012/"
-        },
-        {
-            "name": "sinistcha",
-            "url": "/api/v2/pokemon/1013/"
-        },
-        {
-            "name": "okidogi",
-            "url": "/api/v2/pokemon/1014/"
-        },
-        {
-            "name": "munkidori",
-            "url": "/api/v2/pokemon/1015/"
-        },
-        {
-            "name": "fezandipiti",
-            "url": "/api/v2/pokemon/1016/"
-        },
-        {
-            "name": "pecharunt",
-            "url": "/api/v2/pokemon/1025/"
-        },
-        {
-            "name": "giratina-origin",
-            "url": "/api/v2/pokemon/10007/"
-        },
-        {
-            "name": "rotom-heat",
-            "url": "/api/v2/pokemon/10008/"
-        },
-        {
-            "name": "rotom-wash",
-            "url": "/api/v2/pokemon/10009/"
-        },
-        {
-            "name": "rotom-frost",
-            "url": "/api/v2/pokemon/10010/"
-        },
-        {
-            "name": "rotom-fan",
-            "url": "/api/v2/pokemon/10011/"
-        },
-        {
-            "name": "rotom-mow",
-            "url": "/api/v2/pokemon/10012/"
-        },
-        {
-            "name": "aegislash-blade",
-            "url": "/api/v2/pokemon/10026/"
-        },
-        {
-            "name": "pumpkaboo-small",
-            "url": "/api/v2/pokemon/10027/"
-        },
-        {
-            "name": "pumpkaboo-large",
-            "url": "/api/v2/pokemon/10028/"
-        },
-        {
-            "name": "pumpkaboo-super",
-            "url": "/api/v2/pokemon/10029/"
-        },
-        {
-            "name": "gourgeist-small",
-            "url": "/api/v2/pokemon/10030/"
-        },
-        {
-            "name": "gourgeist-large",
-            "url": "/api/v2/pokemon/10031/"
-        },
-        {
-            "name": "gourgeist-super",
-            "url": "/api/v2/pokemon/10032/"
-        },
-        {
-            "name": "gengar-mega",
-            "url": "/api/v2/pokemon/10038/"
-        },
-        {
-            "name": "kangaskhan-mega",
-            "url": "/api/v2/pokemon/10039/"
-        },
-        {
-            "name": "gyarados-mega",
-            "url": "/api/v2/pokemon/10041/"
-        },
-        {
-            "name": "houndoom-mega",
-            "url": "/api/v2/pokemon/10048/"
-        },
-        {
-            "name": "tyranitar-mega",
-            "url": "/api/v2/pokemon/10049/"
-        },
-        {
-            "name": "aggron-mega",
-            "url": "/api/v2/pokemon/10053/"
-        },
-        {
-            "name": "banette-mega",
-            "url": "/api/v2/pokemon/10056/"
-        },
-        {
-            "name": "absol-mega",
-            "url": "/api/v2/pokemon/10057/"
-        },
-        {
-            "name": "sableye-mega",
-            "url": "/api/v2/pokemon/10066/"
-        },
-        {
-            "name": "sharpedo-mega",
-            "url": "/api/v2/pokemon/10070/"
-        },
-        {
-            "name": "glalie-mega",
-            "url": "/api/v2/pokemon/10074/"
-        },
-        {
-            "name": "vulpix-alola",
-            "url": "/api/v2/pokemon/10103/"
-        },
-        {
-            "name": "ninetales-alola",
-            "url": "/api/v2/pokemon/10104/"
-        },
-        {
-            "name": "meowth-alola",
-            "url": "/api/v2/pokemon/10107/"
-        },
-        {
-            "name": "persian-alola",
-            "url": "/api/v2/pokemon/10108/"
-        },
-        {
-            "name": "grimer-alola",
-            "url": "/api/v2/pokemon/10112/"
-        },
-        {
-            "name": "muk-alola",
-            "url": "/api/v2/pokemon/10113/"
-        },
-        {
-            "name": "marowak-alola",
-            "url": "/api/v2/pokemon/10115/"
-        },
-        {
-            "name": "greninja-battle-bond",
-            "url": "/api/v2/pokemon/10116/"
-        },
-        {
-            "name": "greninja-ash",
-            "url": "/api/v2/pokemon/10117/"
-        },
-        {
-            "name": "zygarde-10-power-construct",
-            "url": "/api/v2/pokemon/10118/"
-        },
-        {
-            "name": "zygarde-50-power-construct",
-            "url": "/api/v2/pokemon/10119/"
-        },
-        {
-            "name": "zygarde-complete",
-            "url": "/api/v2/pokemon/10120/"
-        },
-        {
-            "name": "mimikyu-busted",
-            "url": "/api/v2/pokemon/10143/"
-        },
-        {
-            "name": "mimikyu-totem-disguised",
-            "url": "/api/v2/pokemon/10144/"
-        },
-        {
-            "name": "mimikyu-totem-busted",
-            "url": "/api/v2/pokemon/10145/"
-        },
-        {
-            "name": "marowak-totem",
-            "url": "/api/v2/pokemon/10149/"
-        },
-        {
-            "name": "meowth-galar",
-            "url": "/api/v2/pokemon/10161/"
-        },
-        {
-            "name": "weezing-galar",
-            "url": "/api/v2/pokemon/10167/"
-        },
-        {
-            "name": "moltres-galar",
-            "url": "/api/v2/pokemon/10171/"
-        },
-        {
-            "name": "corsola-galar",
-            "url": "/api/v2/pokemon/10173/"
-        },
-        {
-            "name": "stunfisk-galar",
-            "url": "/api/v2/pokemon/10180/"
-        },
-        {
-            "name": "zygarde-10",
-            "url": "/api/v2/pokemon/10181/"
-        },
-        {
-            "name": "morpeko-hangry",
-            "url": "/api/v2/pokemon/10187/"
-        },
-        {
-            "name": "typhlosion-hisui",
-            "url": "/api/v2/pokemon/10233/"
-        },
-        {
-            "name": "qwilfish-hisui",
-            "url": "/api/v2/pokemon/10234/"
-        },
-        {
-            "name": "sneasel-hisui",
-            "url": "/api/v2/pokemon/10235/"
-        },
-        {
-            "name": "zorua-hisui",
-            "url": "/api/v2/pokemon/10238/"
-        },
-        {
-            "name": "zoroark-hisui",
-            "url": "/api/v2/pokemon/10239/"
-        },
-        {
-            "name": "basculegion-female",
-            "url": "/api/v2/pokemon/10248/"
-        },
-        {
-            "name": "dudunsparce-three-segment",
-            "url": "/api/v2/pokemon/10255/"
-        },
-        {
-            "name": "feraligatr-mega",
-            "url": "/api/v2/pokemon/10283/"
-        },
-        {
-            "name": "froslass-mega",
-            "url": "/api/v2/pokemon/10285/"
-        },
-        {
-            "name": "scrafty-mega",
-            "url": "/api/v2/pokemon/10289/"
-        },
-        {
-            "name": "chandelure-mega",
-            "url": "/api/v2/pokemon/10291/"
-        },
-        {
-            "name": "malamar-mega",
-            "url": "/api/v2/pokemon/10297/"
-        },
-        {
-            "name": "dragalge-mega",
-            "url": "/api/v2/pokemon/10299/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/1992/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2055/"
-            },
-            "version_group": {
-                "name": "the-teal-mask",
-                "url": "/api/v2/version-group/26/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "unique",
-            "url": "/api/v2/move-category/13/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "spite",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u3046\u3089\u307f"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uc6d0\ud55c"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u6028\u6068"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "D\u00e9pit"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Groll"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Rencor"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Dispetto"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Spite"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u3046\u3089\u307f"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u6028\u6068"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Rencor"
-        }
-    ],
-    "past_values": [],
-    "power": null,
-    "pp": 10,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/19/"
-    },
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "ghost",
-        "url": "/api/v2/type/8/"
+    "super": {
+      "use_before": null,
+      "use_after": null
     }
+  },
+  "contest_type": {
+    "name": "tough",
+    "url": "/api/v2/contest-type/5/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/26/"
+  },
+  "damage_class": {
+    "name": "status",
+    "url": "/api/v2/move-damage-class/1/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Diminue les PP de la dernière capacité utilisée par la cible de 4.  Si la cible n'a pas utilisé de capacité depuis son entrée sur le terrain, si elle a essayé d'utiliser cette capacité ce tour et a échoué, ou si sa dernière capacité utilisée a 0 PP restant, cette capacité échouera.",
+      "short_effect": "Diminue les PP de la dernière capacité utilisée par la cible de 4.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "Lowers the PP of the target’s last used move by 4.  If the target hasn’t used a move since entering the field, if it tried to use a move this turn and failed, or if its last used move has 0 PP remaining, this move will fail.",
+      "short_effect": "Lowers the PP of the target’s last used move by 4.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii",
+    "url": "/api/v2/generation/2/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "unique",
+      "url": "/api/v2/move-category/13/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "うらみ",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "원한",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "怨恨",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Dépit",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Groll",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Rencor",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Dispetto",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Spite",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "うらみ",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "怨恨",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Rencor",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/19/"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "ghost",
+    "url": "/api/v2/type/8/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/1992/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2055/"
+      },
+      "version_group": {
+        "name": "the-teal-mask",
+        "url": "/api/v2/version-group/26/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Cuts the PP of the\nfoe's last move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "flavor_text": "Cuts the PP of the\nfoe's last move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    },
+    {
+      "flavor_text": "Spitefully cuts the PP\nof the foe’s last move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "Spitefully cuts the PP\nof the foe’s last move.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "A move that cuts\n2 to 5 PP from the\nmove last used by\nthe foe.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur exprime son ressentiment\nen retirant 4 PP de la dernière attaque\nde l’ennemi.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　さいごに　つかった　わざに\nうらみを　いだいて\nそのわざの　ＰＰを　４だけ　へらす。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "상대가 마지막으로\n사용한 기술에 원한을 품어\n그 기술의 PP를 4만큼 줄인다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la dernière attaque de l’ennemi.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "AP der letzten Attacke des Zieles\nwerden um 4 gesenkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfoga la propria rabbia sull’ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "相手が　最後に　使った技に\n恨みを　抱いて\nその技の　ＰＰを　４だけ　減らす。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　さいごに　つかった　わざに\nうら を　いだいて\nそのわざの　ＰＰを　４だけ　へらす。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "상대가 마지막으로\n사용한 기술에 원한을 품어\n그 기술의 PP를 4만큼 줄인다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la dernière attaque de l’ennemi.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "AP der letzten Attacke des Zieles\nwerden um 4 gesenkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfoga la propria rabbia sull’ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move\nlast used by the target by cutting 4 PP\nfrom it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "相手が　最後に　使った技に\n恨 を　抱いて\nその技の　ＰＰを　４だけ　減らす。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　さいごに　つかった　わざに\nうらみを　いだいて\nそのわざの　ＰＰを　４だけ　へらす。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "상대가 마지막으로\n사용한 기술에 원한을 품어\n그 기술의 PP를 4만큼 줄인다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "向對手最近一次使用的招式\n發出怨念，\n讓該招式減少４ＰＰ。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la dernière attaque de l’ennemi.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "AP der letzten Attacke des Zieles werden um 4\ngesenkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfoga la propria rabbia sull’ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "相手が　最後に　使った技に\n恨みを　抱いて\nその技の　ＰＰを　４だけ　減らす。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "对对手最后使用的招式\n怀有怨恨，\n减少４ＰＰ该招式。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　さいごに　つかった　わざに\nうらみを　いだいて\nそのわざの　ＰＰを　４だけ　へらす。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "상대가 마지막으로\n사용한 기술에 원한을 품어\n그 기술의 PP를 4만큼 줄인다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "向對手最近一次使用的招式\n發出怨念，\n讓該招式減少４ＰＰ。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la dernière attaque de l’ennemi.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "AP der letzten Attacke des Zieles werden um 4\ngesenkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfoga la propria rabbia sull’ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "相手が　最後に　使った技に\n恨みを　抱いて\nその技の　ＰＰを　４だけ　減らす。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "对对手最后使用的招式\n怀有怨恨，\n减少４ＰＰ该招式。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　さいごに　つかった　わざに\nうらみを　いだいて\nそのわざの　ＰＰを　４だけ　へらす。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "상대가 마지막으로\n사용한 기술에 원한을 품어\n그 기술의 PP를 4만큼 줄인다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "向對手最近一次使用的招式\n發出怨念，\n讓該招式減少４PP。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur exprime son ressentiment en retirant\n4 PP de la dernière capacité de l’ennemi.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "AP der letzten Attacke des Zieles werden um 4\ngesenkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfoga la propria rabbia sull’ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "相手が　最後に　使った技に\n恨みを　抱いて\nその技の　ＰＰを　４だけ　減らす。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "对对手最后使用的招式\n怀有怨恨，\n减少该招式４PP。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "あいてが　さいごに　つかった　わざに\nうらみを　いだいて\nそのわざの　ＰＰを　４だけ　へらす。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "상대가 마지막으로\n사용한 기술에 원한을 품어\n그 기술의 PP를 4만큼 줄인다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "向對手最近一次使用的招式\n發出怨念，\n讓該招式減少４ＰＰ。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Le lanceur exprime son ressentiment en retirant 4 PP\nde la dernière capacité de l’ennemi.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "AP der letzten Attacke des Zieles werden um 4 gesenkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo. ",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa sfoga la propria rabbia sull’ultima mossa\nusata dal bersaglio e le sottrae quattro PP.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move last used\nby the target by cutting 4 PP from it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "相手が　最後に　使った技に\n恨みを　抱いて\nその技の　ＰＰを　４だけ　減らす。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "对对手最后使用的招式\n怀有怨恨，\n减少４ＰＰ该招式。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "ekans",
+      "url": "/api/v2/pokemon/23/"
+    },
+    {
+      "name": "arbok",
+      "url": "/api/v2/pokemon/24/"
+    },
+    {
+      "name": "vulpix",
+      "url": "/api/v2/pokemon/37/"
+    },
+    {
+      "name": "ninetales",
+      "url": "/api/v2/pokemon/38/"
+    },
+    {
+      "name": "meowth",
+      "url": "/api/v2/pokemon/52/"
+    },
+    {
+      "name": "persian",
+      "url": "/api/v2/pokemon/53/"
+    },
+    {
+      "name": "mankey",
+      "url": "/api/v2/pokemon/56/"
+    },
+    {
+      "name": "primeape",
+      "url": "/api/v2/pokemon/57/"
+    },
+    {
+      "name": "muk",
+      "url": "/api/v2/pokemon/89/"
+    },
+    {
+      "name": "gastly",
+      "url": "/api/v2/pokemon/92/"
+    },
+    {
+      "name": "haunter",
+      "url": "/api/v2/pokemon/93/"
+    },
+    {
+      "name": "gengar",
+      "url": "/api/v2/pokemon/94/"
+    },
+    {
+      "name": "koffing",
+      "url": "/api/v2/pokemon/109/"
+    },
+    {
+      "name": "weezing",
+      "url": "/api/v2/pokemon/110/"
+    },
+    {
+      "name": "rhyhorn",
+      "url": "/api/v2/pokemon/111/"
+    },
+    {
+      "name": "rhydon",
+      "url": "/api/v2/pokemon/112/"
+    },
+    {
+      "name": "kangaskhan",
+      "url": "/api/v2/pokemon/115/"
+    },
+    {
+      "name": "tauros",
+      "url": "/api/v2/pokemon/128/"
+    },
+    {
+      "name": "gyarados",
+      "url": "/api/v2/pokemon/130/"
+    },
+    {
+      "name": "mewtwo",
+      "url": "/api/v2/pokemon/150/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "typhlosion",
+      "url": "/api/v2/pokemon/157/"
+    },
+    {
+      "name": "totodile",
+      "url": "/api/v2/pokemon/158/"
+    },
+    {
+      "name": "croconaw",
+      "url": "/api/v2/pokemon/159/"
+    },
+    {
+      "name": "feraligatr",
+      "url": "/api/v2/pokemon/160/"
+    },
+    {
+      "name": "hoothoot",
+      "url": "/api/v2/pokemon/163/"
+    },
+    {
+      "name": "noctowl",
+      "url": "/api/v2/pokemon/164/"
+    },
+    {
+      "name": "spinarak",
+      "url": "/api/v2/pokemon/167/"
+    },
+    {
+      "name": "ariados",
+      "url": "/api/v2/pokemon/168/"
+    },
+    {
+      "name": "aipom",
+      "url": "/api/v2/pokemon/190/"
+    },
+    {
+      "name": "umbreon",
+      "url": "/api/v2/pokemon/197/"
+    },
+    {
+      "name": "murkrow",
+      "url": "/api/v2/pokemon/198/"
+    },
+    {
+      "name": "misdreavus",
+      "url": "/api/v2/pokemon/200/"
+    },
+    {
+      "name": "dunsparce",
+      "url": "/api/v2/pokemon/206/"
+    },
+    {
+      "name": "snubbull",
+      "url": "/api/v2/pokemon/209/"
+    },
+    {
+      "name": "granbull",
+      "url": "/api/v2/pokemon/210/"
+    },
+    {
+      "name": "qwilfish",
+      "url": "/api/v2/pokemon/211/"
+    },
+    {
+      "name": "sneasel",
+      "url": "/api/v2/pokemon/215/"
+    },
+    {
+      "name": "houndour",
+      "url": "/api/v2/pokemon/228/"
+    },
+    {
+      "name": "houndoom",
+      "url": "/api/v2/pokemon/229/"
+    },
+    {
+      "name": "stantler",
+      "url": "/api/v2/pokemon/234/"
+    },
+    {
+      "name": "larvitar",
+      "url": "/api/v2/pokemon/246/"
+    },
+    {
+      "name": "pupitar",
+      "url": "/api/v2/pokemon/247/"
+    },
+    {
+      "name": "tyranitar",
+      "url": "/api/v2/pokemon/248/"
+    },
+    {
+      "name": "poochyena",
+      "url": "/api/v2/pokemon/261/"
+    },
+    {
+      "name": "mightyena",
+      "url": "/api/v2/pokemon/262/"
+    },
+    {
+      "name": "seedot",
+      "url": "/api/v2/pokemon/273/"
+    },
+    {
+      "name": "nuzleaf",
+      "url": "/api/v2/pokemon/274/"
+    },
+    {
+      "name": "shiftry",
+      "url": "/api/v2/pokemon/275/"
+    },
+    {
+      "name": "nincada",
+      "url": "/api/v2/pokemon/290/"
+    },
+    {
+      "name": "ninjask",
+      "url": "/api/v2/pokemon/291/"
+    },
+    {
+      "name": "shedinja",
+      "url": "/api/v2/pokemon/292/"
+    },
+    {
+      "name": "sableye",
+      "url": "/api/v2/pokemon/302/"
+    },
+    {
+      "name": "aron",
+      "url": "/api/v2/pokemon/304/"
+    },
+    {
+      "name": "lairon",
+      "url": "/api/v2/pokemon/305/"
+    },
+    {
+      "name": "aggron",
+      "url": "/api/v2/pokemon/306/"
+    },
+    {
+      "name": "carvanha",
+      "url": "/api/v2/pokemon/318/"
+    },
+    {
+      "name": "sharpedo",
+      "url": "/api/v2/pokemon/319/"
+    },
+    {
+      "name": "cacnea",
+      "url": "/api/v2/pokemon/331/"
+    },
+    {
+      "name": "cacturne",
+      "url": "/api/v2/pokemon/332/"
+    },
+    {
+      "name": "corphish",
+      "url": "/api/v2/pokemon/341/"
+    },
+    {
+      "name": "crawdaunt",
+      "url": "/api/v2/pokemon/342/"
+    },
+    {
+      "name": "shuppet",
+      "url": "/api/v2/pokemon/353/"
+    },
+    {
+      "name": "banette",
+      "url": "/api/v2/pokemon/354/"
+    },
+    {
+      "name": "duskull",
+      "url": "/api/v2/pokemon/355/"
+    },
+    {
+      "name": "dusclops",
+      "url": "/api/v2/pokemon/356/"
+    },
+    {
+      "name": "tropius",
+      "url": "/api/v2/pokemon/357/"
+    },
+    {
+      "name": "absol",
+      "url": "/api/v2/pokemon/359/"
+    },
+    {
+      "name": "snorunt",
+      "url": "/api/v2/pokemon/361/"
+    },
+    {
+      "name": "glalie",
+      "url": "/api/v2/pokemon/362/"
+    },
+    {
+      "name": "cranidos",
+      "url": "/api/v2/pokemon/408/"
+    },
+    {
+      "name": "rampardos",
+      "url": "/api/v2/pokemon/409/"
+    },
+    {
+      "name": "vespiquen",
+      "url": "/api/v2/pokemon/416/"
+    },
+    {
+      "name": "ambipom",
+      "url": "/api/v2/pokemon/424/"
+    },
+    {
+      "name": "drifloon",
+      "url": "/api/v2/pokemon/425/"
+    },
+    {
+      "name": "drifblim",
+      "url": "/api/v2/pokemon/426/"
+    },
+    {
+      "name": "mismagius",
+      "url": "/api/v2/pokemon/429/"
+    },
+    {
+      "name": "honchkrow",
+      "url": "/api/v2/pokemon/430/"
+    },
+    {
+      "name": "spiritomb",
+      "url": "/api/v2/pokemon/442/"
+    },
+    {
+      "name": "croagunk",
+      "url": "/api/v2/pokemon/453/"
+    },
+    {
+      "name": "toxicroak",
+      "url": "/api/v2/pokemon/454/"
+    },
+    {
+      "name": "weavile",
+      "url": "/api/v2/pokemon/461/"
+    },
+    {
+      "name": "rhyperior",
+      "url": "/api/v2/pokemon/464/"
+    },
+    {
+      "name": "dusknoir",
+      "url": "/api/v2/pokemon/477/"
+    },
+    {
+      "name": "froslass",
+      "url": "/api/v2/pokemon/478/"
+    },
+    {
+      "name": "rotom",
+      "url": "/api/v2/pokemon/479/"
+    },
+    {
+      "name": "giratina-altered",
+      "url": "/api/v2/pokemon/487/"
+    },
+    {
+      "name": "darkrai",
+      "url": "/api/v2/pokemon/491/"
+    },
+    {
+      "name": "purrloin",
+      "url": "/api/v2/pokemon/509/"
+    },
+    {
+      "name": "liepard",
+      "url": "/api/v2/pokemon/510/"
+    },
+    {
+      "name": "sandile",
+      "url": "/api/v2/pokemon/551/"
+    },
+    {
+      "name": "krokorok",
+      "url": "/api/v2/pokemon/552/"
+    },
+    {
+      "name": "krookodile",
+      "url": "/api/v2/pokemon/553/"
+    },
+    {
+      "name": "scraggy",
+      "url": "/api/v2/pokemon/559/"
+    },
+    {
+      "name": "scrafty",
+      "url": "/api/v2/pokemon/560/"
+    },
+    {
+      "name": "yamask",
+      "url": "/api/v2/pokemon/562/"
+    },
+    {
+      "name": "cofagrigus",
+      "url": "/api/v2/pokemon/563/"
+    },
+    {
+      "name": "trubbish",
+      "url": "/api/v2/pokemon/568/"
+    },
+    {
+      "name": "garbodor",
+      "url": "/api/v2/pokemon/569/"
+    },
+    {
+      "name": "zorua",
+      "url": "/api/v2/pokemon/570/"
+    },
+    {
+      "name": "zoroark",
+      "url": "/api/v2/pokemon/571/"
+    },
+    {
+      "name": "frillish-male",
+      "url": "/api/v2/pokemon/592/"
+    },
+    {
+      "name": "jellicent-male",
+      "url": "/api/v2/pokemon/593/"
+    },
+    {
+      "name": "litwick",
+      "url": "/api/v2/pokemon/607/"
+    },
+    {
+      "name": "lampent",
+      "url": "/api/v2/pokemon/608/"
+    },
+    {
+      "name": "chandelure",
+      "url": "/api/v2/pokemon/609/"
+    },
+    {
+      "name": "stunfisk",
+      "url": "/api/v2/pokemon/618/"
+    },
+    {
+      "name": "pawniard",
+      "url": "/api/v2/pokemon/624/"
+    },
+    {
+      "name": "bisharp",
+      "url": "/api/v2/pokemon/625/"
+    },
+    {
+      "name": "vullaby",
+      "url": "/api/v2/pokemon/629/"
+    },
+    {
+      "name": "mandibuzz",
+      "url": "/api/v2/pokemon/630/"
+    },
+    {
+      "name": "deino",
+      "url": "/api/v2/pokemon/633/"
+    },
+    {
+      "name": "zweilous",
+      "url": "/api/v2/pokemon/634/"
+    },
+    {
+      "name": "hydreigon",
+      "url": "/api/v2/pokemon/635/"
+    },
+    {
+      "name": "froakie",
+      "url": "/api/v2/pokemon/656/"
+    },
+    {
+      "name": "frogadier",
+      "url": "/api/v2/pokemon/657/"
+    },
+    {
+      "name": "greninja",
+      "url": "/api/v2/pokemon/658/"
+    },
+    {
+      "name": "pancham",
+      "url": "/api/v2/pokemon/674/"
+    },
+    {
+      "name": "pangoro",
+      "url": "/api/v2/pokemon/675/"
+    },
+    {
+      "name": "honedge",
+      "url": "/api/v2/pokemon/679/"
+    },
+    {
+      "name": "doublade",
+      "url": "/api/v2/pokemon/680/"
+    },
+    {
+      "name": "aegislash-shield",
+      "url": "/api/v2/pokemon/681/"
+    },
+    {
+      "name": "inkay",
+      "url": "/api/v2/pokemon/686/"
+    },
+    {
+      "name": "malamar",
+      "url": "/api/v2/pokemon/687/"
+    },
+    {
+      "name": "skrelp",
+      "url": "/api/v2/pokemon/690/"
+    },
+    {
+      "name": "dragalge",
+      "url": "/api/v2/pokemon/691/"
+    },
+    {
+      "name": "phantump",
+      "url": "/api/v2/pokemon/708/"
+    },
+    {
+      "name": "trevenant",
+      "url": "/api/v2/pokemon/709/"
+    },
+    {
+      "name": "pumpkaboo-average",
+      "url": "/api/v2/pokemon/710/"
+    },
+    {
+      "name": "gourgeist-average",
+      "url": "/api/v2/pokemon/711/"
+    },
+    {
+      "name": "zygarde-50",
+      "url": "/api/v2/pokemon/718/"
+    },
+    {
+      "name": "decidueye",
+      "url": "/api/v2/pokemon/724/"
+    },
+    {
+      "name": "mareanie",
+      "url": "/api/v2/pokemon/747/"
+    },
+    {
+      "name": "toxapex",
+      "url": "/api/v2/pokemon/748/"
+    },
+    {
+      "name": "oranguru",
+      "url": "/api/v2/pokemon/765/"
+    },
+    {
+      "name": "golisopod",
+      "url": "/api/v2/pokemon/768/"
+    },
+    {
+      "name": "sandygast",
+      "url": "/api/v2/pokemon/769/"
+    },
+    {
+      "name": "palossand",
+      "url": "/api/v2/pokemon/770/"
+    },
+    {
+      "name": "pyukumuku",
+      "url": "/api/v2/pokemon/771/"
+    },
+    {
+      "name": "mimikyu-disguised",
+      "url": "/api/v2/pokemon/778/"
+    },
+    {
+      "name": "dhelmise",
+      "url": "/api/v2/pokemon/781/"
+    },
+    {
+      "name": "lunala",
+      "url": "/api/v2/pokemon/792/"
+    },
+    {
+      "name": "nihilego",
+      "url": "/api/v2/pokemon/793/"
+    },
+    {
+      "name": "blacephalon",
+      "url": "/api/v2/pokemon/806/"
+    },
+    {
+      "name": "rookidee",
+      "url": "/api/v2/pokemon/821/"
+    },
+    {
+      "name": "corvisquire",
+      "url": "/api/v2/pokemon/822/"
+    },
+    {
+      "name": "corviknight",
+      "url": "/api/v2/pokemon/823/"
+    },
+    {
+      "name": "sinistea",
+      "url": "/api/v2/pokemon/854/"
+    },
+    {
+      "name": "polteageist",
+      "url": "/api/v2/pokemon/855/"
+    },
+    {
+      "name": "perrserker",
+      "url": "/api/v2/pokemon/863/"
+    },
+    {
+      "name": "cursola",
+      "url": "/api/v2/pokemon/864/"
+    },
+    {
+      "name": "morpeko-full-belly",
+      "url": "/api/v2/pokemon/877/"
+    },
+    {
+      "name": "wyrdeer",
+      "url": "/api/v2/pokemon/899/"
+    },
+    {
+      "name": "basculegion-male",
+      "url": "/api/v2/pokemon/902/"
+    },
+    {
+      "name": "sneasler",
+      "url": "/api/v2/pokemon/903/"
+    },
+    {
+      "name": "overqwil",
+      "url": "/api/v2/pokemon/904/"
+    },
+    {
+      "name": "lokix",
+      "url": "/api/v2/pokemon/920/"
+    },
+    {
+      "name": "charcadet",
+      "url": "/api/v2/pokemon/935/"
+    },
+    {
+      "name": "armarouge",
+      "url": "/api/v2/pokemon/936/"
+    },
+    {
+      "name": "ceruledge",
+      "url": "/api/v2/pokemon/937/"
+    },
+    {
+      "name": "mabosstiff",
+      "url": "/api/v2/pokemon/943/"
+    },
+    {
+      "name": "bramblin",
+      "url": "/api/v2/pokemon/946/"
+    },
+    {
+      "name": "brambleghast",
+      "url": "/api/v2/pokemon/947/"
+    },
+    {
+      "name": "annihilape",
+      "url": "/api/v2/pokemon/979/"
+    },
+    {
+      "name": "dudunsparce-two-segment",
+      "url": "/api/v2/pokemon/982/"
+    },
+    {
+      "name": "kingambit",
+      "url": "/api/v2/pokemon/983/"
+    },
+    {
+      "name": "flutter-mane",
+      "url": "/api/v2/pokemon/987/"
+    },
+    {
+      "name": "wo-chien",
+      "url": "/api/v2/pokemon/1001/"
+    },
+    {
+      "name": "chien-pao",
+      "url": "/api/v2/pokemon/1002/"
+    },
+    {
+      "name": "ting-lu",
+      "url": "/api/v2/pokemon/1003/"
+    },
+    {
+      "name": "chi-yu",
+      "url": "/api/v2/pokemon/1004/"
+    },
+    {
+      "name": "poltchageist",
+      "url": "/api/v2/pokemon/1012/"
+    },
+    {
+      "name": "sinistcha",
+      "url": "/api/v2/pokemon/1013/"
+    },
+    {
+      "name": "okidogi",
+      "url": "/api/v2/pokemon/1014/"
+    },
+    {
+      "name": "munkidori",
+      "url": "/api/v2/pokemon/1015/"
+    },
+    {
+      "name": "fezandipiti",
+      "url": "/api/v2/pokemon/1016/"
+    },
+    {
+      "name": "pecharunt",
+      "url": "/api/v2/pokemon/1025/"
+    },
+    {
+      "name": "giratina-origin",
+      "url": "/api/v2/pokemon/10007/"
+    },
+    {
+      "name": "rotom-heat",
+      "url": "/api/v2/pokemon/10008/"
+    },
+    {
+      "name": "rotom-wash",
+      "url": "/api/v2/pokemon/10009/"
+    },
+    {
+      "name": "rotom-frost",
+      "url": "/api/v2/pokemon/10010/"
+    },
+    {
+      "name": "rotom-fan",
+      "url": "/api/v2/pokemon/10011/"
+    },
+    {
+      "name": "rotom-mow",
+      "url": "/api/v2/pokemon/10012/"
+    },
+    {
+      "name": "aegislash-blade",
+      "url": "/api/v2/pokemon/10026/"
+    },
+    {
+      "name": "pumpkaboo-small",
+      "url": "/api/v2/pokemon/10027/"
+    },
+    {
+      "name": "pumpkaboo-large",
+      "url": "/api/v2/pokemon/10028/"
+    },
+    {
+      "name": "pumpkaboo-super",
+      "url": "/api/v2/pokemon/10029/"
+    },
+    {
+      "name": "gourgeist-small",
+      "url": "/api/v2/pokemon/10030/"
+    },
+    {
+      "name": "gourgeist-large",
+      "url": "/api/v2/pokemon/10031/"
+    },
+    {
+      "name": "gourgeist-super",
+      "url": "/api/v2/pokemon/10032/"
+    },
+    {
+      "name": "gengar-mega",
+      "url": "/api/v2/pokemon/10038/"
+    },
+    {
+      "name": "kangaskhan-mega",
+      "url": "/api/v2/pokemon/10039/"
+    },
+    {
+      "name": "gyarados-mega",
+      "url": "/api/v2/pokemon/10041/"
+    },
+    {
+      "name": "houndoom-mega",
+      "url": "/api/v2/pokemon/10048/"
+    },
+    {
+      "name": "tyranitar-mega",
+      "url": "/api/v2/pokemon/10049/"
+    },
+    {
+      "name": "aggron-mega",
+      "url": "/api/v2/pokemon/10053/"
+    },
+    {
+      "name": "banette-mega",
+      "url": "/api/v2/pokemon/10056/"
+    },
+    {
+      "name": "absol-mega",
+      "url": "/api/v2/pokemon/10057/"
+    },
+    {
+      "name": "sableye-mega",
+      "url": "/api/v2/pokemon/10066/"
+    },
+    {
+      "name": "sharpedo-mega",
+      "url": "/api/v2/pokemon/10070/"
+    },
+    {
+      "name": "glalie-mega",
+      "url": "/api/v2/pokemon/10074/"
+    },
+    {
+      "name": "vulpix-alola",
+      "url": "/api/v2/pokemon/10103/"
+    },
+    {
+      "name": "ninetales-alola",
+      "url": "/api/v2/pokemon/10104/"
+    },
+    {
+      "name": "meowth-alola",
+      "url": "/api/v2/pokemon/10107/"
+    },
+    {
+      "name": "persian-alola",
+      "url": "/api/v2/pokemon/10108/"
+    },
+    {
+      "name": "grimer-alola",
+      "url": "/api/v2/pokemon/10112/"
+    },
+    {
+      "name": "muk-alola",
+      "url": "/api/v2/pokemon/10113/"
+    },
+    {
+      "name": "marowak-alola",
+      "url": "/api/v2/pokemon/10115/"
+    },
+    {
+      "name": "greninja-battle-bond",
+      "url": "/api/v2/pokemon/10116/"
+    },
+    {
+      "name": "greninja-ash",
+      "url": "/api/v2/pokemon/10117/"
+    },
+    {
+      "name": "zygarde-10-power-construct",
+      "url": "/api/v2/pokemon/10118/"
+    },
+    {
+      "name": "zygarde-50-power-construct",
+      "url": "/api/v2/pokemon/10119/"
+    },
+    {
+      "name": "zygarde-complete",
+      "url": "/api/v2/pokemon/10120/"
+    },
+    {
+      "name": "mimikyu-busted",
+      "url": "/api/v2/pokemon/10143/"
+    },
+    {
+      "name": "mimikyu-totem-disguised",
+      "url": "/api/v2/pokemon/10144/"
+    },
+    {
+      "name": "mimikyu-totem-busted",
+      "url": "/api/v2/pokemon/10145/"
+    },
+    {
+      "name": "marowak-totem",
+      "url": "/api/v2/pokemon/10149/"
+    },
+    {
+      "name": "meowth-galar",
+      "url": "/api/v2/pokemon/10161/"
+    },
+    {
+      "name": "weezing-galar",
+      "url": "/api/v2/pokemon/10167/"
+    },
+    {
+      "name": "moltres-galar",
+      "url": "/api/v2/pokemon/10171/"
+    },
+    {
+      "name": "corsola-galar",
+      "url": "/api/v2/pokemon/10173/"
+    },
+    {
+      "name": "stunfisk-galar",
+      "url": "/api/v2/pokemon/10180/"
+    },
+    {
+      "name": "zygarde-10",
+      "url": "/api/v2/pokemon/10181/"
+    },
+    {
+      "name": "morpeko-hangry",
+      "url": "/api/v2/pokemon/10187/"
+    },
+    {
+      "name": "typhlosion-hisui",
+      "url": "/api/v2/pokemon/10233/"
+    },
+    {
+      "name": "qwilfish-hisui",
+      "url": "/api/v2/pokemon/10234/"
+    },
+    {
+      "name": "sneasel-hisui",
+      "url": "/api/v2/pokemon/10235/"
+    },
+    {
+      "name": "zorua-hisui",
+      "url": "/api/v2/pokemon/10238/"
+    },
+    {
+      "name": "zoroark-hisui",
+      "url": "/api/v2/pokemon/10239/"
+    },
+    {
+      "name": "basculegion-female",
+      "url": "/api/v2/pokemon/10248/"
+    },
+    {
+      "name": "dudunsparce-three-segment",
+      "url": "/api/v2/pokemon/10255/"
+    },
+    {
+      "name": "feraligatr-mega",
+      "url": "/api/v2/pokemon/10283/"
+    },
+    {
+      "name": "froslass-mega",
+      "url": "/api/v2/pokemon/10285/"
+    },
+    {
+      "name": "scrafty-mega",
+      "url": "/api/v2/pokemon/10289/"
+    },
+    {
+      "name": "chandelure-mega",
+      "url": "/api/v2/pokemon/10291/"
+    },
+    {
+      "name": "malamar-mega",
+      "url": "/api/v2/pokemon/10297/"
+    },
+    {
+      "name": "dragalge-mega",
+      "url": "/api/v2/pokemon/10299/"
+    }
+  ]
 }

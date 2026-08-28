@@ -1,81 +1,81 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 1175,
-    "location": {
-        "name": "unknown-dungeon",
-        "url": "/api/v2/location/690/"
-    },
-    "name": "unknown-dungeon-area",
-    "names": [],
-    "pokemon_encounters": [
+  "id": 1175,
+  "name": "unknown-dungeon-area",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "unknown-dungeon",
+    "url": "/api/v2/location/690/"
+  },
+  "names": [],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "mewtwo",
+        "url": "/api/v2/pokemon/150/"
+      },
+      "version_details": [
         {
-            "pokemon": {
-                "name": "mewtwo",
-                "url": "/api/v2/pokemon/150/"
-            },
-            "version_details": [
+          "version": {
+            "name": "x",
+            "url": "/api/v2/version/23/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 70,
+              "max_level": 70,
+              "chance": 100,
+              "method": {
+                "name": "static",
+                "url": "/api/v2/encounter-method/20/"
+              },
+              "condition_values": [
                 {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-hall-of-fame",
-                                    "url": "/api/v2/encounter-condition-value/35/"
-                                }
-                            ],
-                            "max_level": 70,
-                            "method": {
-                                "name": "static",
-                                "url": "/api/v2/encounter-method/20/"
-                            },
-                            "min_level": 70,
-                            "pokemon_details": {
-                                "always_shiny": false,
-                                "is_alpha": false,
-                                "min_perfect_ivs": null,
-                                "never_shiny": true
-                            }
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "x",
-                        "url": "/api/v2/version/23/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [
-                                {
-                                    "name": "story-progress-hall-of-fame",
-                                    "url": "/api/v2/encounter-condition-value/35/"
-                                }
-                            ],
-                            "max_level": 70,
-                            "method": {
-                                "name": "static",
-                                "url": "/api/v2/encounter-method/20/"
-                            },
-                            "min_level": 70,
-                            "pokemon_details": {
-                                "always_shiny": false,
-                                "is_alpha": false,
-                                "min_perfect_ivs": null,
-                                "never_shiny": true
-                            }
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "y",
-                        "url": "/api/v2/version/24/"
-                    }
+                  "name": "story-progress-hall-of-fame",
+                  "url": "/api/v2/encounter-condition-value/35/"
                 }
-            ]
+              ],
+              "pokemon_details": {
+                "min_perfect_ivs": null,
+                "always_shiny": false,
+                "never_shiny": true,
+                "is_alpha": false
+              }
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "y",
+            "url": "/api/v2/version/24/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 70,
+              "max_level": 70,
+              "chance": 100,
+              "method": {
+                "name": "static",
+                "url": "/api/v2/encounter-method/20/"
+              },
+              "condition_values": [
+                {
+                  "name": "story-progress-hall-of-fame",
+                  "url": "/api/v2/encounter-condition-value/35/"
+                }
+              ],
+              "pokemon_details": {
+                "min_perfect_ivs": null,
+                "always_shiny": false,
+                "never_shiny": true,
+                "is_alpha": false
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

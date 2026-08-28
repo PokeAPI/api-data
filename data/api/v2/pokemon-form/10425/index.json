@@ -1,104 +1,105 @@
 {
-    "form_name": "hero",
-    "form_names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30de\u30a4\u30c6\u30a3\u30d5\u30a9\u30eb\u30e0"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Forme Super"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Hero Form"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30de\u30a4\u30c6\u30a3\u30d5\u30a9\u30eb\u30e0"
-        }
-    ],
-    "form_order": 2,
-    "id": 10425,
-    "is_battle_only": true,
-    "is_default": true,
-    "is_mega": false,
+  "id": 10425,
+  "name": "palafin-hero",
+  "order": 1355,
+  "form_order": 2,
+  "is_default": true,
+  "is_battle_only": true,
+  "is_mega": false,
+  "form_name": "hero",
+  "pokemon": {
     "name": "palafin-hero",
-    "names": [
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Superdofin Forme Super"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Hero Form Palafin"
+    "url": "/api/v2/pokemon/10256/"
+  },
+  "sprites": {
+    "versions": {
+      "generation-ix": {
+        "scarlet-violet": {
+          "front_female": null,
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10256.png"
         }
-    ],
-    "order": 1355,
-    "pokemon": {
-        "name": "palafin-hero",
-        "url": "/api/v2/pokemon/10256/"
+      },
+      "generation-viii": {
+        "brilliant-diamond-shining-pearl": {
+          "front_female": null,
+          "front_default": null
+        }
+      }
     },
-    "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10256.png",
-        "back_female": null,
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10256.png",
-        "back_shiny_female": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10256.png",
-        "front_female": null,
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10256.png",
-        "front_shiny_female": null,
-        "versions": {
-            "generation-ix": {
-                "scarlet-violet": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10256.png",
-                    "front_female": null
-                }
-            },
-            "generation-viii": {
-                "brilliant-diamond-shining-pearl": {
-                    "front_default": null,
-                    "front_female": null
-                }
-            }
-        }
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10256.png",
+    "back_female": null,
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10256.png",
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10256.png",
+    "front_female": null,
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10256.png",
+    "back_shiny_female": null,
+    "front_shiny_female": null
+  },
+  "version_group": {
+    "name": "scarlet-violet",
+    "url": "/api/v2/version-group/25/"
+  },
+  "form_names": [
+    {
+      "name": "マイティフォルム",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
     },
-    "trigger_conditions": [
-        {
-            "name": "zero-to-hero",
-            "trigger": "ability",
-            "url": "/api/v2/ability/278/"
-        }
-    ],
-    "types": [
-        {
-            "slot": 1,
-            "type": {
-                "name": "water",
-                "url": "/api/v2/type/11/"
-            }
-        }
-    ],
-    "version_group": {
-        "name": "scarlet-violet",
-        "url": "/api/v2/version-group/25/"
+    {
+      "name": "Forme Super",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Hero Form",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "マイティフォルム",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
     }
+  ],
+  "names": [
+    {
+      "name": "Superdofin Forme Super",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Hero Form Palafin",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+      }
+    }
+  ],
+  "trigger_conditions": [
+    {
+      "trigger": "ability",
+      "name": "zero-to-hero",
+      "url": "/api/v2/ability/278/"
+    }
+  ],
+  "flavor_text_entries": []
 }

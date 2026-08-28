@@ -1,694 +1,694 @@
 {
-    "encounter_method_rates": [
+  "id": 522,
+  "name": "green-path-area",
+  "game_index": 80,
+  "encounter_method_rates": [
+    {
+      "encounter_method": {
+        "name": "old-rod",
+        "url": "/api/v2/encounter-method/2/"
+      },
+      "version_details": [
         {
-            "encounter_method": {
-                "name": "old-rod",
-                "url": "/api/v2/encounter-method/2/"
-            },
-            "version_details": [
-                {
-                    "rate": 20,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "rate": 20,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
+          "rate": 20,
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          }
         },
         {
-            "encounter_method": {
-                "name": "good-rod",
-                "url": "/api/v2/encounter-method/3/"
-            },
-            "version_details": [
-                {
-                    "rate": 20,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "rate": 20,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
+          "rate": 20,
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "good-rod",
+        "url": "/api/v2/encounter-method/3/"
+      },
+      "version_details": [
+        {
+          "rate": 20,
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          }
         },
         {
-            "encounter_method": {
+          "rate": 20,
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "super-rod",
+        "url": "/api/v2/encounter-method/4/"
+      },
+      "version_details": [
+        {
+          "rate": 20,
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          }
+        },
+        {
+          "rate": 20,
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          }
+        }
+      ]
+    },
+    {
+      "encounter_method": {
+        "name": "surf",
+        "url": "/api/v2/encounter-method/5/"
+      },
+      "version_details": [
+        {
+          "rate": 2,
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          }
+        },
+        {
+          "rate": 2,
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          }
+        }
+      ]
+    }
+  ],
+  "location": {
+    "name": "green-path",
+    "url": "/api/v2/location/515/"
+  },
+  "names": [
+    {
+      "name": "Green Path",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "Grüner Pfad",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Chemin Vert",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "psyduck",
+        "url": "/api/v2/pokemon/54/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          },
+          "max_chance": 1,
+          "encounter_details": [
+            {
+              "min_level": 25,
+              "max_level": 35,
+              "chance": 1,
+              "method": {
                 "name": "super-rod",
                 "url": "/api/v2/encounter-method/4/"
-            },
-            "version_details": [
-                {
-                    "rate": 20,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "rate": 20,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
-        },
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "tentacool",
+        "url": "/api/v2/pokemon/72/"
+      },
+      "version_details": [
         {
-            "encounter_method": {
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          },
+          "max_chance": 95,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 20,
+              "chance": 60,
+              "method": {
                 "name": "surf",
                 "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "version_details": [
-                {
-                    "rate": 2,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "rate": 2,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
+            {
+              "min_level": 20,
+              "max_level": 35,
+              "chance": 30,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 35,
+              "max_level": 40,
+              "chance": 5,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          },
+          "max_chance": 95,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 20,
+              "chance": 60,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 20,
+              "max_level": 35,
+              "chance": 30,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 35,
+              "max_level": 40,
+              "chance": 5,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "game_index": 80,
-    "id": 522,
-    "location": {
-        "name": "green-path",
-        "url": "/api/v2/location/515/"
+      ]
     },
-    "name": "green-path-area",
-    "names": [
+    {
+      "pokemon": {
+        "name": "tentacruel",
+        "url": "/api/v2/pokemon/73/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 35,
+              "max_level": 40,
+              "chance": 4,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "name": "Green Path"
+            {
+              "min_level": 35,
+              "max_level": 40,
+              "chance": 1,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          },
+          "max_chance": 5,
+          "encounter_details": [
+            {
+              "min_level": 35,
+              "max_level": 40,
+              "chance": 4,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
             },
-            "name": "Gr\u00fcner Pfad"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Chemin Vert"
+            {
+              "min_level": 35,
+              "max_level": 40,
+              "chance": 1,
+              "method": {
+                "name": "surf",
+                "url": "/api/v2/encounter-method/5/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "slowpoke",
+        "url": "/api/v2/pokemon/79/"
+      },
+      "version_details": [
         {
-            "pokemon": {
-                "name": "psyduck",
-                "url": "/api/v2/pokemon/54/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 35,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 25,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 1,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "tentacool",
-                "url": "/api/v2/pokemon/72/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 35,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 20,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 95,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 20,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 35,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 20,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 5,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 95,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "tentacruel",
-                "url": "/api/v2/pokemon/73/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 40,
-                            "method": {
-                                "name": "surf",
-                                "url": "/api/v2/encounter-method/5/"
-                            },
-                            "min_level": 35,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 5,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "slowpoke",
-                "url": "/api/v2/pokemon/79/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 1,
-                            "condition_values": [],
-                            "max_level": 35,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 25,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 1,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "krabby",
-                "url": "/api/v2/pokemon/98/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "good-rod",
-                                "url": "/api/v2/encounter-method/3/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "good-rod",
-                                "url": "/api/v2/encounter-method/3/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 25,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 120,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "kingler",
-                "url": "/api/v2/pokemon/99/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 35,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 25,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 4,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "horsea",
-                "url": "/api/v2/pokemon/116/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 60,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "good-rod",
-                                "url": "/api/v2/encounter-method/3/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "good-rod",
-                                "url": "/api/v2/encounter-method/3/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 25,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 120,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "seadra",
-                "url": "/api/v2/pokemon/117/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 4,
-                            "condition_values": [],
-                            "max_level": 35,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 25,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 4,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "magikarp",
-                "url": "/api/v2/pokemon/129/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "good-rod",
-                                "url": "/api/v2/encounter-method/3/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 70,
-                            "condition_values": [],
-                            "max_level": 5,
-                            "method": {
-                                "name": "old-rod",
-                                "url": "/api/v2/encounter-method/2/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 5,
-                            "method": {
-                                "name": "old-rod",
-                                "url": "/api/v2/encounter-method/2/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 120,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 20,
-                            "condition_values": [],
-                            "max_level": 15,
-                            "method": {
-                                "name": "good-rod",
-                                "url": "/api/v2/encounter-method/3/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 70,
-                            "condition_values": [],
-                            "max_level": 5,
-                            "method": {
-                                "name": "old-rod",
-                                "url": "/api/v2/encounter-method/2/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        },
-                        {
-                            "chance": 30,
-                            "condition_values": [],
-                            "max_level": 5,
-                            "method": {
-                                "name": "old-rod",
-                                "url": "/api/v2/encounter-method/2/"
-                            },
-                            "min_level": 5,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 120,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "gyarados",
-                "url": "/api/v2/pokemon/130/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 15,
-                            "condition_values": [],
-                            "max_level": 25,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 15,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 15,
-                            "condition_values": [],
-                            "max_level": 25,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 15,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "qwilfish",
-                "url": "/api/v2/pokemon/211/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 25,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 40,
-                    "version": {
-                        "name": "firered",
-                        "url": "/api/v2/version/10/"
-                    }
-                }
-            ]
-        },
-        {
-            "pokemon": {
-                "name": "remoraid",
-                "url": "/api/v2/pokemon/223/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 40,
-                            "condition_values": [],
-                            "max_level": 25,
-                            "method": {
-                                "name": "super-rod",
-                                "url": "/api/v2/encounter-method/4/"
-                            },
-                            "min_level": 15,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 40,
-                    "version": {
-                        "name": "leafgreen",
-                        "url": "/api/v2/version/11/"
-                    }
-                }
-            ]
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          },
+          "max_chance": 1,
+          "encounter_details": [
+            {
+              "min_level": 25,
+              "max_level": 35,
+              "chance": 1,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "krabby",
+        "url": "/api/v2/pokemon/98/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          },
+          "max_chance": 120,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 15,
+              "chance": 60,
+              "method": {
+                "name": "good-rod",
+                "url": "/api/v2/encounter-method/3/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 5,
+              "max_level": 15,
+              "chance": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "/api/v2/encounter-method/3/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 25,
+              "chance": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "kingler",
+        "url": "/api/v2/pokemon/99/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          },
+          "max_chance": 4,
+          "encounter_details": [
+            {
+              "min_level": 25,
+              "max_level": 35,
+              "chance": 4,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "horsea",
+        "url": "/api/v2/pokemon/116/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          },
+          "max_chance": 120,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 15,
+              "chance": 60,
+              "method": {
+                "name": "good-rod",
+                "url": "/api/v2/encounter-method/3/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 5,
+              "max_level": 15,
+              "chance": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "/api/v2/encounter-method/3/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 15,
+              "max_level": 25,
+              "chance": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "seadra",
+        "url": "/api/v2/pokemon/117/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          },
+          "max_chance": 4,
+          "encounter_details": [
+            {
+              "min_level": 25,
+              "max_level": 35,
+              "chance": 4,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "magikarp",
+        "url": "/api/v2/pokemon/129/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          },
+          "max_chance": 120,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 15,
+              "chance": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "/api/v2/encounter-method/3/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 70,
+              "method": {
+                "name": "old-rod",
+                "url": "/api/v2/encounter-method/2/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 30,
+              "method": {
+                "name": "old-rod",
+                "url": "/api/v2/encounter-method/2/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          },
+          "max_chance": 120,
+          "encounter_details": [
+            {
+              "min_level": 5,
+              "max_level": 15,
+              "chance": 20,
+              "method": {
+                "name": "good-rod",
+                "url": "/api/v2/encounter-method/3/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 70,
+              "method": {
+                "name": "old-rod",
+                "url": "/api/v2/encounter-method/2/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            },
+            {
+              "min_level": 5,
+              "max_level": 5,
+              "chance": 30,
+              "method": {
+                "name": "old-rod",
+                "url": "/api/v2/encounter-method/2/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "gyarados",
+        "url": "/api/v2/pokemon/130/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          },
+          "max_chance": 15,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 25,
+              "chance": 15,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        },
+        {
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          },
+          "max_chance": 15,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 25,
+              "chance": 15,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "qwilfish",
+        "url": "/api/v2/pokemon/211/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "firered",
+            "url": "/api/v2/version/10/"
+          },
+          "max_chance": 40,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 25,
+              "chance": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "remoraid",
+        "url": "/api/v2/pokemon/223/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "leafgreen",
+            "url": "/api/v2/version/11/"
+          },
+          "max_chance": 40,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 25,
+              "chance": 40,
+              "method": {
+                "name": "super-rod",
+                "url": "/api/v2/encounter-method/4/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

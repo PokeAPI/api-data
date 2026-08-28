@@ -1,83 +1,83 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 776,
-    "location": {
-        "name": "unova-route-6",
-        "url": "/api/v2/location/361/"
+  "id": 776,
+  "name": "unova-route-6-weather-institute",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "unova-route-6",
+    "url": "/api/v2/location/361/"
+  },
+  "names": [
+    {
+      "name": "Weather Institute (Road 6)",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     },
-    "name": "unova-route-6-weather-institute",
-    "names": [
+    {
+      "name": "Wetter-Institut (Route 6)",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Centre météo (Route 6)",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "deerling",
+        "url": "/api/v2/pokemon/585/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Weather Institute (Road 6)"
+          "version": {
+            "name": "black-2",
+            "url": "/api/v2/version/21/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 30,
+              "max_level": 30,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         },
         {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Wetter-Institut (Route 6)"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Centre m\u00e9t\u00e9o (Route 6)"
+          "version": {
+            "name": "white-2",
+            "url": "/api/v2/version/22/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 30,
+              "max_level": 30,
+              "chance": 100,
+              "method": {
+                "name": "gift",
+                "url": "/api/v2/encounter-method/18/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "deerling",
-                "url": "/api/v2/pokemon/585/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 30,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 30,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "black-2",
-                        "url": "/api/v2/version/21/"
-                    }
-                },
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 30,
-                            "method": {
-                                "name": "gift",
-                                "url": "/api/v2/encounter-method/18/"
-                            },
-                            "min_level": 30,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "white-2",
-                        "url": "/api/v2/version/22/"
-                    }
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }

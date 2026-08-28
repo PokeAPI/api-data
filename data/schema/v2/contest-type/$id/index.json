@@ -1,43 +1,43 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "berry_flavor": {
-            "$ref": "/schema/v2/named_api_resource.json"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "properties": {
-                    "color": {
-                        "type": "string"
-                    },
-                    "language": {
-                        "$ref": "/schema/v2/named_api_resource.json"
-                    },
-                    "name": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "color",
-                    "language",
-                    "name"
-                ],
-                "type": "object"
-            },
-            "type": "array"
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "berry_flavor",
-        "id",
-        "name",
-        "names"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "berry_flavor": {
+      "$ref": "/schema/v2/named_api_resource.json"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "language": {
+            "$ref": "/schema/v2/named_api_resource.json"
+          }
+        },
+        "required": [
+          "color",
+          "language",
+          "name"
+        ]
+      }
+    }
+  },
+  "required": [
+    "berry_flavor",
+    "id",
+    "name",
+    "names"
+  ]
 }

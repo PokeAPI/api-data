@@ -1,69 +1,69 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "affecting_natures": {
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "affecting_natures": {
+      "type": "object",
+      "properties": {
+        "increase": {
+          "type": "array",
+          "items": {
+            "type": "object",
             "properties": {
-                "decrease": {
-                    "items": {
-                        "properties": {
-                            "max_change": {
-                                "type": "integer"
-                            },
-                            "nature": {
-                                "$ref": "/schema/v2/named_api_resource.json"
-                            }
-                        },
-                        "required": [
-                            "max_change",
-                            "nature"
-                        ],
-                        "type": "object"
-                    },
-                    "type": "array"
-                },
-                "increase": {
-                    "items": {
-                        "properties": {
-                            "max_change": {
-                                "type": "integer"
-                            },
-                            "nature": {
-                                "$ref": "/schema/v2/named_api_resource.json"
-                            }
-                        },
-                        "required": [
-                            "max_change",
-                            "nature"
-                        ],
-                        "type": "object"
-                    },
-                    "type": "array"
-                }
+              "max_change": {
+                "type": "integer"
+              },
+              "nature": {
+                "$ref": "/schema/v2/named_api_resource.json"
+              }
             },
             "required": [
-                "decrease",
-                "increase"
-            ],
-            "type": "object"
+              "max_change",
+              "nature"
+            ]
+          }
         },
-        "id": {
-            "type": "integer"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
+        "decrease": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "max_change": {
+                "type": "integer"
+              },
+              "nature": {
+                "$ref": "/schema/v2/named_api_resource.json"
+              }
             },
-            "type": "array"
+            "required": [
+              "max_change",
+              "nature"
+            ]
+          }
         }
+      },
+      "required": [
+        "decrease",
+        "increase"
+      ]
     },
-    "required": [
-        "affecting_natures",
-        "id",
-        "name",
-        "names"
-    ],
-    "type": "object"
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    }
+  },
+  "required": [
+    "affecting_natures",
+    "id",
+    "name",
+    "names"
+  ]
 }

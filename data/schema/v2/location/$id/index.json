@@ -1,48 +1,48 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "properties": {
-        "areas": {
-            "items": {
-                "$ref": "/schema/v2/named_api_resource.json"
-            },
-            "type": "array"
-        },
-        "game_indices": {
-            "items": {
-                "$ref": "/schema/v2/generation_game_index.json"
-            },
-            "type": "array"
-        },
-        "id": {
-            "type": "integer"
-        },
-        "name": {
-            "type": "string"
-        },
-        "names": {
-            "items": {
-                "$ref": "/schema/v2/name.json"
-            },
-            "type": "array"
-        },
-        "region": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "$ref": "/schema/v2/named_api_resource.json"
-                }
-            ]
-        }
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
     },
-    "required": [
-        "areas",
-        "game_indices",
-        "id",
-        "name",
-        "names",
-        "region"
-    ],
-    "type": "object"
+    "name": {
+      "type": "string"
+    },
+    "region": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "/schema/v2/named_api_resource.json"
+        }
+      ]
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/name.json"
+      }
+    },
+    "game_indices": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/generation_game_index.json"
+      }
+    },
+    "areas": {
+      "type": "array",
+      "items": {
+        "$ref": "/schema/v2/named_api_resource.json"
+      }
+    }
+  },
+  "required": [
+    "areas",
+    "game_indices",
+    "id",
+    "name",
+    "names",
+    "region"
+  ]
 }

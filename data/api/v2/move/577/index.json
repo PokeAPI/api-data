@@ -1,1373 +1,1373 @@
 {
-    "accuracy": 100,
-    "contest_combos": null,
-    "contest_effect": null,
-    "contest_type": null,
-    "damage_class": {
-        "name": "special",
-        "url": "/api/v2/move-damage-class/3/"
+  "id": 577,
+  "name": "draining-kiss",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 50,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special",
+    "url": "/api/v2/move-damage-class/3/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégâts réguliers.  Draine 75% des dégâts infligés pour soigner le lanceur.",
+      "short_effect": "Draine 75% des dégâts infligés pour soigner le lanceur.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
     },
-    "effect_chance": null,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9g\u00e2ts r\u00e9guliers.  Draine 75% des d\u00e9g\u00e2ts inflig\u00e9s pour soigner le lanceur.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "Draine 75% des d\u00e9g\u00e2ts inflig\u00e9s pour soigner le lanceur."
-        },
-        {
-            "effect": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Drains 75% of the damage inflicted to heal the user."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u3042\u3044\u3066\u304b\u3089\u3000\uff28\uff30\u3092\n\u3059\u3044\u3068\u308b\u3002\u3042\u305f\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u306f\u3093\u3076\u3093\u3044\u3058\u3087\u3046\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\ud0a4\uc2a4\ub85c \uc0c1\ub300\ub85c\ubd80\ud130 HP\ub97c\n\ud761\uc218\ud55c\ub2e4. \uc900 \ub370\ubbf8\uc9c0\uc758\n\ubc18 \uc774\uc0c1 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Aspire la force vitale de l\u2019ennemi par un baiser.\nRend au lanceur un nombre de PV sup\u00e9rieur ou\n\u00e9gal \u00e0 la moiti\u00e9 des d\u00e9g\u00e2ts inflig\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie H\u00f6he der Heilung betr\u00e4gt mehr als die H\u00e4lfte\ndes beim Ziel angerichteten Schadens.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura\nsu propia energ\u00eda en una cantidad igual o superior\na la mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando cos\u00ec PS in quantit\u00e0 pari\na pi\u00f9 della met\u00e0 del danno inferto.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the target\u2019s energy with a kiss.\nThe user\u2019s HP is restored by over half\nof the damage taken by the target.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u76f8\u624b\u304b\u3089\u3000\uff28\uff30\u3092\n\u5438\u3044\u53d6\u308b\u3002\u4e0e\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u534a\u5206\u4ee5\u4e0a\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura\nsu propia energ\u00eda en una cantidad igual o superior\na la mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u3042\u3044\u3066\u304b\u3089\u3000\uff28\uff30\u3092\n\u3059\u3044\u3068\u308b\u3002\u3042\u305f\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u306f\u3093\u3076\u3093\u3044\u3058\u3087\u3046\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\ud0a4\uc2a4\ub85c \uc0c1\ub300\ub85c\ubd80\ud130 HP\ub97c\n\ud761\uc218\ud55c\ub2e4. \uc900 \ub370\ubbf8\uc9c0\uc758\n\ubc18 \uc774\uc0c1 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Aspire la force vitale de l\u2019ennemi par un baiser.\nRend au lanceur un nombre de PV sup\u00e9rieur ou\n\u00e9gal \u00e0 la moiti\u00e9 des d\u00e9g\u00e2ts inflig\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie H\u00f6he der Heilung betr\u00e4gt mehr als die H\u00e4lfte\ndes beim Ziel angerichteten Schadens.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energ\u00eda en una cantidad igual o superior a\nla mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando cos\u00ec PS in quantit\u00e0 pari\na pi\u00f9 della met\u00e0 del danno inferto.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the target\u2019s energy with a kiss.\nThe user\u2019s HP is restored by over half\nof the damage taken by the target.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u76f8\u624b\u304b\u3089\u3000\uff28\uff30\u3092\n\u5438\u3044\u53d6\u308b\u3002\u4e0e\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u534a\u5206\u4ee5\u4e0a\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energ\u00eda en una cantidad igual o superior a\nla mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u3042\u3044\u3066\u304b\u3089\u3000\uff28\uff30\u3092\n\u3059\u3044\u3068\u308b\u3002\u3000\u3042\u305f\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u306f\u3093\u3076\u3093\u3044\u3058\u3087\u3046\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\ud0a4\uc2a4\ub85c \uc0c1\ub300\ub85c\ubd80\ud130 HP\ub97c\n\ud761\uc218\ud55c\ub2e4. \uc900 \ub370\ubbf8\uc9c0\uc758\n\ubc18 \uc774\uc0c1 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u89aa\u543b\u5c0d\u624b\u4f86\u5438\u53d6\u5c0d\u624b\u7684\uff28\uff30\u3002\n\u53ef\u4ee5\u56de\u5fa9\u7d66\u4e88\u5c0d\u624b\n\u50b7\u5bb3\u7684\u4e00\u534a\u4ee5\u4e0a\u7684\uff28\uff30\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Aspire la force vitale de l\u2019ennemi par un baiser.\nRend au lanceur un nombre de PV sup\u00e9rieur ou\n\u00e9gal \u00e0 la moiti\u00e9 des d\u00e9g\u00e2ts inflig\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie H\u00f6he der Heilung betr\u00e4gt mehr als die H\u00e4lfte des\nbeim Ziel angerichteten Schadens.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energ\u00eda en una cantidad igual o superior a\nla mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando cos\u00ec PS in quantit\u00e0 pari\na pi\u00f9 della met\u00e0 del danno inferto.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the target\u2019s HP with a kiss. The\nuser\u2019s HP is restored by over half of the damage\ntaken by the target.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u76f8\u624b\u304b\u3089\u3000\uff28\uff30\u3092\n\u5438\u3044\u53d6\u308b\u3002\u3000\u4e0e\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u534a\u5206\u4ee5\u4e0a\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u4e00\u4e2a\u543b\u5438\u53d6\u5bf9\u624b\u7684\uff28\uff30\u3002\n\u56de\u590d\u7ed9\u4e88\u5bf9\u624b\n\u4f24\u5bb3\u7684\u4e00\u534a\u4ee5\u4e0a\u7684\uff28\uff30\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energ\u00eda en una cantidad igual o superior a\nla mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u3042\u3044\u3066\u304b\u3089\u3000\uff28\uff30\u3092\n\u3059\u3044\u3068\u308b\u3002\u3000\u3042\u305f\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u306f\u3093\u3076\u3093\u3044\u3058\u3087\u3046\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\ud0a4\uc2a4\ub85c \uc0c1\ub300\ub85c\ubd80\ud130 HP\ub97c\n\ud761\uc218\ud55c\ub2e4. \uc900 \ub370\ubbf8\uc9c0\uc758\n\ubc18 \uc774\uc0c1 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u89aa\u543b\u5c0d\u624b\u4f86\u5438\u53d6\u5c0d\u624b\u7684\uff28\uff30\u3002\n\u53ef\u4ee5\u56de\u5fa9\u7d66\u4e88\u5c0d\u624b\n\u50b7\u5bb3\u7684\u4e00\u534a\u4ee5\u4e0a\u7684\uff28\uff30\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Aspire la force vitale de l\u2019ennemi par un baiser.\nRend au lanceur un nombre de PV sup\u00e9rieur ou\n\u00e9gal \u00e0 la moiti\u00e9 des d\u00e9g\u00e2ts inflig\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie H\u00f6he der Heilung betr\u00e4gt mehr als die H\u00e4lfte des\nbeim Ziel angerichteten Schadens.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energ\u00eda en una cantidad igual o superior a\nla mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando cos\u00ec PS in quantit\u00e0 pari\na pi\u00f9 della met\u00e0 del danno inferto.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the target\u2019s HP with a kiss. The\nuser\u2019s HP is restored by over half of the damage\ntaken by the target.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u76f8\u624b\u304b\u3089\u3000\uff28\uff30\u3092\n\u5438\u3044\u53d6\u308b\u3002\u3000\u4e0e\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u534a\u5206\u4ee5\u4e0a\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u4e00\u4e2a\u543b\u5438\u53d6\u5bf9\u624b\u7684\uff28\uff30\u3002\n\u56de\u590d\u7ed9\u4e88\u5bf9\u624b\n\u4f24\u5bb3\u7684\u4e00\u534a\u4ee5\u4e0a\u7684\uff28\uff30\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energ\u00eda en una cantidad igual o superior a\nla mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u3042\u3044\u3066\u304b\u3089\u3000\uff28\uff30\u3092\n\u3059\u3044\u3068\u308b\u3002\u3000\u3042\u305f\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u306f\u3093\u3076\u3093\u3044\u3058\u3087\u3046\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\ud0a4\uc2a4\ub85c \uc0c1\ub300\ub85c\ubd80\ud130 HP\ub97c\n\ud761\uc218\ud55c\ub2e4. \uc900 \ub370\ubbf8\uc9c0\uc758\n\ubc18 \uc774\uc0c1 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u89aa\u543b\u5c0d\u624b\u4f86\u5438\u53d6\u5c0d\u624b\u7684HP\u3002\n\u53ef\u4ee5\u56de\u5fa9\u7d66\u4e88\u5c0d\u624b\n\u50b7\u5bb3\u7684\u4e00\u534a\u4ee5\u4e0a\u7684HP\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Aspire la force vitale de l\u2019ennemi par un baiser.\nRend au lanceur un nombre de PV sup\u00e9rieur ou \u00e9gal\n\u00e0 la moiti\u00e9 des d\u00e9g\u00e2ts inflig\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie H\u00f6he der Heilung betr\u00e4gt mehr als die H\u00e4lfte des\nbeim Ziel angerichteten Schadens.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energ\u00eda en una cantidad igual o superior a\nla mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando cos\u00ec PS in quantit\u00e0 pari\na pi\u00f9 della met\u00e0 del danno inferto.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the target\u2019s HP with a kiss. The\nuser\u2019s HP is restored by over half of the damage\ntaken by the target.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u76f8\u624b\u304b\u3089\u3000\uff28\uff30\u3092\n\u5438\u3044\u53d6\u308b\u3002\u3000\u4e0e\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u534a\u5206\u4ee5\u4e0a\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u4e00\u4e2a\u543b\u5438\u53d6\u5bf9\u624b\u7684HP\u3002\n\u56de\u590d\u7ed9\u4e88\u5bf9\u624b\n\u4f24\u5bb3\u7684\u4e00\u534a\u4ee5\u4e0a\u7684HP\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energ\u00eda en una cantidad igual o superior a\nla mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u3042\u3044\u3066\u304b\u3089\u3000\uff28\uff30\u3092\n\u3059\u3044\u3068\u308b\u3002\u3000\u3042\u305f\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u306f\u3093\u3076\u3093\u3044\u3058\u3087\u3046\u3000\uff28\uff30\u3092\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\ud0a4\uc2a4\ub85c \uc0c1\ub300\uc758 HP\ub97c\n\ud761\uc218\ud55c\ub2e4. \uc900 \ub370\ubbf8\uc9c0\uc758\n\ubc18 \uc774\uc0c1 HP\ub97c \ud68c\ubcf5\ud55c\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u89aa\u543b\u5c0d\u624b\u4f86\u5438\u53d6\u5c0d\u624b\u7684\uff28\uff30\u3002\n\u53ef\u4ee5\u56de\u5fa9\u7d66\u4e88\u5c0d\u624b\n\u50b7\u5bb3\u7684\u4e00\u534a\u4ee5\u4e0a\u7684\uff28\uff30\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Aspire la force vitale de l\u2019ennemi par un baiser.\nRend au lanceur un nombre de PV sup\u00e9rieur ou \u00e9gal\n\u00e0 la moiti\u00e9 des d\u00e9g\u00e2ts inflig\u00e9s.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie H\u00f6he der Heilung betr\u00e4gt mehr als die H\u00e4lfte des\nbeim Ziel angerichteten Schadens.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El usuario absorbe PS del objetivo con un beso y\nrestaura su propia energ\u00eda en una cantidad igual o\nsuperior a la mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Chi la usa assorbe energia dal bersaglio con un bacio,\nrecuperando cos\u00ec PS in quantit\u00e0 pari a pi\u00f9 della met\u00e0\ndel danno inferto.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the target\u2019s HP with a kiss. The\nuser\u2019s HP is restored by over half of the damage\ntaken by the target.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u30ad\u30c3\u30b9\u306b\u3088\u3063\u3066\u3000\u76f8\u624b\u304b\u3089\u3000\uff28\uff30\u3092\n\u5438\u3044\u53d6\u308b\u3002\u3000\u4e0e\u3048\u305f\u3000\u30c0\u30e1\u30fc\u30b8\u306e\n\u534a\u5206\u4ee5\u4e0a\u3000\uff28\uff30\u3092\u3000\u56de\u5fa9\u3059\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u4e00\u4e2a\u543b\u5438\u53d6\u5bf9\u624b\u7684\uff28\uff30\u3002\n\u56de\u590d\u7ed9\u4e88\u5bf9\u624b\n\u4f24\u5bb3\u7684\u4e00\u534a\u4ee5\u4e0a\u7684\uff28\uff30\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "El usuario absorbe PS del objetivo con un beso y\nrestaura su propia energ\u00eda en una cantidad igual o\nsuperior a la mitad del da\u00f1o infligido.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user attacks with an energy-draining kiss that restores the user\u2019s HP.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The user steals the target's HP with a kiss. The user's HP is restored by over half the damage taken by the target.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-vi",
-        "url": "/api/v2/generation/6/"
-    },
-    "id": 577,
-    "learned_by_pokemon": [
-        {
-            "name": "butterfree",
-            "url": "/api/v2/pokemon/12/"
-        },
-        {
-            "name": "pikachu",
-            "url": "/api/v2/pokemon/25/"
-        },
-        {
-            "name": "raichu",
-            "url": "/api/v2/pokemon/26/"
-        },
-        {
-            "name": "clefairy",
-            "url": "/api/v2/pokemon/35/"
-        },
-        {
-            "name": "clefable",
-            "url": "/api/v2/pokemon/36/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "drowzee",
-            "url": "/api/v2/pokemon/96/"
-        },
-        {
-            "name": "hypno",
-            "url": "/api/v2/pokemon/97/"
-        },
-        {
-            "name": "chansey",
-            "url": "/api/v2/pokemon/113/"
-        },
-        {
-            "name": "jynx",
-            "url": "/api/v2/pokemon/124/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "cleffa",
-            "url": "/api/v2/pokemon/173/"
-        },
-        {
-            "name": "igglybuff",
-            "url": "/api/v2/pokemon/174/"
-        },
-        {
-            "name": "togepi",
-            "url": "/api/v2/pokemon/175/"
-        },
-        {
-            "name": "togetic",
-            "url": "/api/v2/pokemon/176/"
-        },
-        {
-            "name": "marill",
-            "url": "/api/v2/pokemon/183/"
-        },
-        {
-            "name": "azumarill",
-            "url": "/api/v2/pokemon/184/"
-        },
-        {
-            "name": "espeon",
-            "url": "/api/v2/pokemon/196/"
-        },
-        {
-            "name": "misdreavus",
-            "url": "/api/v2/pokemon/200/"
-        },
-        {
-            "name": "smoochum",
-            "url": "/api/v2/pokemon/238/"
-        },
-        {
-            "name": "blissey",
-            "url": "/api/v2/pokemon/242/"
-        },
-        {
-            "name": "ralts",
-            "url": "/api/v2/pokemon/280/"
-        },
-        {
-            "name": "kirlia",
-            "url": "/api/v2/pokemon/281/"
-        },
-        {
-            "name": "gardevoir",
-            "url": "/api/v2/pokemon/282/"
-        },
-        {
-            "name": "azurill",
-            "url": "/api/v2/pokemon/298/"
-        },
-        {
-            "name": "mawile",
-            "url": "/api/v2/pokemon/303/"
-        },
-        {
-            "name": "illumise",
-            "url": "/api/v2/pokemon/314/"
-        },
-        {
-            "name": "milotic",
-            "url": "/api/v2/pokemon/350/"
-        },
-        {
-            "name": "chimecho",
-            "url": "/api/v2/pokemon/358/"
-        },
-        {
-            "name": "gorebyss",
-            "url": "/api/v2/pokemon/368/"
-        },
-        {
-            "name": "luvdisc",
-            "url": "/api/v2/pokemon/370/"
-        },
-        {
-            "name": "latias",
-            "url": "/api/v2/pokemon/380/"
-        },
-        {
-            "name": "cherubi",
-            "url": "/api/v2/pokemon/420/"
-        },
-        {
-            "name": "cherrim",
-            "url": "/api/v2/pokemon/421/"
-        },
-        {
-            "name": "buneary",
-            "url": "/api/v2/pokemon/427/"
-        },
-        {
-            "name": "lopunny",
-            "url": "/api/v2/pokemon/428/"
-        },
-        {
-            "name": "mismagius",
-            "url": "/api/v2/pokemon/429/"
-        },
-        {
-            "name": "happiny",
-            "url": "/api/v2/pokemon/440/"
-        },
-        {
-            "name": "togekiss",
-            "url": "/api/v2/pokemon/468/"
-        },
-        {
-            "name": "gallade",
-            "url": "/api/v2/pokemon/475/"
-        },
-        {
-            "name": "froslass",
-            "url": "/api/v2/pokemon/478/"
-        },
-        {
-            "name": "uxie",
-            "url": "/api/v2/pokemon/480/"
-        },
-        {
-            "name": "mesprit",
-            "url": "/api/v2/pokemon/481/"
-        },
-        {
-            "name": "azelf",
-            "url": "/api/v2/pokemon/482/"
-        },
-        {
-            "name": "audino",
-            "url": "/api/v2/pokemon/531/"
-        },
-        {
-            "name": "vivillon",
-            "url": "/api/v2/pokemon/666/"
-        },
-        {
-            "name": "flabebe",
-            "url": "/api/v2/pokemon/669/"
-        },
-        {
-            "name": "floette",
-            "url": "/api/v2/pokemon/670/"
-        },
-        {
-            "name": "florges",
-            "url": "/api/v2/pokemon/671/"
-        },
-        {
-            "name": "spritzee",
-            "url": "/api/v2/pokemon/682/"
-        },
-        {
-            "name": "aromatisse",
-            "url": "/api/v2/pokemon/683/"
-        },
-        {
-            "name": "swirlix",
-            "url": "/api/v2/pokemon/684/"
-        },
-        {
-            "name": "slurpuff",
-            "url": "/api/v2/pokemon/685/"
-        },
-        {
-            "name": "sylveon",
-            "url": "/api/v2/pokemon/700/"
-        },
-        {
-            "name": "dedenne",
-            "url": "/api/v2/pokemon/702/"
-        },
-        {
-            "name": "klefki",
-            "url": "/api/v2/pokemon/707/"
-        },
-        {
-            "name": "xerneas",
-            "url": "/api/v2/pokemon/716/"
-        },
-        {
-            "name": "diancie",
-            "url": "/api/v2/pokemon/719/"
-        },
-        {
-            "name": "popplio",
-            "url": "/api/v2/pokemon/728/"
-        },
-        {
-            "name": "brionne",
-            "url": "/api/v2/pokemon/729/"
-        },
-        {
-            "name": "primarina",
-            "url": "/api/v2/pokemon/730/"
-        },
-        {
-            "name": "cutiefly",
-            "url": "/api/v2/pokemon/742/"
-        },
-        {
-            "name": "ribombee",
-            "url": "/api/v2/pokemon/743/"
-        },
-        {
-            "name": "morelull",
-            "url": "/api/v2/pokemon/755/"
-        },
-        {
-            "name": "shiinotic",
-            "url": "/api/v2/pokemon/756/"
-        },
-        {
-            "name": "bounsweet",
-            "url": "/api/v2/pokemon/761/"
-        },
-        {
-            "name": "steenee",
-            "url": "/api/v2/pokemon/762/"
-        },
-        {
-            "name": "tsareena",
-            "url": "/api/v2/pokemon/763/"
-        },
-        {
-            "name": "comfey",
-            "url": "/api/v2/pokemon/764/"
-        },
-        {
-            "name": "mimikyu-disguised",
-            "url": "/api/v2/pokemon/778/"
-        },
-        {
-            "name": "tapu-lele",
-            "url": "/api/v2/pokemon/786/"
-        },
-        {
-            "name": "tapu-fini",
-            "url": "/api/v2/pokemon/788/"
-        },
-        {
-            "name": "magearna",
-            "url": "/api/v2/pokemon/801/"
-        },
-        {
-            "name": "hatenna",
-            "url": "/api/v2/pokemon/856/"
-        },
-        {
-            "name": "hattrem",
-            "url": "/api/v2/pokemon/857/"
-        },
-        {
-            "name": "hatterene",
-            "url": "/api/v2/pokemon/858/"
-        },
-        {
-            "name": "impidimp",
-            "url": "/api/v2/pokemon/859/"
-        },
-        {
-            "name": "morgrem",
-            "url": "/api/v2/pokemon/860/"
-        },
-        {
-            "name": "grimmsnarl",
-            "url": "/api/v2/pokemon/861/"
-        },
-        {
-            "name": "milcery",
-            "url": "/api/v2/pokemon/868/"
-        },
-        {
-            "name": "alcremie",
-            "url": "/api/v2/pokemon/869/"
-        },
-        {
-            "name": "indeedee-male",
-            "url": "/api/v2/pokemon/876/"
-        },
-        {
-            "name": "spectrier",
-            "url": "/api/v2/pokemon/897/"
-        },
-        {
-            "name": "calyrex",
-            "url": "/api/v2/pokemon/898/"
-        },
-        {
-            "name": "enamorus-incarnate",
-            "url": "/api/v2/pokemon/905/"
-        },
-        {
-            "name": "dachsbun",
-            "url": "/api/v2/pokemon/927/"
-        },
-        {
-            "name": "tinkatink",
-            "url": "/api/v2/pokemon/957/"
-        },
-        {
-            "name": "tinkatuff",
-            "url": "/api/v2/pokemon/958/"
-        },
-        {
-            "name": "tinkaton",
-            "url": "/api/v2/pokemon/959/"
-        },
-        {
-            "name": "finizen",
-            "url": "/api/v2/pokemon/963/"
-        },
-        {
-            "name": "palafin-zero",
-            "url": "/api/v2/pokemon/964/"
-        },
-        {
-            "name": "flutter-mane",
-            "url": "/api/v2/pokemon/987/"
-        },
-        {
-            "name": "gardevoir-mega",
-            "url": "/api/v2/pokemon/10051/"
-        },
-        {
-            "name": "floette-eternal",
-            "url": "/api/v2/pokemon/10061/"
-        },
-        {
-            "name": "gallade-mega",
-            "url": "/api/v2/pokemon/10068/"
-        },
-        {
-            "name": "audino-mega",
-            "url": "/api/v2/pokemon/10069/"
-        },
-        {
-            "name": "pikachu-pop-star",
-            "url": "/api/v2/pokemon/10082/"
-        },
-        {
-            "name": "lopunny-mega",
-            "url": "/api/v2/pokemon/10088/"
-        },
-        {
-            "name": "pikachu-original-cap",
-            "url": "/api/v2/pokemon/10094/"
-        },
-        {
-            "name": "pikachu-hoenn-cap",
-            "url": "/api/v2/pokemon/10095/"
-        },
-        {
-            "name": "pikachu-sinnoh-cap",
-            "url": "/api/v2/pokemon/10096/"
-        },
-        {
-            "name": "pikachu-unova-cap",
-            "url": "/api/v2/pokemon/10097/"
-        },
-        {
-            "name": "pikachu-kalos-cap",
-            "url": "/api/v2/pokemon/10098/"
-        },
-        {
-            "name": "pikachu-alola-cap",
-            "url": "/api/v2/pokemon/10099/"
-        },
-        {
-            "name": "raichu-alola",
-            "url": "/api/v2/pokemon/10100/"
-        },
-        {
-            "name": "vulpix-alola",
-            "url": "/api/v2/pokemon/10103/"
-        },
-        {
-            "name": "ninetales-alola",
-            "url": "/api/v2/pokemon/10104/"
-        },
-        {
-            "name": "mimikyu-busted",
-            "url": "/api/v2/pokemon/10143/"
-        },
-        {
-            "name": "magearna-original",
-            "url": "/api/v2/pokemon/10147/"
-        },
-        {
-            "name": "pikachu-partner-cap",
-            "url": "/api/v2/pokemon/10148/"
-        },
-        {
-            "name": "ribombee-totem",
-            "url": "/api/v2/pokemon/10150/"
-        },
-        {
-            "name": "pikachu-world-cap",
-            "url": "/api/v2/pokemon/10160/"
-        },
-        {
-            "name": "indeedee-female",
-            "url": "/api/v2/pokemon/10186/"
-        },
-        {
-            "name": "calyrex-ice",
-            "url": "/api/v2/pokemon/10193/"
-        },
-        {
-            "name": "calyrex-shadow",
-            "url": "/api/v2/pokemon/10194/"
-        },
-        {
-            "name": "enamorus-therian",
-            "url": "/api/v2/pokemon/10249/"
-        },
-        {
-            "name": "palafin-hero",
-            "url": "/api/v2/pokemon/10256/"
-        },
-        {
-            "name": "clefable-mega",
-            "url": "/api/v2/pokemon/10278/"
-        },
-        {
-            "name": "froslass-mega",
-            "url": "/api/v2/pokemon/10285/"
-        },
-        {
-            "name": "floette-mega",
-            "url": "/api/v2/pokemon/10296/"
-        },
-        {
-            "name": "raichu-mega-x",
-            "url": "/api/v2/pokemon/10304/"
-        },
-        {
-            "name": "raichu-mega-y",
-            "url": "/api/v2/pokemon/10305/"
-        },
-        {
-            "name": "chimecho-mega",
-            "url": "/api/v2/pokemon/10306/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/1481/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1852/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage-heal",
-            "url": "/api/v2/move-category/8/"
-        },
-        "crit_rate": 0,
-        "drain": 75,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "draining-kiss",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30c9\u30ec\u30a4\u30f3\u30ad\u30c3\u30b9"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\ub4dc\ub808\uc778\ud0a4\uc2a4"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u5438\u53d6\u4e4b\u543b"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Vampibaiser"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Diebeskuss"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Beso Drenaje"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Assorbibacio"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Draining Kiss"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30c9\u30ec\u30a4\u30f3\u30ad\u30c3\u30b9"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u5438\u53d6\u4e4b\u543b"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Beso Drenador"
-        }
-    ],
-    "past_values": [],
-    "power": 50,
-    "pp": 10,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": null,
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "fairy",
-        "url": "/api/v2/type/18/"
+    {
+      "effect": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
+      "short_effect": "Drains 75% of the damage inflicted to heal the user.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-vi",
+    "url": "/api/v2/generation/6/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage-heal",
+      "url": "/api/v2/move-category/8/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 75,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "ドレインキッス",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "드레인키스",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "吸取之吻",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Vampibaiser",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Diebeskuss",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Beso Drenaje",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Assorbibacio",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Draining Kiss",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "ドレインキッス",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "吸取之吻",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Beso Drenador",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "fairy",
+    "url": "/api/v2/type/18/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/1481/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1852/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대로부터 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou\négal à la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte\ndes beim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura\nsu propia energía en una cantidad igual o superior\na la mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando così PS in quantità pari\na più della metà del danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s energy with a kiss.\nThe user’s HP is restored by over half\nof the damage taken by the target.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura\nsu propia energía en una cantidad igual o superior\na la mitad del daño infligido.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대로부터 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou\négal à la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte\ndes beim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a\nla mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando così PS in quantità pari\na più della metà del danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s energy with a kiss.\nThe user’s HP is restored by over half\nof the damage taken by the target.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a\nla mitad del daño infligido.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。　あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대로부터 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "親吻對手來吸取對手的ＨＰ。\n可以回復給予對手\n傷害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou\négal à la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte des\nbeim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a\nla mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando così PS in quantità pari\na più della metà del danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。　与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "用一个吻吸取对手的ＨＰ。\n回复给予对手\n伤害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a\nla mitad del daño infligido.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。　あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대로부터 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "親吻對手來吸取對手的ＨＰ。\n可以回復給予對手\n傷害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou\négal à la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte des\nbeim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a\nla mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando così PS in quantità pari\na più della metà del danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。　与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "用一个吻吸取对手的ＨＰ。\n回复给予对手\n伤害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a\nla mitad del daño infligido.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。　あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대로부터 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "親吻對手來吸取對手的HP。\n可以回復給予對手\n傷害的一半以上的HP。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou égal\nà la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte des\nbeim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a\nla mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con\nun bacio, recuperando così PS in quantità pari\na più della metà del danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。　与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "用一个吻吸取对手的HP。\n回复给予对手\n伤害的一半以上的HP。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Absorbe PS del objetivo con un beso y restaura su\npropia energía en una cantidad igual o superior a\nla mitad del daño infligido.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　あいてから　ＨＰを\nすいとる。　あたえた　ダメージの\nはんぶんいじょう　ＨＰを　かいふくする。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "키스로 상대의 HP를\n흡수한다. 준 데미지의\n반 이상 HP를 회복한다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "親吻對手來吸取對手的ＨＰ。\n可以回復給予對手\n傷害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Aspire la force vitale de l’ennemi par un baiser.\nRend au lanceur un nombre de PV supérieur ou égal\nà la moitié des dégâts infligés.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender stiehlt dem Ziel mit einem Kuss KP.\nDie Höhe der Heilung beträgt mehr als die Hälfte des\nbeim Ziel angerichteten Schadens.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El usuario absorbe PS del objetivo con un beso y\nrestaura su propia energía en una cantidad igual o\nsuperior a la mitad del daño infligido.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Chi la usa assorbe energia dal bersaglio con un bacio,\nrecuperando così PS in quantità pari a più della metà\ndel danno inferto.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by over half of the damage\ntaken by the target.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "キッスによって　相手から　ＨＰを\n吸い取る。　与えた　ダメージの\n半分以上　ＨＰを　回復する。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "用一个吻吸取对手的ＨＰ。\n回复给予对手\n伤害的一半以上的ＨＰ。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "El usuario absorbe PS del objetivo con un beso y\nrestaura su propia energía en una cantidad igual o\nsuperior a la mitad del daño infligido.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user attacks with an energy-draining kiss that restores the user’s HP.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The user steals the target's HP with a kiss. The user's HP is restored by over half the damage taken by the target.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "butterfree",
+      "url": "/api/v2/pokemon/12/"
+    },
+    {
+      "name": "pikachu",
+      "url": "/api/v2/pokemon/25/"
+    },
+    {
+      "name": "raichu",
+      "url": "/api/v2/pokemon/26/"
+    },
+    {
+      "name": "clefairy",
+      "url": "/api/v2/pokemon/35/"
+    },
+    {
+      "name": "clefable",
+      "url": "/api/v2/pokemon/36/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "drowzee",
+      "url": "/api/v2/pokemon/96/"
+    },
+    {
+      "name": "hypno",
+      "url": "/api/v2/pokemon/97/"
+    },
+    {
+      "name": "chansey",
+      "url": "/api/v2/pokemon/113/"
+    },
+    {
+      "name": "jynx",
+      "url": "/api/v2/pokemon/124/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "cleffa",
+      "url": "/api/v2/pokemon/173/"
+    },
+    {
+      "name": "igglybuff",
+      "url": "/api/v2/pokemon/174/"
+    },
+    {
+      "name": "togepi",
+      "url": "/api/v2/pokemon/175/"
+    },
+    {
+      "name": "togetic",
+      "url": "/api/v2/pokemon/176/"
+    },
+    {
+      "name": "marill",
+      "url": "/api/v2/pokemon/183/"
+    },
+    {
+      "name": "azumarill",
+      "url": "/api/v2/pokemon/184/"
+    },
+    {
+      "name": "espeon",
+      "url": "/api/v2/pokemon/196/"
+    },
+    {
+      "name": "misdreavus",
+      "url": "/api/v2/pokemon/200/"
+    },
+    {
+      "name": "smoochum",
+      "url": "/api/v2/pokemon/238/"
+    },
+    {
+      "name": "blissey",
+      "url": "/api/v2/pokemon/242/"
+    },
+    {
+      "name": "ralts",
+      "url": "/api/v2/pokemon/280/"
+    },
+    {
+      "name": "kirlia",
+      "url": "/api/v2/pokemon/281/"
+    },
+    {
+      "name": "gardevoir",
+      "url": "/api/v2/pokemon/282/"
+    },
+    {
+      "name": "azurill",
+      "url": "/api/v2/pokemon/298/"
+    },
+    {
+      "name": "mawile",
+      "url": "/api/v2/pokemon/303/"
+    },
+    {
+      "name": "illumise",
+      "url": "/api/v2/pokemon/314/"
+    },
+    {
+      "name": "milotic",
+      "url": "/api/v2/pokemon/350/"
+    },
+    {
+      "name": "chimecho",
+      "url": "/api/v2/pokemon/358/"
+    },
+    {
+      "name": "gorebyss",
+      "url": "/api/v2/pokemon/368/"
+    },
+    {
+      "name": "luvdisc",
+      "url": "/api/v2/pokemon/370/"
+    },
+    {
+      "name": "latias",
+      "url": "/api/v2/pokemon/380/"
+    },
+    {
+      "name": "cherubi",
+      "url": "/api/v2/pokemon/420/"
+    },
+    {
+      "name": "cherrim",
+      "url": "/api/v2/pokemon/421/"
+    },
+    {
+      "name": "buneary",
+      "url": "/api/v2/pokemon/427/"
+    },
+    {
+      "name": "lopunny",
+      "url": "/api/v2/pokemon/428/"
+    },
+    {
+      "name": "mismagius",
+      "url": "/api/v2/pokemon/429/"
+    },
+    {
+      "name": "happiny",
+      "url": "/api/v2/pokemon/440/"
+    },
+    {
+      "name": "togekiss",
+      "url": "/api/v2/pokemon/468/"
+    },
+    {
+      "name": "gallade",
+      "url": "/api/v2/pokemon/475/"
+    },
+    {
+      "name": "froslass",
+      "url": "/api/v2/pokemon/478/"
+    },
+    {
+      "name": "uxie",
+      "url": "/api/v2/pokemon/480/"
+    },
+    {
+      "name": "mesprit",
+      "url": "/api/v2/pokemon/481/"
+    },
+    {
+      "name": "azelf",
+      "url": "/api/v2/pokemon/482/"
+    },
+    {
+      "name": "audino",
+      "url": "/api/v2/pokemon/531/"
+    },
+    {
+      "name": "vivillon",
+      "url": "/api/v2/pokemon/666/"
+    },
+    {
+      "name": "flabebe",
+      "url": "/api/v2/pokemon/669/"
+    },
+    {
+      "name": "floette",
+      "url": "/api/v2/pokemon/670/"
+    },
+    {
+      "name": "florges",
+      "url": "/api/v2/pokemon/671/"
+    },
+    {
+      "name": "spritzee",
+      "url": "/api/v2/pokemon/682/"
+    },
+    {
+      "name": "aromatisse",
+      "url": "/api/v2/pokemon/683/"
+    },
+    {
+      "name": "swirlix",
+      "url": "/api/v2/pokemon/684/"
+    },
+    {
+      "name": "slurpuff",
+      "url": "/api/v2/pokemon/685/"
+    },
+    {
+      "name": "sylveon",
+      "url": "/api/v2/pokemon/700/"
+    },
+    {
+      "name": "dedenne",
+      "url": "/api/v2/pokemon/702/"
+    },
+    {
+      "name": "klefki",
+      "url": "/api/v2/pokemon/707/"
+    },
+    {
+      "name": "xerneas",
+      "url": "/api/v2/pokemon/716/"
+    },
+    {
+      "name": "diancie",
+      "url": "/api/v2/pokemon/719/"
+    },
+    {
+      "name": "popplio",
+      "url": "/api/v2/pokemon/728/"
+    },
+    {
+      "name": "brionne",
+      "url": "/api/v2/pokemon/729/"
+    },
+    {
+      "name": "primarina",
+      "url": "/api/v2/pokemon/730/"
+    },
+    {
+      "name": "cutiefly",
+      "url": "/api/v2/pokemon/742/"
+    },
+    {
+      "name": "ribombee",
+      "url": "/api/v2/pokemon/743/"
+    },
+    {
+      "name": "morelull",
+      "url": "/api/v2/pokemon/755/"
+    },
+    {
+      "name": "shiinotic",
+      "url": "/api/v2/pokemon/756/"
+    },
+    {
+      "name": "bounsweet",
+      "url": "/api/v2/pokemon/761/"
+    },
+    {
+      "name": "steenee",
+      "url": "/api/v2/pokemon/762/"
+    },
+    {
+      "name": "tsareena",
+      "url": "/api/v2/pokemon/763/"
+    },
+    {
+      "name": "comfey",
+      "url": "/api/v2/pokemon/764/"
+    },
+    {
+      "name": "mimikyu-disguised",
+      "url": "/api/v2/pokemon/778/"
+    },
+    {
+      "name": "tapu-lele",
+      "url": "/api/v2/pokemon/786/"
+    },
+    {
+      "name": "tapu-fini",
+      "url": "/api/v2/pokemon/788/"
+    },
+    {
+      "name": "magearna",
+      "url": "/api/v2/pokemon/801/"
+    },
+    {
+      "name": "hatenna",
+      "url": "/api/v2/pokemon/856/"
+    },
+    {
+      "name": "hattrem",
+      "url": "/api/v2/pokemon/857/"
+    },
+    {
+      "name": "hatterene",
+      "url": "/api/v2/pokemon/858/"
+    },
+    {
+      "name": "impidimp",
+      "url": "/api/v2/pokemon/859/"
+    },
+    {
+      "name": "morgrem",
+      "url": "/api/v2/pokemon/860/"
+    },
+    {
+      "name": "grimmsnarl",
+      "url": "/api/v2/pokemon/861/"
+    },
+    {
+      "name": "milcery",
+      "url": "/api/v2/pokemon/868/"
+    },
+    {
+      "name": "alcremie",
+      "url": "/api/v2/pokemon/869/"
+    },
+    {
+      "name": "indeedee-male",
+      "url": "/api/v2/pokemon/876/"
+    },
+    {
+      "name": "spectrier",
+      "url": "/api/v2/pokemon/897/"
+    },
+    {
+      "name": "calyrex",
+      "url": "/api/v2/pokemon/898/"
+    },
+    {
+      "name": "enamorus-incarnate",
+      "url": "/api/v2/pokemon/905/"
+    },
+    {
+      "name": "dachsbun",
+      "url": "/api/v2/pokemon/927/"
+    },
+    {
+      "name": "tinkatink",
+      "url": "/api/v2/pokemon/957/"
+    },
+    {
+      "name": "tinkatuff",
+      "url": "/api/v2/pokemon/958/"
+    },
+    {
+      "name": "tinkaton",
+      "url": "/api/v2/pokemon/959/"
+    },
+    {
+      "name": "finizen",
+      "url": "/api/v2/pokemon/963/"
+    },
+    {
+      "name": "palafin-zero",
+      "url": "/api/v2/pokemon/964/"
+    },
+    {
+      "name": "flutter-mane",
+      "url": "/api/v2/pokemon/987/"
+    },
+    {
+      "name": "gardevoir-mega",
+      "url": "/api/v2/pokemon/10051/"
+    },
+    {
+      "name": "floette-eternal",
+      "url": "/api/v2/pokemon/10061/"
+    },
+    {
+      "name": "gallade-mega",
+      "url": "/api/v2/pokemon/10068/"
+    },
+    {
+      "name": "audino-mega",
+      "url": "/api/v2/pokemon/10069/"
+    },
+    {
+      "name": "pikachu-pop-star",
+      "url": "/api/v2/pokemon/10082/"
+    },
+    {
+      "name": "lopunny-mega",
+      "url": "/api/v2/pokemon/10088/"
+    },
+    {
+      "name": "pikachu-original-cap",
+      "url": "/api/v2/pokemon/10094/"
+    },
+    {
+      "name": "pikachu-hoenn-cap",
+      "url": "/api/v2/pokemon/10095/"
+    },
+    {
+      "name": "pikachu-sinnoh-cap",
+      "url": "/api/v2/pokemon/10096/"
+    },
+    {
+      "name": "pikachu-unova-cap",
+      "url": "/api/v2/pokemon/10097/"
+    },
+    {
+      "name": "pikachu-kalos-cap",
+      "url": "/api/v2/pokemon/10098/"
+    },
+    {
+      "name": "pikachu-alola-cap",
+      "url": "/api/v2/pokemon/10099/"
+    },
+    {
+      "name": "raichu-alola",
+      "url": "/api/v2/pokemon/10100/"
+    },
+    {
+      "name": "vulpix-alola",
+      "url": "/api/v2/pokemon/10103/"
+    },
+    {
+      "name": "ninetales-alola",
+      "url": "/api/v2/pokemon/10104/"
+    },
+    {
+      "name": "mimikyu-busted",
+      "url": "/api/v2/pokemon/10143/"
+    },
+    {
+      "name": "magearna-original",
+      "url": "/api/v2/pokemon/10147/"
+    },
+    {
+      "name": "pikachu-partner-cap",
+      "url": "/api/v2/pokemon/10148/"
+    },
+    {
+      "name": "ribombee-totem",
+      "url": "/api/v2/pokemon/10150/"
+    },
+    {
+      "name": "pikachu-world-cap",
+      "url": "/api/v2/pokemon/10160/"
+    },
+    {
+      "name": "indeedee-female",
+      "url": "/api/v2/pokemon/10186/"
+    },
+    {
+      "name": "calyrex-ice",
+      "url": "/api/v2/pokemon/10193/"
+    },
+    {
+      "name": "calyrex-shadow",
+      "url": "/api/v2/pokemon/10194/"
+    },
+    {
+      "name": "enamorus-therian",
+      "url": "/api/v2/pokemon/10249/"
+    },
+    {
+      "name": "palafin-hero",
+      "url": "/api/v2/pokemon/10256/"
+    },
+    {
+      "name": "clefable-mega",
+      "url": "/api/v2/pokemon/10278/"
+    },
+    {
+      "name": "froslass-mega",
+      "url": "/api/v2/pokemon/10285/"
+    },
+    {
+      "name": "floette-mega",
+      "url": "/api/v2/pokemon/10296/"
+    },
+    {
+      "name": "raichu-mega-x",
+      "url": "/api/v2/pokemon/10304/"
+    },
+    {
+      "name": "raichu-mega-y",
+      "url": "/api/v2/pokemon/10305/"
+    },
+    {
+      "name": "chimecho-mega",
+      "url": "/api/v2/pokemon/10306/"
+    }
+  ]
 }

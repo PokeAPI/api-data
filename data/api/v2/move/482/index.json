@@ -1,1453 +1,1453 @@
 {
-    "accuracy": 100,
-    "contest_combos": null,
-    "contest_effect": null,
-    "contest_type": null,
-    "damage_class": {
-        "name": "special",
-        "url": "/api/v2/move-damage-class/3/"
+  "id": 482,
+  "name": "sludge-wave",
+  "accuracy": 100,
+  "effect_chance": 10,
+  "pp": 10,
+  "priority": 0,
+  "power": 95,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special",
+    "url": "/api/v2/move-damage-class/3/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégats réguliers.  A une chance d'empoisonner la cible.",
+      "short_effect": "A une chance d'empoisonner la cible.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
     },
-    "effect_chance": 10,
-    "effect_changes": [],
-    "effect_entries": [
-        {
-            "effect": "Inflige des d\u00e9gats r\u00e9guliers.  A une chance d'empoisonner la cible.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "A une chance d'empoisonner la cible."
-        },
-        {
-            "effect": "Inflicts regular damage.  Has a chance to poison the target.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Has a chance to poison the target."
-        }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "Une vague de d\u00e9tritus attaque tous\nles Pok\u00e9mon autour du lanceur.\nPeut aussi empoisonner.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "It swamps the area around the user with a\ngiant sludge wave.\nIt may also poison those hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "It swamps the area around the user with a\ngiant sludge wave.\nIt may also poison those hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u306a\u307f\u3067\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uc624\ubb3c \ud30c\ub3c4\ub85c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Une vague de d\u00e9tritus attaque tous les Pok\u00e9mon\nautour du lanceur. Peut aussi empoisonner.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Greift Pok\u00e9mon in der N\u00e4he des Anwenders mit\neiner Schlammwelle an. Diese werden eventuell\nvergiftet.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Lancia un\u2019onda di fango che attacca tutti\ni Pok\u00e9mon nelle vicinanze. Pu\u00f2 anche avvelenarli.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The user strikes everything around it\nby swamping the area with a giant sludge wave.\nThis may also poison those hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u6ce2\u3067\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u306a\u202f\u3067\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uc624\ubb3c \ud30c\ub3c4\ub85c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Une vague de d\u00e9tritus attaque tous les Pok\u00e9mon\nautour du lanceur. Peut aussi empoisonner.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Greift Pok\u00e9mon in der N\u00e4he des Anwenders mit\neiner Schlammwelle an. Diese werden eventuell\nvergiftet.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Lancia un\u2019onda di fango che attacca tutti\ni Pok\u00e9mon nelle vicinanze. Pu\u00f2 anche avvelenarli.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The user strikes everything around it\nby swamping the area with a giant sludge wave.\nThis may also poison those hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u6ce2\u3067\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u306a\u307f\u3067\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uc624\ubb3c \ud30c\ub3c4\ub85c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c61\u6ce5\u6ce2\u653b\u64ca\n\u81ea\u5df1\u5468\u570d\u6240\u6709\u7684\u5bf6\u53ef\u5922\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u4e2d\u6bd2\u72c0\u614b\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Une vague de d\u00e9tritus attaque tous les Pok\u00e9mon\nautour du lanceur. Peut aussi empoisonner.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Greift Pok\u00e9mon in der N\u00e4he des Anwenders mit einer\nSchlammwelle an. Diese werden eventuell vergiftet.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Lancia un\u2019onda di fango che attacca tutti\ni Pok\u00e9mon nelle vicinanze. Pu\u00f2 anche avvelenarli.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u6ce2\u3067\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c61\u6ce5\u6ce2\u653b\u51fb\n\u81ea\u5df1\u5468\u56f4\u6240\u6709\u7684\u5b9d\u53ef\u68a6\u3002\n\u6709\u65f6\u4f1a\u9677\u5165\u4e2d\u6bd2\u72b6\u6001\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u306a\u307f\u3067\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uc624\ubb3c \ud30c\ub3c4\ub85c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c61\u6ce5\u6ce2\u653b\u64ca\n\u81ea\u5df1\u5468\u570d\u6240\u6709\u7684\u5bf6\u53ef\u5922\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u4e2d\u6bd2\u72c0\u614b\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Une vague de d\u00e9tritus attaque tous les Pok\u00e9mon\nautour du lanceur. Peut aussi empoisonner.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Greift Pok\u00e9mon in der N\u00e4he des Anwenders mit einer\nSchlammwelle an. Diese werden eventuell vergiftet.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Lancia un\u2019onda di fango che attacca tutti\ni Pok\u00e9mon nelle vicinanze. Pu\u00f2 anche avvelenarli.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u6ce2\u3067\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c61\u6ce5\u6ce2\u653b\u51fb\n\u81ea\u5df1\u5468\u56f4\u6240\u6709\u7684\u5b9d\u53ef\u68a6\u3002\n\u6709\u65f6\u4f1a\u9677\u5165\u4e2d\u6bd2\u72b6\u6001\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u306a\u307f\u3067\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uc624\ubb3c \ud30c\ub3c4\ub85c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c61\u6ce5\u6ce2\u653b\u64ca\n\u81ea\u5df1\u5468\u570d\u6240\u6709\u7684\u5bf6\u53ef\u5922\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u4e2d\u6bd2\u72c0\u614b\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Une vague de d\u00e9tritus attaque tous les Pok\u00e9mon\nautour du lanceur. Peut aussi empoisonner.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Greift Pok\u00e9mon in der N\u00e4he des Anwenders mit einer\nSchlammwelle an. Diese werden eventuell vergiftet.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Lancia un\u2019onda di fango che attacca tutti\ni Pok\u00e9mon nelle vicinanze. Pu\u00f2 anche avvelenarli.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u6ce2\u3067\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c61\u6ce5\u6ce2\u653b\u51fb\n\u81ea\u5df1\u5468\u56f4\u6240\u6709\u7684\u5b9d\u53ef\u68a6\u3002\n\u6709\u65f6\u4f1a\u9677\u5165\u4e2d\u6bd2\u72b6\u6001\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de\nalrededor. Puede envenenar.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u306a\u307f\u3067\u3000\u3058\u3076\u3093\u306e\n\u307e\u308f\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u3053\u3046\u3052\u304d\u3059\u308b\u3002\n\u3069\u304f\u3000\u3058\u3087\u3046\u305f\u3044\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uc624\ubb3c \ud30c\ub3c4\ub85c \uc790\uc2e0\uc758\n\uc8fc\uc704\uc5d0 \uc788\ub294 \ud3ec\ucf13\ubaac\uc744 \uacf5\uaca9\ud55c\ub2e4.\n\ub3c5 \uc0c1\ud0dc\ub85c \ub9cc\ub4e4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c61\u6ce5\u6ce2\u653b\u64ca\n\u81ea\u5df1\u5468\u570d\u6240\u6709\u7684\u5bf6\u53ef\u5922\u3002\n\u6709\u6642\u6703\u8b93\u5c0d\u624b\u9677\u5165\u4e2d\u6bd2\u72c0\u614b\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Une vague de d\u00e9tritus attaque tous les Pok\u00e9mon\nautour du lanceur. Peut aussi empoisonner.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Greift alle Pok\u00e9mon im Umkreis mit einer Schlammwelle\nan. Diese werden eventuell auch vergiftet.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de alrededor.\nPuede envenenar.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Lancia un\u2019onda di fango che attacca tutti\ni Pok\u00e9mon nelle vicinanze. Pu\u00f2 anche avvelenarli.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u30d8\u30c9\u30ed\u306e\u3000\u6ce2\u3067\u3000\u81ea\u5206\u306e\n\u5468\u308a\u306b\u3000\u3044\u308b\u3082\u306e\u3092\u3000\u653b\u6483\u3059\u308b\u3002\n\u6bd2\u72b6\u614b\u306b\u3000\u3059\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u7528\u6c61\u6ce5\u6ce2\u653b\u51fb\n\u81ea\u5df1\u5468\u56f4\u6240\u6709\u7684\u5b9d\u53ef\u68a6\u3002\n\u6709\u65f6\u4f1a\u9677\u5165\u4e2d\u6bd2\u72b6\u6001\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Una onda t\u00f3xica que da\u00f1a a los Pok\u00e9mon de alrededor.\nPuede envenenar.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those it hits.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-v",
-        "url": "/api/v2/generation/5/"
-    },
-    "id": 482,
-    "learned_by_pokemon": [
-        {
-            "name": "venusaur",
-            "url": "/api/v2/pokemon/3/"
-        },
-        {
-            "name": "ekans",
-            "url": "/api/v2/pokemon/23/"
-        },
-        {
-            "name": "arbok",
-            "url": "/api/v2/pokemon/24/"
-        },
-        {
-            "name": "nidoqueen",
-            "url": "/api/v2/pokemon/31/"
-        },
-        {
-            "name": "nidoking",
-            "url": "/api/v2/pokemon/34/"
-        },
-        {
-            "name": "vileplume",
-            "url": "/api/v2/pokemon/45/"
-        },
-        {
-            "name": "venomoth",
-            "url": "/api/v2/pokemon/49/"
-        },
-        {
-            "name": "dugtrio",
-            "url": "/api/v2/pokemon/51/"
-        },
-        {
-            "name": "bellsprout",
-            "url": "/api/v2/pokemon/69/"
-        },
-        {
-            "name": "weepinbell",
-            "url": "/api/v2/pokemon/70/"
-        },
-        {
-            "name": "victreebel",
-            "url": "/api/v2/pokemon/71/"
-        },
-        {
-            "name": "tentacool",
-            "url": "/api/v2/pokemon/72/"
-        },
-        {
-            "name": "tentacruel",
-            "url": "/api/v2/pokemon/73/"
-        },
-        {
-            "name": "grimer",
-            "url": "/api/v2/pokemon/88/"
-        },
-        {
-            "name": "muk",
-            "url": "/api/v2/pokemon/89/"
-        },
-        {
-            "name": "gastly",
-            "url": "/api/v2/pokemon/92/"
-        },
-        {
-            "name": "haunter",
-            "url": "/api/v2/pokemon/93/"
-        },
-        {
-            "name": "gengar",
-            "url": "/api/v2/pokemon/94/"
-        },
-        {
-            "name": "koffing",
-            "url": "/api/v2/pokemon/109/"
-        },
-        {
-            "name": "weezing",
-            "url": "/api/v2/pokemon/110/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "spinarak",
-            "url": "/api/v2/pokemon/167/"
-        },
-        {
-            "name": "ariados",
-            "url": "/api/v2/pokemon/168/"
-        },
-        {
-            "name": "wooper",
-            "url": "/api/v2/pokemon/194/"
-        },
-        {
-            "name": "quagsire",
-            "url": "/api/v2/pokemon/195/"
-        },
-        {
-            "name": "qwilfish",
-            "url": "/api/v2/pokemon/211/"
-        },
-        {
-            "name": "shuckle",
-            "url": "/api/v2/pokemon/213/"
-        },
-        {
-            "name": "octillery",
-            "url": "/api/v2/pokemon/224/"
-        },
-        {
-            "name": "mudkip",
-            "url": "/api/v2/pokemon/258/"
-        },
-        {
-            "name": "marshtomp",
-            "url": "/api/v2/pokemon/259/"
-        },
-        {
-            "name": "swampert",
-            "url": "/api/v2/pokemon/260/"
-        },
-        {
-            "name": "gulpin",
-            "url": "/api/v2/pokemon/316/"
-        },
-        {
-            "name": "swalot",
-            "url": "/api/v2/pokemon/317/"
-        },
-        {
-            "name": "seviper",
-            "url": "/api/v2/pokemon/336/"
-        },
-        {
-            "name": "crawdaunt",
-            "url": "/api/v2/pokemon/342/"
-        },
-        {
-            "name": "cradily",
-            "url": "/api/v2/pokemon/346/"
-        },
-        {
-            "name": "gastrodon",
-            "url": "/api/v2/pokemon/423/"
-        },
-        {
-            "name": "stunky",
-            "url": "/api/v2/pokemon/434/"
-        },
-        {
-            "name": "skuntank",
-            "url": "/api/v2/pokemon/435/"
-        },
-        {
-            "name": "croagunk",
-            "url": "/api/v2/pokemon/453/"
-        },
-        {
-            "name": "toxicroak",
-            "url": "/api/v2/pokemon/454/"
-        },
-        {
-            "name": "tympole",
-            "url": "/api/v2/pokemon/535/"
-        },
-        {
-            "name": "palpitoad",
-            "url": "/api/v2/pokemon/536/"
-        },
-        {
-            "name": "seismitoad",
-            "url": "/api/v2/pokemon/537/"
-        },
-        {
-            "name": "trubbish",
-            "url": "/api/v2/pokemon/568/"
-        },
-        {
-            "name": "garbodor",
-            "url": "/api/v2/pokemon/569/"
-        },
-        {
-            "name": "frillish-male",
-            "url": "/api/v2/pokemon/592/"
-        },
-        {
-            "name": "jellicent-male",
-            "url": "/api/v2/pokemon/593/"
-        },
-        {
-            "name": "stunfisk",
-            "url": "/api/v2/pokemon/618/"
-        },
-        {
-            "name": "tornadus-incarnate",
-            "url": "/api/v2/pokemon/641/"
-        },
-        {
-            "name": "thundurus-incarnate",
-            "url": "/api/v2/pokemon/642/"
-        },
-        {
-            "name": "landorus-incarnate",
-            "url": "/api/v2/pokemon/645/"
-        },
-        {
-            "name": "greninja",
-            "url": "/api/v2/pokemon/658/"
-        },
-        {
-            "name": "binacle",
-            "url": "/api/v2/pokemon/688/"
-        },
-        {
-            "name": "barbaracle",
-            "url": "/api/v2/pokemon/689/"
-        },
-        {
-            "name": "skrelp",
-            "url": "/api/v2/pokemon/690/"
-        },
-        {
-            "name": "dragalge",
-            "url": "/api/v2/pokemon/691/"
-        },
-        {
-            "name": "clauncher",
-            "url": "/api/v2/pokemon/692/"
-        },
-        {
-            "name": "clawitzer",
-            "url": "/api/v2/pokemon/693/"
-        },
-        {
-            "name": "goomy",
-            "url": "/api/v2/pokemon/704/"
-        },
-        {
-            "name": "sliggoo",
-            "url": "/api/v2/pokemon/705/"
-        },
-        {
-            "name": "goodra",
-            "url": "/api/v2/pokemon/706/"
-        },
-        {
-            "name": "zygarde-50",
-            "url": "/api/v2/pokemon/718/"
-        },
-        {
-            "name": "volcanion",
-            "url": "/api/v2/pokemon/721/"
-        },
-        {
-            "name": "mareanie",
-            "url": "/api/v2/pokemon/747/"
-        },
-        {
-            "name": "toxapex",
-            "url": "/api/v2/pokemon/748/"
-        },
-        {
-            "name": "salandit",
-            "url": "/api/v2/pokemon/757/"
-        },
-        {
-            "name": "salazzle",
-            "url": "/api/v2/pokemon/758/"
-        },
-        {
-            "name": "golisopod",
-            "url": "/api/v2/pokemon/768/"
-        },
-        {
-            "name": "dhelmise",
-            "url": "/api/v2/pokemon/781/"
-        },
-        {
-            "name": "nihilego",
-            "url": "/api/v2/pokemon/793/"
-        },
-        {
-            "name": "guzzlord",
-            "url": "/api/v2/pokemon/799/"
-        },
-        {
-            "name": "poipole",
-            "url": "/api/v2/pokemon/803/"
-        },
-        {
-            "name": "naganadel",
-            "url": "/api/v2/pokemon/804/"
-        },
-        {
-            "name": "toxtricity-amped",
-            "url": "/api/v2/pokemon/849/"
-        },
-        {
-            "name": "eternatus",
-            "url": "/api/v2/pokemon/890/"
-        },
-        {
-            "name": "sneasler",
-            "url": "/api/v2/pokemon/903/"
-        },
-        {
-            "name": "overqwil",
-            "url": "/api/v2/pokemon/904/"
-        },
-        {
-            "name": "shroodle",
-            "url": "/api/v2/pokemon/944/"
-        },
-        {
-            "name": "grafaiai",
-            "url": "/api/v2/pokemon/945/"
-        },
-        {
-            "name": "varoom",
-            "url": "/api/v2/pokemon/965/"
-        },
-        {
-            "name": "revavroom",
-            "url": "/api/v2/pokemon/966/"
-        },
-        {
-            "name": "glimmet",
-            "url": "/api/v2/pokemon/969/"
-        },
-        {
-            "name": "glimmora",
-            "url": "/api/v2/pokemon/970/"
-        },
-        {
-            "name": "clodsire",
-            "url": "/api/v2/pokemon/980/"
-        },
-        {
-            "name": "iron-moth",
-            "url": "/api/v2/pokemon/994/"
-        },
-        {
-            "name": "okidogi",
-            "url": "/api/v2/pokemon/1014/"
-        },
-        {
-            "name": "munkidori",
-            "url": "/api/v2/pokemon/1015/"
-        },
-        {
-            "name": "pecharunt",
-            "url": "/api/v2/pokemon/1025/"
-        },
-        {
-            "name": "tornadus-therian",
-            "url": "/api/v2/pokemon/10019/"
-        },
-        {
-            "name": "thundurus-therian",
-            "url": "/api/v2/pokemon/10020/"
-        },
-        {
-            "name": "landorus-therian",
-            "url": "/api/v2/pokemon/10021/"
-        },
-        {
-            "name": "venusaur-mega",
-            "url": "/api/v2/pokemon/10033/"
-        },
-        {
-            "name": "gengar-mega",
-            "url": "/api/v2/pokemon/10038/"
-        },
-        {
-            "name": "swampert-mega",
-            "url": "/api/v2/pokemon/10064/"
-        },
-        {
-            "name": "raticate-alola",
-            "url": "/api/v2/pokemon/10092/"
-        },
-        {
-            "name": "raticate-totem-alola",
-            "url": "/api/v2/pokemon/10093/"
-        },
-        {
-            "name": "dugtrio-alola",
-            "url": "/api/v2/pokemon/10106/"
-        },
-        {
-            "name": "grimer-alola",
-            "url": "/api/v2/pokemon/10112/"
-        },
-        {
-            "name": "muk-alola",
-            "url": "/api/v2/pokemon/10113/"
-        },
-        {
-            "name": "zygarde-10-power-construct",
-            "url": "/api/v2/pokemon/10118/"
-        },
-        {
-            "name": "zygarde-50-power-construct",
-            "url": "/api/v2/pokemon/10119/"
-        },
-        {
-            "name": "zygarde-complete",
-            "url": "/api/v2/pokemon/10120/"
-        },
-        {
-            "name": "salazzle-totem",
-            "url": "/api/v2/pokemon/10129/"
-        },
-        {
-            "name": "slowbro-galar",
-            "url": "/api/v2/pokemon/10165/"
-        },
-        {
-            "name": "weezing-galar",
-            "url": "/api/v2/pokemon/10167/"
-        },
-        {
-            "name": "slowking-galar",
-            "url": "/api/v2/pokemon/10172/"
-        },
-        {
-            "name": "stunfisk-galar",
-            "url": "/api/v2/pokemon/10180/"
-        },
-        {
-            "name": "zygarde-10",
-            "url": "/api/v2/pokemon/10181/"
-        },
-        {
-            "name": "toxtricity-low-key",
-            "url": "/api/v2/pokemon/10184/"
-        },
-        {
-            "name": "eternatus-eternamax",
-            "url": "/api/v2/pokemon/10190/"
-        },
-        {
-            "name": "sneasel-hisui",
-            "url": "/api/v2/pokemon/10235/"
-        },
-        {
-            "name": "sliggoo-hisui",
-            "url": "/api/v2/pokemon/10241/"
-        },
-        {
-            "name": "goodra-hisui",
-            "url": "/api/v2/pokemon/10242/"
-        },
-        {
-            "name": "wooper-paldea",
-            "url": "/api/v2/pokemon/10253/"
-        },
-        {
-            "name": "victreebel-mega",
-            "url": "/api/v2/pokemon/10279/"
-        },
-        {
-            "name": "greninja-mega",
-            "url": "/api/v2/pokemon/10294/"
-        },
-        {
-            "name": "barbaracle-mega",
-            "url": "/api/v2/pokemon/10298/"
-        },
-        {
-            "name": "dragalge-mega",
-            "url": "/api/v2/pokemon/10299/"
-        },
-        {
-            "name": "glimmora-mega",
-            "url": "/api/v2/pokemon/10321/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/738/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/741/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/742/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/743/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/744/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/745/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1777/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2029/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2197/"
-            },
-            "version_group": {
-                "name": "the-indigo-disk",
-                "url": "/api/v2/version-group/27/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "poison",
-            "url": "/api/v2/move-ailment/5/"
-        },
-        "ailment_chance": 10,
-        "category": {
-            "name": "damage-ailment",
-            "url": "/api/v2/move-category/4/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 0
-    },
-    "name": "sludge-wave",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30d8\u30c9\u30ed\u30a6\u30a7\u30fc\u30d6"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uc624\ubb3c\uc6e8\uc774\ube0c"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u6c61\u6ce5\u6ce2"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Cradovague"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Schlammwoge"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Onda T\u00f3xica"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Fangonda"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Sludge Wave"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30d8\u30c9\u30ed\u30a6\u30a7\u30fc\u30d6"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u6c61\u6ce5\u6ce2"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Ola de Lodo"
-        }
-    ],
-    "past_values": [],
-    "power": 95,
-    "pp": 10,
-    "priority": 0,
-    "stat_changes": [],
-    "super_contest_effect": null,
-    "target": {
-        "name": "all-other-pokemon",
-        "url": "/api/v2/move-target/9/"
-    },
-    "type": {
-        "name": "poison",
-        "url": "/api/v2/type/4/"
+    {
+      "effect": "Inflicts regular damage.  Has a chance to poison the target.",
+      "short_effect": "Has a chance to poison the target.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v",
+    "url": "/api/v2/generation/5/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "poison",
+      "url": "/api/v2/move-ailment/5/"
+    },
+    "category": {
+      "name": "damage-ailment",
+      "url": "/api/v2/move-category/4/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 10,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "ヘドロウェーブ",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "오물웨이브",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "污泥波",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Cradovague",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Schlammwoge",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Onda Tóxica",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Fangonda",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Sludge Wave",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "ヘドロウェーブ",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "污泥波",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Ola de Lodo",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "all-other-pokemon",
+    "url": "/api/v2/move-target/9/"
+  },
+  "type": {
+    "name": "poison",
+    "url": "/api/v2/type/4/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/738/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/741/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/742/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/743/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/744/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/745/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1777/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2029/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2197/"
+      },
+      "version_group": {
+        "name": "the-indigo-disk",
+        "url": "/api/v2/version-group/27/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "Une vague de détritus attaque tous\nles Pokémon autour du lanceur.\nPeut aussi empoisonner.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "It swamps the area around the user with a\ngiant sludge wave.\nIt may also poison those hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "It swamps the area around the user with a\ngiant sludge wave.\nIt may also poison those hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　なみで　じぶんの\nまわりに　いるものを　こうげきする。\nどく　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "오물 파도로 자신의\n주위에 있는 포켓몬을 공격한다.\n독 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Une vague de détritus attaque tous les Pokémon\nautour du lanceur. Peut aussi empoisonner.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Greift Pokémon in der Nähe des Anwenders mit\neiner Schlammwelle an. Diese werden eventuell\nvergiftet.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Lancia un’onda di fango che attacca tutti\ni Pokémon nelle vicinanze. Può anche avvelenarli.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The user strikes everything around it\nby swamping the area with a giant sludge wave.\nThis may also poison those hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　波で　自分の\n周りに　いるものを　攻撃する。\n毒状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　な で　じぶんの\nまわりに　いるものを　こうげきする。\nどく　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "오물 파도로 자신의\n주위에 있는 포켓몬을 공격한다.\n독 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Une vague de détritus attaque tous les Pokémon\nautour du lanceur. Peut aussi empoisonner.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Greift Pokémon in der Nähe des Anwenders mit\neiner Schlammwelle an. Diese werden eventuell\nvergiftet.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Lancia un’onda di fango che attacca tutti\ni Pokémon nelle vicinanze. Può anche avvelenarli.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The user strikes everything around it\nby swamping the area with a giant sludge wave.\nThis may also poison those hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　波で　自分の\n周りに　いるものを　攻撃する。\n毒状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　なみで　じぶんの\nまわりに　いるものを　こうげきする。\nどく　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "오물 파도로 자신의\n주위에 있는 포켓몬을 공격한다.\n독 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "用污泥波攻擊\n自己周圍所有的寶可夢。\n有時會讓對手陷入中毒狀態。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Une vague de détritus attaque tous les Pokémon\nautour du lanceur. Peut aussi empoisonner.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Greift Pokémon in der Nähe des Anwenders mit einer\nSchlammwelle an. Diese werden eventuell vergiftet.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Lancia un’onda di fango che attacca tutti\ni Pokémon nelle vicinanze. Può anche avvelenarli.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　波で　自分の\n周りに　いるものを　攻撃する。\n毒状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "用污泥波攻击\n自己周围所有的宝可梦。\n有时会陷入中毒状态。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　なみで　じぶんの\nまわりに　いるものを　こうげきする。\nどく　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "오물 파도로 자신의\n주위에 있는 포켓몬을 공격한다.\n독 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "用污泥波攻擊\n自己周圍所有的寶可夢。\n有時會讓對手陷入中毒狀態。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Une vague de détritus attaque tous les Pokémon\nautour du lanceur. Peut aussi empoisonner.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Greift Pokémon in der Nähe des Anwenders mit einer\nSchlammwelle an. Diese werden eventuell vergiftet.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Lancia un’onda di fango che attacca tutti\ni Pokémon nelle vicinanze. Può anche avvelenarli.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　波で　自分の\n周りに　いるものを　攻撃する。\n毒状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "用污泥波攻击\n自己周围所有的宝可梦。\n有时会陷入中毒状态。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　なみで　じぶんの\nまわりに　いるものを　こうげきする。\nどく　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "오물 파도로 자신의\n주위에 있는 포켓몬을 공격한다.\n독 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "用污泥波攻擊\n自己周圍所有的寶可夢。\n有時會讓對手陷入中毒狀態。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Une vague de détritus attaque tous les Pokémon\nautour du lanceur. Peut aussi empoisonner.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Greift Pokémon in der Nähe des Anwenders mit einer\nSchlammwelle an. Diese werden eventuell vergiftet.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Lancia un’onda di fango che attacca tutti\ni Pokémon nelle vicinanze. Può anche avvelenarli.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　波で　自分の\n周りに　いるものを　攻撃する。\n毒状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "用污泥波攻击\n自己周围所有的宝可梦。\n有时会陷入中毒状态。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　なみで　じぶんの\nまわりに　いるものを　こうげきする。\nどく　じょうたいに　することが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "오물 파도로 자신의\n주위에 있는 포켓몬을 공격한다.\n독 상태로 만들 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "用污泥波攻擊\n自己周圍所有的寶可夢。\n有時會讓對手陷入中毒狀態。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Une vague de détritus attaque tous les Pokémon\nautour du lanceur. Peut aussi empoisonner.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Greift alle Pokémon im Umkreis mit einer Schlammwelle\nan. Diese werden eventuell auch vergiftet.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de alrededor.\nPuede envenenar.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Lancia un’onda di fango che attacca tutti\ni Pokémon nelle vicinanze. Può anche avvelenarli.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user strikes everything around it by swamping\nthe area with a giant sludge wave. This may also\npoison those hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "ヘドロの　波で　自分の\n周りに　いるものを　攻撃する。\n毒状態に　することが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "用污泥波攻击\n自己周围所有的宝可梦。\n有时会陷入中毒状态。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Una onda tóxica que daña a los Pokémon de alrededor.\nPuede envenenar.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those it hits.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "venusaur",
+      "url": "/api/v2/pokemon/3/"
+    },
+    {
+      "name": "ekans",
+      "url": "/api/v2/pokemon/23/"
+    },
+    {
+      "name": "arbok",
+      "url": "/api/v2/pokemon/24/"
+    },
+    {
+      "name": "nidoqueen",
+      "url": "/api/v2/pokemon/31/"
+    },
+    {
+      "name": "nidoking",
+      "url": "/api/v2/pokemon/34/"
+    },
+    {
+      "name": "vileplume",
+      "url": "/api/v2/pokemon/45/"
+    },
+    {
+      "name": "venomoth",
+      "url": "/api/v2/pokemon/49/"
+    },
+    {
+      "name": "dugtrio",
+      "url": "/api/v2/pokemon/51/"
+    },
+    {
+      "name": "bellsprout",
+      "url": "/api/v2/pokemon/69/"
+    },
+    {
+      "name": "weepinbell",
+      "url": "/api/v2/pokemon/70/"
+    },
+    {
+      "name": "victreebel",
+      "url": "/api/v2/pokemon/71/"
+    },
+    {
+      "name": "tentacool",
+      "url": "/api/v2/pokemon/72/"
+    },
+    {
+      "name": "tentacruel",
+      "url": "/api/v2/pokemon/73/"
+    },
+    {
+      "name": "grimer",
+      "url": "/api/v2/pokemon/88/"
+    },
+    {
+      "name": "muk",
+      "url": "/api/v2/pokemon/89/"
+    },
+    {
+      "name": "gastly",
+      "url": "/api/v2/pokemon/92/"
+    },
+    {
+      "name": "haunter",
+      "url": "/api/v2/pokemon/93/"
+    },
+    {
+      "name": "gengar",
+      "url": "/api/v2/pokemon/94/"
+    },
+    {
+      "name": "koffing",
+      "url": "/api/v2/pokemon/109/"
+    },
+    {
+      "name": "weezing",
+      "url": "/api/v2/pokemon/110/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "spinarak",
+      "url": "/api/v2/pokemon/167/"
+    },
+    {
+      "name": "ariados",
+      "url": "/api/v2/pokemon/168/"
+    },
+    {
+      "name": "wooper",
+      "url": "/api/v2/pokemon/194/"
+    },
+    {
+      "name": "quagsire",
+      "url": "/api/v2/pokemon/195/"
+    },
+    {
+      "name": "qwilfish",
+      "url": "/api/v2/pokemon/211/"
+    },
+    {
+      "name": "shuckle",
+      "url": "/api/v2/pokemon/213/"
+    },
+    {
+      "name": "octillery",
+      "url": "/api/v2/pokemon/224/"
+    },
+    {
+      "name": "mudkip",
+      "url": "/api/v2/pokemon/258/"
+    },
+    {
+      "name": "marshtomp",
+      "url": "/api/v2/pokemon/259/"
+    },
+    {
+      "name": "swampert",
+      "url": "/api/v2/pokemon/260/"
+    },
+    {
+      "name": "gulpin",
+      "url": "/api/v2/pokemon/316/"
+    },
+    {
+      "name": "swalot",
+      "url": "/api/v2/pokemon/317/"
+    },
+    {
+      "name": "seviper",
+      "url": "/api/v2/pokemon/336/"
+    },
+    {
+      "name": "crawdaunt",
+      "url": "/api/v2/pokemon/342/"
+    },
+    {
+      "name": "cradily",
+      "url": "/api/v2/pokemon/346/"
+    },
+    {
+      "name": "gastrodon",
+      "url": "/api/v2/pokemon/423/"
+    },
+    {
+      "name": "stunky",
+      "url": "/api/v2/pokemon/434/"
+    },
+    {
+      "name": "skuntank",
+      "url": "/api/v2/pokemon/435/"
+    },
+    {
+      "name": "croagunk",
+      "url": "/api/v2/pokemon/453/"
+    },
+    {
+      "name": "toxicroak",
+      "url": "/api/v2/pokemon/454/"
+    },
+    {
+      "name": "tympole",
+      "url": "/api/v2/pokemon/535/"
+    },
+    {
+      "name": "palpitoad",
+      "url": "/api/v2/pokemon/536/"
+    },
+    {
+      "name": "seismitoad",
+      "url": "/api/v2/pokemon/537/"
+    },
+    {
+      "name": "trubbish",
+      "url": "/api/v2/pokemon/568/"
+    },
+    {
+      "name": "garbodor",
+      "url": "/api/v2/pokemon/569/"
+    },
+    {
+      "name": "frillish-male",
+      "url": "/api/v2/pokemon/592/"
+    },
+    {
+      "name": "jellicent-male",
+      "url": "/api/v2/pokemon/593/"
+    },
+    {
+      "name": "stunfisk",
+      "url": "/api/v2/pokemon/618/"
+    },
+    {
+      "name": "tornadus-incarnate",
+      "url": "/api/v2/pokemon/641/"
+    },
+    {
+      "name": "thundurus-incarnate",
+      "url": "/api/v2/pokemon/642/"
+    },
+    {
+      "name": "landorus-incarnate",
+      "url": "/api/v2/pokemon/645/"
+    },
+    {
+      "name": "greninja",
+      "url": "/api/v2/pokemon/658/"
+    },
+    {
+      "name": "binacle",
+      "url": "/api/v2/pokemon/688/"
+    },
+    {
+      "name": "barbaracle",
+      "url": "/api/v2/pokemon/689/"
+    },
+    {
+      "name": "skrelp",
+      "url": "/api/v2/pokemon/690/"
+    },
+    {
+      "name": "dragalge",
+      "url": "/api/v2/pokemon/691/"
+    },
+    {
+      "name": "clauncher",
+      "url": "/api/v2/pokemon/692/"
+    },
+    {
+      "name": "clawitzer",
+      "url": "/api/v2/pokemon/693/"
+    },
+    {
+      "name": "goomy",
+      "url": "/api/v2/pokemon/704/"
+    },
+    {
+      "name": "sliggoo",
+      "url": "/api/v2/pokemon/705/"
+    },
+    {
+      "name": "goodra",
+      "url": "/api/v2/pokemon/706/"
+    },
+    {
+      "name": "zygarde-50",
+      "url": "/api/v2/pokemon/718/"
+    },
+    {
+      "name": "volcanion",
+      "url": "/api/v2/pokemon/721/"
+    },
+    {
+      "name": "mareanie",
+      "url": "/api/v2/pokemon/747/"
+    },
+    {
+      "name": "toxapex",
+      "url": "/api/v2/pokemon/748/"
+    },
+    {
+      "name": "salandit",
+      "url": "/api/v2/pokemon/757/"
+    },
+    {
+      "name": "salazzle",
+      "url": "/api/v2/pokemon/758/"
+    },
+    {
+      "name": "golisopod",
+      "url": "/api/v2/pokemon/768/"
+    },
+    {
+      "name": "dhelmise",
+      "url": "/api/v2/pokemon/781/"
+    },
+    {
+      "name": "nihilego",
+      "url": "/api/v2/pokemon/793/"
+    },
+    {
+      "name": "guzzlord",
+      "url": "/api/v2/pokemon/799/"
+    },
+    {
+      "name": "poipole",
+      "url": "/api/v2/pokemon/803/"
+    },
+    {
+      "name": "naganadel",
+      "url": "/api/v2/pokemon/804/"
+    },
+    {
+      "name": "toxtricity-amped",
+      "url": "/api/v2/pokemon/849/"
+    },
+    {
+      "name": "eternatus",
+      "url": "/api/v2/pokemon/890/"
+    },
+    {
+      "name": "sneasler",
+      "url": "/api/v2/pokemon/903/"
+    },
+    {
+      "name": "overqwil",
+      "url": "/api/v2/pokemon/904/"
+    },
+    {
+      "name": "shroodle",
+      "url": "/api/v2/pokemon/944/"
+    },
+    {
+      "name": "grafaiai",
+      "url": "/api/v2/pokemon/945/"
+    },
+    {
+      "name": "varoom",
+      "url": "/api/v2/pokemon/965/"
+    },
+    {
+      "name": "revavroom",
+      "url": "/api/v2/pokemon/966/"
+    },
+    {
+      "name": "glimmet",
+      "url": "/api/v2/pokemon/969/"
+    },
+    {
+      "name": "glimmora",
+      "url": "/api/v2/pokemon/970/"
+    },
+    {
+      "name": "clodsire",
+      "url": "/api/v2/pokemon/980/"
+    },
+    {
+      "name": "iron-moth",
+      "url": "/api/v2/pokemon/994/"
+    },
+    {
+      "name": "okidogi",
+      "url": "/api/v2/pokemon/1014/"
+    },
+    {
+      "name": "munkidori",
+      "url": "/api/v2/pokemon/1015/"
+    },
+    {
+      "name": "pecharunt",
+      "url": "/api/v2/pokemon/1025/"
+    },
+    {
+      "name": "tornadus-therian",
+      "url": "/api/v2/pokemon/10019/"
+    },
+    {
+      "name": "thundurus-therian",
+      "url": "/api/v2/pokemon/10020/"
+    },
+    {
+      "name": "landorus-therian",
+      "url": "/api/v2/pokemon/10021/"
+    },
+    {
+      "name": "venusaur-mega",
+      "url": "/api/v2/pokemon/10033/"
+    },
+    {
+      "name": "gengar-mega",
+      "url": "/api/v2/pokemon/10038/"
+    },
+    {
+      "name": "swampert-mega",
+      "url": "/api/v2/pokemon/10064/"
+    },
+    {
+      "name": "raticate-alola",
+      "url": "/api/v2/pokemon/10092/"
+    },
+    {
+      "name": "raticate-totem-alola",
+      "url": "/api/v2/pokemon/10093/"
+    },
+    {
+      "name": "dugtrio-alola",
+      "url": "/api/v2/pokemon/10106/"
+    },
+    {
+      "name": "grimer-alola",
+      "url": "/api/v2/pokemon/10112/"
+    },
+    {
+      "name": "muk-alola",
+      "url": "/api/v2/pokemon/10113/"
+    },
+    {
+      "name": "zygarde-10-power-construct",
+      "url": "/api/v2/pokemon/10118/"
+    },
+    {
+      "name": "zygarde-50-power-construct",
+      "url": "/api/v2/pokemon/10119/"
+    },
+    {
+      "name": "zygarde-complete",
+      "url": "/api/v2/pokemon/10120/"
+    },
+    {
+      "name": "salazzle-totem",
+      "url": "/api/v2/pokemon/10129/"
+    },
+    {
+      "name": "slowbro-galar",
+      "url": "/api/v2/pokemon/10165/"
+    },
+    {
+      "name": "weezing-galar",
+      "url": "/api/v2/pokemon/10167/"
+    },
+    {
+      "name": "slowking-galar",
+      "url": "/api/v2/pokemon/10172/"
+    },
+    {
+      "name": "stunfisk-galar",
+      "url": "/api/v2/pokemon/10180/"
+    },
+    {
+      "name": "zygarde-10",
+      "url": "/api/v2/pokemon/10181/"
+    },
+    {
+      "name": "toxtricity-low-key",
+      "url": "/api/v2/pokemon/10184/"
+    },
+    {
+      "name": "eternatus-eternamax",
+      "url": "/api/v2/pokemon/10190/"
+    },
+    {
+      "name": "sneasel-hisui",
+      "url": "/api/v2/pokemon/10235/"
+    },
+    {
+      "name": "sliggoo-hisui",
+      "url": "/api/v2/pokemon/10241/"
+    },
+    {
+      "name": "goodra-hisui",
+      "url": "/api/v2/pokemon/10242/"
+    },
+    {
+      "name": "wooper-paldea",
+      "url": "/api/v2/pokemon/10253/"
+    },
+    {
+      "name": "victreebel-mega",
+      "url": "/api/v2/pokemon/10279/"
+    },
+    {
+      "name": "greninja-mega",
+      "url": "/api/v2/pokemon/10294/"
+    },
+    {
+      "name": "barbaracle-mega",
+      "url": "/api/v2/pokemon/10298/"
+    },
+    {
+      "name": "dragalge-mega",
+      "url": "/api/v2/pokemon/10299/"
+    },
+    {
+      "name": "glimmora-mega",
+      "url": "/api/v2/pokemon/10321/"
+    }
+  ]
 }

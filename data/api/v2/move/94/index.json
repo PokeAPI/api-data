@@ -1,2579 +1,2579 @@
 {
-    "accuracy": 100,
-    "contest_combos": {
-        "normal": {
-            "use_after": [
-                {
-                    "name": "confusion",
-                    "url": "/api/v2/move/93/"
-                },
-                {
-                    "name": "kinesis",
-                    "url": "/api/v2/move/134/"
-                },
-                {
-                    "name": "calm-mind",
-                    "url": "/api/v2/move/347/"
-                }
-            ],
-            "use_before": [
-                {
-                    "name": "confusion",
-                    "url": "/api/v2/move/93/"
-                },
-                {
-                    "name": "teleport",
-                    "url": "/api/v2/move/100/"
-                },
-                {
-                    "name": "kinesis",
-                    "url": "/api/v2/move/134/"
-                },
-                {
-                    "name": "future-sight",
-                    "url": "/api/v2/move/248/"
-                }
-            ]
+  "id": 94,
+  "name": "psychic",
+  "accuracy": 100,
+  "effect_chance": 10,
+  "pp": 10,
+  "priority": 0,
+  "power": 90,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "confusion",
+          "url": "/api/v2/move/93/"
         },
-        "super": {
-            "use_after": null,
-            "use_before": null
+        {
+          "name": "teleport",
+          "url": "/api/v2/move/100/"
+        },
+        {
+          "name": "kinesis",
+          "url": "/api/v2/move/134/"
+        },
+        {
+          "name": "future-sight",
+          "url": "/api/v2/move/248/"
         }
-    },
-    "contest_effect": {
-        "url": "/api/v2/contest-effect/5/"
-    },
-    "contest_type": {
-        "name": "smart",
-        "url": "/api/v2/contest-type/4/"
-    },
-    "damage_class": {
-        "name": "special",
-        "url": "/api/v2/move-damage-class/3/"
-    },
-    "effect_chance": 10,
-    "effect_changes": [],
-    "effect_entries": [
+      ],
+      "use_after": [
         {
-            "effect": "Inflige des d\u00e9gats r\u00e9guliers.  A une chance de diminuer la D\u00e9fense Sp\u00e9ciale de la cible d'un niveau.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "short_effect": "A une chance de diminuer la D\u00e9fense Sp\u00e9ciale de la cible d'un niveau."
+          "name": "confusion",
+          "url": "/api/v2/move/93/"
         },
         {
-            "effect": "Inflicts regular damage.  Has a chance to lower the target\u2019s Special Defense by one stage.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "short_effect": "Has a chance to lower the target\u2019s Special Defense by one stage."
+          "name": "kinesis",
+          "url": "/api/v2/move/134/"
+        },
+        {
+          "name": "calm-mind",
+          "url": "/api/v2/move/347/"
         }
-    ],
-    "flavor_text_entries": [
-        {
-            "flavor_text": "An attack that may\nlower SPCL.DEF.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "flavor_text": "An attack that may\nlower SPCL.DEF.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "flavor_text": "A powerful psychic attack\nthat may lower SP. DEF.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "flavor_text": "A powerful psychic attack\nthat may lower SP. DEF.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "flavor_text": "A strong telekinetic\nattack. It may also\nlower the foe\u2019s\nSP. DEF stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "flavor_text": "The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe\u2019s\nSp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "flavor_text": "The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe\u2019s\nSp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "flavor_text": "The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe\u2019s\nSp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "flavor_text": "Une puissante force t\u00e9l\u00e9kin\u00e9sique\nfrappe l\u2019ennemi. Peut aussi faire\nbaisser sa D\u00e9fense Sp\u00e9ciale.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit by a strong telekinetic\nforce. It may also reduce the target\u2019s\nSp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit by a strong telekinetic\nforce. It may also reduce the target\u2019s\nSp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u3088\u3044\u3000\u306d\u3093\u308a\u304d\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304a\u304f\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\uac15\ud55c \uc5fc\ub3d9\ub825\uc744 \uc0c1\ub300\uc5d0\uac8c \ubcf4\ub0b4\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Une puissante force t\u00e9l\u00e9kin\u00e9sique frappe l\u2019ennemi.\nPeut aussi faire baisser sa D\u00e9fense Sp\u00e9ciale.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che pu\u00f2 anche ridurne\nla Difesa Speciale.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit by a strong telekinetic\nforce. This may also lower the target\u2019s\nSp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u5f37\u3044\u3000\u5ff5\u529b\u3092\u3000\u76f8\u624b\u306b\u3000\u9001\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u3088\u3044\u3000\u306d\u3093\u308a\u304d\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304a\u304f\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\uac15\ud55c \uc5fc\ub3d9\ub825\uc744 \uc0c1\ub300\uc5d0\uac8c \ubcf4\ub0b4\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Une puissante force t\u00e9l\u00e9kin\u00e9tique frappe l\u2019ennemi.\nPeut aussi faire baisser sa D\u00e9fense Sp\u00e9ciale.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che pu\u00f2 anche ridurne\nla Difesa Speciale.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit by a strong telekinetic\nforce. This may also lower the target\u2019s\nSp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u5f37\u3044\u3000\u5ff5\u529b\u3092\u3000\u76f8\u624b\u306b\u3000\u9001\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u3088\u3044\u3000\u306d\u3093\u308a\u304d\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304a\u304f\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\uac15\ud55c \uc5fc\ub3d9\ub825\uc744 \uc0c1\ub300\uc5d0\uac8c \ubcf4\ub0b4\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u767c\u9001\n\u5f37\u5927\u7684\u5ff5\u529b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u964d\u4f4e\u5c0d\u624b\u7684\u7279\u9632\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Une puissante force t\u00e9l\u00e9kin\u00e9tique frappe l\u2019ennemi.\nPeut aussi faire baisser sa D\u00e9fense Sp\u00e9ciale.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che pu\u00f2 anche ridurne\nla Difesa Speciale.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit by a strong telekinetic force.\nThis may also lower the target\u2019s Sp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5f37\u3044\u3000\u5ff5\u529b\u3092\u3000\u76f8\u624b\u306b\u3000\u9001\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5bf9\u624b\u53d1\u9001\n\u5f3a\u5927\u7684\u5ff5\u529b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u964d\u4f4e\u5bf9\u624b\u7684\u7279\u9632\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u3088\u3044\u3000\u306d\u3093\u308a\u304d\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304a\u304f\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\uac15\ud55c \uc5fc\ub3d9\ub825\uc744 \uc0c1\ub300\uc5d0\uac8c \ubcf4\ub0b4\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u767c\u9001\n\u5f37\u5927\u7684\u5ff5\u529b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u964d\u4f4e\u5c0d\u624b\u7684\u7279\u9632\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Une puissante force t\u00e9l\u00e9kin\u00e9tique frappe l\u2019ennemi.\nPeut aussi faire baisser sa D\u00e9fense Sp\u00e9ciale.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che pu\u00f2 anche ridurne\nla Difesa Speciale.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit by a strong telekinetic force.\nThis may also lower the target\u2019s Sp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5f37\u3044\u3000\u5ff5\u529b\u3092\u3000\u76f8\u624b\u306b\u3000\u9001\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5bf9\u624b\u53d1\u9001\n\u5f3a\u5927\u7684\u5ff5\u529b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u964d\u4f4e\u5bf9\u624b\u7684\u7279\u9632\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u3088\u3044\u3000\u306d\u3093\u308a\u304d\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304a\u304f\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\uac15\ud55c \uc5fc\ub3d9\ub825\uc744 \uc0c1\ub300\uc5d0\uac8c \ubcf4\ub0b4\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u767c\u9001\n\u5f37\u5927\u7684\u5ff5\u529b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u964d\u4f4e\u5c0d\u624b\u7684\u7279\u9632\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Une puissante force t\u00e9l\u00e9kin\u00e9tique frappe l\u2019ennemi.\nPeut aussi faire baisser sa D\u00e9fense Sp\u00e9ciale.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che pu\u00f2 anche ridurne\nla Difesa Speciale.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit by a strong telekinetic force.\nThis may also lower the target\u2019s Sp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5f37\u3044\u3000\u5ff5\u529b\u3092\u3000\u76f8\u624b\u306b\u3000\u9001\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5bf9\u624b\u53d1\u9001\n\u5f3a\u5927\u7684\u5ff5\u529b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u964d\u4f4e\u5bf9\u624b\u7684\u7279\u9632\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "flavor_text": "\u3064\u3088\u3044\u3000\u306d\u3093\u308a\u304d\u3092\u3000\u3042\u3044\u3066\u306b\u3000\u304a\u304f\u3063\u3066\n\u3053\u3046\u3052\u304d\u3059\u308b\u3002\u3000\u3042\u3044\u3066\u306e\u3000\u3068\u304f\u307c\u3046\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\uac15\ud55c \uc5fc\ub3d9\ub825\uc744 \uc0c1\ub300\uc5d0\uac8c \ubcf4\ub0b4\uc5b4\n\uacf5\uaca9\ud55c\ub2e4. \uc0c1\ub300\uc758 \ud2b9\uc218\ubc29\uc5b4\ub97c\n\ub5a8\uc5b4\ub728\ub9b4 \ub54c\uac00 \uc788\ub2e4.",
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5c0d\u624b\u767c\u9001\n\u5f37\u5927\u7684\u5ff5\u529b\u9032\u884c\u653b\u64ca\u3002\n\u6709\u6642\u6703\u964d\u4f4e\u5c0d\u624b\u7684\u7279\u9632\u3002",
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Une puissante force t\u00e9l\u00e9kin\u00e9tique frappe l\u2019ennemi.\nPeut aussi faire baisser sa D\u00e9fense Sp\u00e9ciale.",
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che pu\u00f2 anche ridurne\nla Difesa Speciale.",
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit by a strong telekinetic force.\nThis may also lower the target\u2019s Sp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5f37\u3044\u3000\u5ff5\u529b\u3092\u3000\u76f8\u624b\u306b\u3000\u9001\u3063\u3066\n\u653b\u6483\u3059\u308b\u3002\u3000\u76f8\u624b\u306e\u3000\u7279\u9632\u3092\n\u3055\u3052\u308b\u3053\u3068\u304c\u3000\u3042\u308b\u3002",
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "\u5411\u5bf9\u624b\u53d1\u9001\n\u5f3a\u5927\u7684\u5ff5\u529b\u8fdb\u884c\u653b\u51fb\u3002\n\u6709\u65f6\u4f1a\u964d\u4f4e\u5bf9\u624b\u7684\u7279\u9632\u3002",
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "Fuerte ataque telequin\u00e9tico que puede bajar la\nDefensa Especial del objetivo.",
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target\u2019s defensive stats.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "legends-arceus",
-                "url": "/api/v2/version-group/24/"
-            }
-        },
-        {
-            "flavor_text": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target\u2019s Sp. Def stat.",
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        }
-    ],
-    "generation": {
-        "name": "generation-i",
-        "url": "/api/v2/generation/1/"
+      ]
     },
-    "id": 94,
-    "learned_by_pokemon": [
-        {
-            "name": "butterfree",
-            "url": "/api/v2/pokemon/12/"
-        },
-        {
-            "name": "clefairy",
-            "url": "/api/v2/pokemon/35/"
-        },
-        {
-            "name": "clefable",
-            "url": "/api/v2/pokemon/36/"
-        },
-        {
-            "name": "jigglypuff",
-            "url": "/api/v2/pokemon/39/"
-        },
-        {
-            "name": "wigglytuff",
-            "url": "/api/v2/pokemon/40/"
-        },
-        {
-            "name": "venonat",
-            "url": "/api/v2/pokemon/48/"
-        },
-        {
-            "name": "venomoth",
-            "url": "/api/v2/pokemon/49/"
-        },
-        {
-            "name": "psyduck",
-            "url": "/api/v2/pokemon/54/"
-        },
-        {
-            "name": "golduck",
-            "url": "/api/v2/pokemon/55/"
-        },
-        {
-            "name": "poliwag",
-            "url": "/api/v2/pokemon/60/"
-        },
-        {
-            "name": "poliwhirl",
-            "url": "/api/v2/pokemon/61/"
-        },
-        {
-            "name": "poliwrath",
-            "url": "/api/v2/pokemon/62/"
-        },
-        {
-            "name": "abra",
-            "url": "/api/v2/pokemon/63/"
-        },
-        {
-            "name": "kadabra",
-            "url": "/api/v2/pokemon/64/"
-        },
-        {
-            "name": "alakazam",
-            "url": "/api/v2/pokemon/65/"
-        },
-        {
-            "name": "slowpoke",
-            "url": "/api/v2/pokemon/79/"
-        },
-        {
-            "name": "slowbro",
-            "url": "/api/v2/pokemon/80/"
-        },
-        {
-            "name": "gastly",
-            "url": "/api/v2/pokemon/92/"
-        },
-        {
-            "name": "haunter",
-            "url": "/api/v2/pokemon/93/"
-        },
-        {
-            "name": "gengar",
-            "url": "/api/v2/pokemon/94/"
-        },
-        {
-            "name": "drowzee",
-            "url": "/api/v2/pokemon/96/"
-        },
-        {
-            "name": "hypno",
-            "url": "/api/v2/pokemon/97/"
-        },
-        {
-            "name": "exeggcute",
-            "url": "/api/v2/pokemon/102/"
-        },
-        {
-            "name": "exeggutor",
-            "url": "/api/v2/pokemon/103/"
-        },
-        {
-            "name": "chansey",
-            "url": "/api/v2/pokemon/113/"
-        },
-        {
-            "name": "staryu",
-            "url": "/api/v2/pokemon/120/"
-        },
-        {
-            "name": "starmie",
-            "url": "/api/v2/pokemon/121/"
-        },
-        {
-            "name": "mr-mime",
-            "url": "/api/v2/pokemon/122/"
-        },
-        {
-            "name": "jynx",
-            "url": "/api/v2/pokemon/124/"
-        },
-        {
-            "name": "electabuzz",
-            "url": "/api/v2/pokemon/125/"
-        },
-        {
-            "name": "magmar",
-            "url": "/api/v2/pokemon/126/"
-        },
-        {
-            "name": "lapras",
-            "url": "/api/v2/pokemon/131/"
-        },
-        {
-            "name": "porygon",
-            "url": "/api/v2/pokemon/137/"
-        },
-        {
-            "name": "snorlax",
-            "url": "/api/v2/pokemon/143/"
-        },
-        {
-            "name": "mewtwo",
-            "url": "/api/v2/pokemon/150/"
-        },
-        {
-            "name": "mew",
-            "url": "/api/v2/pokemon/151/"
-        },
-        {
-            "name": "hoothoot",
-            "url": "/api/v2/pokemon/163/"
-        },
-        {
-            "name": "noctowl",
-            "url": "/api/v2/pokemon/164/"
-        },
-        {
-            "name": "spinarak",
-            "url": "/api/v2/pokemon/167/"
-        },
-        {
-            "name": "ariados",
-            "url": "/api/v2/pokemon/168/"
-        },
-        {
-            "name": "cleffa",
-            "url": "/api/v2/pokemon/173/"
-        },
-        {
-            "name": "igglybuff",
-            "url": "/api/v2/pokemon/174/"
-        },
-        {
-            "name": "togepi",
-            "url": "/api/v2/pokemon/175/"
-        },
-        {
-            "name": "togetic",
-            "url": "/api/v2/pokemon/176/"
-        },
-        {
-            "name": "natu",
-            "url": "/api/v2/pokemon/177/"
-        },
-        {
-            "name": "xatu",
-            "url": "/api/v2/pokemon/178/"
-        },
-        {
-            "name": "politoed",
-            "url": "/api/v2/pokemon/186/"
-        },
-        {
-            "name": "yanma",
-            "url": "/api/v2/pokemon/193/"
-        },
-        {
-            "name": "espeon",
-            "url": "/api/v2/pokemon/196/"
-        },
-        {
-            "name": "umbreon",
-            "url": "/api/v2/pokemon/197/"
-        },
-        {
-            "name": "murkrow",
-            "url": "/api/v2/pokemon/198/"
-        },
-        {
-            "name": "slowking",
-            "url": "/api/v2/pokemon/199/"
-        },
-        {
-            "name": "misdreavus",
-            "url": "/api/v2/pokemon/200/"
-        },
-        {
-            "name": "girafarig",
-            "url": "/api/v2/pokemon/203/"
-        },
-        {
-            "name": "corsola",
-            "url": "/api/v2/pokemon/222/"
-        },
-        {
-            "name": "remoraid",
-            "url": "/api/v2/pokemon/223/"
-        },
-        {
-            "name": "octillery",
-            "url": "/api/v2/pokemon/224/"
-        },
-        {
-            "name": "porygon2",
-            "url": "/api/v2/pokemon/233/"
-        },
-        {
-            "name": "stantler",
-            "url": "/api/v2/pokemon/234/"
-        },
-        {
-            "name": "smoochum",
-            "url": "/api/v2/pokemon/238/"
-        },
-        {
-            "name": "elekid",
-            "url": "/api/v2/pokemon/239/"
-        },
-        {
-            "name": "magby",
-            "url": "/api/v2/pokemon/240/"
-        },
-        {
-            "name": "blissey",
-            "url": "/api/v2/pokemon/242/"
-        },
-        {
-            "name": "lugia",
-            "url": "/api/v2/pokemon/249/"
-        },
-        {
-            "name": "ho-oh",
-            "url": "/api/v2/pokemon/250/"
-        },
-        {
-            "name": "celebi",
-            "url": "/api/v2/pokemon/251/"
-        },
-        {
-            "name": "beautifly",
-            "url": "/api/v2/pokemon/267/"
-        },
-        {
-            "name": "dustox",
-            "url": "/api/v2/pokemon/269/"
-        },
-        {
-            "name": "ralts",
-            "url": "/api/v2/pokemon/280/"
-        },
-        {
-            "name": "kirlia",
-            "url": "/api/v2/pokemon/281/"
-        },
-        {
-            "name": "gardevoir",
-            "url": "/api/v2/pokemon/282/"
-        },
-        {
-            "name": "sableye",
-            "url": "/api/v2/pokemon/302/"
-        },
-        {
-            "name": "meditite",
-            "url": "/api/v2/pokemon/307/"
-        },
-        {
-            "name": "medicham",
-            "url": "/api/v2/pokemon/308/"
-        },
-        {
-            "name": "spoink",
-            "url": "/api/v2/pokemon/325/"
-        },
-        {
-            "name": "grumpig",
-            "url": "/api/v2/pokemon/326/"
-        },
-        {
-            "name": "spinda",
-            "url": "/api/v2/pokemon/327/"
-        },
-        {
-            "name": "lunatone",
-            "url": "/api/v2/pokemon/337/"
-        },
-        {
-            "name": "solrock",
-            "url": "/api/v2/pokemon/338/"
-        },
-        {
-            "name": "baltoy",
-            "url": "/api/v2/pokemon/343/"
-        },
-        {
-            "name": "claydol",
-            "url": "/api/v2/pokemon/344/"
-        },
-        {
-            "name": "shuppet",
-            "url": "/api/v2/pokemon/353/"
-        },
-        {
-            "name": "banette",
-            "url": "/api/v2/pokemon/354/"
-        },
-        {
-            "name": "duskull",
-            "url": "/api/v2/pokemon/355/"
-        },
-        {
-            "name": "dusclops",
-            "url": "/api/v2/pokemon/356/"
-        },
-        {
-            "name": "chimecho",
-            "url": "/api/v2/pokemon/358/"
-        },
-        {
-            "name": "gorebyss",
-            "url": "/api/v2/pokemon/368/"
-        },
-        {
-            "name": "metang",
-            "url": "/api/v2/pokemon/375/"
-        },
-        {
-            "name": "metagross",
-            "url": "/api/v2/pokemon/376/"
-        },
-        {
-            "name": "latias",
-            "url": "/api/v2/pokemon/380/"
-        },
-        {
-            "name": "latios",
-            "url": "/api/v2/pokemon/381/"
-        },
-        {
-            "name": "jirachi",
-            "url": "/api/v2/pokemon/385/"
-        },
-        {
-            "name": "deoxys-normal",
-            "url": "/api/v2/pokemon/386/"
-        },
-        {
-            "name": "wormadam-plant",
-            "url": "/api/v2/pokemon/413/"
-        },
-        {
-            "name": "mothim",
-            "url": "/api/v2/pokemon/414/"
-        },
-        {
-            "name": "drifloon",
-            "url": "/api/v2/pokemon/425/"
-        },
-        {
-            "name": "drifblim",
-            "url": "/api/v2/pokemon/426/"
-        },
-        {
-            "name": "mismagius",
-            "url": "/api/v2/pokemon/429/"
-        },
-        {
-            "name": "honchkrow",
-            "url": "/api/v2/pokemon/430/"
-        },
-        {
-            "name": "chingling",
-            "url": "/api/v2/pokemon/433/"
-        },
-        {
-            "name": "bronzor",
-            "url": "/api/v2/pokemon/436/"
-        },
-        {
-            "name": "bronzong",
-            "url": "/api/v2/pokemon/437/"
-        },
-        {
-            "name": "mime-jr",
-            "url": "/api/v2/pokemon/439/"
-        },
-        {
-            "name": "happiny",
-            "url": "/api/v2/pokemon/440/"
-        },
-        {
-            "name": "spiritomb",
-            "url": "/api/v2/pokemon/442/"
-        },
-        {
-            "name": "munchlax",
-            "url": "/api/v2/pokemon/446/"
-        },
-        {
-            "name": "lucario",
-            "url": "/api/v2/pokemon/448/"
-        },
-        {
-            "name": "electivire",
-            "url": "/api/v2/pokemon/466/"
-        },
-        {
-            "name": "magmortar",
-            "url": "/api/v2/pokemon/467/"
-        },
-        {
-            "name": "togekiss",
-            "url": "/api/v2/pokemon/468/"
-        },
-        {
-            "name": "yanmega",
-            "url": "/api/v2/pokemon/469/"
-        },
-        {
-            "name": "porygon-z",
-            "url": "/api/v2/pokemon/474/"
-        },
-        {
-            "name": "gallade",
-            "url": "/api/v2/pokemon/475/"
-        },
-        {
-            "name": "dusknoir",
-            "url": "/api/v2/pokemon/477/"
-        },
-        {
-            "name": "froslass",
-            "url": "/api/v2/pokemon/478/"
-        },
-        {
-            "name": "uxie",
-            "url": "/api/v2/pokemon/480/"
-        },
-        {
-            "name": "mesprit",
-            "url": "/api/v2/pokemon/481/"
-        },
-        {
-            "name": "azelf",
-            "url": "/api/v2/pokemon/482/"
-        },
-        {
-            "name": "giratina-altered",
-            "url": "/api/v2/pokemon/487/"
-        },
-        {
-            "name": "cresselia",
-            "url": "/api/v2/pokemon/488/"
-        },
-        {
-            "name": "manaphy",
-            "url": "/api/v2/pokemon/490/"
-        },
-        {
-            "name": "darkrai",
-            "url": "/api/v2/pokemon/491/"
-        },
-        {
-            "name": "shaymin-land",
-            "url": "/api/v2/pokemon/492/"
-        },
-        {
-            "name": "arceus",
-            "url": "/api/v2/pokemon/493/"
-        },
-        {
-            "name": "victini",
-            "url": "/api/v2/pokemon/494/"
-        },
-        {
-            "name": "munna",
-            "url": "/api/v2/pokemon/517/"
-        },
-        {
-            "name": "musharna",
-            "url": "/api/v2/pokemon/518/"
-        },
-        {
-            "name": "woobat",
-            "url": "/api/v2/pokemon/527/"
-        },
-        {
-            "name": "swoobat",
-            "url": "/api/v2/pokemon/528/"
-        },
-        {
-            "name": "audino",
-            "url": "/api/v2/pokemon/531/"
-        },
-        {
-            "name": "whimsicott",
-            "url": "/api/v2/pokemon/547/"
-        },
-        {
-            "name": "darmanitan-standard",
-            "url": "/api/v2/pokemon/555/"
-        },
-        {
-            "name": "sigilyph",
-            "url": "/api/v2/pokemon/561/"
-        },
-        {
-            "name": "yamask",
-            "url": "/api/v2/pokemon/562/"
-        },
-        {
-            "name": "cofagrigus",
-            "url": "/api/v2/pokemon/563/"
-        },
-        {
-            "name": "garbodor",
-            "url": "/api/v2/pokemon/569/"
-        },
-        {
-            "name": "zoroark",
-            "url": "/api/v2/pokemon/571/"
-        },
-        {
-            "name": "gothita",
-            "url": "/api/v2/pokemon/574/"
-        },
-        {
-            "name": "gothorita",
-            "url": "/api/v2/pokemon/575/"
-        },
-        {
-            "name": "gothitelle",
-            "url": "/api/v2/pokemon/576/"
-        },
-        {
-            "name": "solosis",
-            "url": "/api/v2/pokemon/577/"
-        },
-        {
-            "name": "duosion",
-            "url": "/api/v2/pokemon/578/"
-        },
-        {
-            "name": "reuniclus",
-            "url": "/api/v2/pokemon/579/"
-        },
-        {
-            "name": "frillish-male",
-            "url": "/api/v2/pokemon/592/"
-        },
-        {
-            "name": "jellicent-male",
-            "url": "/api/v2/pokemon/593/"
-        },
-        {
-            "name": "alomomola",
-            "url": "/api/v2/pokemon/594/"
-        },
-        {
-            "name": "elgyem",
-            "url": "/api/v2/pokemon/605/"
-        },
-        {
-            "name": "beheeyem",
-            "url": "/api/v2/pokemon/606/"
-        },
-        {
-            "name": "litwick",
-            "url": "/api/v2/pokemon/607/"
-        },
-        {
-            "name": "lampent",
-            "url": "/api/v2/pokemon/608/"
-        },
-        {
-            "name": "chandelure",
-            "url": "/api/v2/pokemon/609/"
-        },
-        {
-            "name": "golett",
-            "url": "/api/v2/pokemon/622/"
-        },
-        {
-            "name": "golurk",
-            "url": "/api/v2/pokemon/623/"
-        },
-        {
-            "name": "larvesta",
-            "url": "/api/v2/pokemon/636/"
-        },
-        {
-            "name": "volcarona",
-            "url": "/api/v2/pokemon/637/"
-        },
-        {
-            "name": "tornadus-incarnate",
-            "url": "/api/v2/pokemon/641/"
-        },
-        {
-            "name": "thundurus-incarnate",
-            "url": "/api/v2/pokemon/642/"
-        },
-        {
-            "name": "reshiram",
-            "url": "/api/v2/pokemon/643/"
-        },
-        {
-            "name": "zekrom",
-            "url": "/api/v2/pokemon/644/"
-        },
-        {
-            "name": "landorus-incarnate",
-            "url": "/api/v2/pokemon/645/"
-        },
-        {
-            "name": "kyurem",
-            "url": "/api/v2/pokemon/646/"
-        },
-        {
-            "name": "meloetta-aria",
-            "url": "/api/v2/pokemon/648/"
-        },
-        {
-            "name": "genesect",
-            "url": "/api/v2/pokemon/649/"
-        },
-        {
-            "name": "fennekin",
-            "url": "/api/v2/pokemon/653/"
-        },
-        {
-            "name": "braixen",
-            "url": "/api/v2/pokemon/654/"
-        },
-        {
-            "name": "delphox",
-            "url": "/api/v2/pokemon/655/"
-        },
-        {
-            "name": "vivillon",
-            "url": "/api/v2/pokemon/666/"
-        },
-        {
-            "name": "flabebe",
-            "url": "/api/v2/pokemon/669/"
-        },
-        {
-            "name": "floette",
-            "url": "/api/v2/pokemon/670/"
-        },
-        {
-            "name": "florges",
-            "url": "/api/v2/pokemon/671/"
-        },
-        {
-            "name": "espurr",
-            "url": "/api/v2/pokemon/677/"
-        },
-        {
-            "name": "meowstic-male",
-            "url": "/api/v2/pokemon/678/"
-        },
-        {
-            "name": "spritzee",
-            "url": "/api/v2/pokemon/682/"
-        },
-        {
-            "name": "aromatisse",
-            "url": "/api/v2/pokemon/683/"
-        },
-        {
-            "name": "swirlix",
-            "url": "/api/v2/pokemon/684/"
-        },
-        {
-            "name": "slurpuff",
-            "url": "/api/v2/pokemon/685/"
-        },
-        {
-            "name": "inkay",
-            "url": "/api/v2/pokemon/686/"
-        },
-        {
-            "name": "malamar",
-            "url": "/api/v2/pokemon/687/"
-        },
-        {
-            "name": "aurorus",
-            "url": "/api/v2/pokemon/699/"
-        },
-        {
-            "name": "sylveon",
-            "url": "/api/v2/pokemon/700/"
-        },
-        {
-            "name": "carbink",
-            "url": "/api/v2/pokemon/703/"
-        },
-        {
-            "name": "klefki",
-            "url": "/api/v2/pokemon/707/"
-        },
-        {
-            "name": "phantump",
-            "url": "/api/v2/pokemon/708/"
-        },
-        {
-            "name": "trevenant",
-            "url": "/api/v2/pokemon/709/"
-        },
-        {
-            "name": "pumpkaboo-average",
-            "url": "/api/v2/pokemon/710/"
-        },
-        {
-            "name": "gourgeist-average",
-            "url": "/api/v2/pokemon/711/"
-        },
-        {
-            "name": "noibat",
-            "url": "/api/v2/pokemon/714/"
-        },
-        {
-            "name": "noivern",
-            "url": "/api/v2/pokemon/715/"
-        },
-        {
-            "name": "xerneas",
-            "url": "/api/v2/pokemon/716/"
-        },
-        {
-            "name": "yveltal",
-            "url": "/api/v2/pokemon/717/"
-        },
-        {
-            "name": "diancie",
-            "url": "/api/v2/pokemon/719/"
-        },
-        {
-            "name": "hoopa",
-            "url": "/api/v2/pokemon/720/"
-        },
-        {
-            "name": "primarina",
-            "url": "/api/v2/pokemon/730/"
-        },
-        {
-            "name": "cutiefly",
-            "url": "/api/v2/pokemon/742/"
-        },
-        {
-            "name": "ribombee",
-            "url": "/api/v2/pokemon/743/"
-        },
-        {
-            "name": "oranguru",
-            "url": "/api/v2/pokemon/765/"
-        },
-        {
-            "name": "sandygast",
-            "url": "/api/v2/pokemon/769/"
-        },
-        {
-            "name": "palossand",
-            "url": "/api/v2/pokemon/770/"
-        },
-        {
-            "name": "minior-red-meteor",
-            "url": "/api/v2/pokemon/774/"
-        },
-        {
-            "name": "mimikyu-disguised",
-            "url": "/api/v2/pokemon/778/"
-        },
-        {
-            "name": "bruxish",
-            "url": "/api/v2/pokemon/779/"
-        },
-        {
-            "name": "tapu-lele",
-            "url": "/api/v2/pokemon/786/"
-        },
-        {
-            "name": "solgaleo",
-            "url": "/api/v2/pokemon/791/"
-        },
-        {
-            "name": "lunala",
-            "url": "/api/v2/pokemon/792/"
-        },
-        {
-            "name": "nihilego",
-            "url": "/api/v2/pokemon/793/"
-        },
-        {
-            "name": "necrozma",
-            "url": "/api/v2/pokemon/800/"
-        },
-        {
-            "name": "magearna",
-            "url": "/api/v2/pokemon/801/"
-        },
-        {
-            "name": "blacephalon",
-            "url": "/api/v2/pokemon/806/"
-        },
-        {
-            "name": "dottler",
-            "url": "/api/v2/pokemon/825/"
-        },
-        {
-            "name": "orbeetle",
-            "url": "/api/v2/pokemon/826/"
-        },
-        {
-            "name": "thievul",
-            "url": "/api/v2/pokemon/828/"
-        },
-        {
-            "name": "sinistea",
-            "url": "/api/v2/pokemon/854/"
-        },
-        {
-            "name": "polteageist",
-            "url": "/api/v2/pokemon/855/"
-        },
-        {
-            "name": "hatenna",
-            "url": "/api/v2/pokemon/856/"
-        },
-        {
-            "name": "hattrem",
-            "url": "/api/v2/pokemon/857/"
-        },
-        {
-            "name": "hatterene",
-            "url": "/api/v2/pokemon/858/"
-        },
-        {
-            "name": "cursola",
-            "url": "/api/v2/pokemon/864/"
-        },
-        {
-            "name": "mr-rime",
-            "url": "/api/v2/pokemon/866/"
-        },
-        {
-            "name": "runerigus",
-            "url": "/api/v2/pokemon/867/"
-        },
-        {
-            "name": "alcremie",
-            "url": "/api/v2/pokemon/869/"
-        },
-        {
-            "name": "indeedee-male",
-            "url": "/api/v2/pokemon/876/"
-        },
-        {
-            "name": "spectrier",
-            "url": "/api/v2/pokemon/897/"
-        },
-        {
-            "name": "calyrex",
-            "url": "/api/v2/pokemon/898/"
-        },
-        {
-            "name": "wyrdeer",
-            "url": "/api/v2/pokemon/899/"
-        },
-        {
-            "name": "enamorus-incarnate",
-            "url": "/api/v2/pokemon/905/"
-        },
-        {
-            "name": "armarouge",
-            "url": "/api/v2/pokemon/936/"
-        },
-        {
-            "name": "rabsca",
-            "url": "/api/v2/pokemon/954/"
-        },
-        {
-            "name": "flittle",
-            "url": "/api/v2/pokemon/955/"
-        },
-        {
-            "name": "espathra",
-            "url": "/api/v2/pokemon/956/"
-        },
-        {
-            "name": "veluza",
-            "url": "/api/v2/pokemon/976/"
-        },
-        {
-            "name": "farigiraf",
-            "url": "/api/v2/pokemon/981/"
-        },
-        {
-            "name": "scream-tail",
-            "url": "/api/v2/pokemon/985/"
-        },
-        {
-            "name": "iron-moth",
-            "url": "/api/v2/pokemon/994/"
-        },
-        {
-            "name": "gholdengo",
-            "url": "/api/v2/pokemon/1000/"
-        },
-        {
-            "name": "chi-yu",
-            "url": "/api/v2/pokemon/1004/"
-        },
-        {
-            "name": "iron-valiant",
-            "url": "/api/v2/pokemon/1006/"
-        },
-        {
-            "name": "munkidori",
-            "url": "/api/v2/pokemon/1015/"
-        },
-        {
-            "name": "iron-boulder",
-            "url": "/api/v2/pokemon/1022/"
-        },
-        {
-            "name": "iron-crown",
-            "url": "/api/v2/pokemon/1023/"
-        },
-        {
-            "name": "deoxys-attack",
-            "url": "/api/v2/pokemon/10001/"
-        },
-        {
-            "name": "deoxys-defense",
-            "url": "/api/v2/pokemon/10002/"
-        },
-        {
-            "name": "deoxys-speed",
-            "url": "/api/v2/pokemon/10003/"
-        },
-        {
-            "name": "wormadam-sandy",
-            "url": "/api/v2/pokemon/10004/"
-        },
-        {
-            "name": "wormadam-trash",
-            "url": "/api/v2/pokemon/10005/"
-        },
-        {
-            "name": "shaymin-sky",
-            "url": "/api/v2/pokemon/10006/"
-        },
-        {
-            "name": "giratina-origin",
-            "url": "/api/v2/pokemon/10007/"
-        },
-        {
-            "name": "darmanitan-zen",
-            "url": "/api/v2/pokemon/10017/"
-        },
-        {
-            "name": "meloetta-pirouette",
-            "url": "/api/v2/pokemon/10018/"
-        },
-        {
-            "name": "tornadus-therian",
-            "url": "/api/v2/pokemon/10019/"
-        },
-        {
-            "name": "thundurus-therian",
-            "url": "/api/v2/pokemon/10020/"
-        },
-        {
-            "name": "landorus-therian",
-            "url": "/api/v2/pokemon/10021/"
-        },
-        {
-            "name": "kyurem-black",
-            "url": "/api/v2/pokemon/10022/"
-        },
-        {
-            "name": "kyurem-white",
-            "url": "/api/v2/pokemon/10023/"
-        },
-        {
-            "name": "meowstic-female",
-            "url": "/api/v2/pokemon/10025/"
-        },
-        {
-            "name": "pumpkaboo-small",
-            "url": "/api/v2/pokemon/10027/"
-        },
-        {
-            "name": "pumpkaboo-large",
-            "url": "/api/v2/pokemon/10028/"
-        },
-        {
-            "name": "pumpkaboo-super",
-            "url": "/api/v2/pokemon/10029/"
-        },
-        {
-            "name": "gourgeist-small",
-            "url": "/api/v2/pokemon/10030/"
-        },
-        {
-            "name": "gourgeist-large",
-            "url": "/api/v2/pokemon/10031/"
-        },
-        {
-            "name": "gourgeist-super",
-            "url": "/api/v2/pokemon/10032/"
-        },
-        {
-            "name": "alakazam-mega",
-            "url": "/api/v2/pokemon/10037/"
-        },
-        {
-            "name": "gengar-mega",
-            "url": "/api/v2/pokemon/10038/"
-        },
-        {
-            "name": "mewtwo-mega-x",
-            "url": "/api/v2/pokemon/10043/"
-        },
-        {
-            "name": "mewtwo-mega-y",
-            "url": "/api/v2/pokemon/10044/"
-        },
-        {
-            "name": "gardevoir-mega",
-            "url": "/api/v2/pokemon/10051/"
-        },
-        {
-            "name": "medicham-mega",
-            "url": "/api/v2/pokemon/10054/"
-        },
-        {
-            "name": "banette-mega",
-            "url": "/api/v2/pokemon/10056/"
-        },
-        {
-            "name": "lucario-mega",
-            "url": "/api/v2/pokemon/10059/"
-        },
-        {
-            "name": "floette-eternal",
-            "url": "/api/v2/pokemon/10061/"
-        },
-        {
-            "name": "latias-mega",
-            "url": "/api/v2/pokemon/10062/"
-        },
-        {
-            "name": "latios-mega",
-            "url": "/api/v2/pokemon/10063/"
-        },
-        {
-            "name": "sableye-mega",
-            "url": "/api/v2/pokemon/10066/"
-        },
-        {
-            "name": "gallade-mega",
-            "url": "/api/v2/pokemon/10068/"
-        },
-        {
-            "name": "audino-mega",
-            "url": "/api/v2/pokemon/10069/"
-        },
-        {
-            "name": "slowbro-mega",
-            "url": "/api/v2/pokemon/10071/"
-        },
-        {
-            "name": "diancie-mega",
-            "url": "/api/v2/pokemon/10075/"
-        },
-        {
-            "name": "metagross-mega",
-            "url": "/api/v2/pokemon/10076/"
-        },
-        {
-            "name": "hoopa-unbound",
-            "url": "/api/v2/pokemon/10086/"
-        },
-        {
-            "name": "raichu-alola",
-            "url": "/api/v2/pokemon/10100/"
-        },
-        {
-            "name": "exeggutor-alola",
-            "url": "/api/v2/pokemon/10114/"
-        },
-        {
-            "name": "minior-orange-meteor",
-            "url": "/api/v2/pokemon/10130/"
-        },
-        {
-            "name": "minior-yellow-meteor",
-            "url": "/api/v2/pokemon/10131/"
-        },
-        {
-            "name": "minior-green-meteor",
-            "url": "/api/v2/pokemon/10132/"
-        },
-        {
-            "name": "minior-blue-meteor",
-            "url": "/api/v2/pokemon/10133/"
-        },
-        {
-            "name": "minior-indigo-meteor",
-            "url": "/api/v2/pokemon/10134/"
-        },
-        {
-            "name": "minior-violet-meteor",
-            "url": "/api/v2/pokemon/10135/"
-        },
-        {
-            "name": "minior-red",
-            "url": "/api/v2/pokemon/10136/"
-        },
-        {
-            "name": "minior-orange",
-            "url": "/api/v2/pokemon/10137/"
-        },
-        {
-            "name": "minior-yellow",
-            "url": "/api/v2/pokemon/10138/"
-        },
-        {
-            "name": "minior-green",
-            "url": "/api/v2/pokemon/10139/"
-        },
-        {
-            "name": "minior-blue",
-            "url": "/api/v2/pokemon/10140/"
-        },
-        {
-            "name": "minior-indigo",
-            "url": "/api/v2/pokemon/10141/"
-        },
-        {
-            "name": "minior-violet",
-            "url": "/api/v2/pokemon/10142/"
-        },
-        {
-            "name": "mimikyu-busted",
-            "url": "/api/v2/pokemon/10143/"
-        },
-        {
-            "name": "mimikyu-totem-disguised",
-            "url": "/api/v2/pokemon/10144/"
-        },
-        {
-            "name": "mimikyu-totem-busted",
-            "url": "/api/v2/pokemon/10145/"
-        },
-        {
-            "name": "magearna-original",
-            "url": "/api/v2/pokemon/10147/"
-        },
-        {
-            "name": "ribombee-totem",
-            "url": "/api/v2/pokemon/10150/"
-        },
-        {
-            "name": "necrozma-dusk",
-            "url": "/api/v2/pokemon/10155/"
-        },
-        {
-            "name": "necrozma-dawn",
-            "url": "/api/v2/pokemon/10156/"
-        },
-        {
-            "name": "necrozma-ultra",
-            "url": "/api/v2/pokemon/10157/"
-        },
-        {
-            "name": "ponyta-galar",
-            "url": "/api/v2/pokemon/10162/"
-        },
-        {
-            "name": "rapidash-galar",
-            "url": "/api/v2/pokemon/10163/"
-        },
-        {
-            "name": "slowpoke-galar",
-            "url": "/api/v2/pokemon/10164/"
-        },
-        {
-            "name": "slowbro-galar",
-            "url": "/api/v2/pokemon/10165/"
-        },
-        {
-            "name": "mr-mime-galar",
-            "url": "/api/v2/pokemon/10168/"
-        },
-        {
-            "name": "articuno-galar",
-            "url": "/api/v2/pokemon/10169/"
-        },
-        {
-            "name": "slowking-galar",
-            "url": "/api/v2/pokemon/10172/"
-        },
-        {
-            "name": "corsola-galar",
-            "url": "/api/v2/pokemon/10173/"
-        },
-        {
-            "name": "darmanitan-galar-standard",
-            "url": "/api/v2/pokemon/10177/"
-        },
-        {
-            "name": "darmanitan-galar-zen",
-            "url": "/api/v2/pokemon/10178/"
-        },
-        {
-            "name": "yamask-galar",
-            "url": "/api/v2/pokemon/10179/"
-        },
-        {
-            "name": "indeedee-female",
-            "url": "/api/v2/pokemon/10186/"
-        },
-        {
-            "name": "calyrex-ice",
-            "url": "/api/v2/pokemon/10193/"
-        },
-        {
-            "name": "calyrex-shadow",
-            "url": "/api/v2/pokemon/10194/"
-        },
-        {
-            "name": "zoroark-hisui",
-            "url": "/api/v2/pokemon/10239/"
-        },
-        {
-            "name": "braviary-hisui",
-            "url": "/api/v2/pokemon/10240/"
-        },
-        {
-            "name": "enamorus-therian",
-            "url": "/api/v2/pokemon/10249/"
-        },
-        {
-            "name": "clefable-mega",
-            "url": "/api/v2/pokemon/10278/"
-        },
-        {
-            "name": "starmie-mega",
-            "url": "/api/v2/pokemon/10280/"
-        },
-        {
-            "name": "froslass-mega",
-            "url": "/api/v2/pokemon/10285/"
-        },
-        {
-            "name": "chandelure-mega",
-            "url": "/api/v2/pokemon/10291/"
-        },
-        {
-            "name": "delphox-mega",
-            "url": "/api/v2/pokemon/10293/"
-        },
-        {
-            "name": "floette-mega",
-            "url": "/api/v2/pokemon/10296/"
-        },
-        {
-            "name": "malamar-mega",
-            "url": "/api/v2/pokemon/10297/"
-        },
-        {
-            "name": "chimecho-mega",
-            "url": "/api/v2/pokemon/10306/"
-        },
-        {
-            "name": "golurk-mega",
-            "url": "/api/v2/pokemon/10313/"
-        },
-        {
-            "name": "meowstic-male-mega",
-            "url": "/api/v2/pokemon/10314/"
-        },
-        {
-            "name": "meowstic-female-mega",
-            "url": "/api/v2/pokemon/10326/"
-        }
-    ],
-    "machines": [
-        {
-            "machine": {
-                "url": "/api/v2/machine/618/"
-            },
-            "version_group": {
-                "name": "red-blue",
-                "url": "/api/v2/version-group/1/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/619/"
-            },
-            "version_group": {
-                "name": "yellow",
-                "url": "/api/v2/version-group/2/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/620/"
-            },
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/621/"
-            },
-            "version_group": {
-                "name": "crystal",
-                "url": "/api/v2/version-group/4/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/622/"
-            },
-            "version_group": {
-                "name": "ruby-sapphire",
-                "url": "/api/v2/version-group/5/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/623/"
-            },
-            "version_group": {
-                "name": "emerald",
-                "url": "/api/v2/version-group/6/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/624/"
-            },
-            "version_group": {
-                "name": "firered-leafgreen",
-                "url": "/api/v2/version-group/7/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/625/"
-            },
-            "version_group": {
-                "name": "diamond-pearl",
-                "url": "/api/v2/version-group/8/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/626/"
-            },
-            "version_group": {
-                "name": "platinum",
-                "url": "/api/v2/version-group/9/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/627/"
-            },
-            "version_group": {
-                "name": "heartgold-soulsilver",
-                "url": "/api/v2/version-group/10/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/628/"
-            },
-            "version_group": {
-                "name": "black-white",
-                "url": "/api/v2/version-group/11/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/629/"
-            },
-            "version_group": {
-                "name": "colosseum",
-                "url": "/api/v2/version-group/12/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/630/"
-            },
-            "version_group": {
-                "name": "xd",
-                "url": "/api/v2/version-group/13/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/631/"
-            },
-            "version_group": {
-                "name": "black-2-white-2",
-                "url": "/api/v2/version-group/14/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/632/"
-            },
-            "version_group": {
-                "name": "x-y",
-                "url": "/api/v2/version-group/15/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/633/"
-            },
-            "version_group": {
-                "name": "omega-ruby-alpha-sapphire",
-                "url": "/api/v2/version-group/16/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/634/"
-            },
-            "version_group": {
-                "name": "sun-moon",
-                "url": "/api/v2/version-group/17/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/635/"
-            },
-            "version_group": {
-                "name": "ultra-sun-ultra-moon",
-                "url": "/api/v2/version-group/18/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/638/"
-            },
-            "version_group": {
-                "name": "red-green-japan",
-                "url": "/api/v2/version-group/28/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/639/"
-            },
-            "version_group": {
-                "name": "blue-japan",
-                "url": "/api/v2/version-group/29/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/878/"
-            },
-            "version_group": {
-                "name": "lets-go-pikachu-lets-go-eevee",
-                "url": "/api/v2/version-group/19/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1710/"
-            },
-            "version_group": {
-                "name": "sword-shield",
-                "url": "/api/v2/version-group/20/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/1935/"
-            },
-            "version_group": {
-                "name": "scarlet-violet",
-                "url": "/api/v2/version-group/25/"
-            }
-        },
-        {
-            "machine": {
-                "url": "/api/v2/machine/2275/"
-            },
-            "version_group": {
-                "name": "legends-za",
-                "url": "/api/v2/version-group/30/"
-            }
-        }
-    ],
-    "meta": {
-        "ailment": {
-            "name": "none",
-            "url": "/api/v2/move-ailment/0/"
-        },
-        "ailment_chance": 0,
-        "category": {
-            "name": "damage-lower",
-            "url": "/api/v2/move-category/6/"
-        },
-        "crit_rate": 0,
-        "drain": 0,
-        "flinch_chance": 0,
-        "healing": 0,
-        "max_hits": null,
-        "max_turns": null,
-        "min_hits": null,
-        "min_turns": null,
-        "stat_chance": 10
-    },
-    "name": "psychic",
-    "names": [
-        {
-            "language": {
-                "name": "ja-hrkt",
-                "url": "/api/v2/language/1/"
-            },
-            "name": "\u30b5\u30a4\u30b3\u30ad\u30cd\u30b7\u30b9"
-        },
-        {
-            "language": {
-                "name": "ko",
-                "url": "/api/v2/language/3/"
-            },
-            "name": "\uc0ac\uc774\ucf54\ud0a4\ub124\uc2dc\uc2a4"
-        },
-        {
-            "language": {
-                "name": "zh-hant",
-                "url": "/api/v2/language/4/"
-            },
-            "name": "\u7cbe\u795e\u5f37\u5ff5"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Psyko"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Psychokinese"
-        },
-        {
-            "language": {
-                "name": "es",
-                "url": "/api/v2/language/7/"
-            },
-            "name": "Ps\u00edquico"
-        },
-        {
-            "language": {
-                "name": "it",
-                "url": "/api/v2/language/8/"
-            },
-            "name": "Psichico"
-        },
-        {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Psychic"
-        },
-        {
-            "language": {
-                "name": "ja",
-                "url": "/api/v2/language/11/"
-            },
-            "name": "\u30b5\u30a4\u30b3\u30ad\u30cd\u30b7\u30b9"
-        },
-        {
-            "language": {
-                "name": "zh-hans",
-                "url": "/api/v2/language/12/"
-            },
-            "name": "\u7cbe\u795e\u5f3a\u5ff5"
-        },
-        {
-            "language": {
-                "name": "es-419",
-                "url": "/api/v2/language/14/"
-            },
-            "name": "Fuerza Ps\u00edquica"
-        }
-    ],
-    "past_values": [
-        {
-            "accuracy": null,
-            "effect_chance": null,
-            "effect_entries": [],
-            "power": null,
-            "pp": null,
-            "type": null,
-            "version_group": {
-                "name": "gold-silver",
-                "url": "/api/v2/version-group/3/"
-            }
-        }
-    ],
-    "power": 90,
-    "pp": 10,
-    "priority": 0,
-    "stat_changes": [
-        {
-            "change": -1,
-            "stat": {
-                "name": "special-defense",
-                "url": "/api/v2/stat/5/"
-            }
-        }
-    ],
-    "super_contest_effect": {
-        "url": "/api/v2/super-contest-effect/17/"
-    },
-    "target": {
-        "name": "selected-pokemon",
-        "url": "/api/v2/move-target/10/"
-    },
-    "type": {
-        "name": "psychic",
-        "url": "/api/v2/type/14/"
+    "super": {
+      "use_before": null,
+      "use_after": null
     }
+  },
+  "contest_type": {
+    "name": "smart",
+    "url": "/api/v2/contest-type/4/"
+  },
+  "contest_effect": {
+    "url": "/api/v2/contest-effect/5/"
+  },
+  "damage_class": {
+    "name": "special",
+    "url": "/api/v2/move-damage-class/3/"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflige des dégats réguliers.  A une chance de diminuer la Défense Spéciale de la cible d'un niveau.",
+      "short_effect": "A une chance de diminuer la Défense Spéciale de la cible d'un niveau.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "effect": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+      "short_effect": "Has a chance to lower the target’s Special Defense by one stage.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i",
+    "url": "/api/v2/generation/1/"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none",
+      "url": "/api/v2/move-ailment/0/"
+    },
+    "category": {
+      "name": "damage-lower",
+      "url": "/api/v2/move-category/6/"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 10
+  },
+  "names": [
+    {
+      "name": "サイコキネシス",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      }
+    },
+    {
+      "name": "사이코키네시스",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      }
+    },
+    {
+      "name": "精神強念",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      }
+    },
+    {
+      "name": "Psyko",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    },
+    {
+      "name": "Psychokinese",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Psíquico",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      }
+    },
+    {
+      "name": "Psichico",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      }
+    },
+    {
+      "name": "Psychic",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
+    },
+    {
+      "name": "サイコキネシス",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      }
+    },
+    {
+      "name": "精神强念",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      }
+    },
+    {
+      "name": "Fuerza Psíquica",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      }
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": null,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    }
+  ],
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": {
+        "name": "special-defense",
+        "url": "/api/v2/stat/5/"
+      }
+    }
+  ],
+  "super_contest_effect": {
+    "url": "/api/v2/super-contest-effect/17/"
+  },
+  "target": {
+    "name": "selected-pokemon",
+    "url": "/api/v2/move-target/10/"
+  },
+  "type": {
+    "name": "psychic",
+    "url": "/api/v2/type/14/"
+  },
+  "machines": [
+    {
+      "machine": {
+        "url": "/api/v2/machine/618/"
+      },
+      "version_group": {
+        "name": "red-blue",
+        "url": "/api/v2/version-group/1/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/619/"
+      },
+      "version_group": {
+        "name": "yellow",
+        "url": "/api/v2/version-group/2/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/620/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/621/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/622/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/623/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/624/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/625/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/626/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/627/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/628/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/629/"
+      },
+      "version_group": {
+        "name": "colosseum",
+        "url": "/api/v2/version-group/12/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/630/"
+      },
+      "version_group": {
+        "name": "xd",
+        "url": "/api/v2/version-group/13/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/631/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/632/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/633/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/634/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/635/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/638/"
+      },
+      "version_group": {
+        "name": "red-green-japan",
+        "url": "/api/v2/version-group/28/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/639/"
+      },
+      "version_group": {
+        "name": "blue-japan",
+        "url": "/api/v2/version-group/29/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/878/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1710/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/1935/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    },
+    {
+      "machine": {
+        "url": "/api/v2/machine/2275/"
+      },
+      "version_group": {
+        "name": "legends-za",
+        "url": "/api/v2/version-group/30/"
+      }
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "An attack that may\nlower SPCL.DEF.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "gold-silver",
+        "url": "/api/v2/version-group/3/"
+      }
+    },
+    {
+      "flavor_text": "An attack that may\nlower SPCL.DEF.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "crystal",
+        "url": "/api/v2/version-group/4/"
+      }
+    },
+    {
+      "flavor_text": "A powerful psychic attack\nthat may lower SP. DEF.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ruby-sapphire",
+        "url": "/api/v2/version-group/5/"
+      }
+    },
+    {
+      "flavor_text": "A powerful psychic attack\nthat may lower SP. DEF.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "emerald",
+        "url": "/api/v2/version-group/6/"
+      }
+    },
+    {
+      "flavor_text": "A strong telekinetic\nattack. It may also\nlower the foe’s\nSP. DEF stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "firered-leafgreen",
+        "url": "/api/v2/version-group/7/"
+      }
+    },
+    {
+      "flavor_text": "The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe’s\nSp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "diamond-pearl",
+        "url": "/api/v2/version-group/8/"
+      }
+    },
+    {
+      "flavor_text": "The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe’s\nSp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "platinum",
+        "url": "/api/v2/version-group/9/"
+      }
+    },
+    {
+      "flavor_text": "The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe’s\nSp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "/api/v2/version-group/10/"
+      }
+    },
+    {
+      "flavor_text": "Une puissante force télékinésique\nfrappe l’ennemi. Peut aussi faire\nbaisser sa Défense Spéciale.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit by a strong telekinetic\nforce. It may also reduce the target’s\nSp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-white",
+        "url": "/api/v2/version-group/11/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit by a strong telekinetic\nforce. It may also reduce the target’s\nSp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "black-2-white-2",
+        "url": "/api/v2/version-group/14/"
+      }
+    },
+    {
+      "flavor_text": "つよい　ねんりきを　あいてに　おくって\nこうげきする。あいての　とくぼうを\nさげることが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "강한 염동력을 상대에게 보내어\n공격한다. 상대의 특수방어를\n떨어뜨릴 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Une puissante force télékinésique frappe l’ennemi.\nPeut aussi faire baisser sa Défense Spéciale.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che può anche ridurne\nla Difesa Speciale.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit by a strong telekinetic\nforce. This may also lower the target’s\nSp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "強い　念力を　相手に　送って\n攻撃する。相手の　特防を\nさげることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "x-y",
+        "url": "/api/v2/version-group/15/"
+      }
+    },
+    {
+      "flavor_text": "つよい　ねんりきを　あいてに　おくって\nこうげきする。あいての　とくぼうを\nさげることが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "강한 염동력을 상대에게 보내어\n공격한다. 상대의 특수방어를\n떨어뜨릴 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Une puissante force télékinétique frappe l’ennemi.\nPeut aussi faire baisser sa Défense Spéciale.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che può anche ridurne\nla Difesa Speciale.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit by a strong telekinetic\nforce. This may also lower the target’s\nSp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "強い　念力を　相手に　送って\n攻撃する。相手の　特防を\nさげることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "/api/v2/version-group/16/"
+      }
+    },
+    {
+      "flavor_text": "つよい　ねんりきを　あいてに　おくって\nこうげきする。　あいての　とくぼうを\nさげることが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "강한 염동력을 상대에게 보내어\n공격한다. 상대의 특수방어를\n떨어뜨릴 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "向對手發送\n強大的念力進行攻擊。\n有時會降低對手的特防。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Une puissante force télékinétique frappe l’ennemi.\nPeut aussi faire baisser sa Défense Spéciale.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che può anche ridurne\nla Difesa Speciale.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit by a strong telekinetic force.\nThis may also lower the target’s Sp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "強い　念力を　相手に　送って\n攻撃する。　相手の　特防を\nさげることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "向对手发送\n强大的念力进行攻击。\n有时会降低对手的特防。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sun-moon",
+        "url": "/api/v2/version-group/17/"
+      }
+    },
+    {
+      "flavor_text": "つよい　ねんりきを　あいてに　おくって\nこうげきする。　あいての　とくぼうを\nさげることが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "강한 염동력을 상대에게 보내어\n공격한다. 상대의 특수방어를\n떨어뜨릴 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "向對手發送\n強大的念力進行攻擊。\n有時會降低對手的特防。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Une puissante force télékinétique frappe l’ennemi.\nPeut aussi faire baisser sa Défense Spéciale.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che può anche ridurne\nla Difesa Speciale.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit by a strong telekinetic force.\nThis may also lower the target’s Sp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "強い　念力を　相手に　送って\n攻撃する。　相手の　特防を\nさげることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "向对手发送\n强大的念力进行攻击。\n有时会降低对手的特防。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "ultra-sun-ultra-moon",
+        "url": "/api/v2/version-group/18/"
+      }
+    },
+    {
+      "flavor_text": "つよい　ねんりきを　あいてに　おくって\nこうげきする。　あいての　とくぼうを\nさげることが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "강한 염동력을 상대에게 보내어\n공격한다. 상대의 특수방어를\n떨어뜨릴 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "向對手發送\n強大的念力進行攻擊。\n有時會降低對手的特防。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Une puissante force télékinétique frappe l’ennemi.\nPeut aussi faire baisser sa Défense Spéciale.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che può anche ridurne\nla Difesa Speciale.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit by a strong telekinetic force.\nThis may also lower the target’s Sp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "強い　念力を　相手に　送って\n攻撃する。　相手の　特防を\nさげることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "向对手发送\n强大的念力进行攻击。\n有时会降低对手的特防。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "url": "/api/v2/version-group/19/"
+      }
+    },
+    {
+      "flavor_text": "つよい　ねんりきを　あいてに　おくって\nこうげきする。　あいての　とくぼうを\nさげることが　ある。",
+      "language": {
+        "name": "ja-hrkt",
+        "url": "/api/v2/language/1/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "강한 염동력을 상대에게 보내어\n공격한다. 상대의 특수방어를\n떨어뜨릴 때가 있다.",
+      "language": {
+        "name": "ko",
+        "url": "/api/v2/language/3/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "向對手發送\n強大的念力進行攻擊。\n有時會降低對手的特防。",
+      "language": {
+        "name": "zh-hant",
+        "url": "/api/v2/language/4/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Une puissante force télékinétique frappe l’ennemi.\nPeut aussi faire baisser sa Défense Spéciale.",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Starke Psycho-Attacke, die eventuell die\nSpezial-Verteidigung des Zieles senkt.",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es",
+        "url": "/api/v2/language/7/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Il bersaglio viene colpito da una potente\nforza telecinetica che può anche ridurne\nla Difesa Speciale.",
+      "language": {
+        "name": "it",
+        "url": "/api/v2/language/8/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit by a strong telekinetic force.\nThis may also lower the target’s Sp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "強い　念力を　相手に　送って\n攻撃する。　相手の　特防を\nさげることが　ある。",
+      "language": {
+        "name": "ja",
+        "url": "/api/v2/language/11/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "向对手发送\n强大的念力进行攻击。\n有时会降低对手的特防。",
+      "language": {
+        "name": "zh-hans",
+        "url": "/api/v2/language/12/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo.",
+      "language": {
+        "name": "es-419",
+        "url": "/api/v2/language/14/"
+      },
+      "version_group": {
+        "name": "sword-shield",
+        "url": "/api/v2/version-group/20/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s defensive stats.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "legends-arceus",
+        "url": "/api/v2/version-group/24/"
+      }
+    },
+    {
+      "flavor_text": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat.",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      },
+      "version_group": {
+        "name": "scarlet-violet",
+        "url": "/api/v2/version-group/25/"
+      }
+    }
+  ],
+  "learned_by_pokemon": [
+    {
+      "name": "butterfree",
+      "url": "/api/v2/pokemon/12/"
+    },
+    {
+      "name": "clefairy",
+      "url": "/api/v2/pokemon/35/"
+    },
+    {
+      "name": "clefable",
+      "url": "/api/v2/pokemon/36/"
+    },
+    {
+      "name": "jigglypuff",
+      "url": "/api/v2/pokemon/39/"
+    },
+    {
+      "name": "wigglytuff",
+      "url": "/api/v2/pokemon/40/"
+    },
+    {
+      "name": "venonat",
+      "url": "/api/v2/pokemon/48/"
+    },
+    {
+      "name": "venomoth",
+      "url": "/api/v2/pokemon/49/"
+    },
+    {
+      "name": "psyduck",
+      "url": "/api/v2/pokemon/54/"
+    },
+    {
+      "name": "golduck",
+      "url": "/api/v2/pokemon/55/"
+    },
+    {
+      "name": "poliwag",
+      "url": "/api/v2/pokemon/60/"
+    },
+    {
+      "name": "poliwhirl",
+      "url": "/api/v2/pokemon/61/"
+    },
+    {
+      "name": "poliwrath",
+      "url": "/api/v2/pokemon/62/"
+    },
+    {
+      "name": "abra",
+      "url": "/api/v2/pokemon/63/"
+    },
+    {
+      "name": "kadabra",
+      "url": "/api/v2/pokemon/64/"
+    },
+    {
+      "name": "alakazam",
+      "url": "/api/v2/pokemon/65/"
+    },
+    {
+      "name": "slowpoke",
+      "url": "/api/v2/pokemon/79/"
+    },
+    {
+      "name": "slowbro",
+      "url": "/api/v2/pokemon/80/"
+    },
+    {
+      "name": "gastly",
+      "url": "/api/v2/pokemon/92/"
+    },
+    {
+      "name": "haunter",
+      "url": "/api/v2/pokemon/93/"
+    },
+    {
+      "name": "gengar",
+      "url": "/api/v2/pokemon/94/"
+    },
+    {
+      "name": "drowzee",
+      "url": "/api/v2/pokemon/96/"
+    },
+    {
+      "name": "hypno",
+      "url": "/api/v2/pokemon/97/"
+    },
+    {
+      "name": "exeggcute",
+      "url": "/api/v2/pokemon/102/"
+    },
+    {
+      "name": "exeggutor",
+      "url": "/api/v2/pokemon/103/"
+    },
+    {
+      "name": "chansey",
+      "url": "/api/v2/pokemon/113/"
+    },
+    {
+      "name": "staryu",
+      "url": "/api/v2/pokemon/120/"
+    },
+    {
+      "name": "starmie",
+      "url": "/api/v2/pokemon/121/"
+    },
+    {
+      "name": "mr-mime",
+      "url": "/api/v2/pokemon/122/"
+    },
+    {
+      "name": "jynx",
+      "url": "/api/v2/pokemon/124/"
+    },
+    {
+      "name": "electabuzz",
+      "url": "/api/v2/pokemon/125/"
+    },
+    {
+      "name": "magmar",
+      "url": "/api/v2/pokemon/126/"
+    },
+    {
+      "name": "lapras",
+      "url": "/api/v2/pokemon/131/"
+    },
+    {
+      "name": "porygon",
+      "url": "/api/v2/pokemon/137/"
+    },
+    {
+      "name": "snorlax",
+      "url": "/api/v2/pokemon/143/"
+    },
+    {
+      "name": "mewtwo",
+      "url": "/api/v2/pokemon/150/"
+    },
+    {
+      "name": "mew",
+      "url": "/api/v2/pokemon/151/"
+    },
+    {
+      "name": "hoothoot",
+      "url": "/api/v2/pokemon/163/"
+    },
+    {
+      "name": "noctowl",
+      "url": "/api/v2/pokemon/164/"
+    },
+    {
+      "name": "spinarak",
+      "url": "/api/v2/pokemon/167/"
+    },
+    {
+      "name": "ariados",
+      "url": "/api/v2/pokemon/168/"
+    },
+    {
+      "name": "cleffa",
+      "url": "/api/v2/pokemon/173/"
+    },
+    {
+      "name": "igglybuff",
+      "url": "/api/v2/pokemon/174/"
+    },
+    {
+      "name": "togepi",
+      "url": "/api/v2/pokemon/175/"
+    },
+    {
+      "name": "togetic",
+      "url": "/api/v2/pokemon/176/"
+    },
+    {
+      "name": "natu",
+      "url": "/api/v2/pokemon/177/"
+    },
+    {
+      "name": "xatu",
+      "url": "/api/v2/pokemon/178/"
+    },
+    {
+      "name": "politoed",
+      "url": "/api/v2/pokemon/186/"
+    },
+    {
+      "name": "yanma",
+      "url": "/api/v2/pokemon/193/"
+    },
+    {
+      "name": "espeon",
+      "url": "/api/v2/pokemon/196/"
+    },
+    {
+      "name": "umbreon",
+      "url": "/api/v2/pokemon/197/"
+    },
+    {
+      "name": "murkrow",
+      "url": "/api/v2/pokemon/198/"
+    },
+    {
+      "name": "slowking",
+      "url": "/api/v2/pokemon/199/"
+    },
+    {
+      "name": "misdreavus",
+      "url": "/api/v2/pokemon/200/"
+    },
+    {
+      "name": "girafarig",
+      "url": "/api/v2/pokemon/203/"
+    },
+    {
+      "name": "corsola",
+      "url": "/api/v2/pokemon/222/"
+    },
+    {
+      "name": "remoraid",
+      "url": "/api/v2/pokemon/223/"
+    },
+    {
+      "name": "octillery",
+      "url": "/api/v2/pokemon/224/"
+    },
+    {
+      "name": "porygon2",
+      "url": "/api/v2/pokemon/233/"
+    },
+    {
+      "name": "stantler",
+      "url": "/api/v2/pokemon/234/"
+    },
+    {
+      "name": "smoochum",
+      "url": "/api/v2/pokemon/238/"
+    },
+    {
+      "name": "elekid",
+      "url": "/api/v2/pokemon/239/"
+    },
+    {
+      "name": "magby",
+      "url": "/api/v2/pokemon/240/"
+    },
+    {
+      "name": "blissey",
+      "url": "/api/v2/pokemon/242/"
+    },
+    {
+      "name": "lugia",
+      "url": "/api/v2/pokemon/249/"
+    },
+    {
+      "name": "ho-oh",
+      "url": "/api/v2/pokemon/250/"
+    },
+    {
+      "name": "celebi",
+      "url": "/api/v2/pokemon/251/"
+    },
+    {
+      "name": "beautifly",
+      "url": "/api/v2/pokemon/267/"
+    },
+    {
+      "name": "dustox",
+      "url": "/api/v2/pokemon/269/"
+    },
+    {
+      "name": "ralts",
+      "url": "/api/v2/pokemon/280/"
+    },
+    {
+      "name": "kirlia",
+      "url": "/api/v2/pokemon/281/"
+    },
+    {
+      "name": "gardevoir",
+      "url": "/api/v2/pokemon/282/"
+    },
+    {
+      "name": "sableye",
+      "url": "/api/v2/pokemon/302/"
+    },
+    {
+      "name": "meditite",
+      "url": "/api/v2/pokemon/307/"
+    },
+    {
+      "name": "medicham",
+      "url": "/api/v2/pokemon/308/"
+    },
+    {
+      "name": "spoink",
+      "url": "/api/v2/pokemon/325/"
+    },
+    {
+      "name": "grumpig",
+      "url": "/api/v2/pokemon/326/"
+    },
+    {
+      "name": "spinda",
+      "url": "/api/v2/pokemon/327/"
+    },
+    {
+      "name": "lunatone",
+      "url": "/api/v2/pokemon/337/"
+    },
+    {
+      "name": "solrock",
+      "url": "/api/v2/pokemon/338/"
+    },
+    {
+      "name": "baltoy",
+      "url": "/api/v2/pokemon/343/"
+    },
+    {
+      "name": "claydol",
+      "url": "/api/v2/pokemon/344/"
+    },
+    {
+      "name": "shuppet",
+      "url": "/api/v2/pokemon/353/"
+    },
+    {
+      "name": "banette",
+      "url": "/api/v2/pokemon/354/"
+    },
+    {
+      "name": "duskull",
+      "url": "/api/v2/pokemon/355/"
+    },
+    {
+      "name": "dusclops",
+      "url": "/api/v2/pokemon/356/"
+    },
+    {
+      "name": "chimecho",
+      "url": "/api/v2/pokemon/358/"
+    },
+    {
+      "name": "gorebyss",
+      "url": "/api/v2/pokemon/368/"
+    },
+    {
+      "name": "metang",
+      "url": "/api/v2/pokemon/375/"
+    },
+    {
+      "name": "metagross",
+      "url": "/api/v2/pokemon/376/"
+    },
+    {
+      "name": "latias",
+      "url": "/api/v2/pokemon/380/"
+    },
+    {
+      "name": "latios",
+      "url": "/api/v2/pokemon/381/"
+    },
+    {
+      "name": "jirachi",
+      "url": "/api/v2/pokemon/385/"
+    },
+    {
+      "name": "deoxys-normal",
+      "url": "/api/v2/pokemon/386/"
+    },
+    {
+      "name": "wormadam-plant",
+      "url": "/api/v2/pokemon/413/"
+    },
+    {
+      "name": "mothim",
+      "url": "/api/v2/pokemon/414/"
+    },
+    {
+      "name": "drifloon",
+      "url": "/api/v2/pokemon/425/"
+    },
+    {
+      "name": "drifblim",
+      "url": "/api/v2/pokemon/426/"
+    },
+    {
+      "name": "mismagius",
+      "url": "/api/v2/pokemon/429/"
+    },
+    {
+      "name": "honchkrow",
+      "url": "/api/v2/pokemon/430/"
+    },
+    {
+      "name": "chingling",
+      "url": "/api/v2/pokemon/433/"
+    },
+    {
+      "name": "bronzor",
+      "url": "/api/v2/pokemon/436/"
+    },
+    {
+      "name": "bronzong",
+      "url": "/api/v2/pokemon/437/"
+    },
+    {
+      "name": "mime-jr",
+      "url": "/api/v2/pokemon/439/"
+    },
+    {
+      "name": "happiny",
+      "url": "/api/v2/pokemon/440/"
+    },
+    {
+      "name": "spiritomb",
+      "url": "/api/v2/pokemon/442/"
+    },
+    {
+      "name": "munchlax",
+      "url": "/api/v2/pokemon/446/"
+    },
+    {
+      "name": "lucario",
+      "url": "/api/v2/pokemon/448/"
+    },
+    {
+      "name": "electivire",
+      "url": "/api/v2/pokemon/466/"
+    },
+    {
+      "name": "magmortar",
+      "url": "/api/v2/pokemon/467/"
+    },
+    {
+      "name": "togekiss",
+      "url": "/api/v2/pokemon/468/"
+    },
+    {
+      "name": "yanmega",
+      "url": "/api/v2/pokemon/469/"
+    },
+    {
+      "name": "porygon-z",
+      "url": "/api/v2/pokemon/474/"
+    },
+    {
+      "name": "gallade",
+      "url": "/api/v2/pokemon/475/"
+    },
+    {
+      "name": "dusknoir",
+      "url": "/api/v2/pokemon/477/"
+    },
+    {
+      "name": "froslass",
+      "url": "/api/v2/pokemon/478/"
+    },
+    {
+      "name": "uxie",
+      "url": "/api/v2/pokemon/480/"
+    },
+    {
+      "name": "mesprit",
+      "url": "/api/v2/pokemon/481/"
+    },
+    {
+      "name": "azelf",
+      "url": "/api/v2/pokemon/482/"
+    },
+    {
+      "name": "giratina-altered",
+      "url": "/api/v2/pokemon/487/"
+    },
+    {
+      "name": "cresselia",
+      "url": "/api/v2/pokemon/488/"
+    },
+    {
+      "name": "manaphy",
+      "url": "/api/v2/pokemon/490/"
+    },
+    {
+      "name": "darkrai",
+      "url": "/api/v2/pokemon/491/"
+    },
+    {
+      "name": "shaymin-land",
+      "url": "/api/v2/pokemon/492/"
+    },
+    {
+      "name": "arceus",
+      "url": "/api/v2/pokemon/493/"
+    },
+    {
+      "name": "victini",
+      "url": "/api/v2/pokemon/494/"
+    },
+    {
+      "name": "munna",
+      "url": "/api/v2/pokemon/517/"
+    },
+    {
+      "name": "musharna",
+      "url": "/api/v2/pokemon/518/"
+    },
+    {
+      "name": "woobat",
+      "url": "/api/v2/pokemon/527/"
+    },
+    {
+      "name": "swoobat",
+      "url": "/api/v2/pokemon/528/"
+    },
+    {
+      "name": "audino",
+      "url": "/api/v2/pokemon/531/"
+    },
+    {
+      "name": "whimsicott",
+      "url": "/api/v2/pokemon/547/"
+    },
+    {
+      "name": "darmanitan-standard",
+      "url": "/api/v2/pokemon/555/"
+    },
+    {
+      "name": "sigilyph",
+      "url": "/api/v2/pokemon/561/"
+    },
+    {
+      "name": "yamask",
+      "url": "/api/v2/pokemon/562/"
+    },
+    {
+      "name": "cofagrigus",
+      "url": "/api/v2/pokemon/563/"
+    },
+    {
+      "name": "garbodor",
+      "url": "/api/v2/pokemon/569/"
+    },
+    {
+      "name": "zoroark",
+      "url": "/api/v2/pokemon/571/"
+    },
+    {
+      "name": "gothita",
+      "url": "/api/v2/pokemon/574/"
+    },
+    {
+      "name": "gothorita",
+      "url": "/api/v2/pokemon/575/"
+    },
+    {
+      "name": "gothitelle",
+      "url": "/api/v2/pokemon/576/"
+    },
+    {
+      "name": "solosis",
+      "url": "/api/v2/pokemon/577/"
+    },
+    {
+      "name": "duosion",
+      "url": "/api/v2/pokemon/578/"
+    },
+    {
+      "name": "reuniclus",
+      "url": "/api/v2/pokemon/579/"
+    },
+    {
+      "name": "frillish-male",
+      "url": "/api/v2/pokemon/592/"
+    },
+    {
+      "name": "jellicent-male",
+      "url": "/api/v2/pokemon/593/"
+    },
+    {
+      "name": "alomomola",
+      "url": "/api/v2/pokemon/594/"
+    },
+    {
+      "name": "elgyem",
+      "url": "/api/v2/pokemon/605/"
+    },
+    {
+      "name": "beheeyem",
+      "url": "/api/v2/pokemon/606/"
+    },
+    {
+      "name": "litwick",
+      "url": "/api/v2/pokemon/607/"
+    },
+    {
+      "name": "lampent",
+      "url": "/api/v2/pokemon/608/"
+    },
+    {
+      "name": "chandelure",
+      "url": "/api/v2/pokemon/609/"
+    },
+    {
+      "name": "golett",
+      "url": "/api/v2/pokemon/622/"
+    },
+    {
+      "name": "golurk",
+      "url": "/api/v2/pokemon/623/"
+    },
+    {
+      "name": "larvesta",
+      "url": "/api/v2/pokemon/636/"
+    },
+    {
+      "name": "volcarona",
+      "url": "/api/v2/pokemon/637/"
+    },
+    {
+      "name": "tornadus-incarnate",
+      "url": "/api/v2/pokemon/641/"
+    },
+    {
+      "name": "thundurus-incarnate",
+      "url": "/api/v2/pokemon/642/"
+    },
+    {
+      "name": "reshiram",
+      "url": "/api/v2/pokemon/643/"
+    },
+    {
+      "name": "zekrom",
+      "url": "/api/v2/pokemon/644/"
+    },
+    {
+      "name": "landorus-incarnate",
+      "url": "/api/v2/pokemon/645/"
+    },
+    {
+      "name": "kyurem",
+      "url": "/api/v2/pokemon/646/"
+    },
+    {
+      "name": "meloetta-aria",
+      "url": "/api/v2/pokemon/648/"
+    },
+    {
+      "name": "genesect",
+      "url": "/api/v2/pokemon/649/"
+    },
+    {
+      "name": "fennekin",
+      "url": "/api/v2/pokemon/653/"
+    },
+    {
+      "name": "braixen",
+      "url": "/api/v2/pokemon/654/"
+    },
+    {
+      "name": "delphox",
+      "url": "/api/v2/pokemon/655/"
+    },
+    {
+      "name": "vivillon",
+      "url": "/api/v2/pokemon/666/"
+    },
+    {
+      "name": "flabebe",
+      "url": "/api/v2/pokemon/669/"
+    },
+    {
+      "name": "floette",
+      "url": "/api/v2/pokemon/670/"
+    },
+    {
+      "name": "florges",
+      "url": "/api/v2/pokemon/671/"
+    },
+    {
+      "name": "espurr",
+      "url": "/api/v2/pokemon/677/"
+    },
+    {
+      "name": "meowstic-male",
+      "url": "/api/v2/pokemon/678/"
+    },
+    {
+      "name": "spritzee",
+      "url": "/api/v2/pokemon/682/"
+    },
+    {
+      "name": "aromatisse",
+      "url": "/api/v2/pokemon/683/"
+    },
+    {
+      "name": "swirlix",
+      "url": "/api/v2/pokemon/684/"
+    },
+    {
+      "name": "slurpuff",
+      "url": "/api/v2/pokemon/685/"
+    },
+    {
+      "name": "inkay",
+      "url": "/api/v2/pokemon/686/"
+    },
+    {
+      "name": "malamar",
+      "url": "/api/v2/pokemon/687/"
+    },
+    {
+      "name": "aurorus",
+      "url": "/api/v2/pokemon/699/"
+    },
+    {
+      "name": "sylveon",
+      "url": "/api/v2/pokemon/700/"
+    },
+    {
+      "name": "carbink",
+      "url": "/api/v2/pokemon/703/"
+    },
+    {
+      "name": "klefki",
+      "url": "/api/v2/pokemon/707/"
+    },
+    {
+      "name": "phantump",
+      "url": "/api/v2/pokemon/708/"
+    },
+    {
+      "name": "trevenant",
+      "url": "/api/v2/pokemon/709/"
+    },
+    {
+      "name": "pumpkaboo-average",
+      "url": "/api/v2/pokemon/710/"
+    },
+    {
+      "name": "gourgeist-average",
+      "url": "/api/v2/pokemon/711/"
+    },
+    {
+      "name": "noibat",
+      "url": "/api/v2/pokemon/714/"
+    },
+    {
+      "name": "noivern",
+      "url": "/api/v2/pokemon/715/"
+    },
+    {
+      "name": "xerneas",
+      "url": "/api/v2/pokemon/716/"
+    },
+    {
+      "name": "yveltal",
+      "url": "/api/v2/pokemon/717/"
+    },
+    {
+      "name": "diancie",
+      "url": "/api/v2/pokemon/719/"
+    },
+    {
+      "name": "hoopa",
+      "url": "/api/v2/pokemon/720/"
+    },
+    {
+      "name": "primarina",
+      "url": "/api/v2/pokemon/730/"
+    },
+    {
+      "name": "cutiefly",
+      "url": "/api/v2/pokemon/742/"
+    },
+    {
+      "name": "ribombee",
+      "url": "/api/v2/pokemon/743/"
+    },
+    {
+      "name": "oranguru",
+      "url": "/api/v2/pokemon/765/"
+    },
+    {
+      "name": "sandygast",
+      "url": "/api/v2/pokemon/769/"
+    },
+    {
+      "name": "palossand",
+      "url": "/api/v2/pokemon/770/"
+    },
+    {
+      "name": "minior-red-meteor",
+      "url": "/api/v2/pokemon/774/"
+    },
+    {
+      "name": "mimikyu-disguised",
+      "url": "/api/v2/pokemon/778/"
+    },
+    {
+      "name": "bruxish",
+      "url": "/api/v2/pokemon/779/"
+    },
+    {
+      "name": "tapu-lele",
+      "url": "/api/v2/pokemon/786/"
+    },
+    {
+      "name": "solgaleo",
+      "url": "/api/v2/pokemon/791/"
+    },
+    {
+      "name": "lunala",
+      "url": "/api/v2/pokemon/792/"
+    },
+    {
+      "name": "nihilego",
+      "url": "/api/v2/pokemon/793/"
+    },
+    {
+      "name": "necrozma",
+      "url": "/api/v2/pokemon/800/"
+    },
+    {
+      "name": "magearna",
+      "url": "/api/v2/pokemon/801/"
+    },
+    {
+      "name": "blacephalon",
+      "url": "/api/v2/pokemon/806/"
+    },
+    {
+      "name": "dottler",
+      "url": "/api/v2/pokemon/825/"
+    },
+    {
+      "name": "orbeetle",
+      "url": "/api/v2/pokemon/826/"
+    },
+    {
+      "name": "thievul",
+      "url": "/api/v2/pokemon/828/"
+    },
+    {
+      "name": "sinistea",
+      "url": "/api/v2/pokemon/854/"
+    },
+    {
+      "name": "polteageist",
+      "url": "/api/v2/pokemon/855/"
+    },
+    {
+      "name": "hatenna",
+      "url": "/api/v2/pokemon/856/"
+    },
+    {
+      "name": "hattrem",
+      "url": "/api/v2/pokemon/857/"
+    },
+    {
+      "name": "hatterene",
+      "url": "/api/v2/pokemon/858/"
+    },
+    {
+      "name": "cursola",
+      "url": "/api/v2/pokemon/864/"
+    },
+    {
+      "name": "mr-rime",
+      "url": "/api/v2/pokemon/866/"
+    },
+    {
+      "name": "runerigus",
+      "url": "/api/v2/pokemon/867/"
+    },
+    {
+      "name": "alcremie",
+      "url": "/api/v2/pokemon/869/"
+    },
+    {
+      "name": "indeedee-male",
+      "url": "/api/v2/pokemon/876/"
+    },
+    {
+      "name": "spectrier",
+      "url": "/api/v2/pokemon/897/"
+    },
+    {
+      "name": "calyrex",
+      "url": "/api/v2/pokemon/898/"
+    },
+    {
+      "name": "wyrdeer",
+      "url": "/api/v2/pokemon/899/"
+    },
+    {
+      "name": "enamorus-incarnate",
+      "url": "/api/v2/pokemon/905/"
+    },
+    {
+      "name": "armarouge",
+      "url": "/api/v2/pokemon/936/"
+    },
+    {
+      "name": "rabsca",
+      "url": "/api/v2/pokemon/954/"
+    },
+    {
+      "name": "flittle",
+      "url": "/api/v2/pokemon/955/"
+    },
+    {
+      "name": "espathra",
+      "url": "/api/v2/pokemon/956/"
+    },
+    {
+      "name": "veluza",
+      "url": "/api/v2/pokemon/976/"
+    },
+    {
+      "name": "farigiraf",
+      "url": "/api/v2/pokemon/981/"
+    },
+    {
+      "name": "scream-tail",
+      "url": "/api/v2/pokemon/985/"
+    },
+    {
+      "name": "iron-moth",
+      "url": "/api/v2/pokemon/994/"
+    },
+    {
+      "name": "gholdengo",
+      "url": "/api/v2/pokemon/1000/"
+    },
+    {
+      "name": "chi-yu",
+      "url": "/api/v2/pokemon/1004/"
+    },
+    {
+      "name": "iron-valiant",
+      "url": "/api/v2/pokemon/1006/"
+    },
+    {
+      "name": "munkidori",
+      "url": "/api/v2/pokemon/1015/"
+    },
+    {
+      "name": "iron-boulder",
+      "url": "/api/v2/pokemon/1022/"
+    },
+    {
+      "name": "iron-crown",
+      "url": "/api/v2/pokemon/1023/"
+    },
+    {
+      "name": "deoxys-attack",
+      "url": "/api/v2/pokemon/10001/"
+    },
+    {
+      "name": "deoxys-defense",
+      "url": "/api/v2/pokemon/10002/"
+    },
+    {
+      "name": "deoxys-speed",
+      "url": "/api/v2/pokemon/10003/"
+    },
+    {
+      "name": "wormadam-sandy",
+      "url": "/api/v2/pokemon/10004/"
+    },
+    {
+      "name": "wormadam-trash",
+      "url": "/api/v2/pokemon/10005/"
+    },
+    {
+      "name": "shaymin-sky",
+      "url": "/api/v2/pokemon/10006/"
+    },
+    {
+      "name": "giratina-origin",
+      "url": "/api/v2/pokemon/10007/"
+    },
+    {
+      "name": "darmanitan-zen",
+      "url": "/api/v2/pokemon/10017/"
+    },
+    {
+      "name": "meloetta-pirouette",
+      "url": "/api/v2/pokemon/10018/"
+    },
+    {
+      "name": "tornadus-therian",
+      "url": "/api/v2/pokemon/10019/"
+    },
+    {
+      "name": "thundurus-therian",
+      "url": "/api/v2/pokemon/10020/"
+    },
+    {
+      "name": "landorus-therian",
+      "url": "/api/v2/pokemon/10021/"
+    },
+    {
+      "name": "kyurem-black",
+      "url": "/api/v2/pokemon/10022/"
+    },
+    {
+      "name": "kyurem-white",
+      "url": "/api/v2/pokemon/10023/"
+    },
+    {
+      "name": "meowstic-female",
+      "url": "/api/v2/pokemon/10025/"
+    },
+    {
+      "name": "pumpkaboo-small",
+      "url": "/api/v2/pokemon/10027/"
+    },
+    {
+      "name": "pumpkaboo-large",
+      "url": "/api/v2/pokemon/10028/"
+    },
+    {
+      "name": "pumpkaboo-super",
+      "url": "/api/v2/pokemon/10029/"
+    },
+    {
+      "name": "gourgeist-small",
+      "url": "/api/v2/pokemon/10030/"
+    },
+    {
+      "name": "gourgeist-large",
+      "url": "/api/v2/pokemon/10031/"
+    },
+    {
+      "name": "gourgeist-super",
+      "url": "/api/v2/pokemon/10032/"
+    },
+    {
+      "name": "alakazam-mega",
+      "url": "/api/v2/pokemon/10037/"
+    },
+    {
+      "name": "gengar-mega",
+      "url": "/api/v2/pokemon/10038/"
+    },
+    {
+      "name": "mewtwo-mega-x",
+      "url": "/api/v2/pokemon/10043/"
+    },
+    {
+      "name": "mewtwo-mega-y",
+      "url": "/api/v2/pokemon/10044/"
+    },
+    {
+      "name": "gardevoir-mega",
+      "url": "/api/v2/pokemon/10051/"
+    },
+    {
+      "name": "medicham-mega",
+      "url": "/api/v2/pokemon/10054/"
+    },
+    {
+      "name": "banette-mega",
+      "url": "/api/v2/pokemon/10056/"
+    },
+    {
+      "name": "lucario-mega",
+      "url": "/api/v2/pokemon/10059/"
+    },
+    {
+      "name": "floette-eternal",
+      "url": "/api/v2/pokemon/10061/"
+    },
+    {
+      "name": "latias-mega",
+      "url": "/api/v2/pokemon/10062/"
+    },
+    {
+      "name": "latios-mega",
+      "url": "/api/v2/pokemon/10063/"
+    },
+    {
+      "name": "sableye-mega",
+      "url": "/api/v2/pokemon/10066/"
+    },
+    {
+      "name": "gallade-mega",
+      "url": "/api/v2/pokemon/10068/"
+    },
+    {
+      "name": "audino-mega",
+      "url": "/api/v2/pokemon/10069/"
+    },
+    {
+      "name": "slowbro-mega",
+      "url": "/api/v2/pokemon/10071/"
+    },
+    {
+      "name": "diancie-mega",
+      "url": "/api/v2/pokemon/10075/"
+    },
+    {
+      "name": "metagross-mega",
+      "url": "/api/v2/pokemon/10076/"
+    },
+    {
+      "name": "hoopa-unbound",
+      "url": "/api/v2/pokemon/10086/"
+    },
+    {
+      "name": "raichu-alola",
+      "url": "/api/v2/pokemon/10100/"
+    },
+    {
+      "name": "exeggutor-alola",
+      "url": "/api/v2/pokemon/10114/"
+    },
+    {
+      "name": "minior-orange-meteor",
+      "url": "/api/v2/pokemon/10130/"
+    },
+    {
+      "name": "minior-yellow-meteor",
+      "url": "/api/v2/pokemon/10131/"
+    },
+    {
+      "name": "minior-green-meteor",
+      "url": "/api/v2/pokemon/10132/"
+    },
+    {
+      "name": "minior-blue-meteor",
+      "url": "/api/v2/pokemon/10133/"
+    },
+    {
+      "name": "minior-indigo-meteor",
+      "url": "/api/v2/pokemon/10134/"
+    },
+    {
+      "name": "minior-violet-meteor",
+      "url": "/api/v2/pokemon/10135/"
+    },
+    {
+      "name": "minior-red",
+      "url": "/api/v2/pokemon/10136/"
+    },
+    {
+      "name": "minior-orange",
+      "url": "/api/v2/pokemon/10137/"
+    },
+    {
+      "name": "minior-yellow",
+      "url": "/api/v2/pokemon/10138/"
+    },
+    {
+      "name": "minior-green",
+      "url": "/api/v2/pokemon/10139/"
+    },
+    {
+      "name": "minior-blue",
+      "url": "/api/v2/pokemon/10140/"
+    },
+    {
+      "name": "minior-indigo",
+      "url": "/api/v2/pokemon/10141/"
+    },
+    {
+      "name": "minior-violet",
+      "url": "/api/v2/pokemon/10142/"
+    },
+    {
+      "name": "mimikyu-busted",
+      "url": "/api/v2/pokemon/10143/"
+    },
+    {
+      "name": "mimikyu-totem-disguised",
+      "url": "/api/v2/pokemon/10144/"
+    },
+    {
+      "name": "mimikyu-totem-busted",
+      "url": "/api/v2/pokemon/10145/"
+    },
+    {
+      "name": "magearna-original",
+      "url": "/api/v2/pokemon/10147/"
+    },
+    {
+      "name": "ribombee-totem",
+      "url": "/api/v2/pokemon/10150/"
+    },
+    {
+      "name": "necrozma-dusk",
+      "url": "/api/v2/pokemon/10155/"
+    },
+    {
+      "name": "necrozma-dawn",
+      "url": "/api/v2/pokemon/10156/"
+    },
+    {
+      "name": "necrozma-ultra",
+      "url": "/api/v2/pokemon/10157/"
+    },
+    {
+      "name": "ponyta-galar",
+      "url": "/api/v2/pokemon/10162/"
+    },
+    {
+      "name": "rapidash-galar",
+      "url": "/api/v2/pokemon/10163/"
+    },
+    {
+      "name": "slowpoke-galar",
+      "url": "/api/v2/pokemon/10164/"
+    },
+    {
+      "name": "slowbro-galar",
+      "url": "/api/v2/pokemon/10165/"
+    },
+    {
+      "name": "mr-mime-galar",
+      "url": "/api/v2/pokemon/10168/"
+    },
+    {
+      "name": "articuno-galar",
+      "url": "/api/v2/pokemon/10169/"
+    },
+    {
+      "name": "slowking-galar",
+      "url": "/api/v2/pokemon/10172/"
+    },
+    {
+      "name": "corsola-galar",
+      "url": "/api/v2/pokemon/10173/"
+    },
+    {
+      "name": "darmanitan-galar-standard",
+      "url": "/api/v2/pokemon/10177/"
+    },
+    {
+      "name": "darmanitan-galar-zen",
+      "url": "/api/v2/pokemon/10178/"
+    },
+    {
+      "name": "yamask-galar",
+      "url": "/api/v2/pokemon/10179/"
+    },
+    {
+      "name": "indeedee-female",
+      "url": "/api/v2/pokemon/10186/"
+    },
+    {
+      "name": "calyrex-ice",
+      "url": "/api/v2/pokemon/10193/"
+    },
+    {
+      "name": "calyrex-shadow",
+      "url": "/api/v2/pokemon/10194/"
+    },
+    {
+      "name": "zoroark-hisui",
+      "url": "/api/v2/pokemon/10239/"
+    },
+    {
+      "name": "braviary-hisui",
+      "url": "/api/v2/pokemon/10240/"
+    },
+    {
+      "name": "enamorus-therian",
+      "url": "/api/v2/pokemon/10249/"
+    },
+    {
+      "name": "clefable-mega",
+      "url": "/api/v2/pokemon/10278/"
+    },
+    {
+      "name": "starmie-mega",
+      "url": "/api/v2/pokemon/10280/"
+    },
+    {
+      "name": "froslass-mega",
+      "url": "/api/v2/pokemon/10285/"
+    },
+    {
+      "name": "chandelure-mega",
+      "url": "/api/v2/pokemon/10291/"
+    },
+    {
+      "name": "delphox-mega",
+      "url": "/api/v2/pokemon/10293/"
+    },
+    {
+      "name": "floette-mega",
+      "url": "/api/v2/pokemon/10296/"
+    },
+    {
+      "name": "malamar-mega",
+      "url": "/api/v2/pokemon/10297/"
+    },
+    {
+      "name": "chimecho-mega",
+      "url": "/api/v2/pokemon/10306/"
+    },
+    {
+      "name": "golurk-mega",
+      "url": "/api/v2/pokemon/10313/"
+    },
+    {
+      "name": "meowstic-male-mega",
+      "url": "/api/v2/pokemon/10314/"
+    },
+    {
+      "name": "meowstic-female-mega",
+      "url": "/api/v2/pokemon/10326/"
+    }
+  ]
 }

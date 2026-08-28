@@ -1,63 +1,63 @@
 {
-    "encounter_method_rates": [],
-    "game_index": 0,
-    "id": 803,
-    "location": {
-        "name": "marine-cave",
-        "url": "/api/v2/location/804/"
+  "id": 803,
+  "name": "marine-cave-area",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "marine-cave",
+    "url": "/api/v2/location/804/"
+  },
+  "names": [
+    {
+      "name": "Marine Cave",
+      "language": {
+        "name": "en",
+        "url": "/api/v2/language/9/"
+      }
     },
-    "name": "marine-cave-area",
-    "names": [
+    {
+      "name": "Ozeanhöhle",
+      "language": {
+        "name": "de",
+        "url": "/api/v2/language/6/"
+      }
+    },
+    {
+      "name": "Grotte Marine",
+      "language": {
+        "name": "fr",
+        "url": "/api/v2/language/5/"
+      }
+    }
+  ],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "kyogre",
+        "url": "/api/v2/pokemon/382/"
+      },
+      "version_details": [
         {
-            "language": {
-                "name": "en",
-                "url": "/api/v2/language/9/"
-            },
-            "name": "Marine Cave"
-        },
-        {
-            "language": {
-                "name": "de",
-                "url": "/api/v2/language/6/"
-            },
-            "name": "Ozeanh\u00f6hle"
-        },
-        {
-            "language": {
-                "name": "fr",
-                "url": "/api/v2/language/5/"
-            },
-            "name": "Grotte Marine"
+          "version": {
+            "name": "emerald",
+            "url": "/api/v2/version/9/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 70,
+              "max_level": 70,
+              "chance": 100,
+              "method": {
+                "name": "static",
+                "url": "/api/v2/encounter-method/20/"
+              },
+              "condition_values": [],
+              "pokemon_details": null
+            }
+          ]
         }
-    ],
-    "pokemon_encounters": [
-        {
-            "pokemon": {
-                "name": "kyogre",
-                "url": "/api/v2/pokemon/382/"
-            },
-            "version_details": [
-                {
-                    "encounter_details": [
-                        {
-                            "chance": 100,
-                            "condition_values": [],
-                            "max_level": 70,
-                            "method": {
-                                "name": "static",
-                                "url": "/api/v2/encounter-method/20/"
-                            },
-                            "min_level": 70,
-                            "pokemon_details": null
-                        }
-                    ],
-                    "max_chance": 100,
-                    "version": {
-                        "name": "emerald",
-                        "url": "/api/v2/version/9/"
-                    }
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }
