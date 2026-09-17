@@ -193,7 +193,7 @@
                         }
                       ]
                     },
-                    "base_form": {
+                    "required_pokemon_form": {
                       "anyOf": [
                         {
                           "type": "null"
@@ -203,7 +203,7 @@
                         }
                       ]
                     },
-                    "evolved_form": {
+                    "evolved_pokemon_form": {
                       "anyOf": [
                         {
                           "type": "null"
@@ -240,11 +240,54 @@
                         "integer",
                         "null"
                       ]
+                    },
+                    "allowed_natures": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "array",
+                          "items": {
+                            "$ref": "/schema/v2/named_api_resource.json"
+                          }
+                        }
+                      ]
+                    },
+                    "condition_expression": {
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "expression": {
+                              "type": "string"
+                            },
+                            "percentage_chance": {
+                              "type": "number"
+                            },
+                            "variables": {
+                              "type": "array",
+                              "items": {
+                                "$ref": "/schema/v2/named_api_resource.json"
+                              }
+                            }
+                          },
+                          "required": [
+                            "expression",
+                            "percentage_chance",
+                            "variables"
+                          ]
+                        }
+                      ]
                     }
                   },
                   "required": [
-                    "base_form",
-                    "evolved_form",
+                    "allowed_natures",
+                    "condition_expression",
+                    "evolved_pokemon_form",
                     "gender",
                     "held_item",
                     "is_default",
@@ -266,6 +309,7 @@
                     "party_type",
                     "region",
                     "relative_physical_stats",
+                    "required_pokemon_form",
                     "time_of_day",
                     "trade_species",
                     "trigger",
@@ -404,7 +448,7 @@
                               }
                             ]
                           },
-                          "base_form": {
+                          "required_pokemon_form": {
                             "anyOf": [
                               {
                                 "type": "null"
@@ -414,7 +458,7 @@
                               }
                             ]
                           },
-                          "evolved_form": {
+                          "evolved_pokemon_form": {
                             "anyOf": [
                               {
                                 "type": "null"
@@ -448,11 +492,18 @@
                           },
                           "min_damage_taken": {
                             "type": "null"
+                          },
+                          "allowed_natures": {
+                            "type": "null"
+                          },
+                          "condition_expression": {
+                            "type": "null"
                           }
                         },
                         "required": [
-                          "base_form",
-                          "evolved_form",
+                          "allowed_natures",
+                          "condition_expression",
+                          "evolved_pokemon_form",
                           "gender",
                           "held_item",
                           "is_default",
@@ -474,6 +525,7 @@
                           "party_type",
                           "region",
                           "relative_physical_stats",
+                          "required_pokemon_form",
                           "time_of_day",
                           "trade_species",
                           "trigger",
