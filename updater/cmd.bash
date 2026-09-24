@@ -37,7 +37,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install 'pokeapi-ditto==1.0.5'
 rm -rf ./data
-export DITTO_MAX_WORKERS=2
 ditto clone --src-url http://localhost/ --dest-dir ./data
 # (╯°□°)╯ *always* assume magikarp failed and grab it again #clowntown
 ditto clone --src-url http://localhost/ --dest-dir ./data --select pokemon/129
