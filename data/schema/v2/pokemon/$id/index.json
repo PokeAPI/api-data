@@ -315,6 +315,74 @@
             "official-artwork": {
               "type": "object",
               "properties": {
+                "versions": {
+                  "type": "object",
+                  "properties": {
+                    "generation-i": {
+                      "type": "object",
+                      "properties": {
+                        "red-and-blue": {
+                          "type": "object",
+                          "properties": {
+                            "front_default": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "front_default"
+                          ]
+                        },
+                        "red-and-green": {
+                          "type": "object",
+                          "properties": {
+                            "front_default": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "front_default"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "red-and-blue",
+                        "red-and-green"
+                      ]
+                    },
+                    "generation-ii": {
+                      "type": "object",
+                      "properties": {
+                        "gold-and-silver": {
+                          "type": "object",
+                          "properties": {
+                            "front_default": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "front_default"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "gold-and-silver"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "generation-i",
+                    "generation-ii"
+                  ]
+                },
                 "front_shiny": {
                   "type": [
                     "null",
@@ -330,7 +398,8 @@
               },
               "required": [
                 "front_default",
-                "front_shiny"
+                "front_shiny",
+                "versions"
               ]
             }
           },
@@ -350,7 +419,19 @@
                 "yellow": {
                   "type": "object",
                   "properties": {
+                    "back_gbc": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "back_gray": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_gbc": {
                       "type": [
                         "null",
                         "string"
@@ -385,15 +466,31 @@
                         "null",
                         "string"
                       ]
+                    },
+                    "back_transparent_gray": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_transparent_gray": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
                     }
                   },
                   "required": [
                     "back_default",
+                    "back_gbc",
                     "back_gray",
                     "back_transparent",
+                    "back_transparent_gray",
                     "front_default",
+                    "front_gbc",
                     "front_gray",
-                    "front_transparent"
+                    "front_transparent",
+                    "front_transparent_gray"
                   ]
                 },
                 "red-blue": {
@@ -434,20 +531,70 @@
                         "null",
                         "string"
                       ]
+                    },
+                    "back_transparent_gray": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_transparent_gray": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
                     }
                   },
                   "required": [
                     "back_default",
                     "back_gray",
                     "back_transparent",
+                    "back_transparent_gray",
                     "front_default",
                     "front_gray",
-                    "front_transparent"
+                    "front_transparent",
+                    "front_transparent_gray"
+                  ]
+                },
+                "red-green-japan": {
+                  "type": "object",
+                  "properties": {
+                    "back_gray": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_gray": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "back_default",
+                    "back_gray",
+                    "front_default",
+                    "front_gray"
                   ]
                 }
               },
               "required": [
                 "red-blue",
+                "red-green-japan",
                 "yellow"
               ]
             },
@@ -646,7 +793,25 @@
                         "string"
                       ]
                     },
+                    "back_transparent": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "front_transparent": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_shiny_transparent": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny_transparent": {
                       "type": [
                         "null",
                         "string"
@@ -656,8 +821,11 @@
                   "required": [
                     "back_default",
                     "back_shiny",
+                    "back_shiny_transparent",
+                    "back_transparent",
                     "front_default",
                     "front_shiny",
+                    "front_shiny_transparent",
                     "front_transparent"
                   ]
                 },
@@ -688,7 +856,25 @@
                         "string"
                       ]
                     },
+                    "back_transparent": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "front_transparent": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_shiny_transparent": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny_transparent": {
                       "type": [
                         "null",
                         "string"
@@ -698,8 +884,11 @@
                   "required": [
                     "back_default",
                     "back_shiny",
+                    "back_shiny_transparent",
+                    "back_transparent",
                     "front_default",
                     "front_shiny",
+                    "front_shiny_transparent",
                     "front_transparent"
                   ]
                 },
@@ -798,9 +987,58 @@
             "generation-iv": {
               "type": "object",
               "properties": {
+                "icons": {
+                  "type": "object",
+                  "properties": {
+                    "front_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "front_default"
+                  ]
+                },
                 "platinum": {
                   "type": "object",
                   "properties": {
+                    "animated": {
+                      "type": "object",
+                      "properties": {
+                        "front_shiny": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_female": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_default": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_shiny_female": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "front_default",
+                        "front_female",
+                        "front_shiny",
+                        "front_shiny_female"
+                      ]
+                    },
                     "back_shiny": {
                       "type": [
                         "null",
@@ -851,6 +1089,7 @@
                     }
                   },
                   "required": [
+                    "animated",
                     "back_default",
                     "back_female",
                     "back_shiny",
@@ -864,6 +1103,41 @@
                 "diamond-pearl": {
                   "type": "object",
                   "properties": {
+                    "animated": {
+                      "type": "object",
+                      "properties": {
+                        "front_shiny": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_female": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_default": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_shiny_female": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "front_default",
+                        "front_female",
+                        "front_shiny",
+                        "front_shiny_female"
+                      ]
+                    },
                     "back_shiny": {
                       "type": [
                         "null",
@@ -914,6 +1188,7 @@
                     }
                   },
                   "required": [
+                    "animated",
                     "back_default",
                     "back_female",
                     "back_shiny",
@@ -927,6 +1202,41 @@
                 "heartgold-soulsilver": {
                   "type": "object",
                   "properties": {
+                    "animated": {
+                      "type": "object",
+                      "properties": {
+                        "front_shiny": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_female": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_default": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_shiny_female": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "front_default",
+                        "front_female",
+                        "front_shiny",
+                        "front_shiny_female"
+                      ]
+                    },
                     "back_shiny": {
                       "type": [
                         "null",
@@ -977,6 +1287,7 @@
                     }
                   },
                   "required": [
+                    "animated",
                     "back_default",
                     "back_female",
                     "back_shiny",
@@ -991,12 +1302,34 @@
               "required": [
                 "diamond-pearl",
                 "heartgold-soulsilver",
+                "icons",
                 "platinum"
               ]
             },
             "generation-ix": {
               "type": "object",
               "properties": {
+                "champions": {
+                  "type": "object",
+                  "properties": {
+                    "front_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "front_default",
+                    "front_shiny"
+                  ]
+                },
                 "scarlet-violet": {
                   "type": "object",
                   "properties": {
@@ -1020,6 +1353,7 @@
                 }
               },
               "required": [
+                "champions",
                 "scarlet-violet"
               ]
             },
@@ -1029,7 +1363,25 @@
                 "x-y": {
                   "type": "object",
                   "properties": {
+                    "back_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "front_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_default": {
                       "type": [
                         "null",
                         "string"
@@ -1047,7 +1399,40 @@
                         "string"
                       ]
                     },
+                    "back_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "front_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "back_default",
+                    "back_female",
+                    "back_shiny",
+                    "back_shiny_female",
+                    "front_default",
+                    "front_female",
+                    "front_shiny",
+                    "front_shiny_female"
+                  ]
+                },
+                "icons": {
+                  "type": "object",
+                  "properties": {
+                    "front_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_default": {
                       "type": [
                         "null",
                         "string"
@@ -1056,15 +1441,31 @@
                   },
                   "required": [
                     "front_default",
-                    "front_female",
-                    "front_shiny",
-                    "front_shiny_female"
+                    "front_female"
                   ]
                 },
                 "omegaruby-alphasapphire": {
                   "type": "object",
                   "properties": {
+                    "back_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "front_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_default": {
                       "type": [
                         "null",
                         "string"
@@ -1082,6 +1483,12 @@
                         "string"
                       ]
                     },
+                    "back_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "front_shiny_female": {
                       "type": [
                         "null",
@@ -1090,6 +1497,10 @@
                     }
                   },
                   "required": [
+                    "back_default",
+                    "back_female",
+                    "back_shiny",
+                    "back_shiny_female",
                     "front_default",
                     "front_female",
                     "front_shiny",
@@ -1098,6 +1509,7 @@
                 }
               },
               "required": [
+                "icons",
                 "omegaruby-alphasapphire",
                 "x-y"
               ]
@@ -1105,10 +1517,71 @@
             "generation-iii": {
               "type": "object",
               "properties": {
+                "icons": {
+                  "type": "object",
+                  "properties": {
+                    "front_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "front_default"
+                  ]
+                },
                 "emerald": {
                   "type": "object",
                   "properties": {
+                    "animated": {
+                      "type": "object",
+                      "properties": {
+                        "back_shiny": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_shiny": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "back_default": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_default": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "back_default",
+                        "back_shiny",
+                        "front_default",
+                        "front_shiny"
+                      ]
+                    },
+                    "back_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "front_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_default": {
                       "type": [
                         "null",
                         "string"
@@ -1122,6 +1595,9 @@
                     }
                   },
                   "required": [
+                    "animated",
+                    "back_default",
+                    "back_shiny",
                     "front_default",
                     "front_shiny"
                   ]
@@ -1200,6 +1676,7 @@
               "required": [
                 "emerald",
                 "firered-leafgreen",
+                "icons",
                 "ruby-sapphire"
               ]
             },
@@ -1230,29 +1707,148 @@
                 "ultra-sun-ultra-moon": {
                   "type": "object",
                   "properties": {
+                    "back_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "front_shiny": {
-                      "type": "null"
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
                     },
                     "front_female": {
-                      "type": "null"
+                      "type": [
+                        "null",
+                        "string"
+                      ]
                     },
                     "front_default": {
-                      "type": "null"
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
                     },
                     "front_shiny_female": {
-                      "type": "null"
+                      "type": [
+                        "null",
+                        "string"
+                      ]
                     }
                   },
                   "required": [
+                    "back_default",
+                    "back_female",
+                    "back_shiny",
+                    "back_shiny_female",
                     "front_default",
                     "front_female",
                     "front_shiny",
                     "front_shiny_female"
                   ]
+                },
+                "lets-go-pikachu-lets-go-eevee": {
+                  "type": "object",
+                  "properties": {
+                    "icons": {
+                      "type": "object",
+                      "properties": {
+                        "front_default": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "front_default"
+                      ]
+                    },
+                    "back_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "back_default",
+                    "back_female",
+                    "back_shiny",
+                    "back_shiny_female",
+                    "front_default",
+                    "front_female",
+                    "front_shiny",
+                    "front_shiny_female",
+                    "icons"
+                  ]
                 }
               },
               "required": [
                 "icons",
+                "lets-go-pikachu-lets-go-eevee",
                 "ultra-sun-ultra-moon"
               ]
             },
@@ -1283,12 +1879,6 @@
                 "brilliant-diamond-shining-pearl": {
                   "type": "object",
                   "properties": {
-                    "front_female": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
                     "front_default": {
                       "type": [
                         "null",
@@ -1297,8 +1887,7 @@
                     }
                   },
                   "required": [
-                    "front_default",
-                    "front_female"
+                    "front_default"
                   ]
                 }
               },
