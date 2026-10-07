@@ -20,8 +20,8 @@ git clone "$REPO_DATA" api-data
 # set up the pokeapi side
 cd pokeapi
 git checkout "$REPO_POKEAPI_CHECKOUT_OBJECT"
-git submodule init
-git submodule update --remote
+git submodule update --init data/v2/cries
+git submodule update --remote --merge data/v2/cries
 
 docker compose -f docker-compose.yml -f docker-compose-dev.yml up -d
 docker compose exec -T app python manage.py migrate --settings=config.docker_compose
