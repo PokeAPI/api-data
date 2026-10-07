@@ -1176,7 +1176,10 @@
                   "type": "object",
                   "properties": {
                     "front_female": {
-                      "type": "null"
+                      "type": [
+                        "null",
+                        "string"
+                      ]
                     },
                     "front_default": {
                       "type": [
@@ -1283,7 +1286,7 @@
                     "front_female"
                   ]
                 },
-                "omegaruby-alphasapphire": {
+                "omega-ruby-alpha-sapphire": {
                   "type": "object",
                   "properties": {
                     "back_shiny": {
@@ -1349,7 +1352,7 @@
               },
               "required": [
                 "icons",
-                "omegaruby-alphasapphire",
+                "omega-ruby-alpha-sapphire",
                 "x-y"
               ]
             },
@@ -1715,21 +1718,274 @@
                     "front_female"
                   ]
                 },
-                "brilliant-diamond-shining-pearl": {
+                "sword-shield": {
                   "type": "object",
                   "properties": {
+                    "icons": {
+                      "type": "object",
+                      "properties": {
+                        "front_female": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_default": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "front_default",
+                        "front_female"
+                      ]
+                    },
+                    "back_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
                     "front_default": {
-                      "type": "null"
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
                     }
                   },
                   "required": [
-                    "front_default"
+                    "back_default",
+                    "back_female",
+                    "back_shiny",
+                    "back_shiny_female",
+                    "front_default",
+                    "front_female",
+                    "front_shiny",
+                    "front_shiny_female",
+                    "icons"
+                  ]
+                },
+                "legends-arceus": {
+                  "type": "object",
+                  "properties": {
+                    "icons": {
+                      "type": "object",
+                      "properties": {
+                        "front_shiny": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_female": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_default": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "front_shiny_female": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "front_default",
+                        "front_female",
+                        "front_shiny",
+                        "front_shiny_female"
+                      ]
+                    },
+                    "back_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "back_default",
+                    "back_female",
+                    "back_shiny",
+                    "back_shiny_female",
+                    "front_default",
+                    "front_female",
+                    "front_shiny",
+                    "front_shiny_female",
+                    "icons"
+                  ]
+                },
+                "brilliant-diamond-shining-pearl": {
+                  "type": "object",
+                  "properties": {
+                    "icons": {
+                      "type": "object",
+                      "properties": {
+                        "front_default": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "front_default"
+                      ]
+                    },
+                    "back_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_default": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "back_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "front_shiny_female": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "back_default",
+                    "back_female",
+                    "back_shiny",
+                    "back_shiny_female",
+                    "front_default",
+                    "front_female",
+                    "front_shiny",
+                    "front_shiny_female",
+                    "icons"
                   ]
                 }
               },
               "required": [
                 "brilliant-diamond-shining-pearl",
-                "icons"
+                "icons",
+                "legends-arceus",
+                "sword-shield"
               ]
             }
           },
