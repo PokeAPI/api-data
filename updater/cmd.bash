@@ -56,5 +56,5 @@ if [ "$COMMIT_AND_PUSH" = 'true' ]; then
         exit 2
     fi
     git commit -m "$COMMIT_MESSAGE"
-    git push -fu origin "$BRANCH_NAME"
+    git push -fu "$REPO_DATA" "$BRANCH_NAME"
 fi
