@@ -1,0 +1,89 @@
+{
+  "id": 1666,
+  "name": "nacrene-city-dyes-house",
+  "game_index": 0,
+  "encounter_method_rates": [],
+  "location": {
+    "name": "nacrene-city",
+    "url": "/api/v2/location/349/"
+  },
+  "names": [],
+  "pokemon_encounters": [
+    {
+      "pokemon": {
+        "name": "cottonee",
+        "url": "/api/v2/pokemon/546/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "white",
+            "url": "/api/v2/version/18/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 100,
+              "method": {
+                "name": "npc-trade",
+                "url": "/api/v2/encounter-method/36/"
+              },
+              "condition_values": [
+                {
+                  "name": "trade-petilil",
+                  "url": "/api/v2/encounter-condition-value/196/"
+                }
+              ],
+              "pokemon_details": {
+                "min_perfect_ivs": 1,
+                "always_shiny": false,
+                "never_shiny": true,
+                "is_alpha": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "petilil",
+        "url": "/api/v2/pokemon/548/"
+      },
+      "version_details": [
+        {
+          "version": {
+            "name": "black",
+            "url": "/api/v2/version/17/"
+          },
+          "max_chance": 100,
+          "encounter_details": [
+            {
+              "min_level": 15,
+              "max_level": 15,
+              "chance": 100,
+              "method": {
+                "name": "npc-trade",
+                "url": "/api/v2/encounter-method/36/"
+              },
+              "condition_values": [
+                {
+                  "name": "trade-cottonee",
+                  "url": "/api/v2/encounter-condition-value/195/"
+                }
+              ],
+              "pokemon_details": {
+                "min_perfect_ivs": 1,
+                "always_shiny": false,
+                "never_shiny": true,
+                "is_alpha": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

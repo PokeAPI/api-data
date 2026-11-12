@@ -265,6 +265,44 @@
   },
   {
     "location_area": {
+      "name": "driftveil-city-area",
+      "url": "/api/v2/location-area/577/"
+    },
+    "version_details": [
+      {
+        "version": {
+          "name": "white",
+          "url": "/api/v2/version/18/"
+        },
+        "max_chance": 100,
+        "encounter_details": [
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "chance": 100,
+            "method": {
+              "name": "npc-trade",
+              "url": "/api/v2/encounter-method/36/"
+            },
+            "condition_values": [
+              {
+                "name": "trade-minccino",
+                "url": "/api/v2/encounter-condition-value/230/"
+              }
+            ],
+            "pokemon_details": {
+              "min_perfect_ivs": 1,
+              "always_shiny": false,
+              "never_shiny": true,
+              "is_alpha": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "location_area": {
       "name": "pinwheel-forest-inside",
       "url": "/api/v2/location-area/582/"
     },
