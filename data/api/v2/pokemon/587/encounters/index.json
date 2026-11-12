@@ -542,7 +542,7 @@
           "name": "black",
           "url": "/api/v2/version/17/"
         },
-        "max_chance": 10,
+        "max_chance": 110,
         "encounter_details": [
           {
             "min_level": 27,
@@ -554,6 +554,27 @@
             },
             "condition_values": [],
             "pokemon_details": null
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "chance": 100,
+            "method": {
+              "name": "npc-trade",
+              "url": "/api/v2/encounter-method/36/"
+            },
+            "condition_values": [
+              {
+                "name": "trade-boldore",
+                "url": "/api/v2/encounter-condition-value/362/"
+              }
+            ],
+            "pokemon_details": {
+              "min_perfect_ivs": 1,
+              "always_shiny": false,
+              "never_shiny": true,
+              "is_alpha": false
+            }
           }
         ]
       },
@@ -562,7 +583,7 @@
           "name": "white",
           "url": "/api/v2/version/18/"
         },
-        "max_chance": 10,
+        "max_chance": 110,
         "encounter_details": [
           {
             "min_level": 27,
@@ -574,6 +595,27 @@
             },
             "condition_values": [],
             "pokemon_details": null
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "chance": 100,
+            "method": {
+              "name": "npc-trade",
+              "url": "/api/v2/encounter-method/36/"
+            },
+            "condition_values": [
+              {
+                "name": "trade-boldore",
+                "url": "/api/v2/encounter-condition-value/362/"
+              }
+            ],
+            "pokemon_details": {
+              "min_perfect_ivs": 1,
+              "always_shiny": false,
+              "never_shiny": true,
+              "is_alpha": false
+            }
           }
         ]
       },

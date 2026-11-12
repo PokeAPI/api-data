@@ -285,6 +285,27 @@
         "generation-ix": {
           "type": "object",
           "properties": {
+            "champions": {
+              "type": "object",
+              "properties": {
+                "name_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "symbol_icon": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "name_icon",
+                "symbol_icon"
+              ]
+            },
             "scarlet-violet": {
               "type": "object",
               "properties": {
@@ -308,6 +329,7 @@
             }
           },
           "required": [
+            "champions",
             "scarlet-violet"
           ]
         },
